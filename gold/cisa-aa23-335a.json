@@ -1,0 +1,219 @@
+{
+  "entities": [
+    {
+      "type": "intrusion-set",
+      "name": "CyberAv3ngers",
+      "aliases": [
+        "CyberAveng3rs",
+        "Cyber Avengers"
+      ],
+      "evidence": "CyberAv3ngers is an Iranian IRGC-affiliated cyber persona (also known as CyberAveng3rs or Cyber Avengers)"
+    },
+    {
+      "type": "threat-actor",
+      "name": "Islamic Revolutionary Guard Corps",
+      "aliases": [
+        "IRGC"
+      ],
+      "evidence": "affiliated with the Iranian Government’s Islamic Revolutionary Guard Corps (IRGC)"
+    },
+    {
+      "type": "intrusion-set",
+      "name": "Soldiers of Solomon",
+      "evidence": "CyberAv3ngers also reportedly has connections to another IRGC-linked group known as Soldiers of Solomon"
+    },
+    {
+      "type": "country",
+      "name": "Iran",
+      "evidence": "CyberAv3ngers is an Iranian IRGC-affiliated cyber persona"
+    },
+    {
+      "type": "country",
+      "name": "United States",
+      "evidence": "numerous attacks against critical infrastructure organizations primarily in the water and energy sectors in the United States, Israel, and other countries"
+    },
+    {
+      "type": "country",
+      "name": "Israel",
+      "evidence": "numerous attacks against critical infrastructure organizations primarily in the water and energy sectors in the United States, Israel, and other countries"
+    },
+    {
+      "type": "country",
+      "name": "United Kingdom",
+      "evidence": "the NCSC observed the targeting of PLC devices, including in the United Kingdom, likely as part of a wider cyber campaign against Israel"
+    },
+    {
+      "type": "sector",
+      "name": "Water distribution and supply",
+      "evidence": "CyberAv3ngers targeted U.S.-based Unitronics PLC devices used in multiple critical infrastructure industries, including the WWS Sector"
+    },
+    {
+      "type": "sector",
+      "name": "Energy",
+      "evidence": "numerous attacks against critical infrastructure organizations primarily in the water and energy sectors"
+    },
+    {
+      "type": "sector",
+      "name": "Transport",
+      "evidence": "CyberAv3ngers targeted Israeli PLCs in the water, energy, shipping, and distribution sectors"
+    },
+    {
+      "type": "sector",
+      "name": "Retail (distribution)",
+      "evidence": "CyberAv3ngers targeted Israeli PLCs in the water, energy, shipping, and distribution sectors"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Brute Force",
+      "mitre_id": "T1110",
+      "evidence": "The actors used brute force to gain access to Valid Accounts"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Valid Accounts: Default Accounts",
+      "mitre_id": "T1078.001",
+      "evidence": "The actors compromised multiple devices via default credentials"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Data Manipulation: Stored Data Manipulation",
+      "mitre_id": "T1565.001",
+      "evidence": "The actors erased the original ladder logic file on the device and downloaded their own [T1565.001]"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Account Access Removal",
+      "mitre_id": "T1531",
+      "evidence": "The actors renamed the compromised devices so that device operators could no longer access them"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Endpoint Denial of Service",
+      "mitre_id": "T1499",
+      "evidence": "The actors disabled the upload and download functions of the PLC device to prevent the device operators from taking down the splash page [T1499]"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Internet Accessible Device",
+      "mitre_id": "T0883",
+      "evidence": "likely by compromising internet accessible devices with default or no passwords"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Defacement: Internal Defacement",
+      "mitre_id": "T1491.001",
+      "evidence": "The actors uploaded a splash page to the HMI screen to display a message regarding the hacking"
+    }
+  ],
+  "observables": [],
+  "relationships": [
+    {
+      "source": "CyberAv3ngers",
+      "type": "attributed-to",
+      "target": "Islamic Revolutionary Guard Corps",
+      "evidence": "CyberAv3ngers is an Iranian IRGC-affiliated cyber persona"
+    },
+    {
+      "source": "Soldiers of Solomon",
+      "type": "attributed-to",
+      "target": "Islamic Revolutionary Guard Corps",
+      "evidence": "another IRGC-linked group known as Soldiers of Solomon"
+    },
+    {
+      "source": "Islamic Revolutionary Guard Corps",
+      "type": "located-at",
+      "target": "Iran",
+      "evidence": "The Iranian Government charged the IRGC, an armed force, with defending Iran’s revolutionary regime"
+    },
+    {
+      "source": "CyberAv3ngers",
+      "type": "originates-from",
+      "target": "Iran",
+      "evidence": "CyberAv3ngers is an Iranian IRGC-affiliated cyber persona"
+    },
+    {
+      "source": "CyberAv3ngers",
+      "type": "targets",
+      "target": "United States",
+      "evidence": "numerous attacks against critical infrastructure organizations primarily in the water and energy sectors in the United States, Israel, and other countries"
+    },
+    {
+      "source": "CyberAv3ngers",
+      "type": "targets",
+      "target": "Israel",
+      "evidence": "numerous attacks against critical infrastructure organizations primarily in the water and energy sectors in the United States, Israel, and other countries"
+    },
+    {
+      "source": "CyberAv3ngers",
+      "type": "targets",
+      "target": "United Kingdom",
+      "evidence": "the NCSC observed the targeting of PLC devices, including in the United Kingdom, likely as part of a wider cyber campaign against Israel"
+    },
+    {
+      "source": "CyberAv3ngers",
+      "type": "targets",
+      "target": "Water distribution and supply",
+      "evidence": "CyberAv3ngers targeted U.S.-based Unitronics PLC devices used in multiple critical infrastructure industries, including the WWS Sector"
+    },
+    {
+      "source": "CyberAv3ngers",
+      "type": "targets",
+      "target": "Energy",
+      "evidence": "numerous attacks against critical infrastructure organizations primarily in the water and energy sectors"
+    },
+    {
+      "source": "CyberAv3ngers",
+      "type": "targets",
+      "target": "Transport",
+      "evidence": "CyberAv3ngers targeted Israeli PLCs in the water, energy, shipping, and distribution sectors"
+    },
+    {
+      "source": "CyberAv3ngers",
+      "type": "targets",
+      "target": "Retail (distribution)",
+      "evidence": "CyberAv3ngers targeted Israeli PLCs in the water, energy, shipping, and distribution sectors"
+    },
+    {
+      "source": "CyberAv3ngers",
+      "type": "uses",
+      "target": "T1110",
+      "evidence": "The actors used brute force to gain access to Valid Accounts"
+    },
+    {
+      "source": "CyberAv3ngers",
+      "type": "uses",
+      "target": "T1078.001",
+      "evidence": "The actors compromised multiple devices via default credentials"
+    },
+    {
+      "source": "CyberAv3ngers",
+      "type": "uses",
+      "target": "T1565.001",
+      "evidence": "The actors erased the original ladder logic file on the device and downloaded their own [T1565.001]"
+    },
+    {
+      "source": "CyberAv3ngers",
+      "type": "uses",
+      "target": "T1531",
+      "evidence": "The actors renamed the compromised devices so that device operators could no longer access them"
+    },
+    {
+      "source": "CyberAv3ngers",
+      "type": "uses",
+      "target": "T1499",
+      "evidence": "The actors disabled the upload and download functions of the PLC device to prevent the device operators from taking down the splash page [T1499]"
+    },
+    {
+      "source": "CyberAv3ngers",
+      "type": "uses",
+      "target": "T0883",
+      "evidence": "likely by compromising internet accessible devices with default or no passwords"
+    },
+    {
+      "source": "CyberAv3ngers",
+      "type": "uses",
+      "target": "T1491.001",
+      "evidence": "The actors uploaded a splash page to the HMI screen to display a message regarding the hacking"
+    }
+  ]
+}

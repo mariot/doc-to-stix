@@ -1,0 +1,10 @@
+{
+ "entities": [
+  {"type": "vulnerability", "name": "CVE-2024-57727", "evidence": "Ransomware actors likely leveraged CVE-2024-57727 to access downstream customers’ unpatched SimpleHelp RMM"},
+  {"type": "sector", "name": "Technologies", "evidence": "ransomware actors leveraging unpatched instances of a vulnerability in SimpleHelp Remote Monitoring and Management (RMM) to compromise customers of a utility billing software provider"},
+  {"type": "attack-pattern", "name": "Exploit Public-Facing Application", "mitre_id": "T1190", "evidence": "Ransomware actors likely leveraged CVE-2024-57727 to access downstream customers’ unpatched SimpleHelp RMM"},
+  {"type": "attack-pattern", "name": "Data Encrypted for Impact", "mitre_id": "T1486", "evidence": "If a system has been encrypted by ransomware"}
+ ],
+ "observables": [],
+ "relationships": []
+}

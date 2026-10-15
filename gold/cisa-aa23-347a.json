@@ -1,0 +1,1127 @@
+{
+ "entities": [
+  {
+   "type": "threat-actor",
+   "name": "Russian Foreign Intelligence Service",
+   "evidence": "assess Russian Foreign Intelligence Service (SVR) cyber actors",
+   "aliases": [
+    "SVR"
+   ]
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT 29",
+   "evidence": "also known as Advanced Persistent Threat 29 (APT 29), the Dukes, CozyBear, and NOBELIUM/Midnight Blizzard",
+   "aliases": [
+    "Advanced Persistent Threat 29",
+    "the Dukes",
+    "CozyBear",
+    "NOBELIUM",
+    "Midnight Blizzard",
+    "SVR cyber actors"
+   ]
+  },
+  {
+   "type": "country",
+   "name": "Russia",
+   "evidence": "To bring Russia’s actions to public attention"
+  },
+  {
+   "type": "malware",
+   "name": "GraphicalProton",
+   "evidence": "GraphicalProton is a simplistic backdoor that uses OneDrive, Dropbox, and randomly generated BMPs"
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz",
+   "evidence": "the SVR used multiple techniques, including WinPEAS, NoLMHash registry key modification, and the Mimikatz tool"
+  },
+  {
+   "type": "tool",
+   "name": "WinPEAS",
+   "evidence": "the SVR used multiple techniques, including WinPEAS, NoLMHash registry key modification, and the Mimikatz tool"
+  },
+  {
+   "type": "tool",
+   "name": "Rubeus",
+   "evidence": "the SVR used the Rubeus toolkit to craft Ticket Granting Tickets (TGTs) [T1558.001]"
+  },
+  {
+   "type": "tool",
+   "name": "SharpChromium",
+   "evidence": "the SVR used the SharpChromium tool to obtain sensitive browser data"
+  },
+  {
+   "type": "tool",
+   "name": "DSInternals",
+   "evidence": "SVR also used DSInternals open source tool to interact with Directory Services."
+  },
+  {
+   "type": "tool",
+   "name": "PowerSploit",
+   "evidence": "The SVR performed network reconnaissance using a mix of built-in commands and additional tools, such as port scanner and PowerSploit"
+  },
+  {
+   "type": "tool",
+   "name": "EDRSandBlast",
+   "evidence": "The authoring agencies have observed the SVR using EDRSandBlast to remove protected process light (PPL) protection"
+  },
+  {
+   "type": "tool",
+   "name": "Rsockstun",
+   "evidence": "the SVR used an additional tool named, “rr.exe”—a modified open source reverse socks tunneler named Rsockstun",
+   "aliases": [
+    "rr.exe"
+   ]
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-42793",
+   "evidence": "are exploiting CVE-2023-42793 at a large scale, targeting servers hosting JetBrains TeamCity software"
+  },
+  {
+   "type": "sector",
+   "name": "Technologies",
+   "evidence": "the SVR demonstrably continues its practice of targeting technology companies"
+  },
+  {
+   "type": "sector",
+   "name": "Energy",
+   "evidence": "Identified victims included: an energy trade association"
+  },
+  {
+   "type": "sector",
+   "name": "Hosting service providers",
+   "evidence": "as well as hosting companies, tools manufacturers, and small and large IT companies"
+  },
+  {
+   "type": "sector",
+   "name": "Manufacturing",
+   "evidence": "as well as hosting companies, tools manufacturers, and small and large IT companies"
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "identified a few dozen compromised companies in the United States, Europe, Asia, and Australia"
+  },
+  {
+   "type": "region",
+   "name": "Europe",
+   "evidence": "identified a few dozen compromised companies in the United States, Europe, Asia, and Australia"
+  },
+  {
+   "type": "region",
+   "name": "Asia",
+   "evidence": "identified a few dozen compromised companies in the United States, Europe, Asia, and Australia"
+  },
+  {
+   "type": "country",
+   "name": "Australia",
+   "evidence": "identified a few dozen compromised companies in the United States, Europe, Asia, and Australia"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1003",
+   "evidence": "The SVR used the following Mimikatz commands [T1003]",
+   "mitre_id": "T1003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1003.001",
+   "evidence": "executables that are likely to be detected (i.e. Mimikatz) were executed in memory [T1003.001]",
+   "mitre_id": "T1003.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1003.002",
+   "evidence": "the SVR saved hives into files [T1003.002]",
+   "mitre_id": "T1003.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1020",
+   "evidence": "Sensitive Data Exfiltration [T1020]",
+   "mitre_id": "T1020"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1027.001",
+   "evidence": "GraphicalProton is a simplistic backdoor that uses OneDrive, Dropbox, and randomly generated BMPs [T1027.001]",
+   "mitre_id": "T1027.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1033",
+   "evidence": "the SVR used the following basic, built-in commands to perform host reconnaissance [T1033],[T1059.003],[T1592.002]",
+   "mitre_id": "T1033"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1036",
+   "evidence": "a variant that masks itself within vcperf [T1036]",
+   "mitre_id": "T1036"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1041",
+   "evidence": "the SVR exfiltrating files [T1041]",
+   "mitre_id": "T1041"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1046",
+   "evidence": "such as port scanner and PowerSploit, which it launched into memory [T1046]",
+   "mitre_id": "T1046"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1047",
+   "evidence": "The SVR used WMIC to facilitate lateral movement [T1047],[T1210].",
+   "mitre_id": "T1047"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1049",
+   "evidence": "GraphicalProton gathers environment information such as active TCP/UDP connections [T1049], running processes [T1049]",
+   "mitre_id": "T1049"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1053.005",
+   "evidence": "The SVR relied on scheduled tasks [T1053.005] to secure persistent execution of backdoors.",
+   "mitre_id": "T1053.005"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1055",
+   "evidence": "Process Injection T1055 SVR cyber actors inject code into AV and EDR processes to evade defenses.",
+   "mitre_id": "T1055"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1057",
+   "evidence": "Process Discovery T1057 SVR cyber actors use GraphicalProton to gather running processes data.",
+   "mitre_id": "T1057"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.001",
+   "evidence": "the SVR also showed an interest in details of the SQL Server [T1059.001],[T1505.001]",
+   "mitre_id": "T1059.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.003",
+   "evidence": "the SVR used the following basic, built-in commands to perform host reconnaissance [T1033],[T1059.003],[T1592.002]",
+   "mitre_id": "T1059.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1068",
+   "evidence": "the SVR used a “Bring Your Own Vulnerable Driver” [T1068] technique to disable or outright kill endpoint detection and response (EDR)",
+   "mitre_id": "T1068"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1098",
+   "evidence": "To facilitate privilege escalation [T1098], the SVR used multiple techniques",
+   "mitre_id": "T1098"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1190",
+   "evidence": "The SVR started to exploit Internet-connected JetBrains TeamCity servers [T1190]",
+   "mitre_id": "T1190"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1203",
+   "evidence": "the TeamCity exploitation usually resulted in code execution [T1203]",
+   "mitre_id": "T1203"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1210",
+   "evidence": "The SVR also modified DisableRestrictedAdmin key to enable remote connections [T1210].",
+   "mitre_id": "T1210"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1505.001",
+   "evidence": "SVR cyber actors abuse SQL server stored procedures to maintain persistence.",
+   "mitre_id": "T1505.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1547",
+   "evidence": "Boot or Logon Autostart Execution T1547 SVR cyber actors used C:\\Windows\\system32\\ntoskrnl.exe to configure automatic system boot settings",
+   "mitre_id": "T1547"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1555.003",
+   "evidence": "Credentials from Web Browsers T1555.003 In a few specific cases, the SVR used the SharpChromium tool",
+   "mitre_id": "T1555.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1558.001",
+   "evidence": "the SVR used the Rubeus toolkit to craft Ticket Granting Tickets (TGTs) [T1558.001]",
+   "mitre_id": "T1558.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1562.001",
+   "evidence": "disable or outright kill endpoint detection and response (EDR) and antivirus (AV) software [T1562.001]",
+   "mitre_id": "T1562.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1564",
+   "evidence": "data exchanged with malware via OneDrive and Dropbox were hidden inside randomly generated BMP files [T1564]",
+   "mitre_id": "T1564"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1564.001",
+   "evidence": "GraphicalProton generates a randomly named directory which is used to store infection-specific BMP files - with both commands and results [T1564.001]",
+   "mitre_id": "T1564.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1567",
+   "evidence": "OneDrive is used as a primary communication channel while Dropbox is treated as a backup channel [T1567]",
+   "mitre_id": "T1567"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1568",
+   "evidence": "Dynamic Resolution T1568 SVR may dynamically establish connections to command-and-control infrastructure",
+   "mitre_id": "T1568"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1572",
+   "evidence": "to establish a tunnel to the C2 infrastructure [T1572]",
+   "mitre_id": "T1572"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1574.002",
+   "evidence": "a variant that uses DLL hijacking [T1574.002] in Zabbix as a means to start execution",
+   "mitre_id": "T1574.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1590",
+   "evidence": "as well as user, host, and domain names [T1590]",
+   "mitre_id": "T1590"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1590.004",
+   "evidence": "it then focused on network reconnaissance [T1590.004]",
+   "mitre_id": "T1590.004"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1592.002",
+   "evidence": "the SVR used the following basic, built-in commands to perform host reconnaissance [T1033],[T1059.003],[T1592.002]",
+   "mitre_id": "T1592.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1102.002",
+   "evidence": "OneDrive is used as a primary communication channel while Dropbox is treated as a backup channel",
+   "mitre_id": "T1102.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1112",
+   "evidence": "The SVR modified the NoLMHash registry using the following reg command",
+   "mitre_id": "T1112"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1560",
+   "evidence": "the SVR saved hives into files [T1003.002], packed them, and then exfiltrated them using a backdoor capability",
+   "mitre_id": "T1560"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1074.001",
+   "evidence": "used powershell to stage .zip archives in the C:\\Windows\\Temp\\ directory",
+   "mitre_id": "T1074.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1583.001",
+   "evidence": "To legitimize the C2 channel, SVR used a re-registered expired domain set up with dummy WordPress website.",
+   "mitre_id": "T1583.001"
+  }
+ ],
+ "observables": [
+  {
+   "type": "file",
+   "value": "01B5F7094DE0B2C6F8E28AA9A2DED678C166D615530E595621E692A9C0240732",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "34C8F155601A3948DDB0D60B582CFE87DE970D443CC0E05DF48B1A1AD2E42B5E",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "620D2BF14FE345EEF618FDD1DAC242B3A0BB65CCB75699FE00F7C671F2C1D869",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "773F0102720AF2957859D6930CD09693824D87DB705B3303CEF9EE794375CE13",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "7B666B978DBBE7C032CEF19A90993E8E4922B743EE839632BFA6D99314EA6C53",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8AFB71B7CE511B0BCE642F46D6FC5DD79FAD86A58223061B684313966EFEF9C7",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "971F0CED6C42DD2B6E3EA3E6C54D0081CF9B06E79A38C2EDE3A2C5228C27A6DC",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "CB83E5CB264161C28DE76A44D0EDB450745E773D24BEC5869D85F69633E44DCF",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton",
+    "Rsockstun"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "CD3584D61C2724F927553770924149BB51811742A461146B15B34A26C92CAD43",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "EBE231C90FAD02590FC56D5840ACC63B90312B0E2FEE7DA3C7606027ED92600E",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "F1B40E6E5A7CBC22F7A0BD34607B13E7E3493B8AAD7431C47F1366F0256E23EB",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "C7B01242D2E15C3DA0F45B8ADEC4E6913E534849CDE16A2A6C480045E03FBEE4",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "4BF1915785D7C6E0987EB9C15857F7AC67DC365177A1707B14822131D43A6166",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "18101518EAE3EEC6EBE453DE4C4C380160774D7C3ED5C79E1813013AC1BB0B93",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "19F1EF66E449CF2A2B0283DBB756850CCA396114286E1485E35E6C672C9C3641",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "1E74CF0223D57FD846E171F4A58790280D4593DF1F23132044076560A5455FF8",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "219FB90D2E88A2197A9E08B0E7811E2E0BD23D59233287587CCC4642C2CF3D67",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "92C7693E82A90D08249EDEAFBCA6533FED81B62E9E056DEC34C24756E0A130A6",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "B53E27C79EED8531B1E05827ACE2362603FB9F77F53CEE2E34940D570217CBF7",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "C37C109171F32456BBE57B8676CC533091E387E6BA733FBAA01175C43CFB6EBD",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "C40A8006A7B1F10B1B42FDD8D6D0F434BE503FB3400FB948AC9AB8DDFA5B78A0",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "C832462C15C8041191F190F7A88D25089D57F78E97161C3003D68D0CC2C4BAA3",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "F6194121E1540C3553273709127DFA1DAAB96B0ACFAB6E92548BFB4059913C69",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "D724728344FCF3812A0664A80270F7B4980B82342449A8C5A2FA510E10600443",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "4EE70128C70D646C5C2A9A17AD05949CB1FBF1043E9D671998812B2DCE75CF0F",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "950ADBAF66AB214DE837E6F1C00921C501746616A882EA8C42F1BAD5F9B6EFF4",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29",
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "01aa278b07b58dc46c84bd0b1b5c8e9ee4e62ea0bf7a695862444af32e87f1fd",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0296e2ce999e67c76352613a718e11516fe1b0efc3ffdb8918fc999dd76a73a5",
+   "hash": "SHA-256",
+   "indicates": [
+    "APT 29"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "65.20.97[.]203",
+   "indicates": [
+    "Rsockstun",
+    "APT 29"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "65.21.51[.]58",
+   "indicates": [
+    "Rsockstun",
+    "APT 29"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "103.76.128[.]34",
+   "indicates": [
+    "APT 29"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "Poetpages[.]com",
+   "indicates": [
+    "Rsockstun",
+    "APT 29"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "hxxps://matclick[.]com/wp-query[.]php",
+   "indicates": [
+    "GraphicalProton",
+    "APT 29"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "matclick[.]com",
+   "indicates": [
+    "GraphicalProton",
+    "APT 29"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "Mimikatz",
+   "evidence": "the SVR used multiple techniques, including WinPEAS, NoLMHash registry key modification, and the Mimikatz tool"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "WinPEAS",
+   "evidence": "the SVR used multiple techniques, including WinPEAS, NoLMHash registry key modification, and the Mimikatz tool"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "Rubeus",
+   "evidence": "the SVR used the Rubeus toolkit to craft Ticket Granting Tickets (TGTs) [T1558.001]"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "SharpChromium",
+   "evidence": "the SVR used the SharpChromium tool to obtain sensitive browser data"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "DSInternals",
+   "evidence": "SVR also used DSInternals open source tool to interact with Directory Services."
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "PowerSploit",
+   "evidence": "The SVR performed network reconnaissance using a mix of built-in commands and additional tools, such as port scanner and PowerSploit"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "EDRSandBlast",
+   "evidence": "The authoring agencies have observed the SVR using EDRSandBlast to remove protected process light (PPL) protection"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "Rsockstun",
+   "evidence": "the SVR used an additional tool named, “rr.exe”—a modified open source reverse socks tunneler named Rsockstun"
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "Technologies",
+   "evidence": "the SVR demonstrably continues its practice of targeting technology companies"
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "Energy",
+   "evidence": "Identified victims included: an energy trade association"
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "Hosting service providers",
+   "evidence": "as well as hosting companies, tools manufacturers, and small and large IT companies"
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "Manufacturing",
+   "evidence": "as well as hosting companies, tools manufacturers, and small and large IT companies"
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "United States",
+   "evidence": "identified a few dozen compromised companies in the United States, Europe, Asia, and Australia"
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "Europe",
+   "evidence": "identified a few dozen compromised companies in the United States, Europe, Asia, and Australia"
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "Asia",
+   "evidence": "identified a few dozen compromised companies in the United States, Europe, Asia, and Australia"
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "Australia",
+   "evidence": "identified a few dozen compromised companies in the United States, Europe, Asia, and Australia"
+  },
+  {
+   "source": "APT 29",
+   "type": "attributed-to",
+   "target": "Russian Foreign Intelligence Service",
+   "evidence": "assess Russian Foreign Intelligence Service (SVR) cyber actors—also known as Advanced Persistent Threat 29 (APT 29)"
+  },
+  {
+   "source": "APT 29",
+   "type": "originates-from",
+   "target": "Russia",
+   "evidence": "assess Russian Foreign Intelligence Service (SVR) cyber actors—also known as Advanced Persistent Threat 29 (APT 29)"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service",
+   "type": "located-at",
+   "target": "Russia",
+   "evidence": "assess Russian Foreign Intelligence Service (SVR) cyber actors"
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "CVE-2023-42793",
+   "evidence": "are exploiting CVE-2023-42793 at a large scale, targeting servers hosting JetBrains TeamCity software"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "GraphicalProton",
+   "evidence": "a variant of GraphicalProton backdoor recently introduced by the SVR"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1003",
+   "evidence": "The SVR used the following Mimikatz commands [T1003]"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1003.001",
+   "evidence": "executables that are likely to be detected (i.e. Mimikatz) were executed in memory [T1003.001]"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1003.002",
+   "evidence": "the SVR saved hives into files [T1003.002]"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1020",
+   "evidence": "Sensitive Data Exfiltration [T1020]"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1027.001",
+   "evidence": "GraphicalProton is a simplistic backdoor that uses OneDrive, Dropbox, and randomly generated BMPs [T1027.001]"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1033",
+   "evidence": "the SVR used the following basic, built-in commands to perform host reconnaissance [T1033],[T1059.003],[T1592.002]"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1036",
+   "evidence": "a variant that masks itself within vcperf [T1036]"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1041",
+   "evidence": "the SVR exfiltrating files [T1041]"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1046",
+   "evidence": "such as port scanner and PowerSploit, which it launched into memory [T1046]"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1047",
+   "evidence": "The SVR used WMIC to facilitate lateral movement [T1047],[T1210]."
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1049",
+   "evidence": "GraphicalProton gathers environment information such as active TCP/UDP connections [T1049], running processes [T1049]"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1053.005",
+   "evidence": "The SVR relied on scheduled tasks [T1053.005] to secure persistent execution of backdoors."
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1055",
+   "evidence": "Process Injection T1055 SVR cyber actors inject code into AV and EDR processes to evade defenses."
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1057",
+   "evidence": "Process Discovery T1057 SVR cyber actors use GraphicalProton to gather running processes data."
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1059.001",
+   "evidence": "the SVR also showed an interest in details of the SQL Server [T1059.001],[T1505.001]"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1059.003",
+   "evidence": "the SVR used the following basic, built-in commands to perform host reconnaissance [T1033],[T1059.003],[T1592.002]"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1068",
+   "evidence": "the SVR used a “Bring Your Own Vulnerable Driver” [T1068] technique to disable or outright kill endpoint detection and response (EDR)"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1098",
+   "evidence": "To facilitate privilege escalation [T1098], the SVR used multiple techniques"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "The SVR started to exploit Internet-connected JetBrains TeamCity servers [T1190]"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1203",
+   "evidence": "the TeamCity exploitation usually resulted in code execution [T1203]"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1210",
+   "evidence": "The SVR also modified DisableRestrictedAdmin key to enable remote connections [T1210]."
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1505.001",
+   "evidence": "SVR cyber actors abuse SQL server stored procedures to maintain persistence."
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1547",
+   "evidence": "Boot or Logon Autostart Execution T1547 SVR cyber actors used C:\\Windows\\system32\\ntoskrnl.exe to configure automatic system boot settings"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1555.003",
+   "evidence": "Credentials from Web Browsers T1555.003 In a few specific cases, the SVR used the SharpChromium tool"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1558.001",
+   "evidence": "the SVR used the Rubeus toolkit to craft Ticket Granting Tickets (TGTs) [T1558.001]"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1562.001",
+   "evidence": "disable or outright kill endpoint detection and response (EDR) and antivirus (AV) software [T1562.001]"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1564",
+   "evidence": "data exchanged with malware via OneDrive and Dropbox were hidden inside randomly generated BMP files [T1564]"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1564.001",
+   "evidence": "GraphicalProton generates a randomly named directory which is used to store infection-specific BMP files - with both commands and results [T1564.001]"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1567",
+   "evidence": "OneDrive is used as a primary communication channel while Dropbox is treated as a backup channel [T1567]"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1568",
+   "evidence": "Dynamic Resolution T1568 SVR may dynamically establish connections to command-and-control infrastructure"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1572",
+   "evidence": "to establish a tunnel to the C2 infrastructure [T1572]"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1574.002",
+   "evidence": "a variant that uses DLL hijacking [T1574.002] in Zabbix as a means to start execution"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1590",
+   "evidence": "as well as user, host, and domain names [T1590]"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1590.004",
+   "evidence": "it then focused on network reconnaissance [T1590.004]"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1592.002",
+   "evidence": "the SVR used the following basic, built-in commands to perform host reconnaissance [T1033],[T1059.003],[T1592.002]"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1102.002",
+   "evidence": "OneDrive is used as a primary communication channel while Dropbox is treated as a backup channel"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1112",
+   "evidence": "The SVR modified the NoLMHash registry using the following reg command"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1560",
+   "evidence": "the SVR saved hives into files [T1003.002], packed them, and then exfiltrated them using a backdoor capability"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1074.001",
+   "evidence": "used powershell to stage .zip archives in the C:\\Windows\\Temp\\ directory"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1583.001",
+   "evidence": "To legitimize the C2 channel, SVR used a re-registered expired domain set up with dummy WordPress website."
+  },
+  {
+   "source": "GraphicalProton",
+   "type": "uses",
+   "target": "T1102.002",
+   "evidence": "GraphicalProton is a simplistic backdoor that uses OneDrive, Dropbox, and randomly generated BMPs [T1027.001] to exchange data with the SVR operator."
+  },
+  {
+   "source": "GraphicalProton",
+   "type": "uses",
+   "target": "T1027.001",
+   "evidence": "GraphicalProton is a simplistic backdoor that uses OneDrive, Dropbox, and randomly generated BMPs [T1027.001]"
+  },
+  {
+   "source": "GraphicalProton",
+   "type": "uses",
+   "target": "T1049",
+   "evidence": "GraphicalProton gathers environment information such as active TCP/UDP connections [T1049], running processes [T1049]"
+  },
+  {
+   "source": "GraphicalProton",
+   "type": "uses",
+   "target": "T1590",
+   "evidence": "GraphicalProton gathers environment information such as active TCP/UDP connections [T1049], running processes [T1049], as well as user, host, and domain names [T1590]"
+  },
+  {
+   "source": "GraphicalProton",
+   "type": "uses",
+   "target": "T1567",
+   "evidence": "OneDrive is used as a primary communication channel while Dropbox is treated as a backup channel [T1567]"
+  },
+  {
+   "source": "GraphicalProton",
+   "type": "uses",
+   "target": "T1564.001",
+   "evidence": "GraphicalProton generates a randomly named directory which is used to store infection-specific BMP files - with both commands and results [T1564.001]"
+  },
+  {
+   "source": "GraphicalProton",
+   "type": "uses",
+   "target": "T1574.002",
+   "evidence": "Two specific variants of GraphicalProton “packaging” are especially noteworthy – a variant that uses DLL hijacking [T1574.002] in Zabbix"
+  },
+  {
+   "source": "GraphicalProton",
+   "type": "uses",
+   "target": "T1036",
+   "evidence": "a variant that masks itself within vcperf [T1036], an open-source C++ build analysis tool from Microsoft"
+  },
+  {
+   "source": "GraphicalProton",
+   "type": "uses",
+   "target": "T1057",
+   "evidence": "Process Discovery T1057 SVR cyber actors use GraphicalProton to gather running processes data."
+  },
+  {
+   "source": "Mimikatz",
+   "type": "uses",
+   "target": "T1003",
+   "evidence": "The SVR used the following Mimikatz commands [T1003]"
+  },
+  {
+   "source": "Mimikatz",
+   "type": "uses",
+   "target": "T1003.001",
+   "evidence": "executables that are likely to be detected (i.e. Mimikatz) were executed in memory [T1003.001]"
+  },
+  {
+   "source": "Rubeus",
+   "type": "uses",
+   "target": "T1558.001",
+   "evidence": "the SVR used the Rubeus toolkit to craft Ticket Granting Tickets (TGTs) [T1558.001]"
+  },
+  {
+   "source": "SharpChromium",
+   "type": "uses",
+   "target": "T1555.003",
+   "evidence": "Credentials from Web Browsers T1555.003 In a few specific cases, the SVR used the SharpChromium tool"
+  },
+  {
+   "source": "Rsockstun",
+   "type": "uses",
+   "target": "T1572",
+   "evidence": "a modified open source reverse socks tunneler named Rsockstun—to establish a tunnel to the C2 infrastructure [T1572]"
+  },
+  {
+   "source": "PowerSploit",
+   "type": "uses",
+   "target": "T1046",
+   "evidence": "such as port scanner and PowerSploit, which it launched into memory [T1046]"
+  },
+  {
+   "source": "EDRSandBlast",
+   "type": "uses",
+   "target": "T1562.001",
+   "evidence": "software [T1562.001]. This was done using an open source project called “EDRSandBlast.”"
+  }
+ ]
+}

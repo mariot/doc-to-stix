@@ -1,0 +1,600 @@
+{
+  "entities": [
+    {
+      "type": "intrusion-set",
+      "name": "Volt Typhoon",
+      "evidence": "a People’s Republic of China (PRC) state-sponsored cyber actor, also known as Volt Typhoon"
+    },
+    {
+      "type": "country",
+      "name": "China",
+      "evidence": "a People’s Republic of China (PRC) state-sponsored cyber actor, also known as Volt Typhoon"
+    },
+    {
+      "type": "country",
+      "name": "United States",
+      "evidence": "this activity affects networks across U.S. critical infrastructure sectors"
+    },
+    {
+      "type": "tool",
+      "name": "wmic",
+      "evidence": "Some of the built-in tools this actor uses are: wmic , ntdsutil , netsh , and PowerShell"
+    },
+    {
+      "type": "tool",
+      "name": "ntdsutil",
+      "evidence": "Some of the built-in tools this actor uses are: wmic , ntdsutil , netsh , and PowerShell"
+    },
+    {
+      "type": "tool",
+      "name": "netsh",
+      "evidence": "Some of the built-in tools this actor uses are: wmic , ntdsutil , netsh , and PowerShell"
+    },
+    {
+      "type": "tool",
+      "name": "PowerShell",
+      "evidence": "Some of the built-in tools this actor uses are: wmic , ntdsutil , netsh , and PowerShell"
+    },
+    {
+      "type": "tool",
+      "name": "certutil",
+      "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include"
+    },
+    {
+      "type": "tool",
+      "name": "dnscmd",
+      "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include"
+    },
+    {
+      "type": "tool",
+      "name": "ldifde",
+      "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include"
+    },
+    {
+      "type": "tool",
+      "name": "makecab",
+      "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include"
+    },
+    {
+      "type": "tool",
+      "name": "net",
+      "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include"
+    },
+    {
+      "type": "tool",
+      "name": "nltest",
+      "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include"
+    },
+    {
+      "type": "tool",
+      "name": "reg",
+      "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include"
+    },
+    {
+      "type": "tool",
+      "name": "systeminfo",
+      "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include"
+    },
+    {
+      "type": "tool",
+      "name": "tasklist",
+      "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include"
+    },
+    {
+      "type": "tool",
+      "name": "wevtutil",
+      "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include"
+    },
+    {
+      "type": "tool",
+      "name": "xcopy",
+      "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include"
+    },
+    {
+      "type": "tool",
+      "name": "Earthworm",
+      "evidence": "The actor has used Earthworm and a custom Fast Reverse Proxy (FRP) client",
+      "aliases": [
+        "EarthWorm"
+      ]
+    },
+    {
+      "type": "tool",
+      "name": "Fast Reverse Proxy",
+      "evidence": "The actor has used Earthworm and a custom Fast Reverse Proxy (FRP) client",
+      "aliases": [
+        "FRP",
+        "frp"
+      ]
+    },
+    {
+      "type": "tool",
+      "name": "Impacket",
+      "evidence": "This script is a component of Impacket, which the actor has been known to use"
+    },
+    {
+      "type": "tool",
+      "name": "Mimikatz",
+      "evidence": "The actor also used the following commands to identify additional opportunities for obtaining credentials"
+    },
+    {
+      "type": "malware",
+      "name": "Awen webshell",
+      "evidence": "Using webshells for persistence and exfiltration [ T1505.003 ], with at least some of the webshells derived from the Awen webshell"
+    },
+    {
+      "type": "vulnerability",
+      "name": "CVE-2021-40539",
+      "evidence": "CVE-2021-40539—ManageEngine ADSelfService Plus"
+    },
+    {
+      "type": "vulnerability",
+      "name": "CVE-2021-27860",
+      "evidence": "CVE-2021-27860—FatPipe WARP, IPVPN, MPVPN"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Exploit Public-Facing Application",
+      "mitre_id": "T1190",
+      "evidence": "Actor used public-facing applications to gain initial access to systems"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Windows Management Instrumentation",
+      "mitre_id": "T1047",
+      "evidence": "The actor executed WMIC commands to create a copy of the SYSTEM registry"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Command and Scripting Interpreter: PowerShell",
+      "mitre_id": "T1059.001",
+      "evidence": "The actor used a PowerShell command to identify successful logons to the host"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Command and Scripting Interpreter: Windows Command Shell",
+      "mitre_id": "T1059.003",
+      "evidence": "The actor used this primary command prompt to execute a query"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Server Software Component: Web Shell",
+      "mitre_id": "T1505.003",
+      "evidence": "The actor used backdoor web servers with web shells to establish persistence to systems"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Disable or Modify Tools: Clear Windows Event Logs",
+      "mitre_id": "T1070.001",
+      "evidence": "The actor cleared system event logs to hide activity of an intrusion"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Indicator Removal",
+      "mitre_id": "T1070",
+      "evidence": "The actor selectively cleared Windows Event Logs, system logs, and other technical artifacts"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "OS Credential Dumping: NTDS",
+      "mitre_id": "T1003.003",
+      "evidence": "The actor may try to exfiltrate the ntds.dit file and the SYSTEM registry hive out of the network to perform password cracking"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Brute Force",
+      "mitre_id": "T1110",
+      "evidence": "The actor attempted to gain access to accounts with multiple password attempts"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Brute Force: Password Spraying",
+      "mitre_id": "T1110.003",
+      "evidence": "The actor used commonly used passwords against accounts to attempt to acquire valid credentials"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "OS Credential Dumping",
+      "mitre_id": "T1003",
+      "evidence": "The actor used additional commands to obtain credentials in the environment"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Credentials from Password Stores",
+      "mitre_id": "T1555",
+      "evidence": "The actors searched for common password storage locations"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "System Information Discovery",
+      "mitre_id": "T1082",
+      "evidence": "The actors executed commands to gather information about local drives"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "System Owner/User Discovery",
+      "mitre_id": "T1033",
+      "evidence": "The actors gathered information about successful logons to the host using a PowerShell command"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Permission Groups Discovery: Local Groups",
+      "mitre_id": "T1069.001",
+      "evidence": "The actors attempt to find local system groups and permission settings"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Permission Groups Discovery: Domain Groups",
+      "mitre_id": "T1069.002",
+      "evidence": "The actors used commands to enumerate the active directory structure"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "System Network Configuration Discovery",
+      "mitre_id": "T1016",
+      "evidence": "The actors used commands to enumerate the network topology"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Proxy",
+      "mitre_id": "T1090",
+      "evidence": "The actors used commands to enable port forwarding on the host"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Proxy: External Proxy",
+      "mitre_id": "T1090.002",
+      "evidence": "The actors used compromised SOHO devices (e.g. routers) to obfuscate the source of their activity"
+    }
+  ],
+  "observables": [
+    {
+      "type": "file",
+      "value": "f4dd44bc19c19056794d29151a5b1bb76afd502388622e24c863a8494af147dd",
+      "hash": "SHA-256",
+      "indicates": [
+        "Volt Typhoon"
+      ]
+    },
+    {
+      "type": "file",
+      "value": "ef09b8ff86c276e9b475a6ae6b54f08ed77e09e169f7fc0872eb1d427ee27d31",
+      "hash": "SHA-256",
+      "indicates": [
+        "Volt Typhoon"
+      ]
+    },
+    {
+      "type": "file",
+      "value": "d6ebde42457fe4b2a927ce53fc36f465f0000da931cfab9b79a36083e914ceca",
+      "hash": "SHA-256",
+      "indicates": [
+        "Volt Typhoon"
+      ]
+    },
+    {
+      "type": "file",
+      "value": "472ccfb865c81704562ea95870f60c08ef00bcd2ca1d7f09352398c05be5d05d",
+      "hash": "SHA-256",
+      "indicates": [
+        "Volt Typhoon"
+      ]
+    },
+    {
+      "type": "file",
+      "value": "66a19f7d2547a8a85cee7a62d0b6114fd31afdee090bd43f36b89470238393d7",
+      "hash": "SHA-256",
+      "indicates": [
+        "Volt Typhoon"
+      ]
+    },
+    {
+      "type": "file",
+      "value": "3c2fe308c0a563e06263bbacf793bbe9b2259d795fcc36b953793a7e499e7f71",
+      "hash": "SHA-256",
+      "indicates": [
+        "Volt Typhoon"
+      ]
+    },
+    {
+      "type": "file",
+      "value": "41e5181b9553bbe33d91ee204fe1d2ca321ac123f9147bb475c0ed32f9488597",
+      "hash": "SHA-256",
+      "indicates": [
+        "Volt Typhoon"
+      ]
+    },
+    {
+      "type": "file",
+      "value": "c7fee7a3ffaf0732f42d89c4399cbff219459ae04a81fc6eff7050d53bd69b99",
+      "hash": "SHA-256",
+      "indicates": [
+        "Volt Typhoon"
+      ]
+    },
+    {
+      "type": "file",
+      "value": "3a9d8bb85fbcfe92bae79d5ab18e4bca9eaf36cea70086e8d1ab85336c83945f",
+      "hash": "SHA-256",
+      "indicates": [
+        "Volt Typhoon"
+      ]
+    },
+    {
+      "type": "file",
+      "value": "fe95a382b4f879830e2666473d662a24b34fccf34b6b3505ee1b62b32adafa15",
+      "hash": "SHA-256",
+      "indicates": [
+        "Volt Typhoon"
+      ]
+    },
+    {
+      "type": "file",
+      "value": "ee8df354503a56c62719656fae71b3502acf9f87951c55ffd955feec90a11484",
+      "hash": "SHA-256",
+      "indicates": [
+        "Volt Typhoon"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Volt Typhoon",
+      "type": "originates-from",
+      "target": "China",
+      "evidence": "a People’s Republic of China (PRC) state-sponsored cyber actor, also known as Volt Typhoon"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "targets",
+      "target": "United States",
+      "evidence": "this activity affects networks across U.S. critical infrastructure sectors"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "wmic",
+      "evidence": "Some of the built-in tools this actor uses are: wmic , ntdsutil , netsh , and PowerShell"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "ntdsutil",
+      "evidence": "Some of the built-in tools this actor uses are: wmic , ntdsutil , netsh , and PowerShell"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "netsh",
+      "evidence": "Some of the built-in tools this actor uses are: wmic , ntdsutil , netsh , and PowerShell"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "PowerShell",
+      "evidence": "Some of the built-in tools this actor uses are: wmic , ntdsutil , netsh , and PowerShell"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "certutil",
+      "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "dnscmd",
+      "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "ldifde",
+      "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "makecab",
+      "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "net",
+      "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "nltest",
+      "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "reg",
+      "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "systeminfo",
+      "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "tasklist",
+      "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "wevtutil",
+      "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "xcopy",
+      "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "Earthworm",
+      "evidence": "The actor has used Earthworm and a custom Fast Reverse Proxy (FRP) client"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "Fast Reverse Proxy",
+      "evidence": "The actor has used Earthworm and a custom Fast Reverse Proxy (FRP) client"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "Impacket",
+      "evidence": "This script is a component of Impacket, which the actor has been known to use"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "Mimikatz",
+      "evidence": "Using open source “hacktools” tools, such as"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "Awen webshell",
+      "evidence": "Using webshells for persistence and exfiltration [ T1505.003 ], with at least some of the webshells derived from the Awen webshell"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "targets",
+      "target": "CVE-2021-40539",
+      "evidence": "Exploiting vulnerabilities [ T1190 ] in widely used software including, but not limited to"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "targets",
+      "target": "CVE-2021-27860",
+      "evidence": "Exploiting vulnerabilities [ T1190 ] in widely used software including, but not limited to"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "T1190",
+      "evidence": "Actor used public-facing applications to gain initial access to systems"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "T1047",
+      "evidence": "The actor executed WMIC commands to create a copy of the SYSTEM registry"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "T1059.001",
+      "evidence": "The actor used a PowerShell command to identify successful logons to the host"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "T1059.003",
+      "evidence": "The actor used this primary command prompt to execute a query"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "T1505.003",
+      "evidence": "The actor used backdoor web servers with web shells to establish persistence to systems"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "T1070.001",
+      "evidence": "The actor cleared system event logs to hide activity of an intrusion"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "T1070",
+      "evidence": "The actor selectively cleared Windows Event Logs, system logs, and other technical artifacts"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "T1003.003",
+      "evidence": "The actor may try to exfiltrate the ntds.dit file and the SYSTEM registry hive out of the network to perform password cracking"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "T1110",
+      "evidence": "The actor attempted to gain access to accounts with multiple password attempts"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "T1110.003",
+      "evidence": "The actor used commonly used passwords against accounts to attempt to acquire valid credentials"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "T1003",
+      "evidence": "The actor used additional commands to obtain credentials in the environment"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "T1555",
+      "evidence": "The actors searched for common password storage locations"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "T1082",
+      "evidence": "The actors executed commands to gather information about local drives"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "T1033",
+      "evidence": "The actors gathered information about successful logons to the host using a PowerShell command"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "T1069.001",
+      "evidence": "The actors attempt to find local system groups and permission settings"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "T1069.002",
+      "evidence": "The actors used commands to enumerate the active directory structure"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "T1016",
+      "evidence": "The actors used commands to enumerate the network topology"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "T1090",
+      "evidence": "The actors used commands to enable port forwarding on the host"
+    },
+    {
+      "source": "Volt Typhoon",
+      "type": "uses",
+      "target": "T1090.002",
+      "evidence": "The actors used compromised SOHO devices (e.g. routers) to obfuscate the source of their activity"
+    }
+  ]
+}

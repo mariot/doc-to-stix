@@ -1,0 +1,724 @@
+{
+  "entities": [
+    {
+      "type": "malware",
+      "name": "Ryuk",
+      "evidence": "The Ryuk ransomware was first observed in August 2018"
+    },
+    {
+      "type": "malware",
+      "name": "Hermes",
+      "evidence": "It is a variant of the Hermes 2.1 ransomware"
+    },
+    {
+      "type": "intrusion-set",
+      "name": "Wizard Spider",
+      "aliases": [
+        "the TrickBot gang"
+      ],
+      "evidence": "The group operating the TrickBot malware is called Wizard Spider by Crowdstrike, and “the TrickBot gang” by other editors"
+    },
+    {
+      "type": "intrusion-set",
+      "name": "UNC1878",
+      "aliases": [
+        "One group"
+      ],
+      "evidence": "UNC1878, also known as One group [34], is an activity cluster discovered by FireEye"
+    },
+    {
+      "type": "intrusion-set",
+      "name": "FIN6",
+      "evidence": "The involvement of the Russian-speaking cybercriminal group FIN6 or affiliated parties in Ryuk incidents"
+    },
+    {
+      "type": "malware",
+      "name": "TrickBot",
+      "evidence": "Since this date, TrickBot is the loader most responsible for the distribution of Ryuk"
+    },
+    {
+      "type": "malware",
+      "name": "Emotet",
+      "evidence": "TrickBot can be distributed upstream via the Emotet malware-as-a-service"
+    },
+    {
+      "type": "malware",
+      "name": "BazarLoader",
+      "evidence": "From mid-September 2020, the BazarLoader-Ryuk chain of infection appears to replace those involving TrickBot"
+    },
+    {
+      "type": "malware",
+      "name": "BazarBackdoor",
+      "evidence": "BazarBackdoor, although not exclusively dedicated to this purpose, can be used to enable the distribution of Ryuk ransomware"
+    },
+    {
+      "type": "malware",
+      "name": "Cobalt Strike",
+      "evidence": "Once legitimate post-exploitation tools are distributed by TrickBot (Cobalt Strike, Empire, BloodHound, Mimikatz, LaZagne)"
+    },
+    {
+      "type": "tool",
+      "name": "Empire",
+      "evidence": "Once legitimate post-exploitation tools are distributed by TrickBot (Cobalt Strike, Empire, BloodHound, Mimikatz, LaZagne)"
+    },
+    {
+      "type": "tool",
+      "name": "BloodHound",
+      "evidence": "Once legitimate post-exploitation tools are distributed by TrickBot (Cobalt Strike, Empire, BloodHound, Mimikatz, LaZagne)"
+    },
+    {
+      "type": "tool",
+      "name": "Mimikatz",
+      "evidence": "Once legitimate post-exploitation tools are distributed by TrickBot (Cobalt Strike, Empire, BloodHound, Mimikatz, LaZagne)"
+    },
+    {
+      "type": "tool",
+      "name": "LaZagne",
+      "evidence": "Once legitimate post-exploitation tools are distributed by TrickBot (Cobalt Strike, Empire, BloodHound, Mimikatz, LaZagne)"
+    },
+    {
+      "type": "tool",
+      "name": "PsExec",
+      "evidence": "deploy Ryuk (for example via PsExec)"
+    },
+    {
+      "type": "malware",
+      "name": "Anchor",
+      "evidence": "leveraging tools such as Anchor, PowerTrick3 [13], BloodHound, PowerSploit and AdFind"
+    },
+    {
+      "type": "malware",
+      "name": "PowerTrick",
+      "evidence": "leveraging tools such as Anchor, PowerTrick3 [13], BloodHound, PowerSploit and AdFind"
+    },
+    {
+      "type": "tool",
+      "name": "PowerSploit",
+      "evidence": "leveraging tools such as Anchor, PowerTrick3 [13], BloodHound, PowerSploit and AdFind"
+    },
+    {
+      "type": "tool",
+      "name": "AdFind",
+      "evidence": "leveraging tools such as Anchor, PowerTrick3 [13], BloodHound, PowerSploit and AdFind"
+    },
+    {
+      "type": "tool",
+      "name": "Rubeus",
+      "evidence": "Privileges have been escalated using Mimikatz, Rubeus4"
+    },
+    {
+      "type": "tool",
+      "name": "Meterpreter",
+      "evidence": "the use of legitimate tools throughout the post-compromise infection chain (Cobalt Strike Beacon, Empire, Meterpreter, Mimikatz, LaZagne, Kerbrute, Kerberoast, BloodHound, AdFind, PowerSploit)"
+    },
+    {
+      "type": "tool",
+      "name": "Kerbrute",
+      "evidence": "the use of legitimate tools throughout the post-compromise infection chain (Cobalt Strike Beacon, Empire, Meterpreter, Mimikatz, LaZagne, Kerbrute, Kerberoast, BloodHound, AdFind, PowerSploit)"
+    },
+    {
+      "type": "tool",
+      "name": "Kerberoast",
+      "evidence": "the use of legitimate tools throughout the post-compromise infection chain (Cobalt Strike Beacon, Empire, Meterpreter, Mimikatz, LaZagne, Kerbrute, Kerberoast, BloodHound, AdFind, PowerSploit)"
+    },
+    {
+      "type": "malware",
+      "name": "Conti",
+      "evidence": "This chain has since resulted in the distribution of Ryuk or Conti ransomware"
+    },
+    {
+      "type": "malware",
+      "name": "Buer",
+      "evidence": "Buer loader was used to gain a foothold in an intrusion where Ryuk was deployed"
+    },
+    {
+      "type": "malware",
+      "name": "SilentNight",
+      "evidence": "SilentNight is also involved in attacks aimed at distributing Ryuk ransomware"
+    },
+    {
+      "type": "malware",
+      "name": "Zloader",
+      "evidence": "is a variant of the Zloader malware (from the ZeuS source code)"
+    },
+    {
+      "type": "malware",
+      "name": "LockerGoga",
+      "evidence": "FIN6 or affiliated parties were distributing the Ryuk and LockerGoga ransomware"
+    },
+    {
+      "type": "malware",
+      "name": "FrameworkPOS",
+      "evidence": "using Cobalt Strike and the FrameworkPOS malicious code"
+    },
+    {
+      "type": "malware",
+      "name": "More_Eggs",
+      "evidence": "Alias SpicyOmelette and Skid, More_Eggs is a JavaScript backdoor",
+      "aliases": [
+        "SpicyOmelette",
+        "Skid"
+      ]
+    },
+    {
+      "type": "malware",
+      "name": "TerraLoader",
+      "evidence": "TerraLoader had installed the backdoor More_Eggs6"
+    },
+    {
+      "type": "malware",
+      "name": "MegaCortex",
+      "evidence": "FIN6 is thought to have distributed these two ransomware as well as MegaCortex and Maze"
+    },
+    {
+      "type": "malware",
+      "name": "Maze",
+      "evidence": "FIN6 is thought to have distributed these two ransomware as well as MegaCortex and Maze"
+    },
+    {
+      "type": "country",
+      "name": "United States",
+      "evidence": "Ryuk appears in particular to be impacting the United States and Canada"
+    },
+    {
+      "type": "country",
+      "name": "Canada",
+      "evidence": "Ryuk appears in particular to be impacting the United States and Canada"
+    },
+    {
+      "type": "sector",
+      "name": "Health",
+      "evidence": "Ryuk was reportedly responsible for 75% of attacks on the American healthcare sector"
+    },
+    {
+      "type": "sector",
+      "name": "Healthcare services",
+      "evidence": "These entities are believed to be American hospitals and government agencies, pharmaceutical companies and universities"
+    },
+    {
+      "type": "sector",
+      "name": "Government and administrations",
+      "evidence": "These entities are believed to be American hospitals and government agencies, pharmaceutical companies and universities"
+    },
+    {
+      "type": "sector",
+      "name": "Pharmacy and drugs manufacturing",
+      "evidence": "These entities are believed to be American hospitals and government agencies, pharmaceutical companies and universities"
+    },
+    {
+      "type": "sector",
+      "name": "Universities",
+      "evidence": "These entities are believed to be American hospitals and government agencies, pharmaceutical companies and universities"
+    },
+    {
+      "type": "country",
+      "name": "India",
+      "evidence": "intrusions in early 2019 in India, Japan and the United States into POS systems belonging to the financial and healthcare sectors, using Cobalt Strike"
+    },
+    {
+      "type": "country",
+      "name": "Japan",
+      "evidence": "intrusions in early 2019 in India, Japan and the United States into POS systems belonging to the financial and healthcare sectors, using Cobalt Strike"
+    },
+    {
+      "type": "sector",
+      "name": "Finance",
+      "evidence": "intrusions in early 2019 in India, Japan and the United States into POS systems belonging to the financial and healthcare sectors, using Cobalt Strike"
+    },
+    {
+      "type": "vulnerability",
+      "name": "CVE-2020-1472",
+      "evidence": "or by exploiting a Zerologon vulnerability (CVE-2020- 1472)"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Data Encrypted for Impact",
+      "mitre_id": "T1486",
+      "evidence": "Ryuk then encrypts all files, with the exception of certain Windows, Mozilla, Chrome and Ahnlab files"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Inhibit System Recovery",
+      "mitre_id": "T1490",
+      "evidence": "It then destroys all shadow copies on the system to prevent the users from restoring their system via vssadmin"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder",
+      "mitre_id": "T1547.001",
+      "evidence": "Ryuk’s persistence is achieved by setting the registry key HKEY_CURRENT_USER\\SOFTWARE\\Microsoft \\Windows\\CurrentVersion\\Run\\svchost"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Scheduled Task/Job: Scheduled Task",
+      "mitre_id": "T1053.005",
+      "evidence": "Finally, it can remotely create a scheduled task to execute itself on this host"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Service Stop",
+      "mitre_id": "T1489",
+      "evidence": "After a few minutes of inactivity, Ryuk seeks to stop more than 40 processes and 180 services"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Process Injection",
+      "mitre_id": "T1055",
+      "evidence": "the malicious payload is injected into trusted processes"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Network Share Discovery",
+      "mitre_id": "T1135",
+      "evidence": "Ryuk looks for network shares on the victim IT infrastructure"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Remote System Discovery",
+      "mitre_id": "T1018",
+      "evidence": "It generates every possible IP addresses on local networks and sends an ICMP ping to each of them"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Lateral Tool Transfer",
+      "mitre_id": "T1570",
+      "evidence": "The propagation is achieved by copying the executable on identified network shares"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "File and Directory Permissions Modification: Windows Permissions",
+      "mitre_id": "T1222.001",
+      "evidence": "The malware can launch icacls <path> /grant Everyone:F /T /C /Q to delete every access-based restrictions"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Phishing: Spearphishing Link",
+      "mitre_id": "T1566.002",
+      "evidence": "their infection vector, which is based on phishing emails generally containing links"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Exploit Public-Facing Application",
+      "mitre_id": "T1190",
+      "evidence": "the attackers are thought to have compromised their targets by exploiting an exposed service on the Internet"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Valid Accounts",
+      "mitre_id": "T1078",
+      "evidence": "they appear to have used stolen credentials to move laterally using RDP"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Remote Services: Remote Desktop Protocol",
+      "mitre_id": "T1021.001",
+      "evidence": "they appear to have used stolen credentials to move laterally using RDP"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Command and Scripting Interpreter: PowerShell",
+      "mitre_id": "T1059.001",
+      "evidence": "the attackers are believed to have used PowerShell to download and execute TerraLoader"
+    }
+  ],
+  "observables": [
+    {
+      "type": "ipv4-addr",
+      "value": "185.202.174.91",
+      "indicates": [
+        "FIN6",
+        "Ryuk",
+        "LockerGoga"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "93.115.26.171",
+      "indicates": [
+        "FIN6",
+        "Ryuk",
+        "LockerGoga"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "value": "machunion[.]com",
+      "indicates": [
+        "TrickBot",
+        "BazarLoader"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "value": "bakedbuns[.]com",
+      "indicates": [
+        "TrickBot",
+        "BazarLoader"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "value": "ruths-brownies[.]com",
+      "indicates": [
+        "TrickBot",
+        "BazarLoader"
+      ]
+    },
+    {
+      "type": "file",
+      "value": "544900a527328f2e4fe7598985bc688f",
+      "hash": "MD5",
+      "indicates": [
+        "Ryuk"
+      ]
+    },
+    {
+      "type": "file",
+      "value": "453d355037fabfc9c200022d189b91310fc2577a",
+      "hash": "SHA-1",
+      "indicates": [
+        "Ryuk"
+      ]
+    },
+    {
+      "type": "file",
+      "value": "2820bf6bb2a2d0670c6233301b414ae293cf85536127ac63b2ebd07d8616ae89",
+      "hash": "SHA-256",
+      "indicates": [
+        "Ryuk"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Ryuk",
+      "type": "variant-of",
+      "target": "Hermes",
+      "evidence": "It is a variant of the Hermes 2.1 ransomware"
+    },
+    {
+      "source": "SilentNight",
+      "type": "variant-of",
+      "target": "Zloader",
+      "evidence": "This trojan, sold on Russian-speaking underground forums since the end of 2019, is a variant of the Zloader malware"
+    },
+    {
+      "source": "Wizard Spider",
+      "type": "uses",
+      "target": "TrickBot",
+      "evidence": "The group operating the TrickBot malware is called Wizard Spider by Crowdstrike"
+    },
+    {
+      "source": "Wizard Spider",
+      "type": "uses",
+      "target": "Anchor",
+      "evidence": "It is also thought to be behind the Anchor backdoor and PowerTrick"
+    },
+    {
+      "source": "Wizard Spider",
+      "type": "uses",
+      "target": "PowerTrick",
+      "evidence": "It is also thought to be behind the Anchor backdoor and PowerTrick"
+    },
+    {
+      "source": "Wizard Spider",
+      "type": "uses",
+      "target": "BazarLoader",
+      "evidence": "Wizard Spider is believed to have started distributing the BazarLoader and BazarBackdoor malwares in March 2020"
+    },
+    {
+      "source": "Wizard Spider",
+      "type": "uses",
+      "target": "BazarBackdoor",
+      "evidence": "Wizard Spider is believed to have started distributing the BazarLoader and BazarBackdoor malwares in March 2020"
+    },
+    {
+      "source": "UNC1878",
+      "type": "uses",
+      "target": "Ryuk",
+      "evidence": "Cobalt Strike command and control (C2) servers associated with UNC1878, a Ryuk user"
+    },
+    {
+      "source": "UNC1878",
+      "type": "uses",
+      "target": "Cobalt Strike",
+      "evidence": "the use of legitimate tools throughout the post-compromise infection chain (Cobalt Strike Beacon, Empire, Meterpreter, Mimikatz, LaZagne, Kerbrute, Kerberoast, BloodHound, AdFind, PowerSploit)"
+    },
+    {
+      "source": "UNC1878",
+      "type": "uses",
+      "target": "Empire",
+      "evidence": "the use of legitimate tools throughout the post-compromise infection chain (Cobalt Strike Beacon, Empire, Meterpreter, Mimikatz, LaZagne, Kerbrute, Kerberoast, BloodHound, AdFind, PowerSploit)"
+    },
+    {
+      "source": "UNC1878",
+      "type": "uses",
+      "target": "Meterpreter",
+      "evidence": "the use of legitimate tools throughout the post-compromise infection chain (Cobalt Strike Beacon, Empire, Meterpreter, Mimikatz, LaZagne, Kerbrute, Kerberoast, BloodHound, AdFind, PowerSploit)"
+    },
+    {
+      "source": "UNC1878",
+      "type": "uses",
+      "target": "Mimikatz",
+      "evidence": "the use of legitimate tools throughout the post-compromise infection chain (Cobalt Strike Beacon, Empire, Meterpreter, Mimikatz, LaZagne, Kerbrute, Kerberoast, BloodHound, AdFind, PowerSploit)"
+    },
+    {
+      "source": "UNC1878",
+      "type": "uses",
+      "target": "LaZagne",
+      "evidence": "the use of legitimate tools throughout the post-compromise infection chain (Cobalt Strike Beacon, Empire, Meterpreter, Mimikatz, LaZagne, Kerbrute, Kerberoast, BloodHound, AdFind, PowerSploit)"
+    },
+    {
+      "source": "UNC1878",
+      "type": "uses",
+      "target": "Kerbrute",
+      "evidence": "the use of legitimate tools throughout the post-compromise infection chain (Cobalt Strike Beacon, Empire, Meterpreter, Mimikatz, LaZagne, Kerbrute, Kerberoast, BloodHound, AdFind, PowerSploit)"
+    },
+    {
+      "source": "UNC1878",
+      "type": "uses",
+      "target": "Kerberoast",
+      "evidence": "the use of legitimate tools throughout the post-compromise infection chain (Cobalt Strike Beacon, Empire, Meterpreter, Mimikatz, LaZagne, Kerbrute, Kerberoast, BloodHound, AdFind, PowerSploit)"
+    },
+    {
+      "source": "UNC1878",
+      "type": "uses",
+      "target": "BloodHound",
+      "evidence": "the use of legitimate tools throughout the post-compromise infection chain (Cobalt Strike Beacon, Empire, Meterpreter, Mimikatz, LaZagne, Kerbrute, Kerberoast, BloodHound, AdFind, PowerSploit)"
+    },
+    {
+      "source": "UNC1878",
+      "type": "uses",
+      "target": "AdFind",
+      "evidence": "the use of legitimate tools throughout the post-compromise infection chain (Cobalt Strike Beacon, Empire, Meterpreter, Mimikatz, LaZagne, Kerbrute, Kerberoast, BloodHound, AdFind, PowerSploit)"
+    },
+    {
+      "source": "UNC1878",
+      "type": "uses",
+      "target": "PowerSploit",
+      "evidence": "the use of legitimate tools throughout the post-compromise infection chain (Cobalt Strike Beacon, Empire, Meterpreter, Mimikatz, LaZagne, Kerbrute, Kerberoast, BloodHound, AdFind, PowerSploit)"
+    },
+    {
+      "source": "FIN6",
+      "type": "uses",
+      "target": "Ryuk",
+      "evidence": "FIN6 or affiliated parties were distributing the Ryuk and LockerGoga ransomware"
+    },
+    {
+      "source": "FIN6",
+      "type": "uses",
+      "target": "LockerGoga",
+      "evidence": "FIN6 or affiliated parties were distributing the Ryuk and LockerGoga ransomware"
+    },
+    {
+      "source": "FIN6",
+      "type": "uses",
+      "target": "MegaCortex",
+      "evidence": "FIN6 is thought to have distributed these two ransomware as well as MegaCortex and Maze"
+    },
+    {
+      "source": "FIN6",
+      "type": "uses",
+      "target": "Maze",
+      "evidence": "FIN6 is thought to have distributed these two ransomware as well as MegaCortex and Maze"
+    },
+    {
+      "source": "FIN6",
+      "type": "uses",
+      "target": "Cobalt Strike",
+      "evidence": "using Cobalt Strike and the FrameworkPOS malicious code"
+    },
+    {
+      "source": "FIN6",
+      "type": "uses",
+      "target": "FrameworkPOS",
+      "evidence": "using Cobalt Strike and the FrameworkPOS malicious code"
+    },
+    {
+      "source": "FIN6",
+      "type": "uses",
+      "target": "More_Eggs",
+      "evidence": "the backdoor More_Eggs6 , of which FIN6 is one of the main users"
+    },
+    {
+      "source": "FIN6",
+      "type": "uses",
+      "target": "TerraLoader",
+      "evidence": "the attackers are believed to have used PowerShell to download and execute TerraLoader"
+    },
+    {
+      "source": "Ryuk",
+      "type": "targets",
+      "target": "United States",
+      "evidence": "Ryuk appears in particular to be impacting the United States and Canada"
+    },
+    {
+      "source": "Ryuk",
+      "type": "targets",
+      "target": "Canada",
+      "evidence": "Ryuk appears in particular to be impacting the United States and Canada"
+    },
+    {
+      "source": "Ryuk",
+      "type": "targets",
+      "target": "Health",
+      "evidence": "Ryuk was reportedly responsible for 75% of attacks on the American healthcare sector"
+    },
+    {
+      "source": "UNC1878",
+      "type": "targets",
+      "target": "Healthcare services",
+      "evidence": "These entities are believed to be American hospitals and government agencies, pharmaceutical companies and universities"
+    },
+    {
+      "source": "UNC1878",
+      "type": "targets",
+      "target": "Government and administrations",
+      "evidence": "These entities are believed to be American hospitals and government agencies, pharmaceutical companies and universities"
+    },
+    {
+      "source": "UNC1878",
+      "type": "targets",
+      "target": "Pharmacy and drugs manufacturing",
+      "evidence": "These entities are believed to be American hospitals and government agencies, pharmaceutical companies and universities"
+    },
+    {
+      "source": "UNC1878",
+      "type": "targets",
+      "target": "Universities",
+      "evidence": "These entities are believed to be American hospitals and government agencies, pharmaceutical companies and universities"
+    },
+    {
+      "source": "UNC1878",
+      "type": "targets",
+      "target": "Healthcare services",
+      "evidence": "it is thought to be behind the attacks against American hospitals since October 2020"
+    },
+    {
+      "source": "UNC1878",
+      "type": "targets",
+      "target": "United States",
+      "evidence": "it is thought to be behind the attacks against American hospitals since October 2020"
+    },
+    {
+      "source": "FIN6",
+      "type": "targets",
+      "target": "India",
+      "evidence": "intrusions in early 2019 in India, Japan and the United States into POS systems belonging to the financial and healthcare sectors, using Cobalt Strike"
+    },
+    {
+      "source": "FIN6",
+      "type": "targets",
+      "target": "Japan",
+      "evidence": "intrusions in early 2019 in India, Japan and the United States into POS systems belonging to the financial and healthcare sectors, using Cobalt Strike"
+    },
+    {
+      "source": "FIN6",
+      "type": "targets",
+      "target": "United States",
+      "evidence": "intrusions in early 2019 in India, Japan and the United States into POS systems belonging to the financial and healthcare sectors, using Cobalt Strike"
+    },
+    {
+      "source": "FIN6",
+      "type": "targets",
+      "target": "Finance",
+      "evidence": "intrusions in early 2019 in India, Japan and the United States into POS systems belonging to the financial and healthcare sectors, using Cobalt Strike"
+    },
+    {
+      "source": "FIN6",
+      "type": "targets",
+      "target": "Health",
+      "evidence": "intrusions in early 2019 in India, Japan and the United States into POS systems belonging to the financial and healthcare sectors, using Cobalt Strike"
+    },
+    {
+      "source": "Ryuk",
+      "type": "uses",
+      "target": "T1486",
+      "evidence": "Ryuk then encrypts all files, with the exception of certain Windows, Mozilla, Chrome and Ahnlab files"
+    },
+    {
+      "source": "Ryuk",
+      "type": "uses",
+      "target": "T1490",
+      "evidence": "It then destroys all shadow copies on the system to prevent the users from restoring their system via vssadmin"
+    },
+    {
+      "source": "Ryuk",
+      "type": "uses",
+      "target": "T1547.001",
+      "evidence": "Ryuk’s persistence is achieved by setting the registry key HKEY_CURRENT_USER\\SOFTWARE\\Microsoft \\Windows\\CurrentVersion\\Run\\svchost"
+    },
+    {
+      "source": "Ryuk",
+      "type": "uses",
+      "target": "T1053.005",
+      "evidence": "Finally, it can remotely create a scheduled task to execute itself on this host"
+    },
+    {
+      "source": "Ryuk",
+      "type": "uses",
+      "target": "T1489",
+      "evidence": "After a few minutes of inactivity, Ryuk seeks to stop more than 40 processes and 180 services"
+    },
+    {
+      "source": "Ryuk",
+      "type": "uses",
+      "target": "T1055",
+      "evidence": "the malicious payload is injected into trusted processes"
+    },
+    {
+      "source": "Ryuk",
+      "type": "uses",
+      "target": "T1135",
+      "evidence": "Ryuk looks for network shares on the victim IT infrastructure"
+    },
+    {
+      "source": "Ryuk",
+      "type": "uses",
+      "target": "T1018",
+      "evidence": "It generates every possible IP addresses on local networks and sends an ICMP ping to each of them"
+    },
+    {
+      "source": "Ryuk",
+      "type": "uses",
+      "target": "T1570",
+      "evidence": "The propagation is achieved by copying the executable on identified network shares"
+    },
+    {
+      "source": "Ryuk",
+      "type": "uses",
+      "target": "T1222.001",
+      "evidence": "The malware can launch icacls <path> /grant Everyone:F /T /C /Q to delete every access-based restrictions"
+    },
+    {
+      "source": "UNC1878",
+      "type": "uses",
+      "target": "T1566.002",
+      "evidence": "their infection vector, which is based on phishing emails generally containing links"
+    },
+    {
+      "source": "FIN6",
+      "type": "uses",
+      "target": "T1190",
+      "evidence": "the attackers are thought to have compromised their targets by exploiting an exposed service on the Internet"
+    },
+    {
+      "source": "FIN6",
+      "type": "uses",
+      "target": "T1078",
+      "evidence": "they appear to have used stolen credentials to move laterally using RDP"
+    },
+    {
+      "source": "FIN6",
+      "type": "uses",
+      "target": "T1021.001",
+      "evidence": "they appear to have used stolen credentials to move laterally using RDP"
+    },
+    {
+      "source": "FIN6",
+      "type": "uses",
+      "target": "T1059.001",
+      "evidence": "the attackers are believed to have used PowerShell to download and execute TerraLoader"
+    }
+  ]
+}

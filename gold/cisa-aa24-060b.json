@@ -1,0 +1,480 @@
+{
+  "entities": [
+    {
+      "type": "intrusion-set",
+      "name": "UTA0178",
+      "evidence": "UTA0178 IP address observed interacting with compromised device"
+    },
+    {
+      "type": "vulnerability",
+      "name": "CVE-2023-46805",
+      "evidence": "actively exploiting multiple previously identified vulnerabilities—CVE-2023- 46805, CVE-2024-21887, and CVE-2024-21893"
+    },
+    {
+      "type": "vulnerability",
+      "name": "CVE-2024-21887",
+      "evidence": "46805, CVE-2024-21887, and CVE-2024-21893—affecting Ivanti Connect Secure"
+    },
+    {
+      "type": "vulnerability",
+      "name": "CVE-2024-21893",
+      "evidence": "46805, CVE-2024-21887, and CVE-2024-21893—affecting Ivanti Connect Secure"
+    },
+    {
+      "type": "malware",
+      "name": "GLASSTOKEN",
+      "evidence": "threat actors exploited the vulnerabilities to implant web shells, including GLASSTOKEN and GIFTEDVISITOR"
+    },
+    {
+      "type": "malware",
+      "name": "GIFTEDVISITOR",
+      "evidence": "threat actors exploited the vulnerabilities to implant web shells, including GLASSTOKEN and GIFTEDVISITOR"
+    },
+    {
+      "type": "malware",
+      "name": "BUSHWALK",
+      "evidence": "threat actors developed a way to bypass those mitigations to deploy BUSHWALK, LIGHTWIRE, and CHAINLINE web shell variants"
+    },
+    {
+      "type": "malware",
+      "name": "LIGHTWIRE",
+      "evidence": "threat actors developed a way to bypass those mitigations to deploy BUSHWALK, LIGHTWIRE, and CHAINLINE web shell variants"
+    },
+    {
+      "type": "malware",
+      "name": "CHAINLINE",
+      "evidence": "threat actors developed a way to bypass those mitigations to deploy BUSHWALK, LIGHTWIRE, and CHAINLINE web shell variants"
+    },
+    {
+      "type": "malware",
+      "name": "WIREFIRE",
+      "evidence": "Python package containing WIREFIRE among other files"
+    },
+    {
+      "type": "malware",
+      "name": "WARPWIRE",
+      "evidence": "symantke[.]com Domain WARPWIRE C2 server"
+    },
+    {
+      "type": "malware",
+      "name": "COMPLYSHELL",
+      "evidence": "Detection for the COMPLYSHELL webshell"
+    },
+    {
+      "type": "malware",
+      "name": "CATEGORICAL",
+      "evidence": "Detection for the CATEGORICAL webshell"
+    },
+    {
+      "type": "tool",
+      "name": "Sliver",
+      "evidence": "/bin/netmon Sliver binary"
+    },
+    {
+      "type": "tool",
+      "name": "freerdp",
+      "evidence": "leveraging tools that are native to the Ivanti appliances—such as freerdp, ssh, telnet, and nmap libraries—to expand their access"
+    },
+    {
+      "type": "tool",
+      "name": "ssh",
+      "evidence": "leveraging tools that are native to the Ivanti appliances—such as freerdp, ssh, telnet, and nmap libraries—to expand their access"
+    },
+    {
+      "type": "tool",
+      "name": "telnet",
+      "evidence": "leveraging tools that are native to the Ivanti appliances—such as freerdp, ssh, telnet, and nmap libraries—to expand their access"
+    },
+    {
+      "type": "tool",
+      "name": "nmap",
+      "evidence": "leveraging tools that are native to the Ivanti appliances—such as freerdp, ssh, telnet, and nmap libraries—to expand their access"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Exploit Public-Facing Application",
+      "mitre_id": "T1190",
+      "evidence": "Applications T1190 Cyber actors will use custom web shells planted on public facing applications"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Valid Accounts",
+      "mitre_id": "T1078",
+      "evidence": "Cyber actors leverage compromised accounts to laterally move within internal systems via RDP, SBD, and SSH"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Server Software Component: Web Shell",
+      "mitre_id": "T1505.003",
+      "evidence": "Cyber actors may use web shells on internal- and external-facing web servers to establish persistent access to systems"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Command and Scripting Interpreter: PowerShell",
+      "mitre_id": "T1059.001",
+      "evidence": "which is used to execute arbitrary PowerShell commands"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Exploitation for Client Execution",
+      "mitre_id": "T1203",
+      "evidence": "Cyber actors will exploit software vulnerabilities such as command-injection and achieve unauthenticated remote code execution (RCE)"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Indicator Removal: Timestomp",
+      "mitre_id": "T1070.006",
+      "evidence": "the actors were able to clean up their efforts by overwriting files, time-stomping files"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Remote Services: Remote Desktop Protocol",
+      "mitre_id": "T1021.001",
+      "evidence": "Cyber actors leverage compromised accounts to laterally move within internal systems via RDP"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Remote Services: SSH",
+      "mitre_id": "T1021.004",
+      "evidence": "laterally move within internal systems via RDP, SBD, and SSH"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Input Capture: Web Portal Capture",
+      "mitre_id": "T1056.003",
+      "evidence": "Modified to harvest entered credentials and send them to a remote URL on an attacker"
+    }
+  ],
+  "observables": [
+    {
+      "type": "ipv4-addr",
+      "value": "88.119.169[.]227"
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "103.13.28[.]40"
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "46.8.68[.]100"
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "206.189.208[.]156",
+      "indicates": [
+        "UTA0178"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "75.145.243[.]85",
+      "indicates": [
+        "UTA0178"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "47.207.9[.]89",
+      "indicates": [
+        "UTA0178"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "98.160.48[.]170",
+      "indicates": [
+        "UTA0178"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "173.220.106[.]166",
+      "indicates": [
+        "UTA0178"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "73.128.178[.]221",
+      "indicates": [
+        "UTA0178"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "50.243.177[.]161",
+      "indicates": [
+        "UTA0178"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "50.213.208[.]89",
+      "indicates": [
+        "UTA0178"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "64.24.179[.]210",
+      "indicates": [
+        "UTA0178"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "75.145.224[.]109",
+      "indicates": [
+        "UTA0178"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "50.215.39[.]49",
+      "indicates": [
+        "UTA0178"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "71.127.149[.]194",
+      "indicates": [
+        "UTA0178"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "173.53.43[.]7",
+      "indicates": [
+        "UTA0178"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "value": "gpoaccess[.]com",
+      "indicates": [
+        "UTA0178"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "value": "webb-institute[.]com",
+      "indicates": [
+        "UTA0178"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "value": "symantke[.]com",
+      "indicates": [
+        "UTA0178",
+        "WARPWIRE"
+      ]
+    },
+    {
+      "type": "file",
+      "value": "ed4b855941d6d7e07aacf016a2402c4c870876a050a4a547af194f5a9b47945f",
+      "hash": "SHA-256",
+      "indicates": [
+        "WIREFIRE"
+      ]
+    },
+    {
+      "type": "file",
+      "value": "3045f5b3d355a9ab26ab6f44cc831a83",
+      "hash": "MD5",
+      "indicates": [
+        "CHAINLINE"
+      ]
+    },
+    {
+      "type": "file",
+      "value": "3d97f55a03ceb4f71671aa2ecf5b24e9",
+      "hash": "MD5",
+      "indicates": [
+        "CHAINLINE"
+      ]
+    },
+    {
+      "type": "file",
+      "value": "2ec505088b942c234f39a37188e80d7a",
+      "hash": "MD5",
+      "indicates": [
+        "LIGHTWIRE"
+      ]
+    },
+    {
+      "type": "file",
+      "value": "8eb042da6ba683ef1bae460af103cc44",
+      "hash": "MD5",
+      "indicates": [
+        "WARPWIRE"
+      ]
+    },
+    {
+      "type": "file",
+      "value": "a739bd4c2b9f3679f43579711448786f",
+      "hash": "MD5",
+      "indicates": [
+        "WARPWIRE"
+      ]
+    },
+    {
+      "type": "file",
+      "value": "a81813f70151a022ea1065b7f4d6b5ab",
+      "hash": "MD5",
+      "indicates": [
+        "WARPWIRE"
+      ]
+    },
+    {
+      "type": "file",
+      "value": "d0c7a334a4d9dcd3c6335ae13bee59ea",
+      "hash": "MD5",
+      "indicates": [
+        "WARPWIRE"
+      ]
+    },
+    {
+      "type": "file",
+      "value": "e8489983d73ed30a4240a14b1f161254",
+      "hash": "MD5",
+      "indicates": [
+        "WARPWIRE"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "value": "miltonhouse[.]nl",
+      "indicates": [
+        "WARPWIRE"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "value": "entraide-internationale[.]fr",
+      "indicates": [
+        "WARPWIRE"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "value": "api.d-n-s[.]name",
+      "indicates": [
+        "WARPWIRE"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "value": "cpanel.netbar[.]org",
+      "indicates": [
+        "WARPWIRE"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "value": "clickcom[.]click",
+      "indicates": [
+        "WARPWIRE"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "value": "clicko[.]click",
+      "indicates": [
+        "WARPWIRE"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "value": "duorhytm[.]fun",
+      "indicates": [
+        "WARPWIRE"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "value": "line-api[.]com",
+      "indicates": [
+        "WARPWIRE"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "value": "areekaweb[.]com",
+      "indicates": [
+        "WARPWIRE"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "value": "ehangmun[.]com",
+      "indicates": [
+        "WARPWIRE"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "value": "secure-cama[.]com",
+      "indicates": [
+        "WARPWIRE"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "146.0.228[.]66",
+      "indicates": [
+        "WARPWIRE"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "159.65.130[.]146",
+      "indicates": [
+        "WARPWIRE"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "8.137.112[.]245",
+      "indicates": [
+        "WARPWIRE"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "91.92.254[.]14",
+      "indicates": [
+        "WARPWIRE"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "186.179.39[.]235"
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "45.61.136[.]14"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "UTA0178",
+      "type": "uses",
+      "target": "COMPLYSHELL",
+      "evidence": "rule apt_webshell_pl_complyshell: UTA0178"
+    },
+    {
+      "source": "UTA0178",
+      "type": "uses",
+      "target": "GLASSTOKEN",
+      "evidence": "rule apt_webshell_aspx_glasstoken: UTA0178"
+    },
+    {
+      "source": "UTA0178",
+      "type": "uses",
+      "target": "CATEGORICAL",
+      "evidence": "rule apt_webshell_py_categorical: UTA0178"
+    }
+  ]
+}

@@ -1,0 +1,934 @@
+{
+  "entities": [
+    {
+      "type": "intrusion-set",
+      "name": "Cyber Army of Russia Reborn",
+      "evidence": "CARR —also known as “The People’s Cyber Army of Russia”—in late February or early March of 2022",
+      "aliases": [
+        "CARR",
+        "The People’s Cyber Army of Russia",
+        "CyberArmy of Russia",
+        "Народная CyberАрмия",
+        "НКА",
+        "People’s CyberArmy of Russia",
+        "PCA",
+        "Russian CyberArmy Team",
+        "RCAT"
+      ]
+    },
+    {
+      "type": "intrusion-set",
+      "name": "NoName057(16)",
+      "evidence": "Center for the Study and Network Monitoring of the Youth Environment (CISM), established on behalf of the Kremlin, created NoName057(16)",
+      "aliases": [
+        "NoName057(16) Spain",
+        "NoName057(16) Italy",
+        "NoName057(16) France"
+      ]
+    },
+    {
+      "type": "intrusion-set",
+      "name": "Z-Pentest",
+      "evidence": "Established in September 2024, Z-Pentest is composed of members from CARR and NoName057(16).",
+      "aliases": [
+        "Z-Pentest Beograd",
+        "Z-Pentest Alliance",
+        "Z-Alliance"
+      ]
+    },
+    {
+      "type": "intrusion-set",
+      "name": "Sector16",
+      "evidence": "Formed in January 2025, Sector16 is a novice pro-Russia hacktivist group that emerged through collaboration with Z-Pentest."
+    },
+    {
+      "type": "threat-actor",
+      "name": "GRU military unit 74455",
+      "evidence": "Russian General Staff Main Intelligence Directorate (GRU) Main Center for Special Technologies (GTsST) military unit 74455",
+      "aliases": [
+        "GRU unit 74455",
+        "Sandworm Team",
+        "Voodoo Bear",
+        "Seashell Blizzard",
+        "APT44"
+      ]
+    },
+    {
+      "type": "threat-actor",
+      "name": "Center for the Study and Network Monitoring of the Youth Environment",
+      "evidence": "Center for the Study and Network Monitoring of the Youth Environment (CISM), established on behalf of the Kremlin",
+      "aliases": [
+        "CISM"
+      ]
+    },
+    {
+      "type": "country",
+      "name": "Russia",
+      "evidence": "Russian General Staff Main Intelligence Directorate (GRU) Main Center for Special Technologies (GTsST) military unit 74455"
+    },
+    {
+      "type": "malware",
+      "name": "DDoSia",
+      "evidence": "Senior executives and employees within CISM developed and customized the NoName057(16) proprietary DDoS tool DDoSia"
+    },
+    {
+      "type": "tool",
+      "name": "Nmap",
+      "evidence": "These pro-Russia hacktivist groups abuse popular internet-scraping tools, such as Nmap or OPENVAS, to search for visible VNC services"
+    },
+    {
+      "type": "tool",
+      "name": "OPENVAS",
+      "evidence": "These pro-Russia hacktivist groups abuse popular internet-scraping tools, such as Nmap or OPENVAS, to search for visible VNC services"
+    },
+    {
+      "type": "sector",
+      "name": "Water and Wastewater Systems",
+      "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+    },
+    {
+      "type": "sector",
+      "name": "Food and Agriculture",
+      "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+    },
+    {
+      "type": "sector",
+      "name": "Energy",
+      "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+    },
+    {
+      "type": "sector",
+      "name": "Government",
+      "evidence": "NoName057(16) has conducted frequent DDoS attacks against government and private sector entities"
+    },
+    {
+      "type": "country",
+      "name": "United States",
+      "evidence": "they soon began claiming responsibility for DDoS attacks against the U.S. and Europe for supporting Ukraine."
+    },
+    {
+      "type": "region",
+      "name": "Europe",
+      "evidence": "they soon began claiming responsibility for DDoS attacks against the U.S. and Europe for supporting Ukraine."
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Gather Victim Org Information",
+      "evidence": "Research the compromised device company after the intrusion [T1591].",
+      "mitre_id": "T1591"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Active Scanning: Vulnerability Scanning",
+      "evidence": "Vulnerability Scanning T1595.002 Threat actors use open source tools to look for IP addresses in target countries with visible VNC services on common ports.",
+      "mitre_id": "T1595.002"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Acquire Infrastructure: Virtual Private Server",
+      "evidence": "Virtual Private Server T1583.003 Threat actors use virtual infrastructure to obfuscate identifiers.",
+      "mitre_id": "T1583.003"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Brute Force: Password Spraying",
+      "evidence": "Spraying T1110.003 Threat actors use tools to rapidly guess common or simple passwords.",
+      "mitre_id": "T1110.003"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Remote Services: VNC",
+      "evidence": "Remote Services: VNC T1021.005 Threat actors hunt VNC-enabled devices visible on the internet",
+      "mitre_id": "T1021.005"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Internet Accessible Device",
+      "evidence": "T0883 Threat actors gain access through less secure HMI devices exposed to the internet.",
+      "mitre_id": "T0883"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Valid Accounts",
+      "evidence": "Valid Accounts T0859 Threat actors use password guessing tools to access legitimate accounts on the HMI devices.",
+      "mitre_id": "T0859"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Default Credentials",
+      "evidence": "Default Credentials T0812 Threat actors seek and build libraries of known default passwords for control devices",
+      "mitre_id": "T0812"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Remote Services",
+      "evidence": "Remote Services T0886 Threat actors leverage VNC services to access system HMI devices.",
+      "mitre_id": "T0886"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Graphical User Interface",
+      "evidence": "Interface T0823 Threat actors interact with HMI devices via GUIs, attempting to modify control devices.",
+      "mitre_id": "T0823"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Device Restart/Shutdown",
+      "evidence": "Device restart or shutdown [T0816].",
+      "mitre_id": "T0816"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Alarm Suppression",
+      "evidence": "Alarm Suppression T0878 Threat actors use HMI interfaces to clear alarms caused by their activity",
+      "mitre_id": "T0878"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Change Credential",
+      "evidence": "Change Credential T0892 Threat actors change the usernames and passwords of HMI devices",
+      "mitre_id": "T0892"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Modify Parameter",
+      "evidence": "Modify Parameter T0836 Threat actors attempt to change upper and lower limits of operational devices",
+      "mitre_id": "T0836"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Unauthorized Command Message",
+      "evidence": "Command Message T0855 Threat actors attempt to send unauthorized command messages",
+      "mitre_id": "T0855"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Loss of Productivity and Revenue",
+      "evidence": "T0828 Threat actors purposefully attempt to impact productivity and create additional costs",
+      "mitre_id": "T0828"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Loss of View",
+      "evidence": "Loss of View T0829 Threat actors change credentials on HMI devices, preventing operators from modifying processes remotely.",
+      "mitre_id": "T0829"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Manipulation of Control",
+      "evidence": "Control T0831 Threat actors change setpoints in processes",
+      "mitre_id": "T0831"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Screen Capture",
+      "evidence": "Using the HMI graphical interface [T0823], capture screen recordings or intermittent screenshots",
+      "mitre_id": "T0852"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Network Denial of Service",
+      "evidence": "they soon began claiming responsibility for DDoS attacks against the U.S. and Europe for supporting Ukraine.",
+      "mitre_id": "T1498"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Defacement",
+      "evidence": "the group uses “hack and leak” operations and defacement attacks to draw attention to their pro-Russia messaging",
+      "mitre_id": "T1491"
+    }
+  ],
+  "observables": [],
+  "relationships": [
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "attributed-to",
+      "target": "GRU military unit 74455",
+      "evidence": "military unit 74455—tracked in the cybersecurity community under several names (see Appendix B: Additional Designators Used for Cited Groups)—is likely responsible for supporting the creation of CARR"
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "attributed-to",
+      "target": "Center for the Study and Network Monitoring of the Youth Environment",
+      "evidence": "established on behalf of the Kremlin, created NoName057(16) as a covert project within the organization"
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "uses",
+      "target": "DDoSia",
+      "evidence": "NoName057(16) proprietary DDoS tool DDoSia"
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "uses",
+      "target": "Nmap",
+      "evidence": "These pro-Russia hacktivist groups abuse popular internet-scraping tools, such as Nmap or OPENVAS, to search for visible VNC services"
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "uses",
+      "target": "Nmap",
+      "evidence": "These pro-Russia hacktivist groups abuse popular internet-scraping tools, such as Nmap or OPENVAS, to search for visible VNC services"
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "uses",
+      "target": "Nmap",
+      "evidence": "These pro-Russia hacktivist groups abuse popular internet-scraping tools, such as Nmap or OPENVAS, to search for visible VNC services"
+    },
+    {
+      "source": "Sector16",
+      "type": "uses",
+      "target": "Nmap",
+      "evidence": "These pro-Russia hacktivist groups abuse popular internet-scraping tools, such as Nmap or OPENVAS, to search for visible VNC services"
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "uses",
+      "target": "OPENVAS",
+      "evidence": "These pro-Russia hacktivist groups abuse popular internet-scraping tools, such as Nmap or OPENVAS, to search for visible VNC services"
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "uses",
+      "target": "OPENVAS",
+      "evidence": "These pro-Russia hacktivist groups abuse popular internet-scraping tools, such as Nmap or OPENVAS, to search for visible VNC services"
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "uses",
+      "target": "OPENVAS",
+      "evidence": "These pro-Russia hacktivist groups abuse popular internet-scraping tools, such as Nmap or OPENVAS, to search for visible VNC services"
+    },
+    {
+      "source": "Sector16",
+      "type": "uses",
+      "target": "OPENVAS",
+      "evidence": "These pro-Russia hacktivist groups abuse popular internet-scraping tools, such as Nmap or OPENVAS, to search for visible VNC services"
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "targets",
+      "target": "Water and Wastewater Systems",
+      "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "targets",
+      "target": "Water and Wastewater Systems",
+      "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "targets",
+      "target": "Water and Wastewater Systems",
+      "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+    },
+    {
+      "source": "Sector16",
+      "type": "targets",
+      "target": "Water and Wastewater Systems",
+      "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "targets",
+      "target": "Food and Agriculture",
+      "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "targets",
+      "target": "Food and Agriculture",
+      "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "targets",
+      "target": "Food and Agriculture",
+      "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+    },
+    {
+      "source": "Sector16",
+      "type": "targets",
+      "target": "Food and Agriculture",
+      "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "targets",
+      "target": "Energy",
+      "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "targets",
+      "target": "Energy",
+      "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "targets",
+      "target": "Energy",
+      "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+    },
+    {
+      "source": "Sector16",
+      "type": "targets",
+      "target": "Energy",
+      "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "targets",
+      "target": "Government",
+      "evidence": "NoName057(16) has conducted frequent DDoS attacks against government and private sector entities"
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "targets",
+      "target": "United States",
+      "evidence": "CARR targeted human-machine interface (HMI) devices, claiming intrusions at two U.S. dairy farms."
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "targets",
+      "target": "Europe",
+      "evidence": "they soon began claiming responsibility for DDoS attacks against the U.S. and Europe for supporting Ukraine."
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "targets",
+      "target": "Europe",
+      "evidence": "NATO) member states and other European countries perceived as hostile to Russian geopolitical interests"
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "targets",
+      "target": "United States",
+      "evidence": "NoName057(16) jointly claimed responsibility with CARR for an alleged intrusion against OT assets in the U.S."
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "targets",
+      "target": "United States",
+      "evidence": "Z-Pentest jointly claimed intrusion of a U.S. system with Sector16."
+    },
+    {
+      "source": "Sector16",
+      "type": "targets",
+      "target": "United States",
+      "evidence": "Sector16 actively maintains an online presence, including a public Telegram channel where they share videos, statements, and claims of compromising U.S. energy infrastructure"
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "uses",
+      "target": "T1591",
+      "evidence": "Research the compromised device company after the intrusion [T1591]."
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "uses",
+      "target": "T1591",
+      "evidence": "Research the compromised device company after the intrusion [T1591]."
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "uses",
+      "target": "T1591",
+      "evidence": "Research the compromised device company after the intrusion [T1591]."
+    },
+    {
+      "source": "Sector16",
+      "type": "uses",
+      "target": "T1591",
+      "evidence": "Research the compromised device company after the intrusion [T1591]."
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "uses",
+      "target": "T1595.002",
+      "evidence": "Vulnerability Scanning T1595.002 Threat actors use open source tools to look for IP addresses in target countries with visible VNC services on common ports."
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "uses",
+      "target": "T1595.002",
+      "evidence": "Vulnerability Scanning T1595.002 Threat actors use open source tools to look for IP addresses in target countries with visible VNC services on common ports."
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "uses",
+      "target": "T1595.002",
+      "evidence": "Vulnerability Scanning T1595.002 Threat actors use open source tools to look for IP addresses in target countries with visible VNC services on common ports."
+    },
+    {
+      "source": "Sector16",
+      "type": "uses",
+      "target": "T1595.002",
+      "evidence": "Vulnerability Scanning T1595.002 Threat actors use open source tools to look for IP addresses in target countries with visible VNC services on common ports."
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "uses",
+      "target": "T1583.003",
+      "evidence": "Virtual Private Server T1583.003 Threat actors use virtual infrastructure to obfuscate identifiers."
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "uses",
+      "target": "T1583.003",
+      "evidence": "Virtual Private Server T1583.003 Threat actors use virtual infrastructure to obfuscate identifiers."
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "uses",
+      "target": "T1583.003",
+      "evidence": "Virtual Private Server T1583.003 Threat actors use virtual infrastructure to obfuscate identifiers."
+    },
+    {
+      "source": "Sector16",
+      "type": "uses",
+      "target": "T1583.003",
+      "evidence": "Virtual Private Server T1583.003 Threat actors use virtual infrastructure to obfuscate identifiers."
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "uses",
+      "target": "T1110.003",
+      "evidence": "Spraying T1110.003 Threat actors use tools to rapidly guess common or simple passwords."
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "uses",
+      "target": "T1110.003",
+      "evidence": "Spraying T1110.003 Threat actors use tools to rapidly guess common or simple passwords."
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "uses",
+      "target": "T1110.003",
+      "evidence": "Spraying T1110.003 Threat actors use tools to rapidly guess common or simple passwords."
+    },
+    {
+      "source": "Sector16",
+      "type": "uses",
+      "target": "T1110.003",
+      "evidence": "Spraying T1110.003 Threat actors use tools to rapidly guess common or simple passwords."
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "uses",
+      "target": "T1021.005",
+      "evidence": "Remote Services: VNC T1021.005 Threat actors hunt VNC-enabled devices visible on the internet"
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "uses",
+      "target": "T1021.005",
+      "evidence": "Remote Services: VNC T1021.005 Threat actors hunt VNC-enabled devices visible on the internet"
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "uses",
+      "target": "T1021.005",
+      "evidence": "Remote Services: VNC T1021.005 Threat actors hunt VNC-enabled devices visible on the internet"
+    },
+    {
+      "source": "Sector16",
+      "type": "uses",
+      "target": "T1021.005",
+      "evidence": "Remote Services: VNC T1021.005 Threat actors hunt VNC-enabled devices visible on the internet"
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "uses",
+      "target": "T0883",
+      "evidence": "T0883 Threat actors gain access through less secure HMI devices exposed to the internet."
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "uses",
+      "target": "T0883",
+      "evidence": "T0883 Threat actors gain access through less secure HMI devices exposed to the internet."
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "uses",
+      "target": "T0883",
+      "evidence": "T0883 Threat actors gain access through less secure HMI devices exposed to the internet."
+    },
+    {
+      "source": "Sector16",
+      "type": "uses",
+      "target": "T0883",
+      "evidence": "T0883 Threat actors gain access through less secure HMI devices exposed to the internet."
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "uses",
+      "target": "T0859",
+      "evidence": "Valid Accounts T0859 Threat actors use password guessing tools to access legitimate accounts on the HMI devices."
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "uses",
+      "target": "T0859",
+      "evidence": "Valid Accounts T0859 Threat actors use password guessing tools to access legitimate accounts on the HMI devices."
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "uses",
+      "target": "T0859",
+      "evidence": "Valid Accounts T0859 Threat actors use password guessing tools to access legitimate accounts on the HMI devices."
+    },
+    {
+      "source": "Sector16",
+      "type": "uses",
+      "target": "T0859",
+      "evidence": "Valid Accounts T0859 Threat actors use password guessing tools to access legitimate accounts on the HMI devices."
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "uses",
+      "target": "T0812",
+      "evidence": "Default Credentials T0812 Threat actors seek and build libraries of known default passwords for control devices"
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "uses",
+      "target": "T0812",
+      "evidence": "Default Credentials T0812 Threat actors seek and build libraries of known default passwords for control devices"
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "uses",
+      "target": "T0812",
+      "evidence": "Default Credentials T0812 Threat actors seek and build libraries of known default passwords for control devices"
+    },
+    {
+      "source": "Sector16",
+      "type": "uses",
+      "target": "T0812",
+      "evidence": "Default Credentials T0812 Threat actors seek and build libraries of known default passwords for control devices"
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "uses",
+      "target": "T0886",
+      "evidence": "Remote Services T0886 Threat actors leverage VNC services to access system HMI devices."
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "uses",
+      "target": "T0886",
+      "evidence": "Remote Services T0886 Threat actors leverage VNC services to access system HMI devices."
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "uses",
+      "target": "T0886",
+      "evidence": "Remote Services T0886 Threat actors leverage VNC services to access system HMI devices."
+    },
+    {
+      "source": "Sector16",
+      "type": "uses",
+      "target": "T0886",
+      "evidence": "Remote Services T0886 Threat actors leverage VNC services to access system HMI devices."
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "uses",
+      "target": "T0823",
+      "evidence": "Interface T0823 Threat actors interact with HMI devices via GUIs, attempting to modify control devices."
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "uses",
+      "target": "T0823",
+      "evidence": "Interface T0823 Threat actors interact with HMI devices via GUIs, attempting to modify control devices."
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "uses",
+      "target": "T0823",
+      "evidence": "Interface T0823 Threat actors interact with HMI devices via GUIs, attempting to modify control devices."
+    },
+    {
+      "source": "Sector16",
+      "type": "uses",
+      "target": "T0823",
+      "evidence": "Interface T0823 Threat actors interact with HMI devices via GUIs, attempting to modify control devices."
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "uses",
+      "target": "T0816",
+      "evidence": "Device restart or shutdown [T0816]."
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "uses",
+      "target": "T0816",
+      "evidence": "Device restart or shutdown [T0816]."
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "uses",
+      "target": "T0816",
+      "evidence": "Device restart or shutdown [T0816]."
+    },
+    {
+      "source": "Sector16",
+      "type": "uses",
+      "target": "T0816",
+      "evidence": "Device restart or shutdown [T0816]."
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "uses",
+      "target": "T0878",
+      "evidence": "Alarm Suppression T0878 Threat actors use HMI interfaces to clear alarms caused by their activity"
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "uses",
+      "target": "T0878",
+      "evidence": "Alarm Suppression T0878 Threat actors use HMI interfaces to clear alarms caused by their activity"
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "uses",
+      "target": "T0878",
+      "evidence": "Alarm Suppression T0878 Threat actors use HMI interfaces to clear alarms caused by their activity"
+    },
+    {
+      "source": "Sector16",
+      "type": "uses",
+      "target": "T0878",
+      "evidence": "Alarm Suppression T0878 Threat actors use HMI interfaces to clear alarms caused by their activity"
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "uses",
+      "target": "T0892",
+      "evidence": "Change Credential T0892 Threat actors change the usernames and passwords of HMI devices"
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "uses",
+      "target": "T0892",
+      "evidence": "Change Credential T0892 Threat actors change the usernames and passwords of HMI devices"
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "uses",
+      "target": "T0892",
+      "evidence": "Change Credential T0892 Threat actors change the usernames and passwords of HMI devices"
+    },
+    {
+      "source": "Sector16",
+      "type": "uses",
+      "target": "T0892",
+      "evidence": "Change Credential T0892 Threat actors change the usernames and passwords of HMI devices"
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "uses",
+      "target": "T0836",
+      "evidence": "Modify Parameter T0836 Threat actors attempt to change upper and lower limits of operational devices"
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "uses",
+      "target": "T0836",
+      "evidence": "Modify Parameter T0836 Threat actors attempt to change upper and lower limits of operational devices"
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "uses",
+      "target": "T0836",
+      "evidence": "Modify Parameter T0836 Threat actors attempt to change upper and lower limits of operational devices"
+    },
+    {
+      "source": "Sector16",
+      "type": "uses",
+      "target": "T0836",
+      "evidence": "Modify Parameter T0836 Threat actors attempt to change upper and lower limits of operational devices"
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "uses",
+      "target": "T0855",
+      "evidence": "Command Message T0855 Threat actors attempt to send unauthorized command messages"
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "uses",
+      "target": "T0855",
+      "evidence": "Command Message T0855 Threat actors attempt to send unauthorized command messages"
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "uses",
+      "target": "T0855",
+      "evidence": "Command Message T0855 Threat actors attempt to send unauthorized command messages"
+    },
+    {
+      "source": "Sector16",
+      "type": "uses",
+      "target": "T0855",
+      "evidence": "Command Message T0855 Threat actors attempt to send unauthorized command messages"
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "uses",
+      "target": "T0828",
+      "evidence": "T0828 Threat actors purposefully attempt to impact productivity and create additional costs"
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "uses",
+      "target": "T0828",
+      "evidence": "T0828 Threat actors purposefully attempt to impact productivity and create additional costs"
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "uses",
+      "target": "T0828",
+      "evidence": "T0828 Threat actors purposefully attempt to impact productivity and create additional costs"
+    },
+    {
+      "source": "Sector16",
+      "type": "uses",
+      "target": "T0828",
+      "evidence": "T0828 Threat actors purposefully attempt to impact productivity and create additional costs"
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "uses",
+      "target": "T0829",
+      "evidence": "Loss of View T0829 Threat actors change credentials on HMI devices, preventing operators from modifying processes remotely."
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "uses",
+      "target": "T0829",
+      "evidence": "Loss of View T0829 Threat actors change credentials on HMI devices, preventing operators from modifying processes remotely."
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "uses",
+      "target": "T0829",
+      "evidence": "Loss of View T0829 Threat actors change credentials on HMI devices, preventing operators from modifying processes remotely."
+    },
+    {
+      "source": "Sector16",
+      "type": "uses",
+      "target": "T0829",
+      "evidence": "Loss of View T0829 Threat actors change credentials on HMI devices, preventing operators from modifying processes remotely."
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "uses",
+      "target": "T0831",
+      "evidence": "Control T0831 Threat actors change setpoints in processes"
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "uses",
+      "target": "T0831",
+      "evidence": "Control T0831 Threat actors change setpoints in processes"
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "uses",
+      "target": "T0831",
+      "evidence": "Control T0831 Threat actors change setpoints in processes"
+    },
+    {
+      "source": "Sector16",
+      "type": "uses",
+      "target": "T0831",
+      "evidence": "Control T0831 Threat actors change setpoints in processes"
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "uses",
+      "target": "T0852",
+      "evidence": "Using the HMI graphical interface [T0823], capture screen recordings or intermittent screenshots"
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "uses",
+      "target": "T0852",
+      "evidence": "Using the HMI graphical interface [T0823], capture screen recordings or intermittent screenshots"
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "uses",
+      "target": "T0852",
+      "evidence": "Using the HMI graphical interface [T0823], capture screen recordings or intermittent screenshots"
+    },
+    {
+      "source": "Sector16",
+      "type": "uses",
+      "target": "T0852",
+      "evidence": "Using the HMI graphical interface [T0823], capture screen recordings or intermittent screenshots"
+    },
+    {
+      "source": "GRU military unit 74455",
+      "type": "located-at",
+      "target": "Russia",
+      "evidence": "Russian General Staff Main Intelligence Directorate (GRU) Main Center for Special Technologies (GTsST) military unit 74455"
+    },
+    {
+      "source": "Center for the Study and Network Monitoring of the Youth Environment",
+      "type": "located-at",
+      "target": "Russia",
+      "evidence": "Center for the Study and Network Monitoring of the Youth Environment (CISM), established on behalf of the Kremlin"
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "uses",
+      "target": "T1498",
+      "evidence": "they soon began claiming responsibility for DDoS attacks against the U.S. and Europe for supporting Ukraine."
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "uses",
+      "target": "T1498",
+      "evidence": "Active since March 2022, NoName057(16) has conducted frequent DDoS attacks against government and private sector entities"
+    },
+    {
+      "source": "DDoSia",
+      "type": "uses",
+      "target": "T1498",
+      "evidence": "NoName057(16) proprietary DDoS tool DDoSia"
+    },
+    {
+      "source": "Z-Pentest",
+      "type": "uses",
+      "target": "T1491",
+      "evidence": "the group uses “hack and leak” operations and defacement attacks to draw attention to their pro-Russia messaging"
+    },
+    {
+      "source": "Cyber Army of Russia Reborn",
+      "type": "uses",
+      "target": "T1491",
+      "evidence": "or conduct defacement activities"
+    },
+    {
+      "source": "NoName057(16)",
+      "type": "uses",
+      "target": "T1491",
+      "evidence": "or conduct defacement activities"
+    },
+    {
+      "source": "Sector16",
+      "type": "uses",
+      "target": "T1491",
+      "evidence": "or conduct defacement activities"
+    }
+  ]
+}

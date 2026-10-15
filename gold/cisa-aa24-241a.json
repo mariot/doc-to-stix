@@ -1,0 +1,669 @@
+{
+  "entities": [
+    {
+      "type": "intrusion-set",
+      "name": "Pioneer Kitten",
+      "aliases": [
+        "Fox Kitten",
+        "UNC757",
+        "Parisite",
+        "RUBIDIUM",
+        "Lemon Sandstorm",
+        "Br0k3r",
+        "xplfinder"
+      ],
+      "evidence": "This group is known in the private sector by the names Pioneer Kitten, Fox Kitten, UNC757, Parisite, RUBIDIUM, and Lemon Sandstorm."
+    },
+    {
+      "type": "country",
+      "name": "Iran",
+      "evidence": "a group of Iran-based cyber actors continues to exploit U.S. and foreign organizations"
+    },
+    {
+      "type": "country",
+      "name": "United States",
+      "evidence": "a group of Iran-based cyber actors continues to exploit U.S. and foreign organizations"
+    },
+    {
+      "type": "country",
+      "name": "Israel",
+      "evidence": "other countries (including in Israel, Azerbaijan, and the United Arab Emirates)"
+    },
+    {
+      "type": "country",
+      "name": "Azerbaijan",
+      "evidence": "other countries (including in Israel, Azerbaijan, and the United Arab Emirates)"
+    },
+    {
+      "type": "country",
+      "name": "United Arab Emirates",
+      "evidence": "other countries (including in Israel, Azerbaijan, and the United Arab Emirates)"
+    },
+    {
+      "type": "sector",
+      "name": "Education",
+      "evidence": "including in the education, finance, healthcare, and defense sectors as well as local government entities"
+    },
+    {
+      "type": "sector",
+      "name": "Finance",
+      "evidence": "including in the education, finance, healthcare, and defense sectors as well as local government entities"
+    },
+    {
+      "type": "sector",
+      "name": "Health",
+      "evidence": "including in the education, finance, healthcare, and defense sectors as well as local government entities"
+    },
+    {
+      "type": "sector",
+      "name": "Defense",
+      "evidence": "including in the education, finance, healthcare, and defense sectors as well as local government entities"
+    },
+    {
+      "type": "sector",
+      "name": "Local administrations",
+      "evidence": "including in the education, finance, healthcare, and defense sectors as well as local government entities"
+    },
+    {
+      "type": "vulnerability",
+      "name": "CVE-2024-24919",
+      "evidence": "Check Point Security Gateways (CVE-2024-24919)"
+    },
+    {
+      "type": "vulnerability",
+      "name": "CVE-2024-3400",
+      "evidence": "The actors were likely conducting reconnaissance and probing for devices vulnerable to CVE-2024-3400"
+    },
+    {
+      "type": "vulnerability",
+      "name": "CVE-2019-19781",
+      "evidence": "Historically, this group has exploited organizations by leveraging CVE-2019-19781 and CVE-2023-3519 related to Citrix Netscaler"
+    },
+    {
+      "type": "vulnerability",
+      "name": "CVE-2023-3519",
+      "evidence": "Historically, this group has exploited organizations by leveraging CVE-2019-19781 and CVE-2023-3519 related to Citrix Netscaler"
+    },
+    {
+      "type": "vulnerability",
+      "name": "CVE-2022-1388",
+      "evidence": "and CVE-2022-1388 related to BIG-IP F5 devices"
+    },
+    {
+      "type": "vulnerability",
+      "name": "CVE-2024-21887",
+      "evidence": "Pulse Secure/Ivanti VPNs (CVE-2024-21887)"
+    },
+    {
+      "type": "tool",
+      "name": "AnyDesk",
+      "evidence": "Install “AnyDesk” remote access program as a backup access method [T1219]"
+    },
+    {
+      "type": "tool",
+      "name": "Meshcentral",
+      "evidence": "Deployment of Meshcentral to connect with compromised servers for remote access [T1219]"
+    },
+    {
+      "type": "tool",
+      "name": "Ligolo",
+      "aliases": [
+        "ligolo-ng"
+      ],
+      "evidence": "Use the open source tunneling tool Ligolo (ligolo/ligolo-ng) [T1572]"
+    },
+    {
+      "type": "tool",
+      "name": "ngrok",
+      "evidence": "Use NGROK (ngrok[.]io) deployment to create outbound connections to a random subdomain"
+    },
+    {
+      "type": "malware",
+      "name": "NoEscape",
+      "evidence": "These actors have collaborated with the ransomware affiliates NoEscape[3], Ransomhouse[4], and ALPHV (aka BlackCat)"
+    },
+    {
+      "type": "malware",
+      "name": "Ransomhouse",
+      "evidence": "These actors have collaborated with the ransomware affiliates NoEscape[3], Ransomhouse[4], and ALPHV (aka BlackCat)"
+    },
+    {
+      "type": "malware",
+      "name": "ALPHV",
+      "aliases": [
+        "BlackCat"
+      ],
+      "evidence": "These actors have collaborated with the ransomware affiliates NoEscape[3], Ransomhouse[4], and ALPHV (aka BlackCat)"
+    },
+    {
+      "type": "campaign",
+      "name": "Pay2Key",
+      "evidence": "the FBI has historically observed this actor conduct hack-and-leak campaigns, such as the late 2020 campaign known as Pay2Key"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Search Open Technical Databases",
+      "mitre_id": "T1596",
+      "evidence": "Iranian cyber actors use Shodan (Shodan[.]io) to identify internet infrastructure hosting devices vulnerable to particular CVEs"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Exploit Public-Facing Application",
+      "mitre_id": "T1190",
+      "evidence": "Iranian cyber actors scan and exploit public-facing networking devices"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "External Remote Services",
+      "mitre_id": "T1133",
+      "evidence": "Iranian cyber actors create /xui/common/images/ directory on targeted IP addresses"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Server Software Component: Web Shell",
+      "mitre_id": "T1505.003",
+      "evidence": "Create the directory /var/vpn/themes/imgs/ on Citrix Netscaler devices to deploy a webshell [T1505.003]"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Create Account: Local Account",
+      "mitre_id": "T1136.001",
+      "evidence": "Iranian cyber actors create local accounts on victim networks"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Account Manipulation",
+      "mitre_id": "T1098",
+      "evidence": "Iranian cyber actors request exemptions to zero-trust application for tools they intend to deploy"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Scheduled Task/Job",
+      "mitre_id": "T1053",
+      "evidence": "Use a scheduled task to load malware through installed backdoors [T1053]"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Server Software Component",
+      "mitre_id": "T1505",
+      "evidence": "Iranian cyber actors implement the daily creation of a Windows service task for persistence as detection and mitigation occur"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Valid Accounts: Local Accounts",
+      "mitre_id": "T1078.003",
+      "evidence": "Iranian cyber actors repurpose compromised credentials (e.g., from a Netscaler device) to log into other applications"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Valid Accounts: Domain Accounts",
+      "mitre_id": "T1078.002",
+      "evidence": "Iranian cyber actors repurpose administrative credentials of network admins to log into domain controllers and other infrastructure"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Impair Defenses: Disable or Modify Tools",
+      "mitre_id": "T1562.001",
+      "evidence": "Iranian cyber actors use administrator credentials to disable antivirus and security software"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Impair Defenses: Downgrade Attack",
+      "mitre_id": "T1562.010",
+      "evidence": "Iranian cyber actors lower PowerShell policies to a less secure level"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Input Capture",
+      "mitre_id": "T1056",
+      "evidence": "Iranian cyber actors capture login credentials on compromised Netscaler devices via a deployed webshell"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Command and Scripting Interpreter: PowerShell",
+      "mitre_id": "T1059.001",
+      "evidence": "Iranian cyber actors enable servers to use Windows PowerShell Web Access"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Query Registry",
+      "mitre_id": "T1012",
+      "evidence": "Iranian cyber actors export registry hives and network firewall configurations"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Domain Trust Discovery",
+      "mitre_id": "T1482",
+      "evidence": "Iranian cyber actors exfiltrate account usernames from the domain controller and access configuration files and logs"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Remote Access Software",
+      "mitre_id": "T1219",
+      "evidence": "Iranian cyber actors install “AnyDesk” remote access program"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Protocol Tunneling",
+      "mitre_id": "T1572",
+      "evidence": "Iranian cyber actors use ligolo / ligolo-ng for open source tunneling"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Hijack Execution Flow: DLL Side-Loading",
+      "mitre_id": "T1574.002",
+      "evidence": "This task uses a DLL side-loading technique against the signed Microsoft SysInternals executable contig.exe"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Data Encrypted for Impact",
+      "mitre_id": "T1486",
+      "evidence": "they work closely with ransomware affiliates to lock victim networks"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Financial Theft",
+      "mitre_id": "T1657",
+      "evidence": "providing affiliates with access to victim networks, locking victim networks, and strategizing to extort victims [T1657]"
+    }
+  ],
+  "observables": [
+    {
+      "type": "ipv4-addr",
+      "value": "138.68.90.19",
+      "indicates": [
+        "Pioneer Kitten"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "167.99.202.130",
+      "indicates": [
+        "Pioneer Kitten"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "78.141.238.182",
+      "indicates": [
+        "Pioneer Kitten"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "51.16.51.81",
+      "indicates": [
+        "Pioneer Kitten"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "51.20.138.134",
+      "indicates": [
+        "Pioneer Kitten"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "134.209.30.220",
+      "indicates": [
+        "Pioneer Kitten"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "13.53.124.246",
+      "indicates": [
+        "Pioneer Kitten"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "value": "api.gupdate.net",
+      "indicates": [
+        "Pioneer Kitten"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "value": "githubapp.net",
+      "indicates": [
+        "Pioneer Kitten"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "18.134.0.66",
+      "indicates": [
+        "Pioneer Kitten"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "193.149.190.248",
+      "indicates": [
+        "Pioneer Kitten"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "45.76.65.42",
+      "indicates": [
+        "Pioneer Kitten"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "206.71.148.78",
+      "indicates": [
+        "Pioneer Kitten"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "value": "193.149.187.41",
+      "indicates": [
+        "Pioneer Kitten"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "value": "login.forticloud.online",
+      "indicates": [
+        "Pioneer Kitten"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "value": "fortigate.forticloud.online",
+      "indicates": [
+        "Pioneer Kitten"
+      ]
+    },
+    {
+      "type": "domain-name",
+      "value": "cloud.sophos.one",
+      "indicates": [
+        "Pioneer Kitten"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Pioneer Kitten",
+      "type": "originates-from",
+      "target": "Iran",
+      "evidence": "a group of Iran-based cyber actors continues to exploit U.S. and foreign organizations"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "targets",
+      "target": "United States",
+      "evidence": "a group of Iran-based cyber actors continues to exploit U.S. and foreign organizations"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "targets",
+      "target": "Israel",
+      "evidence": "other countries (including in Israel, Azerbaijan, and the United Arab Emirates)"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "targets",
+      "target": "Azerbaijan",
+      "evidence": "other countries (including in Israel, Azerbaijan, and the United Arab Emirates)"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "targets",
+      "target": "United Arab Emirates",
+      "evidence": "other countries (including in Israel, Azerbaijan, and the United Arab Emirates)"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "targets",
+      "target": "Education",
+      "evidence": "including in the education, finance, healthcare, and defense sectors as well as local government entities"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "targets",
+      "target": "Finance",
+      "evidence": "including in the education, finance, healthcare, and defense sectors as well as local government entities"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "targets",
+      "target": "Health",
+      "evidence": "including in the education, finance, healthcare, and defense sectors as well as local government entities"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "targets",
+      "target": "Defense",
+      "evidence": "including in the education, finance, healthcare, and defense sectors as well as local government entities"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "targets",
+      "target": "Local administrations",
+      "evidence": "including in the education, finance, healthcare, and defense sectors as well as local government entities"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "targets",
+      "target": "CVE-2024-24919",
+      "evidence": "Check Point Security Gateways (CVE-2024-24919)"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "targets",
+      "target": "CVE-2024-3400",
+      "evidence": "The actors were likely conducting reconnaissance and probing for devices vulnerable to CVE-2024-3400"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "targets",
+      "target": "CVE-2019-19781",
+      "evidence": "Historically, this group has exploited organizations by leveraging CVE-2019-19781 and CVE-2023-3519 related to Citrix Netscaler"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "targets",
+      "target": "CVE-2023-3519",
+      "evidence": "Historically, this group has exploited organizations by leveraging CVE-2019-19781 and CVE-2023-3519 related to Citrix Netscaler"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "targets",
+      "target": "CVE-2022-1388",
+      "evidence": "and CVE-2022-1388 related to BIG-IP F5 devices"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "targets",
+      "target": "CVE-2024-21887",
+      "evidence": "Pulse Secure/Ivanti VPNs (CVE-2024-21887)"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "AnyDesk",
+      "evidence": "Install “AnyDesk” remote access program as a backup access method [T1219]"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "Meshcentral",
+      "evidence": "Deployment of Meshcentral to connect with compromised servers for remote access [T1219]"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "Ligolo",
+      "evidence": "Use the open source tunneling tool Ligolo (ligolo/ligolo-ng) [T1572]"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "ngrok",
+      "evidence": "Use NGROK (ngrok[.]io) deployment to create outbound connections to a random subdomain"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "NoEscape",
+      "evidence": "These actors have collaborated with the ransomware affiliates NoEscape[3], Ransomhouse[4], and ALPHV (aka BlackCat)"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "Ransomhouse",
+      "evidence": "These actors have collaborated with the ransomware affiliates NoEscape[3], Ransomhouse[4], and ALPHV (aka BlackCat)"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "ALPHV",
+      "evidence": "These actors have collaborated with the ransomware affiliates NoEscape[3], Ransomhouse[4], and ALPHV (aka BlackCat)"
+    },
+    {
+      "source": "Pay2Key",
+      "type": "attributed-to",
+      "target": "Pioneer Kitten",
+      "evidence": "the FBI has historically observed this actor conduct hack-and-leak campaigns, such as the late 2020 campaign known as Pay2Key"
+    },
+    {
+      "source": "Pay2Key",
+      "type": "targets",
+      "target": "Israel",
+      "evidence": "the FBI assesses Pay2Key was an information operation aimed at undermining the security of Israel-based cyber infrastructure"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "T1596",
+      "evidence": "Iranian cyber actors use Shodan (Shodan[.]io) to identify internet infrastructure hosting devices vulnerable to particular CVEs"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "T1190",
+      "evidence": "Iranian cyber actors scan and exploit public-facing networking devices"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "T1133",
+      "evidence": "Iranian cyber actors create /xui/common/images/ directory on targeted IP addresses"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "T1505.003",
+      "evidence": "Create the directory /var/vpn/themes/imgs/ on Citrix Netscaler devices to deploy a webshell [T1505.003]"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "T1136.001",
+      "evidence": "Iranian cyber actors create local accounts on victim networks"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "T1098",
+      "evidence": "Iranian cyber actors request exemptions to zero-trust application for tools they intend to deploy"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "T1053",
+      "evidence": "Use a scheduled task to load malware through installed backdoors [T1053]"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "T1505",
+      "evidence": "Iranian cyber actors implement the daily creation of a Windows service task for persistence as detection and mitigation occur"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "T1078.003",
+      "evidence": "Iranian cyber actors repurpose compromised credentials (e.g., from a Netscaler device) to log into other applications"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "T1078.002",
+      "evidence": "Iranian cyber actors repurpose administrative credentials of network admins to log into domain controllers and other infrastructure"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "T1562.001",
+      "evidence": "Iranian cyber actors use administrator credentials to disable antivirus and security software"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "T1562.010",
+      "evidence": "Iranian cyber actors lower PowerShell policies to a less secure level"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "T1056",
+      "evidence": "Iranian cyber actors capture login credentials on compromised Netscaler devices via a deployed webshell"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "T1059.001",
+      "evidence": "Iranian cyber actors enable servers to use Windows PowerShell Web Access"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "T1012",
+      "evidence": "Iranian cyber actors export registry hives and network firewall configurations"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "T1482",
+      "evidence": "Iranian cyber actors exfiltrate account usernames from the domain controller and access configuration files and logs"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "T1219",
+      "evidence": "Iranian cyber actors install “AnyDesk” remote access program"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "T1572",
+      "evidence": "Iranian cyber actors use ligolo / ligolo-ng for open source tunneling"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "T1574.002",
+      "evidence": "This task uses a DLL side-loading technique against the signed Microsoft SysInternals executable contig.exe"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "T1486",
+      "evidence": "they work closely with ransomware affiliates to lock victim networks"
+    },
+    {
+      "source": "Pioneer Kitten",
+      "type": "uses",
+      "target": "T1657",
+      "evidence": "providing affiliates with access to victim networks, locking victim networks, and strategizing to extort victims [T1657]"
+    }
+  ]
+}

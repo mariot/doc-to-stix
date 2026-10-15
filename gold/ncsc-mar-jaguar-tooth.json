@@ -1,0 +1,167 @@
+{
+  "entities": [
+    {
+      "type": "malware",
+      "name": "Jaguar Tooth",
+      "evidence": "Jaguar Tooth is non-persistent malware that targets Cisco IOS routers"
+    },
+    {
+      "type": "vulnerability",
+      "name": "CVE-2017-6742",
+      "evidence": "It is deployed and executed via exploitation of the patched Simple Network Management Protocol (SNMP) vulnerability CVE-2017-6742"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Modify Authentication Process",
+      "mitre_id": "T1556",
+      "evidence": "Jaguar Tooth patches two authentication functions to grant access to local accounts for Telnet and physical sessions"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Modify System Image: Patch System Image",
+      "mitre_id": "T1601.001",
+      "evidence": "Jaguar Tooth patches the system image in memory to enable a user authentication bypass"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Exploit Public-Facing Application",
+      "mitre_id": "T1190",
+      "evidence": "Jaguar Tooth is deployed via an SNMP exploit which grants remote code execution"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Exfiltration Over Alternative Protocol: Exfiltration Over Unencrypted Non-C2 Protocol",
+      "mitre_id": "T1048.003",
+      "evidence": "Jaguar Tooth exfiltrates collected device information over TFTP"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Automated Exfiltration",
+      "mitre_id": "T1020",
+      "evidence": "T1020 Automated Exfiltration Jaguar Tooth contains a hard"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Automated Collection",
+      "mitre_id": "T1119",
+      "evidence": "T1119 Automated Collection Jaguar Tooth contains a hard"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Data from Configuration Repository: Network Device Configuration Dump",
+      "mitre_id": "T1602.002",
+      "evidence": "Jaguar Tooth utilises a Cisco IOS CLI command to dump the current device running configuration"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Remote System Discovery",
+      "mitre_id": "T1018",
+      "evidence": "Jaguar Tooth performs remote system discovery by utilising Cisco IOS CLI commands"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "File and Directory Discovery",
+      "mitre_id": "T1083",
+      "evidence": "Jaguar Tooth enumerates the local flash filesystem by utilising a Cisco IOS CLI command"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "System Network Configuration Discovery",
+      "mitre_id": "T1016",
+      "evidence": "Jaguar Tooth utilises several Cisco IOS CLI commands to discover the system network configuration"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "System Information Discovery",
+      "mitre_id": "T1082",
+      "evidence": "Jaguar Tooth discovers system information such as interfaces and software versioning"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Command and Scripting Interpreter: Network Device CLI",
+      "mitre_id": "T1059.008",
+      "evidence": "Jaguar Tooth executes the following shortened Cisco IOS CLI and Tcl commands"
+    }
+  ],
+  "observables": [],
+  "relationships": [
+    {
+      "source": "Jaguar Tooth",
+      "type": "exploits",
+      "target": "CVE-2017-6742",
+      "evidence": "Jaguar Tooth is deployed via exploitation of the patched SNMP vulnerability CVE-2017-6742"
+    },
+    {
+      "source": "Jaguar Tooth",
+      "type": "uses",
+      "target": "T1556",
+      "evidence": "Jaguar Tooth patches two authentication functions to grant access to local accounts for Telnet and physical sessions"
+    },
+    {
+      "source": "Jaguar Tooth",
+      "type": "uses",
+      "target": "T1601.001",
+      "evidence": "Jaguar Tooth patches the system image in memory to enable a user authentication bypass"
+    },
+    {
+      "source": "Jaguar Tooth",
+      "type": "uses",
+      "target": "T1190",
+      "evidence": "Jaguar Tooth is deployed via an SNMP exploit which grants remote code execution"
+    },
+    {
+      "source": "Jaguar Tooth",
+      "type": "uses",
+      "target": "T1048.003",
+      "evidence": "Jaguar Tooth exfiltrates collected device information over TFTP"
+    },
+    {
+      "source": "Jaguar Tooth",
+      "type": "uses",
+      "target": "T1020",
+      "evidence": "T1020 Automated Exfiltration Jaguar Tooth contains a hard"
+    },
+    {
+      "source": "Jaguar Tooth",
+      "type": "uses",
+      "target": "T1119",
+      "evidence": "T1119 Automated Collection Jaguar Tooth contains a hard"
+    },
+    {
+      "source": "Jaguar Tooth",
+      "type": "uses",
+      "target": "T1602.002",
+      "evidence": "Jaguar Tooth utilises a Cisco IOS CLI command to dump the current device running configuration"
+    },
+    {
+      "source": "Jaguar Tooth",
+      "type": "uses",
+      "target": "T1018",
+      "evidence": "Jaguar Tooth performs remote system discovery by utilising Cisco IOS CLI commands"
+    },
+    {
+      "source": "Jaguar Tooth",
+      "type": "uses",
+      "target": "T1083",
+      "evidence": "Jaguar Tooth enumerates the local flash filesystem by utilising a Cisco IOS CLI command"
+    },
+    {
+      "source": "Jaguar Tooth",
+      "type": "uses",
+      "target": "T1016",
+      "evidence": "Jaguar Tooth utilises several Cisco IOS CLI commands to discover the system network configuration"
+    },
+    {
+      "source": "Jaguar Tooth",
+      "type": "uses",
+      "target": "T1082",
+      "evidence": "Jaguar Tooth discovers system information such as interfaces and software versioning"
+    },
+    {
+      "source": "Jaguar Tooth",
+      "type": "uses",
+      "target": "T1059.008",
+      "evidence": "Jaguar Tooth executes the following shortened Cisco IOS CLI and Tcl commands"
+    }
+  ]
+}

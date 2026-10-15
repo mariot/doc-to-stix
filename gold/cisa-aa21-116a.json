@@ -1,0 +1,275 @@
+{
+  "entities": [
+    {
+      "type": "threat-actor",
+      "name": "SVR",
+      "aliases": [
+        "Russian Foreign Intelligence Service"
+      ],
+      "evidence": "Russian Foreign Intelligence Service (SVR) cyber actors"
+    },
+    {
+      "type": "intrusion-set",
+      "name": "APT 29",
+      "aliases": [
+        "Advanced Persistent Threat 29",
+        "The Dukes",
+        "CozyBear",
+        "Yttrium"
+      ],
+      "evidence": "also known as Advanced Persistent Threat 29 (APT 29), the Dukes, CozyBear, and Yttrium"
+    },
+    {
+      "type": "country",
+      "name": "Russia",
+      "evidence": "Russian Foreign Intelligence Service (SVR) cyber actors"
+    },
+    {
+      "type": "country",
+      "name": "United States",
+      "evidence": "SVR cyber operations have posed a longstanding threat to the United States"
+    },
+    {
+      "type": "campaign",
+      "name": "SolarWinds Compromise",
+      "evidence": "the White House released a statement on the recent SolarWinds compromise, attributing the activity to the SVR"
+    },
+    {
+      "type": "vulnerability",
+      "name": "CVE-2019-19781",
+      "evidence": "SVR actors used CVE-2019-19781, a zero-day exploit at the time, against a virtual private network (VPN) appliance"
+    },
+    {
+      "type": "malware",
+      "name": "WELLMESS",
+      "evidence": "attributed intrusions perpetrated using malware known as WELLMESS to APT 29"
+    },
+    {
+      "type": "tool",
+      "name": "Mimikatz",
+      "evidence": "SVR cyber operators have used open source or commercially available tools continuously, including Mimikatz"
+    },
+    {
+      "type": "malware",
+      "name": "Cobalt Strike",
+      "evidence": "Cobalt Strike—a commercially available exploitation tool"
+    },
+    {
+      "type": "sector",
+      "name": "Government and administrations",
+      "evidence": "The SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies"
+    },
+    {
+      "type": "sector",
+      "name": "Think tanks",
+      "evidence": "The SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies"
+    },
+    {
+      "type": "sector",
+      "name": "Technologies",
+      "evidence": "The SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies"
+    },
+    {
+      "type": "sector",
+      "name": "Healthcare research",
+      "evidence": "the actors targeted each organization’s vaccine research repository"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Brute Force: Password Spraying",
+      "mitre_id": "T1110.003",
+      "evidence": "SVR cyber actors used password spraying to identify a weak password associated with an administrative account"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Account Manipulation: Additional Email Delegate Permissions",
+      "mitre_id": "T1098.002",
+      "evidence": "the actors modified permissions of specific e-mail accounts on the network, allowing any authenticated network user to read those accounts"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Email Collection",
+      "mitre_id": "T1114",
+      "evidence": "the actors used the permission changes applied by the compromised administrative user to access specific mailboxes of interest"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Acquire Infrastructure: Virtual Private Server",
+      "mitre_id": "T1583.003",
+      "evidence": "VPS infrastructure is often procured from a network of VPS resellers"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Exploit Public-Facing Application",
+      "mitre_id": "T1190",
+      "evidence": "SVR actors used CVE-2019-19781, a zero-day exploit at the time, against a virtual private network (VPN) appliance to obtain network access"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Valid Accounts",
+      "mitre_id": "T1078",
+      "evidence": "the actors identified and authenticated to systems on the network using the exposed credentials"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Proxy: Multi-hop Proxy",
+      "mitre_id": "T1090.003",
+      "evidence": "including those associated with residential, commercial, mobile, and The Onion Router (TOR) addresses"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "Supply Chain Compromise: Compromise Software Supply Chain",
+      "mitre_id": "T1195.002",
+      "evidence": "using modified SolarWinds network monitoring software as an initial intrusion vector, SVR cyber operators began to expand their access"
+    },
+    {
+      "type": "attack-pattern",
+      "name": "OS Credential Dumping",
+      "mitre_id": "T1003",
+      "evidence": "including Mimikatz—an open source credential-dumping too"
+    }
+  ],
+  "observables": [
+    {
+      "type": "domain-name",
+      "value": "cock[.]li",
+      "indicates": [
+        "SVR"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "SVR",
+      "type": "uses",
+      "target": "T1110.003",
+      "evidence": "SVR cyber actors used password spraying to identify a weak password associated with an administrative account"
+    },
+    {
+      "source": "SVR",
+      "type": "uses",
+      "target": "T1098.002",
+      "evidence": "the actors modified permissions of specific e-mail accounts on the network, allowing any authenticated network user to read those accounts"
+    },
+    {
+      "source": "SVR",
+      "type": "uses",
+      "target": "T1114",
+      "evidence": "the actors used the permission changes applied by the compromised administrative user to access specific mailboxes of interest"
+    },
+    {
+      "source": "SVR",
+      "type": "uses",
+      "target": "T1583.003",
+      "evidence": "VPS infrastructure is often procured from a network of VPS resellers"
+    },
+    {
+      "source": "SVR",
+      "type": "uses",
+      "target": "T1190",
+      "evidence": "SVR actors used CVE-2019-19781, a zero-day exploit at the time, against a virtual private network (VPN) appliance to obtain network access"
+    },
+    {
+      "source": "SVR",
+      "type": "uses",
+      "target": "T1078",
+      "evidence": "the actors identified and authenticated to systems on the network using the exposed credentials"
+    },
+    {
+      "source": "SVR",
+      "type": "uses",
+      "target": "T1090.003",
+      "evidence": "including those associated with residential, commercial, mobile, and The Onion Router (TOR) addresses"
+    },
+    {
+      "source": "SVR",
+      "type": "uses",
+      "target": "T1195.002",
+      "evidence": "using modified SolarWinds network monitoring software as an initial intrusion vector, SVR cyber operators began to expand their access"
+    },
+    {
+      "source": "Mimikatz",
+      "type": "uses",
+      "target": "T1003",
+      "evidence": "including Mimikatz—an open source credential-dumping too"
+    },
+    {
+      "source": "SVR",
+      "type": "located-at",
+      "target": "Russia",
+      "evidence": "Russian Foreign Intelligence Service (SVR) cyber actors"
+    },
+    {
+      "source": "APT 29",
+      "type": "attributed-to",
+      "target": "SVR",
+      "evidence": "also known as Advanced Persistent Threat 29 (APT 29), the Dukes, CozyBear, and Yttrium"
+    },
+    {
+      "source": "APT 29",
+      "type": "originates-from",
+      "target": "Russia",
+      "evidence": "Russian Foreign Intelligence Service (SVR) cyber actors—also known as Advanced Persistent Threat 29 (APT 29)"
+    },
+    {
+      "source": "SVR",
+      "type": "targets",
+      "target": "United States",
+      "evidence": "SVR cyber operations have posed a longstanding threat to the United States"
+    },
+    {
+      "source": "SolarWinds Compromise",
+      "type": "attributed-to",
+      "target": "SVR",
+      "evidence": "the White House released a statement on the recent SolarWinds compromise, attributing the activity to the SVR"
+    },
+    {
+      "source": "SVR",
+      "type": "targets",
+      "target": "CVE-2019-19781",
+      "evidence": "SVR actors used CVE-2019-19781, a zero-day exploit at the time"
+    },
+    {
+      "source": "APT 29",
+      "type": "uses",
+      "target": "WELLMESS",
+      "evidence": "attributed intrusions perpetrated using malware known as WELLMESS to APT 29"
+    },
+    {
+      "source": "APT 29",
+      "type": "targets",
+      "target": "Healthcare research",
+      "evidence": "the actors targeted each organization’s vaccine research repository"
+    },
+    {
+      "source": "SVR",
+      "type": "uses",
+      "target": "Mimikatz",
+      "evidence": "SVR cyber operators have used open source or commercially available tools continuously, including Mimikatz"
+    },
+    {
+      "source": "SVR",
+      "type": "uses",
+      "target": "Cobalt Strike",
+      "evidence": "SVR cyber operators have used open source or commercially available tools continuously, including Mimikatz—an open source credential-dumping too—and Cobalt Strike"
+    },
+    {
+      "source": "SVR",
+      "type": "targets",
+      "target": "Government and administrations",
+      "evidence": "The SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies"
+    },
+    {
+      "source": "SVR",
+      "type": "targets",
+      "target": "Think tanks",
+      "evidence": "The SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies"
+    },
+    {
+      "source": "SVR",
+      "type": "targets",
+      "target": "Technologies",
+      "evidence": "The SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies"
+    }
+  ]
+}
