@@ -104,3 +104,37 @@ def test_harvest_ids_and_iocs():
     values = {o["value"] for o in h["observables"]}
     assert "http://bad.example.com/x" in values and "8.8.8.8" in values
     assert "203.0.113.5" not in values  # documentation range, not global
+
+
+class CutOffBackend:
+    """Answers short chunks; cuts the answer off (output limit) on long ones."""
+
+    model_name = "fake"
+
+    def __init__(self):
+        self.last_truncated = False
+        self.calls = 0
+
+    def complete(self, system, user):
+        self.calls += 1
+        long = len(user) > 2500
+        self.last_truncated = long
+        return (
+            '{"entities": ['
+            if long
+            else '{"entities": [{"type": "intrusion-set", '
+            '"name": "APT29", "evidence": "APT29"}], "observables": [], "relationships": []}'
+        )
+
+
+def test_engine_splits_a_cut_off_chunk():
+    from doc2stix.engine import Engine
+
+    text = (
+        "APT29 did things.\n\n" + ("Some paragraph about APT29 and more words. " * 20 + "\n\n") * 4
+    )
+    backend = CutOffBackend()
+    result = Engine(backend, max_chars=4000, harvest=False).extract(text, title="t")
+    assert backend.calls > 1
+    assert result["_meta"]["errors"] == ""  # every half answered
+    assert any(e["name"] == "APT29" for e in result["entities"])

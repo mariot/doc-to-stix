@@ -198,7 +198,13 @@ Every step taken to improve the training, in order, with its effect.
    harvesting (engine 0.2) it reaches 0.579, below the 30B's 0.695.
    Lesson: examples whose labels cover only part of the task teach the model
    to leave the rest out.
-10. **LoRA v2: distillation for coverage.** Labels with full coverage on real
+10. **Unparsable chunks found: engine 0.3.** Every run lost chunks (13 in the
+    30B's engine 0.2 run): the answer for a long IOC table hits the 6 000-token
+    output limit and the JSON is cut, or the model loops and Ollama aborts it
+    ("token repeat limit reached", which also stopped the qwen3:8b run at
+    document 18). Engine 0.3 asks again in two halves of the chunk (down to two
+    levels), and a failed request no longer ends the document.
+11. **LoRA v2: distillation for coverage.** Labels with full coverage on real
     advisory text: the open-weights teacher (qwen3:30b-a3b, Apache-2.0, engine
     0.2) extracts the 42 training documents chunk by chunk; each chunk's label
     = the teacher's answer + the chunk's literal IDs and IOCs + the official

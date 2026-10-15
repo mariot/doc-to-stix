@@ -46,16 +46,14 @@ class Engine:
         chunks_kept: list[dict] = []
         for chunk in extract.chunks(text, self.max_chars):
             known = compact.parse(merged).entities
-            user = prompt.user_message(title, chunk, known)
-            raw = self.backend.complete(prompt.SYSTEM, user)
-            data = parse_json(raw)
-            if self.keep_chunks:
-                chunks_kept.append({"user": user, "chunk": chunk, "answer": data})
-            if data is None:
-                errors += 1
-                continue
-            for k in merged:
-                merged[k] += [x for x in data.get(k) or [] if isinstance(x, dict)]
+            for part, user, data in self.ask(title, chunk, known):
+                if self.keep_chunks:
+                    chunks_kept.append({"user": user, "chunk": part, "answer": data})
+                if data is None:
+                    errors += 1
+                    continue
+                for k in merged:
+                    merged[k] += [x for x in data.get(k) or [] if isinstance(x, dict)]
         if self.harvest:  # engine 0.2: IDs, CVEs and IOCs written literally (harvest.py)
             merged = harvest.merge(merged, text)
         if self.keep_chunks:
@@ -67,6 +65,38 @@ class Engine:
             "errors": f"{errors} unparsable chunk(s)" if errors else "",
         }
         return merged
+
+    def ask(self, title: str, chunk: str, known: list[dict], depth: int = 0):
+        """The model's answer for a chunk. Engine 0.3: an answer cut at the output
+        limit, unparsable, or aborted (a repetition loop) is asked again in two
+        halves, down to two levels: long IOC tables no longer get lost."""
+        user = prompt.user_message(title, chunk, known)
+        try:
+            raw = self.backend.complete(prompt.SYSTEM, user)
+        except Exception as exc:  # noqa: BLE001 - e.g. Ollama aborting a repetition loop
+            raw = f"error: {exc}"
+        data = parse_json(raw)
+        cut = getattr(self.backend, "last_truncated", False)
+        if (data is None or cut) and depth < 2 and len(chunk) > MIN_SPLIT:
+            for half in halves(chunk):
+                yield from self.ask(title, half, known, depth + 1)
+            return
+        yield chunk, user, data
+
+
+MIN_SPLIT = 1_500  # characters: below this a chunk is not split again
+
+
+def halves(chunk: str) -> list[str]:
+    """Cut a chunk in two at the paragraph (else line) boundary nearest its middle."""
+    mid = len(chunk) // 2
+    for sep in ("\n\n", "\n"):
+        cuts = [i for i in range(len(chunk)) if chunk.startswith(sep, i)]
+        if cuts:
+            cut = min(cuts, key=lambda i: abs(i - mid))
+            if 0 < cut < len(chunk) - 1:
+                return [chunk[:cut], chunk[cut:]]
+    return [chunk[:mid], chunk[mid:]]
 
 
 def parse_json(raw: str) -> dict | None:
@@ -138,6 +168,7 @@ class OllamaBackend:
         self.model, self.num_ctx, self.url = model, num_ctx, base_url.rstrip("/") + "/api/chat"
         self.model_name = model
         self.constrained = True
+        self.last_truncated = False
 
     def complete(self, system: str, user: str) -> str:
         import urllib.error
@@ -160,7 +191,9 @@ class OllamaBackend:
         )
         try:
             with urllib.request.urlopen(req, timeout=1800) as r:
-                return json.loads(r.read())["message"]["content"]
+                out = json.loads(r.read())
+                self.last_truncated = out.get("done_reason") == "length"
+                return out["message"]["content"]
         except urllib.error.HTTPError as exc:
             # Models imported from safetensors run on Ollama's newer engine, which has
             # no structured output: ask again without the schema (a fine-tuned model
