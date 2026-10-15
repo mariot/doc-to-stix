@@ -73,7 +73,7 @@ class Engine:
         user = prompt.user_message(title, chunk, known)
         try:
             raw = self.backend.complete(prompt.SYSTEM, user)
-        except Exception as exc:  # noqa: BLE001 - e.g. Ollama aborting a repetition loop
+        except ModelAborted as exc:  # the model looped: an unparsable answer, not a dead server
             raw = f"error: {exc}"
         data = parse_json(raw)
         cut = getattr(self.backend, "last_truncated", False)
@@ -161,6 +161,12 @@ SCHEMA = {
 }
 
 
+class ModelAborted(RuntimeError):
+    """The backend stopped a generation that looped (Ollama: "token repeat limit
+    reached"). Counted as an unparsable answer; any other error (server down,
+    out of memory) must stop the run, not pass for an empty extraction."""
+
+
 class OllamaBackend:
     """Ollama's native chat API: JSON-schema constrained output, thinking off."""
 
@@ -195,10 +201,13 @@ class OllamaBackend:
                 self.last_truncated = out.get("done_reason") == "length"
                 return out["message"]["content"]
         except urllib.error.HTTPError as exc:
+            detail = exc.read().decode(errors="ignore")
+            if "repeat limit" in detail:
+                raise ModelAborted(detail) from exc
             # Models imported from safetensors run on Ollama's newer engine, which has
             # no structured output: ask again without the schema (a fine-tuned model
             # answers in the format it was trained on).
-            if self.constrained and "structured output" in exc.read().decode(errors="ignore"):
+            if self.constrained and "structured output" in detail:
                 self.constrained = False
                 return self.complete(system, user)
             raise

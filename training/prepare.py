@@ -23,6 +23,19 @@ def load(name: str) -> list[dict]:
     return [json.loads(line) for line in path.read_text().splitlines()] if path.exists() else []
 
 
+def fit(rows: list[dict], max_tokens: int) -> tuple[list[dict], int]:
+    from transformers import AutoTokenizer
+
+    tok = AutoTokenizer.from_pretrained("mlx-community/Qwen3-8B-4bit")
+    kept = []
+    for r in rows:
+        t = tok.apply_chat_template(r["messages"], tokenize=True)
+        n = len(t["input_ids"] if hasattr(t, "keys") else t)
+        if n <= max_tokens:
+            kept.append(r)
+    return kept, len(rows) - len(kept)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--attack", type=int, default=1200, help="ATT&CK examples to keep")
@@ -31,6 +44,14 @@ def main() -> None:
     ap.add_argument("--valid", type=float, default=0.05)
     ap.add_argument("--seed", type=int, default=7)
     ap.add_argument("--out", default=str(DATA / "mlx"))
+    ap.add_argument(
+        "--max-tokens",
+        type=int,
+        default=0,
+        help="drop rows longer than this (the training max_seq_length): a truncated row teaches "
+        "an incomplete answer, and one whose prompt alone fills it has no token to learn from "
+        "(loss 0/0: NaN, which poisoned LoRA v2 from its first step)",
+    )
     args = ap.parse_args()
     rng = random.Random(args.seed)
     attack = load("attack.jsonl")
@@ -50,6 +71,13 @@ def main() -> None:
         + [d for d in docs if d["document"] not in held_docs] * args.doc_weight
     )
     rng.shuffle(train)
+    if args.max_tokens:
+        train, dropped_t = fit(train, args.max_tokens)
+        valid, dropped_v = fit(valid, args.max_tokens)
+        print(
+            f"dropped rows longer than {args.max_tokens} tokens: "
+            f"{dropped_t} train, {dropped_v} valid"
+        )
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
     for name, rows in (("train", train), ("valid", valid)):
