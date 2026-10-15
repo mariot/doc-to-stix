@@ -1,0 +1,67 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.env
+infra/opencti/.env
+runs/**/*.log
+training/models/
+training/adapters/
+*.safetensors
+.DS_Store
+training/sources/*.json
+
+# Documents: only works of US federal agencies alone (public domain) are committed;
+# the others are fetched with `doc2stix fetch` (corpus/sources.yaml: URL + SHA-256).
+corpus/docs/*
+corpus/text/*
+!corpus/docs/cisa-aa22-158a.html
+!corpus/docs/cisa-aa20-352a.html
+!corpus/docs/cisa-aa22-264a.pdf
+!corpus/docs/cisa-aa22-320a.pdf
+!corpus/docs/cisa-aa24-241a.pdf
+!corpus/docs/cisa-aa22-108a.pdf
+!corpus/docs/cisa-aa22-187a.pdf
+!corpus/docs/cisa-aa22-152a.pdf
+!corpus/docs/cisa-aa22-321a.pdf
+!corpus/docs/cisa-aa23-061a.pdf
+!corpus/docs/cisa-aa23-075a.pdf
+!corpus/docs/cisa-aa23-158a.pdf
+!corpus/docs/cisa-aa24-131a.pdf
+!corpus/docs/cisa-aa25-071a.pdf
+!corpus/docs/cisa-aa25-163a.pdf
+!corpus/docs/cisa-aa26-222a.pdf
+!corpus/docs/cisa-aa23-250a.pdf
+!corpus/docs/cisa-aa23-242a.pdf
+!corpus/docs/cisa-aa25-141b.pdf
+!corpus/docs/cisa-aa22-057a.pdf
+!corpus/text/cisa-aa22-158a.txt
+!corpus/text/cisa-aa20-352a.txt
+!corpus/text/cisa-aa22-264a.txt
+!corpus/text/cisa-aa22-320a.txt
+!corpus/text/cisa-aa24-241a.txt
+!corpus/text/cisa-aa22-108a.txt
+!corpus/text/cisa-aa22-187a.txt
+!corpus/text/cisa-aa22-152a.txt
+!corpus/text/cisa-aa22-321a.txt
+!corpus/text/cisa-aa23-061a.txt
+!corpus/text/cisa-aa23-075a.txt
+!corpus/text/cisa-aa23-158a.txt
+!corpus/text/cisa-aa24-131a.txt
+!corpus/text/cisa-aa25-071a.txt
+!corpus/text/cisa-aa25-163a.txt
+!corpus/text/cisa-aa26-222a.txt
+!corpus/text/cisa-aa23-250a.txt
+!corpus/text/cisa-aa23-242a.txt
+!corpus/text/cisa-aa25-141b.txt
+!corpus/text/cisa-aa22-057a.txt
+
+# Training data embeds chunks of the documents: rebuilt by training/build_*.py
+training/data/
+training/sources/
+# Teacher runs keep each chunk of the training documents (--keep-chunks)
+runs/teacher-*/
+# Local run orchestration (absolute paths of this machine)
+runs/chain-*.sh
+runs/*.log
+runs/gold-import.log

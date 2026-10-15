@@ -1,0 +1,323 @@
+{
+ "Attack-Pattern|Attack-Pattern": [
+  "derived-from",
+  "subtechnique-of"
+ ],
+ "Attack-Pattern|Country": [
+  "targets"
+ ],
+ "Attack-Pattern|Malware": [
+  "delivers",
+  "uses"
+ ],
+ "Attack-Pattern|Organization": [
+  "targets"
+ ],
+ "Attack-Pattern|Region": [
+  "targets"
+ ],
+ "Attack-Pattern|Sector": [
+  "targets"
+ ],
+ "Attack-Pattern|Tool": [
+  "uses"
+ ],
+ "Attack-Pattern|Vulnerability": [
+  "targets"
+ ],
+ "Campaign|Attack-Pattern": [
+  "uses"
+ ],
+ "Campaign|Campaign": [
+  "derived-from"
+ ],
+ "Campaign|Country": [
+  "originates-from",
+  "targets"
+ ],
+ "Campaign|Infrastructure": [
+  "compromises",
+  "uses"
+ ],
+ "Campaign|Intrusion-Set": [
+  "attributed-to"
+ ],
+ "Campaign|Malware": [
+  "uses"
+ ],
+ "Campaign|Organization": [
+  "targets"
+ ],
+ "Campaign|Region": [
+  "originates-from",
+  "targets"
+ ],
+ "Campaign|Sector": [
+  "targets"
+ ],
+ "Campaign|Threat-Actor-Group": [
+  "attributed-to"
+ ],
+ "Campaign|Tool": [
+  "uses"
+ ],
+ "Campaign|Vulnerability": [
+  "targets"
+ ],
+ "Country|Country": [
+  "derived-from"
+ ],
+ "Country|Region": [
+  "located-at"
+ ],
+ "Indicator|Attack-Pattern": [
+  "indicates"
+ ],
+ "Indicator|Campaign": [
+  "indicates"
+ ],
+ "Indicator|Indicator": [
+  "derived-from"
+ ],
+ "Indicator|Infrastructure": [
+  "indicates"
+ ],
+ "Indicator|Intrusion-Set": [
+  "indicates"
+ ],
+ "Indicator|Malware": [
+  "indicates"
+ ],
+ "Indicator|Observable": [
+  "based-on"
+ ],
+ "Indicator|Threat-Actor-Group": [
+  "indicates"
+ ],
+ "Indicator|Tool": [
+  "indicates"
+ ],
+ "Indicator|Vulnerability": [
+  "indicates"
+ ],
+ "Infrastructure|Attack-Pattern": [
+  "detects"
+ ],
+ "Infrastructure|Country": [
+  "located-at"
+ ],
+ "Infrastructure|Infrastructure": [
+  "communicates-with",
+  "consists-of",
+  "controls",
+  "derived-from",
+  "supports",
+  "uses"
+ ],
+ "Infrastructure|Malware": [
+  "controls",
+  "delivers",
+  "hosts"
+ ],
+ "Infrastructure|Observable": [
+  "consists-of"
+ ],
+ "Infrastructure|Organization": [
+  "belongs-to"
+ ],
+ "Infrastructure|Region": [
+  "located-at"
+ ],
+ "Infrastructure|Tool": [
+  "hosts"
+ ],
+ "Infrastructure|Vulnerability": [
+  "has"
+ ],
+ "Intrusion-Set|Attack-Pattern": [
+  "uses"
+ ],
+ "Intrusion-Set|Campaign": [
+  "attributed-to"
+ ],
+ "Intrusion-Set|Country": [
+  "originates-from",
+  "targets"
+ ],
+ "Intrusion-Set|Infrastructure": [
+  "compromises",
+  "hosts",
+  "owns",
+  "uses"
+ ],
+ "Intrusion-Set|Intrusion-Set": [
+  "derived-from",
+  "part-of"
+ ],
+ "Intrusion-Set|Malware": [
+  "uses"
+ ],
+ "Intrusion-Set|Organization": [
+  "targets"
+ ],
+ "Intrusion-Set|Region": [
+  "originates-from",
+  "targets"
+ ],
+ "Intrusion-Set|Sector": [
+  "targets"
+ ],
+ "Intrusion-Set|Threat-Actor-Group": [
+  "attributed-to"
+ ],
+ "Intrusion-Set|Tool": [
+  "uses"
+ ],
+ "Intrusion-Set|Vulnerability": [
+  "targets"
+ ],
+ "Malware|Attack-Pattern": [
+  "uses"
+ ],
+ "Malware|Country": [
+  "originates-from",
+  "targets"
+ ],
+ "Malware|Infrastructure": [
+  "beacons-to",
+  "exfiltrates-to",
+  "targets",
+  "uses"
+ ],
+ "Malware|Intrusion-Set": [
+  "authored-by"
+ ],
+ "Malware|Malware": [
+  "controls",
+  "derived-from",
+  "downloads",
+  "drops",
+  "uses",
+  "variant-of"
+ ],
+ "Malware|Organization": [
+  "targets"
+ ],
+ "Malware|Region": [
+  "originates-from",
+  "targets"
+ ],
+ "Malware|Sector": [
+  "targets"
+ ],
+ "Malware|Threat-Actor-Group": [
+  "authored-by"
+ ],
+ "Malware|Tool": [
+  "downloads",
+  "drops",
+  "uses"
+ ],
+ "Malware|Vulnerability": [
+  "exploits",
+  "targets"
+ ],
+ "Organization|Infrastructure": [
+  "owns"
+ ],
+ "Organization|Organization": [
+  "derived-from"
+ ],
+ "Organization|Vulnerability": [
+  "has"
+ ],
+ "Region|Region": [
+  "derived-from",
+  "located-at"
+ ],
+ "Sector|Country": [
+  "located-at"
+ ],
+ "Sector|Region": [
+  "located-at"
+ ],
+ "Sector|Sector": [
+  "derived-from",
+  "part-of"
+ ],
+ "Threat-Actor-Group|Attack-Pattern": [
+  "uses"
+ ],
+ "Threat-Actor-Group|Campaign": [
+  "participates-in"
+ ],
+ "Threat-Actor-Group|Country": [
+  "located-at",
+  "targets"
+ ],
+ "Threat-Actor-Group|Infrastructure": [
+  "compromises",
+  "hosts",
+  "owns",
+  "uses"
+ ],
+ "Threat-Actor-Group|Malware": [
+  "uses"
+ ],
+ "Threat-Actor-Group|Organization": [
+  "attributed-to",
+  "impersonates",
+  "targets"
+ ],
+ "Threat-Actor-Group|Region": [
+  "located-at",
+  "targets"
+ ],
+ "Threat-Actor-Group|Sector": [
+  "targets"
+ ],
+ "Threat-Actor-Group|Threat-Actor-Group": [
+  "cooperates-with",
+  "derived-from",
+  "part-of"
+ ],
+ "Threat-Actor-Group|Tool": [
+  "uses"
+ ],
+ "Threat-Actor-Group|Vulnerability": [
+  "targets"
+ ],
+ "Tool|Attack-Pattern": [
+  "uses"
+ ],
+ "Tool|Country": [
+  "targets"
+ ],
+ "Tool|Infrastructure": [
+  "targets",
+  "uses"
+ ],
+ "Tool|Malware": [
+  "delivers",
+  "drops"
+ ],
+ "Tool|Organization": [
+  "targets"
+ ],
+ "Tool|Region": [
+  "targets"
+ ],
+ "Tool|Sector": [
+  "targets"
+ ],
+ "Tool|Tool": [
+  "derived-from"
+ ],
+ "Tool|Vulnerability": [
+  "has",
+  "targets"
+ ],
+ "Vulnerability|Vulnerability": [
+  "derived-from"
+ ]
+}

@@ -1,0 +1,34 @@
+[project]
+name = "doc-to-stix"
+version = "0.1.0"
+description = "Threat-intelligence documents (PDF, HTML) to coherent STIX 2.1 bundles for OpenCTI: gold set, scorer, engine, fine-tuning"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = "Apache-2.0"
+dependencies = [
+    "anthropic>=0.70",
+    "pycti==7.261008.0",
+    "pypdfium2>=5.14",
+    "pyyaml>=6",
+    "stix2>=3.0",
+]
+
+[project.scripts]
+doc2stix = "doc2stix.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.13"]
+train = ["mlx-lm>=0.32"]
+
+[build-system]
+requires = ["uv_build>=0.12,<0.13"]
+build-backend = "uv_build"
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.uv.build-backend]
+module-name = "doc2stix"

@@ -1,0 +1,2703 @@
+{
+ "source": "https://github.com/OpenCTI-Platform/datasets (data/sectors.json, data/geography.json)",
+ "sectors": [
+  {
+   "name": "Agriculture and agribusiness",
+   "parent": null,
+   "aliases": [
+    "Agriculture",
+    "Agribusiness",
+    "Food Production",
+    "Nutritional Supplements"
+   ]
+  },
+  {
+   "name": "Logistics",
+   "parent": null,
+   "aliases": [
+    "Logistic"
+   ]
+  },
+  {
+   "name": "Culture and entertainment",
+   "parent": null,
+   "aliases": [
+    "Entertainment"
+   ]
+  },
+  {
+   "name": "Culture",
+   "parent": "Culture and entertainment",
+   "aliases": [
+    "Travel"
+   ]
+  },
+  {
+   "name": "Sports",
+   "parent": "Culture and entertainment",
+   "aliases": [
+    "Sport"
+   ]
+  },
+  {
+   "name": "Entertainment industry",
+   "parent": "Culture and entertainment",
+   "aliases": [
+    "Gaming",
+    "Online Gaming Community"
+   ]
+  },
+  {
+   "name": "Gambling",
+   "parent": "Culture and entertainment",
+   "aliases": []
+  },
+  {
+   "name": "Education",
+   "parent": null,
+   "aliases": []
+  },
+  {
+   "name": "Universities",
+   "parent": "Education",
+   "aliases": [
+    "Higher education",
+    "Academic",
+    "Academics",
+    "Academic Sector"
+   ]
+  },
+  {
+   "name": "Schools",
+   "parent": "Education",
+   "aliases": []
+  },
+  {
+   "name": "Energy",
+   "parent": null,
+   "aliases": [
+    "Natural Resources",
+    "Energy"
+   ]
+  },
+  {
+   "name": "Electricity",
+   "parent": "Energy",
+   "aliases": [
+    "Electrical",
+    "Power",
+    "Utilities &amp; Electric"
+   ]
+  },
+  {
+   "name": "Nuclear power (civilian use)",
+   "parent": "Energy",
+   "aliases": [
+    "Nuclear"
+   ]
+  },
+  {
+   "name": "Gas",
+   "parent": "Energy",
+   "aliases": [
+    "Oil and Gas",
+    "Natural Gas Utilities",
+    "Gas and Oil",
+    "Oil &amp; Gas Manufacturing",
+    "Gas And"
+   ]
+  },
+  {
+   "name": "Oil",
+   "parent": "Energy",
+   "aliases": [
+    "Fuel"
+   ]
+  },
+  {
+   "name": "Renewable energies",
+   "parent": "Energy",
+   "aliases": []
+  },
+  {
+   "name": "Transport",
+   "parent": null,
+   "aliases": [
+    "Transportation",
+    "Shipping"
+   ]
+  },
+  {
+   "name": "Air transport",
+   "parent": "Transport",
+   "aliases": [
+    "Aerospace",
+    "Aviation",
+    "Satellite",
+    "Satellite and communications",
+    "Airline"
+   ]
+  },
+  {
+   "name": "Rail transport",
+   "parent": "Transport",
+   "aliases": []
+  },
+  {
+   "name": "Maritime transport",
+   "parent": "Transport",
+   "aliases": [
+    "Marine",
+    "Naval",
+    "maritime"
+   ]
+  },
+  {
+   "name": "Road transport",
+   "parent": "Transport",
+   "aliases": [
+    "Automotive"
+   ]
+  },
+  {
+   "name": "Defense",
+   "parent": null,
+   "aliases": [
+    "Defence",
+    "National Security"
+   ]
+  },
+  {
+   "name": "Defense ministries (including the military)",
+   "parent": "Defense",
+   "aliases": [
+    "Military",
+    "intelligence",
+    "Intelligence services"
+   ]
+  },
+  {
+   "name": "Defense industry",
+   "parent": "Defense",
+   "aliases": [
+    "Defence industry"
+   ]
+  },
+  {
+   "name": "Defense research and development",
+   "parent": "Defense",
+   "aliases": [
+    "Defence research and development"
+   ]
+  },
+  {
+   "name": "Finance",
+   "parent": null,
+   "aliases": [
+    "Financial Industry (FI)",
+    "Financial-Services",
+    "Financial",
+    "Financial Services"
+   ]
+  },
+  {
+   "name": "Banking institutions",
+   "parent": "Finance",
+   "aliases": [
+    "Banking",
+    "Bank",
+    "Banks",
+    "Banking Services",
+    "Banking & Investment Services"
+   ]
+  },
+  {
+   "name": "Financial organizations",
+   "parent": "Finance",
+   "aliases": [
+    "investment"
+   ]
+  },
+  {
+   "name": "Insurance services",
+   "parent": "Finance",
+   "aliases": [
+    "Insurance"
+   ]
+  },
+  {
+   "name": "Market infrastructures",
+   "parent": "Finance",
+   "aliases": [
+    "Trade",
+    "Trading"
+   ]
+  },
+  {
+   "name": "Diplomacy",
+   "parent": null,
+   "aliases": [
+    "Diplomatic",
+    "Foreign"
+   ]
+  },
+  {
+   "name": "Ministries of foreign affairs",
+   "parent": "Diplomacy",
+   "aliases": [
+    "Foreign Affairs"
+   ]
+  },
+  {
+   "name": "Think tanks",
+   "parent": "Diplomacy",
+   "aliases": [
+    "Think tank",
+    "Thinktank",
+    "Thinktanks"
+   ]
+  },
+  {
+   "name": "International organizations",
+   "parent": "Diplomacy",
+   "aliases": [
+    "Diplomatic Organizations"
+   ]
+  },
+  {
+   "name": "Government and administrations",
+   "parent": null,
+   "aliases": [
+    "Government",
+    "Election",
+    "Voting"
+   ]
+  },
+  {
+   "name": "Central administration and government",
+   "parent": "Government and administrations",
+   "aliases": [
+    "Government-National",
+    "Emergency-Services",
+    "Government-Public-Services",
+    "Law Enforcement",
+    "Police",
+    "Security",
+    "Critical Public"
+   ]
+  },
+  {
+   "name": "Local administrations",
+   "parent": "Government and administrations",
+   "aliases": [
+    "Government-Local",
+    "Government-Regional"
+   ]
+  },
+  {
+   "name": "Legislative branch (parliamentary chambers)",
+   "parent": "Government and administrations",
+   "aliases": []
+  },
+  {
+   "name": "Health",
+   "parent": null,
+   "aliases": [
+    "Healthcare"
+   ]
+  },
+  {
+   "name": "Healthcare services",
+   "parent": "Health",
+   "aliases": [
+    "Medical",
+    "Social Services"
+   ]
+  },
+  {
+   "name": "Pharmacy and drugs manufacturing",
+   "parent": "Health",
+   "aliases": [
+    "Pharmaceuticals",
+    "Pharmaceutical"
+   ]
+  },
+  {
+   "name": "Healthcare research",
+   "parent": "Health",
+   "aliases": [
+    "Biomedical"
+   ]
+  },
+  {
+   "name": "Hospitality",
+   "parent": null,
+   "aliases": [
+    "Hospitality-Leisure"
+   ]
+  },
+  {
+   "name": "Lodging industry",
+   "parent": "Hospitality",
+   "aliases": []
+  },
+  {
+   "name": "Food and drinks businesses",
+   "parent": "Hospitality",
+   "aliases": [
+    "Food",
+    "Restaurant",
+    "Restaurant Chains",
+    "Beverage"
+   ]
+  },
+  {
+   "name": "Travel and tourism industry",
+   "parent": "Hospitality",
+   "aliases": [
+    "Commodities",
+    "Tourism"
+   ]
+  },
+  {
+   "name": "Technologies",
+   "parent": null,
+   "aliases": [
+    "Technology",
+    "Crypto",
+    "Cryptocurrency",
+    "Information Security",
+    "Vulnerability Research",
+    "software",
+    "Software Development",
+    "IT",
+    "Currency Exchange",
+    "Virtual Currency",
+    "Bitcoin"
+   ]
+  },
+  {
+   "name": "High-tech",
+   "parent": "Technologies",
+   "aliases": [
+    "Semiconductor",
+    "Biotechnology",
+    "Electronics",
+    "High Tech",
+    "High Technology"
+   ]
+  },
+  {
+   "name": "Unknown",
+   "parent": null,
+   "aliases": [
+    "Undefined"
+   ]
+  },
+  {
+   "name": "Judicial power (justice)",
+   "parent": null,
+   "aliases": [
+    "law"
+   ]
+  },
+  {
+   "name": "Manufacturing",
+   "parent": null,
+   "aliases": [
+    "Utilities",
+    "industrial",
+    "ICS",
+    "Industrial Control Systems"
+   ]
+  },
+  {
+   "name": "Heavy industries",
+   "parent": "Manufacturing",
+   "aliases": [
+    "Chemical",
+    "Petrochemicals",
+    "Industry",
+    "Metal",
+    "Infrastructure",
+    "Critical Infrastructure",
+    "Metallurgical",
+    "metals",
+    "heavy industry",
+    "Critical Infrastructures",
+    "Textile"
+   ]
+  },
+  {
+   "name": "Construction",
+   "parent": "Manufacturing",
+   "aliases": [
+    "Building",
+    "Offshore Engineering",
+    "Offshore",
+    "Real Estate"
+   ]
+  },
+  {
+   "name": "Retail (distribution)",
+   "parent": "Manufacturing",
+   "aliases": [
+    "Retail",
+    "Commercial",
+    "Distribution",
+    "e-commerce",
+    "Ecommerce",
+    "commerce",
+    "Wholesale"
+   ]
+  },
+  {
+   "name": "Telecommunications",
+   "parent": null,
+   "aliases": [
+    "Communications",
+    "Telecommunication",
+    "Telecom",
+    "Telecoms"
+   ]
+  },
+  {
+   "name": "Digital infrastructures",
+   "parent": "Telecommunications",
+   "aliases": [
+    "Cellular",
+    "domain"
+   ]
+  },
+  {
+   "name": "Hosting service providers",
+   "parent": "Telecommunications",
+   "aliases": []
+  },
+  {
+   "name": "Internet Service providers",
+   "parent": "Telecommunications",
+   "aliases": []
+  },
+  {
+   "name": "Medias and audiovisual",
+   "parent": "Telecommunications",
+   "aliases": [
+    "Media",
+    "Journalism",
+    "Journalists",
+    "News",
+    "News Media",
+    "News &amp; Media"
+   ]
+  },
+  {
+   "name": "Consulting",
+   "parent": null,
+   "aliases": [
+    "Professional services",
+    "Professional & consumer services",
+    "HR Services",
+    "Marketing / Public Relations",
+    "Marketing",
+    "Public Relations",
+    "Advisory"
+   ]
+  },
+  {
+   "name": "Legal consulting",
+   "parent": "Consulting",
+   "aliases": [
+    "Legal"
+   ]
+  },
+  {
+   "name": "Information Technologies Consulting",
+   "parent": "Consulting",
+   "aliases": [
+    "Information Technology",
+    "IT Service Providers"
+   ]
+  },
+  {
+   "name": "Engineering consulting",
+   "parent": "Consulting",
+   "aliases": [
+    "Engineering"
+   ]
+  },
+  {
+   "name": "Mining",
+   "parent": null,
+   "aliases": []
+  },
+  {
+   "name": "Research",
+   "parent": null,
+   "aliases": []
+  },
+  {
+   "name": "Water distribution and supply",
+   "parent": null,
+   "aliases": [
+    "Dams",
+    "Water",
+    "Water Treatment Plants"
+   ]
+  },
+  {
+   "name": "Civil society",
+   "parent": null,
+   "aliases": []
+  },
+  {
+   "name": "Non-Governmental Organizations (NGOs)",
+   "parent": "Civil society",
+   "aliases": [
+    "NGO",
+    "Human Rights",
+    "Non-Profit",
+    "Environmental",
+    "Humanitarian",
+    "Charitable Organizations"
+   ]
+  },
+  {
+   "name": "Citizens",
+   "parent": "Civil society",
+   "aliases": [
+    "Religion",
+    "Religious"
+   ]
+  },
+  {
+   "name": "Political parties",
+   "parent": "Civil society",
+   "aliases": [
+    "Political opposition",
+    "Politics",
+    "Political"
+   ]
+  },
+  {
+   "name": "Dissidents",
+   "parent": "Civil society",
+   "aliases": [
+    "activism"
+   ]
+  }
+ ],
+ "locations": [
+  {
+   "name": "Africa",
+   "type": "Region",
+   "aliases": []
+  },
+  {
+   "name": "Northern Africa",
+   "type": "Region",
+   "aliases": []
+  },
+  {
+   "name": "Algeria",
+   "type": "Country",
+   "aliases": [
+    "DZA",
+    "DZ"
+   ]
+  },
+  {
+   "name": "Egypt",
+   "type": "Country",
+   "aliases": [
+    "EGY",
+    "EG"
+   ]
+  },
+  {
+   "name": "Libya",
+   "type": "Country",
+   "aliases": [
+    "LBY",
+    "LY"
+   ]
+  },
+  {
+   "name": "Morocco",
+   "type": "Country",
+   "aliases": [
+    "MAR",
+    "MA"
+   ]
+  },
+  {
+   "name": "Sudan",
+   "type": "Country",
+   "aliases": [
+    "SDN",
+    "SD"
+   ]
+  },
+  {
+   "name": "Tunisia",
+   "type": "Country",
+   "aliases": [
+    "TUN",
+    "TN"
+   ]
+  },
+  {
+   "name": "Western Sahara",
+   "type": "Country",
+   "aliases": [
+    "ESH",
+    "EH"
+   ]
+  },
+  {
+   "name": "Sub-Saharan Africa",
+   "type": "Region",
+   "aliases": []
+  },
+  {
+   "name": "British Indian Ocean Territory",
+   "type": "Country",
+   "aliases": [
+    "IOT",
+    "IO"
+   ]
+  },
+  {
+   "name": "Burundi",
+   "type": "Country",
+   "aliases": [
+    "BDI",
+    "BI"
+   ]
+  },
+  {
+   "name": "Comoros",
+   "type": "Country",
+   "aliases": [
+    "COM",
+    "KM"
+   ]
+  },
+  {
+   "name": "Djibouti",
+   "type": "Country",
+   "aliases": [
+    "DJI",
+    "DJ"
+   ]
+  },
+  {
+   "name": "Eritrea",
+   "type": "Country",
+   "aliases": [
+    "ERI",
+    "ER"
+   ]
+  },
+  {
+   "name": "Ethiopia",
+   "type": "Country",
+   "aliases": [
+    "ETH",
+    "ET"
+   ]
+  },
+  {
+   "name": "French Southern Territories",
+   "type": "Country",
+   "aliases": [
+    "ATF",
+    "TF"
+   ]
+  },
+  {
+   "name": "Kenya",
+   "type": "Country",
+   "aliases": [
+    "KEN",
+    "KE"
+   ]
+  },
+  {
+   "name": "Madagascar",
+   "type": "Country",
+   "aliases": [
+    "MDG",
+    "MG"
+   ]
+  },
+  {
+   "name": "Malawi",
+   "type": "Country",
+   "aliases": [
+    "MWI",
+    "MW"
+   ]
+  },
+  {
+   "name": "Mauritius",
+   "type": "Country",
+   "aliases": [
+    "MUS",
+    "MU"
+   ]
+  },
+  {
+   "name": "Mayotte",
+   "type": "Country",
+   "aliases": [
+    "MYT",
+    "YT"
+   ]
+  },
+  {
+   "name": "Mozambique",
+   "type": "Country",
+   "aliases": [
+    "MOZ",
+    "MZ"
+   ]
+  },
+  {
+   "name": "Réunion",
+   "type": "Country",
+   "aliases": [
+    "REU",
+    "RE"
+   ]
+  },
+  {
+   "name": "Rwanda",
+   "type": "Country",
+   "aliases": [
+    "RWA",
+    "RW"
+   ]
+  },
+  {
+   "name": "Seychelles",
+   "type": "Country",
+   "aliases": [
+    "SYC",
+    "SC"
+   ]
+  },
+  {
+   "name": "Somalia",
+   "type": "Country",
+   "aliases": [
+    "SOM",
+    "SO"
+   ]
+  },
+  {
+   "name": "South Sudan",
+   "type": "Country",
+   "aliases": [
+    "SSD",
+    "SS"
+   ]
+  },
+  {
+   "name": "Uganda",
+   "type": "Country",
+   "aliases": [
+    "UGA",
+    "UG"
+   ]
+  },
+  {
+   "name": "United Republic of Tanzania",
+   "type": "Country",
+   "aliases": [
+    "TZA",
+    "TZ"
+   ]
+  },
+  {
+   "name": "Zambia",
+   "type": "Country",
+   "aliases": [
+    "ZMB",
+    "ZM"
+   ]
+  },
+  {
+   "name": "Zimbabwe",
+   "type": "Country",
+   "aliases": [
+    "ZWE",
+    "ZW"
+   ]
+  },
+  {
+   "name": "Angola",
+   "type": "Country",
+   "aliases": [
+    "AGO",
+    "AO"
+   ]
+  },
+  {
+   "name": "Cameroon",
+   "type": "Country",
+   "aliases": [
+    "CMR",
+    "CM"
+   ]
+  },
+  {
+   "name": "Central African Republic",
+   "type": "Country",
+   "aliases": [
+    "CAF",
+    "CF"
+   ]
+  },
+  {
+   "name": "Chad",
+   "type": "Country",
+   "aliases": [
+    "TCD",
+    "TD"
+   ]
+  },
+  {
+   "name": "Congo",
+   "type": "Country",
+   "aliases": [
+    "COG",
+    "CG"
+   ]
+  },
+  {
+   "name": "Democratic Republic of the Congo",
+   "type": "Country",
+   "aliases": [
+    "COD",
+    "CD"
+   ]
+  },
+  {
+   "name": "Equatorial Guinea",
+   "type": "Country",
+   "aliases": [
+    "GNQ",
+    "GQ"
+   ]
+  },
+  {
+   "name": "Gabon",
+   "type": "Country",
+   "aliases": [
+    "GAB",
+    "GA"
+   ]
+  },
+  {
+   "name": "Sao Tome and Principe",
+   "type": "Country",
+   "aliases": [
+    "STP",
+    "ST"
+   ]
+  },
+  {
+   "name": "Botswana",
+   "type": "Country",
+   "aliases": [
+    "BWA",
+    "BW"
+   ]
+  },
+  {
+   "name": "Eswatini",
+   "type": "Country",
+   "aliases": [
+    "SWZ",
+    "SZ"
+   ]
+  },
+  {
+   "name": "Lesotho",
+   "type": "Country",
+   "aliases": [
+    "LSO",
+    "LS"
+   ]
+  },
+  {
+   "name": "Namibia",
+   "type": "Country",
+   "aliases": [
+    "NAM",
+    "NA"
+   ]
+  },
+  {
+   "name": "South Africa",
+   "type": "Country",
+   "aliases": [
+    "ZAF",
+    "ZA"
+   ]
+  },
+  {
+   "name": "Benin",
+   "type": "Country",
+   "aliases": [
+    "BEN",
+    "BJ"
+   ]
+  },
+  {
+   "name": "Burkina Faso",
+   "type": "Country",
+   "aliases": [
+    "BFA",
+    "BF"
+   ]
+  },
+  {
+   "name": "Cabo Verde",
+   "type": "Country",
+   "aliases": [
+    "CPV",
+    "CV"
+   ]
+  },
+  {
+   "name": "Côte d’Ivoire",
+   "type": "Country",
+   "aliases": [
+    "CIV",
+    "CI"
+   ]
+  },
+  {
+   "name": "Gambia",
+   "type": "Country",
+   "aliases": [
+    "GMB",
+    "GM"
+   ]
+  },
+  {
+   "name": "Ghana",
+   "type": "Country",
+   "aliases": [
+    "GHA",
+    "GH"
+   ]
+  },
+  {
+   "name": "Guinea",
+   "type": "Country",
+   "aliases": [
+    "GIN",
+    "GN"
+   ]
+  },
+  {
+   "name": "Guinea-Bissau",
+   "type": "Country",
+   "aliases": [
+    "GNB",
+    "GW"
+   ]
+  },
+  {
+   "name": "Liberia",
+   "type": "Country",
+   "aliases": [
+    "LBR",
+    "LR"
+   ]
+  },
+  {
+   "name": "Mali",
+   "type": "Country",
+   "aliases": [
+    "MLI",
+    "ML"
+   ]
+  },
+  {
+   "name": "Mauritania",
+   "type": "Country",
+   "aliases": [
+    "MRT",
+    "MR"
+   ]
+  },
+  {
+   "name": "Niger",
+   "type": "Country",
+   "aliases": [
+    "NER",
+    "NE"
+   ]
+  },
+  {
+   "name": "Nigeria",
+   "type": "Country",
+   "aliases": [
+    "NGA",
+    "NG"
+   ]
+  },
+  {
+   "name": "Saint Helena",
+   "type": "Country",
+   "aliases": [
+    "SHN",
+    "SH"
+   ]
+  },
+  {
+   "name": "Senegal",
+   "type": "Country",
+   "aliases": [
+    "SEN",
+    "SN"
+   ]
+  },
+  {
+   "name": "Sierra Leone",
+   "type": "Country",
+   "aliases": [
+    "SLE",
+    "SL"
+   ]
+  },
+  {
+   "name": "Togo",
+   "type": "Country",
+   "aliases": [
+    "TGO",
+    "TG"
+   ]
+  },
+  {
+   "name": "Americas",
+   "type": "Region",
+   "aliases": []
+  },
+  {
+   "name": "Latin America and the Caribbean",
+   "type": "Region",
+   "aliases": []
+  },
+  {
+   "name": "Anguilla",
+   "type": "Country",
+   "aliases": [
+    "AIA",
+    "AI"
+   ]
+  },
+  {
+   "name": "Antigua and Barbuda",
+   "type": "Country",
+   "aliases": [
+    "ATG",
+    "AG"
+   ]
+  },
+  {
+   "name": "Aruba",
+   "type": "Country",
+   "aliases": [
+    "ABW",
+    "AW"
+   ]
+  },
+  {
+   "name": "Bahamas",
+   "type": "Country",
+   "aliases": [
+    "BHS",
+    "BS"
+   ]
+  },
+  {
+   "name": "Barbados",
+   "type": "Country",
+   "aliases": [
+    "BRB",
+    "BB"
+   ]
+  },
+  {
+   "name": "Bonaire",
+   "type": "Country",
+   "aliases": [
+    "BES",
+    "BQ"
+   ]
+  },
+  {
+   "name": "British Virgin Islands",
+   "type": "Country",
+   "aliases": [
+    "VGB",
+    "VG"
+   ]
+  },
+  {
+   "name": "Cayman Islands",
+   "type": "Country",
+   "aliases": [
+    "CYM",
+    "KY"
+   ]
+  },
+  {
+   "name": "Cuba",
+   "type": "Country",
+   "aliases": [
+    "CUB",
+    "CU"
+   ]
+  },
+  {
+   "name": "Curaçao",
+   "type": "Country",
+   "aliases": [
+    "CUW",
+    "CW"
+   ]
+  },
+  {
+   "name": "Dominica",
+   "type": "Country",
+   "aliases": [
+    "DMA",
+    "DM"
+   ]
+  },
+  {
+   "name": "Dominican Republic",
+   "type": "Country",
+   "aliases": [
+    "DOM",
+    "DO"
+   ]
+  },
+  {
+   "name": "Grenada",
+   "type": "Country",
+   "aliases": [
+    "GRD",
+    "GD"
+   ]
+  },
+  {
+   "name": "Guadeloupe",
+   "type": "Country",
+   "aliases": [
+    "GLP",
+    "GP"
+   ]
+  },
+  {
+   "name": "Haiti",
+   "type": "Country",
+   "aliases": [
+    "HTI",
+    "HT"
+   ]
+  },
+  {
+   "name": "Jamaica",
+   "type": "Country",
+   "aliases": [
+    "JAM",
+    "JM"
+   ]
+  },
+  {
+   "name": "Martinique",
+   "type": "Country",
+   "aliases": [
+    "MTQ",
+    "MQ"
+   ]
+  },
+  {
+   "name": "Montserrat",
+   "type": "Country",
+   "aliases": [
+    "MSR",
+    "MS"
+   ]
+  },
+  {
+   "name": "Puerto Rico",
+   "type": "Country",
+   "aliases": [
+    "PRI",
+    "PR"
+   ]
+  },
+  {
+   "name": "Saint Barthélemy",
+   "type": "Country",
+   "aliases": [
+    "BLM",
+    "BL"
+   ]
+  },
+  {
+   "name": "Saint Kitts and Nevis",
+   "type": "Country",
+   "aliases": [
+    "KNA",
+    "KN"
+   ]
+  },
+  {
+   "name": "Saint Lucia",
+   "type": "Country",
+   "aliases": [
+    "LCA",
+    "LC"
+   ]
+  },
+  {
+   "name": "Saint Martin (French Part)",
+   "type": "Country",
+   "aliases": [
+    "MAF",
+    "MF"
+   ]
+  },
+  {
+   "name": "Saint Vincent and the Grenadines",
+   "type": "Country",
+   "aliases": [
+    "VCT",
+    "VC"
+   ]
+  },
+  {
+   "name": "Sint Maarten (Dutch part)",
+   "type": "Country",
+   "aliases": [
+    "SXM",
+    "SX"
+   ]
+  },
+  {
+   "name": "Trinidad and Tobago",
+   "type": "Country",
+   "aliases": [
+    "TTO",
+    "TT"
+   ]
+  },
+  {
+   "name": "Turks and Caicos Islands",
+   "type": "Country",
+   "aliases": [
+    "TCA",
+    "TC"
+   ]
+  },
+  {
+   "name": "United States Virgin Islands",
+   "type": "Country",
+   "aliases": [
+    "VIR",
+    "VI"
+   ]
+  },
+  {
+   "name": "Belize",
+   "type": "Country",
+   "aliases": [
+    "BLZ",
+    "BZ"
+   ]
+  },
+  {
+   "name": "Costa Rica",
+   "type": "Country",
+   "aliases": [
+    "CRI",
+    "CR"
+   ]
+  },
+  {
+   "name": "El Salvador",
+   "type": "Country",
+   "aliases": [
+    "SLV",
+    "SV"
+   ]
+  },
+  {
+   "name": "Guatemala",
+   "type": "Country",
+   "aliases": [
+    "GTM",
+    "GT"
+   ]
+  },
+  {
+   "name": "Honduras",
+   "type": "Country",
+   "aliases": [
+    "HND",
+    "HN"
+   ]
+  },
+  {
+   "name": "Mexico",
+   "type": "Country",
+   "aliases": [
+    "MEX",
+    "MX"
+   ]
+  },
+  {
+   "name": "Nicaragua",
+   "type": "Country",
+   "aliases": [
+    "NIC",
+    "NI"
+   ]
+  },
+  {
+   "name": "Panama",
+   "type": "Country",
+   "aliases": [
+    "PAN",
+    "PA"
+   ]
+  },
+  {
+   "name": "Argentina",
+   "type": "Country",
+   "aliases": [
+    "ARG",
+    "AR"
+   ]
+  },
+  {
+   "name": "Bolivia (Plurinational State of)",
+   "type": "Country",
+   "aliases": [
+    "BOL",
+    "BO"
+   ]
+  },
+  {
+   "name": "Bouvet Island",
+   "type": "Country",
+   "aliases": [
+    "BVT",
+    "BV"
+   ]
+  },
+  {
+   "name": "Brazil",
+   "type": "Country",
+   "aliases": [
+    "BRA",
+    "BR"
+   ]
+  },
+  {
+   "name": "Chile",
+   "type": "Country",
+   "aliases": [
+    "CHL",
+    "CL"
+   ]
+  },
+  {
+   "name": "Colombia",
+   "type": "Country",
+   "aliases": [
+    "COL",
+    "CO"
+   ]
+  },
+  {
+   "name": "Ecuador",
+   "type": "Country",
+   "aliases": [
+    "ECU",
+    "EC"
+   ]
+  },
+  {
+   "name": "Falkland Islands (Malvinas)",
+   "type": "Country",
+   "aliases": [
+    "FLK",
+    "FK"
+   ]
+  },
+  {
+   "name": "French Guiana",
+   "type": "Country",
+   "aliases": [
+    "GUF",
+    "GF"
+   ]
+  },
+  {
+   "name": "Guyana",
+   "type": "Country",
+   "aliases": [
+    "GUY",
+    "GY"
+   ]
+  },
+  {
+   "name": "Paraguay",
+   "type": "Country",
+   "aliases": [
+    "PRY",
+    "PY"
+   ]
+  },
+  {
+   "name": "Peru",
+   "type": "Country",
+   "aliases": [
+    "PER",
+    "PE"
+   ]
+  },
+  {
+   "name": "South Georgia and the South Sandwich Islands",
+   "type": "Country",
+   "aliases": [
+    "SGS",
+    "GS"
+   ]
+  },
+  {
+   "name": "Suriname",
+   "type": "Country",
+   "aliases": [
+    "SUR",
+    "SR"
+   ]
+  },
+  {
+   "name": "Uruguay",
+   "type": "Country",
+   "aliases": [
+    "URY",
+    "UY"
+   ]
+  },
+  {
+   "name": "Venezuela (Bolivarian Republic of)",
+   "type": "Country",
+   "aliases": [
+    "VEN",
+    "VE"
+   ]
+  },
+  {
+   "name": "Northern America",
+   "type": "Region",
+   "aliases": []
+  },
+  {
+   "name": "Bermuda",
+   "type": "Country",
+   "aliases": [
+    "BMU",
+    "BM"
+   ]
+  },
+  {
+   "name": "Canada",
+   "type": "Country",
+   "aliases": [
+    "CAN",
+    "CA"
+   ]
+  },
+  {
+   "name": "Greenland",
+   "type": "Country",
+   "aliases": [
+    "GRL",
+    "GL"
+   ]
+  },
+  {
+   "name": "Saint Pierre and Miquelon",
+   "type": "Country",
+   "aliases": [
+    "SPM",
+    "PM"
+   ]
+  },
+  {
+   "name": "United States of America",
+   "type": "Country",
+   "aliases": [
+    "USA",
+    "US"
+   ]
+  },
+  {
+   "name": "Asia",
+   "type": "Region",
+   "aliases": []
+  },
+  {
+   "name": "Central Asia",
+   "type": "Region",
+   "aliases": []
+  },
+  {
+   "name": "Kazakhstan",
+   "type": "Country",
+   "aliases": [
+    "KAZ",
+    "KZ"
+   ]
+  },
+  {
+   "name": "Kyrgyzstan",
+   "type": "Country",
+   "aliases": [
+    "KGZ",
+    "KG"
+   ]
+  },
+  {
+   "name": "Tajikistan",
+   "type": "Country",
+   "aliases": [
+    "TJK",
+    "TJ"
+   ]
+  },
+  {
+   "name": "Turkmenistan",
+   "type": "Country",
+   "aliases": [
+    "TKM",
+    "TM"
+   ]
+  },
+  {
+   "name": "Uzbekistan",
+   "type": "Country",
+   "aliases": [
+    "UZB",
+    "UZ"
+   ]
+  },
+  {
+   "name": "Eastern Asia",
+   "type": "Region",
+   "aliases": []
+  },
+  {
+   "name": "China",
+   "type": "Country",
+   "aliases": [
+    "CHN",
+    "CN"
+   ]
+  },
+  {
+   "name": "Hong Kong Special Administrative Region",
+   "type": "Country",
+   "aliases": [
+    "HKG",
+    "HK"
+   ]
+  },
+  {
+   "name": "Macao Special Administrative Region",
+   "type": "Country",
+   "aliases": [
+    "MAC",
+    "MO"
+   ]
+  },
+  {
+   "name": "Democratic People's Republic of Korea",
+   "type": "Country",
+   "aliases": [
+    "PRK",
+    "KP"
+   ]
+  },
+  {
+   "name": "Japan",
+   "type": "Country",
+   "aliases": [
+    "JPN",
+    "JP"
+   ]
+  },
+  {
+   "name": "Mongolia",
+   "type": "Country",
+   "aliases": [
+    "MNG",
+    "MN"
+   ]
+  },
+  {
+   "name": "Republic of Korea",
+   "type": "Country",
+   "aliases": [
+    "KOR",
+    "KR"
+   ]
+  },
+  {
+   "name": "Taiwan",
+   "type": "Country",
+   "aliases": [
+    "TWA",
+    "TW",
+    "TWN"
+   ]
+  },
+  {
+   "name": "South-eastern Asia",
+   "type": "Region",
+   "aliases": []
+  },
+  {
+   "name": "Brunei Darussalam",
+   "type": "Country",
+   "aliases": [
+    "BRN",
+    "BN"
+   ]
+  },
+  {
+   "name": "Cambodia",
+   "type": "Country",
+   "aliases": [
+    "KHM",
+    "KH"
+   ]
+  },
+  {
+   "name": "Indonesia",
+   "type": "Country",
+   "aliases": [
+    "IDN",
+    "ID"
+   ]
+  },
+  {
+   "name": "Lao People's Democratic Republic",
+   "type": "Country",
+   "aliases": [
+    "LAO",
+    "LA"
+   ]
+  },
+  {
+   "name": "Malaysia",
+   "type": "Country",
+   "aliases": [
+    "MYS",
+    "MY"
+   ]
+  },
+  {
+   "name": "Myanmar",
+   "type": "Country",
+   "aliases": [
+    "MMR",
+    "MM"
+   ]
+  },
+  {
+   "name": "Philippines",
+   "type": "Country",
+   "aliases": [
+    "PHL",
+    "PH"
+   ]
+  },
+  {
+   "name": "Singapore",
+   "type": "Country",
+   "aliases": [
+    "SGP",
+    "SG"
+   ]
+  },
+  {
+   "name": "Thailand",
+   "type": "Country",
+   "aliases": [
+    "THA",
+    "TH"
+   ]
+  },
+  {
+   "name": "Timor-Leste",
+   "type": "Country",
+   "aliases": [
+    "TLS",
+    "TL"
+   ]
+  },
+  {
+   "name": "Viet Nam",
+   "type": "Country",
+   "aliases": [
+    "VNM",
+    "VN"
+   ]
+  },
+  {
+   "name": "Southern Asia",
+   "type": "Region",
+   "aliases": []
+  },
+  {
+   "name": "Afghanistan",
+   "type": "Country",
+   "aliases": [
+    "AFG",
+    "AF"
+   ]
+  },
+  {
+   "name": "Bangladesh",
+   "type": "Country",
+   "aliases": [
+    "BGD",
+    "BD"
+   ]
+  },
+  {
+   "name": "Bhutan",
+   "type": "Country",
+   "aliases": [
+    "BTN",
+    "BT"
+   ]
+  },
+  {
+   "name": "India",
+   "type": "Country",
+   "aliases": [
+    "IND",
+    "IN"
+   ]
+  },
+  {
+   "name": "Iran (Islamic Republic of)",
+   "type": "Country",
+   "aliases": [
+    "IRN",
+    "IR"
+   ]
+  },
+  {
+   "name": "Maldives",
+   "type": "Country",
+   "aliases": [
+    "MDV",
+    "MV"
+   ]
+  },
+  {
+   "name": "Nepal",
+   "type": "Country",
+   "aliases": [
+    "NPL",
+    "NP"
+   ]
+  },
+  {
+   "name": "Pakistan",
+   "type": "Country",
+   "aliases": [
+    "PAK",
+    "PK"
+   ]
+  },
+  {
+   "name": "Sri Lanka",
+   "type": "Country",
+   "aliases": [
+    "LKA",
+    "LK"
+   ]
+  },
+  {
+   "name": "Middle East",
+   "type": "Region",
+   "aliases": []
+  },
+  {
+   "name": "Armenia",
+   "type": "Country",
+   "aliases": [
+    "ARM",
+    "AM"
+   ]
+  },
+  {
+   "name": "Azerbaijan",
+   "type": "Country",
+   "aliases": [
+    "AZE",
+    "AZ"
+   ]
+  },
+  {
+   "name": "Bahrain",
+   "type": "Country",
+   "aliases": [
+    "BHR",
+    "BH"
+   ]
+  },
+  {
+   "name": "Georgia",
+   "type": "Country",
+   "aliases": [
+    "GEO",
+    "GE"
+   ]
+  },
+  {
+   "name": "Iraq",
+   "type": "Country",
+   "aliases": [
+    "IRQ",
+    "IQ"
+   ]
+  },
+  {
+   "name": "Israel",
+   "type": "Country",
+   "aliases": [
+    "ISR",
+    "IL"
+   ]
+  },
+  {
+   "name": "Jordan",
+   "type": "Country",
+   "aliases": [
+    "JOR",
+    "JO"
+   ]
+  },
+  {
+   "name": "Kuwait",
+   "type": "Country",
+   "aliases": [
+    "KWT",
+    "KW"
+   ]
+  },
+  {
+   "name": "Lebanon",
+   "type": "Country",
+   "aliases": [
+    "LBN",
+    "LB"
+   ]
+  },
+  {
+   "name": "Oman",
+   "type": "Country",
+   "aliases": [
+    "OMN",
+    "OM"
+   ]
+  },
+  {
+   "name": "Qatar",
+   "type": "Country",
+   "aliases": [
+    "QAT",
+    "QA"
+   ]
+  },
+  {
+   "name": "Saudi Arabia",
+   "type": "Country",
+   "aliases": [
+    "SAU",
+    "SA"
+   ]
+  },
+  {
+   "name": "State of Palestine",
+   "type": "Country",
+   "aliases": [
+    "PSE",
+    "PS"
+   ]
+  },
+  {
+   "name": "Syrian Arab Republic",
+   "type": "Country",
+   "aliases": [
+    "SYR",
+    "SY"
+   ]
+  },
+  {
+   "name": "Turkey",
+   "type": "Country",
+   "aliases": [
+    "TUR",
+    "TR"
+   ]
+  },
+  {
+   "name": "United Arab Emirates",
+   "type": "Country",
+   "aliases": [
+    "ARE",
+    "AE"
+   ]
+  },
+  {
+   "name": "Yemen",
+   "type": "Country",
+   "aliases": [
+    "YEM",
+    "YE"
+   ]
+  },
+  {
+   "name": "Cyprus",
+   "type": "Country",
+   "aliases": [
+    "CYP",
+    "CY"
+   ]
+  },
+  {
+   "name": "Europe",
+   "type": "Region",
+   "aliases": []
+  },
+  {
+   "name": "Eastern Europe",
+   "type": "Region",
+   "aliases": []
+  },
+  {
+   "name": "Belarus",
+   "type": "Country",
+   "aliases": [
+    "BLR",
+    "BY"
+   ]
+  },
+  {
+   "name": "Bulgaria",
+   "type": "Country",
+   "aliases": [
+    "BGR",
+    "BG"
+   ]
+  },
+  {
+   "name": "Czechia",
+   "type": "Country",
+   "aliases": [
+    "CZE",
+    "CZ"
+   ]
+  },
+  {
+   "name": "Hungary",
+   "type": "Country",
+   "aliases": [
+    "HUN",
+    "HU"
+   ]
+  },
+  {
+   "name": "Poland",
+   "type": "Country",
+   "aliases": [
+    "POL",
+    "PL"
+   ]
+  },
+  {
+   "name": "Republic of Moldova",
+   "type": "Country",
+   "aliases": [
+    "MDA",
+    "MD"
+   ]
+  },
+  {
+   "name": "Romania",
+   "type": "Country",
+   "aliases": [
+    "ROU",
+    "RO"
+   ]
+  },
+  {
+   "name": "Russian Federation",
+   "type": "Country",
+   "aliases": [
+    "RUS",
+    "RU"
+   ]
+  },
+  {
+   "name": "Slovakia",
+   "type": "Country",
+   "aliases": [
+    "SVK",
+    "SK"
+   ]
+  },
+  {
+   "name": "Ukraine",
+   "type": "Country",
+   "aliases": [
+    "UKR",
+    "UA"
+   ]
+  },
+  {
+   "name": "Northern Europe",
+   "type": "Region",
+   "aliases": []
+  },
+  {
+   "name": "Åland Islands",
+   "type": "Country",
+   "aliases": [
+    "ALA",
+    "AX"
+   ]
+  },
+  {
+   "name": "Guernsey",
+   "type": "Country",
+   "aliases": [
+    "GGY",
+    "GG"
+   ]
+  },
+  {
+   "name": "Jersey",
+   "type": "Country",
+   "aliases": [
+    "JEY",
+    "JE"
+   ]
+  },
+  {
+   "name": "Sark",
+   "type": "Country",
+   "aliases": [
+    "CRQ",
+    "CQ"
+   ]
+  },
+  {
+   "name": "Denmark",
+   "type": "Country",
+   "aliases": [
+    "DNK",
+    "DK"
+   ]
+  },
+  {
+   "name": "Estonia",
+   "type": "Country",
+   "aliases": [
+    "EST",
+    "EE"
+   ]
+  },
+  {
+   "name": "Faroe Islands",
+   "type": "Country",
+   "aliases": [
+    "FRO",
+    "FO"
+   ]
+  },
+  {
+   "name": "Finland",
+   "type": "Country",
+   "aliases": [
+    "FIN",
+    "FI"
+   ]
+  },
+  {
+   "name": "Iceland",
+   "type": "Country",
+   "aliases": [
+    "ISL",
+    "IS"
+   ]
+  },
+  {
+   "name": "Ireland",
+   "type": "Country",
+   "aliases": [
+    "IRL",
+    "IE"
+   ]
+  },
+  {
+   "name": "Isle of Man",
+   "type": "Country",
+   "aliases": [
+    "IMN",
+    "IM"
+   ]
+  },
+  {
+   "name": "Latvia",
+   "type": "Country",
+   "aliases": [
+    "LVA",
+    "LV"
+   ]
+  },
+  {
+   "name": "Lithuania",
+   "type": "Country",
+   "aliases": [
+    "LTU",
+    "LT"
+   ]
+  },
+  {
+   "name": "Norway",
+   "type": "Country",
+   "aliases": [
+    "NOR",
+    "NO"
+   ]
+  },
+  {
+   "name": "Svalbard and Jan Mayen Islands",
+   "type": "Country",
+   "aliases": [
+    "SJM",
+    "SJ"
+   ]
+  },
+  {
+   "name": "Sweden",
+   "type": "Country",
+   "aliases": [
+    "SWE",
+    "SE"
+   ]
+  },
+  {
+   "name": "United Kingdom of Great Britain and Northern Ireland",
+   "type": "Country",
+   "aliases": [
+    "GBR",
+    "GB"
+   ]
+  },
+  {
+   "name": "Southern Europe",
+   "type": "Region",
+   "aliases": []
+  },
+  {
+   "name": "Albania",
+   "type": "Country",
+   "aliases": [
+    "ALB",
+    "AL"
+   ]
+  },
+  {
+   "name": "Andorra",
+   "type": "Country",
+   "aliases": [
+    "AND",
+    "AD"
+   ]
+  },
+  {
+   "name": "Bosnia and Herzegovina",
+   "type": "Country",
+   "aliases": [
+    "BIH",
+    "BA"
+   ]
+  },
+  {
+   "name": "Croatia",
+   "type": "Country",
+   "aliases": [
+    "HRV",
+    "HR"
+   ]
+  },
+  {
+   "name": "Gibraltar",
+   "type": "Country",
+   "aliases": [
+    "GIB",
+    "GI"
+   ]
+  },
+  {
+   "name": "Greece",
+   "type": "Country",
+   "aliases": [
+    "GRC",
+    "GR"
+   ]
+  },
+  {
+   "name": "Holy See",
+   "type": "Country",
+   "aliases": [
+    "VAT",
+    "VA"
+   ]
+  },
+  {
+   "name": "Italy",
+   "type": "Country",
+   "aliases": [
+    "ITA",
+    "IT"
+   ]
+  },
+  {
+   "name": "Malta",
+   "type": "Country",
+   "aliases": [
+    "MLT",
+    "MT"
+   ]
+  },
+  {
+   "name": "Montenegro",
+   "type": "Country",
+   "aliases": [
+    "MNE",
+    "ME"
+   ]
+  },
+  {
+   "name": "North Macedonia",
+   "type": "Country",
+   "aliases": [
+    "MKD",
+    "MK"
+   ]
+  },
+  {
+   "name": "Portugal",
+   "type": "Country",
+   "aliases": [
+    "PRT",
+    "PT"
+   ]
+  },
+  {
+   "name": "San Marino",
+   "type": "Country",
+   "aliases": [
+    "SMR",
+    "SM"
+   ]
+  },
+  {
+   "name": "Serbia",
+   "type": "Country",
+   "aliases": [
+    "SRB",
+    "RS"
+   ]
+  },
+  {
+   "name": "Slovenia",
+   "type": "Country",
+   "aliases": [
+    "SVN",
+    "SI"
+   ]
+  },
+  {
+   "name": "Spain",
+   "type": "Country",
+   "aliases": [
+    "ESP",
+    "ES"
+   ]
+  },
+  {
+   "name": "Western Europe",
+   "type": "Region",
+   "aliases": []
+  },
+  {
+   "name": "Austria",
+   "type": "Country",
+   "aliases": [
+    "AUT",
+    "AT"
+   ]
+  },
+  {
+   "name": "Belgium",
+   "type": "Country",
+   "aliases": [
+    "BEL",
+    "BE"
+   ]
+  },
+  {
+   "name": "France",
+   "type": "Country",
+   "aliases": [
+    "FRA",
+    "FR"
+   ]
+  },
+  {
+   "name": "Germany",
+   "type": "Country",
+   "aliases": [
+    "DEU",
+    "DE"
+   ]
+  },
+  {
+   "name": "Liechtenstein",
+   "type": "Country",
+   "aliases": [
+    "LIE",
+    "LI"
+   ]
+  },
+  {
+   "name": "Luxembourg",
+   "type": "Country",
+   "aliases": [
+    "LUX",
+    "LU"
+   ]
+  },
+  {
+   "name": "Monaco",
+   "type": "Country",
+   "aliases": [
+    "MCO",
+    "MC"
+   ]
+  },
+  {
+   "name": "Netherlands",
+   "type": "Country",
+   "aliases": [
+    "NLD",
+    "NL"
+   ]
+  },
+  {
+   "name": "Switzerland",
+   "type": "Country",
+   "aliases": [
+    "CHE",
+    "CH"
+   ]
+  },
+  {
+   "name": "Oceania",
+   "type": "Region",
+   "aliases": []
+  },
+  {
+   "name": "Australia and New Zealand",
+   "type": "Region",
+   "aliases": []
+  },
+  {
+   "name": "Australia",
+   "type": "Country",
+   "aliases": [
+    "AUS",
+    "AU"
+   ]
+  },
+  {
+   "name": "Christmas Island",
+   "type": "Country",
+   "aliases": [
+    "CXR",
+    "CX"
+   ]
+  },
+  {
+   "name": "Cocos (Keeling) Islands",
+   "type": "Country",
+   "aliases": [
+    "CCK",
+    "CC"
+   ]
+  },
+  {
+   "name": "Heard Island and McDonald Islands",
+   "type": "Country",
+   "aliases": [
+    "HMD",
+    "HM"
+   ]
+  },
+  {
+   "name": "New Zealand",
+   "type": "Country",
+   "aliases": [
+    "NZL",
+    "NZ"
+   ]
+  },
+  {
+   "name": "Norfolk Island",
+   "type": "Country",
+   "aliases": [
+    "NFK",
+    "NF"
+   ]
+  },
+  {
+   "name": "Melanesia",
+   "type": "Region",
+   "aliases": []
+  },
+  {
+   "name": "Fiji",
+   "type": "Country",
+   "aliases": [
+    "FJI",
+    "FJ"
+   ]
+  },
+  {
+   "name": "New Caledonia",
+   "type": "Country",
+   "aliases": [
+    "NCL",
+    "NC"
+   ]
+  },
+  {
+   "name": "Papua New Guinea",
+   "type": "Country",
+   "aliases": [
+    "PNG",
+    "PG"
+   ]
+  },
+  {
+   "name": "Solomon Islands",
+   "type": "Country",
+   "aliases": [
+    "SLB",
+    "SB"
+   ]
+  },
+  {
+   "name": "Vanuatu",
+   "type": "Country",
+   "aliases": [
+    "VUT",
+    "VU"
+   ]
+  },
+  {
+   "name": "Micronesia",
+   "type": "Region",
+   "aliases": []
+  },
+  {
+   "name": "Guam",
+   "type": "Country",
+   "aliases": [
+    "GUM",
+    "GU"
+   ]
+  },
+  {
+   "name": "Kiribati",
+   "type": "Country",
+   "aliases": [
+    "KIR",
+    "KI"
+   ]
+  },
+  {
+   "name": "Marshall Islands",
+   "type": "Country",
+   "aliases": [
+    "MHL",
+    "MH"
+   ]
+  },
+  {
+   "name": "Micronesia (Federated States of)",
+   "type": "Country",
+   "aliases": [
+    "FSM",
+    "FM"
+   ]
+  },
+  {
+   "name": "Nauru",
+   "type": "Country",
+   "aliases": [
+    "NRU",
+    "NR"
+   ]
+  },
+  {
+   "name": "Northern Mariana Islands",
+   "type": "Country",
+   "aliases": [
+    "MNP",
+    "MP"
+   ]
+  },
+  {
+   "name": "Palau",
+   "type": "Country",
+   "aliases": [
+    "PLW",
+    "PW"
+   ]
+  },
+  {
+   "name": "United States Minor Outlying Islands",
+   "type": "Country",
+   "aliases": [
+    "UMI",
+    "UM"
+   ]
+  },
+  {
+   "name": "Polynesia",
+   "type": "Region",
+   "aliases": []
+  },
+  {
+   "name": "American Samoa",
+   "type": "Country",
+   "aliases": [
+    "ASM",
+    "AS"
+   ]
+  },
+  {
+   "name": "Cook Islands",
+   "type": "Country",
+   "aliases": [
+    "COK",
+    "CK"
+   ]
+  },
+  {
+   "name": "French Polynesia",
+   "type": "Country",
+   "aliases": [
+    "PYF",
+    "PF"
+   ]
+  },
+  {
+   "name": "Niue",
+   "type": "Country",
+   "aliases": [
+    "NIU",
+    "NU"
+   ]
+  },
+  {
+   "name": "Pitcairn",
+   "type": "Country",
+   "aliases": [
+    "PCN",
+    "PN"
+   ]
+  },
+  {
+   "name": "Samoa",
+   "type": "Country",
+   "aliases": [
+    "WSM",
+    "WS"
+   ]
+  },
+  {
+   "name": "Tokelau",
+   "type": "Country",
+   "aliases": [
+    "TKL",
+    "TK"
+   ]
+  },
+  {
+   "name": "Tonga",
+   "type": "Country",
+   "aliases": [
+    "TON",
+    "TO"
+   ]
+  },
+  {
+   "name": "Tuvalu",
+   "type": "Country",
+   "aliases": [
+    "TUV",
+    "TV"
+   ]
+  },
+  {
+   "name": "Wallis and Futuna Islands",
+   "type": "Country",
+   "aliases": [
+    "WLF",
+    "WF"
+   ]
+  },
+  {
+   "name": "Antarctica",
+   "type": "Country",
+   "aliases": [
+    "ATA",
+    "AQ"
+   ]
+  }
+ ]
+}
