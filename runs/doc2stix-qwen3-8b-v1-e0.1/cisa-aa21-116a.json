@@ -1,0 +1,72 @@
+{
+ "entities": [
+  {
+   "type": "attack-pattern",
+   "name": "Obtain Capabilities: Malware",
+   "mitre_id": "T1588.001",
+   "evidence": "The Federal Bureau of Investigation (FBI) and US Department of Homeland Security (DHS) assess"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Cloud Service Discovery",
+   "mitre_id": "T1526",
+   "evidence": "Beginning in 2018, the FBI observed the SVR shift from using malware on victim networks to"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Manipulation",
+   "mitre_id": "T1098",
+   "evidence": "The actors also used the misconfiguration for compromised non-administrative accounts. That"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify Authentication Process",
+   "mitre_id": "T1556",
+   "evidence": "The FBI suspects this was achieved by spoofing user agent"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "Once the actors obtained access to an account, that compromised account was generally only accessed from a single"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "Targeting cloud resources probably reduces the likelihood of"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify Authentication",
+   "mitre_id": "T1556",
+   "evidence": "The FBI suspects this was achieved by spoofing user agent"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify Authentication Process: Multi-Factor Authentication",
+   "mitre_id": "T1556.002",
+   "evidence": "The organization unintentionally exempted the compromised administrator’s account from multi-factor"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify Authentication Process: Multi-Factor Authentication",
+   "mitre_id": "T1556.002",
+   "evidence": "Prohibit remote access to administrative functions and resources from IP addresses and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify Authentication Process: Multi-Factor Authentication",
+   "mitre_id": "T1556.002",
+   "evidence": "Regular audits of mailbox settings, account permissions, and mail forwarding rules for"
+  }
+ ],
+ "observables": [],
+ "relationships": [],
+ "_meta": {
+  "engine": "0.1",
+  "model": "doc2stix-qwen3-8b:v1",
+  "seconds": 265.5,
+  "errors": "1 unparsable chunk(s)"
+ }
+}

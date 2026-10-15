@@ -1,0 +1,202 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "APT 29",
+   "evidence": "Russian Foreign Intelligence Service (SVR) cyber actors—also known as Advanced Persistent Threat 29 (APT 29), the Dukes, CozyBear, and Yttrium",
+   "aliases": [
+    "the Dukes",
+    "CozyBear",
+    "Yttrium"
+   ]
+  },
+  {
+   "type": "threat-actor",
+   "name": "Russian Foreign Intelligence Service (SVR)",
+   "evidence": "Russian Foreign Intelligence Service (SVR) cyber actors",
+   "aliases": []
+  },
+  {
+   "type": "campaign",
+   "name": "SolarWinds compromise",
+   "evidence": "On 15 April 2021, the White House released a statement on the recent SolarWinds compromise, attributing the activity to the SVR",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Government networks",
+   "evidence": "The SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Think tank and policy analysis organizations",
+   "evidence": "The SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Information technology companies",
+   "evidence": "The SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-0688",
+   "evidence": "The exploitation of Microsoft Office 365 environments following network access gained through use of modified SolarWinds software",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT 29",
+   "evidence": "APT 29, Russian Foreign Intelligence Service (SVR), SolarWinds compromise",
+   "aliases": [
+    "Russian Foreign Intelligence Service (SVR)"
+   ],
+   "mitre_id": ""
+  },
+  {
+   "type": "threat-actor",
+   "name": "Russian Foreign Intelligence Service (SVR)",
+   "evidence": "Russian Foreign Intelligence Service (SVR) Cyber Operations",
+   "aliases": [
+    "SVR"
+   ],
+   "mitre_id": ""
+  },
+  {
+   "type": "malware",
+   "name": "WELLMESS",
+   "evidence": "WELLMESS was written in the Go programming language",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-19781",
+   "evidence": "SVR actors used CVE-2019-19781, a zero-day exploit at the time, against a virtual private network (VPN) appliance",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz",
+   "evidence": "Mimikatz—an open source credential-dumping too",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "tool",
+   "name": "Cobalt Strike",
+   "evidence": "Cobalt Strike—a commercially available exploitation tool",
+   "aliases": [],
+   "mitre_id": ""
+  }
+ ],
+ "observables": [
+  {
+   "type": "ipv4-addr",
+   "value": "IP addresses all located in the same country as the victim",
+   "indicates": [
+    "APT 29"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "IP addresses and systems not owned by the organization",
+   "indicates": [
+    "APT 29"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "IP addresses corresponding to a leased virtual private server (VPS)",
+   "indicates": [
+    "APT 29"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "IP addresses not owned by the organization",
+   "indicates": [
+    "APT 29"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "cock.li",
+   "hash": "",
+   "indicates": [
+    "Russian Foreign Intelligence Service (SVR)"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "T1195",
+   "evidence": "SVR cyber actors used password spraying to identify a weak password associated with an administrative account"
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "Government networks",
+   "evidence": "The SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies"
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "Think tank and policy analysis organizations",
+   "evidence": "The SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies"
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "Information technology companies",
+   "evidence": "The SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies"
+  },
+  {
+   "source": "APT 29",
+   "type": "exploits",
+   "target": "CVE-2020-0688",
+   "evidence": "The exploitation of Microsoft Office 365 environments following network access gained through use of modified SolarWinds software"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "WELLMESS",
+   "evidence": "WELLMESS was written in the Go programming language, and the previously-identified activity appeared to focus on targeting COVID-19 vaccine development."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "CVE-2019-19781",
+   "evidence": "SVR actors used CVE-2019-19781, a zero-day exploit at the time, against a virtual private network (VPN) appliance"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "Mimikatz",
+   "evidence": "SVR cyber operators have used open source or commercially available tools continuously, including Mimikatz"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "Cobalt Strike",
+   "evidence": "SVR cyber operators have used open source or commercially available tools continuously, including Mimikatz—an open source credential-dumping too—and Cobalt Strike—a commercially available exploitation tool."
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "the previously-identified activity appeared to focus on targeting COVID-19 vaccine development"
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "qwen3:30b-a3b",
+  "seconds": 33.1,
+  "errors": ""
+ }
+}

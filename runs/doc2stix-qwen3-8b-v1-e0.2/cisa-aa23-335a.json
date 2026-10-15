@@ -1,0 +1,240 @@
+{
+ "entities": [
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "o Unusual logins to internet-connected devices or unexpected protocols to/from the internet."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "o Functions of ICS management protocols that change an asset’s operating mode or modify programs."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "o Unexpected protocols connected to ports that are mismatched with the protocols that would normally connect to these ports.[11] Block all non-used high ephemeral ports and monitor for attempted connections using standard protocols on non-standard ports [CPG 2.V]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Access Removal",
+   "mitre_id": "T1531",
+   "evidence": "The actors renamed the compromised devices so that device operators could no longer access them. The actors enabled password protections for the upload functions to prevent device operators from changing the programming remotely."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "The actors disabled the upload and download functions of the PLC device to prevent the device operators from taking down the splash page."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "The actors changed the default port number for communicating remotely with the PLC device."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Internal Defacement",
+   "mitre_id": "T1491.001",
+   "evidence": "T1491.001 The actors uploaded a splash page to the HMI screen to display a message regarding the hacking."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Endpoint Denial of Service",
+   "mitre_id": "T1499",
+   "evidence": "Endpoint Denial of Service T1499 The actors changed the default port number for communicating remotely with the PLC device."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Endpoint Denial of Service",
+   "mitre_id": "T1499",
+   "evidence": "The actors disabled the upload and download functions of the PLC device to prevent the device operators from taking down the splash page."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Defacement: Internal Defacement",
+   "mitre_id": "T1491.001",
+   "evidence": "T1491.001 The actors uploaded a splash page to the HMI screen to display a message regarding the hacking."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "Disconnect the PLC from the public-facing internet [CPG 2.X]. Either disable the capability for remotely programming PLCs or require a strong password for remotely programming the PLC. Also change the default port, default PLC device name, and place behind a firewall that can detect attempted remote brute-forcing for the device password."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "Implement network segmentation [CPG 2.F] through the use of network proxies, gateways, and firewalls and/or through the use of the Purdue Model to establish multiple levels and zones."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "Utilize watchdog timers, when possible, to enable quick detection of unresponsive systems."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "Monitor the content of network traffic for the following:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "o Unusual logins to internet-connected devices or unexpected protocols to/from the internet."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "o Functions of ICS management protocols that change an asset’s operating mode or modify programs."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "o Unexpected protocols connected to ports that are mismatched with the protocols that would normally connect to these ports.[11] Block all non-used high ephemeral ports and monitor for attempted connections using standard protocols on non-standard ports [CPG 2.V]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "Implement network intrusion detection and prevention systems whenever possible to identify malicious activity."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "o Use this to monitor for logon activity for unexpected or unusual access to devices from the internet.[11]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "Retain cold-standby or replacement hardware of similar models to ensure continued operations of critical functions if the primary system is compromised or unavailable [CPG 2.R].[12]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "o Create and test strong backups of the logic and configurations of PLCs to enable fast recovery."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "Authenticate all access to field controllers before authorizing access to, or modification of, a device’s state, logic, or programs."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "o Centralized authentication techniques can help manage the large number of field controller accounts needed across the industrial control system (ICS)."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "Disable any unused authentication methods, logic, or features, such as default authentication keys."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "Use a role-based mechanism to limit operating mode changes to required authenticated users only."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "o Physical mechanisms (e.g., keys) can also be used to prevent unauthorized operating mode changes."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "Implement device management systems that can authenticate all network messages to prevent unauthorized system changes."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "Ensure all field controllers require users to authenticate for all management sessions."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "Use host-based allowlists to prevent devices from accepting connections from unauthorized systems and ensure they can only connect with known workstations."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "Monitor asset management systems for device configuration changes, which can be used to understand expected parameter settings."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "Periodically inventory internet accessible devices [CPG 1.A] to identify any unexpected devices connected to the network."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall: Network Device Firewall",
+   "mitre_id": "T1686.002",
+   "evidence": "Configure external and internal firewalls to block traffic using common ports associated with network protocols that are unnecessary for the particular network segment."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force",
+   "mitre_id": "T1110",
+   "evidence": "devices with communications set to the default TCP port 20256 [T1110]. These devices either had a"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Default Accounts",
+   "mitre_id": "T1078.001",
+   "evidence": "default password in place or no password [T1078.001]. The actors made multiple changes to the devices"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Manipulation: Stored Data Manipulation",
+   "mitre_id": "T1565.001",
+   "evidence": "[T1565.001]. Their ladder logic file contained no inputs or outputs. Since the programmed ladder"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Access Removal",
+   "mitre_id": "T1531",
+   "evidence": "[T1531]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Endpoint Denial of Service",
+   "mitre_id": "T1499",
+   "evidence": "operators from taking down the splash page [T1499]. Additionally, the actors enabled password"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Defacement: Internal Defacement",
+   "mitre_id": "T1491.001",
+   "evidence": "such as input and output readings [T1491.001]. In at least one instance the actors displayed a text"
+  }
+ ],
+ "observables": [],
+ "relationships": [],
+ "_meta": {
+  "engine": "0.2",
+  "model": "doc2stix-qwen3-8b:v1",
+  "seconds": 668.7,
+  "errors": "2 unparsable chunk(s)"
+ }
+}

@@ -1,0 +1,663 @@
+{
+ "entities": [
+  {
+   "type": "attack-pattern",
+   "name": "T1560",
+   "mitre_id": "T1560",
+   "evidence": "nRAR [T1560]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1048",
+   "mitre_id": "T1048",
+   "evidence": "WinSCP [T1048]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1572",
+   "mitre_id": "T1572",
+   "evidence": "RDP Wrapper [T1572]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1190",
+   "mitre_id": "T1190",
+   "evidence": "simultaneously [T1190]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059",
+   "mitre_id": "T1059",
+   "evidence": "naop and netstat –noa [T1059]. Example commands used by the actors include the following:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1027",
+   "mitre_id": "T1027",
+   "evidence": "for VMProtect and Themida or randomized file section names for Themida [T1027]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1003",
+   "mitre_id": "T1003",
+   "evidence": "credentials [T1003]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1087",
+   "mitre_id": "T1087",
+   "evidence": "receiving and executing command line arguments to enumerate directories and files and compress output files. The tool collects the following information for each drive targeted on a system: depth relative to starting path, name, last write time, last access time, creation time, size, and attributes [T1087, T1083]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1021.002",
+   "mitre_id": "T1021.002",
+   "evidence": "SMB protocol, which enables network file sharing and the ability to request services and programs from a"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1021",
+   "mitre_id": "T1021",
+   "evidence": "The actors have also used Remote Desktop Protocol (RDP) to move laterally [T1021]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1090",
+   "mitre_id": "T1090",
+   "evidence": "T1090, T1071]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1567",
+   "mitre_id": "T1567",
+   "evidence": "storage service accounts directly from victim networks to exfiltrate data [T1567]. The actors have also been"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1048",
+   "mitre_id": "T1048",
+   "evidence": "the actors have been observed using the utilities PuTTY and WinSCP to exfiltrate data to North Korea-controlled servers via File"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1021",
+   "mitre_id": "T1021",
+   "evidence": "The actors have also been identified staging files for exfiltration on victim machines, establishing Remote"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1560",
+   "mitre_id": "T1560",
+   "evidence": "and the actors collect the relevant files into RAR archives, sometimes using a version of WinRAR brought into the victim’s"
+  }
+ ],
+ "observables": [
+  {
+   "type": "file",
+   "value": "88a7c84ac7f7ed310b5ee791ec8bd6c5",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "6ab4eb4c23c9e419fbba85884ea141f4",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "97ce00c7ef1f7d98b48291d73d900181",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "079b4588eaa99a1e802adf5e0b26d8aa",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0873b5744d8ab6e3fe7c9754cf7761a3",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0d696d27bae69a62def82e308d28857a",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0ecf4bac2b070cf40f0b17e18ce312e6",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "17c46ed7b80c2e4dbea6d0e88ea0827c",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "1f2410c3c25dadf9e0943cd634558800",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "2968c20a07cfc97a167aa3dd54124cda",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "33e85d0f3ef2020cdb0fc3c8d80e8e69",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "4118d9adce7350c3eedeb056a3335346",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "4aa57e1c66c2e01f2da3f106ed2303fa",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "58ad3103295afcc22bde8d81e77c282f",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "5c41cbf8a7620e10f158f6b70963d1cb",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "61a949553d35f31957db6442f36730c5",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "72a22afde3f820422cfdbba7a4cbabde",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "84bd45e223b018e67e4662c057f2c47e",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "86465d92f0d690b62866f52f5283b9fc",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8b395cc6ecdec0900facf6e93ec48fbb",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "97f352e2808c78eef9b31c758ca13032",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "a50f3b7aa11b977ae89285b60968aa67",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "afdeb24975a318fc5f20d9e61422a308",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "b697b81b341692a0b137b2c748310ea7",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c027d641c4c1e9d9ad048cda2af85db6",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c892c60817e6399f939987bd2bf5dee0",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "cdeae978f3293f4e783761bc61b34810",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d0f310c99476f1712ac082f78dd29fdc",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d8da33fae924b991b776797ba8cde24c",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e230c5728f9ea5a94e390e7da7bf1ffa",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "f4d46629ca15313b94992f3798718df7",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "fb84a392601fc19aeb7f8ce11b3a4907",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ff3194d3d5810a42858f3e22c91500b1",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "13b4ce1fc26d400d34ede460a8530d93",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "41895c5416fdc82f7e0babc6bb6c7216",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c2f8c9bb7df688d0a7030a96314bb493",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "33a3da2de78418b89a603e28a1e8852c",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "4896da30a745079cd6265b6332886d45",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "73eb2f4f101aab6158c615094f7a632a",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "7f33d2d2a2ce9c195202acb59de31eee",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e1afd01400ef405e46091e8ef10c721c",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "fe25c192875ec1914b8880ea3896cda2",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "232586f8cfe82b80fd0dfa6ed8795c56",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c1f266f7ec886278f030e7d7cd4e9131",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "49bb2ad67a8c5dfbfe8db2169e6fa46e",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "3a0c8ae783116c1840740417c4fbe678",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0414a2ab718d44bf6f7103cff287b312",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ca564428a29faf1a613f35d9fa36313f",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ad6d4eb34d29e350f96dc8df6d8a092e",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "dc70dc9845aa747001ebf2a02467c203",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "3d2ec58f37c8176e0dbcc47ff93e5a76",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0a09b7f2317b3d5f057180be6b6d0755",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "1ffccc23fef2964e9b1747098c19d956",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9112efb49cae021abebd3e9a564e6ca4",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ac0ada011f1544aa3a1cf27a26f2e288",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0211a3160cc5871cbcd4e5514449162b",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "7416ea48102e2715c87edd49ddbd1526",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "a2aefb7ab6c644aa8eeb482e27b2dbc4",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e7fd7f48fbf5635a04e302af50dfb651",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "33b2b5b7c830c34c688cf6ced287e5be",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e5410abaaac69c88db84ab3d0e9485ac",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "eb35b75369805e7a6371577b1d2c4531",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "5a3f3f75048b9cec177838fb8b40b945",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9d7bd0caed10cc002670faff7ca130f5",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8434cdd34425916be234b19f933ad7ea",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "bbaee4fe73ccff1097d635422fdc0483",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "79e474e056b4798e0a3e7c60dd67fd28",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "95c276215dcc1bd7606c0cb2be06bf70",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "426bb55531e8e3055c942a1a035e46b9",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "cfae52529468034dbbb40c9a985fa504",
+   "hash": "MD5",
+   "indicates": [
+    "T1560"
+   ]
+  }
+ ],
+ "relationships": [],
+ "_meta": {
+  "engine": "0.1",
+  "model": "doc2stix-qwen3-8b:v1",
+  "seconds": 1711.4,
+  "errors": "6 unparsable chunk(s)"
+ }
+}

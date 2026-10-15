@@ -1,0 +1,303 @@
+{
+ "entities": [
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-3519",
+   "evidence": "CVE-2023-3519 is an unauthenticated RCE vulnerability affecting the following versions of NetScaler"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "mitre_id": "T1190",
+   "evidence": "As part of their initial exploit chain [T1190], the threat actors uploaded a TGZ file [T1105] containing a"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information: Compression",
+   "mitre_id": "T1027.015",
+   "evidence": "The actors used the webshell for AD enumeration [T1016] and to exfiltrate AD data [TA0010]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Query Registry",
+   "mitre_id": "T1012",
+   "evidence": "Specifically, the actors:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Encrypted Channel: Asymmetric Cryptography",
+   "mitre_id": "T1573.002",
+   "evidence": "The actors used the decrypted AD credential to query the AD via ldapsearch. The actors queried for:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Archive Collected Data: Archive via Utility",
+   "mitre_id": "T1560.001",
+   "evidence": "• Used the following command to encrypt discovery data collected via openssl in “tar ball”"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Staged: Local Data Staging",
+   "mitre_id": "T1074",
+   "evidence": "Exfiltrated collected data by uploading as an image file [T1036.008] to a web-accessible path"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "mitre_id": "T1016",
+   "evidence": "The actors’ other discovery activities were unsuccessful due to the critical infrastructure organization’s"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote System Discovery",
+   "mitre_id": "T1018",
+   "evidence": "• Execute a subnet-wide curl command to identify what was accessible from within the network"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote System Discovery",
+   "mitre_id": "T1018",
+   "evidence": "as well as potential lateral movement targets."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote System Discovery",
+   "mitre_id": "T1018",
+   "evidence": "• Verified outbound network connectivity with a ping command (ping -c 1 google.com)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "mitre_id": "T1190",
+   "evidence": "T1190 The threat actors exploited CVE-2023-3519 to implant a"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Native API",
+   "mitre_id": "T1106",
+   "evidence": "T1106 The threat actors executed /bin/sh via syscall."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Boot or Logon Autostart Execution",
+   "mitre_id": "T1547",
+   "evidence": "T1547 Threat actors used /flash/nsconfig/rc.netscaler rewrite"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Shell",
+   "mitre_id": "T1505.003",
+   "evidence": "T1505.003 The threat actors implanted a generic webshell on the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Abuse Elevation Control Mechanism: Setuid and Setgid",
+   "mitre_id": "T1548.001",
+   "evidence": "T1548.001 As part of their initial exploit chain, the threat actors uploaded"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Deobfuscate/Decode Files or Information",
+   "mitre_id": "T1140",
+   "evidence": "T1140 The threat actors deployed the SECRETSAUCE webshell,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "File and Directory Permissions Modification: Linux and Mac File and Directory Permissions Modification",
+   "mitre_id": "T1222.002",
+   "evidence": "T1222.002 The threat actors appended"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: Clear Linux or Mac System Logs",
+   "mitre_id": "T1070.002",
+   "evidence": "T1070.002 The threat actors some access logs, error logs, and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: File Deletion",
+   "mitre_id": "T1070.004",
+   "evidence": "T1070.004 The threat actors deleted collected files after exfiltrating them."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "T1036.005 The threat actors named a webshell *logouttm.php*."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Masquerade File Type",
+   "mitre_id": "T1036.008",
+   "evidence": "T1036.008 The threat actors exfiltrated data by uploading it as an image"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Unsecured Credentials: Credentials In Files",
+   "mitre_id": "T1552.001",
+   "evidence": "T1552.001 The threat actors obtained encrypted passwords from"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Unsecured Credentials: Private Keys",
+   "mitre_id": "T1552.004",
+   "evidence": "T1552.004 The threat actors obtained decryption keys to decrypt the AD"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Domain Trust Discovery",
+   "mitre_id": "T1482",
+   "evidence": "T1482 The threat actors queried the AD for trusts."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Permission Groups Discovery: Domain Groups",
+   "mitre_id": "T1069.002",
+   "evidence": "T1069.002 The threat actors quired the AD for groups."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote System Discovery",
+   "mitre_id": "T1018",
+   "evidence": "T1018 The threat actors queried the AD for computers."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "mitre_id": "T1016",
+   "evidence": "T1016 The actors used a webshell for AD enumeration."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery: Internet Connection Discovery",
+   "mitre_id": "T1016.001",
+   "evidence": "T1016.001 The threat actors attempted to verify outbound network"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "mitre_id": "T1046",
+   "evidence": "T1046 The threat actors conducted SMB scanning on the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Discovery: Domain Account",
+   "mitre_id": "T1087.002",
+   "evidence": "T1087.002 The threat actors queried the AD for users."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Archive Collected Data: Archive via Utility",
+   "mitre_id": "T1560.001",
+   "evidence": "T1560.001 The threat actors encrypted discovery data collected via"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "T1005 The threat actors viewed NetScaler ADC configuration files"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Staged",
+   "mitre_id": "T1074",
+   "evidence": "T1074 The threat actors uploaded data as an image file to a web￾accessible path: cp /var/tmp/test.tar.gz"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Staged: Local Data Staging",
+   "mitre_id": "T1074.001",
+   "evidence": "T1074.001 The threat actors modified tool wrote captured credentials to a"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Encrypted Channel: Asymmetric Cryptography",
+   "mitre_id": "T1573.002",
+   "evidence": "T1573.002 The threat actors deployed LIGOLO-NG, which is a tunneller"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Ingress Tool Transfer",
+   "mitre_id": "T1105",
+   "evidence": "T1105 The threat actors exploited CVE-2023-3519 to upload a TGZ"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Protocol Tunneling",
+   "mitre_id": "T1572",
+   "evidence": "T1572 The threat actors deployed LIGOLO-NG and NPS tunnellers."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy: Internal Proxy",
+   "mitre_id": "T1090.001",
+   "evidence": "T1090.001 The actors likely used a PHP shell with proxying capability to"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy: Multi-hop Proxy",
+   "mitre_id": "T1090.003",
+   "evidence": "T1090.003 The threat actors appear to have used compromised pfSense"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Access Removal",
+   "mitre_id": "T1531",
+   "evidence": "T1531 The threat actors deleted the authorization configuration file"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-3519",
+   "evidence": "The threat actors exploited CVE-2023-3519 to implant a"
+  }
+ ],
+ "observables": [
+  {
+   "type": "ipv4-addr",
+   "value": "5.2.64.155"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.255.101.76"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "172.94.124.18"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "154.6.91.149"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.255.101.76"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "154.6.91.149"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.255.101.76"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "154.6.91.149"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.255.101.76"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "154.6.91.149"
+  }
+ ],
+ "relationships": [],
+ "_meta": {
+  "engine": "0.1",
+  "model": "doc2stix-qwen3-8b:v1",
+  "seconds": 354.4,
+  "errors": "1 unparsable chunk(s)"
+ }
+}

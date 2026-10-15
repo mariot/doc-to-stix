@@ -1,0 +1,1353 @@
+{
+ "entities": [
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "Ryuk ransomware was first observed in August 2018",
+   "aliases": [
+    "Ryuk ransomware"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "Hermes 2.1",
+   "evidence": "It is a variant of the Hermes 2.1 ransomware",
+   "aliases": [
+    "Hermes ransomware"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "CryptoTech",
+   "evidence": "sold on the underground forum exploit.in from February 2017 by the cybercriminal group CryptoTech",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Bluenoroff",
+   "evidence": "A connection with the tactics, techniques and procedures (TTPs) of the Bluenoroff intrusion set, reportedly linked to North Korea",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "Ryuk ransomware",
+   "aliases": [
+    "Hermes 2.1",
+    "CryptoTech",
+    "Bluenoroff"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "TrickBot",
+   "evidence": "TrickBot",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "BazarLoader",
+   "evidence": "BazarLoader",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Emotet",
+   "evidence": "Emotet",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Cobalt Strike",
+   "evidence": "Cobalt Strike",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz",
+   "evidence": "Mimikatz",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "PsExec",
+   "evidence": "PsExec",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Rubeus",
+   "evidence": "Rubeus",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-1472",
+   "evidence": "Zerologon vulnerability (CVE-2020-1472)",
+   "aliases": []
+  },
+  {
+   "type": "campaign",
+   "name": "UNC1878",
+   "evidence": "UNC1878",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Healthcare",
+   "evidence": "healthcare sector",
+   "aliases": []
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "United States",
+   "aliases": []
+  },
+  {
+   "type": "country",
+   "name": "Canada",
+   "evidence": "Canada",
+   "aliases": []
+  },
+  {
+   "type": "threat-actor",
+   "name": "Wizard Spider",
+   "evidence": "Wizard Spider",
+   "aliases": [
+    "the TrickBot gang"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "Dyre",
+   "evidence": "Dyre",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Gozi Neverquest",
+   "evidence": "Gozi Neverquest",
+   "aliases": [
+    "Vawtrak"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "BazarBackdoor",
+   "evidence": "BazarBackdoor",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Anchor",
+   "evidence": "Anchor",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "PowerTrick",
+   "evidence": "PowerTrick",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "BloodHound",
+   "evidence": "BloodHound",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "PowerSploit",
+   "evidence": "PowerSploit",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "AdFind",
+   "evidence": "AdFind",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Raccine",
+   "evidence": "Raccine",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "SendGrid",
+   "evidence": "SendGrid",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Google Docs",
+   "evidence": "Google Docs",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Google Drive",
+   "evidence": "Google Drive",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Basecamp",
+   "evidence": "Basecamp",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Slack",
+   "evidence": "Slack",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Trello",
+   "evidence": "Trello",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Yougile",
+   "evidence": "Yougile",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "JetBrains",
+   "evidence": "JetBrains",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "cdn77",
+   "evidence": "cdn77",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "UNC1878",
+   "evidence": "UNC1878 could rely on different TrickBot affiliates or different attackers with access to BazarLoader to open up access to its victims.",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Wizard Spider",
+   "evidence": "IBM [42] believes FIN6 and Wizard Spider to be working together.",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "FIN6",
+   "evidence": "Active since 2015, FIN6 traditionally targeted point of sale (POS) terminals and eCommerce payment servers in order to exfiltrate and resell banking data.",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "Ryuk ransomware",
+   "aliases": [
+    "Hermes 2.1",
+    "CryptoTech",
+    "Bluenoroff"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "TrickBot",
+   "evidence": "Emotet-TrickBot-Ryuk, TrickBot-Ryuk and Bazar-Ryuk are not the only infection chains leading or having led in the past to the deployment of the Ryuk ransomware.",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "BazarLoader",
+   "evidence": "Emotet-TrickBot-Ryuk, TrickBot-Ryuk and Bazar-Ryuk are not the only infection chains leading or having led in the past to the deployment of the Ryuk ransomware.",
+   "aliases": [
+    "BazarBackdoor"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "Buer",
+   "evidence": "Buer loader was used to gain a foothold in an intrusion where Ryuk was deployed [38].",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "SilentNight",
+   "evidence": "SilentNight is also involved in attacks aimed at distributing Ryuk ransomware.",
+   "aliases": [
+    "Zloader"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "Emotet",
+   "evidence": "Emotet-TrickBot-Ryuk, TrickBot-Ryuk and Bazar-Ryuk are not the only infection chains leading or having led in the past to the deployment of the Ryuk ransomware.",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Cobalt Strike",
+   "evidence": "According to the editor, this campaign could be attributed to FIN6 due to their similar TTPs.",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Mimikatz",
+   "evidence": "Mimikatz",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "PsExec",
+   "evidence": "PsExec",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Rubeus",
+   "evidence": "Rubeus",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "PowerTrick",
+   "evidence": "it was found that during infection chains involving PowerTrick and Anchor, TerraLoader had installed the backdoor More_Eggs",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Anchor",
+   "evidence": "it was found that during infection chains involving PowerTrick and Anchor, TerraLoader had installed the backdoor More_Eggs",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "More_Eggs",
+   "evidence": "TerraLoader had installed the backdoor More_Eggs",
+   "aliases": [
+    "SpicyOmelette",
+    "Skid"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "Conti",
+   "evidence": "After emerging in December 2019 [43], the Conti ransomware is believed to have been made available to affiliates based on a ransomware-as-a-service (RaaS) model.",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Maze",
+   "evidence": "Conti, which unlike Ryuk has a dedicated site for the disclosure of data stolen from victims, even published the data of two victims listed on the Maze dedicated leak site.",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "LockerGoga",
+   "evidence": "From mid-2018, technical and operational evidence suggests that FIN6 or affiliated parties were distributing the Ryuk and LockerGoga ransomware (which appeared in January 2019).",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "TerraLoader",
+   "evidence": "it was found that during infection chains involving PowerTrick and Anchor, TerraLoader had installed the backdoor More_Eggs",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Zloader",
+   "evidence": "SilentNight is also involved in attacks aimed at distributing Ryuk ransomware. This trojan, sold on Russian-speaking underground forums since the end of 2019, is a variant of the Zloader malware (from the ZeuS source code) whose last activity dates back to 2018 [39].",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "FrameworkPOS",
+   "evidence": "the editors Morphisec [41] reported intrusions in early 2019 in India, Japan and the United States into POS systems belonging to the financial and healthcare sectors, using Cobalt Strike and the FrameworkPOS malicious code.",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "More_Eggs",
+   "evidence": "the attackers are believed to have used PowerShell to download and execute TerraLoader, in turn responsible for installing More_Eggs, a method specific to FIN6 according to IBM",
+   "aliases": [
+    "SpicyOmelette",
+    "Skid"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "PowerSploit",
+   "evidence": "PowerSploit",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "BloodHound",
+   "evidence": "BloodHound",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "AdFind",
+   "evidence": "AdFind",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Raccine",
+   "evidence": "Raccine",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "SendGrid",
+   "evidence": "These two malwares, like BazarLoader, were observed as being distributed through phishing emails sent via SendGrid and then through a Russian host, directing to malicious Google Docs [38].",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Google Docs",
+   "evidence": "These two malwares, like BazarLoader, were observed as being distributed through phishing emails sent via SendGrid and then through a Russian host, directing to malicious Google Docs [38].",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Google Drive",
+   "evidence": "These two malwares, like BazarLoader, were observed as being distributed through phishing emails sent via SendGrid and then through a Russian host, directing to malicious Google Docs [38].",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Basecamp",
+   "evidence": "These two malwares, like BazarLoader, were observed as being distributed through phishing emails sent via SendGrid and then through a Russian host, directing to malicious Google Docs [38].",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Slack",
+   "evidence": "These two malwares, like BazarLoader, were observed as being distributed through phishing emails sent via SendGrid and then through a Russian host, directing to malicious Google Docs [38].",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Trello",
+   "evidence": "These two malwares, like BazarLoader, were observed as being distributed through phishing emails sent via SendGrid and then through a Russian host, directing to malicious Google Docs [38].",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Yougile",
+   "evidence": "These two malwares, like BazarLoader, were observed as being distributed through phishing emails sent via SendGrid and then through a Russian host, directing to malicious Google Docs [38].",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "JetBrains",
+   "evidence": "These two malwares, like BazarLoader, were observed as being distributed through phishing emails sent via SendGrid and then through a Russian host, directing to malicious Google Docs [38].",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "cdn77",
+   "evidence": "These two malwares, like BazarLoader, were observed as being distributed through phishing emails sent via SendGrid and then through a Russian host, directing to malicious Google Docs [38].",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "Ryuk ransomware",
+   "aliases": [
+    "Hermes 2.1",
+    "CryptoTech",
+    "Bluenoroff",
+    "TrickBot",
+    "BazarLoader",
+    "Emotet",
+    "Cobalt Strike",
+    "Mimikatz",
+    "PsExec",
+    "Rubeus",
+    "UNC1878",
+    "Wizard Spider",
+    "Dyre",
+    "Gozi Neverquest",
+    "BazarBackdoor",
+    "Anchor",
+    "PowerTrick",
+    "BloodHound",
+    "PowerSploit",
+    "AdFind",
+    "Raccine",
+    "SendGrid",
+    "Google Docs",
+    "Google Drive",
+    "Basecamp",
+    "Slack",
+    "Trello",
+    "Yougile",
+    "JetBrains",
+    "cdn77",
+    "FIN6",
+    "Buer",
+    "SilentNight",
+    "More_Eggs",
+    "Conti",
+    "Maze",
+    "LockerGoga",
+    "TerraLoader"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "Maze",
+   "evidence": "Maze",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "TrickBot",
+   "evidence": "TrickBot",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "BazarLoader",
+   "evidence": "BazarLoader",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Conti",
+   "evidence": "Conti",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "More_Eggs",
+   "evidence": "More_Eggs",
+   "aliases": [
+    "SpicyOmelette",
+    "Skid"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "UNC1878",
+   "evidence": "UNC1878",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "FIN6",
+   "evidence": "FIN6",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Buer",
+   "evidence": "Buer",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "SilentNight",
+   "evidence": "SilentNight",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "This malware can also create a ryukreadme.html file as well as a copy of itself on the targeted host.",
+   "aliases": [
+    "Ryuk Ransomware",
+    "Hermes 2.1",
+    "CryptoTech",
+    "Bluenoroff",
+    "TrickBot",
+    "BazarLoader",
+    "Emotet",
+    "Cobalt Strike",
+    "Mimikatz",
+    "PsExec",
+    "Rubeus",
+    "UNC1878",
+    "Wizard Spider",
+    "Dyre",
+    "Gozi Neverquest",
+    "BazarBackdoor",
+    "Anchor",
+    "PowerTrick",
+    "BloodHound",
+    "PowerSploit",
+    "AdFind",
+    "Raccine",
+    "SendGrid",
+    "Google Docs",
+    "Google Drive",
+    "Basecamp",
+    "Slack",
+    "Trello",
+    "Yougile",
+    "JetBrains",
+    "cdn77",
+    "UNC1878",
+    "FIN6",
+    "Buer",
+    "SilentNight",
+    "More_Eggs",
+    "Conti",
+    "Maze",
+    "LockerGoga",
+    "TerraLoader"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "Ryuk ransomware",
+   "aliases": [
+    "Hermes 2.1",
+    "CryptoTech",
+    "Bluenoroff",
+    "TrickBot",
+    "BazarLoader",
+    "Emotet",
+    "Cobalt Strike",
+    "Mimikatz",
+    "PsExec",
+    "Rubeus",
+    "UNC1878",
+    "Wizard Spider",
+    "Dyre",
+    "Gozi Neverquest",
+    "BazarBackdoor",
+    "Anchor",
+    "PowerTrick",
+    "BloodHound",
+    "PowerSploit",
+    "AdFind",
+    "Raccine",
+    "SendGrid",
+    "Google Docs",
+    "Google Drive",
+    "Basecamp",
+    "Slack",
+    "Trello",
+    "Yougile",
+    "JetBrains",
+    "cdn77",
+    "FIN6",
+    "Buer",
+    "SilentNight",
+    "More_Eggs",
+    "Conti",
+    "Maze",
+    "LockerGoga",
+    "TerraLoader"
+   ]
+  }
+ ],
+ "observables": [
+  {
+   "type": "file",
+   "value": "RyukReadMe.txt",
+   "hash": "",
+   "indicates": [
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "RyukReadMe.txt",
+   "hash": "",
+   "indicates": [
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "EmerDNS",
+   "hash": "",
+   "indicates": [
+    "BazarLoader"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "bazar",
+   "hash": "",
+   "indicates": [
+    "BazarLoader"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://www.google.com/docs",
+   "hash": "",
+   "indicates": [
+    "BazarLoader"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://www.google.com/drive",
+   "hash": "",
+   "indicates": [
+    "BazarLoader"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://www.basecamp.com",
+   "hash": "",
+   "indicates": [
+    "BazarLoader"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://www.slack.com",
+   "hash": "",
+   "indicates": [
+    "BazarLoader"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://www.trello.com",
+   "hash": "",
+   "indicates": [
+    "BazarLoader"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://www.yougile.com",
+   "hash": "",
+   "indicates": [
+    "BazarLoader"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://www.jetbrains.com",
+   "hash": "",
+   "indicates": [
+    "BazarLoader"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://www.cdn77.com",
+   "hash": "",
+   "indicates": [
+    "BazarLoader"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.202.174.91",
+   "hash": "",
+   "indicates": [
+    "LockerGoga",
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "93.115.26.171",
+   "hash": "",
+   "indicates": [
+    "LockerGoga",
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "10.0.0.0/8",
+   "indicates": [
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "172.16.0.0/16",
+   "indicates": [
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "192.168.0.0/16",
+   "indicates": [
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "rep.exe",
+   "hash": "SHA-256",
+   "indicates": [
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "lan.exe",
+   "hash": "SHA-256",
+   "indicates": [
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "RyukReadMe.txt",
+   "hash": "SHA-256",
+   "indicates": [
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "RyukReadMe.html",
+   "hash": "SHA-256",
+   "indicates": [
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ryukreadme.html",
+   "hash": "SHA-256",
+   "indicates": [
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "random.dll",
+   "hash": "SHA-256",
+   "indicates": [
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "random.RTF",
+   "hash": "SHA-256",
+   "indicates": [
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "C:\\Users\\Public\\XkIiKWrgErep.exe",
+   "hash": "MD5: 544900a527328f2e4fe7598985bc688f",
+   "indicates": [
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "C:\\Users\\Public\\XkIiKWrgErep.exe",
+   "hash": "SHA-1: 453d355037fabfc9c200022d189b91310fc2577a",
+   "indicates": [
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "C:\\Users\\Public\\XkIiKWrgErep.exe",
+   "hash": "SHA-256: 2820bf6bb2a2d0670c6233301b414ae293cf85536127ac63b2ebd07d8616ae89",
+   "indicates": [
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "544900a527328f2e4fe7598985bc688f"
+  },
+  {
+   "type": "file",
+   "value": "453d355037fabfc9c200022d189b91310fc2577a"
+  },
+  {
+   "type": "file",
+   "value": "2820bf6bb2a2d0670c6233301b414ae293cf85536127ac63b2ebd07d8616ae89"
+  },
+  {
+   "type": "domain-name",
+   "value": "machunion.com"
+  },
+  {
+   "type": "domain-name",
+   "value": "bakedbuns.com"
+  },
+  {
+   "type": "domain-name",
+   "value": "ruths-brownies.com"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.202.174.91"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "93.115.26.171"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.202.174.0"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "93.115.26.0"
+  }
+ ],
+ "relationships": [
+  {
+   "source": "Ryuk",
+   "type": "variant-of",
+   "target": "Hermes 2.1",
+   "evidence": "It is a variant of the Hermes 2.1 ransomware"
+  },
+  {
+   "source": "CryptoTech",
+   "type": "uses",
+   "target": "Hermes 2.1",
+   "evidence": "sold on the underground forum exploit.in from February 2017 by the cybercriminal group CryptoTech"
+  },
+  {
+   "source": "Ryuk",
+   "type": "attributed-to",
+   "target": "CryptoTech",
+   "evidence": "CryptoTech confirmed that it was behind the ransomware"
+  },
+  {
+   "source": "Bluenoroff",
+   "type": "targets",
+   "target": "Hermes 2.1",
+   "evidence": "A connection with the tactics, techniques and procedures (TTPs) of the Bluenoroff intrusion set, reportedly linked to North Korea"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "Cobalt Strike",
+   "evidence": "attackers obtain privileged access to a domain controller (or other systems with privileged access) and deploy Ryuk (for example via PsExec) within the victim’s information system (IS)"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "PsExec",
+   "evidence": "attackers obtain privileged access to a domain controller (or other systems with privileged access) and deploy Ryuk (for example via PsExec) within the victim’s information system (IS)"
+  },
+  {
+   "source": "Ryuk",
+   "type": "targets",
+   "target": "Healthcare",
+   "evidence": "Ryuk was reportedly responsible for 75% of attacks on the American healthcare sector"
+  },
+  {
+   "source": "Ryuk",
+   "type": "targets",
+   "target": "United States",
+   "evidence": "Ryuk appears in particular to be impacting the United States and Canada"
+  },
+  {
+   "source": "Ryuk",
+   "type": "targets",
+   "target": "Canada",
+   "evidence": "Ryuk appears in particular to be impacting the United States and Canada"
+  },
+  {
+   "source": "Ryuk",
+   "type": "targets",
+   "target": "UNC1878",
+   "evidence": "approximately 1,400 entities are thought to be communicating with Cobalt Strike command and control (C2) servers associated with UNC1878, a Ryuk user"
+  },
+  {
+   "source": "TrickBot",
+   "type": "uses",
+   "target": "Cobalt Strike",
+   "evidence": "Once legitimate post-exploitation tools are distributed by TrickBot (Cobalt Strike, Empire, BloodHound, Mimikatz, LaZagne), attackers obtain privileged access"
+  },
+  {
+   "source": "TrickBot",
+   "type": "uses",
+   "target": "Mimikatz",
+   "evidence": "Once legitimate post-exploitation tools are distributed by TrickBot (Cobalt Strike, Empire, BloodHound, Mimikatz, LaZagne), attackers obtain privileged access"
+  },
+  {
+   "source": "TrickBot",
+   "type": "uses",
+   "target": "BloodHound",
+   "evidence": "Once legitimate post-exploitation tools are distributed by TrickBot (Cobalt Strike, Empire, BloodHound, Mimikatz, LaZagne), attackers obtain privileged access"
+  },
+  {
+   "source": "BazarLoader",
+   "type": "uses",
+   "target": "Cobalt Strike",
+   "evidence": "BazarLoader downloads from the C2 server a payload (encrypted in XOR): BazarBackdoor. The backdoor then downloads post-exploitation frameworks, most frequently Cobalt Strike"
+  },
+  {
+   "source": "BazarLoader",
+   "type": "uses",
+   "target": "Mimikatz",
+   "evidence": "Privileges have been escalated using Mimikatz, Rubeus"
+  },
+  {
+   "source": "BazarLoader",
+   "type": "uses",
+   "target": "Rubeus",
+   "evidence": "Privileges have been escalated using Mimikatz, Rubeus"
+  },
+  {
+   "source": "BazarLoader",
+   "type": "uses",
+   "target": "AdFind",
+   "evidence": "Reconnaissance data (in particular recovered via AdFind) is exfiltrated via FTP"
+  },
+  {
+   "source": "BazarLoader",
+   "type": "uses",
+   "target": "Anchor",
+   "evidence": "BazarBackdoor, although not exclusively dedicated to this purpose, can be used to enable the distribution of Ryuk ransomware"
+  },
+  {
+   "source": "BazarLoader",
+   "type": "uses",
+   "target": "PowerTrick",
+   "evidence": "BazarBackdoor, although not exclusively dedicated to this purpose, can be used to enable the distribution of Ryuk ransomware"
+  },
+  {
+   "source": "BazarLoader",
+   "type": "uses",
+   "target": "BloodHound",
+   "evidence": "BazarBackdoor, although not exclusively dedicated to this purpose, can be used to enable the distribution of Ryuk ransomware"
+  },
+  {
+   "source": "BazarLoader",
+   "type": "uses",
+   "target": "PowerSploit",
+   "evidence": "BazarBackdoor, although not exclusively dedicated to this purpose, can be used to enable the distribution of Ryuk ransomware"
+  },
+  {
+   "source": "BazarLoader",
+   "type": "uses",
+   "target": "Zerologon",
+   "evidence": "Privileges have been escalated using Mimikatz, Rubeus, or by exploiting a Zerologon vulnerability (CVE-2020-1472)"
+  },
+  {
+   "source": "Wizard Spider",
+   "type": "uses",
+   "target": "TrickBot",
+   "evidence": "The group operating the TrickBot malware is called Wizard Spider by Crowdstrike"
+  },
+  {
+   "source": "Wizard Spider",
+   "type": "uses",
+   "target": "Anchor",
+   "evidence": "This group is believed to include members of the Gold BlackBurn group, developers and operators of the Dyre banking trojan [27], which ceased activities in November 2015 following action by the Russian police. Dyre emerged in June 2014. Its specific characteristics were as follows: • Dyre is believed to have the same developer as Gozi Neverquest (alias Vawtrak) [28]."
+  },
+  {
+   "source": "Wizard Spider",
+   "type": "uses",
+   "target": "PowerTrick",
+   "evidence": "This group is believed to include members of the Gold BlackBurn group, developers and operators of the Dyre banking trojan [27], which ceased activities in November 2015 following action by the Russian police. Dyre emerged in June 2014. Its specific characteristics were as follows: • Dyre is believed to have the same developer as Gozi Neverquest (alias Vawtrak) [28]."
+  },
+  {
+   "source": "Gozi Neverquest",
+   "type": "uses",
+   "target": "Vawtrak",
+   "evidence": "Gozi Neverquest (alias Vawtrak)"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "Wake-on-LAN",
+   "evidence": "Since October 2019, workstations on the local network that have been powered off can be switched on by Ryuk using a Wake-on-LAN feature allowing it to increase its attack surface"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "vssadmin",
+   "evidence": "It then destroys all shadow copies on the system to prevent the users from restoring their system via vssadmin commands or by running a .bat file"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "Raccine",
+   "evidence": "The Raccine tool available on GitHub can intercept the use of vssadmin, prevent the deletion of shadow copies and even, in some cases, block the chain of infection."
+  },
+  {
+   "source": "BazarLoader",
+   "type": "uses",
+   "target": "SendGrid",
+   "evidence": "BazarLoader is generally distributed through phishing campaigns. Emails can be sent using the SendGrid marketing platform."
+  },
+  {
+   "source": "BazarLoader",
+   "type": "uses",
+   "target": "Google Docs",
+   "evidence": "BazarLoader is generally distributed through phishing campaigns. Emails can be sent using the SendGrid marketing platform. They contain links to Google Docs pages of document previews, prompting the victim to download the file as the preview does not usually work"
+  },
+  {
+   "source": "BazarLoader",
+   "type": "uses",
+   "target": "Google Drive",
+   "evidence": "These files concerned are executables signed with revoked certificates, hosted on legitimate web services (Google Drive, Basecamp, Slack, Trello, Yougile, JetBrains, cdn77 and others)"
+  },
+  {
+   "source": "BazarLoader",
+   "type": "uses",
+   "target": "Basecamp",
+   "evidence": "These files concerned are executables signed with revoked certificates, hosted on legitimate web services (Google Drive, Basecamp, Slack, Trello, Yougile, JetBrains, cdn77 and others)"
+  },
+  {
+   "source": "BazarLoader",
+   "type": "uses",
+   "target": "Slack",
+   "evidence": "These files concerned are executables signed with revoked certificates, hosted on legitimate web services (Google Drive, Basecamp, Slack, Trello, Yougile, JetBrains, cdn77 and others)"
+  },
+  {
+   "source": "BazarLoader",
+   "type": "uses",
+   "target": "Trello",
+   "evidence": "These files concerned are executables signed with revoked certificates, hosted on legitimate web services (Google Drive, Basecamp, Slack, Trello, Yougile, JetBrains, cdn77 and others)"
+  },
+  {
+   "source": "BazarLoader",
+   "type": "uses",
+   "target": "Yougile",
+   "evidence": "These files concerned are executables signed with revoked certificates, hosted on legitimate web services (Google Drive, Basecamp, Slack, Trello, Yougile, JetBrains, cdn77 and others)"
+  },
+  {
+   "source": "BazarLoader",
+   "type": "uses",
+   "target": "JetBrains",
+   "evidence": "These files concerned are executables signed with revoked certificates, hosted on legitimate web services (Google Drive, Basecamp, Slack, Trello, Yougile, JetBrains, cdn77 and others)"
+  },
+  {
+   "source": "BazarLoader",
+   "type": "uses",
+   "target": "cdn77",
+   "evidence": "These files concerned are executables signed with revoked certificates, hosted on legitimate web services (Google Drive, Basecamp, Slack, Trello, Yougile, JetBrains, cdn77 and others)"
+  },
+  {
+   "source": "FIN6",
+   "type": "targets",
+   "target": "Ryuk",
+   "evidence": "From mid-2018, technical and operational evidence suggests that FIN6 or affiliated parties were distributing the Ryuk and LockerGoga ransomware (which appeared in January 2019)."
+  },
+  {
+   "source": "FIN6",
+   "type": "targets",
+   "target": "LockerGoga",
+   "evidence": "From mid-2018, technical and operational evidence suggests that FIN6 or affiliated parties were distributing the Ryuk and LockerGoga ransomware (which appeared in January 2019)."
+  },
+  {
+   "source": "FIN6",
+   "type": "uses",
+   "target": "Cobalt Strike",
+   "evidence": "According to the editor, this campaign could be attributed to FIN6 due to their similar TTPs."
+  },
+  {
+   "source": "FIN6",
+   "type": "uses",
+   "target": "FrameworkPOS",
+   "evidence": "the editors Morphisec [41] reported intrusions in early 2019 in India, Japan and the United States into POS systems belonging to the financial and healthcare sectors, using Cobalt Strike and the FrameworkPOS malicious code."
+  },
+  {
+   "source": "FIN6",
+   "type": "uses",
+   "target": "More_Eggs",
+   "evidence": "the attackers are believed to have used PowerShell to download and execute TerraLoader, in turn responsible for installing More_Eggs, a method specific to FIN6 according to IBM"
+  },
+  {
+   "source": "Wizard Spider",
+   "type": "uses",
+   "target": "TrickBot",
+   "evidence": "IBM [42] believes FIN6 and Wizard Spider to be working together."
+  },
+  {
+   "source": "UNC1878",
+   "type": "uses",
+   "target": "TrickBot",
+   "evidence": "UNC1878 could rely on different TrickBot affiliates or different attackers with access to BazarLoader to open up access to its victims."
+  },
+  {
+   "source": "UNC1878",
+   "type": "uses",
+   "target": "BazarLoader",
+   "evidence": "UNC1878 could rely on different TrickBot affiliates or different attackers with access to BazarLoader to open up access to its victims."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "TrickBot",
+   "evidence": "Emotet-TrickBot-Ryuk, TrickBot-Ryuk and Bazar-Ryuk are not the only infection chains leading or having led in the past to the deployment of the Ryuk ransomware."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "BazarLoader",
+   "evidence": "Emotet-TrickBot-Ryuk, TrickBot-Ryuk and Bazar-Ryuk are not the only infection chains leading or having led in the past to the deployment of the Ryuk ransomware."
+  },
+  {
+   "source": "Buer",
+   "type": "uses",
+   "target": "Ryuk",
+   "evidence": "Buer loader was used to gain a foothold in an intrusion where Ryuk was deployed [38]."
+  },
+  {
+   "source": "SilentNight",
+   "type": "uses",
+   "target": "Ryuk",
+   "evidence": "SilentNight is also involved in attacks aimed at distributing Ryuk ransomware."
+  },
+  {
+   "source": "Conti",
+   "type": "uses",
+   "target": "Ryuk",
+   "evidence": "Conti, which unlike Ryuk has a dedicated site for the disclosure of data stolen from victims, even published the data of two victims listed on the Maze dedicated leak site."
+  },
+  {
+   "source": "Conti",
+   "type": "uses",
+   "target": "Maze",
+   "evidence": "Conti, which unlike Ryuk has a dedicated site for the disclosure of data stolen from victims, even published the data of two victims listed on the Maze dedicated leak site."
+  },
+  {
+   "source": "TrickBot",
+   "type": "uses",
+   "target": "Ryuk",
+   "evidence": "Emotet-TrickBot-Ryuk, TrickBot-Ryuk and Bazar-Ryuk are not the only infection chains leading or having led in the past to the deployment of the Ryuk ransomware."
+  },
+  {
+   "source": "BazarLoader",
+   "type": "uses",
+   "target": "Ryuk",
+   "evidence": "Emotet-TrickBot-Ryuk, TrickBot-Ryuk and Bazar-Ryuk are not the only infection chains leading or having led in the past to the deployment of the Ryuk ransomware."
+  },
+  {
+   "source": "Buer",
+   "type": "uses",
+   "target": "BazarLoader",
+   "evidence": "Buer is a malware-as-a-service used to distribute banking Trojans and ransomware. It is available on the Dark Web for 350 dollars."
+  },
+  {
+   "source": "Buer",
+   "type": "uses",
+   "target": "TrickBot",
+   "evidence": "Buer is believed to have already distributed TrickBot [20], without having been able to identify the Buer-TrickBot-Ryuk chain of infection."
+  },
+  {
+   "source": "SilentNight",
+   "type": "uses",
+   "target": "BazarLoader",
+   "evidence": "These two malwares, like BazarLoader, were observed as being distributed through phishing emails sent via SendGrid and then through a Russian host, directing to malicious Google Docs [38]."
+  },
+  {
+   "source": "BazarLoader",
+   "type": "uses",
+   "target": "SendGrid",
+   "evidence": "These two malwares, like BazarLoader, were observed as being distributed through phishing emails sent via SendGrid and then through a Russian host, directing to malicious Google Docs [38]."
+  },
+  {
+   "source": "BazarLoader",
+   "type": "uses",
+   "target": "Google Docs",
+   "evidence": "These two malwares, like BazarLoader, were observed as being distributed through phishing emails sent via SendGrid and then through a Russian host, directing to malicious Google Docs [38]."
+  },
+  {
+   "source": "Buer",
+   "type": "uses",
+   "target": "SendGrid",
+   "evidence": "These two malwares, like BazarLoader, were observed as being distributed through phishing emails sent via SendGrid and then through a Russian host, directing to malicious Google Docs [38]."
+  },
+  {
+   "source": "Buer",
+   "type": "uses",
+   "target": "Google Docs",
+   "evidence": "These two malwares, like BazarLoader, were observed as being distributed through phishing emails sent via SendGrid and then through a Russian host, directing to malicious Google Docs [38]."
+  },
+  {
+   "source": "SilentNight",
+   "type": "uses",
+   "target": "SendGrid",
+   "evidence": "These two malwares, like BazarLoader, were observed as being distributed through phishing emails sent via SendGrid and then through a Russian host, directing to malicious Google Docs [38]."
+  },
+  {
+   "source": "SilentNight",
+   "type": "uses",
+   "target": "Google Docs",
+   "evidence": "These two malwares, like BazarLoader, were observed as being distributed through phishing emails sent via SendGrid and then through a Russian host, directing to malicious Google Docs [38]."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "TrickBot",
+   "evidence": "Ryuk and Maze, while Maze was also distributed by TrickBot"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "BazarLoader",
+   "evidence": "Potential intermediaries could be TrickBot, Bazar, Buer and SilentNight"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "Buer",
+   "evidence": "Potential intermediaries could be TrickBot, Bazar, Buer and SilentNight"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "SilentNight",
+   "evidence": "Potential intermediaries could be TrickBot, Bazar, Buer and SilentNight"
+  },
+  {
+   "source": "Ryuk",
+   "type": "targets",
+   "target": "organization",
+   "evidence": "Ryuk ransomware remains particularly active in the second half of 2020. It differs from most other ransomwares in that at least one of its operators attacked hospitals during a pandemic"
+  },
+  {
+   "source": "Ryuk",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "Ryuk ransomware remains particularly active in the second half of 2020. It differs from most other ransomwares in that at least one of its operators attacked hospitals during a pandemic"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "schtasks.exe",
+   "evidence": "The scheduled task is created through a call to the schtasks.exe system tool, a native-Windows tool."
+  },
+  {
+   "source": "Ryuk",
+   "type": "targets",
+   "target": "process",
+   "evidence": "The malware interrupts multiple programs based on hardcoded lists : • a list of 41 processes to be killed (task kill) ;"
+  },
+  {
+   "source": "Ryuk",
+   "type": "targets",
+   "target": "service",
+   "evidence": "The malware interrupts multiple programs based on hardcoded lists : • and a list of 64 services to stop."
+  }
+ ],
+ "_meta": {
+  "engine": "0.2",
+  "model": "qwen3:30b-a3b",
+  "seconds": 766.2,
+  "errors": "1 unparsable chunk(s)"
+ }
+}

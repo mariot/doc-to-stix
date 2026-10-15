@@ -1,0 +1,134 @@
+{
+ "entities": [
+  {
+   "type": "malware",
+   "name": "Jaguar Tooth",
+   "evidence": "Jaguar Tooth is non-persistent malware that targets Cisco IOS routers. Capability includes automated device information collection that is exfiltrated over TFTP and unauthenticated backdoor access."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Client Execution",
+   "mitre_id": "T1203",
+   "evidence": "The OID used by the SNMP exploit can be broken down as follows:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Stack-Based Buffer Overflow",
+   "mitre_id": "T1684",
+   "evidence": "The vulnerability occurs within k_alpsRemPeerConnEntry_get (0x60E72178), part of AirLine"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Unix Shell",
+   "mitre_id": "T1059.004",
+   "evidence": "Uppercasing is disabled using multiple ROP gadgets, the main Jaguar Tooth payload is then copied into memory."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Services: SNMP",
+   "mitre_id": "T1007.003",
+   "evidence": "Jaguar Tooth has been observed being deployed via multiple SNMP exploit packets. Whilst the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Automated Collection",
+   "mitre_id": "T1119",
+   "evidence": "Jaguar Tooth is non-persistent malware that targets Cisco IOS routers. Capability includes automated device information collection that is exfiltrated over TFTP and unauthenticated backdoor access."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Client Execution",
+   "mitre_id": "T1203",
+   "evidence": "The OID used by the SNMP exploit can be broken down as follows:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Stack-Based Buffer Overflow",
+   "mitre_id": "T1684",
+   "evidence": "The vulnerability occurs within k_alpsRemPeerConnEntry_get (0x60E72178), part of AirLine"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Unix Shell",
+   "mitre_id": "T1059.004",
+   "evidence": "Uppercasing is disabled using multiple ROP gadgets, the main Jaguar Tooth payload is then copied into memory."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Services: SNMP",
+   "mitre_id": "T1007.003",
+   "evidence": "Jaguar Tooth has been observed being deployed via multiple SNMP exploit packets. Whilst the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Automated Collection",
+   "mitre_id": "T1119",
+   "evidence": "Jaguar Tooth is non-persistent malware that targets Cisco IOS routers. Capability includes automated device information collection that is exfiltrated over TFTP and unauthenticated backdoor access."
+  }
+ ],
+ "observables": [
+  {
+   "type": "file",
+   "value": "230418000",
+   "hash": "SHA-1",
+   "indicates": [
+    "Jaguar Tooth"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "230418001",
+   "hash": "SHA-1",
+   "indicates": [
+    "Jaguar Tooth"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "230418002",
+   "hash": "SHA-1",
+   "indicates": [
+    "Jaguar Tooth"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "230418003",
+   "hash": "SHA-1",
+   "indicates": [
+    "Jaguar Tooth"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "230418004",
+   "hash": "SHA-1",
+   "indicates": [
+    "Jaguar Tooth"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "230418005",
+   "hash": "SHA-1",
+   "indicates": [
+    "Jaguar Tooth"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "230418006",
+   "hash": "SHA-1",
+   "indicates": [
+    "Jaguar Tooth"
+   ]
+  }
+ ],
+ "relationships": [],
+ "_meta": {
+  "engine": "0.1",
+  "model": "doc2stix-qwen3-8b:v1",
+  "seconds": 554.0,
+  "errors": "1 unparsable chunk(s)"
+ }
+}

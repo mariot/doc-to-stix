@@ -1,0 +1,796 @@
+{
+ "entities": [
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation de vulnérabilités",
+   "mitre_id": "T1688",
+   "evidence": "Le mode opératoire APT28 est en mesure d’exploiter des vulnérabilités afin de gagner en privilège sur les postes"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation de vulnérabilités",
+   "mitre_id": "T1688",
+   "evidence": "Dans l’un des incidents impliquant le MOA, l’ANSSI a identifié l’exploitation des vulnérabilités CVE-2020-0688 et"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation de vulnérabilités",
+   "mitre_id": "T1688",
+   "evidence": "Le 3. Dont la CVE-2023-23397."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Mail Server",
+   "mitre_id": "T1505.003",
+   "evidence": "reGeorg a notamment été utilisé pour pérenniser l’accès au serveur [T1505.003]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create Account: Local Account",
+   "mitre_id": "T1136",
+   "evidence": "Pour se maintenir sur le réseau compromis, APT28 crée par ailleurs des comptes utilisateur [T1136] qui imitent par"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Event Triggered Execution: Component Object Model Hijacking",
+   "mitre_id": "T1546.015",
+   "evidence": "Au-delà de ces observations, le MOA est connu pour avoir utilisé des techniques plus avancées. L’implant Graphite"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1003",
+   "evidence": "soit en utilisant l’outil Mimikatz, soit en faisant appel à la fonction MiniDump de la bibliothèque « comsvcs.dll » [T1003.001];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: NTDS",
+   "mitre_id": "T1003.003",
+   "evidence": "l’utilisation d’utilitaires natifs comme « ntdsutil.exe » pour récupérer le contenu de la base de données"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Ingress Tool Transfer",
+   "mitre_id": "T1105",
+   "evidence": "l’emploi de l’outil « certutil.exe » pour être en mesure de télécharger des ressources distantes dans l’envi￾ronnement compromis5"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Steal or Forge Kerberos Tickets: Kerberoasting",
+   "mitre_id": "T1558.003",
+   "evidence": "L’ANSSI a procédé à l’analyse de la CVE-2023-23397 suite à la publication par MICROSOFT [18]. L’exploitation par"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: SMB/Windows Admin Shares",
+   "mitre_id": "T1021.002",
+   "evidence": "SMB [4, 19]. Les comptes ciblés réalisent automatiquement une tentative d’authentification auprès d’un service"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Web Service: Bidirectional Communication",
+   "mitre_id": "T1102.002",
+   "evidence": "OneDrive et Google Drive [14, 20]. Cette technique permet aux attaquants de réduire le risque de détection. Il est"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System: Credentials from Password Stores",
+   "mitre_id": "T1003.001",
+   "evidence": "soit en utilisant l’outil Mimikatz, soit en faisant appel à la fonction MiniDump de la bibliothèque « comsvcs.dll » [T1003.001];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System: Credentials from Password Stores",
+   "mitre_id": "T1003.001",
+   "evidence": "l’utilisation d’utilitaires natifs comme « ntdsutil.exe » pour récupérer le contenu de la base de données"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System: Credentials from Password Stores",
+   "mitre_id": "T1003.001",
+   "evidence": "l’emploi de l’outil « certutil.exe » pour être en mesure de télécharger des ressources distantes dans l’envi￾ronnement compromis5"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System: Credentials from Password Stores",
+   "mitre_id": "T1003.001",
+   "evidence": "L’ANSSI observe un ciblage accru par le MOA à l’encontre d’infrastructures de messagerie à des fins d’espionnage"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System: Credentials from Password Stores",
+   "mitre_id": "T1003.001",
+   "evidence": "L’implant CredoMap utilise un compte de messagerie compromis pour exfiltrer les données de navigateurs récu￾pérés via le protocole IMAP 6"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System: Credentials from Password Stores",
+   "mitre_id": "T1003.001",
+   "evidence": "PIPEDREAM, MOCKBIN ou MOCKY pour récupérer le contenu exfiltré [3, 5, 6, 7, 22]."
+  },
+  {
+   "type": "campaign",
+   "name": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "evidence": "Campagnes d’attaques du mode opératoire APT28 depuis 2021"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Remote Email Collection",
+   "mitre_id": "T1114.002",
+   "evidence": "PEDREAM, MOCKBIN ou MOCKY pour récupérer le contenu exfiltré [3, 5, 6, 7, 22]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information: Email Addresses",
+   "mitre_id": "T1589.002",
+   "evidence": "L’ANSSI observe un ciblage accru par le MOA à l’encontre d’infrastructures de messagerie à des fins d’espionnage"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Remote Email Collection",
+   "mitre_id": "T1114.002",
+   "evidence": "L’ANSSI observe un ciblage accru par le MOA à l’encontre d’infrastructures de messagerie à des fins d’espionnage"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information: Email Addresses",
+   "mitre_id": "T1589.002",
+   "evidence": "Ce ciblage est réalisé au travers de différentes techniques, démontrant la capacité du MOA à collecter"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Remote Email Collection",
+   "mitre_id": "T1114.002",
+   "evidence": "6. Internet Message Access Protocol (IMAP) est un protocole permettant d’accéder et de manipuler des messages électroniques sur un serveur."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information: Email Addresses",
+   "mitre_id": "T1589.002",
+   "evidence": "26 octobre 2023 Page 8 sur 23"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Remote Email Collection",
+   "mitre_id": "T1114.002",
+   "evidence": "TLP:CLEAR"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information: Email Addresses",
+   "mitre_id": "T1589.002",
+   "evidence": "PAP:CLEAR"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Remote Email Collection",
+   "mitre_id": "T1114.002",
+   "evidence": "=== page 9 ==="
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information: Email Addresses",
+   "mitre_id": "T1589.002",
+   "evidence": "Campagnes d’attaques du mode opératoire APT28 depuis 2021"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Remote Email Collection",
+   "mitre_id": "T1114.002",
+   "evidence": "3 Recommandations"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information: Email Addresses",
+   "mitre_id": "T1589.002",
+   "evidence": "Pour faire face à ce type de menace, l’ANSSI rappelle l’importance d’avoir une approche globale de la sécurité,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Remote Email Collection",
+   "mitre_id": "T1114.002",
+   "evidence": "notamment via la réalisation d’une appréciation des risques. Celle-ci doit permettre d’identifier :"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information: Email Addresses",
+   "mitre_id": "T1589.002",
+   "evidence": "• les actifs devant être protégés;"
+  },
+  {
+   "type": "campaign",
+   "name": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "evidence": "Campagnes d’attaques du mode opératoire APT28 depuis 2021"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "un serveur Microsoft"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "relais de messagerie au sein d’une passerelle sécurisée [25]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "au moins un serveur SMTP doit être positionné au sein de la passerelle Internet sécurisée. Néanmoins, en tenant compte de la complexité et coûts associés, il est recommandé de dédier un serveur"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "un serveur SMTP d’envo"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "un serveur SMTP de réception applique les premières politiques de sécurité, assure des fonc￾tions d’analyse protocolaire et de contenu, qualifie les courriels nécessitant une mise en qua￾rantaine et transmet in fine les courriers à un autre serveur relais de l’entité ou à un serveur"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "chaîné aux serveurs d’envo"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "À noter que si finalement un seul serveur est positionné au sein de la passerelle Internet sécurisée"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "Pour les besoins de messagerie interne (c’est-à-dire sans interconnexion à Internet), déployer au"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "Ce serveur ne doit être en aucun cas chaîné à un serveur SMTP exposé sur Internet."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "L’identification d’un courriel malveillant doit être vue comme un point de départ d’une investigation"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "et ne doit pas seulement se résumer à une action de suppression. Dans la mesure du possible, il est"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "recommandé d’essayer de répondre aux questions suivantes :"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "• est-ce que le courriel malveillant a été bloqué ou non par les dispositifs de filtrage amont ? Dans"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "un cas comme dans l’autre, quelles ont été les conclusions d’analyse de ces solutions amont ?"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "• est-il possible d’en récupérer une copie ?"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "• est-ce que plusieurs utilisateurs ont reçu ce même courriel ?"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "• existe-t-il d’autres variantes de ce courriel dans l’environnement ?"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "• est-ce que la ou les personnes concernées ont effectivement reçu, ouvert, supprimé, transféré"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "le courriel ou ses pièces jointes ? Si oui quand, comment, à qui ?"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "• est-ce que des activités système ou réseau suspectes depuis le compte ou le poste de ces utili￾sateurs ont été observées suite aux actions précédemment identifiées ?"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "Pour répondre à ces questions, il est nécessaire de disposer de différents points de journalisation"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "collectables et pouvant être corrélés : passerelle de filtrage, serveur de messagerie, poste utilisateur,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "proxy réseau, pare-feu, annuaire Active Directory (le cas échéant). Ces évènements ayant pu"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "survenir plusieurs mois en arrière, il est donc recommandé, en accord avec les contraintes légales"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "ou réglementaires et les capacités de l’entité, de dimensionner suffisamment la conservation de"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "cette journalisation."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "Enfin, échanger avec la ou les personnes concernées sur les actions qu’elles ont pu réaliser autour"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "de ce courriel est également important. En effet, certains courriels ne contiennent parfois aucune"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "charge ou lien malveillant, mais seulement une liste d’instructions à effectuer par l’utilisateur. De"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "plus, celui-ci peut parfois être en mesure d’expliquer le contexte précédant la réception du courriel"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "malveillant."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "Comme de nombreux MOA, APT28 exploite des bases de fuites de données à la recherche de mots"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding",
+   "mitre_id": "T1114.003",
+   "evidence": "de l’authentification multifacteur;"
+  },
+  {
+   "type": "campaign",
+   "name": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "evidence": "Campagnes d’attaques du mode opératoire APT28 depuis 2021"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force",
+   "mitre_id": "T1110",
+   "evidence": "ptes et mots de passe par défaut ont été désactivés ou changés; • de définir une politique de mots de passe forts, incluant la vérification à la saisie; • d’implémenter de l’authentification multifacteur; • d’auditer à intervalles réguliers la robustesse des mots de passe utilisateurs et de demander un"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "User Execution: Malicious Link",
+   "mitre_id": "T1204.001",
+   "evidence": "Réduction des risques liés aux campagnes d’hameçonnage"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing: Spearphishing via Service",
+   "mitre_id": "T1566.003",
+   "evidence": "L’hameçonnage reste une valeur sûre pour les attaquants. Lorsqu’il est réalisé de manière élémen￾taire, les taux de réussite peuvent néanmoins être élevés. Lorsqu’il est réalisé avec soin, même un"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "La séparation des moyens de communication professionnels et personnels est une mesure de"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Steal or Forge Web Credentials: Credentials In Email",
+   "mitre_id": "T1585.002",
+   "evidence": "Le succès de certaines campagnes d’hameçonnage repose sur l’usurpation de l’identité de marque."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force: NTLM Relay",
+   "mitre_id": "T1110.002",
+   "evidence": "À l’instar de l’utilisation par le MOA APT28 de la vulnérabilité CVE-2023-23397, les attaques"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify Tools",
+   "mitre_id": "T1685",
+   "evidence": "La désactivation globale de l’authentification NTLM au profit d’une utilisation exclusive de Ker￾beros rend également ces attaques inopérantes. Il s’agit d’une mesure générique particulièrement"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify Tools: Disable or Modify Authentication",
+   "mitre_id": "T1685.002",
+   "evidence": "L’ANSSI tient à disposition sur le site du CERT-FR une page dédiée au sujet [30]. Enfin, Microsoft a mis à disposition un ensemble d’outils et recommandations pour aider à l’inves￾tigation d’une potentielle exploitation de la vulnérabilité CVE-2023-23397 [31]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Client Execution",
+   "mitre_id": "T1203",
+   "evidence": "R14"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Software Deployment Tools",
+   "mitre_id": "T1072",
+   "evidence": "APT28 dispose de son propre arsenal d’outils malveillants. Toutefois, comme de nombreux acteurs"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "Le détournement de ces derniers à des fins"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Client Execution: Malicious File",
+   "mitre_id": "T1203.002",
+   "evidence": "En premier lieu, il convient d’utiliser les lignes de défense élémentaires intégrées au système d’ex￾ploitation ainsi que les solutions antivirales et d’activer :"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "De plus, le suivi des alertes de détection qui seront levées est indispensable afin d’être en mesure"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "En second lieu, il convient d’utiliser des lignes de défense avancées pour limiter l’efficacité des logi￾ciels malveillants ou détournés non détectés par les solutions antivirales :"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "L’identification et le suivi dans le temps des applications et pilotes détournables à des fins mal￾veillantes peuvent se révéler être une tâche fastidieuse. Des projets communautaires existent [33,"
+  }
+ ],
+ "observables": [],
+ "relationships": [
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1078",
+   "evidence": "un serveur Microsoft"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "relais de messagerie au sein d’une passerelle sécurisée [25]."
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "au moins un serveur SMTP doit être positionné au sein de la passerelle Internet sécurisée. Néanmoins, en tenant compte de la complexité et coûts associés, il est recommandé de dédier un serveur"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "un serveur SMTP d’envo"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "un serveur SMTP de réception applique les premières politiques de sécurité, assure des fonc￾tions d’analyse protocolaire et de contenu, qualifie les courriels nécessitant une mise en qua￾rantaine et transmet in fine les courriers à un autre serveur relais de l’entité ou à un serveur"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "chaîné aux serveurs d’envo"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "À noter que si finalement un seul serveur est positionné au sein de la passerelle Internet sécurisée"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "Pour les besoins de messagerie interne (c’est-à-dire sans interconnexion à Internet), déployer au"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "Ce serveur ne doit être en aucun cas chaîné à un serveur SMTP exposé sur Internet."
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "L’identification d’un courriel malveillant doit être vue comme un point de départ d’une investigation"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "et ne doit pas seulement se résumer à une action de suppression. Dans la mesure du possible, il est"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "recommandé d’essayer de répondre aux questions suivantes :"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "• est-ce que le courriel malveillant a été bloqué ou non par les dispositifs de filtrage amont ? Dans"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "un cas comme dans l’autre, quelles ont été les conclusions d’analyse de ces solutions amont ?"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "• est-il possible d’en récupérer une copie ?"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "• est-ce que plusieurs utilisateurs ont reçu ce même courriel ?"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "• existe-t-il d’autres variantes de ce courriel dans l’environnement ?"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "• est-ce que la ou les personnes concernées ont effectivement reçu, ouvert, supprimé, transféré"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "le courriel ou ses pièces jointes ? Si oui quand, comment, à qui ?"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "• est-ce que des activités système ou réseau suspectes depuis le compte ou le poste de ces utili￾sateurs ont été observées suite aux actions précédemment identifiées ?"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "Pour répondre à ces questions, il est nécessaire de disposer de différents points de journalisation"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "collectables et pouvant être corrélés : passerelle de filtrage, serveur de messagerie, poste utilisateur,"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "proxy réseau, pare-feu, annuaire Active Directory (le cas échéant). Ces évènements ayant pu"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "survenir plusieurs mois en arrière, il est donc recommandé, en accord avec les contraintes légales"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "ou réglementaires et les capacités de l’entité, de dimensionner suffisamment la conservation de"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "cette journalisation."
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "Enfin, échanger avec la ou les personnes concernées sur les actions qu’elles ont pu réaliser autour"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "de ce courriel est également important. En effet, certains courriels ne contiennent parfois aucune"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "charge ou lien malveillant, mais seulement une liste d’instructions à effectuer par l’utilisateur. De"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "plus, celui-ci peut parfois être en mesure d’expliquer le contexte précédant la réception du courriel"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "malveillant."
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1078",
+   "evidence": "Comme de nombreux MOA, APT28 exploite des bases de fuites de données à la recherche de mots"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1078",
+   "evidence": "de l’authentification multifacteur;"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1110",
+   "evidence": "ptes et mots de passe par défaut ont été désactivés ou changés; • de définir une politique de mots de passe forts, incluant la vérification à la saisie; • d’implémenter de l’authentification multifacteur; • d’auditer à intervalles réguliers la robustesse des mots de passe utilisateurs et de demander un"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1204.001",
+   "evidence": "Réduction des risques liés aux campagnes d’hameçonnage"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1566.003",
+   "evidence": "L’hameçonnage reste une valeur sûre pour les attaquants. Lorsqu’il est réalisé de manière élémen￾taire, les taux de réussite peuvent néanmoins être élevés. Lorsqu’il est réalisé avec soin, même un"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1059.003",
+   "evidence": "La séparation des moyens de communication professionnels et personnels est une mesure de"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1585.002",
+   "evidence": "Le succès de certaines campagnes d’hameçonnage repose sur l’usurpation de l’identité de marque."
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1110.002",
+   "evidence": "À l’instar de l’utilisation par le MOA APT28 de la vulnérabilité CVE-2023-23397, les attaques"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1685",
+   "evidence": "La désactivation globale de l’authentification NTLM au profit d’une utilisation exclusive de Ker￾beros rend également ces attaques inopérantes. Il s’agit d’une mesure générique particulièrement"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1685.002",
+   "evidence": "L’ANSSI tient à disposition sur le site du CERT-FR une page dédiée au sujet [30]. Enfin, Microsoft a mis à disposition un ensemble d’outils et recommandations pour aider à l’inves￾tigation d’une potentielle exploitation de la vulnérabilité CVE-2023-23397 [31]."
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1203",
+   "evidence": "R14"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1072",
+   "evidence": "APT28 dispose de son propre arsenal d’outils malveillants. Toutefois, comme de nombreux acteurs"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1036.005",
+   "evidence": "Le détournement de ces derniers à des fins"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1203.002",
+   "evidence": "En premier lieu, il convient d’utiliser les lignes de défense élémentaires intégrées au système d’ex￾ploitation ainsi que les solutions antivirales et d’activer :"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1036.005",
+   "evidence": "De plus, le suivi des alertes de détection qui seront levées est indispensable afin d’être en mesure"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1036.005",
+   "evidence": "En second lieu, il convient d’utiliser des lignes de défense avancées pour limiter l’efficacité des logi￾ciels malveillants ou détournés non détectés par les solutions antivirales :"
+  },
+  {
+   "source": "Campagnes d’attaques du mode opératoire APT28 depuis 2021",
+   "type": "uses",
+   "target": "T1036.005",
+   "evidence": "L’identification et le suivi dans le temps des applications et pilotes détournables à des fins mal￾veillantes peuvent se révéler être une tâche fastidieuse. Des projets communautaires existent [33,"
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "doc2stix-qwen3-8b:v1",
+  "seconds": 2116.0,
+  "errors": "4 unparsable chunk(s)"
+ }
+}

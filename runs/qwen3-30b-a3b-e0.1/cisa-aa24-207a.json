@@ -1,0 +1,1845 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "Andariel",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group known publicly as Andariel, Onyx Sleet (formerly PLUTONIUM), DarkSeoul, Silent Chollima, and Stonefly/Clasiopa.",
+   "aliases": [
+    "Onyx Sleet (formerly PLUTONIUM)",
+    "DarkSeoul",
+    "Silent Chollima",
+    "Stonefly/Clasiopa"
+   ]
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Onyx Sleet",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group known publicly as Andariel, Onyx Sleet (formerly PLUTONIUM), DarkSeoul, Silent Chollima, and Stonefly/Clasiopa.",
+   "aliases": [
+    "PLUTONIUM",
+    "Andariel",
+    "DarkSeoul",
+    "Silent Chollima",
+    "Stonefly/Clasiopa"
+   ]
+  },
+  {
+   "type": "intrusion-set",
+   "name": "DarkSeoul",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group known publicly as Andariel, Onyx Sleet (formerly PLUTONIUM), DarkSeoul, Silent Chollima, and Stonefly/Clasiopa.",
+   "aliases": [
+    "Andariel",
+    "Onyx Sleet (formerly PLUTONIUM)",
+    "Silent Chollima",
+    "Stonefly/Clasiopa"
+   ]
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Silent Chollima",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group known publicly as Andariel, Onyx Sleet (formerly PLUTONIUM), DarkSeoul, Silent Chollima, and Stonefly/Clasiopa.",
+   "aliases": [
+    "Andariel",
+    "Onyx Sleet (formerly PLUTONIUM)",
+    "DarkSeoul",
+    "Stonefly/Clasiopa"
+   ]
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Stonefly",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group known publicly as Andariel, Onyx Sleet (formerly PLUTONIUM), DarkSeoul, Silent Chollima, and Stonefly/Clasiopa.",
+   "aliases": [
+    "Clasiopa",
+    "Andariel",
+    "Onyx Sleet (formerly PLUTONIUM)",
+    "DarkSeoul",
+    "Silent Chollima"
+   ]
+  },
+  {
+   "type": "threat-actor",
+   "name": "Reconnaissance General Bureau (RGB) 3rd Bureau",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group known publicly as Andariel, Onyx Sleet (formerly PLUTONIUM), DarkSeoul, Silent Chollima, and Stonefly/Clasiopa.",
+   "aliases": [
+    "RGB 3rd Bureau"
+   ]
+  },
+  {
+   "type": "country",
+   "name": "Democratic People’s Republic of Korea",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group known publicly as Andariel, Onyx Sleet (formerly PLUTONIUM), DarkSeoul, Silent Chollima, and Stonefly/Clasiopa.",
+   "aliases": [
+    "DPRK",
+    "North Korean"
+   ]
+  },
+  {
+   "type": "sector",
+   "name": "Defense",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Aerospace",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Nuclear",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Engineering",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Healthcare",
+   "evidence": "RGB 3rd Bureau actors fund their espionage activity through ransomware operations against U.S. healthcare entities.",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Andariel",
+   "evidence": "Andariel (also known as Onyx Sleet, formerly PLUTONIUM, DarkSeoul, Silent Chollima, and Stonefly/Clasiopa) is a North Korean state-sponsored cyber group, under the RGB 3rd Bureau, based in Pyongyang and Sinuiju.",
+   "aliases": [
+    "Onyx Sleet",
+    "PLUTONIUM",
+    "DarkSeoul",
+    "Silent Chollima",
+    "Stonefly",
+    "Clasiopa"
+   ],
+   "mitre_id": ""
+  },
+  {
+   "type": "threat-actor",
+   "name": "Reconnaissance General Bureau (RGB) 3rd Bureau",
+   "evidence": "Andariel (also known as Onyx Sleet, formerly PLUTONIUM, DarkSeoul, Silent Chollima, and Stonefly/Clasiopa) is a North Korean state-sponsored cyber group, under the RGB 3rd Bureau, based in Pyongyang and Sinuiju.",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "sector",
+   "name": "Defense",
+   "evidence": "The actors currently target sensitive military information and intellectual property of defense, aerospace, nuclear, engineering organizations.",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "sector",
+   "name": "Aerospace",
+   "evidence": "The actors currently target sensitive military information and intellectual property of defense, aerospace, nuclear, engineering organizations.",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "sector",
+   "name": "Nuclear",
+   "evidence": "The actors currently target sensitive military information and intellectual property of defense, aerospace, nuclear, engineering organizations.",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "sector",
+   "name": "Engineering",
+   "evidence": "The actors currently target sensitive military information and intellectual property of defense, aerospace, nuclear, engineering organizations.",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Andariel",
+   "evidence": "Andariel actors fund their espionage activity through ransomware operations against U.S. healthcare entities",
+   "aliases": [
+    "DarkSeoul",
+    "Stonefly",
+    "Reconnaissance General Bureau (RGB) 3rd Bureau"
+   ]
+  },
+  {
+   "type": "threat-actor",
+   "name": "Reconnaissance General Bureau (RGB) 3rd Bureau",
+   "evidence": "Named earlier in the document: Andariel, DarkSeoul, Stonefly, Reconnaissance General Bureau (RGB) 3rd Bureau",
+   "aliases": [
+    "Andariel",
+    "DarkSeoul",
+    "Stonefly"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "Maui Ransomware",
+   "evidence": "see joint advisories #StopRansomware: Ransomware Attacks on Critical Infrastructure Fund DPRK Malicious Cyber Activities and North Korean State-Sponsored Cyber Actors Use Maui Ransomware to Target the Healthcare and Public Health Sector.",
+   "aliases": []
+  },
+  {
+   "type": "campaign",
+   "name": "North Korean State-Sponsored Cyber Actors Use Maui Ransomware to Target the Healthcare and Public Health Sector",
+   "evidence": "North Korean State-Sponsored Cyber Actors Use Maui Ransomware to Target the Healthcare and Public Health Sector.",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-46604",
+   "evidence": "CVE-2023-46604 – Apache ActiveMQ",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-42793",
+   "evidence": "CVE-2023-42793 – TeamCity",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-3519",
+   "evidence": "CVE-2023-3519 – Citrix NetScaler",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-35078",
+   "evidence": "CVE-2023-35078 – Ivanti Endpoint Manager Mobile (EPMM)",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-34362",
+   "evidence": "CVE-2023-34362 – MOVEIt",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-33246",
+   "evidence": "CVE-2023-33246 – RocketMQ",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-32784",
+   "evidence": "CVE-2023-32784 – KeePass",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-32315",
+   "evidence": "CVE-2023-32315 – Openfire",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-3079",
+   "evidence": "CVE-2023-3079 – Google Chromium V8 Type Confusion",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-28771",
+   "evidence": "CVE-2023-28771 and CVE-2023-33010 – Zyxell firmware",
+   "aliases": [
+    "CVE-2023-33010"
+   ]
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-2868",
+   "evidence": "CVE-2023-2868 – Barracuda Email Security Gateway",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-27997",
+   "evidence": "CVE-2023-27997 – FortiGate SSL VPN",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-25690",
+   "evidence": "CVE-2023-25690 – Apache HTTP Server",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-21932",
+   "evidence": "CVE-2023-21932 – Oracle Hospitality Opera 5",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-0669",
+   "evidence": "CVE-2023-0669 – GoAnywhere MFT",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-47966",
+   "evidence": "CVE-2022-47966 – ManageEngine",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-41352",
+   "evidence": "CVE-2022-41352 and CVE-2022-27925 – Zimbra Collaboration Suite",
+   "aliases": [
+    "CVE-2022-27925"
+   ]
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-30190",
+   "evidence": "CVE-2022-30190 – Microsoft Windows Support Diagnostic Tool",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-25064",
+   "evidence": "CVE-2022-25064 – TP-LINK",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-24990",
+   "evidence": "CVE-2022-24990 and CVE-2021-45837 – TerraMaster NAS",
+   "aliases": [
+    "CVE-2021-45837"
+   ]
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-24785",
+   "evidence": "CVE-2022-24785 – Moment.js",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-24665",
+   "evidence": "CVE-2022-24665, CVE-2022-24664, and CVE-2022-24663 – PHP Everywhere",
+   "aliases": [
+    "CVE-2022-24664",
+    "CVE-2022-24663"
+   ]
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-22965",
+   "evidence": "CVE-2022-22965 – Spring4Shell",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-22947",
+   "evidence": "CVE-2022-22947 – Spring Cloud Gateway",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-22005",
+   "evidence": "CVE-2022-22005 – Microsoft SharePoint Server",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-21882",
+   "evidence": "CVE-2022-21882 – Win32k Elevation of Privilege",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-44228",
+   "evidence": "CVE-2021-44228 – Apache Log4j",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-44142",
+   "evidence": "CVE-2021-44142 – Samba vfs_fruit module",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-43226",
+   "evidence": "CVE-2021-43226, CEV-2021-43207, CVE-2021-36955 – Windows log file vulnerabilities",
+   "aliases": [
+    "CEV-2021-43207",
+    "CVE-2021-36955"
+   ]
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-41773",
+   "evidence": "CVE-2021-41773 – Apache HTTP Server 2.4.49",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-40684",
+   "evidence": "CVE-2021-40684 – Talend ESB Runtime",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-3018",
+   "evidence": "CVE-2021-3018 – IPeakCMS 3.5",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-20038",
+   "evidence": "CVE-2021-20038 – SMA100 Apache httpd server (SonicWall)",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-20028",
+   "evidence": "CVE-2021-20028 – SonicWall Secure Remote Access (SRA)",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-15637",
+   "evidence": "CVE-2019-15637 – Tableau",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-7609",
+   "evidence": "CVE-2019-7609 – Kibana",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-0708",
+   "evidence": "CVE-2019-0708 – Microsoft Remote Desktop Services",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2017-4946",
+   "evidence": "CVE-2017-4946 – VMware V4H and V4PA",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "3Proxy",
+   "evidence": "3Proxy [T1090]",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "AdFind",
+   "evidence": "AdFind [S0552]",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "AsyncRAT",
+   "evidence": "AsyncRAT",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "DeimosC2",
+   "evidence": "DeimosC2",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Impacket",
+   "evidence": "Impacket [T1090]",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Juggernaut",
+   "evidence": "Juggernaut [T1040]",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Lilith RAT",
+   "evidence": "Lilith RAT",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "ORVX Web Shell",
+   "evidence": "ORVX Web Shell",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz",
+   "evidence": "Mimikatz [S0002]",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "PLINK",
+   "evidence": "PLINK [T1572]",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "ProcDump",
+   "evidence": "ProcDump [T1003]",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "PuTTY",
+   "evidence": "PuTTY [T1572]",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "SOCKS5",
+   "evidence": "SOCKS5 [T1090]",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Stunnel",
+   "evidence": "Stunnel [T1572]",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Web Shell by Orb (WSO)",
+   "evidence": "Web Shell by Orb (WSO)",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "WinRAR",
+   "evidence": "WinRAR [T1560]",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "WinSCP",
+   "evidence": "WinSCP [T1048]",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "RDP Wrapper",
+   "evidence": "RDP Wrapper [T1572]",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Atharvan",
+   "evidence": "Atharvan",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "ELF Backdoor",
+   "evidence": "ELF Backdoor",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Jupiter",
+   "evidence": "Jupiter",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "MagicRAT",
+   "evidence": "MagicRAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "\"No Pineapple\"",
+   "evidence": "\"No Pineapple\"",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "TigerRAT",
+   "evidence": "TigerRAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Valefor/VSingle",
+   "evidence": "Valefor/VSingle",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "ValidAlpha",
+   "evidence": "ValidAlpha",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "YamaBot",
+   "evidence": "YamaBot",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "NukeSped",
+   "evidence": "NukeSped",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Goat RAT",
+   "evidence": "Goat RAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Black RAT",
+   "evidence": "Black RAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "AndarLoader",
+   "evidence": "AndarLoader",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "DurianBeacon",
+   "evidence": "DurianBeacon",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Trifaux",
+   "evidence": "Trifaux",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "KaosRAT",
+   "evidence": "KaosRAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Preft",
+   "evidence": "Preft",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Andariel Scheduled Task Malware",
+   "evidence": "Andariel Scheduled Task Malware",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "BottomLoader",
+   "evidence": "BottomLoader (see Cisco Talos blog Operation Blacksmith)",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "NineRAT",
+   "evidence": "NineRAT (see Cisco Talos blog Operation Blacksmith)",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "DLang",
+   "evidence": "DLang (see Cisco Talos blog Operation Blacksmith)",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Nestdoor",
+   "evidence": "Nestdoor (see AhnLab blog)",
+   "aliases": []
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1595",
+   "evidence": "vulnerabilities in public-facing web servers [T1595, T1592]",
+   "mitre_id": "T1595"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1592",
+   "evidence": "vulnerabilities in public-facing web servers [T1595, T1592]",
+   "mitre_id": "T1592"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1591",
+   "evidence": "gather open source information about their victims for use in targeting [T1591]",
+   "mitre_id": "T1591"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1596",
+   "evidence": "research Common Vulnerabilities and Exposures (CVEs) when published to the National Institute of Standards and Technology (NIST) National Vulnerability Database [T1596]",
+   "mitre_id": "T1596"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1587.001",
+   "evidence": "allow the actors to maintain access to the victim system with each implant having a designated C2 node. [T1587.001, T1587.004]",
+   "mitre_id": "T1587.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1587.004",
+   "evidence": "allow the actors to maintain access to the victim system with each implant having a designated C2 node. [T1587.001, T1587.004]",
+   "mitre_id": "T1587.004"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1090",
+   "evidence": "3Proxy [T1090]",
+   "mitre_id": "T1090"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "S0552",
+   "evidence": "AdFind [S0552]",
+   "mitre_id": "S0552"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1040",
+   "evidence": "Juggernaut [T1040]",
+   "mitre_id": "T1040"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1572",
+   "evidence": "PLINK [T1572]",
+   "mitre_id": "T1572"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1003",
+   "evidence": "ProcDump [T1003]",
+   "mitre_id": "T1003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1560",
+   "evidence": "WinRAR [T1560]",
+   "mitre_id": "T1560"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1048",
+   "evidence": "WinSCP [T1048]",
+   "mitre_id": "T1048"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1190",
+   "evidence": "The actors continue to breach organizations by exploiting web server vulnerabilities in public-facing devices and have conducted widespread activity against a number of different organizations simultaneously [T1190].",
+   "mitre_id": "T1190"
+  },
+  {
+   "type": "sector",
+   "name": "Healthcare",
+   "evidence": "Andariel actors fund their espionage activity through ransomware operations against U.S. healthcare entities",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Public Health Sector",
+   "evidence": "North Korean State-Sponsored Cyber Actors Use Maui Ransomware to Target the Healthcare and Public Health Sector.",
+   "aliases": []
+  },
+  {
+   "type": "country",
+   "name": "North Korea",
+   "evidence": "North Korea Cyber Group Conducts Global Espionage Campaign to Advance Regime’s Military and Nuclear Programs",
+   "aliases": []
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "Andariel actors fund their espionage activity through ransomware operations against U.S. healthcare entities",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Andariel",
+   "evidence": "RGB 3rd Bureau's Andariel group"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "DarkSeoul",
+   "evidence": "Named earlier in the document: Andariel, DarkSeoul, Stonefly, Reconnaissance General Bureau (RGB) 3rd Bureau"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Stonefly",
+   "evidence": "Named earlier in the document: Andariel, DarkSeoul, Stonefly, Reconnaissance General Bureau (RGB) 3rd Bureau"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Reconnaissance General Bureau (RGB) 3rd Bureau",
+   "evidence": "Named earlier in the document: Andariel, DarkSeoul, Stonefly, Reconnaissance General Bureau (RGB) 3rd Bureau"
+  },
+  {
+   "type": "malware",
+   "name": "Maui Ransomware",
+   "evidence": "North Korean State-Sponsored Cyber Actors Use Maui Ransomware to Target the Healthcare and Public Health Sector"
+  },
+  {
+   "type": "malware",
+   "name": "3Proxy",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, ..."
+  },
+  {
+   "type": "malware",
+   "name": "AdFind",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, ..."
+  },
+  {
+   "type": "malware",
+   "name": "AsyncRAT",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, ..."
+  },
+  {
+   "type": "malware",
+   "name": "DeimosC2",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, ..."
+  },
+  {
+   "type": "malware",
+   "name": "Impacket",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, ..."
+  },
+  {
+   "type": "malware",
+   "name": "Juggernaut",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, ..."
+  },
+  {
+   "type": "malware",
+   "name": "Lilith RAT",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ..."
+  },
+  {
+   "type": "malware",
+   "name": "ORVX Web Shell",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, ..."
+  },
+  {
+   "type": "malware",
+   "name": "Mimikatz",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, ..."
+  },
+  {
+   "type": "malware",
+   "name": "PLINK",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, PLINK, ..."
+  },
+  {
+   "type": "malware",
+   "name": "ProcDump",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, PLINK, ProcDump, ..."
+  },
+  {
+   "type": "malware",
+   "name": "PuTTY",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, PLINK, ProcDump, PuTTY, ..."
+  },
+  {
+   "type": "malware",
+   "name": "SOCKS5",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, PLINK, ProcDump, PuTTY, SOCKS5, ..."
+  },
+  {
+   "type": "malware",
+   "name": "Stunnel",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, PLINK, ProcDump, PuTTY, SOCKS5, Stunnel, ..."
+  },
+  {
+   "type": "malware",
+   "name": "Web Shell by Orb (WSO)",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, PLINK, ProcDump, PuTTY, SOCKS5, Stunnel, Web Shell by Orb (WSO), ..."
+  },
+  {
+   "type": "malware",
+   "name": "WinRAR",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, PLINK, ProcDump, PuTTY, SOCKS5, Stunnel, Web Shell by Orb (WSO), WinRAR, ..."
+  },
+  {
+   "type": "malware",
+   "name": "WinSCP",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, PLINK, ProcDump, PuTTY, SOCKS5, Stunnel, Web Shell by Orb (WSO), WinRAR, WinSCP, ..."
+  },
+  {
+   "type": "malware",
+   "name": "RDP Wrapper",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, PLINK, ProcDump, PuTTY, SOCKS5, Stunnel, Web Shell by Orb (WSO), WinRAR, WinSCP, RDP Wrapper, ..."
+  },
+  {
+   "type": "malware",
+   "name": "Atharvan",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, PLINK, ProcDump, PuTTY, SOCKS5, Stunnel, Web Shell by Orb (WSO), WinRAR, WinSCP, RDP Wrapper, Atharvan, ..."
+  },
+  {
+   "type": "malware",
+   "name": "ELF Backdoor",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, PLINK, ProcDump, PuTTY, SOCKS5, Stunnel, Web Shell by Orb (WSO), WinRAR, WinSCP, RDP Wrapper, Atharvan, ELF Backdoor, ..."
+  },
+  {
+   "type": "malware",
+   "name": "Jupiter",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, PLINK, ProcDump, PuTTY, SOCKS5, Stunnel, Web Shell by Orb (WSO), WinRAR, WinSCP, RDP Wrapper, Atharvan, ELF Backdoor, Jupiter, ..."
+  },
+  {
+   "type": "malware",
+   "name": "MagicRAT",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, PLINK, ProcDump, PuTTY, SOCKS5, Stunnel, Web Shell by Orb (WSO), WinRAR, WinSCP, RDP Wrapper, Atharvan, ELF Backdoor, Jupiter, MagicRAT, ..."
+  },
+  {
+   "type": "malware",
+   "name": "\"No Pineapple\"",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, PLINK, ProcDump, PuTTY, SOCKS5, Stunnel, Web Shell by Orb (WSO), WinRAR, WinSCP, RDP Wrapper, Atharvan, ELF Backdoor, Jupiter, MagicRAT, \"No Pineapple\", ..."
+  },
+  {
+   "type": "malware",
+   "name": "TigerRAT",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, PLINK, ProcDump, PuTTY, SOCKS5, Stunnel, Web Shell by Orb (WSO), WinRAR, WinSCP, RDP Wrapper, Atharvan, ELF Backdoor, Jupiter, MagicRAT, \"No Pineapple\", TigerRAT, ..."
+  },
+  {
+   "type": "malware",
+   "name": "Valefor/VSingle",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, PLINK, ProcDump, PuTTY, SOCKS5, Stunnel, Web Shell by Orb (WSO), WinRAR, WinSCP, RDP Wrapper, Atharvan, ELF Backdoor, Jupiter, MagicRAT, \"No Pineapple\", TigerRAT, Valefor/VSingle, ..."
+  },
+  {
+   "type": "malware",
+   "name": "ValidAlpha",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, PLINK, ProcDump, PuTTY, SOCKS5, Stunnel, Web Shell by Orb (WSO), WinRAR, WinSCP, RDP Wrapper, Atharvan, ELF Backdoor, Jupiter, MagicRAT, \"No Pineapple\", TigerRAT, Valefor/VSingle, ValidAlpha, ..."
+  },
+  {
+   "type": "malware",
+   "name": "YamaBot",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, PLINK, ProcDump, PuTTY, SOCKS5, Stunnel, Web Shell by Orb (WSO), WinRAR, WinSCP, RDP Wrapper, Atharvan, ELF Backdoor, Jupiter, MagicRAT, \"No Pineapple\", TigerRAT, Valefor/VSingle, ValidAlpha, YamaBot, ..."
+  },
+  {
+   "type": "malware",
+   "name": "NukeSped",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, PLINK, ProcDump, PuTTY, SOCKS5, Stunnel, Web Shell by Orb (WSO), WinRAR, WinSCP, RDP Wrapper, Atharvan, ELF Backdoor, Jupiter, MagicRAT, \"No Pineapple\", TigerRAT, Valefor/VSingle, ValidAlpha, YamaBot, NukeSped, ..."
+  },
+  {
+   "type": "malware",
+   "name": "Goat RAT",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, PLINK, ProcDump, PuTTY, SOCKS5, Stunnel, Web Shell by Orb (WSO), WinRAR, WinSCP, RDP Wrapper, Atharvan, ELF Backdoor, Jupiter, MagicRAT, \"No Pineapple\", TigerRAT, Valefor/VSingle, ValidAlpha, YamaBot, NukeSped, Goat RAT, ..."
+  },
+  {
+   "type": "malware",
+   "name": "Black RAT",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, PLINK, ProcDump, PuTTY, SOCKS5, Stunnel, Web Shell by Orb (WSO), WinRAR, WinSCP, RDP Wrapper, Atharvan, ELF Backdoor, Jupiter, MagicRAT, \"No Pineapple\", TigerRAT, Valefor/VSingle, ValidAlpha, YamaBot, NukeSped, Goat RAT, Black RAT, ..."
+  },
+  {
+   "type": "malware",
+   "name": "AndarLoader",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, PLINK, ProcDump, PuTTY, SOCKS5, Stunnel, Web Shell by Orb (WSO), WinRAR, WinSCP, RDP Wrapper, Atharvan, ELF Backdoor, Jupiter, MagicRAT, \"No Pineapple\", TigerRAT, Valefor/VSingle, ValidAlpha, YamaBot, NukeSped, Goat RAT, Black RAT, AndarLoader, ..."
+  },
+  {
+   "type": "malware",
+   "name": "DurianBeacon",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, PLINK, ProcDump, PuTTY, SOCKS5, Stunnel, Web Shell by Orb (WSO), WinRAR, WinSCP, RDP Wrapper, Atharvan, ELF Backdoor, Jupiter, MagicRAT, \"No Pineapple\", TigerRAT, Valefor/VSingle, ValidAlpha, YamaBot, NukeSped, Goat RAT, Black RAT, AndarLoader, DurianBeacon, ..."
+  },
+  {
+   "type": "malware",
+   "name": "Trifaux",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, PLINK, ProcDump, PuTTY, SOCKS5, Stunnel, Web Shell by Orb (WSO), WinRAR, WinSCP, RDP Wrapper, Atharvan, ELF Backdoor, Jupiter, MagicRAT, \"No Pineapple\", TigerRAT, Valefor/VSingle, ValidAlpha, YamaBot, NukeSped, Goat RAT, Black RAT, AndarLoader, DurianBeacon, Trifaux, ..."
+  },
+  {
+   "type": "malware",
+   "name": "KaosRAT",
+   "evidence": "Named earlier in the document: ... 3Proxy, AdFind, AsyncRAT, DeimosC2, Impacket, Juggernaut, Lilith RAT, ORVX Web Shell, Mimikatz, PLINK, ProcDump, PuTTY, SOCKS5, Stunnel, Web Shell by Orb (WSO), WinRAR, WinSCP, RDP Wrapper, Atharvan, ELF Backdoor, Jupiter, MagicRAT, \"No Pineapple\", TigerRAT, Valefor/VSingle, ValidAlpha, YamaBot, NukeSped, Goat RAT, Black RAT, AndarLoader, DurianBeacon, Trifaux, KaosRAT"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Andariel",
+   "evidence": "Andariel"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "DarkSeoul",
+   "evidence": "DarkSeoul"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Stonefly",
+   "evidence": "Stonefly"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Reconnaissance General Bureau (RGB) 3rd Bureau",
+   "evidence": "Reconnaissance General Bureau (RGB) 3rd Bureau"
+  },
+  {
+   "type": "malware",
+   "name": "Maui Ransomware",
+   "evidence": "Maui Ransomware"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Andariel",
+   "evidence": "Andariel"
+  },
+  {
+   "type": "tool",
+   "name": "3Proxy",
+   "evidence": "3Proxy"
+  },
+  {
+   "type": "tool",
+   "name": "AdFind",
+   "evidence": "AdFind"
+  },
+  {
+   "type": "tool",
+   "name": "AsyncRAT",
+   "evidence": "AsyncRAT"
+  },
+  {
+   "type": "tool",
+   "name": "DeimosC2",
+   "evidence": "DeimosC2"
+  },
+  {
+   "type": "tool",
+   "name": "Impacket",
+   "evidence": "Impacket"
+  },
+  {
+   "type": "tool",
+   "name": "Juggernaut",
+   "evidence": "Juggernaut"
+  },
+  {
+   "type": "tool",
+   "name": "Lilith RAT",
+   "evidence": "Lilith RAT"
+  },
+  {
+   "type": "tool",
+   "name": "ORVX Web Shell",
+   "evidence": "ORVX Web Shell"
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz",
+   "evidence": "Mimikatz"
+  },
+  {
+   "type": "tool",
+   "name": "PLINK",
+   "evidence": "PLINK"
+  },
+  {
+   "type": "tool",
+   "name": "ProcDump",
+   "evidence": "ProcDump"
+  },
+  {
+   "type": "tool",
+   "name": "PuTTY",
+   "evidence": "PuTTY"
+  },
+  {
+   "type": "tool",
+   "name": "SOCKS5",
+   "evidence": "SOCKS5"
+  },
+  {
+   "type": "tool",
+   "name": "Stunnel",
+   "evidence": "Stunnel"
+  },
+  {
+   "type": "tool",
+   "name": "Web Shell by Orb (WSO)",
+   "evidence": "Web Shell by Orb (WSO)"
+  },
+  {
+   "type": "tool",
+   "name": "WinRAR",
+   "evidence": "WinRAR"
+  },
+  {
+   "type": "tool",
+   "name": "WinSCP",
+   "evidence": "WinSCP"
+  },
+  {
+   "type": "tool",
+   "name": "RDP Wrapper",
+   "evidence": "RDP Wrapper"
+  },
+  {
+   "type": "tool",
+   "name": "Atharvan",
+   "evidence": "Atharvan"
+  },
+  {
+   "type": "tool",
+   "name": "ELF Backdoor",
+   "evidence": "ELF Backdoor"
+  },
+  {
+   "type": "tool",
+   "name": "Jupiter",
+   "evidence": "Jupiter"
+  },
+  {
+   "type": "tool",
+   "name": "MagicRAT",
+   "evidence": "MagicRAT"
+  },
+  {
+   "type": "tool",
+   "name": "No Pineapple",
+   "evidence": "\"No Pineapple\""
+  },
+  {
+   "type": "tool",
+   "name": "TigerRAT",
+   "evidence": "TigerRAT"
+  },
+  {
+   "type": "tool",
+   "name": "Valefor/VSingle",
+   "evidence": "Valefor/VSingle"
+  },
+  {
+   "type": "tool",
+   "name": "ValidAlpha",
+   "evidence": "ValidAlpha"
+  },
+  {
+   "type": "tool",
+   "name": "YamaBot",
+   "evidence": "YamaBot"
+  },
+  {
+   "type": "tool",
+   "name": "NukeSped",
+   "evidence": "NukeSped"
+  },
+  {
+   "type": "tool",
+   "name": "Goat RAT",
+   "evidence": "Goat RAT"
+  },
+  {
+   "type": "tool",
+   "name": "Black RAT",
+   "evidence": "Black RAT"
+  },
+  {
+   "type": "tool",
+   "name": "AndarLoader",
+   "evidence": "AndarLoader"
+  },
+  {
+   "type": "tool",
+   "name": "DurianBeacon",
+   "evidence": "DurianBeacon"
+  },
+  {
+   "type": "tool",
+   "name": "Trifaux",
+   "evidence": "Trifaux"
+  },
+  {
+   "type": "tool",
+   "name": "KaosRAT",
+   "evidence": "KaosRAT"
+  }
+ ],
+ "observables": [
+  {
+   "type": "file",
+   "value": "d90000000 | jge 0x96",
+   "hash": "",
+   "indicates": []
+  },
+  {
+   "type": "file",
+   "value": "$sequence_12 = { 894d14 8b45f8 c1e018 8b4dfc c1e908 0bc1 }",
+   "hash": "",
+   "indicates": []
+  },
+  {
+   "type": "file",
+   "value": "$sequence_13 = { 0bc1 894518 8b5514 8955f8 }",
+   "hash": "",
+   "indicates": []
+  },
+  {
+   "type": "file",
+   "value": "$sequence_14 = { 8b5514 8955f8 8b4518 8945fc e9???????? 8be5 }",
+   "hash": "",
+   "indicates": []
+  },
+  {
+   "type": "file",
+   "value": "condition: 7 of them and filesize < 1736704",
+   "hash": "",
+   "indicates": []
+  },
+  {
+   "type": "url",
+   "value": "https://asec.ahnlab.com/en/56405/",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://asec.ahnlab.com/en/59073/",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://asec.ahnlab.com/en/66088/",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "http://www.boredhackerblog.info/2022/11/openssl-100-fipps-linux-backdoor-notes.html",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://blog.talosintelligence.com/lazarus-three-rats/",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://blog.talosintelligence.com/lazarus-magicrat/",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://blog.talosintelligence.com/lazarus-collectionrat/",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://blog.talosintelligence.com/lazarus-quiterat/",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://medium.com/@DCSO_CyTec/andariels-jupiter-malware-and-the-case-of-the-curious-c2dbfe29f57499",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://github.com/ditekshen/detection/blob/master/yara/indicator_packed.yar",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://blogs.jpcert.or.jp/en/2021/03/Lazarus_malware3.html",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://blogs.jpcert.or.jp/en/2022/07/yamabot.html",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://www.mandiant.com/resources/blog/north-korea-cyber-structure-alignment-2023",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://www.mandiant.com/resources/blog/mapping-dprk-groups-to-government",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://www.microsoft.com/en-us/security/blog/2023/10/18/multiple-north-korean-threat-actors-exploiting-the-teamcity-cve-2023-42793-vulnerability/",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://www.microsoft.com/en-us/security/blog/2022/07/14/north-korean-threat-actor-targets-small-and-midsize-businesses-with-h0lygh0st-ransomware/",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://www.ncsc.gov.uk/news/apache-log4j-vulnerability",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://www.ncsc.gov.uk/information/log4j-vulnerability-what-everyone-needs-to-know",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/clasiopa-materials-research",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://blogs.vmware.com/security/2021/12/tigerrat-advanced-adversaries-on-the-prowl.html",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://labs.withsecure.com/publications/no-pineapple-dprk-targeting-of-medical-research-and-technology-sector",
+   "indicates": [
+    "Andariel"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "Andariel",
+   "type": "targets",
+   "target": "Defense",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions."
+  },
+  {
+   "source": "Andariel",
+   "type": "targets",
+   "target": "Aerospace",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions."
+  },
+  {
+   "source": "Andariel",
+   "type": "targets",
+   "target": "Nuclear",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions."
+  },
+  {
+   "source": "Andariel",
+   "type": "targets",
+   "target": "Engineering",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions."
+  },
+  {
+   "source": "Andariel",
+   "type": "targets",
+   "target": "Healthcare",
+   "evidence": "RGB 3rd Bureau actors fund their espionage activity through ransomware operations against U.S. healthcare entities."
+  },
+  {
+   "source": "Onyx Sleet",
+   "type": "targets",
+   "target": "Defense",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions."
+  },
+  {
+   "source": "Onyx Sleet",
+   "type": "targets",
+   "target": "Aerospace",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions."
+  },
+  {
+   "source": "Onyx Sleet",
+   "type": "targets",
+   "target": "Nuclear",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions."
+  },
+  {
+   "source": "Onyx Sleet",
+   "type": "targets",
+   "target": "Engineering",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions."
+  },
+  {
+   "source": "Onyx Sleet",
+   "type": "targets",
+   "target": "Healthcare",
+   "evidence": "RGB 3rd Bureau actors fund their espionage activity through ransomware operations against U.S. healthcare entities."
+  },
+  {
+   "source": "DarkSeoul",
+   "type": "targets",
+   "target": "Defense",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions."
+  },
+  {
+   "source": "DarkSeoul",
+   "type": "targets",
+   "target": "Aerospace",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions."
+  },
+  {
+   "source": "DarkSeoul",
+   "type": "targets",
+   "target": "Nuclear",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions."
+  },
+  {
+   "source": "DarkSeoul",
+   "type": "targets",
+   "target": "Engineering",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions."
+  },
+  {
+   "source": "DarkSeoul",
+   "type": "targets",
+   "target": "Healthcare",
+   "evidence": "RGB 3rd Bureau actors fund their espionage activity through ransomware operations against U.S. healthcare entities."
+  },
+  {
+   "source": "Silent Chollima",
+   "type": "targets",
+   "target": "Defense",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions."
+  },
+  {
+   "source": "Silent Chollima",
+   "type": "targets",
+   "target": "Aerospace",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions."
+  },
+  {
+   "source": "Silent Chollima",
+   "type": "targets",
+   "target": "Nuclear",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions."
+  },
+  {
+   "source": "Silent Chollima",
+   "type": "targets",
+   "target": "Engineering",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions."
+  },
+  {
+   "source": "Silent Chollima",
+   "type": "targets",
+   "target": "Healthcare",
+   "evidence": "RGB 3rd Bureau actors fund their espionage activity through ransomware operations against U.S. healthcare entities."
+  },
+  {
+   "source": "Stonefly",
+   "type": "targets",
+   "target": "Defense",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions."
+  },
+  {
+   "source": "Stonefly",
+   "type": "targets",
+   "target": "Aerospace",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions."
+  },
+  {
+   "source": "Stonefly",
+   "type": "targets",
+   "target": "Nuclear",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions."
+  },
+  {
+   "source": "Stonefly",
+   "type": "targets",
+   "target": "Engineering",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions."
+  },
+  {
+   "source": "Stonefly",
+   "type": "targets",
+   "target": "Healthcare",
+   "evidence": "RGB 3rd Bureau actors fund their espionage activity through ransomware operations against U.S. healthcare entities."
+  },
+  {
+   "source": "Reconnaissance General Bureau (RGB) 3rd Bureau",
+   "type": "originates-from",
+   "target": "Democratic People’s Republic of Korea",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group known publicly as Andariel, Onyx Sleet (formerly PLUTONIUM), DarkSeoul, Silent Chollima, and Stonefly/Clasiopa."
+  },
+  {
+   "source": "Andariel",
+   "type": "targets",
+   "target": "Defense",
+   "evidence": "The actors currently target sensitive military information and intellectual property of defense, aerospace, nuclear, engineering organizations."
+  },
+  {
+   "source": "Andariel",
+   "type": "targets",
+   "target": "Aerospace",
+   "evidence": "The actors currently target sensitive military information and intellectual property of defense, aerospace, nuclear, engineering organizations."
+  },
+  {
+   "source": "Andariel",
+   "type": "targets",
+   "target": "Nuclear",
+   "evidence": "The actors currently target sensitive military information and intellectual property of defense, aerospace, nuclear, engineering organizations."
+  },
+  {
+   "source": "Andariel",
+   "type": "targets",
+   "target": "Engineering",
+   "evidence": "The actors currently target sensitive military information and intellectual property of defense, aerospace, nuclear, engineering organizations."
+  },
+  {
+   "source": "Andariel",
+   "type": "attributed-to",
+   "target": "Reconnaissance General Bureau (RGB) 3rd Bureau",
+   "evidence": "Andariel (also known as Onyx Sleet, formerly PLUTONIUM, DarkSeoul, Silent Chollima, and Stonefly/Clasiopa) is a North Korean state-sponsored cyber group, under the RGB 3rd Bureau, based in Pyongyang and Sinuiju."
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1595",
+   "evidence": "vulnerabilities in public-facing web servers [T1595, T1592]"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1592",
+   "evidence": "vulnerabilities in public-facing web servers [T1595, T1592]"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1591",
+   "evidence": "gather open source information about their victims for use in targeting [T1591]"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1596",
+   "evidence": "research Common Vulnerabilities and Exposures (CVEs) when published to the National Institute of Standards and Technology (NIST) National Vulnerability Database [T1596]"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1587.001",
+   "evidence": "allow the actors to maintain access to the victim system with each implant having a designated C2 node. [T1587.001, T1587.004]"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1587.004",
+   "evidence": "allow the actors to maintain access to the victim system with each implant having a designated C2 node. [T1587.001, T1587.004]"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1090",
+   "evidence": "3Proxy [T1090]"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "S0552",
+   "evidence": "AdFind [S0552]"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1040",
+   "evidence": "Juggernaut [T1040]"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1572",
+   "evidence": "PLINK [T1572]"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1003",
+   "evidence": "ProcDump [T1003]"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1560",
+   "evidence": "WinRAR [T1560]"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1048",
+   "evidence": "WinSCP [T1048]"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "The actors continue to breach organizations by exploiting web server vulnerabilities in public-facing devices and have conducted widespread activity against a number of different organizations simultaneously [T1190]."
+  },
+  {
+   "source": "Andariel",
+   "type": "targets",
+   "target": "Healthcare",
+   "evidence": "Andariel actors fund their espionage activity through ransomware operations against U.S. healthcare entities"
+  },
+  {
+   "source": "Andariel",
+   "type": "targets",
+   "target": "Public Health Sector",
+   "evidence": "North Korean State-Sponsored Cyber Actors Use Maui Ransomware to Target the Healthcare and Public Health Sector."
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "Maui Ransomware",
+   "evidence": "North Korean State-Sponsored Cyber Actors Use Maui Ransomware to Target the Healthcare and Public Health Sector."
+  },
+  {
+   "source": "Reconnaissance General Bureau (RGB) 3rd Bureau",
+   "type": "attributed-to",
+   "target": "Andariel",
+   "evidence": "Named earlier in the document: Andariel, DarkSeoul, Stonefly, Reconnaissance General Bureau (RGB) 3rd Bureau"
+  },
+  {
+   "source": "North Korean State-Sponsored Cyber Actors",
+   "type": "attributed-to",
+   "target": "Reconnaissance General Bureau (RGB) 3rd Bureau",
+   "evidence": "North Korean State-Sponsored Cyber Actors Use Maui Ransomware to Target the Healthcare and Public Health Sector."
+  },
+  {
+   "source": "North Korea",
+   "type": "originates-from",
+   "target": "Reconnaissance General Bureau (RGB) 3rd Bureau",
+   "evidence": "North Korea Cyber Group Conducts Global Espionage Campaign to Advance Regime’s Military and Nuclear Programs"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "RGB 3rd Bureau's Andariel group"
+  },
+  {
+   "source": "Reconnaissance General Bureau (RGB) 3rd Bureau",
+   "type": "originates-from",
+   "target": "country",
+   "evidence": "Named earlier in the document: Andariel, DarkSeoul, Stonefly, Reconnaissance General Bureau (RGB) 3rd Bureau"
+  },
+  {
+   "source": "North Korean State-Sponsored Cyber Actors",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "North Korean State-Sponsored Cyber Actors Use Maui Ransomware to Target the Healthcare and Public Health Sector"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "Mimikatz",
+   "evidence": "Mimikatz"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "AdFind",
+   "evidence": "AdFind"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "Jupiter",
+   "evidence": "Jupiter"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "MagicRAT",
+   "evidence": "MagicRAT"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "No Pineapple",
+   "evidence": "\"No Pineapple\""
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "YamaBot",
+   "evidence": "YamaBot"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "AndarLoader",
+   "evidence": "AndarLoader"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "DurianBeacon",
+   "evidence": "DurianBeacon"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "Trifaux",
+   "evidence": "Trifaux"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "KaosRAT",
+   "evidence": "KaosRAT"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1059",
+   "evidence": "Command and Scripting Interpreter T1059"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1003",
+   "evidence": "OS Credential Dumping T1003"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1021",
+   "evidence": "Remote Services T1021"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1021.002",
+   "evidence": "Remote Services: SMB/Windows Admin Shares T1021.002"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1083",
+   "evidence": "File and Directory Discovery T1083"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1087",
+   "evidence": "Account Discovery T1087"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1071",
+   "evidence": "Application Layer Protocol T1071"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1090",
+   "evidence": "Proxy T1090"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1048",
+   "evidence": "Exfiltration Over Alternative Protocol T1048"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1560",
+   "evidence": "Archive Collected Data T1560"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1567",
+   "evidence": "Exfiltration Over Web Service T1567"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1027",
+   "evidence": "Obfuscated Files or Information T1027"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1591",
+   "evidence": "Gather Victim Org Information T1591"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1592",
+   "evidence": "Gather Victim Host Information T1592"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1595",
+   "evidence": "Active Scanning T1595"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1596",
+   "evidence": "Search Open Technical Databases T1596"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "Exploit Public-Facing Application T1190"
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "qwen3:30b-a3b",
+  "seconds": 794.9,
+  "errors": "3 unparsable chunk(s)"
+ }
+}

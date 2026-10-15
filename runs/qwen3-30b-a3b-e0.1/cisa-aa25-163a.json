@@ -1,0 +1,165 @@
+{
+ "entities": [
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-57727",
+   "evidence": "SimpleHelp versions 5.5.7 and earlier contain several vulnerabilities, including CVE-2024-57727—a path traversal vulnerability.",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "ransomware",
+   "evidence": "ransomware actors leveraging unpatched instances of a vulnerability in SimpleHelp Remote Monitoring and Management (RMM) to compromise customers of a utility billing software provider.",
+   "aliases": []
+  },
+  {
+   "type": "organization",
+   "name": "CISA",
+   "evidence": "The Cybersecurity and Infrastructure Security Agency (CISA) is releasing this advisory",
+   "aliases": []
+  },
+  {
+   "type": "organization",
+   "name": "SimpleHelp",
+   "evidence": "SimpleHelp Remote Monitoring and Management (RMM)",
+   "aliases": []
+  },
+  {
+   "type": "campaign",
+   "name": "double extortion compromises",
+   "evidence": "ransomware actors likely leveraged CVE-2024-57727 to access downstream customers’ unpatched SimpleHelp RMM for disruption of services in double extortion compromises.",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "ransomware",
+   "evidence": "ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Compromise Utility Billing Software Provider",
+   "aliases": [
+    "double extortion compromises"
+   ]
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2025-1234",
+   "evidence": "SimpleHelp Remote Monitoring and Management",
+   "aliases": []
+  }
+ ],
+ "observables": [
+  {
+   "type": "url",
+   "value": "https://simple-help.com/allversions",
+   "indicates": [
+    "CVE-2024-57727"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "serverconfig.xml",
+   "hash": "",
+   "indicates": [
+    "SimpleHelp"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "serviceconfig.xml",
+   "hash": "",
+   "indicates": [
+    "SimpleHelp"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "aaa.exe",
+   "hash": "",
+   "indicates": [
+    "ransomware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "bbb.exe",
+   "hash": "",
+   "indicates": [
+    "ransomware"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "report@cisa.gov",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "support@simple-help.com",
+   "indicates": []
+  },
+  {
+   "type": "url",
+   "value": "https://news.sophos.com/en-us/2025/05/27/dragonforce-actors-target-simplehelp-vulnerabilities-to-attack-msp-customers/",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://news.sophos.com/en-us/2025/05/27/dragonforce-actors-target-simplehelp-vulnerabilities-to-attack-msp-customers/",
+   "indicates": [
+    "malware"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "CVE-2024-57727",
+   "type": "exploits",
+   "target": "SimpleHelp",
+   "evidence": "SimpleHelp versions 5.5.7 and earlier contain several vulnerabilities, including CVE-2024-57727—a path traversal vulnerability."
+  },
+  {
+   "source": "ransomware",
+   "type": "uses",
+   "target": "CVE-2024-57727",
+   "evidence": "ransomware actors likely leveraged CVE-2024-57727 to access downstream customers’ unpatched SimpleHelp RMM for disruption of services in double extortion compromises."
+  },
+  {
+   "source": "SimpleHelp",
+   "type": "targets",
+   "target": "utility billing software provider",
+   "evidence": "ransomware actors leveraging unpatched instances of a vulnerability in SimpleHelp Remote Monitoring and Management (RMM) to compromise customers of a utility billing software provider."
+  },
+  {
+   "source": "SimpleHelp",
+   "type": "targets",
+   "target": "downstream customers",
+   "evidence": "ransomware actors likely leveraged CVE-2024-57727 to access downstream customers’ unpatched SimpleHelp RMM for disruption of services in double extortion compromises."
+  },
+  {
+   "source": "SimpleHelp",
+   "type": "targets",
+   "target": "downstream customers",
+   "evidence": "If SimpleHelp is embedded or bundled in vendor-owned software or if a third-party service provider leverages SimpleHelp on a downstream customer’s network, then identify the SimpleHelp server version at the top of the file <file_path>/SimpleHelp/configuration/serverconfig.xml."
+  },
+  {
+   "source": "malware",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Compromise Utility Billing Software Provider"
+  },
+  {
+   "source": "malware",
+   "type": "uses",
+   "target": "SimpleHelp Remote Monitoring and Management",
+   "evidence": "ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Compromise Utility Billing Software Provider"
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "qwen3:30b-a3b",
+  "seconds": 24.5,
+  "errors": ""
+ }
+}

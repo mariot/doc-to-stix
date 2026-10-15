@@ -1,0 +1,1 @@
+{"entities": [{"type": "vulnerability", "name": "CVE-2019-19781", "evidence": "In a separate incident, SVR actors used CVE-2019-19781, a zero-day exploit at the time, against a"}], "observables": [{"type": "domain-name", "value": "cock.li"}], "relationships": []}

@@ -1,0 +1,389 @@
+{
+ "entities": [
+  {
+   "type": "attack-pattern",
+   "name": "Obtain Capabilities: Malware",
+   "mitre_id": "T1588.001",
+   "evidence": "Scattered Spider threat actors, after gaining access to networks, using publicly available, legitimate remote access tunneling tools. Table 1 details a list of legitimate tools Scattered Spider"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Encrypted for Impact",
+   "mitre_id": "T1486",
+   "evidence": "Scattered Spider threat actors often change TTPs to remain undetected."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure: Botnet",
+   "mitre_id": "T1583.003",
+   "evidence": "Scattered Spider threat actors, after gaining access to networks, using publicly available, legitimate remote access tunneling tools. Table 1 details a list of legitimate tools Scattered Spider"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "Scattered Spider threat actors have observably exfiltrated data [TA0010] after gaining access and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Staged: Data Staged on Cloud Storage",
+   "mitre_id": "T1074.003",
+   "evidence": "Recently, this includes exfiltration to multiple sites including MEGA[.]NZ and U.S.-based data centers such as Amazon S3 [T1567.002]."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Scattered Spider",
+   "evidence": "Scattered Spider threat actors, after gaining access to networks, using publicly available, legitimate remote access tunneling tools. Table 1 details a list of legitimate tools Scattered Spider"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading",
+   "mitre_id": "T1036",
+   "evidence": "Scattered Spider threat actors, after gaining access to networks, using publicly available, legitimate remote access tunneling tools. Table 1 details a list of legitimate tools Scattered Spider"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "Scattered Spider threat actors, after gaining access to networks, using publicly available, legitimate remote access tunneling tools. Table 1 details a list of legitimate tools Scattered Spider"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Email Accounts",
+   "mitre_id": "T1078.002",
+   "evidence": "Scattered Spider threat actors, after gaining access to networks, using publicly available, legitimate remote access tunneling tools. Table 1 details a list of legitimate tools Scattered Spider"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "Scattered Spider threat actors, after gaining access to networks, using publicly available, legitimate remote access tunneling tools. Table 1 details a list of legitimate tools Scattered Spider"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "Recently, this includes exfiltration to multiple sites including MEGA[.]NZ and U.S.-based data centers such as Amazon S3 [T1567.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Email Accounts",
+   "mitre_id": "T1078.002",
+   "evidence": "Recently, this includes exfiltration to multiple sites including MEGA[.]NZ and U.S.-based data centers such as Amazon S3 [T1567.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "Recently, this includes exfiltration to multiple sites including MEGA[.]NZ and U.S.-based data centers such as Amazon S3 [T1567.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information",
+   "mitre_id": "T1589",
+   "evidence": "Information T1589 Scattered Spider threat actors gather usernames, passwords, and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Search Closed Sources: Purchase Technical Data",
+   "mitre_id": "T1597.002",
+   "evidence": "T1597.002 Scattered Spider threat actors purchase credentials from illicit"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Search Victim-Owned Websites",
+   "mitre_id": "T1594",
+   "evidence": "T1594"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing for Information: Spearphishing Voice",
+   "mitre_id": "T1598.004",
+   "evidence": "T1598.004 Scattered Spider threat actors call targeted organizations to elicit"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Search Open Websites/Domains: Social Media",
+   "mitre_id": "T1593.001",
+   "evidence": "T1593.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure: Domains",
+   "mitre_id": "T1583.001",
+   "evidence": "T1583.001 Scattered Spider threat actors create domains for use in phishing"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Establish Accounts: Social Media Accounts",
+   "mitre_id": "T1585.001",
+   "evidence": "T1585.001 Scattered Spider threat actors create fake social media profiles to"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing",
+   "mitre_id": "T1566",
+   "evidence": "Phishing T1566"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing: Spearphishing Voice",
+   "mitre_id": "T1566.004",
+   "evidence": "T1566.004"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Trusted Relationship",
+   "mitre_id": "T1199",
+   "evidence": "Trusted Relationship T1199 Scattered Spider threat actors abuse trusted relationships of"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Domain Accounts",
+   "mitre_id": "T1078.002",
+   "evidence": "T1078.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Serverless Execution",
+   "mitre_id": "T1648",
+   "evidence": "Serverless Execution T1648 Scattered Spider threat actors use ETL tools to collect data in cloud"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "User Execution",
+   "mitre_id": "T1204",
+   "evidence": "User Execution T1204"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Persistence",
+   "mitre_id": "TA0003",
+   "evidence": "Persistence TA0003 Scattered Spider threat actors seek to maintain persistence on a"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create Account",
+   "mitre_id": "T1136",
+   "evidence": "Create Account T1136"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify Authentication Process: Multi-Factor Authentication",
+   "mitre_id": "T1556.006",
+   "evidence": "T1556.006 Scattered Spider threat actors may modify MFA tokens to gain"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "Valid Accounts T1078"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Privilege Escalation",
+   "mitre_id": "TA0004",
+   "evidence": "Privilege Escalation TA0004"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Domain Trust Modification",
+   "mitre_id": "T1484.002",
+   "evidence": "T1484.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify Cloud Compute Infrastructure: Create Cloud Instance",
+   "mitre_id": "T1578.002",
+   "evidence": "T1578.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Impersonation",
+   "mitre_id": "T1656",
+   "evidence": "Impersonation T1656"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Forge Web Credentials",
+   "mitre_id": "T1606",
+   "evidence": "Forge Web Credentials T1606"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Multi-Factor Authentication Request Generation",
+   "mitre_id": "T1621",
+   "evidence": "T1621"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Unsecured Credentials: Credentials in Files",
+   "mitre_id": "T1552.001",
+   "evidence": "T1552.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Unsecured Credentials: Private Keys",
+   "mitre_id": "T1552.004",
+   "evidence": "T1552.004"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "SIM Swap",
+   "mitre_id": "T1451",
+   "evidence": "SIM Swap T1451"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Discovery",
+   "mitre_id": "TA0007",
+   "evidence": "Discovery TA0007"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Browser Information Discovery",
+   "mitre_id": "T1217",
+   "evidence": "T1217"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Cloud Service Dashboard",
+   "mitre_id": "T1538",
+   "evidence": "T1538"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "File and Directory Discovery",
+   "mitre_id": "T1083",
+   "evidence": "T1083"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote System Discovery",
+   "mitre_id": "T1018",
+   "evidence": "T1018"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Steal Web Session Cookie",
+   "mitre_id": "T1539",
+   "evidence": "Steal Web Session Cookie T1539"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Lateral Movement",
+   "mitre_id": "TA0008",
+   "evidence": "Lateral Movement TA0008"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Cloud Services",
+   "mitre_id": "T1021.007",
+   "evidence": "T1021.007"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Information Repositories: Code Repositories",
+   "mitre_id": "T1213.003",
+   "evidence": "T1213.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Information Repositories: SharePoint",
+   "mitre_id": "T1213.002",
+   "evidence": "T1213.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Staged",
+   "mitre_id": "T1074",
+   "evidence": "Data Staged T1074"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection",
+   "mitre_id": "T1114",
+   "evidence": "Email Collection T1114"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Cloud Storage",
+   "mitre_id": "T1530",
+   "evidence": "Data from Cloud Storage T1530"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Information Repositories: SharePoint",
+   "mitre_id": "T1213.002",
+   "evidence": "Repositories: SharePoint T1213.002 Scattered Spider threat actors search SharePoint repositories for"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Staged",
+   "mitre_id": "T1074",
+   "evidence": "Data Staged T1074 Scattered Spider threat actors stage data from multiple data"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection",
+   "mitre_id": "T1114",
+   "evidence": "Email Collection T1114"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Cloud Storage",
+   "mitre_id": "T1530",
+   "evidence": "Data from Cloud Storage T1530 Scattered Spider threat actors search data in cloud storage for"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Access Tools",
+   "mitre_id": "T1219",
+   "evidence": "Remote Access Software T1219"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy",
+   "mitre_id": "T1090",
+   "evidence": "Proxy T1090 Scattered Spider threat actors use proxy networks to disguise the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Web Service",
+   "mitre_id": "T1567",
+   "evidence": "Exfiltration Over Web"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Encrypted for Impact",
+   "mitre_id": "T1486",
+   "evidence": "T1486"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Financial Theft",
+   "mitre_id": "T1657",
+   "evidence": "Financial Theft T1657"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration to Cloud Storage",
+   "mitre_id": "T1567.002",
+   "evidence": "T1567.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Control",
+   "mitre_id": "T1219",
+   "evidence": "Remote Access Software T1219"
+  }
+ ],
+ "observables": [],
+ "relationships": [],
+ "_meta": {
+  "engine": "0.1",
+  "model": "doc2stix-qwen3-8b:v1",
+  "seconds": 584.9,
+  "errors": "2 unparsable chunk(s)"
+ }
+}

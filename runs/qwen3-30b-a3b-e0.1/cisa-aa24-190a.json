@@ -1,0 +1,1399 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "APT40",
+   "evidence": "APT40 has repeatedly targeted Australian networks as well as government and private sector networks in the region, and the threat they pose to our networks is ongoing.",
+   "aliases": [
+    "Kryptonite Panda",
+    "GINGHAM TYPHOON",
+    "Leviathan",
+    "Bronze Mohawk"
+   ]
+  },
+  {
+   "type": "threat-actor",
+   "name": "PRC Ministry of State Security",
+   "evidence": "The authoring agencies assess that this group conduct malicious cyber operations for the PRC Ministry of State Security (MSS).",
+   "aliases": []
+  },
+  {
+   "type": "country",
+   "name": "People’s Republic of China",
+   "evidence": "People’s Republic of China (PRC) Ministry of State Security APT40 Tradecraft in Action",
+   "aliases": [
+    "PRC"
+   ]
+  },
+  {
+   "type": "sector",
+   "name": "Government and administrations",
+   "evidence": "APT40 has repeatedly targeted Australian networks as well as government and private sector networks in the region, and the threat they pose to our networks is ongoing.",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Private sector",
+   "evidence": "APT40 has repeatedly targeted Australian networks as well as government and private sector networks in the region, and the threat they pose to our networks is ongoing.",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-44228",
+   "evidence": "APT40 rapidly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021-31207 , CVE-2021-34523 , CVE-2021-34473 ).",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-31207",
+   "evidence": "APT40 rapidly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021-31207 , CVE-2021-34523 , CVE-2021-34473 ).",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-26084",
+   "evidence": "APT40 rapidly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021-31207 , CVE-2021-34523 , CVE-2021-34473 ).",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-34523",
+   "evidence": "APT40 rapidly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021-31207 , CVE-2021-34523 , CVE-2021-34473 ).",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-34473",
+   "evidence": "APT40 rapidly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021-31207 , CVE-2021-34523 , CVE-2021-34473 ).",
+   "aliases": []
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1505.003",
+   "evidence": "APT40 regularly uses web shells [ T1505.003 ] for persistence, particularly early in the life cycle of an intrusion.",
+   "mitre_id": "T1505.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1594",
+   "evidence": "Although APT40 has previously used compromised Australian websites as command and control (C2) hosts for its operations, the group have evolved this technique [ T1594 ].",
+   "mitre_id": "T1594"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1584.008",
+   "evidence": "APT40 has embraced the global trend of using compromised devices, including small-office/home-office (SOHO) devices, as operational infrastructure and last-hop redirectors [ T1584.008 ] for its operations in Australia.",
+   "mitre_id": "T1584.008"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1001.003",
+   "evidence": "Many of these SOHO devices are end-of-life or unpatched and offer a soft target for N-day exploitation. Once compromised, SOHO devices offer a launching point for attacks that is designed to blend in with legitimate traffic and challenge network defenders [ T1001.003 ].",
+   "mitre_id": "T1001.003"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT40",
+   "evidence": "the organization was likely deliberately targeted by APT40"
+  },
+  {
+   "type": "threat-actor",
+   "name": "PRC Ministry of State Security",
+   "evidence": "Named earlier in the document: APT40, PRC Ministry of State Security"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.001",
+   "evidence": "T1059.001",
+   "mitre_id": "T1059.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1190",
+   "evidence": "T1190",
+   "mitre_id": "T1190"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1078.002",
+   "evidence": "T1078.002",
+   "mitre_id": "T1078.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1018",
+   "evidence": "T1018",
+   "mitre_id": "T1018"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1039",
+   "evidence": "T1039",
+   "mitre_id": "T1039"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1558.003",
+   "evidence": "T1558.003",
+   "mitre_id": "T1558.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1021.002",
+   "evidence": "T1021.002",
+   "mitre_id": "T1021.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1102",
+   "evidence": "T1102",
+   "mitre_id": "T1102"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1594",
+   "evidence": "T1594",
+   "mitre_id": "T1594"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1072",
+   "evidence": "T1072",
+   "mitre_id": "T1072"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1505.003",
+   "evidence": "T1505.003",
+   "mitre_id": "T1505.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1552.001",
+   "evidence": "T1552.001",
+   "mitre_id": "T1552.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1213",
+   "evidence": "T1213",
+   "mitre_id": "T1213"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1041",
+   "evidence": "T1041",
+   "mitre_id": "T1041"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT40",
+   "evidence": "This investigation report was provided to the organization to summarize observed malicious activity and frame remediation recommendations. The findings indicate the compromise was undertaken by APT40.",
+   "aliases": [
+    "PRC Ministry of State Security"
+   ]
+  },
+  {
+   "type": "threat-actor",
+   "name": "PRC Ministry of State Security",
+   "evidence": "Named earlier in the document: APT40, PRC Ministry of State Security",
+   "aliases": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "campaign",
+   "name": "APT40 Tradecraft in Action",
+   "evidence": "People’s Republic of China (PRC) Ministry of State Security APT40 Tradecraft in Action",
+   "aliases": []
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1041",
+   "evidence": "T1041 – Exfiltration Over C2 Channel (regarding the actor’s data exfiltration from Active Directory and mounting shares)",
+   "mitre_id": "T1041"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1213",
+   "evidence": "T1213 – Data from Information Repositories (regarding manuals/documentation found on the BMS server)",
+   "mitre_id": "T1213"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1021.001",
+   "evidence": "Access\nThe host with the compromised appliance provided authentication via Active Directory and a webserver, for users connecting to VDI sessions [ T1021.001 ].",
+   "mitre_id": "T1021.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1505.001",
+   "evidence": "The actor also used access to the compromised appliance to scrape an SQL server [ T1505.001 ], which resided in the organization’s internal network.",
+   "mitre_id": "T1505.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1003",
+   "evidence": "Using their access to the compromised appliance, the group collected genuine usernames, passwords [ T1003 ], and MFA token values [ T1111 ].",
+   "mitre_id": "T1003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1111",
+   "evidence": "Using their access to the compromised appliance, the group collected genuine usernames, passwords [ T1003 ], and MFA token values [ T1111 ].",
+   "mitre_id": "T1111"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1528",
+   "evidence": "Using their access to the compromised appliance, the group collected genuine usernames, passwords [ T1003 ], and MFA token values [ T1111 ]. The group also collected JSON Web Tokens (JWTs) [ T1528 ], which is an authentication artefact used to create virtual desktop login sessions.",
+   "mitre_id": "T1528"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1563.002",
+   "evidence": "The actor may have been able to use these to create or hijack virtual desktop sessions [ T1563.002 ] and access the internal organization network segment as a legitimate user [ T1078 ].",
+   "mitre_id": "T1563.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1078",
+   "evidence": "The actor may have been able to use these to create or hijack virtual desktop sessions [ T1563.002 ] and access the internal organization network segment as a legitimate user [ T1078 ].",
+   "mitre_id": "T1078"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1070",
+   "evidence": "A log file was modified ( T1070 ) on HOST3. This file contains credential material ( T1078 ) likely captured by a malicious actor.",
+   "mitre_id": "T1070"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1505.003",
+   "evidence": "Additional web shells ( T1505.003 ) were created on HOST1 and HOST3.",
+   "mitre_id": "T1505.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "TA0008",
+   "evidence": "The nature of this activity could not be determined using available evidence but indicates that the group sought to move laterally in the organization’s network [ TA0008 ].",
+   "mitre_id": "TA0008"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "TA0011",
+   "evidence": "A known malicious IP address interacted with access gateway host HOST7 ( TA0011 ).",
+   "mitre_id": "TA0011"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT40",
+   "evidence": "APT40 Tradecraft in Action",
+   "aliases": [
+    "PRC Ministry of State Security"
+   ]
+  },
+  {
+   "type": "threat-actor",
+   "name": "PRC Ministry of State Security",
+   "evidence": "PRC Ministry of State Security",
+   "aliases": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT40",
+   "evidence": "People’s Republic of China (PRC) Ministry of State Security APT40 Tradecraft in Action",
+   "aliases": [
+    "PRC Ministry of State Security",
+    "APT40 Tradecraft in Action"
+   ],
+   "mitre_id": "T1078"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT40",
+   "evidence": "APT40 Tradecraft in Action",
+   "aliases": [
+    "PRC Ministry of State Security"
+   ]
+  },
+  {
+   "type": "threat-actor",
+   "name": "PRC Ministry of State Security",
+   "evidence": "PRC Ministry of State Security",
+   "aliases": [
+    "APT40"
+   ]
+  }
+ ],
+ "observables": [
+  {
+   "type": "file",
+   "value": "26a5a7e71a601be991073c78d513dee3",
+   "hash": "MD5",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "87c88f06a7464db2534bc78ec2b915de",
+   "hash": "MD5",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "6a9bc68c9bc5cefaf1880ae6ffb1d0ca",
+   "hash": "MD5",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "64454645a9a21510226ab29e01e76d39",
+   "hash": "MD5",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e2175f91ce3da2e8d46b0639e941e13f",
+   "hash": "MD5",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9f89f069466b8b5c9bf25c9374a4daf8",
+   "hash": "MD5",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "187d6f2ed2c80f805461d9119a5878ac",
+   "hash": "MD5",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ed7178cec90ed21644e669378b3a97ec",
+   "hash": "MD5",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "5bf7560d0a638e34035f85cd3788e258",
+   "hash": "MD5",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e02be0dc614523ddd7a28c9e9d500cff",
+   "hash": "MD5",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "192.168.1.1",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "webapp2-ext",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "HOST1",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "HOST2",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "HOST3",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "HOST7",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "known malicious IP address",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "HOST1",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "HOST3",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "HOST7",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Log4jHotPatch.jar",
+   "hash": "",
+   "indicates": [
+    "APT40"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "APT40 regularly uses web shells [ T1505.003 ] for persistence, particularly early in the life cycle of an intrusion."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1594",
+   "evidence": "Although APT40 has previously used compromised Australian websites as command and control (C2) hosts for its operations, the group have evolved this technique [ T1594 ]."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1584.008",
+   "evidence": "APT40 has embraced the global trend of using compromised devices, including small-office/home-office (SOHO) devices, as operational infrastructure and last-hop redirectors [ T1584.008 ] for its operations in Australia."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1001.003",
+   "evidence": "Many of these SOHO devices are end-of-life or unpatched and offer a soft target for N-day exploitation. Once compromised, SOHO devices offer a launching point for attacks that is designed to blend in with legitimate traffic and challenge network defenders [ T1001.003 ]."
+  },
+  {
+   "source": "APT40",
+   "type": "targets",
+   "target": "Government and administrations",
+   "evidence": "APT40 has repeatedly targeted Australian networks as well as government and private sector networks in the region, and the threat they pose to our networks is ongoing."
+  },
+  {
+   "source": "APT40",
+   "type": "targets",
+   "target": "Private sector",
+   "evidence": "APT40 has repeatedly targeted Australian networks as well as government and private sector networks in the region, and the threat they pose to our networks is ongoing."
+  },
+  {
+   "source": "APT40",
+   "type": "exploits",
+   "target": "CVE-2021-44228",
+   "evidence": "APT40 rapidly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021-31207 , CVE-2021-34523 , CVE-2021-34473 )."
+  },
+  {
+   "source": "APT40",
+   "type": "exploits",
+   "target": "CVE-2021-31207",
+   "evidence": "APT40 rapidly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021-31207 , CVE-2021-34523 , CVE-2021-34473 )."
+  },
+  {
+   "source": "APT40",
+   "type": "exploits",
+   "target": "CVE-2021-26084",
+   "evidence": "APT40 rapidly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021-31207 , CVE-2021-34523 , CVE-2021-34473 )."
+  },
+  {
+   "source": "APT40",
+   "type": "exploits",
+   "target": "CVE-2021-34523",
+   "evidence": "APT40 rapidly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021-31207 , CVE-2021-34523 , CVE-2021-34473 )."
+  },
+  {
+   "source": "APT40",
+   "type": "exploits",
+   "target": "CVE-2021-34473",
+   "evidence": "APT40 rapidly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021-31207 , CVE-2021-34523 , CVE-2021-34473 )."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1059.001",
+   "evidence": "T1059.001"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "T1190"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1078.002",
+   "evidence": "T1078.002"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1018",
+   "evidence": "T1018"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1039",
+   "evidence": "T1039"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1558.003",
+   "evidence": "T1558.003"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1021.002",
+   "evidence": "T1021.002"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1102",
+   "evidence": "T1102"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1594",
+   "evidence": "T1594"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1072",
+   "evidence": "T1072"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "T1505.003"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1552.001",
+   "evidence": "T1552.001"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1213",
+   "evidence": "T1213"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1041",
+   "evidence": "T1041"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1041",
+   "evidence": "T1041 – Exfiltration Over C2 Channel (regarding the actor’s data exfiltration from Active Directory and mounting shares)"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1213",
+   "evidence": "T1213 – Data from Information Repositories (regarding manuals/documentation found on the BMS server)"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1021.001",
+   "evidence": "Access\nThe host with the compromised appliance provided authentication via Active Directory and a webserver, for users connecting to VDI sessions [ T1021.001 ]."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1505.001",
+   "evidence": "The actor also used access to the compromised appliance to scrape an SQL server [ T1505.001 ], which resided in the organization’s internal network."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1003",
+   "evidence": "Using their access to the compromised appliance, the group collected genuine usernames, passwords [ T1003 ], and MFA token values [ T1111 ]."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1111",
+   "evidence": "Using their access to the compromised appliance, the group collected genuine usernames, passwords [ T1003 ], and MFA token values [ T1111 ]."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1528",
+   "evidence": "The group also collected JSON Web Tokens (JWTs) [ T1528 ], which is an authentication artefact used to create virtual desktop login sessions."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1563.002",
+   "evidence": "The actor may have been able to use these to create or hijack virtual desktop sessions [ T1563.002 ] and access the internal organization network segment as a legitimate user [ T1078 ]."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1078",
+   "evidence": "The actor may have been able to use these to create or hijack virtual desktop sessions [ T1563.002 ] and access the internal organization network segment as a legitimate user [ T1078 ]."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1070",
+   "evidence": "A log file was modified ( T1070 ) on HOST3. This file contains credential material ( T1078 ) likely captured by a malicious actor."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "Additional web shells ( T1505.003 ) were created on HOST1 and HOST3."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "TA0008",
+   "evidence": "The nature of this activity could not be determined using available evidence but indicates that the group sought to move laterally in the organization’s network [ TA0008 ]."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "TA0011",
+   "evidence": "A known malicious IP address interacted with access gateway host HOST7 ( TA0011 )."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1528",
+   "evidence": "JWTs were captured ( T1528 ) and output to a file on HOST3."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "Additional web shells were created on HOST1 ( T1505.003 )."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "Additional web shells are created on HOST1 ( T1505.003 ), and a known malicious IP address interacts with the host ( TA0011 )."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "An additional web shell is created on this host ( T1505.003 )."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "Additional web shells were created on HOST1 ( T1505.003 )."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1543",
+   "evidence": "A script on HOST1 was modified by an actor ( T1543 )."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1070",
+   "evidence": "An additional log file on HOST1 was last modified ( T1070 )."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1070",
+   "evidence": "An additional log file was last modified ( T1070 )."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1572",
+   "evidence": "The iptables-save command was used to add two open ports to the access gateway host. The ports were 9998 and 9999 ( T1572 )."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "The group likely exploited RCE, privilege escalation, and authentication bypass vulnerabilities in the remote access login and identity management product to gain initial access to the network."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1059.004",
+   "evidence": "The group successfully exploited the above vulnerabilities may have been able to run commands in a Unix shell available on the affected appliance."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1068",
+   "evidence": "Vulnerabilities believed to have been present on the compromised appliance would have allowed the actors to attain root privileges."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1056.003",
+   "evidence": "Evidence on the compromised appliance showed that the actor had captured several hundred username-password pairs, in clear text, which are believed to be legitimate."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1111",
+   "evidence": "The actor also captured the value of MFA tokens corresponding to legitimate logins."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1040",
+   "evidence": "The actor is believed to have captured JWTs by capturing HTTP traffic on the compromised appliance."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1539",
+   "evidence": "As described above, the actor captured JWTs, which are analogous to web session cookies."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1046",
+   "evidence": "There is evidence that network scanning utility nmap was executed on the compromised appliance to scan other appliances in the same network segment."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1003",
+   "evidence": "It is likely that actors had access to all files on the compromised appliance, including the captured credentials [ T1003 ], MFA token values [ T1111 ], and JWTs described above."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1071.001",
+   "evidence": "Actors used web shells for command and control. Web shell commands would have been passed over HTTPS using the existing web server on the appliance [ T1572 ]."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1001.003",
+   "evidence": "Actors used compromised devices as a launching point for attacks that are designed to blend in with legitimate traffic."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1497.001",
+   "evidence": "ks [T1497.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1055.003",
+   "evidence": "Process Injection: Thread Execution Hijacking [T1055.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1036",
+   "evidence": "Masquerading [T1036]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1620",
+   "evidence": "Reflective Code Loading [T1620]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1562.004",
+   "evidence": "Impair Defences: Disable or Modify System Firewall [T1562.004]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1055.012",
+   "evidence": "Process Injection: Process Hollowing [T1055.012]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1564.001",
+   "evidence": "Hide Artifacts: Hidden Files and Directories [T1564.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1070.004",
+   "evidence": "Indicator Removal: File Deletion [T1070.004]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1564.003",
+   "evidence": "Hide Artifacts: Hidden Window [T1564.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1070.006",
+   "evidence": "Indicator Removal: Timestomp [T1070.006]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1574.001",
+   "evidence": "Hijack Execution Flow: DLL Search Order Hijacking [T1574.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1070.001",
+   "evidence": "Indicator Removal: Clear Windows Event Logs [T1070.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1574.002",
+   "evidence": "Hijack Execution Flow: DLL Side-Loading [T1574.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1112",
+   "evidence": "Modify Registry [T1112]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1102",
+   "evidence": "Web Service [T1102]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1140",
+   "evidence": "Deobfuscate/Decode Files or Information [T1140]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1036.004",
+   "evidence": "Masquerading: Masquerade Task or Service [T1036.004]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1562",
+   "evidence": "Impair Defenses [T1562]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1003.001",
+   "evidence": "OS Credential Dumping: LSASS Memory [T1003.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1552.001",
+   "evidence": "Unsecured Credentials: Credentials in Files [T1552.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1003.003",
+   "evidence": "OS Credential Dumping: NTDS [T1003.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1110.001",
+   "evidence": "Brute Force: Password Guessing [T1110.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1040",
+   "evidence": "Network Sniffing [T1040]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1187",
+   "evidence": "Forced Authentication [T1187]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1555.001",
+   "evidence": "Credentials from Password Stores: Keychain [T1555.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1558.003",
+   "evidence": "Steal or Forge Kerberos Tickets: Kerberoasting [T1558.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1056.001",
+   "evidence": "Input Capture: Keylogging [T1056.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1111",
+   "evidence": "Multi-Factor Authentication Interception [T1111]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1539",
+   "evidence": "Steal Web Session Cookie [T1539]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1528",
+   "evidence": "Steal Application Access Token [T1528]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1212",
+   "evidence": "Exploitation for Credential Access [T1212]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1110.002",
+   "evidence": "Brute Force: Password Cracking [T1110.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1056.003",
+   "evidence": "Input Capture: Web Portal Capture [T1056.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1003.006",
+   "evidence": "OS Credential Dumping: DCSync [T1003.006]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1555",
+   "evidence": "Credentials from Password Stores [T1555]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1555.003",
+   "evidence": "Credentials from Password Stores: Credentials from Web Browsers [T1555.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1007",
+   "evidence": "System Service Discovery [T1007]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1082",
+   "evidence": "System Information Discovery [T1082]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1010",
+   "evidence": "Application Window Discovery [T1010]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1087.001",
+   "evidence": "Account Discovery: Local Account [T1087.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1012",
+   "evidence": "Query Registry [T1012]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1083",
+   "evidence": "File and Directory Discovery [T1083]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1124",
+   "evidence": "System Time Discovery [T1124]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1046",
+   "evidence": "Network Service Discovery [T1046]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1033",
+   "evidence": "System Owner/User Discovery [T1033]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1018",
+   "evidence": "Remote System Discovery [T1018]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1482",
+   "evidence": "Domain Trust Discovery [T1482]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1087.003",
+   "evidence": "Account Discovery: Email Account [T1087.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1087.002",
+   "evidence": "Account Discovery: Domain Account [T1087.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1049",
+   "evidence": "System Network Connections Discovery [T1049]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1497.001",
+   "evidence": "Virtualisation/Sandbox Evasion: System Checks [T1497.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1057",
+   "evidence": "Process Discovery [T1057]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1518",
+   "evidence": "Software Discovery [T1518]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1069.002",
+   "evidence": "Permission Groups Discovery: Domain Groups [T1069.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1135",
+   "evidence": "Network Share Discovery, Technique T1135 - Enterprise | MITRE ATT&CK®"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1016.001",
+   "evidence": "System Network Configuration Discovery: Internet Connection Discovery [T1016.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1021.001",
+   "evidence": "Remote Services: Remote Desktop Protocol [T1021.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1021",
+   "evidence": "Remote Services [T1021]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1021.002",
+   "evidence": "Remote Services: SMB/Windows Admin Shares [T1021.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1550.003",
+   "evidence": "Use Alternate Authentication Material: Pass the Ticket [T1550.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1021.006",
+   "evidence": "Remote Services: Windows Remote Management [T1021.006]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1570",
+   "evidence": "Lateral Tool Transfer [T1570]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1005",
+   "evidence": "Data from Local System [T1005]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1560.002",
+   "evidence": "Archive Collected Data: Archive via Library [T1560.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1039",
+   "evidence": "Data from Network Shared Drive [T1039]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1114.002",
+   "evidence": "Email Collection: Remote Email Collection [T1114.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1115",
+   "evidence": "Clipboard Data [T1115]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1119",
+   "evidence": "Automated Collection [T1119]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1213",
+   "evidence": "Data from Information Repositories [T1213]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1041",
+   "evidence": "Exfiltration Over C2 Channel [T1041]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1048.002",
+   "evidence": "Exfiltration Over Alternative Protocol: Exfiltration Over Asymmetric Encrypted Non-C2 Protocol [T1048.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1048",
+   "evidence": "Exfiltration Over Alternative Protocol [T1048]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1567.002",
+   "evidence": "Exfiltration Over Web Service: Exfiltration to Cloud Storage [T1567.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1001.003",
+   "evidence": "Data Obfuscation: Protocol Impersonation [T1001.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1102.001",
+   "evidence": "Web Service: Dead Drop Resolver [T1102.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1043",
+   "evidence": "Commonly Used Port [T1043]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1102.003",
+   "evidence": "Web Service: One-way Communication [T1102.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1071.001",
+   "evidence": "Application Layer Protocol: Web Protocols [T1071.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1105",
+   "evidence": "Ingress Tool Transfer [T1105]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1071.002",
+   "evidence": "Application Layer Protocol: File Transfer Protocols [T1071.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1090.001",
+   "evidence": "Proxy: Internal Proxy [T1090.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1090.002",
+   "evidence": "Proxy: External Proxy [T1090.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1571",
+   "evidence": "Non-Standard Port [T1571]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1090.003",
+   "evidence": "Proxy: Multi-hop Proxy [T1090.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1572",
+   "evidence": "Protocol Tunnelling [T1572]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1102.002",
+   "evidence": "Web Service: Bidirectional Communication [T1102.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1573",
+   "evidence": "Encrypted Channel [T1573]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1573.002",
+   "evidence": "Encrypted Channel: Asymmetric Cryptography [T1573.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1489",
+   "evidence": "Service Stop [T1489]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1561",
+   "evidence": "Disk Wipe [T1561]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1529",
+   "evidence": "System Shutdown/Reboot [T1529]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1496",
+   "evidence": "Resource Hijacking [T1496]"
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "qwen3:30b-a3b",
+  "seconds": 261.7,
+  "errors": ""
+ }
+}

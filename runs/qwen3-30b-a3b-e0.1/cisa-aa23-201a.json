@@ -1,0 +1,1094 @@
+{
+ "entities": [
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-3519",
+   "evidence": "CVE-2023-3519 is an unauthenticated RCE vulnerability affecting the following versions of NetScaler ADC and NetScaler Gateway",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "webshell",
+   "evidence": "threat actors exploited this vulnerability as a zero-day to drop a webshell on a critical infrastructure organization’s non-production environment NetScaler ADC appliance",
+   "aliases": [
+    "generic webshell"
+   ]
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1190",
+   "evidence": "As part of their initial exploit chain [T1190]",
+   "mitre_id": "T1190"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1105",
+   "evidence": "the threat actors uploaded a TGZ file [T1105] containing a generic webshell",
+   "mitre_id": "T1105"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1505.003",
+   "evidence": "containing a generic webshell [T1505.003]",
+   "mitre_id": "T1505.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "TA0007",
+   "evidence": "discovery script [TA0007]",
+   "mitre_id": "TA0007"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1548.001",
+   "evidence": "setuid binary [T1548.001]",
+   "mitre_id": "T1548.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1046",
+   "evidence": "conducted SMB scanning on the subnet [T1046]",
+   "mitre_id": "T1046"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1016",
+   "evidence": "used the webshell for AD enumeration [T1016]",
+   "mitre_id": "T1016"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "TA0010",
+   "evidence": "to exfiltrate AD data [TA0010]",
+   "mitre_id": "TA0010"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1552.001",
+   "evidence": "These configuration files contain an encrypted password that can be decrypted by the key stored on the ADC appliance [T1552.001]",
+   "mitre_id": "T1552.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1552.004",
+   "evidence": "Viewed the NetScaler decryption keys (to decrypt the AD credential from the configuration file) [T1552.004]",
+   "mitre_id": "T1552.004"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1087.002",
+   "evidence": "queried for: Users (objectClass=user) (objectcategory=person) [T1087.002]",
+   "mitre_id": "T1087.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1018",
+   "evidence": "queried for: Computers (objectClass=computer) [T1018]",
+   "mitre_id": "T1018"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1069.002",
+   "evidence": "queried for: Groups (objectClass=group) [T1069.002]",
+   "mitre_id": "T1069.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1482",
+   "evidence": "queried for: Trusts (objectClass=trustedDomain) [T1482]",
+   "mitre_id": "T1482"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1560.001",
+   "evidence": "used the following command to encrypt discovery data collected via openssl in “tar ball” [T1560.001]",
+   "mitre_id": "T1560.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1036.008",
+   "evidence": "Exfiltrated collected data by uploading as an image file [T1036.008]",
+   "mitre_id": "T1036.008"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1074",
+   "evidence": "uploading as an image file [T1036.008] to a web-accessible path [T1074]",
+   "mitre_id": "T1074"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1016.001",
+   "evidence": "Verified outbound network connectivity with a ping command (ping -c 1 google.com) [T1016.001]",
+   "mitre_id": "T1016.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Unix Shell",
+   "evidence": "Executed /bin/sh as root",
+   "mitre_id": "T1059.004"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Native API",
+   "evidence": "Executed /bin/sh via syscall",
+   "mitre_id": "T1106"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "exploited CVE-2023-3519 to implant a webshell",
+   "mitre_id": "T1190"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Compromise Infrastructure",
+   "evidence": "used compromised pfSense devices to proxy C2 traffic",
+   "mitre_id": "T1584"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obtain Capabilities: Tool",
+   "evidence": "leveraged open source webshells and other publicly available tools",
+   "mitre_id": "T1588.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Name or Location",
+   "evidence": "webshell path was in a web accessible folder",
+   "mitre_id": "T1036.005"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Staged: Local Data Staging",
+   "evidence": "collected data in gzipped text files renamed 1.css and 2.css",
+   "mitre_id": "T1074.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Protocol Tunneling",
+   "evidence": "Deployed LIGOLO-NG tunneller",
+   "mitre_id": "T1572"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Deobfuscate/Decode Files or Information",
+   "evidence": "SECRETSAUCE webshell decrypt it using an internally embedded RSA public key",
+   "mitre_id": "T1140"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "File and Directory Permissions Modification: Linux and Mac File and Directory Permissions Modification",
+   "evidence": "chmod u+s /bin/sh",
+   "mitre_id": "T1222.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: Clear Linux or Mac System Logs",
+   "evidence": "deleted some access logs, error logs, and authentication logs",
+   "mitre_id": "T1070.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: File Deletion",
+   "evidence": "deleted them from the system",
+   "mitre_id": "T1070.004"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy: Multi-hop Proxy",
+   "evidence": "communications with two pfSense IP addresses indicating the actor was using them for multi-hop proxying C2 traffic",
+   "mitre_id": "T1090.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Boot or Logon Autostart Execution",
+   "evidence": "webshell was run on every reboot",
+   "mitre_id": "T1547"
+  },
+  {
+   "type": "malware",
+   "name": "SECRETSAUCE",
+   "evidence": "The threat actors deployed the SECRETSAUCE webshell, which can receive PHP code from an HTTP POST request, decrypt it using an internally embedded RSA public key."
+  },
+  {
+   "type": "tool",
+   "name": "LIGOLO-NG",
+   "evidence": "The threat actors deployed LIGOLO-NG, which is a tunneller that provides encrypted reverse TCP/TLS connections to a remote host."
+  },
+  {
+   "type": "tool",
+   "name": "NPS tunneller",
+   "evidence": "The threat actors deployed LIGOLO-NG and NPS tunnellers."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-3519",
+   "evidence": "The threat actors exploited CVE-2023-3519 to implant a webshell on the organization’s NetScaler ADC appliance."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1190",
+   "evidence": "The threat actors exploited CVE-2023-3519 to implant a webshell on the organization’s NetScaler ADC appliance.",
+   "mitre_id": "T1190"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.004",
+   "evidence": "The threat actors executed /bin/sh as root.",
+   "mitre_id": "T1059.004"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1106",
+   "evidence": "The threat actors executed /bin/sh via syscall.",
+   "mitre_id": "T1106"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1547",
+   "evidence": "Threat actors used /flash/nsconfig/rc.netscaler rewrite a webshell on every reboot.",
+   "mitre_id": "T1547"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1505.003",
+   "evidence": "The threat actors implanted a generic webshell on the organization’s NetScaler ADC appliance.",
+   "mitre_id": "T1505.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1548.001",
+   "evidence": "As part of their initial exploit chain, the threat actors uploaded a TGZ file contain a setuid binary on the ADC appliance.",
+   "mitre_id": "T1548.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1140",
+   "evidence": "The threat actors deployed the SECRETSAUCE webshell, which can receive PHP code from an HTTP POST request, decrypt it using an internally embedded RSA public key.",
+   "mitre_id": "T1140"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1222.002",
+   "evidence": "The threat actors appended /flash/nsconfig/rc.netscaler with: chmod u+s /bin/sh",
+   "mitre_id": "T1222.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1070",
+   "evidence": "The threat actors deleted log files from Victim 2.",
+   "mitre_id": "T1070"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1070.002",
+   "evidence": "The threat actors some access logs, error logs, and authentication logs from Victim 2.",
+   "mitre_id": "T1070.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1070.004",
+   "evidence": "The threat actors deleted collected files after exfiltrating them.",
+   "mitre_id": "T1070.004"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1036",
+   "evidence": "The actor has used the following file names for SECRETSAUCE to appear legitimate: vpn[.]php, logout[.]php, log[.]php, and prod[.]php.",
+   "mitre_id": "T1036"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1036.005",
+   "evidence": "The threat actors named a webshell *logouttm.php*.",
+   "mitre_id": "T1036.005"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1036.008",
+   "evidence": "The threat actors exfiltrated data by uploading it as an image file to a web-accessible path.",
+   "mitre_id": "T1036.008"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1552.001",
+   "evidence": "The threat actors obtained encrypted passwords from NetScaler ADC configuration files, and the decryption key was stored on the ADC appliance.",
+   "mitre_id": "T1552.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1552.004",
+   "evidence": "The threat actors obtained decryption keys to decrypt the AD credential obtained from the NetScaler ADC configuration files.",
+   "mitre_id": "T1552.004"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1482",
+   "evidence": "The threat actors queried the AD for trusts.",
+   "mitre_id": "T1482"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1069.002",
+   "evidence": "The threat actors quired the AD for groups.",
+   "mitre_id": "T1069.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1018",
+   "evidence": "The threat actors queried the AD for computers.",
+   "mitre_id": "T1018"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1016",
+   "evidence": "The actors used a webshell for AD enumeration.",
+   "mitre_id": "T1016"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1016.001",
+   "evidence": "The threat actors attempted to verify outbound network connectivity with a ping command and executed host commands for a subnet-wide DNS lookup.",
+   "mitre_id": "T1016.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1046",
+   "evidence": "The threat actors conducted SMB scanning on the organization’s subnet.",
+   "mitre_id": "T1046"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1087.002",
+   "evidence": "The threat actors queried the AD for users.",
+   "mitre_id": "T1087.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1560.001",
+   "evidence": "The threat actors encrypted discovery data collected via openssl in “tar ball.”",
+   "mitre_id": "T1560.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1005",
+   "evidence": "The threat actors viewed NetScaler ADC configuration files flash/nsconfig/keys/updated/* and /nsconfig/ns.conf.",
+   "mitre_id": "T1005"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1074",
+   "evidence": "The threat actors uploaded data as an image file to a web-accessible path: cp /var/tmp/test.tar.gz /netscaler/ns_gui/vpn/medialogininit.png.",
+   "mitre_id": "T1074"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1074.001",
+   "evidence": "The threat actors modified tool wrote captured credentials to a file created in a hard-coded path (/var/nslog/counters/prometheus/metrc_codes_client.log).",
+   "mitre_id": "T1074.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1573.002",
+   "evidence": "The threat actors deployed LIGOLO-NG, which is a tunneller that provides encrypted reverse TCP/TLS connections to a remote host.",
+   "mitre_id": "T1573.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1105",
+   "evidence": "The threat actors exploited CVE-2023-3519 to upload a TGZ file containing a generic webshell, discovery script, and setuid binary on the ADC appliance.",
+   "mitre_id": "T1105"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1572",
+   "evidence": "The threat actors deployed LIGOLO-NG and NPS tunnellers.",
+   "mitre_id": "T1572"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1090.001",
+   "evidence": "The actors likely used a PHP shell with proxying capability to attempt proxying SMB traffic to the DC (the traffic was blocked by a firewall and account restrictions).",
+   "mitre_id": "T1090.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1090.003",
+   "evidence": "The threat actors appear to have used compromised pfSense devices to proxy C2 traffic to Victim 2.",
+   "mitre_id": "T1090.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1531",
+   "evidence": "The threat actors deleted the authorization configuration file (/etc/auth.conf)—likely to prevent configured users from logging in remotely (e.g., CLI).",
+   "mitre_id": "T1531"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-3519",
+   "evidence": "Threat Actors Exploiting Citrix CVE-2023-3519 to Implant Webshells"
+  },
+  {
+   "type": "malware",
+   "name": "webshell",
+   "evidence": "Named earlier in the document: webshell, SECRETSAUCE, LIGOLO-NG, NPS tunneller"
+  },
+  {
+   "type": "malware",
+   "name": "SECRETSAUCE",
+   "evidence": "Named earlier in the document: webshell, SECRETSAUCE, LIGOLO-NG, NPS tunneller"
+  },
+  {
+   "type": "tool",
+   "name": "LIGOLO-NG",
+   "evidence": "Named earlier in the document: webshell, SECRETSAUCE, LIGOLO-NG, NPS tunneller"
+  },
+  {
+   "type": "tool",
+   "name": "NPS tunneller",
+   "evidence": "Named earlier in the document: webshell, SECRETSAUCE, LIGOLO-NG, NPS tunneller"
+  }
+ ],
+ "observables": [
+  {
+   "type": "domain-name",
+   "value": "google.com",
+   "indicates": [
+    "T1016.001"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "loading[.]php",
+   "indicates": [
+    "SECRETSAUCE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "defaults.php",
+   "indicates": [
+    "SECRETSAUCE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "vpn[.]php",
+   "indicates": [
+    "SECRETSAUCE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "logout[.]php",
+   "indicates": [
+    "SECRETSAUCE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "log[.]php",
+   "indicates": [
+    "SECRETSAUCE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "prod[.]php",
+   "indicates": [
+    "SECRETSAUCE"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "pykeygen",
+   "hash": "SHA-256",
+   "indicates": [
+    "T1059.004"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "pip4",
+   "hash": "SHA-256",
+   "indicates": [
+    "T1059.004"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "libnsd.so",
+   "hash": "SHA-256",
+   "indicates": [
+    "T1074.001"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "LIGOLO-NG",
+   "hash": "SHA-256",
+   "indicates": [
+    "T1572"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "NPS",
+   "hash": "SHA-256",
+   "indicates": [
+    "T1572"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ADExplorer.exe",
+   "hash": "SHA-256",
+   "indicates": [
+    "T1190"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "vpn[.]php",
+   "indicates": [
+    "SECRETSAUCE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "logout[.]php",
+   "indicates": [
+    "SECRETSAUCE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "log[.]php",
+   "indicates": [
+    "SECRETSAUCE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "prod[.]php",
+   "indicates": [
+    "SECRETSAUCE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "logouttm.php",
+   "indicates": [
+    "SECRETSAUCE"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "/var/tmp/test.tar.gz",
+   "hash": "SHA-256",
+   "indicates": [
+    "T1074"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "/netscaler/ns_gui/vpn/medialogininit.png",
+   "hash": "SHA-256",
+   "indicates": [
+    "T1074"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "/var/nslog/counters/prometheus/metrc_codes_client.log",
+   "hash": "SHA-256",
+   "indicates": [
+    "T1074.001"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "/flash/nsconfig/rc.netscaler",
+   "hash": "SHA-256",
+   "indicates": [
+    "T1547",
+    "T1222.002"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "/etc/auth.conf",
+   "hash": "SHA-256",
+   "indicates": [
+    "T1531"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "/var/log/httperror.log",
+   "hash": "SHA-256",
+   "indicates": [
+    "T1070"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "/var/log/sh.log",
+   "hash": "SHA-256",
+   "indicates": [
+    "T1070"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "/var/nslog/counters/prometheus/metrc_codes_client.log",
+   "hash": "SHA-256",
+   "indicates": [
+    "T1074.001"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "Logouttm[.]php",
+   "hash": "3345ad8b43d6771532ca55acf7e95fe98aeadb27",
+   "indicates": [
+    "webshell"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "pykeygen",
+   "hash": "b8f9258e9c7c882944e2b773557b49e5821517fe",
+   "indicates": [
+    "SECRETSAUCE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "info[.]php",
+   "hash": "55c83cb25be5c521e4874e22b1422c360abf0a29",
+   "indicates": [
+    "webshell"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "NPS",
+   "hash": "ec17f7b3acb2334a062c37e0271c31c3c8b6879c",
+   "indicates": [
+    "NPS tunneller"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "LIGOLO-NG",
+   "hash": "dec36a2aa4ecb86eafd01015e27c06f51d104317",
+   "indicates": [
+    "LIGOLO-NG"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.2.64.155",
+   "indicates": [
+    "webshell"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.255.101.76",
+   "indicates": [
+    "webshell"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "172.94.124.18",
+   "indicates": [
+    "webshell"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "154.6.91.149",
+   "indicates": [
+    "webshell"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "CVE-2023-3519",
+   "type": "exploits",
+   "target": "vulnerability",
+   "evidence": "CVE-2023-3519 is an unauthenticated RCE vulnerability affecting the following versions of NetScaler ADC and NetScaler Gateway"
+  },
+  {
+   "source": "webshell",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "containing a generic webshell [T1505.003]"
+  },
+  {
+   "source": "webshell",
+   "type": "uses",
+   "target": "T1016",
+   "evidence": "used the webshell for AD enumeration [T1016]"
+  },
+  {
+   "source": "webshell",
+   "type": "uses",
+   "target": "TA0010",
+   "evidence": "to exfiltrate AD data [TA0010]"
+  },
+  {
+   "source": "T1190",
+   "type": "uses",
+   "target": "CVE-2023-3519",
+   "evidence": "As part of their initial exploit chain [T1190]"
+  },
+  {
+   "source": "T1105",
+   "type": "uses",
+   "target": "webshell",
+   "evidence": "the threat actors uploaded a TGZ file [T1105] containing a generic webshell"
+  },
+  {
+   "source": "T1548.001",
+   "type": "uses",
+   "target": "webshell",
+   "evidence": "setuid binary [T1548.001]"
+  },
+  {
+   "source": "T1046",
+   "type": "uses",
+   "target": "webshell",
+   "evidence": "conducted SMB scanning on the subnet [T1046]"
+  },
+  {
+   "source": "T1552.001",
+   "type": "uses",
+   "target": "webshell",
+   "evidence": "These configuration files contain an encrypted password that can be decrypted by the key stored on the ADC appliance [T1552.001]"
+  },
+  {
+   "source": "T1552.004",
+   "type": "uses",
+   "target": "webshell",
+   "evidence": "Viewed the NetScaler decryption keys (to decrypt the AD credential from the configuration file) [T1552.004]"
+  },
+  {
+   "source": "T1087.002",
+   "type": "uses",
+   "target": "webshell",
+   "evidence": "queried for: Users (objectClass=user) (objectcategory=person) [T1087.002]"
+  },
+  {
+   "source": "T1018",
+   "type": "uses",
+   "target": "webshell",
+   "evidence": "queried for: Computers (objectClass=computer) [T1018]"
+  },
+  {
+   "source": "T1069.002",
+   "type": "uses",
+   "target": "webshell",
+   "evidence": "queried for: Groups (objectClass=group) [T1069.002]"
+  },
+  {
+   "source": "T1482",
+   "type": "uses",
+   "target": "webshell",
+   "evidence": "queried for: Trusts (objectClass=trustedDomain) [T1482]"
+  },
+  {
+   "source": "T1560.001",
+   "type": "uses",
+   "target": "webshell",
+   "evidence": "used the following command to encrypt discovery data collected via openssl in “tar ball” [T1560.001]"
+  },
+  {
+   "source": "T1036.008",
+   "type": "uses",
+   "target": "webshell",
+   "evidence": "Exfiltrated collected data by uploading as an image file [T1036.008]"
+  },
+  {
+   "source": "T1074",
+   "type": "uses",
+   "target": "webshell",
+   "evidence": "uploading as an image file [T1036.008] to a web-accessible path [T1074]"
+  },
+  {
+   "source": "T1016.001",
+   "type": "uses",
+   "target": "webshell",
+   "evidence": "Verified outbound network connectivity with a ping command (ping -c 1 google.com) [T1016.001]"
+  },
+  {
+   "source": "T1059.004",
+   "type": "uses",
+   "target": "pykeygen",
+   "evidence": "Executed /bin/sh as root"
+  },
+  {
+   "source": "T1059.004",
+   "type": "uses",
+   "target": "pip4",
+   "evidence": "Executed /bin/sh as root"
+  },
+  {
+   "source": "T1106",
+   "type": "uses",
+   "target": "pykeygen",
+   "evidence": "Executed /bin/sh via syscall"
+  },
+  {
+   "source": "T1106",
+   "type": "uses",
+   "target": "pip4",
+   "evidence": "Executed /bin/sh via syscall"
+  },
+  {
+   "source": "T1584",
+   "type": "uses",
+   "target": "pfSense",
+   "evidence": "used compromised pfSense devices to proxy C2 traffic"
+  },
+  {
+   "source": "T1588.002",
+   "type": "uses",
+   "target": "SECRETSAUCE",
+   "evidence": "leveraged open source webshells"
+  },
+  {
+   "source": "T1036.005",
+   "type": "uses",
+   "target": "SECRETSAUCE",
+   "evidence": "webshell path was in a web accessible folder"
+  },
+  {
+   "source": "T1074.001",
+   "type": "uses",
+   "target": "libnsd.so",
+   "evidence": "collected credentials and exfiltrated"
+  },
+  {
+   "source": "T1572",
+   "type": "uses",
+   "target": "LIGOLO-NG",
+   "evidence": "Deployed LIGOLO-NG tunneller"
+  },
+  {
+   "source": "T1140",
+   "type": "uses",
+   "target": "SECRETSAUCE",
+   "evidence": "SECRETSAUCE webshell decrypt it using an internally embedded RSA public key"
+  },
+  {
+   "source": "T1222.002",
+   "type": "uses",
+   "target": "chmod u+s /bin/sh",
+   "evidence": "chmod u+s /bin/sh"
+  },
+  {
+   "source": "T1070.002",
+   "type": "uses",
+   "target": "deleted logs",
+   "evidence": "deleted some access logs, error logs, and authentication logs"
+  },
+  {
+   "source": "T1070.004",
+   "type": "uses",
+   "target": "deleted files",
+   "evidence": "deleted them from the system"
+  },
+  {
+   "source": "T1090.003",
+   "type": "uses",
+   "target": "pfSense",
+   "evidence": "communications with two pfSense IP addresses indicating the actor was using them for multi-hop proxying C2 traffic"
+  },
+  {
+   "source": "T1547",
+   "type": "uses",
+   "target": "webshell",
+   "evidence": "webshell was run on every reboot"
+  },
+  {
+   "source": "CVE-2023-3519",
+   "type": "exploits",
+   "target": "T1190",
+   "evidence": "The threat actors exploited CVE-2023-3519 to implant a webshell on the organization’s NetScaler ADC appliance."
+  },
+  {
+   "source": "CVE-2023-3519",
+   "type": "exploits",
+   "target": "T1105",
+   "evidence": "The threat actors exploited CVE-2023-3519 to upload a TGZ file containing a generic webshell, discovery script, and setuid binary on the ADC appliance."
+  },
+  {
+   "source": "SECRETSAUCE",
+   "type": "uses",
+   "target": "T1140",
+   "evidence": "The threat actors deployed the SECRETSAUCE webshell, which can receive PHP code from an HTTP POST request, decrypt it using an internally embedded RSA public key."
+  },
+  {
+   "source": "SECRETSAUCE",
+   "type": "uses",
+   "target": "T1036",
+   "evidence": "The actor has used the following file names for SECRETSAUCE to appear legitimate: vpn[.]php, logout[.]php, log[.]php, and prod[.]php."
+  },
+  {
+   "source": "SECRETSAUCE",
+   "type": "uses",
+   "target": "T1036.005",
+   "evidence": "The threat actors named a webshell *logouttm.php*."
+  },
+  {
+   "source": "SECRETSAUCE",
+   "type": "uses",
+   "target": "T1036.008",
+   "evidence": "The threat actors exfiltrated data by uploading it as an image file to a web-accessible path."
+  },
+  {
+   "source": "LIGOLO-NG",
+   "type": "uses",
+   "target": "T1573.002",
+   "evidence": "The threat actors deployed LIGOLO-NG, which is a tunneller that provides encrypted reverse TCP/TLS connections to a remote host."
+  },
+  {
+   "source": "LIGOLO-NG",
+   "type": "uses",
+   "target": "T1572",
+   "evidence": "The threat actors deployed LIGOLO-NG and NPS tunnellers."
+  },
+  {
+   "source": "NPS tunneller",
+   "type": "uses",
+   "target": "T1572",
+   "evidence": "The threat actors deployed LIGOLO-NG and NPS tunnellers."
+  },
+  {
+   "source": "LIGOLO-NG",
+   "type": "uses",
+   "target": "T1090.001",
+   "evidence": "The actors likely used a PHP shell with proxying capability to attempt proxying SMB traffic to the DC (the traffic was blocked by a firewall and account restrictions)."
+  },
+  {
+   "source": "NPS tunneller",
+   "type": "uses",
+   "target": "T1090.003",
+   "evidence": "The threat actors appear to have used compromised pfSense devices to proxy C2 traffic to Victim 2."
+  },
+  {
+   "source": "T1547",
+   "type": "uses",
+   "target": "/flash/nsconfig/rc.netscaler",
+   "evidence": "Threat actors used /flash/nsconfig/rc.netscaler rewrite a webshell on every reboot."
+  },
+  {
+   "source": "T1222.002",
+   "type": "uses",
+   "target": "/flash/nsconfig/rc.netscaler",
+   "evidence": "The threat actors appended /flash/nsconfig/rc.netscaler with: chmod u+s /bin/sh"
+  },
+  {
+   "source": "T1070",
+   "type": "uses",
+   "target": "/var/log/httperror.log",
+   "evidence": "The threat actors deleted log files from Victim 2."
+  },
+  {
+   "source": "T1070",
+   "type": "uses",
+   "target": "/var/log/sh.log",
+   "evidence": "The threat actors deleted log files from Victim 2."
+  },
+  {
+   "source": "T1070.002",
+   "type": "uses",
+   "target": "/var/log/httperror.log",
+   "evidence": "The threat actors some access logs, error logs, and authentication logs from Victim 2."
+  },
+  {
+   "source": "T1070.004",
+   "type": "uses",
+   "target": "/var/tmp/test.tar.gz",
+   "evidence": "The threat actors deleted collected files after exfiltrating them."
+  },
+  {
+   "source": "T1005",
+   "type": "uses",
+   "target": "/flash/nsconfig/keys/updated/*",
+   "evidence": "The threat actors viewed NetScaler ADC configuration files flash/nsconfig/keys/updated/* and /nsconfig/ns.conf."
+  },
+  {
+   "source": "T1005",
+   "type": "uses",
+   "target": "/nsconfig/ns.conf",
+   "evidence": "The threat actors viewed NetScaler ADC configuration files flash/nsconfig/keys/updated/* and /nsconfig/ns.conf."
+  },
+  {
+   "source": "T1074",
+   "type": "uses",
+   "target": "/var/tmp/test.tar.gz",
+   "evidence": "The threat actors uploaded data as an image file to a web-accessible path: cp /var/tmp/test.tar.gz /netscaler/ns_gui/vpn/medialogininit.png."
+  },
+  {
+   "source": "T1074",
+   "type": "uses",
+   "target": "/netscaler/ns_gui/vpn/medialogininit.png",
+   "evidence": "The threat actors uploaded data as an image file to a web-accessible path: cp /var/tmp/test.tar.gz /netscaler/ns_gui/vpn/medialogininit.png."
+  },
+  {
+   "source": "T1074.001",
+   "type": "uses",
+   "target": "/var/nslog/counters/prometheus/metrc_codes_client.log",
+   "evidence": "The threat actors modified tool wrote captured credentials to a file created in a hard-coded path (/var/nslog/counters/prometheus/metrc_codes_client.log)."
+  },
+  {
+   "source": "T1531",
+   "type": "uses",
+   "target": "/etc/auth.conf",
+   "evidence": "The threat actors deleted the authorization configuration file (/etc/auth.conf)—likely to prevent configured users from logging in remotely (e.g., CLI)."
+  },
+  {
+   "source": "CVE-2023-3519",
+   "type": "targets",
+   "target": "webshell",
+   "evidence": "Threat Actors Exploiting Citrix CVE-2023-3519 to Implant Webshells"
+  },
+  {
+   "source": "webshell",
+   "type": "uses",
+   "target": "CVE-2023-3519",
+   "evidence": "Threat Actors Exploiting Citrix CVE-2023-3519 to Implant Webshells"
+  },
+  {
+   "source": "SECRETSAUCE",
+   "type": "uses",
+   "target": "pykeygen",
+   "evidence": "File Name Description SHA-1 Hash MD5 Hash\npykeygen ELF Binary b8f9258e9c7c882944e2b773557b49e5821517fe\nee51f599d266be5fd89b423ca24521f1"
+  },
+  {
+   "source": "NPS tunneller",
+   "type": "uses",
+   "target": "NPS",
+   "evidence": "File Name Description SHA-1 Hash MD5 Hash\nNPS\nNPS tunneller [4] ec17f7b3acb2334a062c37e0271c31c3c8b6879c\n9b6f12aed2369a99a1132edd2ede779d"
+  },
+  {
+   "source": "LIGOLO-NG",
+   "type": "uses",
+   "target": "LIGOLO-NG",
+   "evidence": "File Name Description SHA-1 Hash MD5 Hash\nLIGOLO-NG [3]\ntunneller dec36a2aa4ecb86eafd01015e27c06f51d104317\nb383c4ed6712a0a06fb85b1d8405e0f1"
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "qwen3:30b-a3b",
+  "seconds": 215.5,
+  "errors": ""
+ }
+}

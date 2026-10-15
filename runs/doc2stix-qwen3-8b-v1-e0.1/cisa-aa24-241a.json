@@ -1,0 +1,240 @@
+{
+ "entities": [
+  {
+   "type": "attack-pattern",
+   "name": "Search Open Technical Databases",
+   "mitre_id": "T1596",
+   "evidence": "The actors use the Shodan search engine to identify and enumerate IP addresses that host devices vulnerable to a particular CVE."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create or Modify System Process",
+   "mitre_id": "T1543",
+   "evidence": "Create the directory /var/vpn/themes/imgs/ on Citrix Netscaler devices to deploy a webshell [T1505.003]. Malicious files deployed to this directory include:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create Account: Local Account",
+   "mitre_id": "T1136.001",
+   "evidence": "Create accounts on victim networks; observed names include “sqladmin$,” “adfsservice,” “IIS_Admin,” “iis-admin,” and “John McCain” [T1136.001]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading",
+   "mitre_id": "T1036",
+   "evidence": "The group uses the Iranian company name Danesh Novin Sahand (identification number 14007585836), likely as a cover IT entity for the group’s malicious cyber activities."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "Repurpose compromised credentials from exploiting networking devices, such as Citrix Netscaler, to log into other applications (i.e., Citrix XenDesktop) [T1078.003]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Privilege Escalation",
+   "mitre_id": "T1068",
+   "evidence": "The actors have been observed scanning IP addresses hosting Check Point Security Gateways, probing for devices potentially vulnerable to CVE￾2024-24919. As of April 2024, these actors have conducted mass scanning of IP addresses hosting Palo"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001",
+   "evidence": "Use a compromised administrator account to initiate a remote desktop session to another server on the network. In one instance, the FBI observed this technique being used to attempt to start"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Encrypted for Impact",
+   "mitre_id": "T1486",
+   "evidence": "After infiltrating victim networks, the actors collaborate with ransomware affiliates (including NoEscape, Ransomhouse, and ALPHV [aka BlackCat]) in exchange for a percentage of the ransom payments by"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over C2 Channel",
+   "mitre_id": "T1041",
+   "evidence": "Use NGROK (ngrok[.]io) deployment to create outbound connections to a random subdomain [T1572]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "Export system registry hives and network firewall configurations on compromised servers [T1012]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Manipulation",
+   "mitre_id": "T1098",
+   "evidence": "Request exemptions to the zero-trust application and security policies for tools they intend to"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify Registry",
+   "mitre_id": "T1112",
+   "evidence": "Create a daily Windows service task with random eight characters and attempt execution of a similarly named DLL contained in the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Shell",
+   "mitre_id": "T1505.003",
+   "evidence": "Capture login credentials using webshells on compromised Netscaler devices and append to file"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "Create the directory /xui/common/images/ on targeted IP addresses [T1133]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Hide Artifacts: Hidden Window",
+   "mitre_id": "T1564.003",
+   "evidence": "Place a malicious backdoor version.dll in C:\\Windows\\ADFS\\ directory [T1505.003]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Hide Artifacts: Hidden File and Directories",
+   "mitre_id": "T1564.001",
+   "evidence": "Create malicious scheduled task SpaceAgentTaskMgrSHR in Windows/Spaceport/ task folder. This task uses a DLL side-loading technique against the signed Microsoft SysInternals executable"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Access Tools",
+   "mitre_id": "T1219",
+   "evidence": "Install “AnyDesk” remote access program as a backup access method [T1219]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Remote Desktop Protocol",
+   "mitre_id": "T1021.001",
+   "evidence": "Use a compromised administrator account to initiate a remote desktop session to another server on the network. In one instance, the FBI observed this technique being used to attempt to start"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Domain Accounts",
+   "mitre_id": "T1078.002",
+   "evidence": "Repurpose administrative credentials of network administrators to log into domain controllers and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify Tools",
+   "mitre_id": "T1685",
+   "evidence": "Use administrator credentials to disable antivirus and security software, and lower PowerShell"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify Authentication Process",
+   "mitre_id": "T1556",
+   "evidence": "Attempt to enter security exemption tickets to the network security device or contractor to get the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping",
+   "mitre_id": "T1003",
+   "evidence": "Exfiltrate account usernames from the victim domain controller, as well as access configuration"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: Security Account Manager",
+   "mitre_id": "T1003.002",
+   "evidence": "Create the directory /netscaler/logon/LogonPoint/uiareas/ui_style.php"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: Security Account Manager",
+   "mitre_id": "T1003.002",
+   "evidence": "Create the directory /netscaler/logon/sanpdebug.php"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: Security Account Manager",
+   "mitre_id": "T1003.002",
+   "evidence": "Place a malicious backdoor version.dll in C:\\Windows\\ADFS\\ directory [T1505.003]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: Security Account Manager",
+   "mitre_id": "T1003.002",
+   "evidence": "Use a scheduled task to load malware through installed backdoors [T1053]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: Security Account Manager",
+   "mitre_id": "T1003.002",
+   "evidence": "Deployment of Meshcentral to connect with compromised servers for remote access [T1219]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: Security Account Manager",
+   "mitre_id": "T1003.002",
+   "evidence": "For persistence and as detection and mitigation occurs, the actors create a daily Windows service"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: Security Account Manager",
+   "mitre_id": "T1003.002",
+   "evidence": "Use a compromised administrator account to initiate a remote desktop session to another server on the network. In one instance, the FBI observed this technique being used to attempt to start"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: Security Account Manager",
+   "mitre_id": "T1003.002",
+   "evidence": "Use the open source tunneling tool Ligolo (ligolo/ligolo-ng) [T1572]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: Security Account Manager",
+   "mitre_id": "T1003.002",
+   "evidence": "Use NGROK (ngrok[.]io) deployment to create outbound connections to a random subdomain [T1572]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: Security Account Manager",
+   "mitre_id": "T1003.002",
+   "evidence": "After infiltrating victim networks, the actors collaborate with ransomware affiliates (including NoEscape, Ransomhouse, and ALPHV [aka BlackCat]) in exchange for a percentage of the ransom payments by"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: Security Account Manager",
+   "mitre_id": "T1003.002",
+   "evidence": "The actors also conduct what is assessed to be separate set of malicious activity—stealing"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: Security Account Manager",
+   "mitre_id": "T1003.002",
+   "evidence": "See Table 1 to Table 9 for all referenced threat actor tactics and techniques in this advisory."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: Security Account Manager",
+   "mitre_id": "T1003.002",
+   "evidence": "Table 1. Reconnaissance"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: Security Account Manager",
+   "mitre_id": "T1003.002",
+   "evidence": "Technique Title ID Use or Assessed Use"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: Security Account Manager",
+   "mitre_id": "T1003.002",
+   "evidence": "Search Open Technical"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: Security Account Manager",
+   "mitre_id": "T1003.002",
+   "evidence": "Databases T1596 Iranian cyber actors use Shodan (Shodan[.]io) to identify internet"
+  }
+ ],
+ "observables": [],
+ "relationships": [],
+ "_meta": {
+  "engine": "0.1",
+  "model": "doc2stix-qwen3-8b:v1",
+  "seconds": 820.9,
+  "errors": "3 unparsable chunk(s)"
+ }
+}

@@ -1,0 +1,279 @@
+{
+ "entities": [
+  {
+   "type": "attack-pattern",
+   "name": "Event Triggered Execution: Windows Event Log",
+   "mitre_id": "T1546.004",
+   "evidence": "Note: The <timestamp value> would be an epoch timestamp following the format like “ __1684956600.123456 ”."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Query Registry",
+   "mitre_id": "T1012",
+   "evidence": "Each of the following actor commands is a standalone example; multiple examples are provided to show how syntax and file paths may differ per environment."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create or Modify System Process: Windows Service",
+   "mitre_id": "T1543.003",
+   "evidence": "cmd.exe /Q /c wmic process call create \"cmd.exe /c mkdir C:\\Windows\\Temp\\tmp & ntdsutil \\\"ac i ntds\\\" ifm \\\"create full C:\\Windows\\Temp\\tmp\\\" 1> \\\\127.0.0.1\\ADMIN$\\ 2>&1"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Hide Artifacts: Hidden Files and Directories",
+   "mitre_id": "T1564.001",
+   "evidence": "The actor has also saved the files directly to the C:\\Windows\\Temp and C:\\Users\\Public directories, so the entirety of those directory structures should be analyzed. Ntdsutil.exe creates two subfolders in the directory specified in the command: an Active Directory folder that contains the ntds.dit and ntds.jfm files, and a registry folder that contains the SYSTEM and SECURITY registry hives. Defenders should look for this folder structure across their network:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: NTDS",
+   "mitre_id": "T1003.003",
+   "evidence": "If an actor can exfiltrate the ntds.dit and SYSTEM registry hive, the entire domain should be considered compromised, as the actor will generally be able to crack the password hashes for domain user accounts, create their own accounts, and/or join unauthorized systems to the domain. If this occurs, defenders should follow guidance for removing malicious actors from victim networks, such as CISA's Eviction Guidance for Network Affected by the SolarWinds and Active Directory/M365 Compromise ."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Port Forwarding",
+   "mitre_id": "T1090",
+   "evidence": "The actor has used the following commands to enable port forwarding [ T1090 ] on the host:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "mitre_id": "T1016",
+   "evidence": "Netsh is a built-in Windows command line scripting utility that can display or modify the network settings of a host, including the Windows Firewall. The portproxy add command is used to create a host:port proxy that will forward incoming connections on the provided listenaddress and listenport to the connectaddress and connectport. Administrative privileges are required to execute the portproxy command. Each portproxy command above will create a registry key in the HKLM\\SYSTEM\\CurrentControlSet\\Services\\PortProxy\\v4tov4\\tcp\\ path. Defenders should look for the presences of keys in this path and investigate any anomalous entries."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Query User Activity",
+   "mitre_id": "T1053",
+   "evidence": "The actor has used the following PowerShell [ T1059.001 ] command to identify successful logons to the host [ T1033 ]:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Event Triggered Execution: Command History",
+   "mitre_id": "T1546.003",
+   "evidence": "Get-EventLog security -instanceid 4624"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "Note: This script is a component of Impacket, which the actor has been known to use"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: Security Account Manager",
+   "mitre_id": "T1003.002",
+   "evidence": "If the actor is using a password spray technique [ T1110.003 ], there may be several failed logon (Event ID 4625) events for several different user accounts, followed by one or more successful logons (Event ID 4624) within a short period of time. This period may vary by actor but can range from a few seconds to a few minutes."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force",
+   "mitre_id": "T1110",
+   "evidence": "If the actor is using brute force password attempts [ T1110 ] against a single user account, there may be several Event ID 4625 entries for that account, followed by a successful logon Event ID 4624. Defenders should also look for abnormal account activity, such as logons outside of normal working hours and impossible time-and-distance logons (e.g., a user logging on from two geographically separated locations at the same time)."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: SMB/Windows Admin Shares",
+   "mitre_id": "T1021.002",
+   "evidence": "The actor regularly employs the use of Impacket’s wmiexec, which redirects output to a file within the victim host's ADMIN$ share ( C:\\Windows\\ ) containing an epoch timestamp in its name. The following is an example of the \" dir \" command being executed by wmiexec.py:"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "China Chopper",
+   "evidence": "People's Republic of China State-Sponsored Cyber Actor Living off the Land to Evade Detection"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-facing Application",
+   "mitre_id": "T1190",
+   "evidence": "Actor used public-facing applications to gain initial access to systems; in this case, Earthworm and PortProxy."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Windows Management Instrumentation",
+   "mitre_id": "T1047",
+   "evidence": "The actor executed WMIC commands to create a copy of the SYSTEM registry."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001",
+   "evidence": "The actor used a PowerShell command to identify successful logons to the host."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "The actor used this primary command prompt to execute a query that collected information about the storage devices on the local host."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Shell",
+   "mitre_id": "T1505.003",
+   "evidence": "The actor used backdoor web servers with web shells to establish persistence to systems, including some of the webshells being derived from Awen webshell."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal",
+   "mitre_id": "T1070",
+   "evidence": "The actor selectively cleared Windows Event Logs, system logs, and other technical artifacts to remove evidence of their intrusion activity."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: Clear Windows Event Logs",
+   "mitre_id": "T1070.001",
+   "evidence": "The actor cleared system event logs to hide activity of an intrusion."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: NTDS",
+   "mitre_id": "T1003.003",
+   "evidence": "The actor may try to exfiltrate the ntds.dit file and the SYSTEM registry hive out of the network to perform password cracking."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force",
+   "mitre_id": "T1110",
+   "evidence": "The actor attempted to gain access to accounts with multiple password attempts."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force: Password Spraying",
+   "mitre_id": "T1110.003",
+   "evidence": "The actor used commonly used passwords against accounts to attempt to acquire valid credentials."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping",
+   "mitre_id": "T1003",
+   "evidence": "The actor used additional commands to obtain credentials in the environment."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credentials from Password Stores",
+   "mitre_id": "T1555",
+   "evidence": "The actors searched for common password storage locations."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Information Discovery",
+   "mitre_id": "T1082",
+   "evidence": "The actors executed commands to gather information about local drives."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Owner/User Discovery",
+   "mitre_id": "T1033",
+   "evidence": "The actors gathered information about successful logons to the host using a PowerShell command."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Permission Groups Discovery: Local Groups",
+   "mitre_id": "T1069.001",
+   "evidence": "The actors attempt to find local system groups and permission settings."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Permission Groups Discovery: Doman Groups",
+   "mitre_id": "T1069.002",
+   "evidence": "The actors used commands to enumerate the active directory structure."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "mitre_id": "T1016",
+   "evidence": "The actors used commands to enumerate the network topology."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy",
+   "mitre_id": "T1090",
+   "evidence": "The actors used commands to enable port forwarding on the host."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy: External Proxy",
+   "mitre_id": "T1090.002",
+   "evidence": "The actors used compromised SOHO devices (e.g. routers) to obfuscate the source of their activity."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "China Chopper",
+   "evidence": "Named earlier in the document: China Chopper"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force (T1110)",
+   "mitre_id": "T1110",
+   "evidence": "Brute Force (T1110),"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Control (TA0011)",
+   "mitre_id": "TA0011",
+   "evidence": "MITRE ATT&CK TTP : Brute Force (T1110),"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credential Access (TA0006)",
+   "mitre_id": "TA0006",
+   "evidence": "MITRE ATT&CK TTP : Brute Force (T1110),"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Defense Evasion (TA0005)",
+   "mitre_id": "TA0005",
+   "evidence": "MITRE ATT&CK TTP : Brute Force (T1110),"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Discovery (TA0007)",
+   "mitre_id": "TA0007",
+   "evidence": "MITRE ATT&CK TTP : Brute Force (T1110),"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Execution (TA0002)",
+   "mitre_id": "TA0002",
+   "evidence": "MITRE ATT&CK TTP : Brute Force (T1110),"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Initial Access (TA0001)",
+   "mitre_id": "TA0001",
+   "evidence": "MITRE ATT&CK TTP : Brute Force (T1110),"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Persistence (TA0003)",
+   "mitre_id": "TA0003",
+   "evidence": "MITRE ATT&CK TTP : Brute Force (T1110),"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Privilege Escalation (TA0004)",
+   "mitre_id": "TA0004",
+   "evidence": "MITRE ATT&CK TTP : Brute Force (T1110),"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "China Chopper",
+   "mitre_id": "T1505.003",
+   "evidence": "The actor used backdoor web servers with web shells to establish persistence to systems, including some of the webshells being derived from Awen webshell."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "China Chopper",
+   "evidence": "Named earlier in the document: China Chopper"
+  }
+ ],
+ "observables": [],
+ "relationships": [],
+ "_meta": {
+  "engine": "0.1",
+  "model": "doc2stix-qwen3-8b:v1",
+  "seconds": 843.8,
+  "errors": "3 unparsable chunk(s)"
+ }
+}

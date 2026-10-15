@@ -1,0 +1,300 @@
+{
+ "entities": [
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "mitre_id": "T1190",
+   "evidence": "The Cybersecurity and Infrastructure Security Agency (CISA) and the following partners (hereafter referred to as the authoring organizations) are releasing this joint Cybersecurity Advisory to warn that cyber threat actors are exploiting previously identified vulnerabilities in Ivanti Connect Secure and Ivanti Policy Secure gateways."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "Actions to take today to mitigate cyber threats against Ivanti appliances: • Limit outbound internet connections from SSL VPN appliances to restrict access to required services."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server-Side Request Forgery",
+   "mitre_id": "T1506",
+   "evidence": "Following the actors’ developments, Ivanti disclosed three additional vulnerabilities: • CVE-2024-21893 is a server-side request forgery vulnerability in the SAML component of"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Unix Shell",
+   "mitre_id": "T1059.004",
+   "evidence": "After Ivanti provided initial mitigation guidance in early January, threat actors developed a way to bypass those mitigations to deploy BUSHWALK, LIGHTWIRE, and CHAINLINE web shell variants.[2]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Privilege Escalation",
+   "mitre_id": "T1068",
+   "evidence": "• CVE-2024-21888 is a privilege escalation vulnerability found in the web component of Ivanti Connect Secure and Ivanti Policy Secure. This vulnerability allows threat actors to gain elevated privileges to that of an administrator."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Lateral Tool Transfer",
+   "mitre_id": "T1570",
+   "evidence": "Post-compromise, the actors moved laterally into domain environments and have been observed leveraging tools that are native to the Ivanti appliances—such as freerdp, ssh, telnet, and nmap libraries—to expand their access to the domain environment. The result, in some cases, was a full domain compromise."
+  },
+  {
+   "type": "document",
+   "name": "Threat Actors Exploit Multiple Vulnerabilities in Ivanti Connect Secure and Policy Secure Gateways",
+   "evidence": "Threat Actor Activity"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Initial Access",
+   "mitre_id": "T1203",
+   "evidence": "Threat Actor Activity"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Lateral Tool Transfer",
+   "mitre_id": "T1570",
+   "evidence": "Post-compromise, the actors"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: File Deletion",
+   "mitre_id": "T1070.004",
+   "evidence": "clean up their efforts by overwriting files, time-stomping files, and re-mounting"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: Indicator Removal from Tools",
+   "mitre_id": "T1070.005",
+   "evidence": "the runtime partition to return the appliance to a “clean state.” This reinforces that ICT scans are not"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Malware",
+   "mitre_id": "T1587.001",
+   "evidence": "As detailed in Appendix A, CISA conducted independent research in a lab environment validating that"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning",
+   "mitre_id": "T1595",
+   "evidence": "Memory and disk forensics were used during forensic analysis, combined with the Integrity Checker"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Automated Collection",
+   "mitre_id": "T1119",
+   "evidence": "Organizations are encouraged to investigate the activity around these IP addresses prior to taking"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Query Registry",
+   "mitre_id": "T1012",
+   "evidence": "If a potential compromise is detected, organizations should:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Manipulation: Additional Email or Domain",
+   "mitre_id": "T1098.002",
+   "evidence": "4. Identify Ivanti hosts with Active Directory (AD) access, threat actors can trivially export active"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Encrypted for Impact",
+   "mitre_id": "T1486",
+   "evidence": "Note: These are vendor-managed appliances and systems may be encrypted with limited access."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Information Discovery",
+   "mitre_id": "T1082",
+   "evidence": "5. Collect and review artifacts such as running processes/services, unusual authentications, and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Ingress Tool Transfer",
+   "mitre_id": "T1105",
+   "evidence": "The authoring organizations recommend investigating associated devices on the network to identify lateral movement in the absence of access to the Secure Connect appliance."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Report to Law Enforcement",
+   "mitre_id": "T1585",
+   "evidence": "6. Report the compromise to FBI Internet Crime Complaint Center (IC3) at IC3.gov, local FBI"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Alternative Protocol: Exfiltration Over Unencrypted Non-C2 Protocol",
+   "mitre_id": "T1048.003",
+   "evidence": "Leveraging these vulnerabilities, CISA researchers were able to exfiltrate domain administrator cleartext credentials [TA0006], gain root-level persistence [TA0003], and bypass integrity checks used by the Integrity Checker application. CISA’s Incident Response team observed these specific techniques leveraged during the agency’s incident response engagements, along with the native tools and libraries to conduct internal reconnaissance and compromise domains behind the Ivanti appliances. CISA researchers assess that threat actors are able to use the credentials to move deeper into the environment."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "Users who currently have active sessions to the appliance could have their base64 encoded active directory cleartext passwords, in addition to the New Technology LAN Manager (NTLM) password hashes, retrieved with the same access, as shown in Figure 10, APPENDIX A. In addition to users with active sessions, users previously authenticated can have base64 encoded active directory plaintext passwords and NTLM hashes harvested from the backups of the data.mdb database files stored on the appliance, as shown in Figure 15 and 16, APPENDIX A."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify Registry",
+   "mitre_id": "T1112",
+   "evidence": "The root-level access allows adversaries to maintain persistence despite issuing factory resets and appliance upgrades while deceiving the provided integrity checkers, creating the illusion of a clean installation. Due to the persistence mechanism being stored on the encrypted partition of the drive and inaccurate integrity check results, it is untenable for network administrators to validate their application has not been compromised without also decrypting the partition and validating against a clean installation of the appliance, which are actions not easily accomplished at present. Without major alterations of the integrity checking process, it is conceivable that new vulnerabilities that afford root-level access to the appliance could also result in root-kit level persistence to the appliance."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "Below is a demonstration of the capacity for post exploitation exfiltration of base64 encoded cleartext credentials for active directory users and their associated NTLM password hashes:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Encoding: Standard Encoding",
+   "mitre_id": "T1132.001",
+   "evidence": "Users who currently have active sessions to the appliance could have their base64 encoded active directory cleartext passwords, in addition to the New Technology LAN Manager (NTLM) password hashes, retrieved with the same access, as shown in Figure 10, APPENDIX A. In addition to users with active sessions, users previously authenticated can have base64 encoded active directory plaintext passwords and NTLM hashes harvested from the backups of the data.mdb database files stored on the appliance, as shown in Figure 15 and 16, APPENDIX A."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Domain Accounts",
+   "mitre_id": "T1078.002",
+   "evidence": "Leveraging these vulnerabilities, CISA researchers were able to exfiltrate domain administrator cleartext credentials [TA0006], gain root-level persistence [TA0003], and bypass integrity checks used by the Integrity Checker application. CISA’s Incident Response team observed these specific techniques leveraged during the agency’s incident response engagements, along with the native tools and libraries to conduct internal reconnaissance and compromise domains behind the Ivanti appliances. CISA researchers assess that threat actors are able to use the credentials to move deeper into the environment."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify Registry",
+   "mitre_id": "T1112",
+   "evidence": "The root-level access allows adversaries to maintain persistence despite issuing factory resets and appliance upgrades while deceiving the provided integrity checkers, creating the illusion of a clean installation. Due to the persistence mechanism being stored on the encrypted partition of the drive and inaccurate integrity check results, it is untenable for network administrators to validate their application has not been compromised without also decrypting the partition and validating against a clean installation of the appliance, which are actions not easily accomplished at present. Without major alterations of the integrity checking process, it is conceivable that new vulnerabilities that afford root-level access to the appliance could also result in root-kit level persistence to the appliance."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "Below is a demonstration of the capacity for post exploitation exfiltration of base64 encoded cleartext credentials for active directory users and their associated NTLM password hashes:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Encoding: Standard Encoding",
+   "mitre_id": "T1132.001",
+   "evidence": "Users who currently have active sessions to the appliance could have their base64 encoded active directory cleartext passwords, in addition to the New Technology LAN Manager (NTLM) password hashes, retrieved with the same access, as shown in Figure 10, APPENDIX A. In addition to users with active sessions, users previously authenticated can have base64 encoded active directory plaintext passwords and NTLM hashes harvested from the backups of the data.mdb database files stored on the appliance, as shown in Figure 15 and 16, APPENDIX A."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Domain Accounts",
+   "mitre_id": "T1078.002",
+   "evidence": "Leveraging these vulnerabilities, CISA researchers were able to exfiltrate domain administrator cleartext credentials [TA0006], gain root-level persistence [TA0003], and bypass integrity checks used by the Integrity Checker application. CISA’s Incident Response team observed these specific techniques leveraged during the agency’s incident response engagements, along with the native tools and libraries to conduct internal reconnaissance and compromise domains behind the Ivanti appliances. CISA researchers assess that threat actors are able to use the credentials to move deeper into the environment."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Applications",
+   "mitre_id": "T1190",
+   "evidence": "Applications which allows"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "Cyber actors leverage compromised accounts to"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001",
+   "evidence": "T1059.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Client Execution",
+   "mitre_id": "T1203",
+   "evidence": "Execution (RCE)."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Shell",
+   "mitre_id": "T1505.003",
+   "evidence": "T1505.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Hacktool: Pysoxy",
+   "mitre_id": "T1608.002",
+   "evidence": "hash1 = \"e192932d834292478c9b1032543c53edfc2b252fdf7e27e4c438f4b249544eeb\""
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Web Shell: CATEGORICAL",
+   "mitre_id": "T1505.003",
+   "evidence": "description = \"Detection for the CATEGORICAL webshell.\""
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Web Shell: COMPLYSHELL",
+   "mitre_id": "T1505.003",
+   "evidence": "hash1 = \"8bc8f4da98ee05c9d403d2cb76097818de0b524d90bea8ed846615e42cb031d2\""
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Web Shell: GLASSTOKEN",
+   "mitre_id": "T1505.003",
+   "evidence": "description = \"Detection for a custom webshell seen on external facing server. The webshell"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Web Shell: reGeorg",
+   "mitre_id": "T1505.003",
+   "evidence": "reference = \"https://github.com/L-codes/Neo-reGeorg/blob/master/templates/tunnel.aspx\""
+  }
+ ],
+ "observables": [
+  {
+   "type": "ipv4-addr",
+   "value": "146.0.228.66"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "159.65.130.146"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "8.137.112.245"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "91.92.254.14"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "186.179.39.235"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.215.39.49"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.61.136.14"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "173.220.106.166"
+  },
+  {
+   "type": "domain-name",
+   "value": "line-api.com"
+  },
+  {
+   "type": "domain-name",
+   "value": "areekaweb.com"
+  },
+  {
+   "type": "domain-name",
+   "value": "ehangmun.com"
+  },
+  {
+   "type": "domain-name",
+   "value": "secure-cama.com"
+  }
+ ],
+ "relationships": [],
+ "_meta": {
+  "engine": "0.1",
+  "model": "doc2stix-qwen3-8b:v1",
+  "seconds": 388.5,
+  "errors": "1 unparsable chunk(s)"
+ }
+}

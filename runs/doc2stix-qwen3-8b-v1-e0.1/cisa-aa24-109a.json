@@ -1,0 +1,531 @@
+{
+ "entities": [
+  {
+   "type": "attack-pattern",
+   "name": "Obtain Capabilities: Tool",
+   "mitre_id": "T1588.002",
+   "evidence": "FBI and cybersecurity researchers1 observed Akira threat actors obtaining initial access to organizations"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "mitre_id": "T1190",
+   "evidence": "through a virtual private network (VPN) service without multifactor authentication (MFA) configured,2 mostly"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Client Execution",
+   "mitre_id": "T1203",
+   "evidence": "using known Common Vulnerabilities and Exposures (CVEs) [T1190], including:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "abusing valid credentials [T1078], and techniques that leverage external-facing"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Password Spraying",
+   "mitre_id": "T1110.003",
+   "evidence": "compromised VPN credentials, potentially by using initial access brokers or brute-forcing VPN endpoints"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Encrypted for Impact",
+   "mitre_id": "T1486",
+   "evidence": "Akira threat actors also deploy payloads to target Nutanix Acropolis Hypervisor (AHV) systems; this is the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001",
+   "evidence": "For a downloadable copy of IOCs, see:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Domain Accounts",
+   "mitre_id": "T1078.002",
+   "evidence": "compromised VPN credentials, potentially by using initial access brokers or brute-forcing VPN endpoints"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "Akira threat actors also deploy payloads to target Nutanix Acropolis Hypervisor (AHV) systems; this is the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information: Command Obfuscation",
+   "mitre_id": "T1027.010",
+   "evidence": "For a downloadable copy of historic IOCs, see:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "Akira threat actors also deploy payloads to target Nutanix Acropolis Hypervisor (AHV) systems; this is the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Domain Accounts",
+   "mitre_id": "T1078.002",
+   "evidence": "compromised VPN credentials, potentially by using initial access brokers or brute-forcing VPN endpoints"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "Akira threat actors also deploy payloads to target Nutanix Acropolis Hypervisor (AHV) systems; this is the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "Akira threat actors also deploy payloads to target Nutanix Acropolis Hypervisor (AHV) systems; this is the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "Akira threat actors also deploy payloads to target Nutanix Acropolis Hypervisor (AHV) systems; this is the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "Akira threat actors also deploy payloads to target Nutanix Acropolis Hypervisor (AHV) systems; this is the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "Akira threat actors also deploy payloads to target Nutanix Acropolis Hypervisor (AHV) systems; this is the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "Akira threat actors also deploy payloads to target Nutanix Acropolis Hypervisor (AHV) systems; this is the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "Akira threat actors also deploy payloads to target Nutanix Acropolis Hypervisor (AHV) systems; this is the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "Akira threat actors also deploy payloads to target Nutanix Acropolis Hypervisor (AHV) systems; this is the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "mitre_id": "T1190",
+   "evidence": "After tunneling through a targeted router,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Privilege Escalation",
+   "mitre_id": "T1068",
+   "evidence": "such as those found in the Veeam Backup and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Visual Basic",
+   "mitre_id": "T1059.005",
+   "evidence": "Akira threat actors frequently execute malicious commands by using Visual Basic (VB) scripts (event-driven"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Manipulation: Additional Domain Account",
+   "mitre_id": "T1136.002",
+   "evidence": "creating new domain accounts [T1136.002] to abuse the functions of domain controllers. In some instances, the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: LSASS Memory",
+   "mitre_id": "T1003.001",
+   "evidence": "Local Security Authority Subsystem Service (LSASS)9 [T1003.001]. Akira threat actors also use credential"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify Tools",
+   "mitre_id": "T1685",
+   "evidence": "terminate antivirus-related processes [T1562.001]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Remote Desktop Protocol",
+   "mitre_id": "T1021.001",
+   "evidence": "They also employ RDP [T1021.001], SSH [T1021.004], and MobaXterm to expand their presence within"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Protocol Tunneling",
+   "mitre_id": "T1572",
+   "evidence": "bypass perimeter monitoring. They also use PowerShell and Windows Management Instrumentation"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Encrypted for Impact",
+   "mitre_id": "T1486",
+   "evidence": "Akira threat actors use a sophisticated hybrid encryption scheme to lock data. This involves combining a"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Encrypted for Impact",
+   "mitre_id": "T1486",
+   "evidence": "With the new Akira_v2 variant, encrypted files are appended either with an .akira or .powerranges"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information",
+   "mitre_id": "T1027",
+   "evidence": "T1027"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information: Compression",
+   "mitre_id": "T1027.015",
+   "evidence": "T1027.015 Akira threat actors use an archive feature within the 7-zip tool to"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading",
+   "mitre_id": "T1036",
+   "evidence": "Masquerading T1036 Akira threat actors disguise malicious files and payloads to appear"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "File and Directory Permissions Modification: Windows File and Directory Permissions Modification",
+   "mitre_id": "T1222.001",
+   "evidence": "T1222.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify Tools",
+   "mitre_id": "T1562.001",
+   "evidence": "T1562.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Impair Defenses: Disable or Modify System Firewall",
+   "mitre_id": "T1562.004",
+   "evidence": "T1562.004"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy Through Victim",
+   "mitre_id": "T1604",
+   "evidence": "Proxy Through Victim T1604"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping",
+   "mitre_id": "T1003",
+   "evidence": "T1003 Akira threat actors use tools like Mimikatz and LaZagne to dump"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: LSASS Memory",
+   "mitre_id": "T1003.001",
+   "evidence": "T1003.001 Akira threat actors attempt to access credential material stored in the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: Security Account Manager",
+   "mitre_id": "T1003.002",
+   "evidence": "T1003.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: NTDS",
+   "mitre_id": "T1003.003",
+   "evidence": "T1003.003 Akira threat actors dump the Active Directory database (NTDS.dit)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1069.002",
+   "mitre_id": "T1069.002",
+   "evidence": "T1069.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1082",
+   "mitre_id": "T1082",
+   "evidence": "T1082"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1087.002",
+   "mitre_id": "T1087.002",
+   "evidence": "T1087.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1482",
+   "mitre_id": "T1482",
+   "evidence": "T1482"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1486",
+   "mitre_id": "T1486",
+   "evidence": "T1486"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1490",
+   "mitre_id": "T1490",
+   "evidence": "T1490"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1550.002",
+   "mitre_id": "T1550.002",
+   "evidence": "T1550.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1560.001",
+   "mitre_id": "T1560.001",
+   "evidence": "T1560.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1657",
+   "mitre_id": "T1657",
+   "evidence": "T1657"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1021.001",
+   "mitre_id": "T1021.001",
+   "evidence": "Remote Service: RDP T1021.001 Akira threat actors leverage RDP connections as an initial access"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1021.004",
+   "mitre_id": "T1021.004",
+   "evidence": "Remote Service: SSH T1021.004 Akira threat actors use SSHs through router IP addresses for initial"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1090",
+   "mitre_id": "T1090",
+   "evidence": "Proxy T1090"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1105",
+   "mitre_id": "T1105",
+   "evidence": "Ingress Tool Transfer"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1219",
+   "mitre_id": "T1219",
+   "evidence": "Remote Access"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1572",
+   "mitre_id": "T1572",
+   "evidence": "Protocol Tunneling"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1048",
+   "mitre_id": "T1048",
+   "evidence": "Exfiltration Over"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1537",
+   "mitre_id": "T1537",
+   "evidence": "Account Discovery:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1567.002",
+   "mitre_id": "T1567.002",
+   "evidence": "T1567.002 Akira threat actors leverage RClone to sync files with cloud storage"
+  },
+  {
+   "type": "campaign",
+   "name": "Akira Ransomware",
+   "evidence": "Notes 1-16"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Client Execution",
+   "mitre_id": "T1203",
+   "evidence": "Notes 1-16"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Privilege Escalation",
+   "mitre_id": "T1068",
+   "evidence": "Notes 11"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Mass Encryption",
+   "mitre_id": "T1486",
+   "evidence": "Notes 4, 5"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Kerberoasting",
+   "mitre_id": "T1558",
+   "evidence": "Notes 8"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "Notes 1-16"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-3259",
+   "evidence": "Notes 1, 2"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-0841",
+   "evidence": "Notes 14"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-0094",
+   "evidence": "Notes 7"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-0095",
+   "evidence": "Notes 13"
+  },
+  {
+   "type": "sector",
+   "name": "Technology",
+   "evidence": "Notes 1-16"
+  },
+  {
+   "type": "sector",
+   "name": "Finance",
+   "evidence": "Notes 1-16"
+  },
+  {
+   "type": "sector",
+   "name": "Healthcare",
+   "evidence": "Notes 1-16"
+  },
+  {
+   "type": "sector",
+   "name": "Education",
+   "evidence": "Notes 1-16"
+  },
+  {
+   "type": "country",
+   "name": "France",
+   "evidence": "Notes 18, 19"
+  }
+ ],
+ "observables": [],
+ "relationships": [
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1203",
+   "evidence": "Notes 1-16"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1068",
+   "evidence": "Notes 11"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1486",
+   "evidence": "Notes 4, 5"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1558",
+   "evidence": "Notes 8"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1059.003",
+   "evidence": "Notes 1-16"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "CVE-2020-3259",
+   "evidence": "Notes 1, 2"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "CVE-2023-0841",
+   "evidence": "Notes 14"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "CVE-2024-0094",
+   "evidence": "Notes 7"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "CVE-2024-0095",
+   "evidence": "Notes 13"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "targets",
+   "target": "Technology",
+   "evidence": "Notes 1-16"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "targets",
+   "target": "Finance",
+   "evidence": "Notes 1-16"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "targets",
+   "target": "Healthcare",
+   "evidence": "Notes 1-16"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "targets",
+   "target": "Education",
+   "evidence": "Notes 1-16"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "originates-from",
+   "target": "France",
+   "evidence": "Notes 18, 19"
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "doc2stix-qwen3-8b:v1",
+  "seconds": 904.4,
+  "errors": "3 unparsable chunk(s)"
+ }
+}

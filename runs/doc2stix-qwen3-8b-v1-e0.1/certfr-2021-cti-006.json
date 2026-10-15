@@ -1,0 +1,1192 @@
+{
+ "entities": [
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "The Ryuk ransomware was first observed in August 2018 [1]. It is a variant of the Hermes 2.1 ransomware, sold"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information: Encrypted/Encoded File",
+   "mitre_id": "T1027.013",
+   "evidence": "The Ryuk ransomware was first observed in August 2018 [1]. It is a variant of the Hermes 2.1 ransomware, sold"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify Tools",
+   "mitre_id": "T1685",
+   "evidence": "After a few minutes of inactivity, Ryuk seeks to stop more than 40 processes and 180 services, in particular those related to antivirus softwares, databases and backups."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Encrypted for Impact",
+   "mitre_id": "T1486",
+   "evidence": "Using a combination of the symmetric (AES) and asymmetric (RSA) encryption algorithms serves both to encrypt"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Process Injection",
+   "mitre_id": "T1055",
+   "evidence": "After recursive scanning of the disks and network sharing in the infected system, the malicious payload is injected"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Services: Service Execution",
+   "mitre_id": "T1569.002",
+   "evidence": "It ensures its persistence through the creation of a registry key [5]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: File Deletion",
+   "mitre_id": "T1070.004",
+   "evidence": "Ryuk then encrypts all files, with the exception of certain Windows, Mozilla, Chrome and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: Clear Command History",
+   "mitre_id": "T1070.003",
+   "evidence": "Ahnlab is a South Korean IT threat analysis and response company. The reason for its inclusion in Ryuk’s"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Ingress Tool Transfer",
+   "mitre_id": "T1105",
+   "evidence": "Ryuk consists of a dropper that drops one of the two versions of a data encryption module (32- or 64-bit) on the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Automated Collection",
+   "mitre_id": "T1119",
+   "evidence": "A Ryuk sample with worm-like capabilities allowing it to spread automatically within networks it infects,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "the ANSSI in early 2021 (see appendix 5.2)."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Domain Accounts",
+   "mitre_id": "T1078.002",
+   "evidence": "Ryuk does not have the capacity for automatic lateral movement within a network, hence the need for access via a"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.008",
+   "evidence": "first payload [1] or manual lateral movement."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.008",
+   "evidence": "A Ryuk sample with worm-like capabilities allowing it to spread automatically within networks it infects,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.008",
+   "evidence": "the ANSSI in early 2021 (see appendix 5.2)."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.008",
+   "evidence": "Ryuk does not have the capacity for automatic lateral movement within a network, hence the need for access via a"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.008",
+   "evidence": "first payload [1] or manual lateral movement."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.008",
+   "evidence": "A Ryuk sample with worm-like capabilities allowing it to spread automatically within networks it infects,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.008",
+   "evidence": "the ANSSI in early 2021 (see appendix 5.2)."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.008",
+   "evidence": "Ryuk does not have the capacity for automatic lateral movement within a network, hence the need for access via a"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.008",
+   "evidence": "first payload [1] or manual lateral movement."
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "the malicious payload is injected"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Encrypted for Impact",
+   "mitre_id": "T1486",
+   "evidence": "the files and to protect the encryption key, making it impossible for a third party to decrypt the data [5]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "mitre_id": "T1016",
+   "evidence": "After recursive scanning of the disks and network sharing in the infected system, the malicious payload is injected"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: File Deletion",
+   "mitre_id": "T1070.004",
+   "evidence": "Ryuk then encrypts all files, with the exception of certain Windows, Mozilla, Chrome and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: File System Indicator Removal",
+   "mitre_id": "T1070.003",
+   "evidence": "Ahnlab files [5]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Boot or Logon Autostart Execution: Winlogon Helper DLL",
+   "mitre_id": "T1547.004",
+   "evidence": "Ryuk appends .RYK to the encrypted files and drops the RyukReadMe.txt file in the encrypted directories."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify Tools: Clear Windows Event Logs",
+   "mitre_id": "T1685.005",
+   "evidence": "Since October 2019, workstations on the local network that have been powered off can be switched on by Ryuk using a Wake-on-LAN feature allowing it to increase its attack surface [8]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Inhibit System Recovery",
+   "mitre_id": "T1490",
+   "evidence": "It then destroys all shadow copies on the system to prevent the users from restoring their system via vssadmin com￾mands or by running a .bat file1 [9]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Encrypted for Impact",
+   "mitre_id": "T1486",
+   "evidence": "Comment: The Raccine tool available on GitHub can intercept the use of vssadmin, prevent the deletion of shadow copies"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Financial Theft",
+   "mitre_id": "T1657",
+   "evidence": "and even, in some cases, block the chain of infection. Raccine is a temporary solution only to be implemented as a last"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Financial Theft",
+   "mitre_id": "T1657",
+   "evidence": "resort in the face of an imminent threat of encryption. Its use is not a substitute for the implementation of technical"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "In 2018, Ryuk’s short ransom demand format was very similar to that of the BitPaymer ransomware, operated by"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "the cybercriminal group Evil Corp since 2017 [4]. However, the ransom demands were reportedly ten times greater"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "than the average demand from other ransomware [11]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "Ryuk does not have a data exfiltration feature or a dedicated leak website to publish data stolen from their victims"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "unlike many other ransomwares. However:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "• in mid-2019, a stealer type of malware with code similarities to Ryuk was identified by Malware Hunter Team."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "This code is believed to be used to extract .docs and .xlsx files containing certain keywords from the financial,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "military or legal lexical fields (“tank”, “defence”, “military”, “classified”, “federal”, “finance”, “IBAN”, “Swift”,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "etc.). It is thought to be programmed to avoid files relating to Ryuk, in other words the RyukReadMe.txt"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "ransom demand and files with the .RYK extension [12];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "• according to the editor FireEye [13], attackers using Ryuk sometimes exfiltrate data from their victims by"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "means other than the ransomware itself. However, this data is believed to be limited to internal reconnais￾sance data or data extracted from the Active Directory, allowing attackers to move laterally and escalate their"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "privileges."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Financial Theft",
+   "mitre_id": "T1657",
+   "evidence": "1.3 Victimology"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Financial Theft",
+   "mitre_id": "T1657",
+   "evidence": "Ryuk has compromised many entities since August 2018, targeted for their profitability and their ability to pay high"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Financial Theft",
+   "mitre_id": "T1657",
+   "evidence": "ransoms (Big Game Hunting)."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Financial Theft",
+   "mitre_id": "T1657",
+   "evidence": "Although no specific sector targeting can be identified, Ryuk appears in particular to be impacting the United States"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Financial Theft",
+   "mitre_id": "T1657",
+   "evidence": "and Canada."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Financial Theft",
+   "mitre_id": "T1657",
+   "evidence": "In October 2020, Ryuk was reportedly responsible for 75% of attacks on the American healthcare sector [14]. Actors"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Financial Theft",
+   "mitre_id": "T1657",
+   "evidence": "deploying Ryuk are believed to have been attacking this sector since the first half of 2019."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Financial Theft",
+   "mitre_id": "T1657",
+   "evidence": "According to Prevailion, as of 3 November 2020, approximately 1,400 entities are thought to be communicating"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Financial Theft",
+   "mitre_id": "T1657",
+   "evidence": "with Cobalt Strike command and control (C2) servers associated with UNC1878, a Ryuk user [15]. These entities"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Financial Theft",
+   "mitre_id": "T1657",
+   "evidence": "are believed to be American hospitals and government agencies, pharmaceutical companies and universities in the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Financial Theft",
+   "mitre_id": "T1657",
+   "evidence": "rest of the world [14]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "2 Chains of infection involving Emotet, TrickBot and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "BazarLoader"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "2.1 Sequence of the initial chains of infection"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "Some victims were infected by TrickBot starting in June 2018, then compromised by Ryuk as of August [2]. Accord￾ing to FireEye, the TrickBot-Ryuk chain of infection may even have existed since December 2017 [16]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "Comment: However, with FireEye confirming that Ryuk’s public appearance dates from August 2018, the reference to"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "December 2017 suggests that this is the date that TrickBot opened access, followed by encryption by Ryuk as of August"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "2018."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "Since this date, TrickBot is the loader most responsible for the distribution of Ryuk. TrickBot can be distributed"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "upstream via the Emotet malware-as-a-service. The Emotet-TrickBot-Ryuk and TrickBot-Ryuk chains of infection"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "have therefore frequently been encountered, and persist at least until September 2020."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "The infection vector has often been to be a phishing email delivering either Emotet [16] or TrickBot [17]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "Once legitimate post-exploitation tools are distributed by TrickBot (Cobalt Strike, Empire, BloodHound, Mimikatz,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "LaZagne), attackers obtain privileged access to a domain controller (or other systems with privileged access) and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "deploy Ryuk (for example via PsExec) within the victim’s information system (IS) [18]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "Fig. 2.1: Simplified sequence of the Emotet-TrickBot-Ryuk infection chain"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "2.2 Evolution towards the Bazar-Ryuk chain of infection"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "By March 2020 infection chains involving TrickBot were reportedly fewer, and may even have temporarily ceased."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "In July 2020, the Emotet-TrickBot infection chain emerges again, after several months of inactivity from Emotet."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "This chain has since resulted in the distribution of Ryuk or Conti ransomware [19]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "From mid-September 2020, the BazarLoader-Ryuk chain of infection appears to replace those involving TrickBot."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "BazarLoader is generally distributed through phishing campaigns. Emails can be sent using the SendGrid market￾ing platform. They contain links to Google Docs pages of document previews, prompting the victim to download"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "the file as the preview does not usually work [20, 21, 22]. Recent campaigns identified by FireEye [13] no longer"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "use the SendGrid platform, but instead use the infrastructure of attackers or compromised email servers to send"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "phishing emails containing links to documents. These documents sometimes include references to the entity for"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "which the target works. The files concerned are executables signed with revoked certificates, hosted on legitimate"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "web services (Google Drive, Basecamp, Slack, Trello, Yougile, JetBrains, cdn77 and others) [13]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "Once the IS is compromised, BazarLoader downloads from the C2 server2 a payload (encrypted in XOR): BazarBack￾door. The backdoor then downloads post-exploitation frameworks, most frequently Cobalt Strike, to enable latter￾stages of the intrusion leveraging tools such as Anchor, PowerTrick3 [13], BloodHound, PowerSploit and AdFind"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "[25]. Reconnaissance data (in particular recovered via AdFind) is exfiltrated via FTP [25]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "Privileges have been escalated using Mimikatz, Rubeus4 [13], or by exploiting a Zerologon vulnerability (CVE-2020-"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "1472) [26]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "BazarBackdoor, although not exclusively dedicated to this purpose, can be used to enable the distribution"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "of Ryuk ransomware."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "Fig. 2.2: Simplified sequence of the Bazar-Ryuk chain of infection"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "2.3 Attacker groups involved"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "2.3.1 Wizard Spider"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "Origins"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "The group operating the TrickBot malware is called Wizard Spider by Crowdstrike, and “the TrickBot gang” by"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "other editors. It is also thought to be behind the Anchor backdoor and PowerTrick."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "This group is believed to include members of the Gold BlackBurn group, developers and operators of the Dyre"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "banking trojan [27], which ceased activities in November 2015 following action by the Russian police."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "Dyre emerged in June 2014. Its specific characteristics were as follows:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "• Dyre is believed to have the same developer as Gozi Neverquest (alias Vawtrak) [28]. Gozi Neverquest was"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "based on the source code of the Gozi malicious code, leaked in 2010. The cyber crime group responsible for"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "2BazarLoader uses EmerDNS .bazar domains for its C2s. This allows decentralised domain names to be registered on a blockchain [23]. The"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "DNS resolutions of Bazar’s C2 servers thus make dismantling and sinkholing [24] impossible."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "3Post-exploitation framework."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "4Mimikatz Kerberos module."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "25/02/2021 Page 6 of 21"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "TLP:WHITE"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "25/02/2021 Page 5 of 21"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "TLP:WHITE"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "25/02/2021 Page 4 of 21"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "TLP:WHITE"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "25/02/2021 Page 3 of 21"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "TLP:WHITE"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "25/02/2021 Page 2 of 21"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "TLP:WHITE"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "25/02/2021 Page 1 of 21"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "TLP:WHITE"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Deobfuscate/Decode Files or Information",
+   "mitre_id": "T1140",
+   "evidence": "• Dyre is believed to have the same developer as Gozi Neverquest (alias Vawtrak) [28]. Gozi Neverquest was"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Compromise Infrastructure: Domains",
+   "mitre_id": "T1584.001",
+   "evidence": "This allows decentralised domain names to be registered on a blockchain [23]. The"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "DNS resolutions of Bazar’s C2 servers thus make dismantling and sinkholing [24] impossible."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing: Spearphishing Link",
+   "mitre_id": "T1566.002",
+   "evidence": "• certain attacks involving Dyre could be connected to the Business Club cybercriminal group. It is then possible"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Malware",
+   "mitre_id": "T1587.001",
+   "evidence": "that from 2014, this group may have diversified its activity, using Dyre to steal money from corporate bank"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Compromise Infrastructure: Domains",
+   "mitre_id": "T1584.001",
+   "evidence": "TrickBot, which appeared one year after the dismantling of Dyre, is operated on the basis of an affiliate model"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "involving its distribution by independent groups [30]. Although TrickBot affiliates cannot be identified, campaigns"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Deobfuscate/Decode Files or Information",
+   "mitre_id": "T1140",
+   "evidence": "Different Gtags are associated with the TrickBot-Ryuk chains of infection :"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "• “serXXX” (ser0918us for example) [18];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Compromise Infrastructure: Domains",
+   "mitre_id": "T1584.001",
+   "evidence": "• “libXXX”, “totXXX” and “jimXXX”: several Gtags can cohabit on the same infected IS; this is the case for example"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "• “morXXX”: this is the Gtag associated with primary infections by Emotet since September 2019 (mor 84 [32]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Deobfuscate/Decode Files or Information",
+   "mitre_id": "T1140",
+   "evidence": "or mor114 [33] for example). Comment: Nevertheless, as Ryuk has been active since at least August 2018, and already distributed as the final"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Compromise Infrastructure: Domains",
+   "mitre_id": "T1584.001",
+   "evidence": "Wizard Spider is believed to have started distributing the BazarLoader and BazarBackdoor malwares in March 2020"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "Several technical aspects suggest that Wizard Spider is also the developer of these codes:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Deobfuscate/Decode Files or Information",
+   "mitre_id": "T1140",
+   "evidence": "• use of the same crypter by TrickBot and BazarBackdoor and very similar decryption routines between the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Compromise Infrastructure: Domains",
+   "mitre_id": "T1584.001",
+   "evidence": "• use by Anchor and Bazar of the Emercoin DNS resolution for C2 communications;"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "• reuse of compromised domains, for example machunion[.]com, bakedbuns[.]com and ruths-brownies[.]com,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Deobfuscate/Decode Files or Information",
+   "mitre_id": "T1140",
+   "evidence": "which have in the past hosted TrickBot and more recently BazarLoader."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Compromise Infrastructure: Domains",
+   "mitre_id": "T1584.001",
+   "evidence": "Bazar, like TrickBot, is believed to be used as an access-as-a-service to compromise an IS on behalf of other attacker"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "Comment: TrickBot and Bazar are regularly used to distribute Ryuk. However, it is not possible for the ANSSI to determine"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Deobfuscate/Decode Files or Information",
+   "mitre_id": "T1140",
+   "evidence": "whether these attacks, or some of them, are the work of Wizard Spider, TrickBot affiliates, Bazar clients, or a Ryuk end"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Compromise Infrastructure: Domains",
+   "mitre_id": "T1584.001",
+   "evidence": "2.3.2 UNC1878"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "UNC1878, also known as One group [34], is an activity cluster discovered by FireEye at the end of January 2020 and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Deobfuscate/Decode Files or Information",
+   "mitre_id": "T1140",
+   "evidence": "involved in TrickBot-Ryuk infection chains since January 2020, then in Bazar-Ryuk infection chains from September"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Compromise Infrastructure: Domains",
+   "mitre_id": "T1584.001",
+   "evidence": "2020 [35, 36]. Its targeting is indiscriminate5, and its infections are opportunistic [35, 36]. They are characterised by:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "• their infection vector, which is based on phishing emails generally containing links;"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Deobfuscate/Decode Files or Information",
+   "mitre_id": "T1140",
+   "evidence": "• their speed of execution, with the time between initial infection and encryption recently reduced from a few"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Compromise Infrastructure: Domains",
+   "mitre_id": "T1584.001",
+   "evidence": "(2 to 5) days to three hours [25];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "• the constant use of self-signed Cobalt Strike samples [35];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Deobfuscate/Decode Files or Information",
+   "mitre_id": "T1140",
+   "evidence": "• the use of legitimate tools throughout the post-compromise infection chain (Cobalt Strike Beacon, Empire,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Compromise Infrastructure: Domains",
+   "mitre_id": "T1584.001",
+   "evidence": "Meterpreter, Mimikatz, LaZagne, Kerbrute, Kerberoast, BloodHound, AdFind, PowerSploit) [35];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "• the absence of exfiltration of information from its victims’ IS [35]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Deobfuscate/Decode Files or Information",
+   "mitre_id": "T1140",
+   "evidence": "According to FireEye, a fifth of all ransomware-related intrusions in 2020 are due to Ryuk. 83% of them are the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Compromise Infrastructure: Domains",
+   "mitre_id": "T1584.001",
+   "evidence": "work of UNC1878, of which 27% were successful [35]. Therefore UNC1878 may not be responsible for all cyberattacks involving the Ryuk ransomware [37], but it"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "is thought to be behind the attacks against American hospitals since October 2020 [35]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Deobfuscate/Decode Files or Information",
+   "mitre_id": "T1140",
+   "evidence": "Comment: UNC1878 could rely on different TrickBot affiliates or different attackers with access to BazarLoader to open"
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "o link seems to exist between Ryuk and Maze, while Maze was also"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning",
+   "mitre_id": "T1595",
+   "evidence": "Ryuk looks for network shares on the victim IT infrastructure. To do so, some private IP ranges are scanned:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: SMB/Windows Admin Shares",
+   "mitre_id": "T1021.002",
+   "evidence": "For each identified host, Ryuk will attempt to mount possible network shares using SMB enumeration."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Remote Desktop Protocol",
+   "mitre_id": "T1021.001",
+   "evidence": "The Ryuk variant analyzed in this document does have self-replication capabilities. The propagation is achieved"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Scheduled Task/Job: Scheduled Task",
+   "mitre_id": "T1053.005",
+   "evidence": "The content of this scheduled task is described in the analysis present in this document."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "mitre_id": "T1016",
+   "evidence": "Before this scan step, Ryuk reads through the victim’s ARP table and sends a Wake-On-LAN paquet to each host."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify Tools: Clear Windows Event Logs",
+   "mitre_id": "T1685.005",
+   "evidence": "Finally, Ryuk deletes the Volume Shadow Copies to prevent file recovery."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify Registry",
+   "mitre_id": "T1112",
+   "evidence": "Ryuk’s persistence is achieved by setting the registry key HKEY_CURRENT_USER\\SOFTWARE\\Microsoft"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder",
+   "mitre_id": "T1547.001",
+   "evidence": "The Ryuk variant analyzed in this document does have self-replication capabilities. The propagation is achieved"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "The malware can launch icacls <path> /grant Everyone:F /T /C /Q to delete every access-based restrictions"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: JavaScript",
+   "mitre_id": "T1059.007",
+   "evidence": "More_Eggs is a JavaScript backdoor made available to certain affiliates by the service provider as malware-as￾a-service Venom Spider (alias badbullzvenom), active since 2012."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "It locally creates ryukreadme.html files, most likely with a .onion TOR URL for negociation."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "The RTF file contains the usual Ryuk message:: « balance of shadow universe »."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "The fake DLL is locally launched through a scheduled task executing wordpad.exe <random>.dll."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "The program also allows for an autonomous propagation of the encrypting binary."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Remote Desktop Protocol",
+   "mitre_id": "T1021.001",
+   "evidence": "The program copies itself with a rep.exe or lan.exe suffix."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Remote Desktop Protocol",
+   "mitre_id": "T1021.001",
+   "evidence": "It generates every possible IP addresses on local networks and sends an ICMP ping to each of them."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Remote Desktop Protocol",
+   "mitre_id": "T1021.001",
+   "evidence": "It lists the IP addresses of the local ARP cache and sends them a packet (most likely the Wake-on-LAN which has"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Remote Desktop Protocol",
+   "mitre_id": "T1021.001",
+   "evidence": "The program then lists all the sharing resources opened on the found IPs, mounts each of them and can encrypt"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Remote Desktop Protocol",
+   "mitre_id": "T1021.001",
+   "evidence": "This malware can also create a ryukreadme.html file as well as a copy of itself on the targeted host."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Remote Desktop Protocol",
+   "mitre_id": "T1021.001",
+   "evidence": "Finally, it can remotely create a scheduled task to execute itself on this host."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Scheduled Task/Job: Scheduled Task",
+   "mitre_id": "T1053.005",
+   "evidence": "Launch of the scheduled task"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "mitre_id": "T1016",
+   "evidence": "The following pseudo-code sums up the structure of the command line as well as the call :"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "The malware is based on a randomly-chosen open source software. It is then recompiled and backdoored."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information: Encrypted/Encoded File",
+   "mitre_id": "T1027.013",
+   "evidence": "The malicious code is stored in the resource 11/943 of the binary and encrypted with the RC4 algorithm using the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information: Encrypted/Encoded File",
+   "mitre_id": "T1027.013",
+   "evidence": "The code contains the string Fuck def."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "No mechanism for blocking the execution of the ransomware has been identified (MUTEX like or else)."
+  }
+ ],
+ "observables": [],
+ "relationships": [
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1027.013",
+   "evidence": "The Ryuk ransomware was first observed in August 2018 [1]. It is a variant of the Hermes 2.1 ransomware, sold"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1685",
+   "evidence": "After a few minutes of inactivity, Ryuk seeks to stop more than 40 processes and 180 services, in particular those related to antivirus softwares, databases and backups."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1486",
+   "evidence": "Using a combination of the symmetric (AES) and asymmetric (RSA) encryption algorithms serves both to encrypt"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1055",
+   "evidence": "After recursive scanning of the disks and network sharing in the infected system, the malicious payload is injected"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1569.002",
+   "evidence": "It ensures its persistence through the creation of a registry key [5]."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1070.004",
+   "evidence": "Ryuk then encrypts all files, with the exception of certain Windows, Mozilla, Chrome and"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1070.003",
+   "evidence": "Ahnlab is a South Korean IT threat analysis and response company. The reason for its inclusion in Ryuk’s"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1105",
+   "evidence": "Ryuk consists of a dropper that drops one of the two versions of a data encryption module (32- or 64-bit) on the"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1119",
+   "evidence": "A Ryuk sample with worm-like capabilities allowing it to spread automatically within networks it infects,"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1078",
+   "evidence": "Ryuk does not have the capacity for automatic lateral movement within a network, hence the need for access via a"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1078.002",
+   "evidence": "first payload [1] or manual lateral movement."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1078.008",
+   "evidence": "A Ryuk sample with worm-like capabilities allowing it to spread automatically within networks it infects,"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1078.008",
+   "evidence": "the ANSSI in early 2021 (see appendix 5.2)."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1078.008",
+   "evidence": "Ryuk does not have the capacity for automatic lateral movement within a network, hence the need for access via a"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1078.008",
+   "evidence": "first payload [1] or manual lateral movement."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1078.008",
+   "evidence": "A Ryuk sample with worm-like capabilities allowing it to spread automatically within networks it infects,"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1078.008",
+   "evidence": "the ANSSI in early 2021 (see appendix 5.2)."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1078.008",
+   "evidence": "Ryuk does not have the capacity for automatic lateral movement within a network, hence the need for access via a"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1078.008",
+   "evidence": "first payload [1] or manual lateral movement."
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "doc2stix-qwen3-8b:v1",
+  "seconds": 1159.9,
+  "errors": "3 unparsable chunk(s)"
+ }
+}

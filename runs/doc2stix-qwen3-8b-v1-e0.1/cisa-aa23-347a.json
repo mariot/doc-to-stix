@@ -1,0 +1,258 @@
+{
+ "entities": [
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "mitre_id": "T1190",
+   "evidence": "The U.S. Federal Bureau of Investigation (FBI), U.S. Cybersecurity & Infrastructure Security Agency"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Shell",
+   "mitre_id": "T1505.003",
+   "evidence": "The U.S. Federal Bureau of Investigation (FBI), U.S. Cybersecurity & Infrastructure Security Agency"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "The SVR has, however, been observed using the initial access gleaned by exploiting the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "TeamCity CVE to escalate its privileges, move laterally, deploy additional backdoors, and take other"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "steps to ensure persistent and long-term access to the compromised network environments."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information: Email Addresses",
+   "mitre_id": "T1589.002",
+   "evidence": "contact your local FBI field office or CISA’s 24/7 Operations Center at Report@cisa.gov or (888) 282-0870. When available,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information: Email Addresses",
+   "mitre_id": "T1589.002",
+   "evidence": "please include the following information regarding the incident: date, time, and location of the incident; type of activity;"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information: Email Addresses",
+   "mitre_id": "T1589.002",
+   "evidence": "number of people affected; type of equipment used for the activity; the name of the submitting company or organization; and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information: Email Addresses",
+   "mitre_id": "T1589.002",
+   "evidence": "a designated point of contact. SLTT organizations should report incidents to MS-ISAC (866-787-4722 or"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information: Email Addresses",
+   "mitre_id": "T1589.002",
+   "evidence": "SOC@cisecurity.org)."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information: Email Addresses",
+   "mitre_id": "T1589.002",
+   "evidence": "This document is marked TLP:CLEAR. Disclosure is not limited. Sources may use TLP:CLEAR when information carries"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information: Email Addresses",
+   "mitre_id": "T1589.002",
+   "evidence": "minimal or no foreseeable risk of misuse, in accordance with applicable rules and procedures for public release. Subject to"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information: Email Addresses",
+   "mitre_id": "T1589.002",
+   "evidence": "standard copyright rules, TLP:CLEAR information may be distributed without restrictions. For more information on the Traffic"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information: Email Addresses",
+   "mitre_id": "T1589.002",
+   "evidence": "Light Protocol, see cisa.gov/tlp/."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information: Email Addresses",
+   "mitre_id": "T1589.002",
+   "evidence": "Product ID: AA23-347A"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information: Email Addresses",
+   "mitre_id": "T1589.002",
+   "evidence": "December 13, 2023"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information: Email Addresses",
+   "mitre_id": "T1589.002",
+   "evidence": "Co-Authored by:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information: Email Addresses",
+   "mitre_id": "T1589.002",
+   "evidence": "TLP:CLEAR"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information: Email Addresses",
+   "mitre_id": "T1589.002",
+   "evidence": "Russian Foreign Intelligence Service (SVR)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information: Encrypted/Encoded File",
+   "mitre_id": "T1027.013",
+   "evidence": "YARA rules"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Query Registry",
+   "mitre_id": "T1012",
+   "evidence": "TargetObject|contains:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify Registry",
+   "mitre_id": "T1112",
+   "evidence": "TargetObject|contains:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Services: Service Execution",
+   "mitre_id": "T1569.002",
+   "evidence": "CommandLine|contains:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder",
+   "mitre_id": "T1547.001",
+   "evidence": "Image|endswith:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "YARA rules"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "mitre_id": "T1016",
+   "evidence": "Network scanning tools."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify Tools: Clear Windows Event Logs",
+   "mitre_id": "T1685.005",
+   "evidence": "DisableRestrictedAdmin"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify Authentication Process",
+   "mitre_id": "T1556",
+   "evidence": "NoLMHash"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create or Modify System Process: Windows Service",
+   "mitre_id": "T1543.003",
+   "evidence": "ImageLoaded|endswith:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Client Execution",
+   "mitre_id": "T1203",
+   "evidence": "CVE-2023-42793"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "MFA"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "Use available public resources to identify credential abuse with cloud environments."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Additional Cloud Accounts",
+   "mitre_id": "T1078.005",
+   "evidence": "Registering new devices."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Additional Cloud Accounts",
+   "mitre_id": "T1078.005",
+   "evidence": "Configure authentication mechanisms to confirm certain user activities on systems, including registering new devices."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Additional Cloud Accounts",
+   "mitre_id": "T1078.005",
+   "evidence": "Deploy software to identify suspicious behavior on systems."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Additional Cloud Accounts",
+   "mitre_id": "T1078.005",
+   "evidence": "Audit log files to identify attempts to access privileged certificates and creation of fake identity providers."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Additional Cloud Accounts",
+   "mitre_id": "T1078.005",
+   "evidence": "Deploy endpoint protection systems with the ability to monitor for behavioral indicators of compromise."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Additional Cloud Accounts",
+   "mitre_id": "T1078.005",
+   "evidence": "Keep all operating systems, software, and firmware up to date. Immediately configure newly-added systems to the network, including those used for testing or development work, to follow the organization’s security baseline and incorporate into enterprise monitoring tools."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Additional Cloud Accounts",
+   "mitre_id": "T1078.005",
+   "evidence": "Validate security controls."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Additional Cloud Accounts",
+   "mitre_id": "T1078.005",
+   "evidence": "Exercising, testing, and validating your organization's security program against the threat behaviors mapped to the MITRE ATT&CK for Enterprise framework in this advisory. FBI, CISA, NSA, SKW, CERT Polska, and NCSC recommend testing your existing security controls inventory to assess how they perform against the ATT&CK techniques described in this advisory."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Additional Cloud Accounts",
+   "mitre_id": "T1078.005",
+   "evidence": "To get started: 1. Select an ATT&CK technique described in this advisory (see previous tables). 2. Align your security technologies against the technique. 3. Test your technologies against the technique. 4. Analyze your detection and prevention technologies’ performance. 5. Repeat the process for all security technologies to obtain a set of comprehensive performance data. 6. Tune your security program, including people, processes, and technologies, based on the data generated by this process. FBI, CISA, NSA, SKW, CERT Polska, and NCSC recommend continually testing your security program, at scale, in a production environment to ensure optimal performance against the MITRE ATT&CK techniques identified in this advisory."
+  }
+ ],
+ "observables": [],
+ "relationships": [],
+ "_meta": {
+  "engine": "0.1",
+  "model": "doc2stix-qwen3-8b:v1",
+  "seconds": 1321.7,
+  "errors": "5 unparsable chunk(s)"
+ }
+}

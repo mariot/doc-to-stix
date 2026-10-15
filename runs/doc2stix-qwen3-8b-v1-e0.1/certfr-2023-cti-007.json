@@ -1,0 +1,11 @@
+{
+ "entities": [],
+ "observables": [],
+ "relationships": [],
+ "_meta": {
+  "engine": "0.1",
+  "model": "doc2stix-qwen3-8b:v1",
+  "seconds": 1398.7,
+  "errors": "5 unparsable chunk(s)"
+ }
+}

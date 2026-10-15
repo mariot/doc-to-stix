@@ -1,0 +1,276 @@
+{
+ "entities": [
+  {
+   "type": "campaign",
+   "name": "NoName057(16)",
+   "evidence": "The authoring organizations assess that the Center for the Study and Network Monitoring of the Youth Environment (CISM), established on behalf of the Kremlin, created NoName057(16) as a covert project within the organization. Senior executives and employees within CISM developed and customized the NoName057(16) proprietary DDoS tool DDoSia, paid for the group’s network infrastructure, served as administrators on NoName057(16) Telegram channels, and selected DDoS targets."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities",
+   "mitre_id": "T1587",
+   "evidence": "The authoring organizations assess that the Center for the Study and Network Monitoring of the Youth Environment (CISM), established on behalf of the Kremlin, created NoName057(16) as a covert project within the organization. Senior executives and employees within CISM developed and customized the NoName057(16) proprietary DDoS tool DDoSia, paid for the group’s network infrastructure, served as administrators on NoName057(16) Telegram channels, and selected DDoS targets."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Establish Accounts: Social Media Accounts",
+   "mitre_id": "T1585.001",
+   "evidence": "In April 2022, the group began using a new Telegram channel featuring the name “CyberArmyofRussia_Reborn” to organize and plan group actions. The channel creators recruited actors to use CARR as an unattributable platform for conducting cyber activities beneath the level of an APT, aimed at deterring anti-Russia rhetoric. CARR threat actors presented themselves as a group of pro-Russia hacktivists supporting Russia’s stance on the Ukrainian conflict, and they soon began claiming responsibility for DDoS attacks against the U.S. and Europe for supporting Ukraine."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Malware",
+   "mitre_id": "T1587.001",
+   "evidence": "In late 2023, CARR expanded their operations to include attacks on industrial control systems (ICS), claiming an intrusion against a European wastewater treatment facility in October 2023. In November 2023, CARR targeted human-machine interface (HMI) devices, claiming intrusions at two U.S. dairy farms. The authoring organizations assess that by late September 2024, CARR channel administrators became dissatisfied with the level of support and funding provided by the GRU. This dissatisfaction led CARR administrators and an administrator from another hacktivist group, NoName057(16), to create the Z-Pentest group, employing the same tactics, techniques, and procedures (TTPs) as CARR but separate from GRU involvement."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Establish Accounts: Web Accounts",
+   "mitre_id": "T1585.003",
+   "evidence": "Active since March 2022, NoName057(16) has conducted frequent DDoS attacks against government and private sector entities in North Atlantic Treaty Organization (NATO) member states and other European countries perceived as hostile to Russian geopolitical interests. The group operates primarily through Telegram channels and used GitHub, alongside various websites and repositories, to host DDoSia and share materials and TTPs with their followers."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Infrastructure",
+   "mitre_id": "T1587.002",
+   "evidence": "In 2024, NoName057(16) began collaborating closely with other pro-Russia hacktivist groups, operating a joint chat with CARR by mid-2024. In July 2024, NoName057(16) jointly claimed responsibility with CARR for an alleged intrusion against OT assets in the U.S. The high degree of cooperation with CARR likely contributed to the formation of Z-Pentest, which is composed of actors and administrators from both teams, in September 2024."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Botnet",
+   "mitre_id": "T1587.004",
+   "evidence": "Z-Pentest specializes in OT intrusion operations targeting globally dispersed critical infrastructure entities. Additionally, the group uses “hack and leak” operations and defacement attacks to draw attention to their pro-Russia messaging. Unlike other pro-Russia hacktivist groups, Z-Pentest largely avoids DDoS activities, claiming OT intrusions as attempts to garner more attention from the media. Shortly after Z-Pentest’s inception, the group announced alliances with CARR and NoName057(16), possibly to leverage the other groups’ subscribers to grow the new channel. In March 2025, Z-Pentest posted evidence claiming OT device intrusions to their channel using a NoName057(16) cyberattack campaign hashtag. Similarly, in April 2025, Z-Pentest shared a video purporting defacement of an HMI by changing system names to NoName057(16) and CARR references. Z-Pentest continues to create new alliances with other groups, like Sector16, to continue growing their subscriber base and incidentally propagate TTPs with new partners."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Establish Accounts: Bot Accounts",
+   "mitre_id": "T1585.004",
+   "evidence": "Sector16 is a novice pro-Russia hacktivist group that emerged through collaboration with Z-Pentest. Sector16 actively maintains an online presence, including a public Telegram channel where they share videos, statements, and claims of compromising U.S. energy infrastructure. These communications often align with pro-Russia narratives and reflect their self-proclaimed support for Russian geopolitical objectives. Members of Sector16 may have received indirect support from the Russian government in exchange for conducting specific cyber operations that further Russian strategic goals. This aligns with broader Russian cyber strategies that involve leveraging non-state threat actors for certain cyber activities, adding a layer of deniability."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Internet Accessible Device",
+   "mitre_id": "T0883",
+   "evidence": " Scan for vulnerable devices on the internet [T0883] with open VNC ports [T1595.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning: Vulnerability Scanning",
+   "mitre_id": "T1595.002",
+   "evidence": " Scan for vulnerable devices on the internet [T0883] with open VNC ports [T1595.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure: Virtual Private Server",
+   "mitre_id": "T1583.003",
+   "evidence": " Initiate temporary virtual private server (VPS) [T1583.003] to execute password brute force"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: VNC",
+   "mitre_id": "T1021.005",
+   "evidence": " Use VNC software to access hosts [T1021.005]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services",
+   "mitre_id": "T0886",
+   "evidence": " Confirm connection to the vulnerable device [T0886]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force: Password Spraying",
+   "mitre_id": "T1110.003",
+   "evidence": " Brute force the password, if required [T1110.003]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Insecure Credentials: Default Credentials",
+   "mitre_id": "T0812",
+   "evidence": " Gain access to HMI devices [T0883], typically with default [T0812], weak, or no passwords"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T0859",
+   "evidence": "[T0859]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Graphical User Interface",
+   "mitre_id": "T0823",
+   "evidence": " Using the HMI graphical interface [T0823], capture screen recordings or intermittent screenshots"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Loss of Productivity and Revenue",
+   "mitre_id": "T0828",
+   "evidence": "[T0828]:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Change Credential",
+   "mitre_id": "T0892",
+   "evidence": "o Modify usernames/passwords [T0892];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify Parameter",
+   "mitre_id": "T0836",
+   "evidence": "o Modify parameters [T0836];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Manipulation of Control",
+   "mitre_id": "T0831",
+   "evidence": "o Modify instrument settings [T0831];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Alarm Suppression",
+   "mitre_id": "T0878",
+   "evidence": "o Disable alarms [T0878];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Loss of View",
+   "mitre_id": "T0829",
+   "evidence": "o Create loss of view (a technique that mandates local hands-on operator intervention) [T0829];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Device Restart/Shutdown",
+   "mitre_id": "T0816",
+   "evidence": "o Device restart or shutdown [T0816]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Org Information",
+   "mitre_id": "T1591",
+   "evidence": " Research the compromised device company after the intrusion [T1591]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Unauthorized Message: Command Message",
+   "mitre_id": "T0855",
+   "evidence": "Command Message T0855"
+  }
+ ],
+ "observables": [],
+ "relationships": [
+  {
+   "source": "NoName057(16)",
+   "type": "uses",
+   "target": "T0883",
+   "evidence": " Scan for vulnerable devices on the internet [T0883] with open VNC ports [T1595.002]."
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "uses",
+   "target": "T1595.002",
+   "evidence": " Scan for vulnerable devices on the internet [T0883] with open VNC ports [T1595.002]."
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "uses",
+   "target": "T1583.003",
+   "evidence": " Initiate temporary virtual private server (VPS) [T1583.003] to execute password brute force"
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "uses",
+   "target": "T1021.005",
+   "evidence": " Use VNC software to access hosts [T1021.005]."
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "uses",
+   "target": "T0886",
+   "evidence": " Confirm connection to the vulnerable device [T0886]."
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "uses",
+   "target": "T1110.003",
+   "evidence": " Brute force the password, if required [T1110.003]."
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "uses",
+   "target": "T0812",
+   "evidence": " Gain access to HMI devices [T0883], typically with default [T0812], weak, or no passwords"
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "uses",
+   "target": "T0859",
+   "evidence": "[T0859]."
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "uses",
+   "target": "T0823",
+   "evidence": " Using the HMI graphical interface [T0823], capture screen recordings or intermittent screenshots"
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "uses",
+   "target": "T0828",
+   "evidence": "[T0828]:"
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "uses",
+   "target": "T0892",
+   "evidence": "o Modify usernames/passwords [T0892];"
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "uses",
+   "target": "T0836",
+   "evidence": "o Modify parameters [T0836];"
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "uses",
+   "target": "T0831",
+   "evidence": "o Modify instrument settings [T0831];"
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "uses",
+   "target": "T0878",
+   "evidence": "o Disable alarms [T0878];"
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "uses",
+   "target": "T0829",
+   "evidence": "o Create loss of view (a technique that mandates local hands-on operator intervention) [T0829];"
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "uses",
+   "target": "T0816",
+   "evidence": "o Device restart or shutdown [T0816]."
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "uses",
+   "target": "T1591",
+   "evidence": " Research the compromised device company after the intrusion [T1591]."
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "uses",
+   "target": "T0855",
+   "evidence": "Command Message T0855"
+  }
+ ],
+ "_meta": {
+  "engine": "0.2",
+  "model": "doc2stix-qwen3-8b:v1",
+  "seconds": 1284.9,
+  "errors": "4 unparsable chunk(s)"
+ }
+}

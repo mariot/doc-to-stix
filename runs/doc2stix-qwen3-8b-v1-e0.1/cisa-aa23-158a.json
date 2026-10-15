@@ -1,0 +1,765 @@
+{
+ "entities": [
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "mitre_id": "T1190",
+   "evidence": "Exploit Public-Facing Application T1190 CL0P ransomware group exploited the zero-day"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing",
+   "mitre_id": "T1566",
+   "evidence": "Phishing T1566 CL0P actors send a large volume of spear-phishing"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001",
+   "evidence": "PowerShell T1059.001 CL0P actors use SDBot as a backdoor to enable"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter",
+   "mitre_id": "T1059.003",
+   "evidence": "Command and Scripting Interpreter T1059.003 CL0P actors use TinyMet, a small open-source"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Shell",
+   "mitre_id": "T1505.003",
+   "evidence": "T1505.003 DEWMODE is a web shell designed to interact with"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Event Triggered Execution: Application Shimming",
+   "mitre_id": "T1546.011",
+   "evidence": "T1546.011 CL0P actors use SDBot malware for application"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Privilege Escalation",
+   "mitre_id": "T1068",
+   "evidence": "Privilege Escalation"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Process Injection",
+   "mitre_id": "T1055",
+   "evidence": "Process Injection T1055 CL0P actors use Truebot to load shell code."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal",
+   "mitre_id": "T1070",
+   "evidence": "Indicator Removal T1070 CL0P actors delete traces of Truebot malware after"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Hijack Execution Flow: DLL Side-Loading",
+   "mitre_id": "T1574.002",
+   "evidence": "T1574.002 CL0P actors use Truebot to side load DLLs."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote System Discovery",
+   "mitre_id": "T1018",
+   "evidence": "Remote System Discovery T1018 CL0P actors use Cobalt Strike to expand network"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: SMB/Windows Admin Shares",
+   "mitre_id": "T1021.002",
+   "evidence": "T1021.002 CL0P actors have been observed attempting to"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Service Session Hijacking: RDP Hijacking",
+   "mitre_id": "T1563.002",
+   "evidence": "T1563.002 CL0P ransomware actors have been observed"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Screen Capture",
+   "mitre_id": "T1113",
+   "evidence": "Screen Capture T1113 CL0P actors use Truebot to take screenshots in"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Application Layer Protocol",
+   "mitre_id": "T1071",
+   "evidence": "Application Layer Protocol T1071 CL0P actors use FlawedAmmyy remote access"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Ingress Tool Transfer",
+   "mitre_id": "T1105",
+   "evidence": "Ingress Tool Transfer T1105 CL0P actors are assessed to use FlawedAmmyy"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over C2 Channel",
+   "mitre_id": "T1041",
+   "evidence": "Exfiltration Over C2 Channel T1041 CL0P actors exfiltrate data for C2 channels."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "o Require all accounts with password logins (e.g., service account, admin accounts,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Manipulation: Additional Email or Domain",
+   "mitre_id": "T1098.002",
+   "evidence": "Consider adding an email banner to emails received from outside your organization"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify Tools",
+   "mitre_id": "T1685",
+   "evidence": "Disable unused ports [CPG 2.V]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "mitre_id": "T1046",
+   "evidence": "Identify, detect, and investigate abnormal activity and potential traversal of the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Connections Discovery",
+   "mitre_id": "T1049",
+   "evidence": "connections for each host [CPG 3.A]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Software Discovery",
+   "mitre_id": "T1518",
+   "evidence": "Install, regularly update, and enable real time detection for antivirus software on"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Query Registry",
+   "mitre_id": "T1012",
+   "evidence": "o Store passwords in hashed format using industry-recognized password"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Domain Accounts",
+   "mitre_id": "T1078.002",
+   "evidence": "o Place domain admin accounts in the protected users’ group to prevent"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "data and servers in a physically separate, segmented, and secure location"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "o Require administrator credentials to install software."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "o Disable password “hints.”"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "o Refrain from requiring password changes more frequently than once per year."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "Note: NIST guidance suggests favoring longer passwords instead of requiring"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "regular and frequent password resets. Frequent password resets are more"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "likely to result in users developing password “patterns” cyber criminals can"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "easily decipher."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "o Require multifactor authentication for all services to the extent possible, particularly"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "for webmail, virtual private networks, and accounts that access critical systems [CPG"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "2.H]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "o Implement multiple failed login attempt account lockouts [CPG 2.G]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "o Add password user “salts” to shared login credentials."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "o Avoid reusing passwords [CPG 2.C]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "o Refrain from storing plaintext credentials in scripts."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "• Keep all operating systems, software, and firmware up to date. Timely patching is"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "one of the most efficient and cost-effective steps an organization can take to minimize"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "its exposure to cybersecurity threats. Prioritize patching known exploited"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "vulnerabilities in internet-facing systems [CPG 1.E]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "• Segment networks to prevent the spread of ransomware. Network segmentation can"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "help prevent the spread of ransomware by controlling traffic flows between—and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "access to—various subnetworks and by restricting adversary lateral movement [CPG"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "2.F]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "• Install, regularly update, and enable real time detection for antivirus software on"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "all hosts."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "• Disable hyperlinks in received emails."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "• Ensure all backup data is encrypted, immutable (i.e., ensure backup data cannot"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "be altered or deleted), and covers the entire organization’s data infrastructure [CPG"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "2.K, 2.L, 2.R]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "VALIDATE SECURITY CONTROLS"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "In addition to applying mitigations, FBI and CISA recommend exercising, testing, and validating your"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "organization’s security program against the threat behaviors mapped to the MITRE ATT&CK for"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "Enterprise framework in this advisory. The authoring authorities of this CSA recommend testing your"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "existing security controls inventory to assess how they perform against the ATT&CK techniques"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "described in this advisory."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "To get started:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "1. Select an ATT&CK technique described in this advisory (see table 2)."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "2. Align your security technologies against the technique."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "3. Test your technologies against the technique."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "4. Analyze your detection and prevention technologies’ performance."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "5. Repeat the process for all security technologies to obtain a set of comprehensive performance"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "data."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "6. Tune your security program, including people, processes, and technologies, based on the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "data generated by this process."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "RESOURCES"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "• Stopransomware.gov is a whole-of-government approach that gives one central location for"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "ransomware resources and alerts."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "• Resource to mitigate a ransomware attack: CISA-Multi-State Information Sharing and Analysis"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "Center (MS-ISAC) Joint Ransomware Guide."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "• No-cost cyber hygiene services: Cyber Hygiene Services and Ransomware Readiness"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "Assessment."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "REFERENCE"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "[1] Zero-Day Vulnerability in MOVEit Transfer Exploited for Data Theft | Mandiant"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "[2] MOVEit Transfer Critical Vulnerability (May 2023) - Progress Community"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "[3] MOVEit Transfer Critical Vulnerability CVE-2023-34362 Rapid Response (huntress.com)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "REPORTING"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "The FBI is seeking any information that can be shared, to include boundary logs showing"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "communication to and from foreign IP addresses, a sample ransom note, communications with CL0P"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "group actors, Bitcoin wallet information, decryptor files, and/or a benign sample of an encrypted file."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "The FBI and CISA do not encourage paying ransom as payment does not guarantee victim files will"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "be recovered. Furthermore, payment may also embolden adversaries to target additional"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "organizations, encourage other criminal actors to engage in the distribution of ransomware, and/or"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "fund illicit activities. Regardless of whether you or your organization have decided to pay the ransom,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "the FBI and CISA urge you to promptly report ransomware incidents to a local FBI Field Office, report"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "the incident to the FBI Internet Crime Complaint Center (IC3) at ic3.gov, or CISA at cisa.gov/report."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "DISCLAIMER"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "The information in this report is being provided “as is” for informational purposes only. CISA and the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "FBI do not endorse any commercial product or service, including any subjects of analysis. Any"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "reference to specific commercial products, processes, or services by service mark, trademark,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring"
+  }
+ ],
+ "observables": [
+  {
+   "type": "ipv4-addr",
+   "value": "92.118.36.249"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.34.180.48"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.33.86.225"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "148.113.159.213"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "15.235.13.184"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "82.117.252.141"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.80.52.230"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "91.222.174.68"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.34.178.31"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.104.194.134"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.34.178.28"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.81.113.156"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.34.178.30"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "77.83.197.66"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "193.42.38.196"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "209.222.98.25"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "106.75.139.199"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "79.141.166.119"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.117.88.2"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "79.141.160.78"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.33.87.126"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "82.117.252.142"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "15.235.83.73"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "81.56.49.148"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "96.44.181.131"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "192.42.116.191"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "213.121.182.84"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "104.200.72.149"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "152.57.231.216"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "142.44.212.178"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "54.39.133.41"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "76.117.196.3"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "24.3.132.168"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "166.70.47.90"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "208.115.199.25"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "216.144.248.20"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "173.254.236.131"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "3.101.53.11"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "54.184.187.134"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "100.21.161.34"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "44.206.3.111"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "75.101.131.237"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "20.47.120.195"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "198.137.247.10"
+  }
+ ],
+ "relationships": [],
+ "_meta": {
+  "engine": "0.1",
+  "model": "doc2stix-qwen3-8b:v1",
+  "seconds": 995.4,
+  "errors": "3 unparsable chunk(s)"
+ }
+}

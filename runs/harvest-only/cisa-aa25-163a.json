@@ -1,0 +1,1 @@
+{"entities": [{"type": "vulnerability", "name": "CVE-2024-57727", "evidence": "SimpleHelp versions 5.5.7 and earlier contain several vulnerabilities, including CVE-2024-57727\u2014a path"}], "observables": [], "relationships": []}

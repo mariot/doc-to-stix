@@ -1,0 +1,1022 @@
+{
+ "entities": [
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-46805",
+   "evidence": "CVE-2023-46805",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21887",
+   "evidence": "CVE-2024-21887",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21893",
+   "evidence": "CVE-2024-21893",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-22024",
+   "evidence": "CVE-2024-22024",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21888",
+   "evidence": "CVE-2024-21888",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "GLASSTOKEN",
+   "evidence": "GLASSTOKEN",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "GIFTEDVISITOR",
+   "evidence": "GIFTEDVISITOR",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "BUSHWALK",
+   "evidence": "BUSHWALK",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "LIGHTWIRE",
+   "evidence": "LIGHTWIRE",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "CHAINLINE",
+   "evidence": "CHAINLINE",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "freerdp",
+   "evidence": "freerdp",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "ssh",
+   "evidence": "ssh",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "telnet",
+   "evidence": "telnet",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "nmap",
+   "evidence": "nmap",
+   "aliases": []
+  },
+  {
+   "type": "organization",
+   "name": "Ivanti",
+   "evidence": "Ivanti",
+   "aliases": []
+  },
+  {
+   "type": "organization",
+   "name": "Volexity",
+   "evidence": "Volexity",
+   "aliases": []
+  },
+  {
+   "type": "organization",
+   "name": "Mandiant",
+   "evidence": "Mandiant",
+   "aliases": []
+  },
+  {
+   "type": "organization",
+   "name": "CISA",
+   "evidence": "CISA",
+   "aliases": []
+  },
+  {
+   "type": "organization",
+   "name": "FBI",
+   "evidence": "FBI",
+   "aliases": []
+  },
+  {
+   "type": "organization",
+   "name": "MS-ISAC",
+   "evidence": "MS-ISAC",
+   "aliases": []
+  },
+  {
+   "type": "organization",
+   "name": "ASD’s ACSC",
+   "evidence": "ASD’s ACSC",
+   "aliases": []
+  },
+  {
+   "type": "organization",
+   "name": "NCSC-UK",
+   "evidence": "NCSC-UK",
+   "aliases": []
+  },
+  {
+   "type": "organization",
+   "name": "Cyber Centre",
+   "evidence": "Cyber Centre",
+   "aliases": []
+  },
+  {
+   "type": "organization",
+   "name": "NCSC-NZ",
+   "evidence": "NCSC-NZ",
+   "aliases": []
+  },
+  {
+   "type": "organization",
+   "name": "CERT NZ",
+   "evidence": "CERT NZ",
+   "aliases": []
+  },
+  {
+   "type": "campaign",
+   "name": "PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure",
+   "evidence": "PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "GLASSTOKEN",
+   "evidence": "GLASSTOKEN, GIFTEDVISITOR, BUSHWALK, LIGHTWIRE, CHAINLINE",
+   "aliases": [
+    "GIFTEDVISITOR",
+    "BUSHWALK",
+    "LIGHTWIRE",
+    "CHAINLINE"
+   ]
+  },
+  {
+   "type": "threat-actor",
+   "name": "PRC State-Sponsored Actors",
+   "evidence": "PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-46805",
+   "evidence": "CVE-2023-46805",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21887",
+   "evidence": "CVE-2024-21887",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21893",
+   "evidence": "CVE-2024-21893",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "GLASSTOKEN",
+   "evidence": "GLASSTOKEN, GIFTEDVISITOR, BUSHWALK, LIGHTWIRE, CHAINLINE, freerdp, ssh, telnet, nmap, PRC State-Sponsored Actors",
+   "aliases": [
+    "GIFTEDVISITOR",
+    "BUSHWALK",
+    "LIGHTWIRE",
+    "CHAINLINE",
+    "freerdp",
+    "ssh",
+    "telnet",
+    "nmap"
+   ],
+   "mitre_id": ""
+  },
+  {
+   "type": "threat-actor",
+   "name": "PRC State-Sponsored Actors",
+   "evidence": "PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "intrusion-set",
+   "name": "GLASSTOKEN",
+   "evidence": "GLASSTOKEN, GIFTEDVISITOR, BUSHWALK, LIGHTWIRE, CHAINLINE, freerdp, ssh, telnet, nmap, PRC State-Sponsored Actors"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "GIFTEDVISITOR",
+   "evidence": "GLASSTOKEN, GIFTEDVISITOR, BUSHWALK, LIGHTWIRE, CHAINLINE, freerdp, ssh, telnet, nmap, PRC State-Sponsored Actors"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "BUSHWALK",
+   "evidence": "GLASSTOKEN, GIFTEDVISITOR, BUSHWALK, LIGHTWIRE, CHAINLINE, freerdp, ssh, telnet, nmap, PRC State-Sponsored Actors"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "LIGHTWIRE",
+   "evidence": "GLASSTOKEN, GIFTEDVISITOR, BUSHWALK, LIGHTWIRE, CHAINLINE, freerdp, ssh, telnet, nmap, PRC State-Sponsored Actors"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "CHAINLINE",
+   "evidence": "GLASSTOKEN, GIFTEDVISITOR, BUSHWALK, LIGHTWIRE, CHAINLINE, freerdp, ssh, telnet, nmap, PRC State-Sponsored Actors"
+  },
+  {
+   "type": "threat-actor",
+   "name": "PRC State-Sponsored Actors",
+   "evidence": "GLASSTOKEN, GIFTEDVISITOR, BUSHWALK, LIGHTWIRE, CHAINLINE, freerdp, ssh, telnet, nmap, PRC State-Sponsored Actors"
+  }
+ ],
+ "observables": [
+  {
+   "type": "domain-name",
+   "value": "IC3.gov",
+   "indicates": [
+    "PRC State-Sponsored Actors"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "MS-ISAC",
+   "indicates": [
+    "PRC State-Sponsored Actors"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "cisecurity.org",
+   "indicates": [
+    "PRC State-Sponsored Actors"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "Volexity",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "Mandiant",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "GitHub",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "888-282-0870",
+   "indicates": [
+    "PRC State-Sponsored Actors"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "866-787-4722",
+   "indicates": [
+    "PRC State-Sponsored Actors"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "gpoaccess.com",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "webb-institute.com",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "symantke.com",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "88.119.169.227",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "103.13.28.40",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "46.8.68.100",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "206.189.208.156",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "75.145.243.85",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "47.207.9.89",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "98.160.48.170",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "173.220.106.166",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "73.128.178.221",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.243.177.161",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.213.208.89",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "64.24.179.210",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "75.145.224.109",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.215.39.49",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "71.127.149.194",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "173.53.43.7",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "miltonhouse.nl",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "entraide-internationale.fr",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "api.d-n-s.name",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "cpanel.netbar.org",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "clickcom.click",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "clicko.click",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "duorhytm.fun",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "line-api.com",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "areekaweb.com",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "ehangmun.com",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "secure-cama.com",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "146.0.228.66",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "159.65.130.146",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "8.137.112.245",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "91.92.254.14",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "186.179.39.235",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.215.39.49",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.61.136.14",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "173.220.106.166",
+   "hash": "",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "line-api.com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "areekaweb.com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "ehangmun.com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "secure-cama.com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "146.0.228.66",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "159.65.130.146",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "8.137.112.245",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "91.92.254.14",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "186.179.39.235",
+   "indicates": [
+    "Mass exploitation activity"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.215.39.49",
+   "indicates": [
+    "Post-exploitation activity"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.61.136.14",
+   "indicates": [
+    "Post-exploitation activity"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "173.220.106.166",
+   "indicates": [
+    "Post-exploitation activity"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8bc8f4da98ee05c9d403d2cb76097818de0b524d90bea8ed846615e42cb031d2",
+   "hash": "SHA-256",
+   "indicates": [
+    "COMPLYSHELL"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "26cbb54b1feb75fe008e36285334d747428f80aacdb57badf294e597f3e9430d",
+   "hash": "SHA-256",
+   "indicates": [
+    "GLASSTOKEN"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9d901f1a494ffa98d967ee6ee30a46402c12a807ce425d5f51252eb69941d988",
+   "hash": "SHA-256",
+   "indicates": [
+    "reGeorg"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e192932d834292478c9b1032543c53edfc2b252fdf7e27e4c438f4b249544eeb",
+   "hash": "SHA-256",
+   "indicates": [
+    "pysoxy"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "CVE-2023-46805",
+   "type": "exploits",
+   "target": "malware",
+   "evidence": "CVE-2023-46805"
+  },
+  {
+   "source": "CVE-2024-21887",
+   "type": "exploits",
+   "target": "malware",
+   "evidence": "CVE-2024-21887"
+  },
+  {
+   "source": "CVE-2024-21893",
+   "type": "exploits",
+   "target": "malware",
+   "evidence": "CVE-2024-21893"
+  },
+  {
+   "source": "CVE-2024-22024",
+   "type": "exploits",
+   "target": "malware",
+   "evidence": "CVE-2024-22024"
+  },
+  {
+   "source": "CVE-2024-21888",
+   "type": "exploits",
+   "target": "malware",
+   "evidence": "CVE-2024-21888"
+  },
+  {
+   "source": "GLASSTOKEN",
+   "type": "uses",
+   "target": "CVE-2023-46805",
+   "evidence": "GLASSTOKEN"
+  },
+  {
+   "source": "GIFTEDVISITOR",
+   "type": "uses",
+   "target": "CVE-2023-46805",
+   "evidence": "GIFTEDVISITOR"
+  },
+  {
+   "source": "BUSHWALK",
+   "type": "uses",
+   "target": "CVE-2024-21887",
+   "evidence": "BUSHWALK"
+  },
+  {
+   "source": "LIGHTWIRE",
+   "type": "uses",
+   "target": "CVE-2024-21887",
+   "evidence": "LIGHTWIRE"
+  },
+  {
+   "source": "CHAINLINE",
+   "type": "uses",
+   "target": "CVE-2024-21887",
+   "evidence": "CHAINLINE"
+  },
+  {
+   "source": "Ivanti",
+   "type": "targets",
+   "target": "CVE-2023-46805",
+   "evidence": "Ivanti Connect Secure and Ivanti Policy Secure gateways"
+  },
+  {
+   "source": "Ivanti",
+   "type": "targets",
+   "target": "CVE-2024-21887",
+   "evidence": "Ivanti Connect Secure and Ivanti Policy Secure gateways"
+  },
+  {
+   "source": "Ivanti",
+   "type": "targets",
+   "target": "CVE-2024-21893",
+   "evidence": "Ivanti Connect Secure and Ivanti Policy Secure gateways"
+  },
+  {
+   "source": "Ivanti",
+   "type": "targets",
+   "target": "CVE-2024-22024",
+   "evidence": "Ivanti Connect Secure and Ivanti Policy Secure gateways"
+  },
+  {
+   "source": "Ivanti",
+   "type": "targets",
+   "target": "CVE-2024-21888",
+   "evidence": "Ivanti Connect Secure and Ivanti Policy Secure gateways"
+  },
+  {
+   "source": "Volexity",
+   "type": "attributed-to",
+   "target": "CVE-2023-46805",
+   "evidence": "Volexity reported on two vulnerabilities in Ivanti Connect Secure and Ivanti Policy Secure gateways observed being chained to achieve unauthenticated remote code execution (RCE):"
+  },
+  {
+   "source": "Volexity",
+   "type": "attributed-to",
+   "target": "CVE-2024-21887",
+   "evidence": "Volexity reported on two vulnerabilities in Ivanti Connect Secure and Ivanti Policy Secure gateways observed being chained to achieve unauthenticated remote code execution (RCE):"
+  },
+  {
+   "source": "CISA",
+   "type": "attributed-to",
+   "target": "CVE-2023-46805",
+   "evidence": "CISA identified that Ivanti’s internal and previous external ICT failed to detect compromise."
+  },
+  {
+   "source": "CISA",
+   "type": "attributed-to",
+   "target": "CVE-2024-21887",
+   "evidence": "CISA identified that Ivanti’s internal and previous external ICT failed to detect compromise."
+  },
+  {
+   "source": "CISA",
+   "type": "attributed-to",
+   "target": "CVE-2024-21893",
+   "evidence": "CISA identified that Ivanti’s internal and previous external ICT failed to detect compromise."
+  },
+  {
+   "source": "CISA",
+   "type": "attributed-to",
+   "target": "CVE-2024-22024",
+   "evidence": "CISA identified that Ivanti’s internal and previous external ICT failed to detect compromise."
+  },
+  {
+   "source": "CISA",
+   "type": "attributed-to",
+   "target": "CVE-2024-21888",
+   "evidence": "CISA identified that Ivanti’s internal and previous external ICT failed to detect compromise."
+  },
+  {
+   "source": "PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure",
+   "type": "attributed-to",
+   "target": "CISA",
+   "evidence": "For example, as outlined in PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure, sophisticated actors may remain silent on compromised networks for long periods."
+  },
+  {
+   "source": "GLASSTOKEN",
+   "type": "uses",
+   "target": "freerdp",
+   "evidence": "actors were observed leveraging tools that are native to the Ivanti appliances—such as freerdp, ssh, telnet, and nmap libraries"
+  },
+  {
+   "source": "GLASSTOKEN",
+   "type": "uses",
+   "target": "ssh",
+   "evidence": "actors were observed leveraging tools that are native to the Ivanti appliances—such as freerdp, ssh, telnet, and nmap libraries"
+  },
+  {
+   "source": "GLASSTOKEN",
+   "type": "uses",
+   "target": "telnet",
+   "evidence": "actors were observed leveraging tools that are native to the Ivanti appliances—such as freerdp, ssh, telnet, and nmap libraries"
+  },
+  {
+   "source": "GLASSTOKEN",
+   "type": "uses",
+   "target": "nmap",
+   "evidence": "actors were observed leveraging tools that are native to the Ivanti appliances—such as freerdp, ssh, telnet, and nmap libraries"
+  },
+  {
+   "source": "GLASSTOKEN",
+   "type": "targets",
+   "target": "Ivanti Connect Secure",
+   "evidence": "actors exploited these CVEs for initial access to implant web shells and to harvest credentials stored on the devices"
+  },
+  {
+   "source": "GLASSTOKEN",
+   "type": "targets",
+   "target": "Ivanti Policy Secure",
+   "evidence": "actors exploited these CVEs for initial access to implant web shells and to harvest credentials stored on the devices"
+  },
+  {
+   "source": "GLASSTOKEN",
+   "type": "targets",
+   "target": "U.S. Critical Infrastructure",
+   "evidence": "PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure"
+  },
+  {
+   "source": "PRC State-Sponsored Actors",
+   "type": "targets",
+   "target": "U.S. Critical Infrastructure",
+   "evidence": "PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure"
+  },
+  {
+   "source": "CVE-2023-46805",
+   "type": "exploits",
+   "target": "malware",
+   "evidence": "CISA researchers were able to exfiltrate domain administrator cleartext credentials [TA0006], gain root-level persistence [TA0003], and bypass integrity checks used by the Integrity Checker application."
+  },
+  {
+   "source": "CVE-2024-21887",
+   "type": "exploits",
+   "target": "malware",
+   "evidence": "CISA researchers were able to exfiltrate domain administrator cleartext credentials [TA0006], gain root-level persistence [TA0003], and bypass integrity checks used by the Integrity Checker application."
+  },
+  {
+   "source": "CVE-2024-21893",
+   "type": "exploits",
+   "target": "malware",
+   "evidence": "CISA researchers were able to exfiltrate domain administrator cleartext credentials [TA0006], gain root-level persistence [TA0003], and bypass integrity checks used by the Integrity Checker application."
+  },
+  {
+   "source": "GLASSTOKEN",
+   "type": "uses",
+   "target": "malware",
+   "evidence": "GLASSTOKEN, GIFTEDVISITOR, BUSHWALK, LIGHTWIRE, CHAINLINE, freerdp, ssh, telnet, nmap, PRC State-Sponsored Actors"
+  },
+  {
+   "source": "GLASSTOKEN",
+   "type": "uses",
+   "target": "tool",
+   "evidence": "GLASSTOKEN, GIFTEDVISITOR, BUSHWALK, LIGHTWIRE, CHAINLINE, freerdp, ssh, telnet, nmap, PRC State-Sponsored Actors"
+  },
+  {
+   "source": "GLASSTOKEN",
+   "type": "targets",
+   "target": "organization",
+   "evidence": "PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure"
+  },
+  {
+   "source": "GLASSTOKEN",
+   "type": "uses",
+   "target": "T1059.001",
+   "evidence": "Cyber actors leverage code execution from request parameters that are decoded from hex to base64 decoded, then passed to Assembly.Load(), which is used to execute arbitrary PowerShell commands."
+  },
+  {
+   "source": "GLASSTOKEN",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "Cyber actors will use custom web shells planted on public facing applications which allows persistence in victims’ environment."
+  },
+  {
+   "source": "GLASSTOKEN",
+   "type": "uses",
+   "target": "T1078",
+   "evidence": "Cyber actors leverage compromised accounts to laterally move within internal systems via RDP, SBD, and SSH."
+  },
+  {
+   "source": "GLASSTOKEN",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "Cyber actors may use web shells on internal- and external-facing web servers to establish persistent access to systems."
+  },
+  {
+   "source": "GLASSTOKEN",
+   "type": "uses",
+   "target": "T1203",
+   "evidence": "Cyber actors will exploit software vulnerabilities such as command-injection and achieve unauthenticated remote code execution (RCE)."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "Cyber actors will use custom web shells planted on public facing applications which allows persistence in victims’ environment."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "Cyber actors may use web shells on internal- and external-facing web servers to establish persistent access to systems."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "T1203",
+   "evidence": "Cyber actors will exploit software vulnerabilities such as command-injection and achieve unauthenticated remote code execution (RCE)."
+  },
+  {
+   "source": "COMPLYSHELL",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "Cyber actors may use web shells on internal- and external-facing web servers to establish persistent access to systems."
+  },
+  {
+   "source": "GLASSTOKEN",
+   "type": "uses",
+   "target": "reGeorg",
+   "evidence": "description = \"Detection for a custom webshell seen on external facing server. The webshell contains two functions, the first is to act as a Tunnel, using code borrowed from reGeorg, the second is custom code to execute arbitrary .NET code.\""
+  },
+  {
+   "source": "GLASSTOKEN",
+   "type": "uses",
+   "target": "pysoxy",
+   "evidence": "description = \"SOCKS5 proxy tool used to relay connections.\""
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "qwen3:30b-a3b",
+  "seconds": 167.1,
+  "errors": ""
+ }
+}

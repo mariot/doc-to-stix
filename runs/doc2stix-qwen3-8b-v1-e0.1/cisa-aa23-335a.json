@@ -1,0 +1,114 @@
+{
+ "entities": [
+  {
+   "type": "campaign",
+   "name": "IRGC-Affiliated Cyber Actors Exploit PLCs in Multiple Sectors, Including US Water and Wastewater Systems Facilities",
+   "evidence": "IRGC-Affiliated Cyber Actors Exploit PLCs in"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "mitre_id": "T1190",
+   "evidence": "Address operational technology"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Malware",
+   "mitre_id": "T1587.001",
+   "evidence": "The IRGC-affiliated cyber"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Compromise Infrastructure: Industrial Control Systems",
+   "mitre_id": "T1584.001",
+   "evidence": "These PLCs are commonly used in the Water and Wastewater Systems (WWS) Sector and used in other"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify System Process",
+   "mitre_id": "T1543",
+   "evidence": "With this type of access, deeper device and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify Tools",
+   "mitre_id": "T1685",
+   "evidence": "disabled upload and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "mitre_id": "T1016",
+   "evidence": "changed the default port numbers."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Manipulation: Data Manipulation of Industrial Control Systems",
+   "mitre_id": "T1595.001",
+   "evidence": "processes and equipment. Additionally, the NCSC observed the targeting of PLC devices, including in the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Cyber Tools",
+   "mitre_id": "T1587.002",
+   "evidence": "The IRGC-affiliated APT cyber"
+  }
+ ],
+ "observables": [],
+ "relationships": [
+  {
+   "source": "IRGC-Affiliated Cyber Actors Exploit PLCs in Multiple Sectors, Including US Water and Wastewater Systems Facilities",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "Address operational technology"
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors Exploit PLCs in Multiple Sectors, Including US Water and Wastewater Systems Facilities",
+   "type": "uses",
+   "target": "T1587.001",
+   "evidence": "The IRGC-affiliated cyber"
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors Exploit PLCs in Multiple Sectors, Including US Water and Wastewater Systems Facilities",
+   "type": "uses",
+   "target": "T1584.001",
+   "evidence": "These PLCs are commonly used in the Water and Wastewater Systems (WWS) Sector and used in other"
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors Exploit PLCs in Multiple Sectors, Including US Water and Wastewater Systems Facilities",
+   "type": "uses",
+   "target": "T1543",
+   "evidence": "With this type of access, deeper device and"
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors Exploit PLCs in Multiple Sectors, Including US Water and Wastewater Systems Facilities",
+   "type": "uses",
+   "target": "T1685",
+   "evidence": "disabled upload and"
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors Exploit PLCs in Multiple Sectors, Including US Water and Wastewater Systems Facilities",
+   "type": "uses",
+   "target": "T1016",
+   "evidence": "changed the default port numbers."
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors Exploit PLCs in Multiple Sectors, Including US Water and Wastewater Systems Facilities",
+   "type": "uses",
+   "target": "T1595.001",
+   "evidence": "processes and equipment. Additionally, the NCSC observed the targeting of PLC devices, including in the"
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors Exploit PLCs in Multiple Sectors, Including US Water and Wastewater Systems Facilities",
+   "type": "uses",
+   "target": "T1587.002",
+   "evidence": "The IRGC-affiliated APT cyber"
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "doc2stix-qwen3-8b:v1",
+  "seconds": 526.4,
+  "errors": "2 unparsable chunk(s)"
+ }
+}

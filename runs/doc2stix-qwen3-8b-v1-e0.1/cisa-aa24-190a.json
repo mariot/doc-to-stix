@@ -1,0 +1,1344 @@
+{
+ "entities": [
+  {
+   "type": "attack-pattern",
+   "name": "Data from Information Repositories",
+   "mitre_id": "T1213",
+   "evidence": "g the actor mounting SMB shares from multiple devices)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over C2 Channel",
+   "mitre_id": "T1041",
+   "evidence": "T1041 – Exfiltration Over C2 Channel (regarding the actor’s data exfiltration from Active Directory and mounting shares)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obtain Capabilities: Tool",
+   "mitre_id": "T1588.002",
+   "evidence": "The actor is believed to have used publicly known vulnerabilities to deploy web shells to the compromised appliance from April 2022 onwards. Threat actors from the group are assessed to have attained escalated privileges on the appliance. The ASD’s ACSC could not determine the full extent of the activity due to lack of logging availability. However, evidence on the device indicates that an actor achieved the following:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credentials from Password Stores: Credentials from Password Files",
+   "mitre_id": "T1555.001",
+   "evidence": "The collection of several hundred genuine username and password pairs; and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credentials from Password Stores: Multi-Factor Authentication Token",
+   "mitre_id": "T1555.003",
+   "evidence": "The collection of technical artefacts which may have allowed a malicious actor to access a virtual desktop infrastructure (VDI) session as a legitimate user."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credentials from Password Stores: JSON Web Tokens",
+   "mitre_id": "T1555.004",
+   "evidence": "The actor also used access to the compromised appliance to scrape an SQL server [ T1505.001 ], which resided in the organization’s internal network. It is likely that the actor had access to this data."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "External Remote Services",
+   "mitre_id": "T1133",
+   "evidence": "The host with the compromised appliance provided authentication via Active Directory and a webserver, for users connecting to VDI sessions [ T1021.001 ]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Connections Discovery",
+   "mitre_id": "T1049",
+   "evidence": "There was no evidence of compromise of any of these hosts. However, the access gateway hosts logs showed evidence of significant interactions with known malicious IP addresses. It is likely that this reflected activity that occurred on this host, or network connections with threat actor infrastructure that reached this host. The nature of this activity could not be determined using available evidence but indicates that the group sought to move laterally in the organization’s network [ TA0008 ]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Query Registry",
+   "mitre_id": "T1012",
+   "evidence": "The ASD’s ACSC investigated limited data from the internal organization’s network segment. Attempted or successful malicious activity known to have impacted the internal organization’s network segment includes actor access to VDI-related artefacts, the scraping of an internal SQL server [ T1505.001 ], and unexplained traffic observed going from known malicious IP addresses through the access gateway appliances [ TA0011 ]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "The actor may have been able to use these to create or hijack virtual desktop sessions [ T1563.002 ] and access the internal organization network segment as a legitimate user [ T1078 ]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "The actor also used access to the compromised appliance to scrape an SQL server [ T1505.001 ], which resided in the organization’s internal network. It is likely that the actor had access to this data."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Traffic Signaling",
+   "mitre_id": "T1205",
+   "evidence": "Evidence available from the access gateway appliance revealed that network traffic occurred through or to this device from known malicious IP addresses. As described above, this may indicate that malicious cyber actors impacted or utilized this device, potentially to pivot into the internal network."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Connections Discovery",
+   "mitre_id": "T1049",
+   "evidence": "The actor also used access to the compromised appliance to scrape an SQL server [ T1505.001 ], which resided in the organization’s internal network. It is likely that the actor had access to this data."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credentials from Password Stores: Credentials from Password Files",
+   "mitre_id": "T1555.001",
+   "evidence": "The collection of several hundred genuine username and password pairs; and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credentials from Password Stores: Multi-Factor Authentication Token",
+   "mitre_id": "T1555.003",
+   "evidence": "The collection of technical artefacts which may have allowed a malicious actor to access a virtual desktop infrastructure (VDI) session as a legitimate user."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credentials from Password Stores: JSON Web Tokens",
+   "mitre_id": "T1555.004",
+   "evidence": "The actor also used access to the compromised appliance to scrape an SQL server [ T1505.001 ], which resided in the organization’s internal network. It is likely that the actor had access to this data."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "External Remote Services",
+   "mitre_id": "T1133",
+   "evidence": "The host with the compromised appliance provided authentication via Active Directory and a webserver, for users connecting to VDI sessions [ T1021.001 ]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "The actor may have been able to use these to create or hijack virtual desktop sessions [ T1563.002 ] and access the internal organization network segment as a legitimate user [ T1078 ]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "The actor also used access to the compromised appliance to scrape an SQL server [ T1505.001 ], which resided in the organization’s internal network. It is likely that the actor had access to this data."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Traffic Signaling",
+   "mitre_id": "T1205",
+   "evidence": "Evidence available from the access gateway appliance revealed that network traffic occurred through or to this device from known malicious IP addresses. As described above, this may indicate that malicious cyber actors impacted or utilized this device, potentially to pivot into the internal network."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Connections Discovery",
+   "mitre_id": "T1049",
+   "evidence": "The actor also used access to the compromised appliance to scrape an SQL server [ T1505.001 ], which resided in the organization’s internal network. It is likely that the actor had access to this data."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "World Writable Execution - Non-Temp System Subdirectory",
+   "mitre_id": "T1680",
+   "evidence": "Title: World Writable Execution - Non-Temp System Subdirectory"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "World Writable Execution - Users",
+   "mitre_id": "T1680",
+   "evidence": "Title: World Writable Execution - Users"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable Unused or Unnecessary Network Services",
+   "mitre_id": "T1595",
+   "evidence": "Disable unused or unnecessary network services, ports and protocols."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Use Well-Tuned Web Application Firewalls",
+   "mitre_id": "T1584",
+   "evidence": "Use well-tuned Web application firewalls (WAFs) to protect webservers and applications."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Enforce Least Privilege",
+   "mitre_id": "T1069",
+   "evidence": "Enforce least privilege to limit access to servers, file shares, and other resources."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Segmentation",
+   "mitre_id": "T1480",
+   "evidence": "Network segmentation can make it significantly more difficult for adversaries to locate and gain access to an organizations sensitive data. Segment networks to limit or block lateral movement by denying traffic between computers unless required. Important servers such as Active Directory and other authentication servers should only be able to be administered from a limited number of intermediary servers or “jump servers.” These servers should be closely monitored, be well secured and limit which users and devices are able to connect to them."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Patch Management",
+   "mitre_id": "T1685",
+   "evidence": "Most exploits utilized by the actor were publicly known and had patches or mitigations available. Organizations should ensure that security patches or mitigations are applied to internet facing infrastructure within 48 hours, and where possible, use the latest versions of software and operating systems."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Log Centralization",
+   "mitre_id": "T1654",
+   "evidence": "During ASD’s ACSC investigations, a common issue that reduces the effectiveness and speed of investigative efforts is a lack of comprehensive and historical logging information across a number of areas including web server request logs, Windows event logs and internet proxy logs. ASD’s ACSC recommends reviewing and implementing their guidance on Windows Event Logging and Forwarding including the configuration files and scripts in the Windows Event Logging Repository and the Information Security Manual’s Guidelines for System Monitoring , to include centralizing logs and retaining logs for a suitable period."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Search Open Websites/Domains: Search Engines",
+   "mitre_id": "T1593.002",
+   "evidence": "Gather Victim Network Information: Domain Properties [T1590.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Search Victim-Owned Websites",
+   "mitre_id": "T1594",
+   "evidence": "Search Victim-Owned Websites [T1594]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information: Email Addresses",
+   "mitre_id": "T1589.002",
+   "evidence": "Gather Victim Identity Information: Email Addresses [T1589.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Host Information",
+   "mitre_id": "T1592",
+   "evidence": "Gather Victim Host Information [T1592]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning: Vulnerability Scanning",
+   "mitre_id": "T1595.002",
+   "evidence": "Active Scanning: Vulnerability Scanning [T1595.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information: Credentials",
+   "mitre_id": "T1589.001",
+   "evidence": "Gather Victim Identity Information: Credentials [T1589.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure: Domains",
+   "mitre_id": "T1583.001",
+   "evidence": "Acquire Infrastructure: Domains [T1583.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure",
+   "mitre_id": "T1583",
+   "evidence": "Acquire Infrastructure [T1583]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure: DNS Server",
+   "mitre_id": "T1583.002",
+   "evidence": "Acquire Infrastructure: DNS Server [T1583.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Malware",
+   "mitre_id": "T1587.001",
+   "evidence": "Develop Capabilities: Malware [T1587.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Digital Certificates",
+   "mitre_id": "T1588.004",
+   "evidence": "Obtain Capabilities: Digital Certificates [T1588.004]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Code Signing Certificates",
+   "mitre_id": "T1587.002",
+   "evidence": "Develop Capabilities: Code Signing Certificates [T1587.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obtain Capabilities: Digital Certificates",
+   "mitre_id": "T1588.004",
+   "evidence": "Obtain Capabilities: Digital Certificates [T1588.004]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obtain Capabilities: Code Signing Certificates",
+   "mitre_id": "T1588.003",
+   "evidence": "Develop Capabilities: Code Signing Certificates [T1587.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "Valid Accounts [T1078]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Default Accounts",
+   "mitre_id": "T1078.001",
+   "evidence": "Valid Accounts: Default Accounts [T1078.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Domain Accounts",
+   "mitre_id": "T1078.002",
+   "evidence": "Valid Accounts: Domain Accounts [T1078.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "Valid Accounts: Cloud Accounts [T1078.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Local Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "Valid Accounts: Local Accounts [T1078.004]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing",
+   "mitre_id": "T1566",
+   "evidence": "Phishing [T1566]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing: Spearphishing Attachment",
+   "mitre_id": "T1566.001",
+   "evidence": "Phishing: Spearphishing Attachment [T1566.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing: Spearphishing Link",
+   "mitre_id": "T1566.002",
+   "evidence": "Phishing: Spearphishing Link [T1566.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "External Remote Services",
+   "mitre_id": "T1133",
+   "evidence": "External Remote Services [T1133]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "mitre_id": "T1190",
+   "evidence": "Exploit Public-Facing Application [T1190]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Drive-by Compromise",
+   "mitre_id": "T1189",
+   "evidence": "Drive-by Compromise [T1189]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Windows Management Instrumentation",
+   "mitre_id": "T1047",
+   "evidence": "Windows Management Instrumentation [T1047]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Python",
+   "mitre_id": "T1059.006",
+   "evidence": "Command and Scripting Interpreter: Python [T1059.006]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Scheduled Task/Job: At",
+   "mitre_id": "T1053.002",
+   "evidence": "Scheduled Task/Job: At [T1053.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: JavaScript",
+   "mitre_id": "T1059.007",
+   "evidence": "Command and Scripting Interpreter: JavaScript [T1059.007]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Scheduled Task/Job: Scheduled Task",
+   "mitre_id": "T1053.005",
+   "evidence": "Scheduled Task/Job: Scheduled Task [T1053.005]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Native API",
+   "mitre_id": "T1106",
+   "evidence": "Native API [T1106]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter",
+   "mitre_id": "T1059",
+   "evidence": "Command and Scripting Interpreter [T1059]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Inter-Process Communication",
+   "mitre_id": "T1559",
+   "evidence": "Inter-Process Communication [T1559]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "Command and Scripting Interpreter: Windows Command Shell [T1059.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Services: Service Execution",
+   "mitre_id": "T1569.002",
+   "evidence": "System Services: Service Execution [T1569.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001",
+   "evidence": "Command and Scripting Interpreter: PowerShell [T1059.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Client Execution",
+   "mitre_id": "T1203",
+   "evidence": "Exploitation for Client Execution [T1203]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Visual Basic",
+   "mitre_id": "T1059.005",
+   "evidence": "Command and Scripting Interpreter: Visual Basic [T1059.005]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "User Execution: Malicious File",
+   "mitre_id": "T1204.002",
+   "evidence": "User Execution: Malicious File [T1204.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Unix Shell",
+   "mitre_id": "T1059.004",
+   "evidence": "Command and Scripting Interpreter: Unix Shell [T1059.004]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Apple Script",
+   "mitre_id": "T1059.002",
+   "evidence": "Command and Scripting Interpreter: Apple Script [T1059.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Scheduled Task/Job: Cron",
+   "mitre_id": "T1053.003",
+   "evidence": "Scheduled Task/Job: Cron [T1053.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Software Deployment Tools",
+   "mitre_id": "T1072",
+   "evidence": "Software Deployment Tools [T1072]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "Valid Accounts [T1078]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Shell",
+   "mitre_id": "T1505.003",
+   "evidence": "Server Software Component: Web Shell [T1505.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Office Application Startup: Office Template Macros",
+   "mitre_id": "T1137.001",
+   "evidence": "Office Application Startup: Office Template Macros [T1137.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create or Modify System Process: Windows Service",
+   "mitre_id": "T1543.003",
+   "evidence": "Create or Modify System Process: Windows Service [T1543.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Scheduled Task/Job: At",
+   "mitre_id": "T1053.002",
+   "evidence": "Scheduled Task/Job: At [T1053.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder",
+   "mitre_id": "T1547.001",
+   "evidence": "Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder [T1547.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Scheduled Task/Job: Scheduled Task",
+   "mitre_id": "T1053.005",
+   "evidence": "Scheduled Task/Job: Scheduled Task [T1053.005]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Boot or Logon Autostart Execution: Shortcut Modification",
+   "mitre_id": "T1547.009",
+   "evidence": "Boot or Logon Autostart Execution: Shortcut Modification [T1547.009]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "External Remote Services",
+   "mitre_id": "T1133",
+   "evidence": "External Remote Services [T1133]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Hijack Execution Flow: DLL Search Order Hijacking",
+   "mitre_id": "T1574.001",
+   "evidence": "Hijack Execution Flow: DLL Search Order Hijacking [T1574.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Scheduled Task/Job: Cron",
+   "mitre_id": "T1053.003",
+   "evidence": "Scheduled Task/Job: Cron [T1053.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Hijack Execution Flow: DLL Side-Loading",
+   "mitre_id": "T1574.002",
+   "evidence": "Hijack Execution Flow: DLL Side-Loading [T1574.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Manipulation",
+   "mitre_id": "T1098",
+   "evidence": "Account Manipulation [T1098]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "Valid Accounts: Cloud Accounts [T1078.004]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Domain Accounts",
+   "mitre_id": "T1078.002",
+   "evidence": "Valid Accounts: Domain Accounts [T1078.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create or Modify System Process: Windows Service",
+   "mitre_id": "T1543.003",
+   "evidence": "Create or Modify System Process: Windows Service [T1543.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Scheduled Task/Job: At",
+   "mitre_id": "T1053.002",
+   "evidence": "Scheduled Task/Job: At [T1053.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Process Injection: Thread Execution Hijacking",
+   "mitre_id": "T1055.003",
+   "evidence": "Process Injection: Thread Execution Hijacking [T1055.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Boot or Logon Autostart Execution: Shortcut Modification",
+   "mitre_id": "T1547.009",
+   "evidence": "Boot or Logon Autostart Execution: Shortcut Modification [T1547.009]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Process Injection: Process Hollowing",
+   "mitre_id": "T1055.012",
+   "evidence": "Process Injection: Process Hollowing [T1055.012]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Hijack Execution Flow: DLL Search Order Hijacking",
+   "mitre_id": "T1574.001",
+   "evidence": "Hijack Execution Flow: DLL Search Order Hijacking [T1574.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Domain Accounts",
+   "mitre_id": "T1078.002",
+   "evidence": "Valid Accounts: Domain Accounts [T1078.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Privilege Escalation",
+   "mitre_id": "T1068",
+   "evidence": "Exploitation for Privilege Escalation [T1068]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Access Token Manipulation: Token Impersonation/Theft",
+   "mitre_id": "T1134.001",
+   "evidence": "Access Token Manipulation: Token Impersonation/Theft [T1134.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Event Triggered Execution: Unix Shell Configuration Modification",
+   "mitre_id": "T1546.004",
+   "evidence": "Event Triggered Execution: Unix Shell Configuration Modification [T1546.004]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Process Injection: Dynamic-link Library Injection",
+   "mitre_id": "T1055.001",
+   "evidence": "Process Injection: Dynamic-link Library Injection [T1055.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Domain Accounts",
+   "mitre_id": "T1078.002",
+   "evidence": "Valid Accounts: Domain Accounts [T1078.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Local Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "Valid Accounts: Local Accounts [T1078.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Rootkit",
+   "mitre_id": "T1014",
+   "evidence": "Rootkit [T1014]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indirect Command Execution",
+   "mitre_id": "T1202",
+   "evidence": "Indirect Command Execution [T1202]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information",
+   "mitre_id": "T1027",
+   "evidence": "Obfuscated Files or Information [T1027]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Binary Proxy Execution: Mshta",
+   "mitre_id": "T1218.005",
+   "evidence": "System Binary Proxy Execution: Mshta [T1218.005]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information: Software Packing",
+   "mitre_id": "T1027.002",
+   "evidence": "Obfuscated Files or Information: Software Packing [T1027.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Binary Proxy Execution: Regsvr32",
+   "mitre_id": "T1218.010",
+   "evidence": "System Binary Proxy Execution: Regsvr32 [T1218.010]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information: Steganography",
+   "mitre_id": "T1027.003",
+   "evidence": "Obfuscated Files or Information: Steganography [T1027.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Subvert Trust Controls: Code Signing",
+   "mitre_id": "T1553.002",
+   "evidence": "Subvert Trust Controls: Code Signing [T1553.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information: Compile After Delivery",
+   "mitre_id": "T1027.004",
+   "evidence": "Obfuscated Files or Information: Compile After Delivery [T1027.004]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "File and Directory Permissions Modifications: Linux and Mac File and Directory Permissions Modification",
+   "mitre_id": "T1222.002",
+   "evidence": "File and Directory Permissions Modifications: Linux and Mac File and Directory Permissions Modification [T1222.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "Masquerading: Match Legitimate Name or Location [T1036.005]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Virtualisation/Sandbox Evasion: System Checks",
+   "mitre_id": "T1497.001",
+   "evidence": "Virtualisation/Sandbox Evasion: System Checks [T1497.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Process Injection: Thread Execution Hijacking",
+   "mitre_id": "T1055.003",
+   "evidence": "Process Injection: Thread Execution Hijacking [T1055.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading",
+   "mitre_id": "T1036",
+   "evidence": "Masquerading [T1036]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Reflective Code Loading",
+   "mitre_id": "T1620",
+   "evidence": "Reflective Code Loading [T1620]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Impair Defences: Disable or Modify System Firewall",
+   "mitre_id": "T1562.004",
+   "evidence": "Impair Defences: Disable or Modify System Firewall [T1562.004]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Process Injection: Process Hollowing",
+   "mitre_id": "T1055.012",
+   "evidence": "Process Injection: Process Hollowing [T1055.012]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Hide Artifacts: Hidden Files and Directories",
+   "mitre_id": "T1564.001",
+   "evidence": "Hide Artifacts: Hidden Files and Directories [T1564.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: File Deletion",
+   "mitre_id": "T1070.004",
+   "evidence": "Indicator Removal: File Deletion [T1070.004]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Hide Artifacts: Hidden Window",
+   "mitre_id": "T1564.003",
+   "evidence": "Hide Artifacts: Hidden Window [T1564.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: Timestomp",
+   "mitre_id": "T1070.006",
+   "evidence": "Indicator Removal: Timestomp [T1070.006]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Hijack Execution Flow: DLL Search Order Hijacking",
+   "mitre_id": "T1574.001",
+   "evidence": "Hijack Execution Flow: DLL Search Order Hijacking [T1574.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: Clear Windows Event Logs",
+   "mitre_id": "T1070.001",
+   "evidence": "Indicator Removal: Clear Windows Event Logs [T1070.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Hijack Execution Flow: DLL Side-Loading",
+   "mitre_id": "T1574.002",
+   "evidence": "Hijack Execution Flow: DLL Side-Loading [T1574.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1497.001",
+   "mitre_id": "T1497.001",
+   "evidence": "ks [T1497.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1055.003",
+   "mitre_id": "T1055.003",
+   "evidence": "Process Injection: Thread Execution Hijacking [T1055.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1036",
+   "mitre_id": "T1036",
+   "evidence": "Masquerading [T1036]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1620",
+   "mitre_id": "T1620",
+   "evidence": "Reflective Code Loading [T1620]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1562.004",
+   "mitre_id": "T1562.004",
+   "evidence": "Impair Defences: Disable or Modify System Firewall [T1562.004]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1055.012",
+   "mitre_id": "T1055.012",
+   "evidence": "Process Injection: Process Hollowing [T1055.012]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1564.001",
+   "mitre_id": "T1564.001",
+   "evidence": "Hide Artifacts: Hidden Files and Directories [T1564.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1070.004",
+   "mitre_id": "T1070.004",
+   "evidence": "Indicator Removal: File Deletion [T1070.004]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1564.003",
+   "mitre_id": "T1564.003",
+   "evidence": "Hide Artifacts: Hidden Window [T1564.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1070.006",
+   "mitre_id": "T1070.006",
+   "evidence": "Indicator Removal: Timestomp [T1070.006]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1574.001",
+   "mitre_id": "T1574.001",
+   "evidence": "Hijack Execution Flow: DLL Search Order Hijacking [T1574.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1070.001",
+   "mitre_id": "T1070.001",
+   "evidence": "Indicator Removal: Clear Windows Event Logs [T1070.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1574.002",
+   "mitre_id": "T1574.002",
+   "evidence": "Hijack Execution Flow: DLL Side-Loading [T1574.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1112",
+   "mitre_id": "T1112",
+   "evidence": "Modify Registry [T1112]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1102",
+   "mitre_id": "T1102",
+   "evidence": "Web Service [T1102]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1140",
+   "mitre_id": "T1140",
+   "evidence": "Deobfuscate/Decode Files or Information [T1140]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1036.004",
+   "mitre_id": "T1036.004",
+   "evidence": "Masquerading: Masquerade Task or Service [T1036.004]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1562",
+   "mitre_id": "T1562",
+   "evidence": "Impair Defenses [T1562]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1003.001",
+   "mitre_id": "T1003.001",
+   "evidence": "OS Credential Dumping: LSASS Memory [T1003.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1552.001",
+   "mitre_id": "T1552.001",
+   "evidence": "Unsecured Credentials: Credentials in Files [T1552.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1003.003",
+   "mitre_id": "T1003.003",
+   "evidence": "OS Credential Dumping: NTDS [T1003.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1110.001",
+   "mitre_id": "T1110.001",
+   "evidence": "Brute Force: Password Guessing [T1110.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1040",
+   "mitre_id": "T1040",
+   "evidence": "Network Sniffing [T1040]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1187",
+   "mitre_id": "T1187",
+   "evidence": "Forced Authentication [T1187]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1555.001",
+   "mitre_id": "T1555.001",
+   "evidence": "Credentials from Password Stores: Keychain [T1555.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1558.003",
+   "mitre_id": "T1558.003",
+   "evidence": "Steal or Forge Kerberos Tickets: Kerberoasting [T1558.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1056.001",
+   "mitre_id": "T1056.001",
+   "evidence": "Input Capture: Keylogging [T1056.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1111",
+   "mitre_id": "T1111",
+   "evidence": "Multi-Factor Authentication Interception [T1111]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1539",
+   "mitre_id": "T1539",
+   "evidence": "Steal Web Session Cookie [T1539]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1528",
+   "mitre_id": "T1528",
+   "evidence": "Steal Application Access Token [T1528]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1212",
+   "mitre_id": "T1212",
+   "evidence": "Exploitation for Credential Access [T1212]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1110.002",
+   "mitre_id": "T1110.002",
+   "evidence": "Brute Force: Password Cracking [T1110.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1056.003",
+   "mitre_id": "T1056.003",
+   "evidence": "Input Capture: Web Portal Capture [T1056.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1003.006",
+   "mitre_id": "T1003.006",
+   "evidence": "OS Credential Dumping: DCSync [T1003.006]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1555",
+   "mitre_id": "T1555",
+   "evidence": "Credentials from Password Stores [T1555]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1555.003",
+   "mitre_id": "T1555.003",
+   "evidence": "Credentials from Password Stores: Credentials from Web Browsers [T1555.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1007",
+   "mitre_id": "T1007",
+   "evidence": "System Service Discovery [T1007]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1082",
+   "mitre_id": "T1082",
+   "evidence": "System Information Discovery [T1082]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1010",
+   "mitre_id": "T1010",
+   "evidence": "Application Window Discovery [T1010]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1087.001",
+   "mitre_id": "T1087.001",
+   "evidence": "Account Discovery: Local Account [T1087.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1012",
+   "mitre_id": "T1012",
+   "evidence": "Query Registry [T1012]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1083",
+   "mitre_id": "T1083",
+   "evidence": "File and Directory Discovery [T1083]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1124",
+   "mitre_id": "T1124",
+   "evidence": "System Time Discovery [T1124]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1046",
+   "mitre_id": "T1046",
+   "evidence": "Network Service Discovery [T1046]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1033",
+   "mitre_id": "T1033",
+   "evidence": "System Owner/User Discovery [T1033]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1018",
+   "mitre_id": "T1018",
+   "evidence": "Remote System Discovery [T1018]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1482",
+   "mitre_id": "T1482",
+   "evidence": "Domain Trust Discovery [T1482]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1087.003",
+   "mitre_id": "T1087.003",
+   "evidence": "Account Discovery: Email Account [T1087.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1087.002",
+   "mitre_id": "T1087.002",
+   "evidence": "Account Discovery: Domain Account [T1087.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1049",
+   "mitre_id": "T1049",
+   "evidence": "System Network Connections Discovery [T1049]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1497.001",
+   "mitre_id": "T1497.001",
+   "evidence": "Virtualisation/Sandbox Evasion: System Checks [T1497.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1057",
+   "mitre_id": "T1057",
+   "evidence": "Process Discovery [T1057]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1518",
+   "mitre_id": "T1518",
+   "evidence": "Software Discovery [T1518]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1069.002",
+   "mitre_id": "T1069.002",
+   "evidence": "Permission Groups Discovery: Domain Groups [T1069.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1135",
+   "mitre_id": "T1135",
+   "evidence": "Network Share Discovery, Technique T1135 - Enterprise | MITRE ATT&CK®"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1016.001",
+   "mitre_id": "T1016.001",
+   "evidence": "System Network Configuration Discovery: Internet Connection Discovery [T1016.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1021.001",
+   "mitre_id": "T1021.001",
+   "evidence": "Remote Services: Remote Desktop Protocol [T1021.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1021",
+   "mitre_id": "T1021",
+   "evidence": "Remote Services [T1021]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1021.002",
+   "mitre_id": "T1021.002",
+   "evidence": "Remote Services: SMB/Windows Admin Shares [T1021.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1550.003",
+   "mitre_id": "T1550.003",
+   "evidence": "Use Alternate Authentication Material: Pass the Ticket [T1550.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1021.006",
+   "mitre_id": "T1021.006",
+   "evidence": "Remote Services: Windows Remote Management [T1021.006]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1570",
+   "mitre_id": "T1570",
+   "evidence": "Lateral Tool Transfer [T1570]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1005",
+   "mitre_id": "T1005",
+   "evidence": "Data from Local System [T1005]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1560.002",
+   "mitre_id": "T1560.002",
+   "evidence": "Archive Collected Data: Archive via Library [T1560.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1039",
+   "mitre_id": "T1039",
+   "evidence": "Data from Network Shared Drive [T1039]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1114.002",
+   "mitre_id": "T1114.002",
+   "evidence": "Email Collection: Remote Email Collection [T1114.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1056.001",
+   "mitre_id": "T1056.001",
+   "evidence": "Input Capture: Keylogging [T1056.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1115",
+   "mitre_id": "T1115",
+   "evidence": "Clipboard Data [T1115]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1119",
+   "mitre_id": "T1119",
+   "evidence": "Automated Collection [T1119]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1213",
+   "mitre_id": "T1213",
+   "evidence": "Data from Information Repositories [T1213]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1056.003",
+   "mitre_id": "T1056.003",
+   "evidence": "Input Capture: Web Portal Capture [T1056.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1074.002",
+   "mitre_id": "T1074.002",
+   "evidence": "Data Staged: Remote Data Staging [T1074.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1074.001",
+   "mitre_id": "T1074.001",
+   "evidence": "Data Staged: Local Data Staging [T1074.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1560",
+   "mitre_id": "T1560",
+   "evidence": "Archive Collected Data [T1560]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1114",
+   "mitre_id": "T1114",
+   "evidence": "Email Collection [T1114]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1041",
+   "mitre_id": "T1041",
+   "evidence": "Exfiltration Over C2 Channel [T1041]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1048.002",
+   "mitre_id": "T1048.002",
+   "evidence": "Exfiltration Over Alternative Protocol: Exfiltration Over Asymmetric Encrypted Non-C2 Protocol [T1048.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1048",
+   "mitre_id": "T1048",
+   "evidence": "Exfiltration Over Alternative Protocol [T1048]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1567.002",
+   "mitre_id": "T1567.002",
+   "evidence": "Exfiltration Over Web Service: Exfiltration to Cloud Storage [T1567.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1001.003",
+   "mitre_id": "T1001.003",
+   "evidence": "Data Obfuscation: Protocol Impersonation [T1001.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1102.001",
+   "mitre_id": "T1102.001",
+   "evidence": "Web Service: Dead Drop Resolver [T1102.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1043",
+   "mitre_id": "T1043",
+   "evidence": "Commonly Used Port [T1043]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1102.003",
+   "mitre_id": "T1102.003",
+   "evidence": "Web Service: One-way Communication [T1102.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1071.001",
+   "mitre_id": "T1071.001",
+   "evidence": "Application Layer Protocol: Web Protocols [T1071.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1090.001",
+   "mitre_id": "T1090.001",
+   "evidence": "Proxy: Internal Proxy [T1090.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1090.002",
+   "mitre_id": "T1090.002",
+   "evidence": "Proxy: External Proxy [T1090.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1571",
+   "mitre_id": "T1571",
+   "evidence": "Non-Standard Port [T1571]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1090.003",
+   "mitre_id": "T1090.003",
+   "evidence": "Proxy: Multi-hop Proxy [T1090.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1572",
+   "mitre_id": "T1572",
+   "evidence": "Protocol Tunnelling [T1572]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1102.002",
+   "mitre_id": "T1102.002",
+   "evidence": "Web Service: Bidirectional Communication [T1102.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1573",
+   "mitre_id": "T1573",
+   "evidence": "Encrypted Channel [T1573]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1573.002",
+   "mitre_id": "T1573.002",
+   "evidence": "Encrypted Channel: Asymmetric Cryptography [T1573.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1105",
+   "mitre_id": "T1105",
+   "evidence": "Ingress Tool Transfer [T1105]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1090",
+   "mitre_id": "T1090",
+   "evidence": "Proxy, Technique T1090 - Enterprise | MITRE ATT&CK®"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1489",
+   "mitre_id": "T1489",
+   "evidence": "Service Stop [T1489]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1561",
+   "mitre_id": "T1561",
+   "evidence": "Disk Wipe [T1561]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1529",
+   "mitre_id": "T1529",
+   "evidence": "System Shutdown/Reboot [T1529]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1496",
+   "mitre_id": "T1496",
+   "evidence": "Resource Hijacking [T1496]"
+  }
+ ],
+ "observables": [],
+ "relationships": [],
+ "_meta": {
+  "engine": "0.1",
+  "model": "doc2stix-qwen3-8b:v1",
+  "seconds": 1232.4,
+  "errors": "3 unparsable chunk(s)"
+ }
+}

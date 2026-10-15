@@ -1,0 +1,508 @@
+{
+ "entities": [
+  {
+   "type": "attack-pattern",
+   "name": "Data Destruction",
+   "mitre_id": "T1485",
+   "evidence": "Data Destruction T1485 Unit 29155 cyber actors’ objectives include the destruction of data."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Web Service: Exfiltration to Cloud Storage",
+   "mitre_id": "T1567.002",
+   "evidence": "T1567.002 Unit 29155 cyber actors exfiltrated data to the cloud storage and file"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Protocol Tunneling",
+   "mitre_id": "T1572",
+   "evidence": "Protocol Tunneling T1572"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Non-Application Layer Protocol",
+   "mitre_id": "T1095",
+   "evidence": "Non-Application"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Ingress Tool Transfer",
+   "mitre_id": "T1105",
+   "evidence": "Ingress Tool"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Application Layer Protocol: DNS",
+   "mitre_id": "T1071.004",
+   "evidence": "Protocol: DNS T1071.004 Unit 29155 cyber actors used DNS tunneling tools, such as dnscat/2"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Application Layer Protocol: Web Protocols",
+   "mitre_id": "T1071.001",
+   "evidence": "T1071.001 Unit 29155 cyber actors use POST requests over HTTP to send payloads"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy: Multi-hop Proxy",
+   "mitre_id": "T1090.003",
+   "evidence": "Proxy T1090.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration to Cloud Storage",
+   "mitre_id": "T1567.002",
+   "evidence": "T1567.002 Unit 29155 cyber actors exfiltrated data to the cloud storage and file"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Protocol Tunneling",
+   "mitre_id": "T1572",
+   "evidence": "Protocol Tunneling T1572"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Non-Application Layer Protocol",
+   "mitre_id": "T1095",
+   "evidence": "Non-Application"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Ingress Tool Transfer",
+   "mitre_id": "T1105",
+   "evidence": "Ingress Tool"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Application Layer Protocol: DNS",
+   "mitre_id": "T1071.004",
+   "evidence": "Protocol: DNS T1071.004 Unit 29155 cyber actors used DNS tunneling tools, such as dnscat/2"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Application Layer Protocol: Web Protocols",
+   "mitre_id": "T1071.001",
+   "evidence": "T1071.001 Unit 29155 cyber actors use POST requests over HTTP to send payloads"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy: Multi-hop Proxy",
+   "mitre_id": "T1090.003",
+   "evidence": "Proxy T1090.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Corrupt Volume Boot Record",
+   "mitre_id": "T1542",
+   "evidence": "Your hard drive has been corrupted. In case you want to recover all hard drives of your"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Encrypted for Impact",
+   "mitre_id": "T1486",
+   "evidence": "files based on certain file extensions (see AA22-057A). The actors"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Web Service: Bidirectional Communication",
+   "mitre_id": "T1102.002",
+   "evidence": "the binary communicated with Discord to"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Stage Capabilities",
+   "mitre_id": "T1608",
+   "evidence": "obtain Tbopbh.jpg—the malicious payload that is in-memory loaded and performs the destructive"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing: Spearphishing Attachment",
+   "mitre_id": "T1566.001",
+   "evidence": "Several Microsoft Word documents with macros that download test01.exe from 3237.site."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Ingress Tool Transfer",
+   "mitre_id": "T1105",
+   "evidence": "Once executed, test01.exe downloads load2022.exe from smm2021.net."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Bootkit",
+   "mitre_id": "T1542.001",
+   "evidence": "stage1.exe was obtained from the C:\\ path of the Ukrainian victim’s Windows machine. stage1.exe"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Bootkit",
+   "mitre_id": "T1542.001",
+   "evidence": "executes when the infected device is powered down, overwriting the master boot record (MBR) and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading",
+   "mitre_id": "T1036",
+   "evidence": "preventing the system from booting normally. Table 15 lists the hashes and properties attributed to"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Financial Theft",
+   "mitre_id": "T1657",
+   "evidence": "Your hard drive has been corrupted. In case you want to recover all hard drives of your"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Financial Theft",
+   "mitre_id": "T1657",
+   "evidence": "organization, You should pay us $10k via bitcoin wallet"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information: Encrypted/Encoded File",
+   "mitre_id": "T1027.013",
+   "evidence": "The original filename from the resulting payload was a Dynamic Link Library (DLL) file,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Reflective Code Loading",
+   "mitre_id": "T1620",
+   "evidence": "stage2.exe was observed calling method Ylfwdwgmpilzyaph to begin decrypting resource"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "The VBS code listed in Table 22 used a WScript shell that executed as a Windows application, which ran a"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: File Deletion",
+   "mitre_id": "T1070.004",
+   "evidence": "cmd.exe /min /C ping 111.111.111.111 -n 5 -w 10 > Nul &"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: File Corruption",
+   "mitre_id": "T1070.001",
+   "evidence": "The reversed and decompressed Waqybg files contained file corruption logic along with a final command to"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "Waqybg is known as WhisperKill—a malware downloaded by WhisperGate that destroys"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "stage2.exe and its respective payload, Tbopbh.jpg, served as a template for other malware within"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information: Encrypted/Encoded File",
+   "mitre_id": "T1027.013",
+   "evidence": "Table 26: Files Located in Discord Cluster 1"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Unit 29155",
+   "evidence": "and have been historically"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure: Server",
+   "mitre_id": "T1583.004",
+   "evidence": "and have been historically"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obtain Capabilities: Tool",
+   "mitre_id": "T1588.002",
+   "evidence": "These IPs are considered historical infrastructure and should be"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "Table 27: IP Addresses Associated with Unit 29155 Infrastructure"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Domain Controller",
+   "mitre_id": "T1505.002",
+   "evidence": "Table 28: Domains Hosting Jump Host Tooling"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Shell",
+   "mitre_id": "T1505.003",
+   "evidence": "https://nssm[.]cc"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Service",
+   "mitre_id": "T1505.004",
+   "evidence": "https://3proxy[.]ru"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Proxy",
+   "mitre_id": "T1505.006",
+   "evidence": "https://ngrok[.]com (Note: This domain is a legitimate service leveraged for"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Mail Server",
+   "mitre_id": "T1505.005",
+   "evidence": "194.26.29[.]84"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Mail Server",
+   "mitre_id": "T1505.005",
+   "evidence": "194.26.29[.]95"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Mail Server",
+   "mitre_id": "T1505.005",
+   "evidence": "194.26.29[.]98"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Mail Server",
+   "mitre_id": "T1505.005",
+   "evidence": "194.26.29[.]251"
+  }
+ ],
+ "observables": [
+  {
+   "type": "ipv4-addr",
+   "value": "192.168.1.1"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "192.168.1.2"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "192.168.1.3"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "192.168.1.4"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "192.168.1.5"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "192.168.1.6"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "192.168.1.7"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "192.168.1.8"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "192.168.1.9"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "192.168.1.10"
+  },
+  {
+   "type": "file",
+   "value": "34ca75a8c190f20b8a7596afeb255f2228cb2467bd210b2637965b61ac7ea907",
+   "hash": "SHA-256",
+   "indicates": [
+    "78c855a088924e92a7f60d661c3d1845"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "29ae7b30ed8394c509c561f6117ea671ec412da50d435099756bbb257fafb10b",
+   "hash": "SHA-256",
+   "indicates": [
+    "17fc12902f4769af3a9271eb4e2dacce"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "3907c7fbd4148395284d8e6e3c1dba5d",
+   "hash": "MD5",
+   "indicates": [
+    "34ca75a8c190f20b8a7596afeb255f2228cb2467bd210b2637965b61ac7ea907"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "35feefe6bd2b982cb1a5d4c1d094e8665c51752d0a6f7e3cae546d770c280f3a",
+   "hash": "SHA-256",
+   "indicates": [
+    "78c855a088924e92a7f60d661c3d1845"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "5a537673c34933fc854fbfb65477a686",
+   "hash": "MD5",
+   "indicates": [
+    "78c855a088924e92a7f60d661c3d1845"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "489ab4819830d231c3fc3572c5386cad9d18773a8121373ea8174de981cc9166",
+   "hash": "SHA-256",
+   "indicates": [
+    "78c855a088924e92a7f60d661c3d1845"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9b1191f1ceddf312b0d609cd929c6631",
+   "hash": "MD5",
+   "indicates": [
+    "34ca75a8c190f20b8a7596afeb255f2228cb2467bd210b2637965b61ac7ea907"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0dd61a16c625c49ffefaf4ce24cabf9a074028a06640d9bbb804f735ff56dfa3",
+   "hash": "SHA-256",
+   "indicates": [
+    "34ca75a8c190f20b8a7596afeb255f2228cb2467bd210b2637965b61ac7ea907"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "29d83f29c0b0a0b7499e71e7d5cb713f",
+   "hash": "SHA-256",
+   "indicates": [
+    "34ca75a8c190f20b8a7596afeb255f2228cb2467bd210b2637965b61ac7ea907"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d034fe4c71b16b6d331886c24fef2751",
+   "hash": "MD5",
+   "indicates": [
+    "4074798a621232dc448b65db7b1fdd66"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "7f84263fd24f783ff72d5ae91011b558",
+   "hash": "SHA-256",
+   "indicates": [
+    "422437f326b8dbe30cc5f103bde31f26"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.226.139.66"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.141.87.11"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "46.101.242.222"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "62.173.140.223"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "79.124.8.66"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "90.131.156.107"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "112.51.253.153"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "112.132.218.45"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "154.21.20.82"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.133.202"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.142.42"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.162.55"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.175.38"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.175.108"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.176.60"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.187.47"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.189.218"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.245.84.227"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.245.85.251"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "194.26.29.84"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "194.26.29.95"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "194.26.29.98"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "194.26.29.251"
+  }
+ ],
+ "relationships": [],
+ "_meta": {
+  "engine": "0.1",
+  "model": "doc2stix-qwen3-8b:v1",
+  "seconds": 1708.0,
+  "errors": "6 unparsable chunk(s)"
+ }
+}

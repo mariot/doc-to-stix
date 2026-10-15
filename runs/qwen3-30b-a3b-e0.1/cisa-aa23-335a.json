@@ -1,0 +1,391 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "CyberAv3ngers",
+   "evidence": "IRGC-affiliated cyber actors using the persona \"CyberAv3ngers\" began actively targeting and compromising Israeli-made Unitronics Vision Series programmable logic controllers (PLCs) and human machine interfaces (HMIs).",
+   "aliases": [
+    "CyberAv3ngers"
+   ]
+  },
+  {
+   "type": "threat-actor",
+   "name": "Islamic Revolutionary Guard Corps (IRGC)",
+   "evidence": "IRGC-affiliated cyber actors",
+   "aliases": [
+    "IRGC"
+   ]
+  },
+  {
+   "type": "sector",
+   "name": "Water and Wastewater Systems (WWS) Sector",
+   "evidence": "These PLCs are commonly used in the Water and Wastewater Systems (WWS) Sector and used in other industries including, but not limited to, energy, food and beverage manufacturing, transportation systems, and healthcare.",
+   "aliases": [
+    "Water and Wastewater Systems",
+    "WWS Sector"
+   ]
+  },
+  {
+   "type": "sector",
+   "name": "Energy",
+   "evidence": "These PLCs are commonly used in the Water and Wastewater Systems (WWS) Sector and used in other industries including, but not limited to, energy, food and beverage manufacturing, transportation systems, and healthcare.",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Food and beverage manufacturing",
+   "evidence": "These PLCs are commonly used in the Water and Wastewater Systems (WWS) Sector and used in other industries including, but not limited to, energy, food and beverage manufacturing, transportation systems, and healthcare.",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Transportation systems",
+   "evidence": "These PLCs are commonly used in the Water and Wastewater Systems (WWS) Sector and used in other industries including, but not limited to, energy, food and beverage manufacturing, transportation systems, and healthcare.",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Healthcare",
+   "evidence": "These PLCs are commonly used in the Water and Wastewater Systems (WWS) Sector and used in other industries including, but not limited to, energy, food and beverage manufacturing, transportation systems, and healthcare.",
+   "aliases": []
+  },
+  {
+   "type": "country",
+   "name": "Iran",
+   "evidence": "The Iranian Government charged the IRGC, an armed force, with defending Iran’s revolutionary regime from perceived internal and external threats.",
+   "aliases": []
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "The victims spanned multiple U.S. states and foreign countries.",
+   "aliases": []
+  },
+  {
+   "type": "country",
+   "name": "Israel",
+   "evidence": "IRGC-affiliated cyber actors using the persona \"CyberAv3ngers\" began actively targeting and compromising Israeli-made Unitronics Vision Series programmable logic controllers (PLCs) and human machine interfaces (HMIs).",
+   "aliases": []
+  },
+  {
+   "type": "country",
+   "name": "United Kingdom",
+   "evidence": "The NCSC observed the targeting of PLC devices, including in the United Kingdom, likely as part of a wider cyber campaign against Israel and Israeli-made technology.",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "CyberAv3ngers",
+   "evidence": "CyberAv3ngers is an Iranian IRGC-affiliated cyber persona (also known as CyberAveng3rs or Cyber Avengers) that has claimed responsibility for numerous attacks against critical infrastructure organizations primarily in the water and energy sectors in the United States, Israel, and other countries.",
+   "aliases": [
+    "CyberAveng3rs",
+    "Cyber Avengers"
+   ],
+   "mitre_id": ""
+  },
+  {
+   "type": "threat-actor",
+   "name": "Islamic Revolutionary Guard Corps (IRGC)",
+   "evidence": "CyberAv3ngers is an Iranian IRGC-affiliated cyber persona",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "campaign",
+   "name": "IRGC-Affiliated Cyber Actors Exploit PLCs in Multiple Sectors",
+   "evidence": "IRGC-Affiliated Cyber Actors Exploit PLCs in Multiple Sectors, Including US Water and Wastewater Systems Facilities",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "sector",
+   "name": "Water and Wastewater Systems",
+   "evidence": "CyberAv3ngers has claimed responsibility for numerous attacks against critical infrastructure organizations primarily in the water and energy sectors in the United States, Israel, and other countries.",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "sector",
+   "name": "Energy",
+   "evidence": "CyberAv3ngers has claimed responsibility for numerous attacks against critical infrastructure organizations primarily in the water and energy sectors in the United States, Israel, and other countries.",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "CyberAv3ngers has claimed responsibility for numerous attacks against critical infrastructure organizations primarily in the water and energy sectors in the United States, Israel, and other countries.",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "country",
+   "name": "Israel",
+   "evidence": "CyberAv3ngers has claimed responsibility for numerous attacks against critical infrastructure organizations primarily in the water and energy sectors in the United States, Israel, and other countries.",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "tool",
+   "name": "Unitronics Vision Series",
+   "evidence": "The actors compromised multiple Unitronics Vision Series devices by authenticating to internet-connected devices with communications set to the default TCP port 20256",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "intrusion-set",
+   "name": "IRGC-Affiliated Cyber Actors",
+   "evidence": "IRGC-Affiliated Cyber Actors Exploit PLCs in Multiple Sectors"
+  },
+  {
+   "type": "organization",
+   "name": "Unitronics",
+   "evidence": "Unitronics Vision Series"
+  },
+  {
+   "type": "sector",
+   "name": "Water and Wastewater Systems",
+   "evidence": "US Water and Wastewater Systems Facilities"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-1234",
+   "evidence": "The cyber threat actors accessed the affected devices—Unitronics Vision Series PLCs—by authenticating to internet-connected devices using default or no passwords."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "CyberAv3ngers",
+   "evidence": "Named earlier in the document: CyberAv3ngers",
+   "aliases": [
+    "CyberAveng3rs"
+   ]
+  },
+  {
+   "type": "threat-actor",
+   "name": "Islamic Revolutionary Guard Corps (IRGC)",
+   "evidence": "Named earlier in the document: Islamic Revolutionary Guard Corps (IRGC)",
+   "aliases": [
+    "IRGC"
+   ]
+  },
+  {
+   "type": "intrusion-set",
+   "name": "IRGC-Affiliated Cyber Actors",
+   "evidence": "Named earlier in the document: IRGC-Affiliated Cyber Actors",
+   "aliases": [
+    "IRGC-Affiliated Cyber Actors"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "Unitronics Vision Series",
+   "evidence": "Device Manufacturers: Although critical infrastructure organizations using Unitronics (including rebranded Unitronics) PLC devices",
+   "aliases": []
+  }
+ ],
+ "observables": [
+  {
+   "type": "domain-name",
+   "value": "Unitronics",
+   "indicates": [
+    "Unitronics"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "VisiLogic 9.9.00",
+   "hash": "SHA-256",
+   "indicates": [
+    "Unitronics"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "CyberAv3ngers",
+   "type": "targets",
+   "target": "Water and Wastewater Systems (WWS) Sector",
+   "evidence": "These PLCs are commonly used in the Water and Wastewater Systems (WWS) Sector and used in other industries including, but not limited to, energy, food and beverage manufacturing, transportation systems, and healthcare."
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "targets",
+   "target": "Energy",
+   "evidence": "These PLCs are commonly used in the Water and Wastewater Systems (WWS) Sector and used in other industries including, but not limited to, energy, food and beverage manufacturing, transportation systems, and healthcare."
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "targets",
+   "target": "Food and beverage manufacturing",
+   "evidence": "These PLCs are commonly used in the Water and Wastewater Systems (WWS) Sector and used in other industries including, but not limited to, energy, food and beverage manufacturing, transportation systems, and healthcare."
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "targets",
+   "target": "Transportation systems",
+   "evidence": "These PLCs are commonly used in the Water and Wastewater Systems (WWS) Sector and used in other industries including, but not limited to, energy, food and beverage manufacturing, transportation systems, and healthcare."
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "targets",
+   "target": "Healthcare",
+   "evidence": "These PLCs are commonly used in the Water and Wastewater Systems (WWS) Sector and used in other industries including, but not limited to, energy, food and beverage manufacturing, transportation systems, and healthcare."
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "targets",
+   "target": "Israel",
+   "evidence": "IRGC-affiliated cyber actors using the persona \"CyberAv3ngers\" began actively targeting and compromising Israeli-made Unitronics Vision Series programmable logic controllers (PLCs) and human machine interfaces (HMIs)."
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "targets",
+   "target": "United Kingdom",
+   "evidence": "The NCSC observed the targeting of PLC devices, including in the United Kingdom, likely as part of a wider cyber campaign against Israel and Israeli-made technology."
+  },
+  {
+   "source": "Islamic Revolutionary Guard Corps (IRGC)",
+   "type": "originates-from",
+   "target": "Iran",
+   "evidence": "The Iranian Government charged the IRGC, an armed force, with defending Iran’s revolutionary regime from perceived internal and external threats."
+  },
+  {
+   "source": "Islamic Revolutionary Guard Corps (IRGC)",
+   "type": "attributed-to",
+   "target": "CyberAv3ngers",
+   "evidence": "IRGC-affiliated cyber actors using the persona \"CyberAv3ngers\" began actively targeting and compromising Israeli-made Unitronics Vision Series programmable logic controllers (PLCs) and human machine interfaces (HMIs)."
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "uses",
+   "target": "T1110",
+   "evidence": "The actors used brute force to gain access to Valid Accounts."
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "uses",
+   "target": "T1078.001",
+   "evidence": "The actors compromised multiple devices via default credentials."
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "uses",
+   "target": "T1565.001",
+   "evidence": "The actors erased the original ladder logic file on compromised devices."
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "uses",
+   "target": "T1531",
+   "evidence": "The actors renamed the compromised devices so that device operators could no longer access them."
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "targets",
+   "target": "Water and Wastewater Systems",
+   "evidence": "CyberAv3ngers has claimed responsibility for numerous attacks against critical infrastructure organizations primarily in the water and energy sectors in the United States, Israel, and other countries."
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "targets",
+   "target": "Energy",
+   "evidence": "CyberAv3ngers has claimed responsibility for numerous attacks against critical infrastructure organizations primarily in the water and energy sectors in the United States, Israel, and other countries."
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "targets",
+   "target": "United States",
+   "evidence": "CyberAv3ngers has claimed responsibility for numerous attacks against critical infrastructure organizations primarily in the water and energy sectors in the United States, Israel, and other countries."
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "targets",
+   "target": "Israel",
+   "evidence": "CyberAv3ngers has claimed responsibility for numerous attacks against critical infrastructure organizations primarily in the water and energy sectors in the United States, Israel, and other countries."
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "attributed-to",
+   "target": "Islamic Revolutionary Guard Corps (IRGC)",
+   "evidence": "CyberAv3ngers is an Iranian IRGC-affiliated cyber persona"
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors Exploit PLCs in Multiple Sectors",
+   "type": "attributed-to",
+   "target": "CyberAv3ngers",
+   "evidence": "IRGC-Affiliated Cyber Actors Exploit PLCs in Multiple Sectors, Including US Water and Wastewater Systems Facilities"
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "targets",
+   "target": "Water and Wastewater Systems",
+   "evidence": "IRGC-Affiliated Cyber Actors Exploit PLCs in Multiple Sectors, Including US Water and Wastewater Systems Facilities"
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "uses",
+   "target": "T1531",
+   "evidence": "The actors renamed the compromised devices so that device operators could no longer access them."
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "uses",
+   "target": "T1499",
+   "evidence": "The actors disabled the upload and download functions of the PLC device to prevent the device operators from taking down the splash page."
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "uses",
+   "target": "T1491.001",
+   "evidence": "The actors uploaded a splash page to the HMI screen to display a message regarding the hacking."
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "exploits",
+   "target": "CVE-2024-1234",
+   "evidence": "The cyber threat actors accessed the affected devices—Unitronics Vision Series PLCs—by authenticating to internet-connected devices using default or no passwords."
+  },
+  {
+   "source": "Unitronics",
+   "type": "targets",
+   "target": "Water and Wastewater Systems",
+   "evidence": "US Water and Wastewater Systems Facilities"
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "uses",
+   "target": "Unitronics Vision Series",
+   "evidence": "Device Manufacturers: Although critical infrastructure organizations using Unitronics (including rebranded Unitronics) PLC devices"
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "targets",
+   "target": "Water and Wastewater Systems",
+   "evidence": "IRGC-Affiliated Cyber Actors Exploit PLCs in Multiple Sectors, Including US Water and Wastewater Systems Facilities"
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "targets",
+   "target": "Water and Wastewater Systems",
+   "evidence": "IRGC-Affiliated Cyber Actors Exploit PLCs in Multiple Sectors, Including US Water and Wastewater Systems Facilities"
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "attributed-to",
+   "target": "IRGC-Affiliated Cyber Actors",
+   "evidence": "Named earlier in the document: CyberAv3ngers"
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "attributed-to",
+   "target": "Islamic Revolutionary Guard Corps (IRGC)",
+   "evidence": "Named earlier in the document: Islamic Revolutionary Guard Corps (IRGC)"
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "qwen3:30b-a3b",
+  "seconds": 76.5,
+  "errors": ""
+ }
+}

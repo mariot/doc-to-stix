@@ -1,0 +1,537 @@
+{
+ "entities": [
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information: Command Obfuscation",
+   "mitre_id": "T1027.013",
+   "evidence": "In this example, Medusa actors use a well-known stealth technique that executes a base64 encrypted command [T1027.013] using specific execution settings."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information: Command Obfuscation",
+   "mitre_id": "T1027.001",
+   "evidence": "In another example, the DownloadFile string is obfuscated by slicing it into pieces and referencing it via a variable [T1027]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Query Registry",
+   "mitre_id": "T1012",
+   "evidence": "Medusa actors use Windows Management Instrumentation (WMI) [T1047] for querying system information."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "mitre_id": "T1016",
+   "evidence": "Commonly scanned ports include:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Remote Desktop Protocol",
+   "mitre_id": "T1021.001",
+   "evidence": "3389 (RDP)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Secure Shell",
+   "mitre_id": "T1021.004",
+   "evidence": "22 (SSH)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Hypertext Transfer Protocol",
+   "mitre_id": "T1021.004",
+   "evidence": "80 (HTTP)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Hypertext Transfer Protocol Over Unencrypted Non-C2 Protocol",
+   "mitre_id": "T1021.003",
+   "evidence": "443 (HTTPS)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: File Transfer Protocols",
+   "mitre_id": "T1021.002",
+   "evidence": "115 (SFTP)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Database",
+   "mitre_id": "T1021.006",
+   "evidence": "1433 (SQL database)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Database",
+   "mitre_id": "T1021.006",
+   "evidence": "3050 (Firebird database)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Proxy",
+   "mitre_id": "T1021.003",
+   "evidence": "3128 (HTTP web proxy)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Database",
+   "mitre_id": "T1021.006",
+   "evidence": "3306 (MySQL database)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001",
+   "evidence": "Medusa actors primarily use PowerShell [T1059.001] and the Windows Command Prompt (cmd.exe) [T1059.003] for network [T1046] and filesystem enumeration [T1083] and to utilize Ingress Tool Transfer capabilities [T1105]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "Medusa actors primarily use PowerShell [T1059.001] and the Windows Command Prompt (cmd.exe) [T1059.003] for network [T1046] and filesystem enumeration [T1083] and to utilize Ingress Tool Transfer capabilities [T1105]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: LSASS Memory",
+   "mitre_id": "T1003.001",
+   "evidence": "Medusa actors use Minidump (comsvcs.dll) to avoid detection when dumping Local Security Authority Subsystem Service (LSASS) credentials."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Query Registry",
+   "mitre_id": "T1012",
+   "evidence": "Medusa actors use Windows Management Instrumentation (WMI) [T1047] for querying system information."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Ingress Tool Transfer",
+   "mitre_id": "T1105",
+   "evidence": "Medusa actors primarily use PowerShell [T1059.001] and the Windows Command Prompt (cmd.exe) [T1059.003] for network [T1046] and filesystem enumeration [T1083] and to utilize Ingress Tool Transfer capabilities [T1105]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "Medusa actors make requests to <victim-name>.<random-33-alphanumeric￾characters>.oast.site, an open source, out-of-band (OOB) external server. This Interactsh server"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing: Spearphishing Attachment",
+   "mitre_id": "T1566.001",
+   "evidence": "Phishing campaigns as a primary method for stealing victim credentials [T1566]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Client Execution",
+   "mitre_id": "T1203",
+   "evidence": "Exploitation of unpatched software vulnerabilities [T1190] through Common Vulnerabilities and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Client Execution",
+   "mitre_id": "T1203",
+   "evidence": "o Fortra GoAnywhere vulnerability CVE-2025-10035 [CWE-502: Deserialization of Untrusted Data]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Client Execution",
+   "mitre_id": "T1203",
+   "evidence": "o (Updated, Aug. 18, 2026) BeyondTrust vulnerability CVE-2026-1731 [CWE-78: OS Command"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Client Execution",
+   "mitre_id": "T1203",
+   "evidence": "o (Updated, Aug. 18, 2026) Fortinet EMS SQL injection vulnerability CVE-2023-48788 [CWE 89: SQL Injection]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Client Execution",
+   "mitre_id": "T1203",
+   "evidence": "o ScreenConnect vulnerability CVE-2024-1709 [CWE-288: Authentication Bypass Using an"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Client Execution",
+   "mitre_id": "T1203",
+   "evidence": "Exposures (CVEs) such as:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "Medusa actors typically recruit initial access brokers (IABs) in cybercriminal forums and marketplaces to"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "obtain initial access to potential victims. They offer payments between $100 United States dollars (USD)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "and $1 million USD to IABs, as well as the opportunity to work exclusively for Medusa. Most IABs, however,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "appear to be willing to work for multiple variants at the same time. Medusa actors are known to make use"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "of common techniques, such as:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": " Phishing campaigns as a primary method for stealing victim credentials [T1566]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": " Exploitation of unpatched software vulnerabilities [T1190] through Common Vulnerabilities and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "Exposures (CVEs) such as:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "o ScreenConnect vulnerability CVE-2024-1709 [CWE-288: Authentication Bypass Using an"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "o Fortinet EMS SQL injection vulnerability CVE-2023-48788 [CWE 89: SQL Injection]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "o (Updated, Aug. 18, 2026) Fortra GoAnywhere vulnerability CVE-2025-10035 [CWE-502: Deserialization of Untrusted Data]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "o (Updated, Aug. 18, 2026) BeyondTrust vulnerability CVE-2026-1731 [CWE-78: OS Command"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "Injection]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "Medusa actors operate opportunistically by targeting victims with unpatched"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "software rather than focusing on specific organizations or sectors; however, the Healthcare and Public"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "Health (HPH) Sector has been a frequent victim of Medusa operations. Medusa actors leverage"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "vulnerability announcements, such as the February 2026 publication of BeyondTrust vulnerability CVE-2026-1731, to identify CVEs to exploit. Medusa actors leverage newly announced exploits within 24 hours"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "and have been observed to use exploits up to a week before public vulnerability disclosure. However,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "there is no indication Medusa actors develop their own zero-day or N-day vulnerabilities, preferring instead"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "to obtain advanced access to exploits from unknown sources or to quickly leverage newly announced"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "exploits before potential victims can mitigate vulnerabilities through patching."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "Medusa actors make use of Interactsh dynamic URLs to verify successful"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "exploitation. Specifically, actors send HTTP requests to one of the Interactsh domains—oast[.]site,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "oast[.]pro, or oast[.]fun—embedding subdomain data that identifies the compromised host. For example,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "Medusa actors made requests to <victim-name>.<random-33-alphanumeric￾characters>.oast.site, an open source, out-of-band (OOB) external server. This Interactsh server"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "records these requests for the actors to review."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning",
+   "mitreID": "T1595",
+   "evidence": "Medusa actors use living off the land (LOTL) techniques and legitimate tools, such as Advanced IP Scanner"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning",
+   "mitreID": "T1595",
+   "evidence": "and SoftPerfect Network Scanner for initial user, system, and network enumeration. Once a foothold in a"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning",
+   "mitreID": "T1595",
+   "evidence": "victim network is established, commonly scanned ports include:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning",
+   "mitreID": "T1595",
+   "evidence": " 21 (FTP)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning",
+   "mitreID": "T1595",
+   "evidence": " 22 (SSH)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning",
+   "mitreID": "T1595",
+   "evidence": " 23 (Telnet)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning",
+   "mitreID": "T1595",
+   "evidence": " 80 (HTTP)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning",
+   "mitreID": "T1595",
+   "evidence": " 115 (SFTP)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning",
+   "mitreID": "T1595",
+   "evidence": " 443 (HTTPS)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning",
+   "mitreID": "T1595",
+   "evidence": " 1433 (SQL database)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning",
+   "mitreID": "T1595",
+   "evidence": " 3050 (Firebird database)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning",
+   "mitreID": "T1595",
+   "evidence": " 3128 (HTTP web proxy)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning",
+   "mitreID": "T1595",
+   "evidence": " 3306 (MySQL database)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning",
+   "mitreID": "T1595",
+   "evidence": " 3389 (RDP)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "Medusa actors use several different PowerShell stealth techniques with increasing complexity; these are"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "provided below. Additionally, Medusa actors attempt to cover their tracks by deleting the PowerShell"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "command line history [T1070.003]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "In this example, Medusa actors use a well-known stealth technique that executes a base64 encrypted"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "command [T1027.013] using specific execution settings."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "In another example, the DownloadFile string is obfuscated by slicing it into pieces and referencing it via a"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "variable [T1027]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "In the final example, the payload is an obfuscated base64 string read into memory, decompressed from"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "gzip, and used to create a scriptblock. The base64 payload is split using empty strings and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitreID": "T1078",
+   "evidence": "concatenation and uses a format operator (-f) followed by three arguments to specify character"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Information Discovery",
+   "mitre_id": "T1082",
+   "evidence": "cmd.exe /c systeminfo [T1082]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Remote Desktop Protocol",
+   "mitre_id": "T1021.001",
+   "evidence": "mstsc.exe /v:{hostname/ip}"
+  }
+ ],
+ "observables": [
+  {
+   "type": "url",
+   "value": "https://www.cisa.gov/stopransomware"
+  },
+  {
+   "type": "url",
+   "value": "https://www.fbi.gov/stopransomware"
+  },
+  {
+   "type": "url",
+   "value": "https://www.hhs.gov/stopransomware"
+  },
+  {
+   "type": "url",
+   "value": "https://www.cisa.gov/cpgs"
+  },
+  {
+   "type": "url",
+   "value": "https://www.cisa.gov/stopransomware-guide"
+  },
+  {
+   "type": "url",
+   "value": "https://www.cisa.gov/stopransomware-identifying-mitigating-living-off-the-land-techniques-guide"
+  },
+  {
+   "type": "url",
+   "value": "https://www.cisa.gov/stopransomware-guide-securing-remote-access-software"
+  },
+  {
+   "type": "url",
+   "value": "https://www.cisa.gov/cpgs"
+  },
+  {
+   "type": "url",
+   "value": "https://www.cisa.gov/stopransomware-fact-sheet"
+  },
+  {
+   "type": "url",
+   "value": "https://www.cisa.gov/stopransomware-guide"
+  },
+  {
+   "type": "url",
+   "value": "https://<domain>/<remotefile>.css <localfile>.dll"
+  },
+  {
+   "type": "url",
+   "value": "https://<domain>/<remotefile>.msi <localfile>.msi"
+  },
+  {
+   "type": "url",
+   "value": "http://<ip>/<RMM tool>.msi"
+  },
+  {
+   "type": "url",
+   "value": "http://45.61.150[.]94:8000/storm.exe -Outfile C:\\Windows\\st.exe"
+  }
+ ],
+ "relationships": [],
+ "_meta": {
+  "engine": "0.1",
+  "model": "doc2stix-qwen3-8b:v1",
+  "seconds": 1192.1,
+  "errors": "5 unparsable chunk(s)"
+ }
+}

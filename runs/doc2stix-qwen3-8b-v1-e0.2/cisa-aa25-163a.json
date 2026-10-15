@@ -1,0 +1,76 @@
+{
+ "entities": [
+  {
+   "type": "attack-pattern",
+   "name": "Query Registry",
+   "mitre_id": "T1012",
+   "evidence": "Determine if an endpoint is running the remote access (RAS) service by checking the following paths depending on the specific environment:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "mitre_id": "T1016",
+   "evidence": "Determine the version of any SimpleHelp server by performing an HTTP query against it. Add /allversions (e.g., https://simple-help.com/allversions) to query the URL for the version page. This page will list the running version."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Isolate System",
+   "mitre_id": "T1688",
+   "evidence": "If an unpatched SimpleHelp version 5.5.7 or earlier is confirmed on a system, organizations should conduct threat hunting actions for evidence of compromise and continuously monitor for unusual inbound and outbound traffic from the SimpleHelp server. Note: This is not an exhaustive list of indicators of compromise."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "File and Directory Discovery",
+   "mitre_id": "T1083",
+   "evidence": "Search for any suspicious or anomalous executables with three alphabetic letter filenames (e.g., aaa.exe, bbb.exe, etc.) with a creation time after January 2025. Additionally, perform host and network vulnerability security scans via reputable scanning services to verify malware is not on the system."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Encrypted for Impact",
+   "mitre_id": "T1486",
+   "evidence": "If a system has been encrypted by ransomware:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Shutdown/Reboot",
+   "mitre_id": "T1529",
+   "evidence": "Use clean installation media (e.g., a bootable USD drive or DVD) to reinstall the operating system. Ensure the installation media is free from malware."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Removable Media",
+   "mitre_id": "T1025",
+   "evidence": "Wipe the system and only restore data from a clean backup. Ensure data files are obtained from a protected environment to avoid reintroducing ransomware to the system."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Report to Law Enforcement",
+   "mitre_id": "T1585",
+   "evidence": "CISA urges you to promptly report ransomware incidents to a local FBI Field Office, FBI’s Internet Crime Compliant Center (IC3), and CISA via CISA’s 24/7 Operations Center (report@cisa.gov or 888-282-0870)."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-57727",
+   "evidence": "SimpleHelp versions 5.5.7 and earlier contain several vulnerabilities, including CVE-2024-57727—a path traversal vulnerability.1 Ransomware actors likely leveraged CVE-2024-57727 to access downstream customers’ unpatched SimpleHelp RMM for disruption of services in double extortion compromises.1"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify Tools",
+   "mitre_id": "T1685",
+   "evidence": "If your organization is unable to immediately identify and patch vulnerable versions of SimpleHelp, apply appropriate workarounds. In this circumstance, CISA recommends using other vendor-provided mitigations when available. These non-patching workarounds should not be considered permanent fixes and organizations should apply the appropriate patch as soon as it is made available."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-57727",
+   "evidence": "SimpleHelp versions 5.5.7 and earlier contain several vulnerabilities, including CVE-2024-57727—a path"
+  }
+ ],
+ "observables": [],
+ "relationships": [],
+ "_meta": {
+  "engine": "0.2",
+  "model": "doc2stix-qwen3-8b:v1",
+  "seconds": 316.7,
+  "errors": "1 unparsable chunk(s)"
+ }
+}

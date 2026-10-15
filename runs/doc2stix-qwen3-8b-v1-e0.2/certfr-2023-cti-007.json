@@ -1,0 +1,503 @@
+{
+ "entities": [
+  {
+   "type": "attack-pattern",
+   "name": "Modify Password",
+   "mitre_id": "T1553",
+   "evidence": "ersistance, les opérateurs du MOA ont tenté, sans succès, de modifier le mot de passe d’un"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create Account: Local Account",
+   "mitre_id": "T1136.001",
+   "evidence": "créer l’utilisateur « supp »."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information: Steganography",
+   "mitre_id": "T1027.003",
+   "evidence": "1. Un information stealer est un type de code malveillant utilisé pour collecter des informations d’identification sur une machine compromise."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obtain Capabilities: Malware",
+   "mitre_id": "T1588.001",
+   "evidence": "SystemBC est un code malveillant disponible à l’achat sur des forums cybercriminels, il permet d’établir un tunnel SOCKS5 entre la"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Privilege Escalation",
+   "mitre_id": "T1068",
+   "evidence": "Pour élever leurs privilèges, les attaquants ont tenté d’exploiter les vulnérabilités LocalPotato 3"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force: Password Spraying",
+   "mitre_id": "T1110.003",
+   "evidence": "Le MOA a employé trois codes afin de tenter de récupérer des données d’authentification : AccountRestore, Shar￾pRoast et Mimikatz."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning",
+   "mitre_id": "T1595",
+   "evidence": "Les attaquants ont utilisé les outils disponibles en sources ouvertes Softperfect Network Scanner pour réaliser de"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Lateral Tool Transfer",
+   "mitre_id": "T1570",
+   "evidence": "Afin de se latéraliser, les opérateurs du MOA ont tenté, sans succès, d’exploiter les vulnérabilités PrintNightmare 4"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Encrypted Channel: Asymmetric Cryptography",
+   "mitre_id": "T1573.002",
+   "evidence": "L’implant SystemBC observé dans l’incident communique avec les serveurs de Commande et Contrôle (C2) « 149.28.197.120 » et « 149.28.213.157 » sur le port TCP 4177. Les deux serveurs C2 sont hébergés par VULTR."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure: Domains",
+   "mitre_id": "T1583.001",
+   "evidence": "Les attaquants ont employé le nom de domaine « youthconscience.com » comme serveur C2 Cobalt Strike. Il"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obtain Capabilities: Tool",
+   "mitre_id": "T1588.002",
+   "evidence": "Resource Development T1588.002 Obtain Capabilities: Tool Utilisation de l’outil Random C2 Profile Generator pour"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure: Server",
+   "mitre_id": "T1583.004",
+   "evidence": "Resource Development T1583.004 Acquire Infrastructure: Server Utilisation de VPS hébergés chez VULTR comme serveurs C2"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "External Remote Services",
+   "mitre_id": "T1133",
+   "evidence": "Initial Access T1133 External Remote Services Connexion à un service de bureau à distance."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Domain Accounts",
+   "mitre_id": "T1078.002",
+   "evidence": "Initial Access T1078.002 Valid Accounts: Domain Accounts Utilisation d’authentifiants valides pour se connecter à un"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create Account: Local Account",
+   "mitre_id": "T1136.001",
+   "evidence": "Persistence T1136.001 Create Account: Local Account Tentative de création du compte « supp »."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Privilege Escalation",
+   "mitre_id": "T1068",
+   "evidence": "Privilege Escalation T1068 Exploitation for Privilege Escalation Tentative d’exploitation des vulnérabilités LocalPotato"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "Defense Evasion T1036.005 Masquerading: Match Legitimate Name or Location Utilisation des répertoires « C:\\Users\\Public\\Music\\ » et"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force: Password Spraying",
+   "mitre_id": "T1110.003",
+   "evidence": "Credential Access T1110.003 Brute Force: Password Spraying Utilisation de l’outil AccountRestore avec le dictionnaire"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: LSASS Memory",
+   "mitre_id": "T1003.001",
+   "evidence": "Credential Access T1003.001 OS Credential Dumping: LSASS Memory Utilisation de l’outil Mimikatz."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Steal or Forge Kerberos Tickets: Kerberoasting",
+   "mitre_id": "T1558.003",
+   "evidence": "Credential Access T1558.003 Steal or Forge Kerberos Tickets: Kerberoasting Utilisation de l’outil SharpRoast."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "mitre_id": "T1046",
+   "evidence": "Discovery T1046 Network Service Discovery Utilisation de l’outil de découverte réseau Softperfect"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote System Discovery",
+   "mitre_id": "T1018",
+   "evidence": "Discovery T1018 Remote System Discovery Utilisation des outils de découverte PingCastle et"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation of Remote Services",
+   "mitre_id": "T1210",
+   "evidence": "Lateral Movement T1210 Exploitation of Remote Services"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy: Domain Fronting",
+   "mitre_id": "T1090.004",
+   "evidence": "Command and Control T1090.004 Proxy: Domain Fronting Utilisation du CND CLOUDFLARE afin de dissimuler le serveur"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Protocol Tunneling",
+   "mitre_id": "T1572",
+   "evidence": "Command and Control T1572 Protocol Tunneling Utilisation d’un tunnel SOCKS5 via l’implant SystemBC."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-21746",
+   "evidence": "(CVE-2023-21746) et"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-24521",
+   "evidence": "la CVE-2022-24521."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-34527",
+   "evidence": "(CVE-2021-34527), BlueKeep 5"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-0708",
+   "evidence": "(CVE-2019-0708), puis ZeroLogon 6"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-1472",
+   "evidence": "(CVE-2020-1472) via l’outil Mimikatz."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-41080",
+   "evidence": "vulnérabilité ProxyNotShell (CVE-2022-41080 et CVE-2022-41082) ayant mené au déploiement de Play."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-41082",
+   "evidence": "vulnérabilité ProxyNotShell (CVE-2022-41080 et CVE-2022-41082) ayant mené au déploiement de Play."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-1675",
+   "evidence": "[5] SPLOITUS . Exploit for Improper Privilege Management in Microsoft CVE-2021-34527 CVE-2021-1675."
+  }
+ ],
+ "observables": [
+  {
+   "type": "file",
+   "value": "364a4d9ea6f88eec098b13728fce2c1ead94c48d",
+   "hash": "SHA1",
+   "indicates": [
+    "LocalPotato.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8291929d6f3ede6ec025c21d1559a7fe9d30a9ce",
+   "hash": "SHA1",
+   "indicates": [
+    "cleanlpe1day.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "28400c267815762e49c200e8b481a592c67f9cf7",
+   "hash": "SHA1",
+   "indicates": [
+    "svchost.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d65969088eb8f6098c33c5427a650e8576cdbfa6",
+   "hash": "SHA1",
+   "indicates": [
+    "sharproast.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "70ad1a42ce05404c00513989c949c83a94feca92",
+   "hash": "SHA1",
+   "indicates": [
+    "lpe.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "eeaf29a71330db50cdd4630f8d9f1c2b6a34578c",
+   "hash": "SHA1",
+   "indicates": [
+    "netscan.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "292629c6ab33bddf123d26328025e2d157d9e8fc",
+   "hash": "SHA1",
+   "indicates": [
+    "PingCastle.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "536734aa6ec0f0b1ba8e43088edc6857eca42667",
+   "hash": "SHA1",
+   "indicates": [
+    "PingCastleAutoUpdater.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "68a07540fbf58fe743636b7fc8f0370c84134eb3",
+   "hash": "SHA1",
+   "indicates": [
+    "spn.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "58cb839dbc0232874b6fed9a354d4cc6d355cbac",
+   "hash": "SHA1",
+   "indicates": [
+    "spn_nf3.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "1e0ec6994400413c7899cd5c59bdbd6397dea7b5",
+   "hash": "SHA1",
+   "indicates": [
+    "spider.dll"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "35ff55bcf493e1b936dc6e978a981ee2a75543a1",
+   "hash": "SHA1",
+   "indicates": [
+    "spider_32.dll"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "a00ebf699ea0759e7bf4af65dddd741133c38484",
+   "hash": "SHA1",
+   "indicates": [
+    "CreShar.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "df12386df2c0fcf65522282914424d63da962d79",
+   "hash": "SHA1",
+   "indicates": [
+    "MakeMeGood.bat"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "bks.exe",
+   "hash": "SHA1",
+   "indicates": [
+    "CVE-2019-0708"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e2a68116d52182f207c087f349e04e049982d431",
+   "hash": "SHA1",
+   "indicates": [
+    "LPE-Exploit-RunAsUser.bat"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "fae6068d4433b33751bf7de866d7f2900aa15139",
+   "hash": "SHA1",
+   "indicates": [
+    "Step1-RunAsAdmin.bat"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d69420a636dacfbafaf01f7153692c197e9b6400",
+   "hash": "SHA1",
+   "indicates": [
+    "Step2-RunAsUser.bat"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "68a07540fbf58fe743636b7fc8f0370c84134eb3",
+   "hash": "SHA1",
+   "indicates": [
+    "spn.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "58cb839dbc0232874b6fed9a354d4cc6d355cbac",
+   "hash": "SHA1",
+   "indicates": [
+    "spn_nf3.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "1e0ec6994400413c7899cd5c59bdbd6397dea7b5",
+   "hash": "SHA1",
+   "indicates": [
+    "spider.dll"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "35ff55bcf493e1b936dc6e978a981ee2a75543a1",
+   "hash": "SHA1",
+   "indicates": [
+    "spider_32.dll"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "a00ebf699ea0759e7bf4af65dddd741133c38484",
+   "hash": "SHA1",
+   "indicates": [
+    "CreShar.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "df12386df2c0fcf65522282914424d63da962d79",
+   "hash": "SHA1",
+   "indicates": [
+    "MakeMeGood.bat"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "bks.exe",
+   "hash": "SHA1",
+   "indicates": [
+    "CVE-2019-0708"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8a0743f17110dc945007f08f3e63da166a3937dc"
+  },
+  {
+   "type": "file",
+   "value": "9e2737994aa8bf0d6900e5369d51978adc4c02f9"
+  },
+  {
+   "type": "file",
+   "value": "364a4d9ea6f88eec098b13728fce2c1ead94c48d"
+  },
+  {
+   "type": "file",
+   "value": "8291929d6f3ede6ec025c21d1559a7fe9d30a9ce"
+  },
+  {
+   "type": "file",
+   "value": "70ad1a42ce05404c00513989c949c83a94feca92"
+  },
+  {
+   "type": "file",
+   "value": "28400c267815762e49c200e8b481a592c67f9cf7"
+  },
+  {
+   "type": "file",
+   "value": "d65969088eb8f6098c33c5427a650e8576cdbfa6"
+  },
+  {
+   "type": "file",
+   "value": "eeaf29a71330db50cdd4630f8d9f1c2b6a34578c"
+  },
+  {
+   "type": "file",
+   "value": "292629c6ab33bddf123d26328025e2d157d9e8fc"
+  },
+  {
+   "type": "file",
+   "value": "536734aa6ec0f0b1ba8e43088edc6857eca42667"
+  },
+  {
+   "type": "file",
+   "value": "e2a68116d52182f207c087f349e04e049982d431"
+  },
+  {
+   "type": "file",
+   "value": "fae6068d4433b33751bf7de866d7f2900aa15139"
+  },
+  {
+   "type": "file",
+   "value": "d69420a636dacfbafaf01f7153692c197e9b6400"
+  },
+  {
+   "type": "file",
+   "value": "68a07540fbf58fe743636b7fc8f0370c84134eb3"
+  },
+  {
+   "type": "file",
+   "value": "58cb839dbc0232874b6fed9a354d4cc6d355cbac"
+  },
+  {
+   "type": "file",
+   "value": "1e0ec6994400413c7899cd5c59bdbd6397dea7b5"
+  },
+  {
+   "type": "file",
+   "value": "35ff55bcf493e1b936dc6e978a981ee2a75543a1"
+  },
+  {
+   "type": "file",
+   "value": "a00ebf699ea0759e7bf4af65dddd741133c38484"
+  },
+  {
+   "type": "file",
+   "value": "df12386df2c0fcf65522282914424d63da962d79"
+  },
+  {
+   "type": "file",
+   "value": "32f7e0b84b76a8f8ec0069e2188475e5"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "149.28.197.120"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "149.28.213.157"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "2.11.0.1"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "96.30.196.207"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.32.132.182"
+  }
+ ],
+ "relationships": [],
+ "_meta": {
+  "engine": "0.2",
+  "model": "doc2stix-qwen3-8b:v1",
+  "seconds": 1141.4,
+  "errors": "4 unparsable chunk(s)"
+ }
+}

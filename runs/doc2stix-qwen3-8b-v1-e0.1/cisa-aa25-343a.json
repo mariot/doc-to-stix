@@ -1,0 +1,65 @@
+{
+ "entities": [
+  {
+   "type": "campaign",
+   "name": "NoName057(16)",
+   "evidence": "The authoring organizations assess that the Center for the Study and Network Monitoring of the Youth Environment (CISM), established on behalf of the Kremlin, created NoName057(16) as a covert project within the organization. Senior executives and employees within CISM developed and customized the NoName057(16) proprietary DDoS tool DDoSia, paid for the group’s network infrastructure, served as administrators on NoName057(16) Telegram channels, and selected DDoS targets."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities",
+   "mitre_id": "T1587",
+   "evidence": "The authoring organizations assess that the Center for the Study and Network Monitoring of the Youth Environment (CISM), established on behalf of the Kremlin, created NoName057(16) as a covert project within the organization. Senior executives and employees within CISM developed and customized the NoName057(16) proprietary DDoS tool DDoSia, paid for the group’s network infrastructure, served as administrators on NoName057(16) Telegram channels, and selected DDoS targets."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Establish Accounts: Social Media Accounts",
+   "mitre_id": "T1585.001",
+   "evidence": "In April 2022, the group began using a new Telegram channel featuring the name \"CyberArmyofRussia_Reborn\" to organize and plan group actions. The channel creators recruited actors to use CARR as an unattributable platform for conducting cyber activities beneath the level of an APT, aimed at deterring anti-Russia rhetoric."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure: Botnet",
+   "mitre_id": "T1583.003",
+   "evidence": "The authoring organizations assess that by late September 2024, CARR channel administrators became dissatisfied with the level of support and funding provided by the GRU. This dissatisfaction led CARR administrators and an administrator from another hacktivist group, NoName057(16), to create the Z￾Pentest group, employing the same tactics, techniques, and procedures (TTPs) as CARR but separate from GRU involvement."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure: Botnet",
+   "mitre_id": "T1583.003",
+   "evidence": "Active since March 2022, NoName057(16) has conducted frequent DDoS attacks against government and private sector entities in North Atlantic Treaty Organization (NATO) member states and other European countries perceived as hostile to Russian geopolitical interests. The group operates primarily through Telegram channels and used GitHub, alongside various websites and repositories, to host DDoSia and share materials and TTPs with their followers."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities",
+   "mitre_id": "T1587",
+   "evidence": "In July 2024, NoName057(16) jointly claimed responsibility with CARR for an alleged intrusion against OT assets in the U.S. The high degree of cooperation with CARR likely contributed to the formation of Z-Pentest, which is composed of actors and administrators from both teams, in September 2024."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure: Botnet",
+   "mitre_id": "T1583.003",
+   "evidence": "Z-Pentest specializes in OT intrusion operations targeting globally dispersed critical infrastructure entities. Additionally, the group uses “hack and leak” operations and defacement attacks to draw attention to their pro-Russia messaging. Unlike other pro-Russia hacktivist groups, Z-Pentest largely avoids DDoS activities, claiming OT intrusions as attempts to garner more attention from the media."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Establish Accounts: Social Media Accounts",
+   "mitre_id": "T1585.001",
+   "evidence": "Sector16 actively maintains an online presence, including a public Telegram channel where they share videos, statements, and claims of compromising U.S. energy infrastructure. These communications often align with pro-Russia narratives and reflect their self-proclaimed support for Russian geopolitical objectives."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure: Botnet",
+   "mitre_id": "T1583.003",
+   "evidence": "Members of Sector16 may have received indirect support from the Russian government in exchange for conducting specific cyber operations that further Russian strategic goals. This aligns with broader Russian cyber strategies that involve leveraging non-state threat actors for certain cyber activities, adding a layer of deniability."
+  }
+ ],
+ "observables": [],
+ "relationships": [],
+ "_meta": {
+  "engine": "0.1",
+  "model": "doc2stix-qwen3-8b:v1",
+  "seconds": 972.7,
+  "errors": "4 unparsable chunk(s)"
+ }
+}

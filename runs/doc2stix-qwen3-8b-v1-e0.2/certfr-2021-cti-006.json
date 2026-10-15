@@ -1,0 +1,1034 @@
+{
+ "entities": [
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "The Ryuk ransomware was first observed in August 2018 [1]. It is a variant of the Hermes 2.1 ransomware, sold"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information: Encrypted File",
+   "mitre_id": "T1027.013",
+   "evidence": "Ryuk consists of a dropper that drops one of the two versions of a data encryption module (32- or 64-bit) on the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify Tools",
+   "mitre_id": "T1685",
+   "evidence": "After a few minutes of inactivity, Ryuk seeks to stop more than 40 processes and 180 services, in particular those related to antivirus softwares, databases and backups."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Process Injection",
+   "mitre_id": "T1055",
+   "evidence": "After recursive scanning of the disks and network sharing in the infected system, the malicious payload is injected"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Encrypted for Impact",
+   "mitre_id": "T1486",
+   "evidence": "Ryuk then encrypts all files, with the exception of certain Windows, Mozilla, Chrome and Ahnlab files [5]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: File Deletion",
+   "mitre_id": "T1070.004",
+   "evidence": "The reason for its inclusion in Ryuk’s"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: Clear Command History",
+   "mitre_id": "T1070.003",
+   "evidence": "It ensures its persistence through the creation of a registry key [5]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information: Encrypted Key",
+   "mitre_id": "T1027.011",
+   "evidence": "Using a combination of the symmetric (AES) and asymmetric (RSA) encryption algorithms serves both to encrypt"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "mitre_id": "T1016",
+   "evidence": "The dropper then executes the payload. After a few minutes of inactivity, Ryuk seeks to stop more than 40 processes and 180 services, in particular those related to antivirus softwares, databases and backups."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "Ryuk does not have the capacity for automatic lateral movement within a network, hence the need for access via a"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Domain Accounts",
+   "mitre_id": "T1078.002",
+   "evidence": "A Ryuk sample with worm-like capabilities allowing it to spread automatically within networks it infects,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Local Accounts",
+   "mitre_id": "T1078.001",
+   "evidence": "was discovered during an incident response handled by the ANSSI in early 2021 (see appendix 5.2)."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "Ryuk consists of a dropper that drops one of the two versions of a data encryption module (32- or 64-bit) on the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "victim’s computer. The dropper then executes the payload. After a few minutes of inactivity, Ryuk seeks to stop"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "more than 40 processes and 180 services, in particular those related to antivirus softwares, databases and backups."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "After recursive scanning of the disks and network sharing in the infected system, the malicious payload is injected"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "into trusted processes. Ryuk then encrypts all files, with the exception of certain Windows, Mozilla, Chrome and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "Ahnlab files [5]. Comment: Ahnlab is a South Korean IT threat analysis and response company. The reason for its inclusion in Ryuk’s"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "white list, inherited from Hermes 2.1, is unclear."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "The dropper then executes the payload. After a few minutes of inactivity, Ryuk seeks to stop more than 40 processes and 180 services, in particular those related to antivirus softwares, databases and backups."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "After recursive scanning of the disks and network sharing in the infected system, the malicious payload is injected"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "into trusted processes. Ryuk then encrypts all files, with the exception of certain Windows, Mozilla, Chrome and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "Ahnlab files [5]. Comment: Ahnlab is a South Korean IT threat analysis and response company. The reason for its inclusion in Ryuk’s"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "white list, inherited from Hermes 2.1, is unclear."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "The reason for its inclusion in Ryuk’s"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "white list, inherited from Hermes 2.1, is unclear."
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "the malicious payload is injected"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Encrypted for Impact",
+   "mitre_id": "T1486",
+   "evidence": "the files and to protect the encryption key, making it impossible for a third party to decrypt the data [5]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "mitre_id": "T1016",
+   "evidence": "After recursive scanning of the disks and network sharing in the infected system, the malicious payload is injected"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "File and Directory Discovery",
+   "mitre_id": "T1083",
+   "evidence": "Ryuk then encrypts all files, with the exception of certain Windows, Mozilla, Chrome and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: File Deletion",
+   "mitre_id": "T1070.004",
+   "evidence": "Ryuk appends .RYK to the encrypted files and drops the RyukReadMe.txt file in the encrypted directories."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Windows Management Instrumentation",
+   "mitre_id": "T1047",
+   "evidence": "It then destroys all shadow copies on the system to prevent the users from restoring their system via vssadmin com￾mands or by running a .bat file1"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Financial Theft",
+   "mitre_id": "T1657",
+   "evidence": "In 2018, Ryuk’s short ransom demand format was very similar to that of the BitPaymer ransomware, operated by"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "Ryuk does not have a data exfiltration feature or a dedicated leak website to publish data stolen from their victims"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "• in mid-2019, a stealer type of malware with code similarities to Ryuk was identified by Malware Hunter Team."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning",
+   "mitre_id": "T1595",
+   "evidence": "Since October 2019, workstations on the local network that have been powered off can be switched on by Ryuk"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Query Registry",
+   "mitre_id": "T1012",
+   "evidence": "1.3 Victimology"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "• according to the editor FireEye [13], attackers using Ryuk sometimes exfiltrate data from their victims by"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Financial Theft",
+   "mitre_id": "T1657",
+   "evidence": "In October 2020, Ryuk was reportedly responsible for 75% of attacks on the American healthcare sector [14]. Actors"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "as of 3 November 2020, approximately 1,400 entities are thought to be communicating with Cobalt Strike command and control (C2) servers associated with UNC1878, a Ryuk user [15]. These entities"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Query Registry",
+   "mitre_id": "T1012",
+   "evidence": "2.1 Sequence of the initial chains of infection"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing: Spearphishing Attachment",
+   "mitre_id": "T1566.001",
+   "evidence": "The infection vector has often been to be a phishing email delivering either Emotet [16] or TrickBot [17]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "Once legitimate post-exploitation tools are distributed by TrickBot (Cobalt Strike, Empire, BloodHound, Mimikatz,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "LaZagne), attackers obtain privileged access to a domain controller (or other systems with privileged access) and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "deploy Ryuk (for example via PsExec) within the victim’s information system (IS) [18]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "2.2 Evolution towards the Bazar-Ryuk chain of infection"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing: Spearphishing Link",
+   "mitre_id": "T1566.002",
+   "evidence": "Once the IS is compromised, BazarLoader downloads from the C2 server2 a payload (encrypted in XOR): BazarBack￾door. The backdoor then downloads post-exploitation frameworks, most frequently Cobalt Strike, to enable latter￾stages of the intrusion leveraging tools such as Anchor, PowerTrick3"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Privilege Escalation",
+   "mitre_id": "T1068",
+   "evidence": "Privileges have been escalated using Mimikatz, Rubeus4"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Privilege Escalation",
+   "mitre_id": "T1068",
+   "evidence": "or by exploiting a Zerologon vulnerability (CVE-2020-1472) [26]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "BazarBackdoor, although not exclusively dedicated to this purpose, can be used to enable the distribution"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Query Registry",
+   "mitre_id": "T1012",
+   "evidence": "2.3 Attacker groups involved"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Malware",
+   "mitre_id": "T1587.001",
+   "evidence": "The group operating the TrickBot malware is called Wizard Spider by Crowdstrike, and “the TrickBot gang” by"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Malware",
+   "mitre_id": "T1587.001",
+   "evidence": "other editors. It is also thought to be behind the Anchor backdoor and PowerTrick."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Malware",
+   "mitre_id": "T1587.001",
+   "evidence": "This group is believed to include members of the Gold BlackBurn group, developers and operators of the Dyre"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Malware",
+   "mitre_id": "T1587.001",
+   "evidence": "banking trojan [27], which ceased activities in November 2015 following action by the Russian police."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Malware",
+   "mitre_id": "T1587.001",
+   "evidence": "Dyre emerged in June 2014. Its specific characteristics were as follows:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Malware",
+   "mitre_id": "T1587.001",
+   "evidence": "• Dyre is believed to have the same developer as Gozi Neverquest (alias Vawtrak) [28]. Gozi Neverquest was"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Malware",
+   "mitre_id": "T1587.001",
+   "evidence": "based on the source code of the Gozi malicious code, leaked in 2010. The cyber crime group responsible for"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Malware",
+   "mitre_id": "T1587.001",
+   "evidence": "2BazarLoader uses EmerDNS .bazar domains for its C2s. This allows decentralised domain names to be registered on a blockchain [23]. The"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information: Encrypted/Encoded File",
+   "mitre_id": "T1027.013",
+   "evidence": "• Dyre is believed to have the same developer as Gozi Neverquest (alias Vawtrak) [28]. Gozi Neverquest was"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Compromise Infrastructure: Domains",
+   "mitre_id": "T1584.001",
+   "evidence": "This allows decentralised domain names to be registered on a blockchain [23]. The"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "DNS resolutions of Bazar’s C2 servers thus make dismantling and sinkholing [24] impossible."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001",
+   "evidence": "25/02/2021 Page 6 of 21"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "TLP:WHITE"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001",
+   "evidence": "TLP:WHITE"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "25/02/2021 Page 7 of 21"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001",
+   "evidence": "TLP:WHITE"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "25/02/2021 Page 8 of 21"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001",
+   "evidence": "TLP:WHITE"
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "o link seems to exist between Ryuk and Maze, while Maze was also"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning",
+   "mitre_id": "T1595",
+   "evidence": "Ryuk looks for network shares on the victim IT infrastructure. To do so, some private IP ranges are scanned:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: SMB/Windows Admin Shares",
+   "mitre_id": "T1021.002",
+   "evidence": "For each identified host, Ryuk will attempt to mount possible network shares using SMB enumeration."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Remote Desktop Protocol",
+   "mitre_id": "T1021.001",
+   "evidence": "The Ryuk variant analyzed in this document does have self-replication capabilities. The propagation is achieved"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Scheduled Task/Job: Scheduled Task",
+   "mitre_id": "T1053.005",
+   "evidence": "The content of this scheduled task is described in the analysis present in this document."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "mitre_id": "T1016",
+   "evidence": "Before this scan step, Ryuk reads through the victim’s ARP table and sends a Wake-On-LAN paquet to each host."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify Tools: Clear Windows Event Logs",
+   "mitre_id": "T1685.005",
+   "evidence": "Finally, Ryuk deletes the Volume Shadow Copies to prevent file recovery."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify Registry",
+   "mitre_id": "T1112",
+   "evidence": "Ryuk’s persistence is achieved by setting the registry key HKEY_CURRENT_USER\\SOFTWARE\\Microsoft"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder",
+   "mitre_id": "T1547.001",
+   "evidence": "The Ryuk variant analyzed in this document does have self-replication capabilities. The propagation is achieved"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "The malware can launch icacls <path> /grant Everyone:F /T /C /Q to delete every access-based restrictions"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: JavaScript",
+   "mitre_id": "T1059.007",
+   "evidence": "More_Eggs is a JavaScript backdoor made available to certain affiliates by the service provider as malware-as￾a-service Venom Spider (alias badbullzvenom), active since 2012."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "It locally creates ryukreadme.html files, most likely with a .onion TOR URL for negociation."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "The RTF file contains the usual Ryuk message:: « balance of shadow universe »."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "The fake DLL is locally launched through a scheduled task executing wordpad.exe <random>.dll."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "The program also allows for an autonomous propagation of the encrypting binary."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote System Discovery",
+   "mitre_id": "T1018",
+   "evidence": "The program generates every possible IP addresses on local networks and sends an ICMP ping to each of them."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote System Discovery",
+   "mitre_id": "T1018",
+   "evidence": "It lists the IP addresses of the local ARP cache and sends them a packet (most likely the Wake-on-LAN which has"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Remote Desktop Protocol",
+   "mitre_id": "T1021.001",
+   "evidence": "The program then lists all the sharing resources opened on the found IPs, mounts each of them and can encrypt"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "Finally, it can remotely create a scheduled task to execute itself on this host."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Scheduled Task/Job: Scheduled Task",
+   "mitre_id": "T1053.005",
+   "evidence": "Launch of the scheduled task"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "mitre_id": "T1016",
+   "evidence": "The following pseudo-code sums up the structure of the command line as well as the call :"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "args = \"/Create /S \" // programs the scheduled task on a remote system"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "args += remote_computername"
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "their content."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create or Modify System Process",
+   "mitre_id": "T1543",
+   "evidence": "This malware can also create a ryukreadme.html file as well as a copy of itself on the targeted host. Finally, it can remotely create a scheduled task to execute itself on this host."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Scheduled Task/Job: Scheduled Task",
+   "mitre_id": "T1053.005",
+   "evidence": "The scheduled task is created through a call to the schtasks.exe system tool, a native-Windows tool. The following pseudo-code sums up the structure of the command line as well as the call :"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "On the compromised systems, we noticed command line executions of the following type :"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Services: Service Execution",
+   "mitre_id": "T1569.002",
+   "evidence": "The files are encrypted using Microsoft CryptoAPI with AES256 algorithm. A unique AES key is generated for each file. The AES key is wrapped with a RSA public key stored in the binary code."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify Tools",
+   "mitre_id": "T1685",
+   "evidence": "The malware interrupts multiple programs based on hardcoded lists :"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: File Deletion",
+   "mitre_id": "T1070.004",
+   "evidence": "Found binaries are named using two types of conventions: xxxxxxxxrep.exe and xxxxxxxlan.exe."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "On the compromised systems, we noticed command line executions of the following type :"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "Nom : xxx.exe"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "Taille : 552960"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "MD5 : 544900a527328f2e4fe7598985bc688f"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "SHA-1 : 453d355037fabfc9c200022d189b91310fc2577a"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "SHA-256 : 2820bf6bb2a2d0670c6233301b414ae293cf85536127ac63b2ebd07d8616ae89"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "PE timestamp : 2021-02-09 01:28:50 UTC"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "Example of scheduled tasks created by the propagation"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "Task version=\"1.1\" xmlns=\"http://schemas.microsoft.com/windows/2004/02/mit/task\">"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "Author>DOMAINE\\administrateur</Author>"
+  }
+ ],
+ "observables": [
+  {
+   "type": "file",
+   "value": "544900a527328f2e4fe7598985bc688f"
+  },
+  {
+   "type": "file",
+   "value": "453d355037fabfc9c200022d189b91310fc2577a"
+  },
+  {
+   "type": "file",
+   "value": "2820bf6bb2a2d0670c6233301b414ae293cf85536127ac63b2ebd07d8616ae89"
+  },
+  {
+   "type": "domain-name",
+   "value": "machunion.com"
+  },
+  {
+   "type": "domain-name",
+   "value": "bakedbuns.com"
+  },
+  {
+   "type": "domain-name",
+   "value": "ruths-brownies.com"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.202.174.91"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "93.115.26.171"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.202.174.0"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "93.115.26.0"
+  }
+ ],
+ "relationships": [
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1027.013",
+   "evidence": "Ryuk consists of a dropper that drops one of the two versions of a data encryption module (32- or 64-bit) on the"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1685",
+   "evidence": "After a few minutes of inactivity, Ryuk seeks to stop more than 40 processes and 180 services, in particular those related to antivirus softwares, databases and backups."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1055",
+   "evidence": "After recursive scanning of the disks and network sharing in the infected system, the malicious payload is injected"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1486",
+   "evidence": "Ryuk then encrypts all files, with the exception of certain Windows, Mozilla, Chrome and Ahnlab files [5]. Comment: Ahnlab is a South Korean IT threat analysis and response company. The reason for its inclusion in Ryuk’s"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1070.004",
+   "evidence": "It ensures its persistence through the creation of a registry key [5]."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1027.011",
+   "evidence": "Using a combination of the symmetric (AES) and asymmetric (RSA) encryption algorithms serves both to encrypt"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1016",
+   "evidence": "The dropper then executes the payload. After a few minutes of inactivity, Ryuk seeks to stop more than 40 processes and 180 services, in particular those related to antivirus softwares, databases and backups."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1078.001",
+   "evidence": "Ryuk does not have the capacity for automatic lateral movement within a network, hence the need for access via a"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1078.002",
+   "evidence": "A Ryuk sample with worm-like capabilities allowing it to spread automatically within networks it infects,"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1078.004",
+   "evidence": "was discovered during an incident response handled by the ANSSI in early 2021 (see appendix 5.2)."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1078.004",
+   "evidence": "Ryuk consists of a dropper that drops one of the two versions of a data encryption module (32- or 64-bit) on the"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1078.004",
+   "evidence": "victim’s computer. The dropper then executes the payload. After a few minutes of inactivity, Ryuk seeks to stop"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1078.004",
+   "evidence": "more than 40 processes and 180 services, in particular those related to antivirus softwares, databases and backups."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1078.004",
+   "evidence": "After recursive scanning of the disks and network sharing in the infected system, the malicious payload is injected"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1078.004",
+   "evidence": "into trusted processes. Ryuk then encrypts all files, with the exception of certain Windows, Mozilla, Chrome and"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1078.004",
+   "evidence": "Ahnlab files [5]. Comment: Ahnlab is a South Korean IT threat analysis and response company. The reason for its inclusion in Ryuk’s"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1078.004",
+   "evidence": "white list, inherited from Hermes 2.1, is unclear."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1078.004",
+   "evidence": "The reason for its inclusion in Ryuk’s"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1078.004",
+   "evidence": "white list, inherited from Hermes 2.1, is unclear."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1595",
+   "evidence": "Ryuk looks for network shares on the victim IT infrastructure. To do so, some private IP ranges are scanned:"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1021.002",
+   "evidence": "For each identified host, Ryuk will attempt to mount possible network shares using SMB enumeration."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1021.001",
+   "evidence": "The Ryuk variant analyzed in this document does have self-replication capabilities. The propagation is achieved"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1053.005",
+   "evidence": "The content of this scheduled task is described in the analysis present in this document."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1685.005",
+   "evidence": "Finally, Ryuk deletes the Volume Shadow Copies to prevent file recovery."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1112",
+   "evidence": "Ryuk’s persistence is achieved by setting the registry key HKEY_CURRENT_USER\\SOFTWARE\\Microsoft"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1547.001",
+   "evidence": "The Ryuk variant analyzed in this document does have self-replication capabilities. The propagation is achieved"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1059.003",
+   "evidence": "The malware can launch icacls <path> /grant Everyone:F /T /C /Q to delete every access-based restrictions"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1059.007",
+   "evidence": "More_Eggs is a JavaScript backdoor made available to certain affiliates by the service provider as malware-as￾a-service Venom Spider (alias badbullzvenom), active since 2012."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1036.005",
+   "evidence": "It locally creates ryukreadme.html files, most likely with a .onion TOR URL for negociation."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1036.005",
+   "evidence": "The RTF file contains the usual Ryuk message:: « balance of shadow universe »."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1036.005",
+   "evidence": "The fake DLL is locally launched through a scheduled task executing wordpad.exe <random>.dll."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1036.005",
+   "evidence": "The program also allows for an autonomous propagation of the encrypting binary."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1018",
+   "evidence": "The program generates every possible IP addresses on local networks and sends an ICMP ping to each of them."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1018",
+   "evidence": "It lists the IP addresses of the local ARP cache and sends them a packet (most likely the Wake-on-LAN which has"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1021.001",
+   "evidence": "The program then lists all the sharing resources opened on the found IPs, mounts each of them and can encrypt"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1036.005",
+   "evidence": "Finally, it can remotely create a scheduled task to execute itself on this host."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1053.005",
+   "evidence": "Launch of the scheduled task"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1016",
+   "evidence": "The following pseudo-code sums up the structure of the command line as well as the call :"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1036.005",
+   "evidence": "args = \"/Create /S \" // programs the scheduled task on a remote system"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1036.005",
+   "evidence": "args += remote_computername"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1543",
+   "evidence": "their content."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1053.005",
+   "evidence": "The scheduled task is created through a call to the schtasks.exe system tool, a native-Windows tool. The following pseudo-code sums up the structure of the command line as well as the call :"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1059.003",
+   "evidence": "On the compromised systems, we noticed command line executions of the following type :"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1569.002",
+   "evidence": "The files are encrypted using Microsoft CryptoAPI with AES256 algorithm. A unique AES key is generated for each file. The AES key is wrapped with a RSA public key stored in the binary code."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1685",
+   "evidence": "The malware interrupts multiple programs based on hardcoded lists :"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1070.004",
+   "evidence": "Found binaries are named using two types of conventions: xxxxxxxxrep.exe and xxxxxxxlan.exe."
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1036.005",
+   "evidence": "Nom : xxx.exe"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1036.005",
+   "evidence": "Taille : 552960"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1036.005",
+   "evidence": "MD5 : 544900a527328f2e4fe7598985bc688f"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1036.005",
+   "evidence": "SHA-1 : 453d355037fabfc9c200022d189b91310fc2577a"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1036.005",
+   "evidence": "SHA-256 : 2820bf6bb2a2d0670c6233301b414ae293cf85536127ac63b2ebd07d8616ae89"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1036.005",
+   "evidence": "PE timestamp : 2021-02-09 01:28:50 UTC"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1036.005",
+   "evidence": "Example of scheduled tasks created by the propagation"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1036.005",
+   "evidence": "Task version=\"1.1\" xmlns=\"http://schemas.microsoft.com/windows/2004/02/mit/task\">"
+  },
+  {
+   "source": "Ryuk",
+   "type": "uses",
+   "target": "T1036.005",
+   "evidence": "Author>DOMAINE\\administrateur</Author>"
+  }
+ ],
+ "_meta": {
+  "engine": "0.2",
+  "model": "doc2stix-qwen3-8b:v1",
+  "seconds": 1049.2,
+  "errors": "2 unparsable chunk(s)"
+ }
+}

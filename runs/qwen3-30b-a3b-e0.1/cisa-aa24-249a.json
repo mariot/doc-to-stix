@@ -1,0 +1,1982 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "GRU Unit 29155",
+   "evidence": "cyber actors affiliated with the Russian General Staff Main Intelligence Directorate (GRU) 161st Specialist Training Center (Unit 29155)",
+   "aliases": [
+    "Unit 29155",
+    "GRU Unit 29155"
+   ]
+  },
+  {
+   "type": "threat-actor",
+   "name": "Russian General Staff Main Intelligence Directorate (GRU)",
+   "evidence": "cyber actors affiliated with the Russian General Staff Main Intelligence Directorate (GRU)",
+   "aliases": [
+    "GRU"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "WhisperGate",
+   "evidence": "GRU Unit 29155 cyber actors began deploying the destructive WhisperGate malware",
+   "aliases": []
+  },
+  {
+   "type": "campaign",
+   "name": "WhisperGate",
+   "evidence": "GRU Unit 29155 cyber actors began deploying the destructive WhisperGate malware against multiple Ukrainian victim organizations as early as January 13, 2022",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Government services",
+   "evidence": "targeting and disrupting efforts to provide aid to Ukraine",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Financial services",
+   "evidence": "targeting and disrupting efforts to provide aid to Ukraine",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Transportation systems",
+   "evidence": "targeting and disrupting efforts to provide aid to Ukraine",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Energy",
+   "evidence": "targeting and disrupting efforts to provide aid to Ukraine",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Healthcare sectors",
+   "evidence": "targeting and disrupting efforts to provide aid to Ukraine",
+   "aliases": []
+  },
+  {
+   "type": "country",
+   "name": "Ukraine",
+   "evidence": "against multiple Ukrainian victim organizations",
+   "aliases": []
+  },
+  {
+   "type": "country",
+   "name": "NATO",
+   "evidence": "targeting and disrupting efforts to provide aid to Ukraine",
+   "aliases": []
+  },
+  {
+   "type": "country",
+   "name": "European Union (EU)",
+   "evidence": "targeting and disrupting efforts to provide aid to Ukraine",
+   "aliases": []
+  },
+  {
+   "type": "country",
+   "name": "Central America",
+   "evidence": "targeting and disrupting efforts to provide aid to Ukraine",
+   "aliases": []
+  },
+  {
+   "type": "country",
+   "name": "Asia",
+   "evidence": "targeting and disrupting efforts to provide aid to Ukraine",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Acunetix",
+   "evidence": "Unit 29155 cyber actors leveraged both Acunetix and Nmap to identify open ports, services, and vulnerabilities for networks",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Nmap",
+   "evidence": "Unit 29155 cyber actors leveraged both Acunetix and Nmap to identify open ports, services, and vulnerabilities for networks",
+   "aliases": []
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1595.001",
+   "evidence": "targeting IP ranges [T1595.001] used within multiple government and critical infrastructure organizations",
+   "mitre_id": "T1595.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1595.002",
+   "evidence": "identify open ports, services, and vulnerabilities for networks [T1595.002]",
+   "mitre_id": "T1595.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1485",
+   "evidence": "systematic sabotage caused by the destruction of data [T1485]",
+   "mitre_id": "T1485"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Unit 29155",
+   "evidence": "Unit 29155 cyber actors",
+   "aliases": [
+    "GRU Unit 29155"
+   ]
+  },
+  {
+   "type": "threat-actor",
+   "name": "GRU",
+   "evidence": "Russian General Staff Main Intelligence Directorate (GRU)",
+   "aliases": [
+    "Russian General Staff Main Intelligence Directorate"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "WhisperGate",
+   "evidence": "WhisperGate malware",
+   "aliases": [
+    "WhisperGate"
+   ]
+  },
+  {
+   "type": "tool",
+   "name": "Acunetix",
+   "evidence": "Acunetix",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Nmap",
+   "evidence": "Nmap",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Amass",
+   "evidence": "Amass",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Droopescan",
+   "evidence": "Droopescan",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "JoomScan",
+   "evidence": "JoomScan",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "MASSCAN",
+   "evidence": "MASSCAN",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Netcat",
+   "evidence": "Netcat",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Shodan",
+   "evidence": "Shodan",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "VirusTotal",
+   "evidence": "VirusTotal",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "WPScan",
+   "evidence": "WPScan",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-1472",
+   "evidence": "CVE-2020-1472 (Microsoft: Windows Server)",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-26084",
+   "evidence": "CVE-2021-26084 (Atlassian Confluence Server and Data Center)",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-3156",
+   "evidence": "CVE-2021-3156 (Red Hat: Privilege Escalation via Command Line Argument Parsing)",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-4034",
+   "evidence": "CVE-2021-4034 (Red Hat: Polkit Privilege Escalation)",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-27666",
+   "evidence": "CVE-2022-27666 (Red Hat: Heap Buffer Overflow Flaw)",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-33044",
+   "evidence": "CVE-2021-33044 (Dahua Security)",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-33045",
+   "evidence": "CVE-2021-33045 (Dahua Security)",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-26134",
+   "evidence": "CVE-2022-26134 (Atlassian Confluence Server and Data Center)",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-26138",
+   "evidence": "CVE-2022-26138 (Atlassian Confluence Server and Data Center)",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-3236",
+   "evidence": "CVE-2022-3236 (Sophos: Firewall)",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Unit 29155",
+   "evidence": "Unit 29155 cyber actors",
+   "aliases": [
+    "GRU Unit 29155"
+   ]
+  },
+  {
+   "type": "threat-actor",
+   "name": "GRU",
+   "evidence": "Russian General Staff Main Intelligence Directorate (GRU)",
+   "aliases": [
+    "Russian General Staff Main Intelligence Directorate"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "Raspberry Robin",
+   "evidence": "Raspberry Robin malware",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Rclone",
+   "evidence": "Rclone",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Amass",
+   "evidence": "Amass",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "VirusTotal",
+   "evidence": "VirusTotal",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Acunetix",
+   "evidence": "Acunetix",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Nmap",
+   "evidence": "Nmap",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Shodan",
+   "evidence": "Shodan",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Netcat",
+   "evidence": "Netcat",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "MASSCAN",
+   "evidence": "MASSCAN",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Droopescan",
+   "evidence": "Droopescan",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "JoomScan",
+   "evidence": "JoomScan",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "WPScan",
+   "evidence": "WPScan",
+   "aliases": []
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.001",
+   "evidence": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1003.001",
+   "evidence": "OS Credential Dumping: LSASS Memory",
+   "mitre_id": "T1003.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1003.002",
+   "evidence": "OS Credential Dumping: Security Account Manager",
+   "mitre_id": "T1003.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1114",
+   "evidence": "Email Collection",
+   "mitre_id": "T1114"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1560",
+   "evidence": "Archive Collected Data",
+   "mitre_id": "T1560"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1590.002",
+   "evidence": "Gather Victim Network Information: DNS",
+   "mitre_id": "T1590.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1595",
+   "evidence": "Active Scanning",
+   "mitre_id": "T1595"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1595.001",
+   "evidence": "Active Scanning: Scanning IP Blocks",
+   "mitre_id": "T1595.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1595.002",
+   "evidence": "Active Scanning: Vulnerability Scanning",
+   "mitre_id": "T1595.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1596.005",
+   "evidence": "Search Open Technical Databases: Scan Databases",
+   "mitre_id": "T1596.005"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1583.003",
+   "evidence": "Acquire Infrastructure: Virtual Private Server",
+   "mitre_id": "T1583.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1588.001",
+   "evidence": "Obtain Capabilities: Malware",
+   "mitre_id": "T1588.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1588.005",
+   "evidence": "Obtain Capabilities: Exploits",
+   "mitre_id": "T1588.005"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1078.001",
+   "evidence": "Valid Accounts: Default Accounts",
+   "mitre_id": "T1078.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1190",
+   "evidence": "Exploit Public-Facing Application",
+   "mitre_id": "T1190"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1505.003",
+   "evidence": "Server Software Component: Web Shell",
+   "mitre_id": "T1505.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1110.003",
+   "evidence": "Brute Force: Password Spraying",
+   "mitre_id": "T1110.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1552.001",
+   "evidence": "Unsecured Credentials: Credentials in Files",
+   "mitre_id": "T1552.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1046",
+   "evidence": "Network Service Discovery",
+   "mitre_id": "T1046"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1654",
+   "evidence": "Log Enumeration",
+   "mitre_id": "T1654"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1550.002",
+   "evidence": "Use Alternate Authentication Material: Pass the Hash",
+   "mitre_id": "T1550.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1125",
+   "evidence": "Video Capture",
+   "mitre_id": "T1125"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1213.001",
+   "evidence": "Data from Information Repositories: Confluence",
+   "mitre_id": "T1213.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1090.003",
+   "evidence": "Proxy: Multi-hop Proxy",
+   "mitre_id": "T1090.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1071.001",
+   "evidence": "Application Layer Protocol: Web Protocols",
+   "mitre_id": "T1071.001"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Unit 29155",
+   "evidence": "Unit 29155 cyber actors executed commands via ProxyChains",
+   "aliases": [
+    "GRU Unit 29155",
+    "GRU"
+   ],
+   "mitre_id": ""
+  },
+  {
+   "type": "threat-actor",
+   "name": "GRU",
+   "evidence": "Russian General Staff Main Intelligence Directorate (GRU)",
+   "aliases": [
+    "Russian General Staff Main Intelligence Directorate (GRU)"
+   ],
+   "mitre_id": ""
+  },
+  {
+   "type": "malware",
+   "name": "WhisperGate",
+   "evidence": "WhisperGate",
+   "aliases": [
+    "WhisperGate"
+   ],
+   "mitre_id": ""
+  },
+  {
+   "type": "tool",
+   "name": "ProxyChains",
+   "evidence": "ProxyChains—a tool used to route internal traffic through a series of proxies",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "tool",
+   "name": "dnscat/2",
+   "evidence": "DNS tunneling tools, such as dnscat/2",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "tool",
+   "name": "Iodine",
+   "evidence": "DNS tunneling tools, such as dnscat/2 and Iodine",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "tool",
+   "name": "Rclone",
+   "evidence": "Unit 29155 cyber actors exfiltrated data to the cloud storage and file hosting service, MEGA (mega[.]nz), using Rclone",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy: Multi-hop Proxy",
+   "evidence": "Unit 29155 cyber actors executed commands via ProxyChains—a tool used to route internal traffic through a series of proxies",
+   "aliases": [],
+   "mitre_id": "T1090.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Application Layer Protocol: Web Protocols",
+   "evidence": "Unit 29155 cyber actors use POST requests over HTTP to send payloads to victims",
+   "aliases": [],
+   "mitre_id": "T1071.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Application Layer Protocol: DNS",
+   "evidence": "Unit 29155 cyber actors used DNS tunneling tools, such as dnscat/2 and Iodine, to tunnel IPv4 network traffic",
+   "aliases": [],
+   "mitre_id": "T1071.004"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Non-Application Layer Protocol",
+   "evidence": "Unit 29155 cyber actors commonly use a reverse TCP connection to initiate communication with their infrastructure",
+   "aliases": [],
+   "mitre_id": "T1095"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Ingress Tool Transfer",
+   "evidence": "When an exploit is successfully executed on a victim system, Unit 29155 cyber actors are known to launch the Meterpreter payload to initiate communication with their actor-controlled systems",
+   "aliases": [],
+   "mitre_id": "T1105"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Protocol Tunneling",
+   "evidence": "Unit 29155 cyber actors have used infrastructure configured with OpenVPN configuration to tunnel traffic over a single port (1194), VPNs, and GOST to anonymize their operational activity",
+   "aliases": [],
+   "mitre_id": "T1572"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Web Service: Exfiltration to Cloud Storage",
+   "evidence": "Unit 29155 cyber actors exfiltrated data to the cloud storage and file hosting service, MEGA (mega[.]nz), using Rclone",
+   "aliases": [],
+   "mitre_id": "T1567.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Destruction",
+   "evidence": "Unit 29155 cyber actors’ objectives include the destruction of data",
+   "aliases": [],
+   "mitre_id": "T1485"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Unit 29155",
+   "evidence": "Unit 29155 cyber actors’ use of WhisperGate involved the deployment of the malware files, stage1.exe and stage2.exe."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "WhisperGate",
+   "evidence": "WhisperGate has two stages that corrupts a system’s master boot record, displays a fake ransomware note, and encrypts files based on certain file extensions (see AA22-057A)."
+  },
+  {
+   "type": "threat-actor",
+   "name": "GRU",
+   "evidence": "Russian General Staff Main Intelligence Directorate (GRU)"
+  },
+  {
+   "type": "threat-actor",
+   "name": "GRU Unit 29155",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "type": "malware",
+   "name": "WhisperGate",
+   "evidence": "WhisperGate has two stages that corrupts a system’s master boot record, displays a fake ransomware note, and encrypts files based on certain file extensions (see AA22-057A)."
+  },
+  {
+   "type": "tool",
+   "name": "Discord",
+   "evidence": "Discord is commonly leveraged by threat actors as an endpoint for malware distribution and control; in this case, it was used to obtain the next step of the infection chain by directly sharing files through its platform."
+  },
+  {
+   "type": "tool",
+   "name": "Rclone",
+   "evidence": "MITRE: Rclone"
+  },
+  {
+   "type": "tool",
+   "name": "Acunetix",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "type": "tool",
+   "name": "Nmap",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "type": "tool",
+   "name": "Amass",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "type": "tool",
+   "name": "Droopescan",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "type": "tool",
+   "name": "JoomScan",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "type": "tool",
+   "name": "MASSCAN",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "type": "tool",
+   "name": "Netcat",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "type": "tool",
+   "name": "Shodan",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "type": "tool",
+   "name": "VirusTotal",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "type": "tool",
+   "name": "WPScan",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "type": "tool",
+   "name": "Raspberry Robin",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "type": "tool",
+   "name": "ProxyChains",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "type": "tool",
+   "name": "dnscat/2",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "type": "tool",
+   "name": "Iodine",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "WhisperGate",
+   "evidence": "WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine, WhisperGate, Discord",
+   "aliases": [
+    "WhisperGate"
+   ],
+   "mitre_id": ""
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Discord Cluster 1",
+   "evidence": "Malware Related to Tbopbh.jpg stage2.exe and its respective payload, Tbopbh.jpg, served as a template for other malware within Discord Cluster 1.",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "malware",
+   "name": "WhisperKill",
+   "evidence": "Waqybg is known as WhisperKill—a malware downloaded by WhisperGate that destroys files with specific extensions.",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "malware",
+   "name": "Raspberry Robin",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine, WhisperGate, Discord",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "malware",
+   "name": "Rclone",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine, WhisperGate, Discord",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "malware",
+   "name": "ProxyChains",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine, WhisperGate, Discord",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "malware",
+   "name": "dnscat/2",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine, WhisperGate, Discord",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "malware",
+   "name": "Iodine",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine, WhisperGate, Discord",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Unit 29155",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine, WhisperGate, Discord, Discord Cluster 1, WhisperKill",
+   "aliases": [
+    "GRU Unit 29155",
+    "GRU",
+    "WhisperGate",
+    "Discord Cluster 1",
+    "WhisperKill"
+   ]
+  },
+  {
+   "type": "threat-actor",
+   "name": "Russian General Staff Main Intelligence Directorate (GRU)",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine, WhisperGate, Discord, Discord Cluster 1, WhisperKill",
+   "aliases": [
+    "GRU"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "WhisperGate",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine, WhisperGate, Discord, Discord Cluster 1, WhisperKill",
+   "aliases": [
+    "WhisperGate"
+   ]
+  },
+  {
+   "type": "tool",
+   "name": "3proxy",
+   "evidence": "Table 28: Domains Hosting Jump Host Tooling\nDomain Name\ninterlinks[.]top\nhttps://3proxy[.]ru",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "ngrok",
+   "evidence": "Table 28: Domains Hosting Jump Host Tooling\nDomain Name\ninterlinks[.]top\nhttps://3proxy[.]ru\nhttps://ngrok[.]com (Note: This domain is a legitimate service leveraged for malicious purposes by Unit 29155 cyber actors and should be investigated prior to blocking.)",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "nssm",
+   "evidence": "Table 28: Domains Hosting Jump Host Tooling\nDomain Name\ninterlinks[.]top\nhttps://3proxy[.]ru\nhttps://ngrok[.]com (Note: This domain is a legitimate service leveraged for malicious purposes by Unit 29155 cyber actors and should be investigated prior to blocking.)\nhttps://nssm[.]cc",
+   "aliases": []
+  }
+ ],
+ "observables": [
+  {
+   "type": "domain-name",
+   "value": "CERT-UA",
+   "indicates": [
+    "organization"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "NCSC-UK",
+   "indicates": [
+    "organization"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "ASD’s ACSC",
+   "indicates": [
+    "organization"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "CSE",
+   "indicates": [
+    "organization"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "CSIS",
+   "indicates": [
+    "organization"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "BIS",
+   "indicates": [
+    "organization"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "VDD",
+   "indicates": [
+    "organization"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "KAPO",
+   "indicates": [
+    "organization"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "BfV",
+   "indicates": [
+    "organization"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "MIVD",
+   "indicates": [
+    "organization"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "VZ",
+   "indicates": [
+    "organization"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "SBU",
+   "indicates": [
+    "organization"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "hxxp://<IP>:<port>/PictureCatch.cgi?username=<NAME>&password=%3becho%20%22%3c%21--%23include%20file=%22SYS_CFG%22--%3e%22%3etmp/Login.htm%3b&data_type=1&attachment=1&channel=1&secret=1&key=PWNED",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "hxxp://<IP>:<port>/ssi.cgi/tmp/Login.htm",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "mega[.]nz",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "usr/local/www/apache24/data/-redacted-/plugins/authentication/joomla/10oomla.php",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "usr/local/www/apache24/data/-redacted-/plugins/privacy/contact/contact.php",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "mega.nz",
+   "hash": "",
+   "indicates": [
+    "WhisperGate"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "cdn.discordapp.com",
+   "indicates": [
+    "WhisperGate"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "3237.site",
+   "indicates": [
+    "WhisperGate"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "smm2021.net",
+   "indicates": [
+    "WhisperGate"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "stage1.exe",
+   "hash": "MD5 5d5c99a08a7d927346ca2dafa7973fc1",
+   "indicates": [
+    "WhisperGate"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "stage2.exe",
+   "hash": "SHA-256 a196c6b8ffcb97ffb276d04f354696e2391311db3841ae16c8c9f56f36a38e92",
+   "indicates": [
+    "WhisperGate"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Tbopbh.jpg",
+   "indicates": [
+    "WhisperGate"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "saint.exe",
+   "indicates": [
+    "WhisperGate"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "puttyjejfrwu.exe",
+   "indicates": [
+    "WhisperGate"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "n.lashevychdirekcy.atom.gov.ua.zip",
+   "indicates": [
+    "WhisperGate"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "test01.exe",
+   "indicates": [
+    "WhisperGate"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "load2022.exe",
+   "indicates": [
+    "WhisperGate"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Client.exe",
+   "indicates": [
+    "WhisperGate"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "asd.exe",
+   "indicates": [
+    "WhisperGate"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Frkmlkdkdubkznbkmcf.dll",
+   "hash": "MD5: 7c8cb5598e724d34384cce7402b11f0e",
+   "indicates": [
+    "WhisperGate"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Frkmlkdkdubkznbkmcf.dll",
+   "hash": "SHA-256: 78c855a088924e92a7f60d661c3d1845",
+   "indicates": [
+    "WhisperGate"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Nmddfrqqrbyjeygggda.vbs",
+   "hash": "MD5: 6eed4ee0cc57126e9a096ab9905f471c",
+   "indicates": [
+    "WhisperGate"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Nmddfrqqrbyjeygggda.vbs",
+   "hash": "SHA-256: db5a204a34969f60fe4a653f51d64eee024dbf018edea334e8b3df780eda846f",
+   "indicates": [
+    "WhisperGate"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "AdvancedRun.exe",
+   "hash": "MD5: 17fc12902f4769af3a9271eb4e2dacce",
+   "indicates": [
+    "WhisperKill"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "AdvancedRun.exe",
+   "hash": "SHA-256: 29ae7b30ed8394c509c561f6117ea671ec412da50d435099756bbb257fafb10b",
+   "indicates": [
+    "WhisperKill"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Waqybg",
+   "hash": "MD5: 3907c7fbd4148395284d8e6e3c1dba5d",
+   "indicates": [
+    "WhisperKill"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Waqybg",
+   "hash": "SHA-256: 34ca75a8c190f20b8a7596afeb255f2228cb2467bd210b2637965b61ac7ea907",
+   "indicates": [
+    "WhisperKill"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Afgyyppsysmtddhvhhaw.dll",
+   "hash": "MD5: d034fe4c71b16b6d331886c24fef2751",
+   "indicates": [
+    "Discord Cluster 1"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Avbbwys.dll",
+   "hash": "MD5: 422437f326b8dbe30cc5f103bde31f26",
+   "indicates": [
+    "Discord Cluster 1"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.226.139.66",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.141.87.11",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "46.101.242.222",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "62.173.140.223",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "79.124.8.66",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "90.131.156.107",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "112.51.253.153",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "112.132.218.45",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "154.21.20.82",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.133.202",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.142.42",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.162.55",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.175.38",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.175.108",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.176.60",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.187.47",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.189.218",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.245.84.227",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.245.85.251",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "194.26.29.84",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "194.26.29.95",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "194.26.29.98",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "194.26.29.251",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "interlinks.top",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://3proxy.ru",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://ngrok.com",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://nssm.cc",
+   "hash": "",
+   "indicates": [
+    "Unit 29155"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "GRU Unit 29155",
+   "type": "uses",
+   "target": "T1595.001",
+   "evidence": "targeting IP ranges [T1595.001] used within multiple government and critical infrastructure organizations"
+  },
+  {
+   "source": "GRU Unit 29155",
+   "type": "uses",
+   "target": "T1595.002",
+   "evidence": "identify open ports, services, and vulnerabilities for networks [T1595.002]"
+  },
+  {
+   "source": "GRU Unit 29155",
+   "type": "uses",
+   "target": "T1485",
+   "evidence": "systematic sabotage caused by the destruction of data [T1485]"
+  },
+  {
+   "source": "GRU Unit 29155",
+   "type": "uses",
+   "target": "Acunetix",
+   "evidence": "Unit 29155 cyber actors leveraged both Acunetix and Nmap to identify open ports, services, and vulnerabilities for networks"
+  },
+  {
+   "source": "GRU Unit 29155",
+   "type": "uses",
+   "target": "Nmap",
+   "evidence": "Unit 29155 cyber actors leveraged both Acunetix and Nmap to identify open ports, services, and vulnerabilities for networks"
+  },
+  {
+   "source": "GRU Unit 29155",
+   "type": "targets",
+   "target": "Government services",
+   "evidence": "targeting and disrupting efforts to provide aid to Ukraine"
+  },
+  {
+   "source": "GRU Unit 29155",
+   "type": "targets",
+   "target": "Financial services",
+   "evidence": "targeting and disrupting efforts to provide aid to Ukraine"
+  },
+  {
+   "source": "GRU Unit 29155",
+   "type": "targets",
+   "target": "Transportation systems",
+   "evidence": "targeting and disrupting efforts to provide aid to Ukraine"
+  },
+  {
+   "source": "GRU Unit 29155",
+   "type": "targets",
+   "target": "Energy",
+   "evidence": "targeting and disrupting efforts to provide aid to Ukraine"
+  },
+  {
+   "source": "GRU Unit 29155",
+   "type": "targets",
+   "target": "Healthcare sectors",
+   "evidence": "targeting and disrupting efforts to provide aid to Ukraine"
+  },
+  {
+   "source": "GRU Unit 29155",
+   "type": "targets",
+   "target": "Ukraine",
+   "evidence": "against multiple Ukrainian victim organizations"
+  },
+  {
+   "source": "GRU Unit 29155",
+   "type": "targets",
+   "target": "NATO",
+   "evidence": "targeting and disrupting efforts to provide aid to Ukraine"
+  },
+  {
+   "source": "GRU Unit 29155",
+   "type": "targets",
+   "target": "European Union (EU)",
+   "evidence": "targeting and disrupting efforts to provide aid to Ukraine"
+  },
+  {
+   "source": "GRU Unit 29155",
+   "type": "targets",
+   "target": "Central America",
+   "evidence": "targeting and disrupting efforts to provide aid to Ukraine"
+  },
+  {
+   "source": "GRU Unit 29155",
+   "type": "targets",
+   "target": "Asia",
+   "evidence": "targeting and disrupting efforts to provide aid to Ukraine"
+  },
+  {
+   "source": "WhisperGate",
+   "type": "targets",
+   "target": "Ukraine",
+   "evidence": "GRU Unit 29155 cyber actors began deploying the destructive WhisperGate malware against multiple Ukrainian victim organizations as early as January 13, 2022"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Acunetix",
+   "evidence": "Unit 29155 cyber actors leveraged both Acunetix and Nmap to identify open ports, services, and vulnerabilities for networks"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Nmap",
+   "evidence": "Unit 29155 cyber actors leveraged both Acunetix and Nmap to identify open ports, services, and vulnerabilities for networks"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Amass",
+   "evidence": "Unit 29155 cyber actors leveraged both Amass and VirusTotal to obtain subdomains for target websites"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "VirusTotal",
+   "evidence": "Unit 29155 cyber actors leveraged both Amass and VirusTotal to obtain subdomains for target websites"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "MASSCAN",
+   "evidence": "Unit 29155 cyber actors used MASSCAN and Nmap to discover other machines once inside victim networks"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Shodan",
+   "evidence": "Unit 29155 cyber actors used Shodan to identify hosts with a specific set of vulnerabilities or device types"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Nmap",
+   "evidence": "Once Unit 29155 cyber actors gained access to victim internal networks, they further used Nmap (via the Nmap Scripting Engine [NSE]) to write custom scripts for discovering and scanning other machines"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "exploits",
+   "target": "CVE-2021-33044",
+   "evidence": "Unit 29155 cyber actors exploited CVE-2021-33044 and CVE-2021-33045 on Dahua IP cameras to bypass identity authentication"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "exploits",
+   "target": "CVE-2021-33045",
+   "evidence": "Unit 29155 cyber actors exploited CVE-2021-33044 and CVE-2021-33045 on Dahua IP cameras to bypass identity authentication"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "exploits",
+   "target": "CVE-2022-26134",
+   "evidence": "Analysis concluded Unit 29155 cyber actors have exploited the following CVEs for initial access"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "exploits",
+   "target": "CVE-2022-26138",
+   "evidence": "Analysis concluded Unit 29155 cyber actors have exploited the following CVEs for initial access"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "exploits",
+   "target": "CVE-2022-3236",
+   "evidence": "Analysis concluded Unit 29155 cyber actors have exploited the following CVEs for initial access"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "WhisperGate",
+   "evidence": "Unit 29155 cyber actors are best known for their use of WhisperGate malware against Ukraine"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "exploits",
+   "target": "CVE-2021-33044",
+   "evidence": "Unit 29155 cyber actors exploited CVE-2021-33044 and CVE-2021-33045 on Dahua IP cameras to bypass identity authentication"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "exploits",
+   "target": "CVE-2021-33045",
+   "evidence": "Unit 29155 cyber actors exploited CVE-2021-33044 and CVE-2021-33045 on Dahua IP cameras to bypass identity authentication"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Rclone",
+   "evidence": "Unit 29155 cyber actors exfiltrated data to mega[.]nz using Rclone"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Pass-the-Hash",
+   "evidence": "Unit 29155 cyber actors used a Pass-the-Hash via ProxyChains"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "SSH",
+   "evidence": "Cyber actors performed SSH and SSHPass executions"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1059.001",
+   "evidence": "Unit 29155 cyber actors have used PowerShell to execute commands and other operational tasks."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1003.001",
+   "evidence": "Unit 29155 cyber actors have exfiltrated LSASS memory dumps to retrieve credentials from victim machines."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1003.002",
+   "evidence": "Unit 29155 cyber actors have exfiltrated usernames and hashed passwords from the SAM."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1114",
+   "evidence": "Unit 29155 cyber actors have used their infrastructure to compromise multiple victims’ mail servers and exfiltrate mail artifacts, such as email messages."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1560",
+   "evidence": "Unit 29155 cyber actors compress victim data (e.g., the entire filesystem, select file system artifacts or user data, and/or database dumps) to send back to their infrastructure."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1590.002",
+   "evidence": "Unit 29155 cyber actors have used Amass and VirusTotal to obtain information about victims’ DNS for possible use during targeting, such as subdomains for target websites."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1595",
+   "evidence": "Unit 29155 cyber actors use publicly available tools to gather information for possible use during targeting."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1595.001",
+   "evidence": "Unit 29155 cyber actors use various open source scanning tools to scan for victim IP ranges."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1595.002",
+   "evidence": "Unit 29155 cyber actors use publicly available scanning tools to enable their discovery of IoT devices and exploitable vulnerabilities."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1596.005",
+   "evidence": "Unit 29155 cyber actors use publicly available platforms like Shodan to identify internet connected hosts."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1583.003",
+   "evidence": "Unit 29155 cyber actors have used VPSs to host their operational tools, perform reconnaissance, exploit victim infrastructure, and exfiltrate victim data."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1588.001",
+   "evidence": "Unit 29155 cyber actors obtain publicly available malware and malware loaders to support their operations. For example, analysis suggests Raspberry Robin malware may have been used in the role of an access broker."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1588.005",
+   "evidence": "Unit 29155 cyber actors are known to obtain CVE exploit scripts from GitHub repositories and use them against victim infrastructure."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1078.001",
+   "evidence": "Unit 29155 cyber actors use exploitation scripts to authenticate to IP cameras with default usernames and passwords."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "Unit 29155 cyber actors have used a variety of public exploits, including CVE-2021-33044, CVE-2021-33045, CVE-2022-26134, and CVE-2022-26138."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "Unit 29155 cyber actors use web shells to establish persistent access to systems."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1110.003",
+   "evidence": "Unit 29155 cyber actors targeted victims’ Microsoft OWA infrastructure with password spraying to obtain valid usernames and passwords."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1552.001",
+   "evidence": "Following exploitation of vulnerable IP cameras, Unit 29155 cyber actors dump configuration settings and credentials in plaintext."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1046",
+   "evidence": "Once Unit 29155 cyber actors gained access to victim internal networks, they further used Nmap (via the NSE) to write custom scripts for discovering and scanning other machines."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1654",
+   "evidence": "Unit 29155 cyber actors have enumerated and exfiltrated SECURITY and SYSTEM logs."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1550.002",
+   "evidence": "Unit 29155 cyber actors used Pass-the-Hash to authenticate via SMB."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1125",
+   "evidence": "Unit 29155 cyber actors have exploited IoT devices, specifically IP cameras with default usernames and passwords, and exfiltrated images."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1213.001",
+   "evidence": "Unit 29155 cyber actors leveraged Through the Wire against the victim’s internet-facing Confluence server."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1090.003",
+   "evidence": "Unit 29155 cyber actors executed commands via ProxyChains—a tool used to route internal traffic through a series of proxies."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1071.001",
+   "evidence": "Unit 29155 cyber actors use POST requests over HTTP to send payloads to victims."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Rclone",
+   "evidence": "Unit 29155 cyber actors commonly use the command-line program Rclone to exfiltrate data to a remote location from victim infrastructure."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Amass",
+   "evidence": "Unit 29155 cyber actors have used Amass and VirusTotal to obtain information about victims’ DNS for possible use during targeting, such as subdomains for target websites."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "VirusTotal",
+   "evidence": "Unit 29155 cyber actors have used Amass and VirusTotal to obtain information about victims’ DNS for possible use during targeting, such as subdomains for target websites."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Acunetix",
+   "evidence": "Tools leveraged for scanning include Acunetix, Amass, Droopescan, eScan, and JoomScan."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Nmap",
+   "evidence": "Once Unit 29155 cyber actors gained access to victim internal networks, they further used Nmap (via the NSE) to write custom scripts for discovering and scanning other machines."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Shodan",
+   "evidence": "Unit 29155 cyber actors use publicly available platforms like Shodan to identify internet connected hosts."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Droopescan",
+   "evidence": "Tools leveraged for scanning include Acunetix, Amass, Droopescan, eScan, and JoomScan."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "JoomScan",
+   "evidence": "Tools leveraged for scanning include Acunetix, Amass, Droopescan, eScan, and JoomScan."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "WPScan",
+   "evidence": "Tools leveraged for scanning include Acunetix, Amass, Droopescan, eScan, and JoomScan."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Netcat",
+   "evidence": "Netcat is listed as a tool but no specific use is mentioned in the text."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "MASSCAN",
+   "evidence": "MASSCAN is listed as a tool but no specific use is mentioned in the text."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1090.003",
+   "evidence": "Unit 29155 cyber actors executed commands via ProxyChains—a tool used to route internal traffic through a series of proxies"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1071.001",
+   "evidence": "Unit 29155 cyber actors use POST requests over HTTP to send payloads to victims"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1071.004",
+   "evidence": "Unit 29155 cyber actors used DNS tunneling tools, such as dnscat/2 and Iodine, to tunnel IPv4 network traffic"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1095",
+   "evidence": "Unit 29155 cyber actors commonly use a reverse TCP connection to initiate communication with their infrastructure"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1105",
+   "evidence": "When an exploit is successfully executed on a victim system, Unit 29155 cyber actors are known to launch the Meterpreter payload to initiate communication with their actor-controlled systems"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1572",
+   "evidence": "Unit 29155 cyber actors have used infrastructure configured with OpenVPN configuration to tunnel traffic over a single port (1194), VPNs, and GOST to anonymize their operational activity"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1567.002",
+   "evidence": "Unit 29155 cyber actors exfiltrated data to the cloud storage and file hosting service, MEGA (mega[.]nz), using Rclone"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1485",
+   "evidence": "Unit 29155 cyber actors’ objectives include the destruction of data"
+  },
+  {
+   "source": "Rclone",
+   "type": "uses",
+   "target": "T1567.002",
+   "evidence": "Unit 29155 cyber actors exfiltrated data to the cloud storage and file hosting service, MEGA (mega[.]nz), using Rclone"
+  },
+  {
+   "source": "WhisperGate",
+   "type": "targets",
+   "target": "data",
+   "evidence": "Unit 29155 cyber actors’ objectives include the destruction of data"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "WhisperGate",
+   "evidence": "Unit 29155 cyber actors’ use of WhisperGate involved the deployment of the malware files, stage1.exe and stage2.exe."
+  },
+  {
+   "source": "WhisperGate",
+   "type": "uses",
+   "target": "Discord",
+   "evidence": "Discord is commonly leveraged by threat actors as an endpoint for malware distribution and control; in this case, it was used to obtain the next step of the infection chain by directly sharing files through its platform."
+  },
+  {
+   "source": "WhisperGate",
+   "type": "uses",
+   "target": "Rclone",
+   "evidence": "MITRE: Rclone"
+  },
+  {
+   "source": "WhisperGate",
+   "type": "uses",
+   "target": "Acunetix",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "source": "WhisperGate",
+   "type": "uses",
+   "target": "Nmap",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "source": "WhisperGate",
+   "type": "uses",
+   "target": "Amass",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "source": "WhisperGate",
+   "type": "uses",
+   "target": "Droopescan",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "source": "WhisperGate",
+   "type": "uses",
+   "target": "JoomScan",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "source": "WhisperGate",
+   "type": "uses",
+   "target": "MASSCAN",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "source": "WhisperGate",
+   "type": "uses",
+   "target": "Netcat",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "source": "WhisperGate",
+   "type": "uses",
+   "target": "Shodan",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "source": "WhisperGate",
+   "type": "uses",
+   "target": "VirusTotal",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "source": "WhisperGate",
+   "type": "uses",
+   "target": "WPScan",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "source": "WhisperGate",
+   "type": "uses",
+   "target": "Raspberry Robin",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "source": "WhisperGate",
+   "type": "uses",
+   "target": "ProxyChains",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "source": "WhisperGate",
+   "type": "uses",
+   "target": "dnscat/2",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "source": "WhisperGate",
+   "type": "uses",
+   "target": "Iodine",
+   "evidence": "Named earlier in the document: GRU Unit 29155, Russian General Staff Main Intelligence Directorate (GRU), WhisperGate, WhisperGate, Acunetix, Nmap, Unit 29155, GRU, Amass, Droopescan, JoomScan, MASSCAN, Netcat, Shodan, VirusTotal, WPScan, Raspberry Robin, Rclone, ProxyChains, dnscat/2, Iodine"
+  },
+  {
+   "source": "WhisperGate",
+   "type": "uses",
+   "target": "WhisperKill",
+   "evidence": "Waqybg is known as WhisperKill—a malware downloaded by WhisperGate that destroys files with specific extensions."
+  },
+  {
+   "source": "WhisperGate",
+   "type": "uses",
+   "target": "Frkmlkdkdubkznbkmcf.dll",
+   "evidence": "The original filename from the resulting payload was a Dynamic Link Library (DLL) file, Frkmlkdkdubkznbkmcf.dll; its attributes are listed in Table 21"
+  },
+  {
+   "source": "WhisperGate",
+   "type": "uses",
+   "target": "Nmddfrqqrbyjeygggda.vbs",
+   "evidence": "stage2.exe was observed calling method Ylfwdwgmpilzyaph to begin decrypting resource 78c855a088924e92a7f60d661c3d1845. The reflection library was used to execute method Ylfwdwgmpilzyaph, as shown in the following C# code block"
+  },
+  {
+   "source": "Discord Cluster 1",
+   "type": "uses",
+   "target": "Afgyyppsysmtddhvhhaw.dll",
+   "evidence": "stage2.exe and its respective payload, Tbopbh.jpg, served as a template for other malware within Discord Cluster 1."
+  },
+  {
+   "source": "Discord Cluster 1",
+   "type": "uses",
+   "target": "Avbbwys.dll",
+   "evidence": "stage2.exe and its respective payload, Tbopbh.jpg, served as a template for other malware within Discord Cluster 1."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "3proxy",
+   "evidence": "Table 28: Domains Hosting Jump Host Tooling\nDomain Name\ninterlinks[.]top\nhttps://3proxy[.]ru"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "ngrok",
+   "evidence": "Table 28: Domains Hosting Jump Host Tooling\nDomain Name\ninterlinks[.]top\nhttps://3proxy[.]ru\nhttps://ngrok[.]com (Note: This domain is a legitimate service leveraged for malicious purposes by Unit 29155 cyber actors and should be investigated prior to blocking.)"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "nssm",
+   "evidence": "Table 28: Domains Hosting Jump Host Tooling\nDomain Name\ninterlinks[.]top\nhttps://3proxy[.]ru\nhttps://ngrok[.]com (Note: This domain is a legitimate service leveraged for malicious purposes by Unit 29155 cyber actors and should be investigated prior to blocking.)\nhttps://nssm[.]cc"
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "qwen3:30b-a3b",
+  "seconds": 858.0,
+  "errors": "3 unparsable chunk(s)"
+ }
+}
