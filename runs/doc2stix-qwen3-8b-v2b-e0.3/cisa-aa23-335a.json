@@ -1,0 +1,607 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "IRGC-Affiliated Cyber Actors",
+   "evidence": "IRGC-Affiliated Cyber Actors Exploit PLCs in Multiple Sectors, Including US Water and Wastewater Systems Facilities"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "IRGC-affiliated APT",
+   "evidence": "the authoring agencies assess are likely associated with this IRGC￾affiliated APT"
+  },
+  {
+   "type": "campaign",
+   "name": "CyberAv3ngers",
+   "evidence": "In November 2023, IRGC-affiliated cyber actors using the persona “CyberAv3ngers” began actively targeting and compromising Israeli-made Unitronics Vision Series programmable logic controllers (PLCs) and human machine interfaces (HMIs)."
+  },
+  {
+   "type": "malware",
+   "name": "Unitronics Vision Series",
+   "evidence": "The IRGC-affiliated cyber actors left a defacement image stating, “You have been hacked, down with Israel. Every equipment ‘made in Israel’ is CyberAv3ngers legal target.”"
+  },
+  {
+   "type": "sector",
+   "name": "Water and Wastewater Systems",
+   "evidence": "These PLCs are commonly used in the Water and Wastewater Systems (WWS) Sector and used in other industries including, but not limited to, energy, food and beverage manufacturing, transportation systems, and healthcare."
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "The victims spanned multiple U.S. states and foreign countries."
+  },
+  {
+   "type": "country",
+   "name": "United Kingdom",
+   "evidence": "the NCSC observed the targeting of PLC devices, including in the United Kingdom, likely as part of a wider cyber campaign against Israel and Israeli-made technology."
+  },
+  {
+   "type": "country",
+   "name": "Israel",
+   "evidence": "In November 2023, IRGC-affiliated cyber actors using the persona “CyberAv3ngers” began actively targeting and compromising Israeli-made Unitronics Vision Series programmable logic controllers (PLCs) and human machine interfaces (HMIs)."
+  },
+  {
+   "type": "country",
+   "name": "Canada",
+   "evidence": "The Iranian Government charged the IRGC, an armed force, with defending Iran’s revolutionary regime from perceived internal and external threats. The IRGC is designated as a foreign terrorist organization by the United States and Canada."
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "The victims spanned multiple U.S. states and foreign countries."
+  },
+  {
+   "type": "country",
+   "name": "Israel",
+   "evidence": "In November 2023, IRGC-affiliated cyber actors using the persona “CyberAv3ngers” began actively targeting and compromising Israeli-made Unitronics Vision Series programmable logic controllers (PLCs) and human machine interfaces (HMIs)."
+  },
+  {
+   "type": "country",
+   "name": "United Kingdom",
+   "evidence": "the NCSC observed the targeting of PLC devices, including in the United Kingdom, likely as part of a wider cyber campaign against Israel and Israeli-made technology."
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "The victims spanned multiple U.S. states and foreign countries."
+  },
+  {
+   "type": "country",
+   "name": "Israel",
+   "evidence": "In November 2023, IRGC-affiliated cyber actors using the persona “CyberAv3ngers” began actively targeting and compromising Israeli-made Unitronics Vision Series programmable logic controllers (PLCs) and human machine interfaces (HMIs)."
+  },
+  {
+   "type": "country",
+   "name": "United Kingdom",
+   "evidence": "the NCSC observed the targeting of PLC devices, including in the United Kingdom, likely as part of a wider cyber campaign against Israel and Israeli-made technology."
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "The victims spanned multiple U.S. states and foreign countries."
+  },
+  {
+   "type": "country",
+   "name": "Israel",
+   "evidence": "In November 2023, IRGC-affiliated cyber actors using the persona “CyberAv3ngers” began actively targeting and compromising Israeli-made Unitronics Vision Series programmable logic controllers (PLCs) and human machine interfaces (HMIs)."
+  },
+  {
+   "type": "country",
+   "name": "United Kingdom",
+   "evidence": "the NCSC observed the targeting of PLC devices, including in the United Kingdom, likely as part of a wider cyber campaign against Israel and Israeli-made technology."
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "The victims spanned multiple U.S. states and foreign countries."
+  },
+  {
+   "type": "country",
+   "name": "Israel",
+   "evidence": "In November 2023, IRGC-affiliated cyber actors using the persona “CyberAv3ngers” began actively targeting and compromising Israeli-made Unitronics Vision Series programmable logic controllers (PLCs) and human machine interfaces (HMIs)."
+  },
+  {
+   "type": "country",
+   "name": "United Kingdom",
+   "evidence": "the NCSC observed the targeting of PLC devices, including in the United Kingdom, likely as part of a wider cyber campaign against Israel and Israeli-made technology."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "IRGC-Affiliated Cyber Actors",
+   "evidence": "IRGC-Affiliated Cyber Actors, IRGC-affiliated APT, CyberAv3ngers, Unitronics Vision Series"
+  },
+  {
+   "type": "threat-actor",
+   "name": "CyberAv3ngers",
+   "evidence": "CyberAv3ngers is an Iranian IRGC-affiliated cyber persona (also known as CyberAveng3rs or Cyber Avengers) that has claimed responsibility for numerous attacks against critical infrastructure organizations"
+  },
+  {
+   "type": "campaign",
+   "name": "IRGC cyber campaign",
+   "evidence": "the targeting of PLC devices, including in the United Kingdom, likely as part of a wider cyber campaign against Israel and Israeli-made technology"
+  },
+  {
+   "type": "malware",
+   "name": "Unitronics Vision Series",
+   "evidence": "The actors compromised multiple Unitronics Vision Series devices by authenticating to internet-connected devices with communications set to the default TCP port 20256 [T1110]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force",
+   "evidence": "Brute Force T1110 The actors used brute force to gain access to Valid Accounts.",
+   "mitre_id": "T1110"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Default Accounts",
+   "evidence": "Default Accounts T1078.001 The actors compromised multiple devices via default credentials.",
+   "mitre_id": "T1078.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Stored Data Manipulation",
+   "evidence": "T1565.001 The actors erased the original ladder logic file on compromised devices.",
+   "mitre_id": "T1565.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Access Removal",
+   "evidence": "T1531 The actors renamed the compromised devices so that device operators could no longer access them.",
+   "mitre_id": "T1531"
+  },
+  {
+   "type": "sector",
+   "name": "Water and Wastewater Systems",
+   "evidence": "targeting of PLCs poses an ongoing risk to UK organizations that utilize these components in their"
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "U.S.-based WWS facilities"
+  },
+  {
+   "type": "country",
+   "name": "Israel",
+   "evidence": "targeting of PLCs in the water, energy, shipping, and distribution sectors"
+  },
+  {
+   "type": "country",
+   "name": "United Kingdom",
+   "evidence": "targeting of PLC devices, including in the United Kingdom"
+  },
+  {
+   "type": "organization",
+   "name": "Unitronics",
+   "evidence": "Unitronics Vision Series"
+  },
+  {
+   "type": "vulnerability",
+   "name": "T1110",
+   "evidence": "default TCP port 20256 [T1110]"
+  },
+  {
+   "type": "vulnerability",
+   "name": "T1078.001",
+   "evidence": "default credentials"
+  },
+  {
+   "type": "vulnerability",
+   "name": "T1565.001",
+   "evidence": "erased the original ladder logic file on compromised devices"
+  },
+  {
+   "type": "vulnerability",
+   "name": "T1531",
+   "evidence": "renamed the compromised devices so that device operators could no longer access them"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Endpoint Denial of Service",
+   "evidence": "Endpoint Denial of Service T1499"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Internal Defacement",
+   "evidence": "Defacement: Internal Defacement T1491.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Access Removal",
+   "evidence": "Account Access Removal T1531"
+  },
+  {
+   "type": "malware",
+   "name": "Unitronics Vision Series",
+   "evidence": "The cyber threat actors accessed the affected devices—Unitronics Vision Series PLCs—by authenticating to internet-connected devices using default or no passwords."
+  },
+  {
+   "type": "sector",
+   "name": "Water and Wastewater Systems",
+   "evidence": "The authoring agencies recommend critical infrastructure organizations, including WWS Sector facilities,"
+  },
+  {
+   "type": "sector",
+   "name": "Energy",
+   "evidence": "The authoring agencies recommend critical infrastructure organizations, including WWS Sector facilities,"
+  },
+  {
+   "type": "sector",
+   "name": "Transport",
+   "evidence": "The authoring agencies recommend critical infrastructure organizations, including WWS Sector facilities,"
+  },
+  {
+   "type": "sector",
+   "name": "Defense",
+   "evidence": "The authoring agencies recommend critical infrastructure organizations, including WWS Sector facilities,"
+  },
+  {
+   "type": "sector",
+   "name": "Manufacturing",
+   "evidence": "The authoring agencies recommend critical infrastructure organizations, including WWS Sector facilities,"
+  },
+  {
+   "type": "sector",
+   "name": "Telecommunications",
+   "evidence": "The authoring agencies recommend critical infrastructure organizations, including WWS Sector facilities,"
+  },
+  {
+   "type": "sector",
+   "name": "Information Technologies Consulting",
+   "evidence": "The authoring agencies recommend critical infrastructure organizations, including WWS Sector facilities,"
+  },
+  {
+   "type": "sector",
+   "name": "High-tech",
+   "evidence": "The authoring agencies recommend critical infrastructure organizations, including WWS Sector facilities,"
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "The authoring agencies recommend critical infrastructure organizations, including WWS Sector facilities,"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "IRGC-Affiliated Cyber Actors",
+   "evidence": "posture to defend against IRGC-affiliated activity."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "IRGC-affiliated APT",
+   "evidence": "posture to defend against IRGC-affiliated activity."
+  },
+  {
+   "type": "threat-actor",
+   "name": "IRGC",
+   "evidence": "posture to defend against IRGC-affiliated activity."
+  },
+  {
+   "type": "campaign",
+   "name": "IRGC cyber campaign",
+   "evidence": "posture to defend against IRGC-affiliated activity."
+  },
+  {
+   "type": "malware",
+   "name": "CyberAv3ngers",
+   "evidence": "The cyber threat actors accessed the affected devices—Unitronics Vision Series PLCs—by authenticating to internet-connected devices using default or no passwords."
+  },
+  {
+   "type": "malware",
+   "name": "Unitronics Vision Series",
+   "evidence": "The cyber threat actors accessed the affected devices—Unitronics Vision Series PLCs—by authenticating to internet-connected devices using default or no passwords."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-1234",
+   "evidence": "Note: The mitigations below are based on threat actor activity against Unitronics PLCs, but threat actors have targeted multiple internet-exposed PLCs in 2024.1 These mitigations should be applied to any internet-facing PLCs."
+  },
+  {
+   "type": "malware",
+   "name": "Unitronics Vision Series",
+   "evidence": "Although critical infrastructure organizations using Unitronics (including rebranded Unitronics) PLC devices"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Common Vulnerabilities",
+   "evidence": "In addition to applying mitigations, the authoring agencies recommend exercising, testing, and validating your organization's security program against the threat behaviors mapped to the MITRE ATT&CK for Enterprise framework in this advisory."
+  },
+  {
+   "type": "sector",
+   "name": "Water distribution and supply",
+   "evidence": "IRGC-Affiliated Cyber Actors Exploit PLCs in Multiple Sectors, Including US Water and Wastewater Systems Facilities"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force",
+   "mitre_id": "T1110",
+   "evidence": "devices with communications set to the default TCP port 20256 [T1110]. These devices either had a"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Default Accounts",
+   "mitre_id": "T1078.001",
+   "evidence": "default password in place or no password [T1078.001]. The actors made multiple changes to the devices"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Manipulation: Stored Data Manipulation",
+   "mitre_id": "T1565.001",
+   "evidence": "[T1565.001]. Their ladder logic file contained no inputs or outputs. Since the programmed ladder"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Access Removal",
+   "mitre_id": "T1531",
+   "evidence": "[T1531]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Endpoint Denial of Service",
+   "mitre_id": "T1499",
+   "evidence": "operators from taking down the splash page [T1499]. Additionally, the actors enabled password"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Defacement: Internal Defacement",
+   "mitre_id": "T1491.001",
+   "evidence": "such as input and output readings [T1491.001]. In at least one instance the actors displayed a text"
+  }
+ ],
+ "observables": [
+  {
+   "type": "url",
+   "value": "https://www.unitronics.com/blog/unitronics-cybersecurity-for-vision-and-samba-plc-series",
+   "indicates": [
+    "Unitronics Vision Series"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://www.unitronics.com/release-notes/visilogic-9-9-00",
+   "indicates": [
+    "Unitronics Vision Series"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "IRGC-affiliated APT",
+   "type": "targets",
+   "target": "Water and Wastewater Systems",
+   "evidence": "These PLCs are commonly used in the Water and Wastewater Systems (WWS) Sector and used in other industries including, but not limited to, energy, food and beverage manufacturing, transportation systems, and healthcare."
+  },
+  {
+   "source": "IRGC-affiliated APT",
+   "type": "targets",
+   "target": "United States",
+   "evidence": "The victims spanned multiple U.S. states and foreign countries."
+  },
+  {
+   "source": "IRGC-affiliated APT",
+   "type": "targets",
+   "target": "United Kingdom",
+   "evidence": "the NCSC observed the targeting of PLC devices, including in the United Kingdom, likely as part of a wider cyber campaign against Israel and Israeli-made technology."
+  },
+  {
+   "source": "IRGC-affiliated APT",
+   "type": "targets",
+   "target": "Israel",
+   "evidence": "In November 2023, IRGC-affiliated cyber actors using the persona “CyberAv3ngers” began actively targeting and compromising Israeli-made Unitronics Vision Series programmable logic controllers (PLCs) and human machine interfaces (HMIs)."
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "targets",
+   "target": "Water and Wastewater Systems",
+   "evidence": "targeting of PLCs poses an ongoing risk to UK organizations that utilize these components in their"
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "targets",
+   "target": "United States",
+   "evidence": "U.S.-based WWS facilities"
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "targets",
+   "target": "Israel",
+   "evidence": "targeting of PLCs in the water, energy, shipping, and distribution sectors"
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "targets",
+   "target": "United Kingdom",
+   "evidence": "targeting of PLC devices, including in the United Kingdom"
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "uses",
+   "target": "Brute Force",
+   "evidence": "Brute Force T1110 The actors used brute force to gain access to Valid Accounts."
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "uses",
+   "target": "Default Accounts",
+   "evidence": "Default Accounts T1078.001 The actors compromised multiple devices via default credentials."
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "uses",
+   "target": "Stored Data Manipulation",
+   "evidence": "T1565.001 The actors erased the original ladder logic file on compromised devices."
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "uses",
+   "target": "Account Access Removal",
+   "evidence": "T1531 The actors renamed the compromised devices so that device operators could no longer access them."
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "targets",
+   "target": "Unitronics",
+   "evidence": "The actors compromised multiple Unitronics Vision Series devices by authenticating to internet-connected devices with communications set to the default TCP port 20256 [T1110]"
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "uses",
+   "target": "T1110",
+   "evidence": "default TCP port 20256 [T1110]"
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "uses",
+   "target": "T1078.001",
+   "evidence": "default credentials"
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "uses",
+   "target": "T1565.001",
+   "evidence": "erased the original ladder logic file on compromised devices"
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "uses",
+   "target": "T1531",
+   "evidence": "renamed the compromised devices so that device operators could no longer access them"
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "targets",
+   "target": "Water and Wastewater Systems",
+   "evidence": "posture to defend against IRGC-affiliated activity."
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "targets",
+   "target": "Energy",
+   "evidence": "posture to defend against IRGC-affiliated activity."
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "targets",
+   "target": "Transport",
+   "evidence": "posture to defend against IRGC-affiliated activity."
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "targets",
+   "target": "Defense",
+   "evidence": "posture to defend against IRGC-affiliated activity."
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "targets",
+   "target": "Manufacturing",
+   "evidence": "posture to defend against IRGC-affiliated activity."
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "targets",
+   "target": "Telecommunications",
+   "evidence": "posture to defend against IRGC-affiliated activity."
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "targets",
+   "target": "Information Technologies Consulting",
+   "evidence": "posture to defend against IRGC-affiliated activity."
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "targets",
+   "target": "High-tech",
+   "evidence": "posture to defend against IRGC-affiliated activity."
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "targets",
+   "target": "United States",
+   "evidence": "posture to defend against IRGC-affiliated activity."
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "uses",
+   "target": "Unitronics Vision Series",
+   "evidence": "The cyber threat actors accessed the affected devices—Unitronics Vision Series PLCs—by authenticating to internet-connected devices using default or no passwords."
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "uses",
+   "target": "CyberAv3ngers",
+   "evidence": "The cyber threat actors accessed the affected devices—Unitronics Vision Series PLCs—by authenticating to internet-connected devices using default or no passwords."
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "uses",
+   "target": "IRGC cyber campaign",
+   "evidence": "posture to defend against IRGC-affiliated activity."
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "uses",
+   "target": "IRGC-affiliated APT",
+   "evidence": "posture to defend against IRGC-affiliated activity."
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "uses",
+   "target": "Account Access Removal",
+   "evidence": "Account Access Removal T1531"
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "uses",
+   "target": "Internal Defacement",
+   "evidence": "Defacement: Internal Defacement T1491.001"
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "uses",
+   "target": "Endpoint Denial of Service",
+   "evidence": "Endpoint Denial of Service T1499"
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "originates-from",
+   "target": "United States",
+   "evidence": "posture to defend against IRGC-affiliated activity."
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "attributed-to",
+   "target": "IRGC",
+   "evidence": "posture to defend against IRGC-affiliated activity."
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "attributed-to",
+   "target": "IRGC-affiliated APT",
+   "evidence": "posture to defend against IRGC-affiliated activity."
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "attributed-to",
+   "target": "IRGC cyber campaign",
+   "evidence": "posture to defend against IRGC-affiliated activity."
+  },
+  {
+   "source": "IRGC-Affiliated Cyber Actors",
+   "type": "targets",
+   "target": "CVE-2024-1234",
+   "evidence": "Note: The mitigations below are based on threat actor activity against Unitronics PLCs, but threat actors have targeted multiple internet-exposed PLCs in 2024.1 These mitigations should be applied to any internet-facing PLCs."
+  },
+  {
+   "source": "IRGC",
+   "type": "uses",
+   "target": "T1491.001",
+   "evidence": "such as input and output readings [T1491.001]. In at least one instance the actors displayed a text"
+  }
+ ],
+ "_meta": {
+  "engine": "0.3",
+  "model": "doc2stix-qwen3-8b:v2b",
+  "seconds": 312.9,
+  "errors": ""
+ }
+}

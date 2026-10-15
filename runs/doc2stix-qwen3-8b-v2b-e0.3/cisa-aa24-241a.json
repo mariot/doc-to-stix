@@ -1,0 +1,934 @@
+{
+ "entities": [
+  {
+   "type": "country",
+   "name": "Iran",
+   "evidence": "Iran-based Cyber Actors Enabling"
+  },
+  {
+   "type": "country",
+   "name": "United States of America",
+   "evidence": "U.S. organizations"
+  },
+  {
+   "type": "country",
+   "name": "Israel",
+   "evidence": "organizations in Israel"
+  },
+  {
+   "type": "country",
+   "name": "Azerbaijan",
+   "evidence": "organizations in Azerbaijan"
+  },
+  {
+   "type": "country",
+   "name": "United Arab Emirates",
+   "evidence": "organizations in the United Arab Emirates"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Pioneer Kitten",
+   "evidence": "This advisory outlines activity by a specific group of Iranian cyber actors that has conducted a high volume"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Fox Kitten",
+   "evidence": "This advisory outlines activity by a specific group of Iranian cyber actors that has conducted a high volume"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "UNC757",
+   "evidence": "This advisory outlines activity by a specific group of Iranian cyber actors that has conducted a high volume"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Parisite",
+   "evidence": "This advisory outlines activity by a specific group of Iranian cyber actors that has conducted a high volume"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "RUBIDIUM",
+   "evidence": "This advisory outlines activity by a specific group of Iranian cyber actors that has conducted a high volume"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Lemon Sandstorm",
+   "evidence": "This advisory outlines activity by a specific group of Iranian cyber actors that has conducted a high volume"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Br0k3r",
+   "evidence": "The actors also refer to themselves by the moniker Br0k3r, and as of 2024, they have been operating under the moniker"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "xplfinder",
+   "evidence": "The actors also refer to themselves by the moniker Br0k3r, and as of 2024, they have been operating under the moniker"
+  },
+  {
+   "type": "threat-actor",
+   "name": "NoEscape",
+   "evidence": "These actors have collaborated with the ransomware affiliates NoEscape[3], Ransomhouse[4], and ALPHV (aka BlackCat)"
+  },
+  {
+   "type": "threat-actor",
+   "name": "Ransomhouse",
+   "evidence": "These actors have collaborated with the ransomware affiliates NoEscape[3], Ransomhouse[4], and ALPHV (aka BlackCat)"
+  },
+  {
+   "type": "threat-actor",
+   "name": "ALPHV",
+   "evidence": "These actors have collaborated with the ransomware affiliates NoEscape[3], Ransomhouse[4], and ALPHV (aka BlackCat)"
+  },
+  {
+   "type": "threat-actor",
+   "name": "BlackCat",
+   "evidence": "These actors have collaborated with the ransomware affiliates NoEscape[3], Ransomhouse[4], and ALPHV (aka BlackCat)"
+  },
+  {
+   "type": "campaign",
+   "name": "Pay2Key",
+   "evidence": "The FBI has historically observed this actor conduct hack-and-leak campaigns, such as the late 2020 campaign known as Pay2Key."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-24919",
+   "evidence": "As of July 2024, these actors have been observed scanning IP addresses hosting Check Point Security Gateways, probing for devices potentially vulnerable to CVE￾2024-24919."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-3400",
+   "evidence": "As of April 2024, these actors have conducted mass scanning of IP addresses hosting Palo Alto Networks PAN-OS and GlobalProtect VPN devices. The actors were likely conducting reconnaissance and probing for devices vulnerable to CVE-2024-3400."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-19781",
+   "evidence": "Historically, this group has exploited organizations by leveraging CVE-2019-19781 and CVE-2023-3519 related to Citrix Netscaler, and CVE-2022-1388 related to BIG-IP F5 devices."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-3519",
+   "evidence": "Historically, this group has exploited organizations by leveraging CVE-2019-19781 and CVE-2023-3519 related to Citrix Netscaler, and CVE-2022-1388 related to BIG-IP F5 devices."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-1388",
+   "evidence": "Historically, this group has exploited organizations by leveraging CVE-2019-19781 and CVE-2023-3519 related to Citrix Netscaler, and CVE-2022-1388 related to BIG-IP F5 devices."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21887",
+   "evidence": "The actors’ initial access is usually obtained via exploiting a public-facing networking device, such as Citrix Netscaler (CVE-2019-19781 and CVE-2023-3519), F5 BIG-IP (CVE-2022-1388), Pulse Secure/Ivanti VPNs (CVE-2024-21887), and, more recently, PanOS firewalls (CVE-2024-3400) [T1596][T1190]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "The Iranian cyber actors’ initial intrusions rely upon exploits of remote external services on internet-facing assets to gain initial access to victim networks.",
+   "mitre_id": "T1596"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "evidence": "The actors have been observed using the Shodan search engine to identify and enumerate IP addresses that host devices vulnerable to a particular CVE.",
+   "mitre_id": "T1190"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Search Open Technical Databases",
+   "evidence": "Search Open Technical Databases T1596 Iranian cyber actors use Shodan (Shodan[.]io) to identify internet"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Search Open Technical Databases",
+   "evidence": "Search Open Technical Databases T1596 Iranian cyber actors use Shodan (Shodan[.]io) to identify internet"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "Exploit Public-Facing Application T1190 Iranian cyber actors scan and exploit public-facing networking"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "External Remote Services",
+   "evidence": "External Remote Services T1133 Iranian cyber actors create /xui/common/images/ directory on"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Shell",
+   "evidence": "Server Software Component: Web Shell T1505.003 Iranian cyber actors capture login credentials on compromised Netscaler"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create Account (Local Account)",
+   "evidence": "Create Account (Local Account) T1136.001 Iranian cyber actors create local accounts on victim networks."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Manipulation",
+   "evidence": "Account Manipulation T1098 Iranian cyber actors request exemptions to zero-trust application for tools"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Scheduled Task/Job",
+   "evidence": "Scheduled Task/Job T1053 Iranian cyber actors implement a scheduled task that uses a DLL side￾loading technique and a scheduled task that loads malware through back"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component",
+   "evidence": "Server Software Component T1505 Iranian cyber actors implement the daily creation of a Windows service"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Local Accounts",
+   "evidence": "Valid Accounts: Local Accounts T1078.003 Iranian cyber actors repurpose compromised credentials (e.g., from a"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Domain Accounts",
+   "evidence": "Valid Accounts: Domain Accounts T1078.002 Iranian cyber actors repurpose administrative credentials of network"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Impair Defenses: Disable or Modify Tools",
+   "evidence": "Impair Defenses: Disable or Modify Tools T1562.001 Iranian cyber actors use administrator credentials to disable"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Impair Defenses: Downgrade Attack",
+   "evidence": "Impair Defenses: Downgrade Attack T1562.010 Iranian cyber actors lower PowerShell policies to a less secure"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Input Capture",
+   "evidence": "Input Capture T1056 Iranian cyber actors capture login credentials on compromised Netscaler"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting",
+   "evidence": "Command and Scripting T1059.001 Iranian cyber actors use an admin account to initiate a remote"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Query Registry",
+   "evidence": "Query Registry T1012 Iranian cyber actors export registry hives and network firewall configurations."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Domain Trust Discovery",
+   "evidence": "Domain Trust Discovery T1482 Iranian cyber actors exfiltrate account usernames from the domain"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Access Software",
+   "evidence": "Remote Access Software T1219 Iranian cyber actors install “AnyDesk” remote access program."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Protocol Tunneling",
+   "evidence": "Protocol Tunneling T1572 Iranian cyber actors use ligolo / ligolo-ng for open"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Control",
+   "evidence": "Command and Control T1219 Iranian cyber actors install “AnyDesk” remote access program."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Control",
+   "evidence": "Command and Control T1572 Iranian cyber actors use ligolo / ligolo-ng for open"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "primarily based on the identification of devices vulnerable to CVEs named in this notification (see Technical"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-3400",
+   "evidence": "CVE-2024-3400, CVE-2022-1388, CVE-2019-19781, and"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-1388",
+   "evidence": "CVE-2024-3400, CVE-2022-1388, CVE-2019-19781, and"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-19781",
+   "evidence": "CVE-2024-3400, CVE-2022-1388, CVE-2019-19781, and"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-3519",
+   "evidence": "CVE-2024-3400, CVE-2022-1388, CVE-2019-19781, and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Privilege Escalation",
+   "evidence": "o Be advised, patching for the above referenced CVEs may be insufficient to mitigate malicious"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Privilege Escalation",
+   "evidence": "activity if your network has already been compromised by these actors while the network device"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create or Modify System Process",
+   "evidence": "compromised networks, including creation of specific usernames, use of NGROK and Ligolo, and deployment of webshells in specific directories"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Outbound Web Requests",
+   "evidence": "Check your systems for outbound web requests to files.catbox[.]moe and ***.ngrok[.]io"
+  },
+  {
+   "type": "malware",
+   "name": "xplfinder",
+   "evidence": "xplfinder ea2ec0c3859d8d8c36d95a298beef6d7add17856655bf"
+  },
+  {
+   "type": "malware",
+   "name": "Br0k3r",
+   "evidence": "Br0k3r B761680E23F2EBB5F6887D315EBD05B2D7C365731E"
+  },
+  {
+   "type": "malware",
+   "name": "Access",
+   "evidence": "Access 185ADA4556737A4F26AE16F1A99CA82AB5684C32719"
+  },
+  {
+   "type": "malware",
+   "name": "Admin",
+   "evidence": "Admin ALPHV aka BlackCat"
+  },
+  {
+   "type": "malware",
+   "name": "Admin_NoEscape",
+   "evidence": "Admin_NoEscape 0A6F992E1372DB4F245595424A7436EBB610775D6AD"
+  },
+  {
+   "type": "malware",
+   "name": "Americano_Sneeckers",
+   "evidence": "Americano_Sneeckers 14F8AD7D1553D1A47CF4C9E7BEDABCC5B759C86E54C"
+  },
+  {
+   "type": "malware",
+   "name": "Bettersock",
+   "evidence": "Bettersock 2C76104C9AAAF32453A814C227E7D9D755451B551A3"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Search Open Technical Databases",
+   "mitre_id": "T1596",
+   "evidence": "firewalls (CVE-2024-3400) [T1596][T1190]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "mitre_id": "T1190",
+   "evidence": "firewalls (CVE-2024-3400) [T1596][T1190]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Shell",
+   "mitre_id": "T1505.003",
+   "evidence": "named netscaler.1 in the same directory as the webshell [T1505.003][T1056]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Input Capture",
+   "mitre_id": "T1056",
+   "evidence": "named netscaler.1 in the same directory as the webshell [T1505.003][T1056]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "External Remote Services",
+   "mitre_id": "T1133",
+   "evidence": " Create the directory /xui/common/images/ on targeted IP addresses [T1133]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create Account: Local Account",
+   "mitre_id": "T1136.001",
+   "evidence": "“IIS_Admin,” “iis-admin,” and “John McCain” [T1136.001]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Manipulation",
+   "mitre_id": "T1098",
+   "evidence": "deploy on a victim network [T1098]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Scheduled Task/Job",
+   "mitre_id": "T1053",
+   "evidence": "file has been observed being executed from the Windows Downloads directory [T1053]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Access Tools",
+   "mitre_id": "T1219",
+   "evidence": " Deployment of Meshcentral to connect with compromised servers for remote access [T1219]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component",
+   "mitre_id": "T1505",
+   "evidence": "attempting to load a file located at C:\\WINDOWS\\system32\\drivers\\test.sys [T1505]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Local Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "to log into other applications (i.e., Citrix XenDesktop) [T1078.003]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Domain Accounts",
+   "mitre_id": "T1078.002",
+   "evidence": "other infrastructure on victim networks [T1078.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify Tools",
+   "mitre_id": "T1562.001",
+   "evidence": "policies to a less secure level [T1562.001][T1562.010]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Downgrade Attack",
+   "mitre_id": "T1562.010",
+   "evidence": "policies to a less secure level [T1562.001][T1562.010]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001",
+   "evidence": "the actors use as a repository/hosting mechanism [T1059.001]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Query Registry",
+   "mitre_id": "T1012",
+   "evidence": " Export system registry hives and network firewall configurations on compromised servers [T1012]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Domain Trust Discovery",
+   "mitre_id": "T1482",
+   "evidence": "exploitation efforts [T1482]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Protocol Tunneling",
+   "mitre_id": "T1572",
+   "evidence": " Use the open source tunneling tool Ligolo (ligolo/ligolo-ng) [T1572]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Financial Theft",
+   "mitre_id": "T1657",
+   "evidence": "victims [T1657]. The actors also conduct what is assessed to be separate set of malicious activity—stealing"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-3400",
+   "evidence": "and probing for devices vulnerable to CVE-2024-3400. Historically, this group has exploited organizations"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-19781",
+   "evidence": "by leveraging CVE-2019-19781 and CVE-2023-3519 related to Citrix Netscaler, and CVE-2022-1388"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-3519",
+   "evidence": "by leveraging CVE-2019-19781 and CVE-2023-3519 related to Citrix Netscaler, and CVE-2022-1388"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-1388",
+   "evidence": "by leveraging CVE-2019-19781 and CVE-2023-3519 related to Citrix Netscaler, and CVE-2022-1388"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21887",
+   "evidence": "BIG-IP (CVE-2022-1388), Pulse Secure/Ivanti VPNs (CVE-2024-21887), and, more recently, PanOS"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-24919",
+   "evidence": " Check Point Security Gateways (CVE-2024-24919)"
+  }
+ ],
+ "observables": [
+  {
+   "type": "ipv4-addr",
+   "value": "138.68.90.19",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "167.99.202.130",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "78.141.238.182",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "51.16.51.81",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "51.20.138.134",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "134.209.30.220",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "13.53.124.246",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "api.gupdate.net",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "githubapp.net",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "18.134.0.66",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "193.149.190.248",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.76.65.42",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "206.71.148.78",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "193.149.187.41",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "login.forticloud.online",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "fortigate.forticloud.online",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "cloud.sophos.one",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "bitcoin-addr",
+   "value": "bc1q8n7jjgdepuym825zwwftr3qpem3tnjx3m50ku0",
+   "indicates": [
+    "Iranian cyber group"
+   ]
+  },
+  {
+   "type": "bitcoin-addr",
+   "value": "bc1qlwd94gf5uhdpu4gynk6znc5j3rwk9s53c0dhjs",
+   "indicates": [
+    "Iranian cyber group"
+   ]
+  },
+  {
+   "type": "bitcoin-addr",
+   "value": "bc1q2egjjzmchtm3q3h3een37zsvpph86hwgq4xskh",
+   "indicates": [
+    "Iranian cyber group"
+   ]
+  },
+  {
+   "type": "bitcoin-addr",
+   "value": "bc1qjzw7sh3pd5msgehdaurzv04pm40hm9ajpwjqky",
+   "indicates": [
+    "Iranian cyber group"
+   ]
+  },
+  {
+   "type": "bitcoin-addr",
+   "value": "bc1qn5tla384qxpl6zt7kd068hvl7y4a6rt684ufqp",
+   "indicates": [
+    "Iranian cyber group"
+   ]
+  },
+  {
+   "type": "bitcoin-addr",
+   "value": "bc1ql837eewad47zn0uzzjfgqjhsnf2yhkyxvxyjjc",
+   "indicates": [
+    "Iranian cyber group"
+   ]
+  },
+  {
+   "type": "bitcoin-addr",
+   "value": "bc1qy8pnttrfmyu4l3qcy59gmllzqq66gmr446ppcr",
+   "indicates": [
+    "Iranian cyber group"
+   ]
+  },
+  {
+   "type": "bitcoin-addr",
+   "value": "bc1q6620fmev7cvkfu82z43vwjtec6mzgcp5hjrdne",
+   "indicates": [
+    "Iranian cyber group"
+   ]
+  },
+  {
+   "type": "bitcoin-addr",
+   "value": "bc1qr6h2zcxlntpcjystxdf7qy2755p25yrwucm4lq",
+   "indicates": [
+    "Iranian cyber group"
+   ]
+  },
+  {
+   "type": "bitcoin-addr",
+   "value": "bc1qx9tteqhama2x2w9vwqsyny6hldh8my8udx5jlm",
+   "indicates": [
+    "Iranian cyber group"
+   ]
+  },
+  {
+   "type": "bitcoin-addr",
+   "value": "bc1qz75atxj4dvgezyuspw8yz9khtkuk5jpdgfauq8",
+   "indicates": [
+    "Iranian cyber group"
+   ]
+  },
+  {
+   "type": "bitcoin-addr",
+   "value": "bc1q6w2an66vrje747scecrgzucw9ksha66x9zt980",
+   "indicates": [
+    "Iranian cyber group"
+   ]
+  },
+  {
+   "type": "bitcoin-addr",
+   "value": "bc1qsn4l6h3mhyhmr72vw4ajxf2gr74hwpalks2tp9",
+   "indicates": [
+    "Iranian cyber group"
+   ]
+  },
+  {
+   "type": "bitcoin-addr",
+   "value": "bc1qtjhvqkun4uxtr4qmq6s3f7j49nr4sp0wywp489",
+   "indicates": [
+    "Iranian cyber group"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "files.catbox.moe",
+   "indicates": [
+    "attack-pattern",
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "ngrok.io",
+   "indicates": [
+    "attack-pattern",
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "files.catbox.moe"
+  },
+  {
+   "type": "domain-name",
+   "value": "ngrok.io"
+  },
+  {
+   "type": "domain-name",
+   "value": "Shodan.io"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "138.68.90.19"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "167.99.202.130"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "78.141.238.182"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "51.16.51.81"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "51.20.138.134"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "134.209.30.220"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "13.53.124.246"
+  },
+  {
+   "type": "domain-name",
+   "value": "api.gupdate.net"
+  },
+  {
+   "type": "domain-name",
+   "value": "githubapp.net"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "18.134.0.66"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "193.149.190.248"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.76.65.42"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "206.71.148.78"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "193.149.187.41"
+  },
+  {
+   "type": "domain-name",
+   "value": "login.forticloud.online"
+  },
+  {
+   "type": "domain-name",
+   "value": "cloud.sophos.one"
+  }
+ ],
+ "relationships": [
+  {
+   "source": "Pioneer Kitten",
+   "type": "targets",
+   "target": "US Organizations",
+   "evidence": "Compromised organizations include U.S.-based schools, municipal governments, financial institutions, and healthcare facilities."
+  },
+  {
+   "source": "Pioneer Kitten",
+   "type": "uses",
+   "target": "NoEscape",
+   "evidence": "These actors have collaborated with the ransomware affiliates NoEscape[3], Ransomhouse[4], and ALPHV (aka BlackCat)"
+  },
+  {
+   "source": "Pioneer Kitten",
+   "type": "uses",
+   "target": "Ransomhouse",
+   "evidence": "These actors have collaborated with the ransomware affiliates NoEscape[3], Ransomhouse[4], and ALPHV (aka BlackCat)"
+  },
+  {
+   "source": "Pioneer Kitten",
+   "type": "uses",
+   "target": "ALPHV",
+   "evidence": "These actors have collaborated with the ransomware affiliates NoEscape[3], Ransomhouse[4], and ALPHV (aka BlackCat)"
+  },
+  {
+   "source": "Pioneer Kitten",
+   "type": "uses",
+   "target": "BlackCat",
+   "evidence": "These actors have collaborated with the ransomware affiliates NoEscape[3], Ransomhouse[4], and ALPHV (aka BlackCat)"
+  },
+  {
+   "source": "Pioneer Kitten",
+   "type": "targets",
+   "target": "Pay2Key",
+   "evidence": "The FBI has historically observed this actor conduct hack-and-leak campaigns, such as the late 2020 campaign known as Pay2Key."
+  },
+  {
+   "source": "Access",
+   "type": "uses",
+   "target": "T1596",
+   "evidence": "firewalls (CVE-2024-3400) [T1596][T1190]."
+  },
+  {
+   "source": "Access",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "firewalls (CVE-2024-3400) [T1596][T1190]."
+  },
+  {
+   "source": "Access",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "named netscaler.1 in the same directory as the webshell [T1505.003][T1056]."
+  },
+  {
+   "source": "Access",
+   "type": "uses",
+   "target": "T1056",
+   "evidence": "named netscaler.1 in the same directory as the webshell [T1505.003][T1056]."
+  },
+  {
+   "source": "Access",
+   "type": "uses",
+   "target": "T1133",
+   "evidence": " Create the directory /xui/common/images/ on targeted IP addresses [T1133]."
+  },
+  {
+   "source": "Access",
+   "type": "uses",
+   "target": "T1136.001",
+   "evidence": "“IIS_Admin,” “iis-admin,” and “John McCain” [T1136.001]."
+  },
+  {
+   "source": "Access",
+   "type": "uses",
+   "target": "T1098",
+   "evidence": "deploy on a victim network [T1098]."
+  },
+  {
+   "source": "Access",
+   "type": "uses",
+   "target": "T1053",
+   "evidence": "file has been observed being executed from the Windows Downloads directory [T1053]."
+  },
+  {
+   "source": "Access",
+   "type": "uses",
+   "target": "T1219",
+   "evidence": " Deployment of Meshcentral to connect with compromised servers for remote access [T1219]."
+  },
+  {
+   "source": "Access",
+   "type": "uses",
+   "target": "T1505",
+   "evidence": "attempting to load a file located at C:\\WINDOWS\\system32\\drivers\\test.sys [T1505]."
+  },
+  {
+   "source": "Access",
+   "type": "uses",
+   "target": "T1078.003",
+   "evidence": "to log into other applications (i.e., Citrix XenDesktop) [T1078.003]."
+  },
+  {
+   "source": "Access",
+   "type": "uses",
+   "target": "T1078.002",
+   "evidence": "other infrastructure on victim networks [T1078.002]."
+  },
+  {
+   "source": "Access",
+   "type": "uses",
+   "target": "T1562.001",
+   "evidence": "policies to a less secure level [T1562.001][T1562.010]."
+  },
+  {
+   "source": "Access",
+   "type": "uses",
+   "target": "T1562.010",
+   "evidence": "policies to a less secure level [T1562.001][T1562.010]."
+  },
+  {
+   "source": "Access",
+   "type": "uses",
+   "target": "T1059.001",
+   "evidence": "the actors use as a repository/hosting mechanism [T1059.001]."
+  },
+  {
+   "source": "Access",
+   "type": "uses",
+   "target": "T1012",
+   "evidence": " Export system registry hives and network firewall configurations on compromised servers [T1012]."
+  },
+  {
+   "source": "Access",
+   "type": "uses",
+   "target": "T1482",
+   "evidence": "exploitation efforts [T1482]."
+  },
+  {
+   "source": "Access",
+   "type": "uses",
+   "target": "T1572",
+   "evidence": " Use the open source tunneling tool Ligolo (ligolo/ligolo-ng) [T1572]."
+  },
+  {
+   "source": "Access",
+   "type": "uses",
+   "target": "T1657",
+   "evidence": "victims [T1657]. The actors also conduct what is assessed to be separate set of malicious activity—stealing"
+  }
+ ],
+ "_meta": {
+  "engine": "0.3",
+  "model": "doc2stix-qwen3-8b:v2b",
+  "seconds": 847.3,
+  "errors": ""
+ }
+}

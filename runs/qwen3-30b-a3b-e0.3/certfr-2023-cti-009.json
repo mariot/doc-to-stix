@@ -1,0 +1,1607 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "APT28",
+   "evidence": "Lors de ses investigations, l’ANSSI a analysé plusieurs chaînes de compromission du mode opératoire d’attaque (MOA) APT28 1 utilisées à des fins d’espionnage.",
+   "aliases": [
+    "UAC-0028",
+    "Fancy Bear",
+    "FrozenLake",
+    "Sednit",
+    "Sofacy",
+    "Pawn Storm"
+   ]
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-23397",
+   "evidence": "APT28 a exploité la vulnérabilité 0-day CVE-2023-23397 affectant le produit Outlook pour Windows à partir de mars 2022 et jusqu’en juin 2023.",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-30190",
+   "evidence": "le MOA aurait par ailleurs exploité d’autres vulnérabilités, comme celle touchant Microsoft Windows Support Diagnostic Tool (MSDT, CVE-2022-30190, aussi appelée Follina)",
+   "aliases": [
+    "Follina"
+   ]
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-12641",
+   "evidence": "celles ciblant l’application Roundcube (CVE-2020-12641, CVE-2020-35730, CVE-2021-44026)",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-35730",
+   "evidence": "celles ciblant l’application Roundcube (CVE-2020-12641, CVE-2020-35730, CVE-2021-44026)",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-44026",
+   "evidence": "celles ciblant l’application Roundcube (CVE-2020-12641, CVE-2020-35730, CVE-2021-44026)",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Government",
+   "evidence": "Certaines campagnes ont été dirigées contre des organisations françaises, dont des entités gouvernementales, des entreprises, des universités, ainsi que des instituts de recherche et des groupes de réflexion (think tanks).",
+   "aliases": [
+    "Government ministries"
+   ]
+  },
+  {
+   "type": "sector",
+   "name": "Universities",
+   "evidence": "Certaines campagnes ont été dirigées contre des organisations françaises, dont des entités gouvernementales, des entreprises, des universités, ainsi que des instituts de recherche et des groupes de réflexion (think tanks).",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Research institutes",
+   "evidence": "Certaines campagnes ont été dirigées contre des organisations françaises, dont des entités gouvernementales, des entreprises, des universités, ainsi que des instituts de recherche et des groupes de réflexion (think tanks).",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Think tanks",
+   "evidence": "Certaines campagnes ont été dirigées contre des organisations françaises, dont des entités gouvernementales, des entreprises, des universités, ainsi que des instituts de recherche et des groupes de réflexion (think tanks).",
+   "aliases": []
+  },
+  {
+   "type": "country",
+   "name": "France",
+   "evidence": "Certaines campagnes ont été dirigées contre des organisations françaises, dont des entités gouvernementales, des entreprises, des universités, ainsi que des instituts de recherche et des groupes de réflexion (think tanks).",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT28",
+   "evidence": "Campagnes d'attaques du mode opératoire APT28 depuis 2021"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-23397",
+   "evidence": "Durant la campagne d’exploitation de la vulnérabilité CVE-2023-23397"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-0688",
+   "evidence": "exploitation des vulnérabilités CVE-2020-0688"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-17144",
+   "evidence": "CVE-2020-17144 à l’encontre d’un serveur Exchange"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT28",
+   "evidence": "Campagnes d'attaques du mode opératoire APT28 depuis 2021",
+   "aliases": [
+    "MOA"
+   ]
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-0688",
+   "evidence": "exploitation des vulnérabilités CVE-2020-0688 et CVE-2020-17144",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-17144",
+   "evidence": "exploitation des vulnérabilités CVE-2020-0688 et CVE-2020-17144",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-23397",
+   "evidence": "L'ANSSI a procédé à l'analyse de la CVE-2023-23397",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Graphite",
+   "evidence": "L’implant Graphite d’APT28",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "CredoMap",
+   "evidence": "implants du MOA comme CredoMap",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "reGeorg",
+   "evidence": "L’outil reGeorg a notamment été utilisé",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz",
+   "evidence": "en utilisant l’outil Mimikatz",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "certutil.exe",
+   "evidence": "l’emploi de l’outil « certutil.exe »",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "ntdsutil.exe",
+   "evidence": "l’utilisation d’utilitaires natifs comme « ntdsutil.exe »",
+   "aliases": []
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1505.003",
+   "evidence": "reGeorg a notamment été utilisé pour pérenniser l’accès au serveur [T1505.003]",
+   "mitre_id": "T1505.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1136",
+   "evidence": "APT28 crée par ailleurs des comptes utilisateur [T1136]",
+   "mitre_id": "T1136"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1546.015",
+   "evidence": "une technique de Component Objet Model (COM) Hijacking [T1546.015]",
+   "mitre_id": "T1546.015"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1003.001",
+   "evidence": "récupération des secrets d’authentification stockés dans la mémoire du processus LSASS, soit en utilisant l’outil Mimikatz, soit en faisant appel à la fonction MiniDump de la bibliothèque « comsvcs.dll » [T1003.001]",
+   "mitre_id": "T1003.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1003.003",
+   "evidence": "l’utilisation d’utilitaires natifs comme « ntdsutil.exe » pour récupérer le contenu de la base de données Active Directory [T1003.003]",
+   "mitre_id": "T1003.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1105",
+   "evidence": "l’emploi de l’outil « certutil.exe » pour être en mesure de télécharger des ressources distantes dans l’environnement compromis [T1105]",
+   "mitre_id": "T1105"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1528",
+   "evidence": "L’attaquant est ensuite en mesure de relayer cette empreinte auprès d’autres services supportant ce type d’authentification [T1528]",
+   "mitre_id": "T1528"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1555.003",
+   "evidence": "Ces données sont probablement utilisées a posteriori pour mener des compromissions à plus large échelle ou s’installer durablement dans un système d’information [T1555.003]",
+   "mitre_id": "T1555.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1539",
+   "evidence": "Ces données sont probablement utilisées a posteriori pour mener des compromissions à plus large échelle ou s’installer durablement dans un système d’information [T1539]",
+   "mitre_id": "T1539"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT28",
+   "evidence": "Campagnes d'attaques du mode opératoire APT28 depuis 2021",
+   "aliases": [
+    "Graphite",
+    "CredoMap"
+   ]
+  },
+  {
+   "type": "tool",
+   "name": "reGeorg",
+   "evidence": "Named earlier in the document: APT28, Graphite, CredoMap, reGeorg, Mimikatz, certutil.exe, ntdsutil.exe",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz",
+   "evidence": "Named earlier in the document: APT28, Graphite, CredoMap, reGeorg, Mimikatz, certutil.exe, ntdsutil.exe",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "certutil.exe",
+   "evidence": "Named earlier in the document: APT28, Graphite, CredoMap, reGeorg, Mimikatz, certutil.exe, ntdsutil.exe",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "ntdsutil.exe",
+   "evidence": "Named earlier in the document: APT28, Graphite, CredoMap, reGeorg, Mimikatz, certutil.exe, ntdsutil.exe",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT28",
+   "evidence": "Campagnes d'attaques du mode opératoire APT28 depuis 2021",
+   "aliases": [
+    "Graphite",
+    "CredoMap"
+   ]
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT28",
+   "evidence": "Campagnes d'attaques du mode opératoire APT28 depuis 2021",
+   "aliases": [
+    "Graphite",
+    "CredoMap"
+   ]
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT28",
+   "evidence": "Campagnes d'attaques du mode opératoire APT28 depuis 2021",
+   "aliases": [
+    "Graphite",
+    "CredoMap"
+   ]
+  },
+  {
+   "type": "tool",
+   "name": "reGeorg",
+   "evidence": "Named earlier in the document: APT28, Graphite, CredoMap, reGeorg, Mimikatz, certutil.exe, ntdsutil.exe",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz",
+   "evidence": "Named earlier in the document: APT28, Graphite, CredoMap, reGeorg, Mimikatz, certutil.exe, ntdsutil.exe",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "certutil.exe",
+   "evidence": "Named earlier in the document: APT28, Graphite, CredoMap, reGeorg, Mimikatz, certutil.exe, ntdsutil.exe",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "ntdsutil.exe",
+   "evidence": "Named earlier in the document: APT28, Graphite, CredoMap, reGeorg, Mimikatz, certutil.exe, ntdsutil.exe",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT28",
+   "evidence": "Campagnes d'attaques du mode opératoire APT28 depuis 2021",
+   "aliases": [
+    "Graphite",
+    "CredoMap",
+    "reGeorg",
+    "Mimikatz",
+    "certutil.exe",
+    "ntdsutil.exe"
+   ]
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT28",
+   "evidence": "Campagnes d'attaques du mode opératoire APT28 depuis 2021",
+   "aliases": [
+    "Graphite",
+    "CredoMap"
+   ]
+  },
+  {
+   "type": "tool",
+   "name": "reGeorg",
+   "evidence": "Named earlier in the document: APT28, Graphite, CredoMap, reGeorg, Mimikatz, certutil.exe, ntdsutil.exe",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz",
+   "evidence": "Named earlier in the document: APT28, Graphite, CredoMap, reGeorg, Mimikatz, certutil.exe, ntdsutil.exe",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "certutil.exe",
+   "evidence": "Named earlier in the document: APT28, Graphite, CredoMap, reGeorg, Mimikatz, certutil.exe, ntdsutil.exe",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "ntdsutil.exe",
+   "evidence": "Named earlier in the document: APT28, Graphite, CredoMap, reGeorg, Mimikatz, certutil.exe, ntdsutil.exe",
+   "aliases": []
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Search Closed Sources",
+   "mitre_id": "T1597",
+   "evidence": "Le mode opératoire repose sur l’utilisation de comptes de messagerie compromis pour mener ses campagnes d’ha￾meçonnage [T1597] [1, 2, 3, 4]. Dans certains cas, les identifiants et mots de passe de ces"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force: Password Spraying",
+   "mitre_id": "T1110.003",
+   "evidence": "APT28 est également employé dans des attaques par force brute [T1110.003, T1110.004]. Les opérateurs du MOA"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force: Credential Stuffing",
+   "mitre_id": "T1110.004",
+   "evidence": "APT28 est également employé dans des attaques par force brute [T1110.003, T1110.004]. Les opérateurs du MOA"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Credential Access",
+   "mitre_id": "T1212",
+   "evidence": "• la recherche de vulnérabilités du jour zéro (0-day) [T1212, T1587.004];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Exploits",
+   "mitre_id": "T1587.004",
+   "evidence": "• la recherche de vulnérabilités du jour zéro (0-day) [T1212, T1587.004];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Compromise Infrastructure: Botnet",
+   "mitre_id": "T1584.005",
+   "evidence": "• la compromission de routeurs et de comptes de messagerie personnels [T1584.005, T1586.002];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Compromise Accounts: Email Accounts",
+   "mitre_id": "T1586.002",
+   "evidence": "• la compromission de routeurs et de comptes de messagerie personnels [T1584.005, T1586.002];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obtain Capabilities: Tool",
+   "mitre_id": "T1588.002",
+   "evidence": "• l’utilisation d’outils disponibles en source ouverte et de services en ligne [T1588.002, T1583.006]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure: Web Services",
+   "mitre_id": "T1583.006",
+   "evidence": "• l’utilisation d’outils disponibles en source ouverte et de services en ligne [T1588.002, T1583.006]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing",
+   "mitre_id": "T1566",
+   "evidence": "APT28 a été employé à de nombreuses reprises pour conduire des campagnes d’hameçonnage ciblé [T1566]. Ces"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "mitre_id": "T1190",
+   "evidence": "Depuis au moins 2020, les attaques par force brute sont une des méthodes les plus employées par APT28 [T1190]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "ou par énumération de mots de passe courants (password spraying) réussie (cf. section 2.1) [T1078]. Ces actions"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Shell",
+   "mitre_id": "T1505.003",
+   "evidence": "reGeorg a notamment été utilisé pour pérenniser l’accès au serveur [T1505.003]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create Account",
+   "mitre_id": "T1136",
+   "evidence": "Pour se maintenir sur le réseau compromis, APT28 crée par ailleurs des comptes utilisateur [T1136] qui imitent par"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Event Triggered Execution: Component Object Model Hijacking",
+   "mitre_id": "T1546.015",
+   "evidence": "[T1546.015] comme"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: LSASS Memory",
+   "mitre_id": "T1003.001",
+   "evidence": "l’outil Mimikatz, soit en faisant appel à la fonction MiniDump de la bibliothèque « comsvcs.dll » [T1003.001];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: NTDS",
+   "mitre_id": "T1003.003",
+   "evidence": "[T1003.003];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Ingress Tool Transfer",
+   "mitre_id": "T1105",
+   "evidence": "[T1105];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Steal Application Access Token",
+   "mitre_id": "T1528",
+   "evidence": "d’authentification [T1528]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credentials from Password Stores: Credentials from Web Browsers",
+   "mitre_id": "T1555.003",
+   "evidence": "des boîtes de courriels de particulier ou l’utilisation de son implant CredoMap, qui permet de collecter des identi￾fiants et des cookies de navigateurs. Ces données sont probablement utilisées a post"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Steal Web Session Cookie",
+   "mitre_id": "T1539",
+   "evidence": "des boîtes de courriels de particulier ou l’utilisation de son implant CredoMap, qui permet de collecter des identi￾fiants et des cookies de navigateurs. Ces données sont probablement utilisées a post"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-23397",
+   "evidence": "Les investigations de l’ANSSI confirment qu’APT28 a exploité la vulnérabilité 0-day CVE-2023-23397 affectant le"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-30190",
+   "evidence": "celle touchant Microsoft Windows Support Diagnostic Tool (MSDT, CVE-2022-30190, aussi appelée Follina) ainsi"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-12641",
+   "evidence": "que celles ciblant l’application Roundcube (CVE-2020-12641, CVE-2020-35730, CVE-2021-44026) [1, 2, 10]."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-35730",
+   "evidence": "que celles ciblant l’application Roundcube (CVE-2020-12641, CVE-2020-35730, CVE-2021-44026) [1, 2, 10]."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-44026",
+   "evidence": "que celles ciblant l’application Roundcube (CVE-2020-12641, CVE-2020-35730, CVE-2021-44026) [1, 2, 10]."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-0688",
+   "evidence": "Dans l’un des incidents impliquant le MOA, l’ANSSI a identifié l’exploitation des vulnérabilités CVE-2020-0688 et"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-17144",
+   "evidence": "CVE-2020-17144 à l’encontre d’un serveur Exchange exposé au travers d’une interface Outlook Web Access (OWA). Le"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-24880",
+   "evidence": "[4] SOCRADAR. Microsoft Fixes Exploited Zero-Days in March Patch Tuesday (CVE-2023-23397 & CVE-2023-24880)."
+  }
+ ],
+ "observables": [
+  {
+   "type": "domain-name",
+   "value": "mocky.io",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "mockbin.org",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "maint[@]goldenloafuae[.]com",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.199.162.132",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "accounts[@]regencyservice[.]in",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "101.255.119.42",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "vikram.anand[@]4ginfosource[.]com",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "101.255.119.42",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "franch1.lanka[@]bplanka[.]com",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "168.205.200.55",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "mdelafuente[@]ukwwfze[.]com",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "213.32.252.221",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "karina[@]bhpcapital[.]com",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "213.32.252.221",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "m.salim[@]tsc-me[.]com",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.132.17.160",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "ashoke.kumar[@]hbclife[.]in",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "69.51.2.106",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "jayan[@]wizzsolutions[.]com",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "113.160.234.229",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "m.yasser[@]egymatec[.]ae",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "85.195.206.7",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "commercial[@]vanadrink[.]com",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "85.195.206.7",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "commercial[@]vanadrink[.]com",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "61.14.68.33",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "m.nash[@]islandsailors[.]com",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "42.98.5.225",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "neocities[.]org",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "frge[.]io",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "tinyhost[.]fr",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "mockbin[.]org",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "mocky[.]io",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "infinityfree",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "surfshark",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "expressvpn",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "cactusvpn",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "protonvpn",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "privatevpn",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "ipvanish",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "nordvpn",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "worldvpn",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "purevpn",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "vpnservice",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "OneDrive",
+   "indicates": [
+    "Graphite"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "Google Drive",
+   "indicates": [
+    "Graphite"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "PIPEDREAM",
+   "indicates": [
+    "CredoMap"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "MOCKBIN",
+   "indicates": [
+    "CredoMap"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "MOCKY",
+   "indicates": [
+    "CredoMap"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "Roundcube",
+   "indicates": [
+    "CredoMap"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "mockbin.org",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "website.hook",
+   "indicates": [
+    "APT28"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9f4172d554bb9056c8ba28e32c606b1e"
+  },
+  {
+   "type": "file",
+   "value": "3d4362e8fe86d2f33acb3e15f1dad341"
+  },
+  {
+   "type": "file",
+   "value": "f60350585fbfc5dc968f45c6ef4e434d"
+  },
+  {
+   "type": "file",
+   "value": "92e22b7e96aca3f9d733ca609ab0b589"
+  },
+  {
+   "type": "file",
+   "value": "43a0441b35b3db061cde412541f4d1e1"
+  },
+  {
+   "type": "file",
+   "value": "9a97c56c9ea6d9ebde0968580ea28ea9"
+  },
+  {
+   "type": "file",
+   "value": "e68cbd4930e2781e0c1b19eb72ec0936"
+  },
+  {
+   "type": "file",
+   "value": "b21dde4c19e2f6fc08a922e25de38cf5"
+  },
+  {
+   "type": "file",
+   "value": "b5d82be5813c7dacbd97ef5df073b260"
+  },
+  {
+   "type": "file",
+   "value": "2bb4c6b32d077c0f80cda1006da90365"
+  },
+  {
+   "type": "file",
+   "value": "238334590d0f62d2a089bd87ad71b730"
+  },
+  {
+   "type": "file",
+   "value": "7ee19e6bd9f55ebc0dd6413c68346de6"
+  },
+  {
+   "type": "file",
+   "value": "3b698278f225f1e5bace9d177a1a95e0"
+  },
+  {
+   "type": "file",
+   "value": "ce65c51078b7c69a6f50b0b37a36293f"
+  },
+  {
+   "type": "file",
+   "value": "65fdbc35bc8c3a2f0e872dbbfd32c7a7"
+  },
+  {
+   "type": "domain-name",
+   "value": "mocky.io"
+  },
+  {
+   "type": "domain-name",
+   "value": "mockbin.org"
+  },
+  {
+   "type": "email-addr",
+   "value": "maint@goldenloafuae.com"
+  },
+  {
+   "type": "email-addr",
+   "value": "accounts@regencyservice.in"
+  },
+  {
+   "type": "email-addr",
+   "value": "vikram.anand@4ginfosource.com"
+  },
+  {
+   "type": "email-addr",
+   "value": "franch1.lanka@bplanka.com"
+  },
+  {
+   "type": "email-addr",
+   "value": "mdelafuente@ukwwfze.com"
+  },
+  {
+   "type": "email-addr",
+   "value": "karina@bhpcapital.com"
+  },
+  {
+   "type": "email-addr",
+   "value": "m.salim@tsc-me.com"
+  },
+  {
+   "type": "email-addr",
+   "value": "ashoke.kumar@hbclife.in"
+  },
+  {
+   "type": "email-addr",
+   "value": "jayan@wizzsolutions.com"
+  },
+  {
+   "type": "email-addr",
+   "value": "m.yasser@egymatec.ae"
+  },
+  {
+   "type": "email-addr",
+   "value": "commercial@vanadrink.com"
+  },
+  {
+   "type": "email-addr",
+   "value": "m.nash@islandsailors.com"
+  },
+  {
+   "type": "domain-name",
+   "value": "neocities.org"
+  },
+  {
+   "type": "domain-name",
+   "value": "frge.io"
+  },
+  {
+   "type": "domain-name",
+   "value": "tinyhost.fr"
+  },
+  {
+   "type": "domain-name",
+   "value": "pipedream.com"
+  },
+  {
+   "type": "domain-name",
+   "value": "webhook.site"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.199.162.132"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "101.255.119.42"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "213.32.252.221"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "168.205.200.55"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.132.17.160"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "69.51.2.106"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "113.160.234.229"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "85.195.206.7"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "61.14.68.33"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "24.142.165.2"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "42.98.5.225"
+  }
+ ],
+ "relationships": [
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "T1597",
+   "evidence": "Le mode opératoire repose sur l’utilisation de comptes de messagerie compromis pour mener ses campagnes d’hameçonnage [T1597]"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "T1110.003",
+   "evidence": "APT28 est également employé dans des attaques par force brute [T1110.003, T1110.004]"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "T1110.004",
+   "evidence": "APT28 est également employé dans des attaques par force brute [T1110.003, T1110.004]"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "T1212",
+   "evidence": "la recherche de vulnérabilités du jour zéro (0-day) [T1212, T1587.004]"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "T1587.004",
+   "evidence": "la recherche de vulnérabilités du jour zéro (0-day) [T1212, T1587.004]"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "T1584.005",
+   "evidence": "la compromission de routeurs et de comptes de messagerie personnels [T1584.005, T1586.002]"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "T1586.002",
+   "evidence": "la compromission de routeurs et de comptes de messagerie personnels [T1584.005, T1586.002]"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "T1588.002",
+   "evidence": "l’utilisation d’outils disponibles en source ouverte et de services en ligne [T1588.002, T1583.006]"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "T1583.006",
+   "evidence": "l’utilisation d’outils disponibles en source ouverte et de services en ligne [T1588.002, T1583.006]"
+  },
+  {
+   "source": "APT28",
+   "type": "targets",
+   "target": "CVE-2023-23397",
+   "evidence": "APT28 a exploité la vulnérabilité 0-day CVE-2023-23397 affectant le produit Outlook pour Windows à partir de mars 2022 et jusqu’en juin 2023."
+  },
+  {
+   "source": "APT28",
+   "type": "targets",
+   "target": "CVE-2022-30190",
+   "evidence": "le MOA aurait par ailleurs exploité d’autres vulnérabilités, comme celle touchant Microsoft Windows Support Diagnostic Tool (MSDT, CVE-2022-30190, aussi appelée Follina)"
+  },
+  {
+   "source": "APT28",
+   "type": "targets",
+   "target": "CVE-2020-12641",
+   "evidence": "celles ciblant l’application Roundcube (CVE-2020-12641, CVE-2020-35730, CVE-2021-44026)"
+  },
+  {
+   "source": "APT28",
+   "type": "targets",
+   "target": "CVE-2020-35730",
+   "evidence": "celles ciblant l’application Roundcube (CVE-2020-12641, CVE-2020-35730, CVE-2021-44026)"
+  },
+  {
+   "source": "APT28",
+   "type": "targets",
+   "target": "CVE-2021-44026",
+   "evidence": "celles ciblant l’application Roundcube (CVE-2020-12641, CVE-2020-35730, CVE-2021-44026)"
+  },
+  {
+   "source": "APT28",
+   "type": "targets",
+   "target": "Government",
+   "evidence": "Certaines campagnes ont été dirigées contre des organisations françaises, dont des entités gouvernementales, des entreprises, des universités, ainsi que des instituts de recherche et des groupes de réflexion (think tanks)."
+  },
+  {
+   "source": "APT28",
+   "type": "targets",
+   "target": "Universities",
+   "evidence": "Certaines campagnes ont été dirigées contre des organisations françaises, dont des entités gouvernementales, des entreprises, des universités, ainsi que des instituts de recherche et des groupes de réflexion (think tanks)."
+  },
+  {
+   "source": "APT28",
+   "type": "targets",
+   "target": "Research institutes",
+   "evidence": "Certaines campagnes ont été dirigées contre des organisations françaises, dont des entités gouvernementales, des entreprises, des universités, ainsi que des instituts de recherche et des groupes de réflexion (think tanks)."
+  },
+  {
+   "source": "APT28",
+   "type": "targets",
+   "target": "Think tanks",
+   "evidence": "Certaines campagnes ont été dirigées contre des organisations françaises, dont des entités gouvernementales, des entreprises, des universités, ainsi que des instituts de recherche et des groupes de réflexion (think tanks)."
+  },
+  {
+   "source": "APT28",
+   "type": "targets",
+   "target": "France",
+   "evidence": "Certaines campagnes ont été dirigées contre des organisations françaises, dont des entités gouvernementales, des entreprises, des universités, ainsi que des instituts de recherche et des groupes de réflexion (think tanks)."
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "Mimikatz",
+   "evidence": "L’ANSSI a pu confirmer l’utilisation des outils malveillants Mimikatz et reGeorg par APT28"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "reGeorg",
+   "evidence": "L’ANSSI a pu confirmer l’utilisation des outils malveillants Mimikatz et reGeorg par APT28"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "Empire",
+   "evidence": "APT28 aurait utilisé le cadriciel Empire, disponible en source ouverte, lors du déploiement de l’implant Graphite"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "CVE-2023-23397",
+   "evidence": "Durant la campagne d’exploitation de la vulnérabilité CVE-2023-23397"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "CVE-2020-0688",
+   "evidence": "exploitation des vulnérabilités CVE-2020-0688"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "CVE-2020-17144",
+   "evidence": "CVE-2020-17144 à l’encontre d’un serveur Exchange"
+  },
+  {
+   "source": "APT28",
+   "type": "targets",
+   "target": "T1566",
+   "evidence": "APT28 a été employé à de nombreuses reprises pour conduire des campagnes d’hameçonnage ciblé [T1566]"
+  },
+  {
+   "source": "APT28",
+   "type": "targets",
+   "target": "T1190",
+   "evidence": "Depuis au moins 2020, les attaques par force brute sont une des méthodes les plus employées par APT28 [T1190]"
+  },
+  {
+   "source": "APT28",
+   "type": "targets",
+   "target": "T1078",
+   "evidence": "Ces actions sont menées au travers de services de VPN ou du réseau d’anonymisation Tor avec des infrastructures pouvant comprendre plus de 1 000 adresses IP différentes [16, 13]"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "neocities[.]org",
+   "evidence": "APT28 s’apppuie en effet sur plusieurs services d’hébergement comme « neocities[.]org »"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "frge[.]io",
+   "evidence": "APT28 s’apppuie en effet sur plusieurs services d’hébergement comme « frge[.]io »"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "tinyhost[.]fr",
+   "evidence": "APT28 s’apppuie en effet sur plusieurs services d’hébergement comme « tinyhost[.]fr »"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "mockbin[.]org",
+   "evidence": "APT28 s’apppuie en effet sur plusieurs services d’hébergement comme « mockbin[.]org »"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "mocky[.]io",
+   "evidence": "APT28 s’apppuie en effet sur plusieurs services d’hébergement comme « mocky[.]io »"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "infinityfree",
+   "evidence": "APT28 s’apppuie en effet sur plusieurs services d’hébergement comme « INFINITYFREE »"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "SurfShark",
+   "evidence": "APT28 s’appuie sur un ensemble de services de réseau privé virtuel (VPN) pour ses activités malveillantes"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "ExpressVPN",
+   "evidence": "APT28 s’appuie sur un ensemble de services de réseau privé virtuel (VPN) pour ses activités malveillantes"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "CactusVPN",
+   "evidence": "APT28 s’appuie sur un ensemble de services de réseau privé virtuel (VPN) pour ses activités malveillantes"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "ProtonVPN",
+   "evidence": "APT28 s’appuie sur un ensemble de services de réseau privé virtuel (VPN) pour ses activités malveillantes"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "PrivateVPN",
+   "evidence": "APT28 s’appuie sur un ensemble de services de réseau privé virtuel (VPN) pour ses activités malveillantes"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "IPVanish",
+   "evidence": "APT28 s’appuie sur un ensemble de services de réseau privé virtuel (VPN) pour ses activités malveillantes"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "NordVPN",
+   "evidence": "APT28 s’appuie sur un ensemble de services de réseau privé virtuel (VPN) pour ses activités malveillantes"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "WorldVPN",
+   "evidence": "APT28 s’appuie sur un ensemble de services de réseau privé virtuel (VPN) pour ses activités malveillantes"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "PureVPN",
+   "evidence": "APT28 s’appuie sur un ensemble de services de réseau privé virtuel (VPN) pour ses activités malveillantes"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "VPNSecure",
+   "evidence": "APT28 s’appuie sur un ensemble de services de réseau privé virtuel (VPN) pour ses activités malveillantes"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "reGeorg a notamment été utilisé pour pérenniser l’accès au serveur [T1505.003]"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "T1136",
+   "evidence": "APT28 crée par ailleurs des comptes utilisateur [T1136]"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "T1546.015",
+   "evidence": "une technique de Component Objet Model (COM) Hijacking [T1546.015]"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "T1003.001",
+   "evidence": "récupération des secrets d’authentification stockés dans la mémoire du processus LSASS, soit en utilisant l’outil Mimikatz, soit en faisant appel à la fonction MiniDump de la bibliothèque « comsvcs.dll » [T1003.001]"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "T1003.003",
+   "evidence": "l’utilisation d’utilitaires natifs comme « ntdsutil.exe » pour récupérer le contenu de la base de données Active Directory [T1003.003]"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "T1105",
+   "evidence": "l’emploi de l’outil « certutil.exe » pour être en mesure de télécharger des ressources distantes dans l’environnement compromis [T1105]"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "T1528",
+   "evidence": "L’attaquant est ensuite en mesure de relayer cette empreinte auprès d’autres services supportant ce type d’authentification [T1528]"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "T1555.003",
+   "evidence": "Ces données sont probablement utilisées a posteriori pour mener des compromissions à plus large échelle ou s’installer durablement dans un système d’information [T1555.003]"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "T1539",
+   "evidence": "Ces données sont probablement utilisées a posteriori pour mener des compromissions à plus large échelle ou s’installer durablement dans un système d’information [T1539]"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "reGeorg",
+   "evidence": "L’outil reGeorg a notamment été utilisé pour pérenniser l’accès au serveur"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "Mimikatz",
+   "evidence": "en utilisant l’outil Mimikatz"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "certutil.exe",
+   "evidence": "l’emploi de l’outil « certutil.exe »"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "ntdsutil.exe",
+   "evidence": "l’utilisation d’utilitaires natifs comme « ntdsutil.exe »"
+  },
+  {
+   "source": "Graphite",
+   "type": "uses",
+   "target": "OneDrive",
+   "evidence": "les implants Graphite et DriveOcean employés par le MOA s'appuient respectivement sur des services OneDrive et Google Drive"
+  },
+  {
+   "source": "Graphite",
+   "type": "uses",
+   "target": "Google Drive",
+   "evidence": "les implants Graphite et DriveOcean employés par le MOA s'appuient respectivement sur des services OneDrive et Google Drive"
+  },
+  {
+   "source": "CredoMap",
+   "type": "uses",
+   "target": "PIPEDREAM",
+   "evidence": "le MOA a utilisé des services en ligne comme PIPEDREAM, MOCKBIN ou MOCKY pour récupérer le contenu exfiltré"
+  },
+  {
+   "source": "CredoMap",
+   "type": "uses",
+   "target": "MOCKBIN",
+   "evidence": "le MOA a utilisé des services en ligne comme PIPEDREAM, MOCKBIN ou MOCKY pour récupérer le contenu exfiltré"
+  },
+  {
+   "source": "CredoMap",
+   "type": "uses",
+   "target": "MOCKY",
+   "evidence": "le MOA a utilisé des services en ligne comme PIPEDREAM, MOCKBIN ou MOCKY pour récupérer le contenu exfiltré"
+  },
+  {
+   "source": "CredoMap",
+   "type": "uses",
+   "target": "Roundcube",
+   "evidence": "Dans cette campagne, le MOA a exfiltré le contenu des boîtes de messagerie électronique par le biais de règles de redirection [10]"
+  },
+  {
+   "source": "APT28",
+   "type": "exploits",
+   "target": "CVE-2020-0688",
+   "evidence": "exploitation des vulnérabilités CVE-2020-0688 et CVE-2020-17144"
+  },
+  {
+   "source": "APT28",
+   "type": "exploits",
+   "target": "CVE-2020-17144",
+   "evidence": "exploitation des vulnérabilités CVE-2020-0688 et CVE-2020-17144"
+  },
+  {
+   "source": "APT28",
+   "type": "exploits",
+   "target": "CVE-2023-23397",
+   "evidence": "L’exploitation par APT28 consiste en l’envoi de courriels ou de demandes de réunions Outlook afin de déclencher une connexion SMB"
+  },
+  {
+   "source": "APT28",
+   "type": "targets",
+   "target": "Exchange",
+   "evidence": "l’ANSSI a identifié l’exploitation des vulnérabilités CVE-2020-0688 et CVE-2020-17144 à l’encontre d’un serveur Exchange exposé au travers d’une interface Outlook Web Access (OWA)"
+  },
+  {
+   "source": "APT28",
+   "type": "targets",
+   "target": "Exchange",
+   "evidence": "Durant la campagne d’attaques contre des serveurs Exchange"
+  },
+  {
+   "source": "APT28",
+   "type": "targets",
+   "target": "Exchange",
+   "evidence": "Dans cette campagne, le MOA a exfiltré le contenu des boîtes de messagerie électronique par le biais de règles de redirection [10]"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "reGeorg",
+   "evidence": "Named earlier in the document: APT28, Graphite, CredoMap, reGeorg, Mimikatz, certutil.exe, ntdsutil.exe"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "Mimikatz",
+   "evidence": "Named earlier in the document: APT28, Graphite, CredoMap, reGeorg, Mimikatz, certutil.exe, ntdsutil.exe"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "certutil.exe",
+   "evidence": "Named earlier in the document: APT28, Graphite, CredoMap, reGeorg, Mimikatz, certutil.exe, ntdsutil.exe"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "ntdsutil.exe",
+   "evidence": "Named earlier in the document: APT28, Graphite, CredoMap, reGeorg, Mimikatz, certutil.exe, ntdsutil.exe"
+  },
+  {
+   "source": "APT28",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "L’ANSSI observe un ciblage accru par le MOA à l’encontre d’infrastructures de messagerie à des fins d’espionnage stratégique."
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Campagnes d'attaques du mode opératoire APT28 depuis 2021"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "reGeorg",
+   "evidence": "Named earlier in the document: APT28, Graphite, CredoMap, reGeorg, Mimikatz, certutil.exe, ntdsutil.exe"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "Mimikatz",
+   "evidence": "Named earlier in the document: APT28, Graphite, CredoMap, reGeorg, Mimikatz, certutil.exe, ntdsutil.exe"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "certutil.exe",
+   "evidence": "Named earlier in the document: APT28, Graphite, CredoMap, reGeorg, Mimikatz, certutil.exe, ntdsutil.exe"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "ntdsutil.exe",
+   "evidence": "Named earlier in the document: APT28, Graphite, CredoMap, reGeorg, Mimikatz, certutil.exe, ntdsutil.exe"
+  },
+  {
+   "source": "APT28",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "À l’instar de l’utilisation par le MOA APT28 de la vulnérabilité CVE-2023-23397"
+  },
+  {
+   "source": "APT28",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "Campagnes d’attaques du mode opératoire APT28 depuis 2021"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "reGeorg",
+   "evidence": "Named earlier in the document: APT28, Graphite, CredoMap, reGeorg, Mimikatz, certutil.exe, ntdsutil.exe"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "Mimikatz",
+   "evidence": "Named earlier in the document: APT28, Graphite, CredoMap, reGeorg, Mimikatz, certutil.exe, ntdsutil.exe"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "certutil.exe",
+   "evidence": "Named earlier in the document: APT28, Graphite, CredoMap, reGeorg, Mimikatz, certutil.exe, ntdsutil.exe"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "ntdsutil.exe",
+   "evidence": "Named earlier in the document: APT28, Graphite, CredoMap, reGeorg, Mimikatz, certutil.exe, ntdsutil.exe"
+  },
+  {
+   "source": "APT28",
+   "type": "targets",
+   "target": "mockbin.org",
+   "evidence": "CERT-UA. Attaque informatique d’APT28 : msedge utilisé comme loader, TOR et les services mockbin.org/website.hook utilisés comme centre de contrôle."
+  },
+  {
+   "source": "APT28",
+   "type": "targets",
+   "target": "website.hook",
+   "evidence": "CERT-UA. Attaque informatique d’APT28 : msedge utilisé comme loader, TOR et les services mockbin.org/website.hook utilisés comme centre de contrôle."
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "T1566",
+   "evidence": "APT28 a été employé à de nombreuses reprises pour conduire des campagnes d’hameçonnage ciblé [T1566]. Ces"
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "Depuis au moins 2020, les attaques par force brute sont une des méthodes les plus employées par APT28 [T1190]."
+  },
+  {
+   "source": "APT28",
+   "type": "uses",
+   "target": "T1078",
+   "evidence": "ou par énumération de mots de passe courants (password spraying) réussie (cf. section 2.1) [T1078]. Ces actions"
+  }
+ ],
+ "_meta": {
+  "engine": "0.3",
+  "model": "qwen3:30b-a3b",
+  "seconds": 221.7,
+  "errors": ""
+ }
+}

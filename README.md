@@ -128,16 +128,19 @@ Engine versions in `src/doc2stix/__init__.py`; runs and scores in `runs/`.
 
 | run | model | headline | entities F1 | relationships F1 | observables F1 |
 |---|---|---|---|---|---|
-| **qwen3-30b-a3b-e0.2** | **qwen3:30b-a3b, engine 0.2** | **0.695** | **0.820** | **0.390** | **0.876** |
+| **qwen3-30b-a3b-e0.3** | **qwen3:30b-a3b, engine 0.3** | **0.723** | **0.820** | **0.467** | **0.881** |
+| qwen3-30b-a3b-e0.2 | qwen3:30b-a3b, engine 0.2 | 0.695 | 0.820 | 0.390 | 0.876 |
+| doc2stix-qwen3-8b-v2b-e0.3 | LoRA v2b (Qwen3-8B, distilled), engine 0.3 | 0.646 | 0.675 | 0.363 | 0.901 |
 | doc2stix-qwen3-8b-v1-e0.2 | LoRA v1 (Qwen3-8B), engine 0.2 | 0.579 | 0.654 | 0.179 | 0.904 |
 | harvest-only | no model, harvesting only | 0.531 | 0.698 | 0.000 | 0.894 |
 | qwen3-30b-a3b-e0.1 | qwen3:30b-a3b, engine 0.1 | 0.460 | 0.645 | 0.299 | 0.437 |
 | qwen3-8b-e0.1 | qwen3:8b untrained, engine 0.1 | 0.352 | 0.398 | 0.115 | 0.544 |
 | doc2stix-qwen3-8b-v1-e0.1 | LoRA v1 (Qwen3-8B), engine 0.1 | 0.245 | 0.419 | 0.002 | 0.313 |
 
-Per family (F1), engine 0.2 with qwen3:30b-a3b: actors 0.64, software 0.70,
-techniques 0.91, victims 0.53, vulnerabilities 0.96. The weak spots are
-relationships (precision 0.56, recall 0.30) and victims (recall 0.45).
+Per family (F1), engine 0.3 with qwen3:30b-a3b: actors 0.67, software 0.69,
+techniques 0.91, victims 0.56, vulnerabilities 0.95. The weak spots are
+relationships (precision 0.57, recall 0.39) and victims (recall 0.48).
+qwen3:30b-a3b with engine 0.3 is the connector's default.
 
 ## Training log
 
@@ -211,7 +214,33 @@ Every step taken to improve the training, in order, with its effect.
     STIX labels, filtered (a named entity must be named in the chunk; evidence
     re-anchored to the chunk). Mixed with 250 ATT&CK paragraphs (down from
     1 140) and the official-STIX chunks ×2; lr 5e-5. The best the student can
-    do is match the teacher, at a third of its memory.
+    do is match the teacher, at a third of its memory. Teacher run: 42
+    documents in 3 h 20; 204 chunk examples (76 sectors, 82 countries, 139
+    CVEs, 254 malware, 173 tools, 1 293 techniques).
+12. **v2 failed: NaN from the first step.** The training loss was NaN from
+    step 20 and every adapter tensor was NaN; the model answered "!!!!" to
+    everything. Cause: 12 rows whose *prompt alone* was longer than
+    `max_seq_length` (chunks dense with hashes tokenize at ~1 token per 2-3
+    characters): with the prompt masked, nothing is left to learn, the loss is
+    0/0, and the NaN poisons the weights. v1 had over-long rows too, but none
+    whose prompt filled the window. I read v2's NaN validation loss as v1's
+    harmless one without checking the training loss: four hours lost.
+13. **v2b: rows longer than 6 144 tokens dropped** (`prepare.py --max-tokens`,
+    108 of 724: they also taught truncated answers). 616 rows; training loss
+    0.37 → 0.07, validation loss 0.40 → 0.09 (real numbers this time). The
+    training chain now stops at the first NaN and checks the adapter before
+    importing it. One more lesson: MLX training next to an Ollama model runs
+    the GPU out of memory (both crashed); GPU jobs now run one at a time.
+14. **Engine 0.3 results.** With no chunk lost, qwen3:30b-a3b reaches
+    **0.723** (relationships 0.39 → 0.47, 0 unparsable chunks, 13 before).
+    Engine 0.3 also stops the run on a server error instead of counting it as
+    an empty answer (a first 0.3 run "finished" 22 documents in 5 minutes
+    while Ollama was out of memory; it was discarded).
+15. **v2b scores 0.646** (engine 0.3): relationships 0.36 (v1: 0.18 with
+    engine 0.2, 0.002 without), entities 0.68, observables 0.90; 16
+    unparsable chunks in 22 documents (free output). Distillation fixed v1's
+    collapse; the 8B student stays below its 30B teacher (0.723) as expected.
+    The fair control (untrained qwen3:8b, engine 0.3) is running.
 
 ## License and data
 

@@ -1,0 +1,195 @@
+{
+ "entities": [
+  {
+   "type": "malware",
+   "name": "Small Sieve",
+   "evidence": "Small Sieve is a simple – possibly disposable – Python backdoor which is distributed using an NSIS installer that performs persistence.",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "malware",
+   "name": "Small Sieve",
+   "evidence": "Named earlier in the document: Small Sieve"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Python",
+   "mitre_id": "T1059.006",
+   "evidence": "Execution T1059.006 Command and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder",
+   "mitre_id": "T1547.001",
+   "evidence": "Persistence T1547.001 Boot or Logon"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information",
+   "mitre_id": "T1027",
+   "evidence": "T1027 Obfuscated Files or"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "T1036.005 Masquerading:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Application Layer Protocol: Web Protocols",
+   "mitre_id": "T1071.001",
+   "evidence": "T1071.001 Application Layer"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Encoding: Non-Standard Encoding",
+   "mitre_id": "T1132.002",
+   "evidence": "T1132.002 Data Encoding: Non￾Standard Encoding"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Execution Guardrails",
+   "mitre_id": "T1480",
+   "evidence": "T1480 Execution Guardrails The Small Sieve payload will only"
+  }
+ ],
+ "observables": [
+  {
+   "type": "file",
+   "value": "gram_app.exe",
+   "hash": "MD5: 15fa3b32539d7453a9a85958b77d4c95",
+   "indicates": [
+    "Small Sieve"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "index.exe",
+   "hash": "MD5: 5763530f25ed0ec08fb26a30c04009f1",
+   "indicates": [
+    "Small Sieve"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "api.telegram.org",
+   "hash": "",
+   "indicates": [
+    "Small Sieve"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://api.telegram.org/bot2003026094:AAGoitvpcx3SFZ2_6YzIs4La_kyDF1PbXrY/sendMessage?chat_id=2090761833&parse_mode=Markdown&text=/com39062050%20|%208313e22333e27313e2031302c70213e49414d4f444e49475f2e696d64616",
+   "hash": "",
+   "indicates": [
+    "Small Sieve"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "2A6DDF89A8366A262B56A251B00AAFAED5321992",
+   "hash": "SHA-256",
+   "indicates": [
+    "Small Sieve"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "%LocalAppData%\\MicrosoftWindowsOutlookDataPlus.txt",
+   "indicates": [
+    "Small Sieve"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "%AppData%\\OutlookMicrosift\\index.exe",
+   "indicates": [
+    "Small Sieve"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\OutlookMicrosift",
+   "indicates": [
+    "Small Sieve"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "15fa3b32539d7453a9a85958b77d4c95"
+  },
+  {
+   "type": "file",
+   "value": "11d594f3b3cf8525682f6214acb7b7782056d282"
+  },
+  {
+   "type": "file",
+   "value": "b75208393fa17c0bcbc1a07857686b8c0d7e0471d00a167a07fd0d52e1fc9054"
+  },
+  {
+   "type": "file",
+   "value": "5763530f25ed0ec08fb26a30c04009f1"
+  },
+  {
+   "type": "file",
+   "value": "2a6ddf89a8366a262b56a251b00aafaed5321992"
+  },
+  {
+   "type": "file",
+   "value": "bf090cf7078414c9e157da7002ca727f06053b39fa4e377f9a0050f2af37d3a2"
+  }
+ ],
+ "relationships": [
+  {
+   "source": "Small Sieve",
+   "type": "uses",
+   "target": "T1059.006",
+   "evidence": "Small Sieve is a PyInstaller-packed Python script."
+  },
+  {
+   "source": "Small Sieve",
+   "type": "uses",
+   "target": "T1547.001",
+   "evidence": "Small Sieve is started by a registry run key."
+  },
+  {
+   "source": "Small Sieve",
+   "type": "uses",
+   "target": "T1027",
+   "evidence": "Small Sieve uses a custom hex byte swapping encoding scheme combined with an obfuscated base64 function to protect program strings and updated Telegram credentials."
+  },
+  {
+   "source": "Small Sieve",
+   "type": "uses",
+   "target": "T1036.005",
+   "evidence": "Small Sieve uses variations of Microsoft (Microsift) and Outlook in its filenames to attempt to avoid detection during casual inspection."
+  },
+  {
+   "source": "Small Sieve",
+   "type": "uses",
+   "target": "T1071.001",
+   "evidence": "Small Sieve beacons and tasking are performed using the Telegram API over HTTPS."
+  },
+  {
+   "source": "Small Sieve",
+   "type": "uses",
+   "target": "T1132.002",
+   "evidence": "Small Sieve employs a custom hex byte swapping encoding scheme to obfuscate tasking traffic."
+  },
+  {
+   "source": "Small Sieve",
+   "type": "uses",
+   "target": "T1480",
+   "evidence": "The Small Sieve payload will only execute correctly if the word 'Platypus' is passed to it on the command line."
+  }
+ ],
+ "_meta": {
+  "engine": "0.3",
+  "model": "qwen3:30b-a3b",
+  "seconds": 24.1,
+  "errors": ""
+ }
+}

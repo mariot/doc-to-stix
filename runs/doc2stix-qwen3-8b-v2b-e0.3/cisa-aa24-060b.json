@@ -1,0 +1,811 @@
+{
+ "entities": [
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-46805",
+   "evidence": "CVE-2023-46805, CVE-2024-21887, and CVE-2024-21893—affecting Ivanti Connect Secure and Ivanti Policy"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21887",
+   "evidence": "CVE-2023-46805, CVE-2024-21887, and CVE-2024-21893—affecting Ivanti Connect Secure and Ivanti Policy"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21893",
+   "evidence": "CVE-2023-46805, CVE-2024-21887, and CVE-2024-21893—affecting Ivanti Connect Secure and Ivanti Policy"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-22024",
+   "evidence": "• CVE-2024-22024 is an XML vulnerability in the SAML component of Ivanti Connect Secure"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21888",
+   "evidence": "• CVE-2024-21888 is a privilege escalation vulnerability found in the web component of Ivanti Connect Secure"
+  },
+  {
+   "type": "threat-actor",
+   "name": "CISA",
+   "evidence": "CISA has responded to multiple incidents related to the above vulnerabilities in Ivanti Connect Secure"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-060B",
+   "evidence": "See Tables 1 – 4 in Appendix B for IOCs related to cyber actors exploiting multiple CVEs related to Ivanti appliances."
+  },
+  {
+   "type": "organization",
+   "name": "CISA",
+   "evidence": "developed by CISA and the National Institute of"
+  },
+  {
+   "type": "organization",
+   "name": "NIST",
+   "evidence": "developed by CISA and the National Institute of"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-46805",
+   "evidence": "[3] KB CVE-2023-46805 (Authentication Bypass) & CVE-2024-21887 (Command Injection) for"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21887",
+   "evidence": "[3] KB CVE-2023-46805 (Authentication Bypass) & CVE-2024-21887 (Command Injection) for"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-46805",
+   "evidence": "leverage the access obtained through CVE-2023-46805, CVE-2024-21887 and CVE-2024-21893."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21887",
+   "evidence": "leverage the access obtained through CVE-2023-46805, CVE-2024-21887 and CVE-2024-21893."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21893",
+   "evidence": "leverage the access obtained through CVE-2023-46805, CVE-2024-21887 and CVE-2024-21893."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration of Domain Administrator Cleartext Credentials",
+   "evidence": "The ability to exfiltrate domain administrator cleartext credentials, if saved when adding an “Active Directory Authentication server” during setup, was accomplished by using the root-level access"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Root-Level Persistence",
+   "evidence": "gain root-level persistence [TA0003], and bypass integrity checks"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Internal Reconnaissance",
+   "evidence": "CISA’s Incident Response team observed these specific techniques leveraged during the agency’s incident response engagements, along with the native tools and libraries to conduct internal reconnaissance and compromise domains behind the Ivanti appliances."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Domain Compromise",
+   "evidence": "CISA researchers assess that threat actors are able to use the credentials to move deeper into the environment."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credential Exfiltration",
+   "evidence": "Users who currently have active sessions to the appliance could have their base64 encoded active directory cleartext passwords, in addition to the New Technology LAN Manager (NTLM) password hashes, retrieved with the same access, as shown in Figure 10, APPENDIX A."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Persistence Mechanism",
+   "evidence": "The root-level access allows adversaries to maintain persistence despite issuing factory resets and appliance upgrades while deceiving the provided integrity checkers, creating the illusion of a clean installation."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Integrity Check Bypass",
+   "evidence": "bypass integrity checks used by the Integrity Checker application."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Exfiltration",
+   "evidence": "Below is proof of concept being released by CISA, which demonstrates the capacity of and opportunity for a threat actor to exfiltrate Domain Administrator credentials that were used during appliance configuration:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Post-Exploitation Exfiltration",
+   "evidence": "Below is a demonstration of the capacity for post exploitation exfiltration of base64 encoded cleartext credentials for active directory users and their associated NTLM password hashes:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Password Spraying",
+   "evidence": "Below is a demonstration of the capacity for post exploitation exfiltration of base64 encoded cleartext credentials for active directory users and their associated NTLM password hashes:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local Database",
+   "evidence": "Figure 14: Parse Database Files to Disclose base64 Encoded Plaintext Credentials from LMDB Database Files"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local Database",
+   "evidence": "Figure 15: Parse Database Files to Disclose NTLM Hashes from LMDB Database Files"
+  },
+  {
+   "type": "malware",
+   "name": "WIREFIRE",
+   "evidence": "Python package containing WIREFIRE among other files."
+  },
+  {
+   "type": "malware",
+   "name": "compcheckresult.cgi",
+   "evidence": "Modified legitimate component of the ICS VPN appliance, with new Perl module imports added and a one-liner to execute commands based on request parameters."
+  },
+  {
+   "type": "malware",
+   "name": "lastauthserverused.js",
+   "evidence": "Modified legitimate JavaScript component loaded by user login page of the Web SSL VPN component of Ivanti Connect Secure. Modified to harvest entered credentials and send them to a remote URL on an attacker-controlled domain."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "UTA0178",
+   "evidence": "DigitalOcean IP address tied to UTA0178."
+  },
+  {
+   "type": "malware",
+   "name": "WIREFIRE",
+   "evidence": "WIREFIRE web shell"
+  },
+  {
+   "type": "malware",
+   "name": "CHAINLINE",
+   "evidence": "CHAINLINE web shell"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Applications",
+   "evidence": "Exploit Public-Facing Applications T1190"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "evidence": "Valid Accounts T1078"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Shell",
+   "evidence": "Server Software Component: Web Shell T1505.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "evidence": "Command and Scripting Interpreter: PowerShell T1059.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Client Execution",
+   "evidence": "Exploitation for Client Execution T1203"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Shell",
+   "mitre_id": "T1505.003",
+   "evidence": "[T1505.003]. Once successfully deployed, these web shells are used to execute commands on"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "mitre_id": "T1190",
+   "evidence": "Applications T1190"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "Valid Accounts T1078"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001",
+   "evidence": "T1059.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Client Execution",
+   "mitre_id": "T1203",
+   "evidence": "Execution T1203"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21887",
+   "evidence": "46805, CVE-2024-21887, and CVE-2024-21893—affecting Ivanti Connect Secure and Ivanti Policy"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21893",
+   "evidence": "46805, CVE-2024-21887, and CVE-2024-21893—affecting Ivanti Connect Secure and Ivanti Policy"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-22024",
+   "evidence": "• CVE-2024-22024 is an XML vulnerability in the SAML component of Ivanti Connect Secure"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21888",
+   "evidence": "• CVE-2024-21888 is a privilege escalation vulnerability found in the web component of Ivanti"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-46805",
+   "evidence": "[3] KB CVE-2023-46805 (Authentication Bypass) & CVE-2024-21887 (Command Injection) for"
+  }
+ ],
+ "observables": [
+  {
+   "type": "ipv4-addr",
+   "value": "192.168.1.1",
+   "indicates": [
+    "threat-actor"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "volexity.com",
+   "indicates": [
+    "threat-actor"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://volexity.com",
+   "indicates": [
+    "threat-actor"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "soc@cisecurity.org",
+   "indicates": [
+    "threat-actor"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "AA24-060B",
+   "hash": "MD5",
+   "indicates": [
+    "threat-actor"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "/home/perl/DSLogConfig.pm",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "/usr/bin/a.sh",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "/bin/netmon",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "/home/venv3/lib/python3.6/site-packages/*.egg",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "/home/etc/sql/dsserver/sessionserver.pl",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "/home/etc/sql/dsserver/sessionserver.sh",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "/home/webserver/htdocs/dana-na/auth/compcheckresult.cgi",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "/home/webserver/htdocs/dana-na/auth/lastauthserverused.js",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "88.119.169.227",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "103.13.28.40",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "46.8.68.100",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "206.189.208.156",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "75.145.243.85",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "47.207.9.89",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "98.160.48.170",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "173.220.106.166",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "73.128.178.221",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.243.177.161",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.213.208.89",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "64.24.179.210",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "75.145.224.109",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.215.39.49",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "71.127.149.194",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "173.53.43.7",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "gpoaccess.com",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "webb-institute.com",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "symantke.com",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ed4b855941d6d7e07aacf016a2402c4c870876a050a4a547af194f5a9b47945f",
+   "indicates": [
+    "WIREFIRE"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "3045f5b3d355a9ab26ab6f44cc831a83",
+   "indicates": [
+    "CHAINLINE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "line-api.com",
+   "indicates": [
+    "WARPWIRE variant C2 server"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "areekaweb.com",
+   "indicates": [
+    "WARPWIRE variant C2 server"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "ehangmun.com",
+   "indicates": [
+    "WARPWIRE variant C2 server"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "secure-cama.com",
+   "indicates": [
+    "WARPWIRE variant C2 server"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "146.0.228.66",
+   "indicates": [
+    "WARPWIRE variant C2 server"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "159.65.130.146",
+   "indicates": [
+    "WARPWIRE variant C2 server"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "8.137.112.245",
+   "indicates": [
+    "WARPWIRE variant C2 server"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "91.92.254.14",
+   "indicates": [
+    "WARPWIRE variant C2 server"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "186.179.39.235",
+   "indicates": [
+    "Mass exploitation activity"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.215.39.49",
+   "indicates": [
+    "Post-exploitation activity"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.61.136.14",
+   "indicates": [
+    "Post-exploitation activity"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "173.220.106.166",
+   "indicates": [
+    "Post-exploitation activity"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "3045f5b3d355a9ab26ab6f44cc831a83"
+  },
+  {
+   "type": "file",
+   "value": "3d97f55a03ceb4f71671aa2ecf5b24e9"
+  },
+  {
+   "type": "file",
+   "value": "2ec505088b942c234f39a37188e80d7a"
+  },
+  {
+   "type": "file",
+   "value": "8eb042da6ba683ef1bae460af103cc44"
+  },
+  {
+   "type": "file",
+   "value": "a739bd4c2b9f3679f43579711448786f"
+  },
+  {
+   "type": "file",
+   "value": "a81813f70151a022ea1065b7f4d6b5ab"
+  },
+  {
+   "type": "file",
+   "value": "d0c7a334a4d9dcd3c6335ae13bee59ea"
+  },
+  {
+   "type": "file",
+   "value": "e8489983d73ed30a4240a14b1f161254"
+  },
+  {
+   "type": "file",
+   "value": "8bc8f4da98ee05c9d403d2cb76097818de0b524d90bea8ed846615e42cb031d2"
+  },
+  {
+   "type": "file",
+   "value": "26cbb54b1feb75fe008e36285334d747428f80aacdb57badf294e597f3e9430d"
+  },
+  {
+   "type": "file",
+   "value": "9d901f1a494ffa98d967ee6ee30a46402c12a807ce425d5f51252eb69941d988"
+  },
+  {
+   "type": "file",
+   "value": "e192932d834292478c9b1032543c53edfc2b252fdf7e27e4c438f4b249544eeb"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "88.119.169.227"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "103.13.28.40"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "46.8.68.100"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "206.189.208.156"
+  },
+  {
+   "type": "domain-name",
+   "value": "gpoaccess.com"
+  },
+  {
+   "type": "domain-name",
+   "value": "webb-institute.com"
+  },
+  {
+   "type": "domain-name",
+   "value": "symantke.com"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "75.145.243.85"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "47.207.9.89"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "98.160.48.170"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "173.220.106.166"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "73.128.178.221"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.243.177.161"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.213.208.89"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "64.24.179.210"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "75.145.224.109"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.215.39.49"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "71.127.149.194"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "173.53.43.7"
+  },
+  {
+   "type": "domain-name",
+   "value": "miltonhouse.nl"
+  },
+  {
+   "type": "domain-name",
+   "value": "entraide-internationale.fr"
+  },
+  {
+   "type": "domain-name",
+   "value": "api.d-n-s.name"
+  },
+  {
+   "type": "domain-name",
+   "value": "cpanel.netbar.org"
+  },
+  {
+   "type": "domain-name",
+   "value": "clickcom.click"
+  },
+  {
+   "type": "domain-name",
+   "value": "clicko.click"
+  },
+  {
+   "type": "domain-name",
+   "value": "duorhytm.fun"
+  },
+  {
+   "type": "domain-name",
+   "value": "line-api.com"
+  },
+  {
+   "type": "domain-name",
+   "value": "areekaweb.com"
+  },
+  {
+   "type": "domain-name",
+   "value": "ehangmun.com"
+  },
+  {
+   "type": "domain-name",
+   "value": "secure-cama.com"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "146.0.228.66"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "159.65.130.146"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "8.137.112.245"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "91.92.254.14"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "186.179.39.235"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.61.136.14"
+  }
+ ],
+ "relationships": [
+  {
+   "source": "threat-actor",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "CISA has responded to multiple incidents related to the above vulnerabilities in Ivanti Connect Secure"
+  },
+  {
+   "source": "threat-actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "actors exploited these CVEs for initial access to implant web shells and to harvest credentials stored on the devices."
+  },
+  {
+   "source": "CISA",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "[T1505.003]. Once successfully deployed, these web shells are used to execute commands on"
+  },
+  {
+   "source": "CISA",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "Applications T1190"
+  },
+  {
+   "source": "CISA",
+   "type": "uses",
+   "target": "T1078",
+   "evidence": "Valid Accounts T1078"
+  },
+  {
+   "source": "CISA",
+   "type": "uses",
+   "target": "T1059.001",
+   "evidence": "T1059.001"
+  },
+  {
+   "source": "CISA",
+   "type": "uses",
+   "target": "T1203",
+   "evidence": "Execution T1203"
+  }
+ ],
+ "_meta": {
+  "engine": "0.3",
+  "model": "doc2stix-qwen3-8b:v2b",
+  "seconds": 983.4,
+  "errors": "1 unparsable chunk(s)"
+ }
+}

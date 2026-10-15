@@ -1,0 +1,221 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "APT 29",
+   "evidence": "Russian Foreign Intelligence Service (SVR) cyber actors—also known as Advanced Persistent Threat 29 (APT 29), the Dukes, CozyBear, and Yttrium",
+   "aliases": [
+    "the Dukes",
+    "CozyBear",
+    "Yttrium"
+   ]
+  },
+  {
+   "type": "threat-actor",
+   "name": "Russian Foreign Intelligence Service (SVR)",
+   "evidence": "Russian Foreign Intelligence Service (SVR) cyber actors",
+   "aliases": []
+  },
+  {
+   "type": "campaign",
+   "name": "SolarWinds compromise",
+   "evidence": "On 15 April 2021, the White House released a statement on the recent SolarWinds compromise, attributing the activity to the SVR",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Government networks",
+   "evidence": "The SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Think tank and policy analysis organizations",
+   "evidence": "The SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Information technology companies",
+   "evidence": "The SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies",
+   "aliases": []
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "The SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies",
+   "aliases": []
+  },
+  {
+   "type": "country",
+   "name": "Russia",
+   "evidence": "Russian Foreign Intelligence Service (SVR)",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT 29",
+   "evidence": "APT 29",
+   "aliases": [
+    "Russian Foreign Intelligence Service (SVR)"
+   ]
+  },
+  {
+   "type": "threat-actor",
+   "name": "Russian Foreign Intelligence Service (SVR)",
+   "evidence": "Russian Foreign Intelligence Service (SVR)",
+   "aliases": [
+    "SVR"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "WELLMESS",
+   "evidence": "malware known as WELLMESS",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-19781",
+   "evidence": "CVE-2019-19781",
+   "aliases": []
+  },
+  {
+   "type": "attack-pattern",
+   "name": "password spraying",
+   "evidence": "password spraying",
+   "mitre_id": "T1110.003"
+  },
+  {
+   "type": "sector",
+   "name": "Healthcare services",
+   "evidence": "targeting COVID-19 vaccine development",
+   "aliases": [
+    "Healthcare services"
+   ]
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz",
+   "evidence": "Mimikatz—an open source credential-dumping too",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Cobalt Strike",
+   "evidence": "Cobalt Strike—a commercially available exploitation tool",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-19781",
+   "evidence": "In a separate incident, SVR actors used CVE-2019-19781, a zero-day exploit at the time, against a"
+  }
+ ],
+ "observables": [
+  {
+   "type": "domain-name",
+   "value": "cock.li",
+   "hash": "",
+   "indicates": [
+    "Russian Foreign Intelligence Service (SVR)"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "cock.li"
+  }
+ ],
+ "relationships": [
+  {
+   "source": "APT 29",
+   "type": "attributed-to",
+   "target": "Russian Foreign Intelligence Service (SVR)",
+   "evidence": "Russian Foreign Intelligence Service (SVR) cyber actors—also known as Advanced Persistent Threat 29 (APT 29), the Dukes, CozyBear, and Yttrium"
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "Government networks",
+   "evidence": "The SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies"
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "Think tank and policy analysis organizations",
+   "evidence": "The SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies"
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "Information technology companies",
+   "evidence": "The SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies"
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "United States",
+   "evidence": "The SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies"
+  },
+  {
+   "source": "SolarWinds compromise",
+   "type": "attributed-to",
+   "target": "Russian Foreign Intelligence Service (SVR)",
+   "evidence": "On 15 April 2021, the White House released a statement on the recent SolarWinds compromise, attributing the activity to the SVR"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "originates-from",
+   "target": "Russia",
+   "evidence": "Russian Foreign Intelligence Service (SVR)"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "WELLMESS",
+   "evidence": "attributed intrusions perpetuated using malware known as WELLMESS to APT 29"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "CVE-2019-19781",
+   "evidence": "SVR actors used CVE-2019-19781"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "Mimikatz",
+   "evidence": "SVR cyber operators have used open source or commercially available tools continuously, including Mimikatz"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "Cobalt Strike",
+   "evidence": "SVR cyber operators have used open source or commercially available tools continuously, including Mimikatz—an open source credential-dumping too—and Cobalt Strike"
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "Healthcare services",
+   "evidence": "targeting COVID-19 vaccine development"
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "Healthcare services",
+   "evidence": "targeting COVID-19 vaccine development"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "targets",
+   "target": "Healthcare services",
+   "evidence": "targeting COVID-19 vaccine development"
+  }
+ ],
+ "_meta": {
+  "engine": "0.3",
+  "model": "qwen3:30b-a3b",
+  "seconds": 30.2,
+  "errors": ""
+ }
+}
