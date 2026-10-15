@@ -1,0 +1,1441 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "RGB 3rd Bureau",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group known publicly as Andariel, Onyx Sleet (formerly PLUTONIUM), DarkSeoul, Silent Chollima, and Stonefly/Clasiopa."
+  },
+  {
+   "type": "threat-actor",
+   "name": "Democratic People’s Republic of Korea (DPRK)",
+   "evidence": "The U.S. Federal Bureau of Investigation (FBI) and the following authoring partners are releasing this Cybersecurity Advisory to highlight cyber espionage activity associated with the Democratic People’s Republic of Korea (DPRK)’s Reconnaissance General Bureau (RGB) 3rd Bureau"
+  },
+  {
+   "type": "campaign",
+   "name": "Global Espionage Campaign",
+   "evidence": "North Korea Cyber Group Conducts Global Espionage Campaign to Advance Regime’s Military and Nuclear Programs"
+  },
+  {
+   "type": "sector",
+   "name": "Defense",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities"
+  },
+  {
+   "type": "sector",
+   "name": "Aerospace",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities"
+  },
+  {
+   "type": "sector",
+   "name": "Nuclear",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities"
+  },
+  {
+   "type": "sector",
+   "name": "Engineering",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities"
+  },
+  {
+   "type": "country",
+   "name": "North Korea",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group"
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "RGB 3rd Bureau actors fund their espionage activity through ransomware operations against U.S. healthcare entities"
+  },
+  {
+   "type": "country",
+   "name": "Japan",
+   "evidence": "The authoring agencies believe the group and the cyber techniques remain an ongoing threat to various industry sectors worldwide, including but not limited to entities in their respective countries, as well as in Japan and India."
+  },
+  {
+   "type": "country",
+   "name": "India",
+   "evidence": "The authoring agencies believe the group and the cyber techniques remain an ongoing threat to various industry sectors worldwide, including but not limited to entities in their respective countries, as well as in Japan and India."
+  },
+  {
+   "type": "organization",
+   "name": "U.S. Cyber National Mission Force (CNMF)",
+   "evidence": "The U.S. Federal Bureau of Investigation (FBI) and the following authoring partners are releasing this Cybersecurity Advisory"
+  },
+  {
+   "type": "organization",
+   "name": "U.S. Cybersecurity and Infrastructure Security Agency (CISA)",
+   "evidence": "The U.S. Federal Bureau of Investigation (FBI) and the following authoring partners are releasing this Cybersecurity Advisory"
+  },
+  {
+   "type": "organization",
+   "name": "U.S. Department of Defense Cyber Crime Center (DC3)",
+   "evidence": "The U.S. Federal Bureau of Investigation (FBI) and the following authoring partners are releasing this Cybersecurity Advisory"
+  },
+  {
+   "type": "organization",
+   "name": "U.S. National Security Agency (NSA)",
+   "evidence": "The U.S. Federal Bureau of Investigation (FBI) and the following authoring partners are releasing this Cybersecurity Advisory"
+  },
+  {
+   "type": "organization",
+   "name": "Republic of Korea’s National Intelligence Service (NIS)",
+   "evidence": "The U.S. Federal Bureau of Investigation (FBI) and the following authoring partners are releasing this Cybersecurity Advisory"
+  },
+  {
+   "type": "organization",
+   "name": "Republic of Korea’s National Police Agency (NPA)",
+   "evidence": "The U.S. Federal Bureau of Investigation (FBI) and the following authoring partners are releasing this Cybersecurity Advisory"
+  },
+  {
+   "type": "organization",
+   "name": "United Kingdom’s National Cyber Security Centre (NCSC)",
+   "evidence": "The U.S. Federal Bureau of Investigation (FBI) and the following authoring partners are releasing this Cybersecurity Advisory"
+  },
+  {
+   "type": "malware",
+   "name": "Mimikatz",
+   "evidence": "The actors employ standard system discovery and enumeration techniques, establish persistence using Scheduled Tasks, and perform privilege escalation using common credential stealing tools such as Mimikatz."
+  },
+  {
+   "type": "tool",
+   "name": "Log4j",
+   "evidence": "The actors gain initial access through widespread exploitation of web servers through known vulnerabilities in software, such as Log4j, to deploy a web shell and gain access to sensitive information and applications for further exploitation."
+  },
+  {
+   "type": "tool",
+   "name": "web shell",
+   "evidence": "The actors gain initial access through widespread exploitation of web servers through known vulnerabilities in software, such as Log4j, to deploy a web shell and gain access to sensitive information and applications for further exploitation."
+  },
+  {
+   "type": "tool",
+   "name": "Scheduled Tasks",
+   "evidence": "The actors employ standard system discovery and enumeration techniques, establish persistence using Scheduled Tasks, and perform privilege escalation using common credential stealing tools such as Mimikatz."
+  },
+  {
+   "type": "tool",
+   "name": "Microsoft Windows Shortcut File (LNK) files",
+   "evidence": "The actors also conduct phishing activity using malicious attachments, including Microsoft Windows Shortcut File (LNK) files or HTML Application (HTA) script files inside encrypted or unencrypted zip archives."
+  },
+  {
+   "type": "tool",
+   "name": "HTML Application (HTA) script files",
+   "evidence": "The actors also conduct phishing activity using malicious attachments, including Microsoft Windows Shortcut File (LNK) files or HTML Application (HTA) script files inside encrypted or unencrypted zip archives."
+  },
+  {
+   "type": "tool",
+   "name": "zip archives",
+   "evidence": "The actors also conduct phishing activity using malicious attachments, including Microsoft Windows Shortcut File (LNK) files or HTML Application (HTA) script files inside encrypted or unencrypted zip archives."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation of known vulnerabilities",
+   "evidence": "The actors gain initial access through widespread exploitation of web servers through known vulnerabilities in software, such as Log4j, to deploy a web shell and gain access to sensitive information and applications for further exploitation."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Privilege escalation using credential stealing tools",
+   "evidence": "The actors employ standard system discovery and enumeration techniques, establish persistence using Scheduled Tasks, and perform privilege escalation using common credential stealing tools such as Mimikatz."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing with malicious attachments",
+   "evidence": "The actors also conduct phishing activity using malicious attachments, including Microsoft Windows Shortcut File (LNK) files or HTML Application (HTA) script files inside encrypted or unencrypted zip archives."
+  },
+  {
+   "type": "vulnerability",
+   "name": "Log4j",
+   "evidence": "The actors gain initial access through widespread exploitation of web servers through known vulnerabilities in software, such as Log4j, to deploy a web shell and gain access to sensitive information and applications for further exploitation."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "RGB 3rd Bureau",
+   "evidence": "RGB 3rd Bureau is a North Korean state-sponsored cyber group, under the RGB 3rd Bureau, based in Pyongyang and Sinuiju."
+  },
+  {
+   "type": "threat-actor",
+   "name": "Democratic People’s Republic of Korea (DPRK)",
+   "evidence": "North Korea state-sponsored cyber operations."
+  },
+  {
+   "type": "campaign",
+   "name": "Global Espionage Campaign",
+   "evidence": "North Korea Cyber Group Conducts Global Espionage Campaign to Advance Regime’s Military and Nuclear Programs."
+  },
+  {
+   "type": "malware",
+   "name": "Mimikatz",
+   "evidence": "Named earlier in the document: Mimikatz."
+  },
+  {
+   "type": "vulnerability",
+   "name": "Log4j",
+   "evidence": "Log4j, web shell, Scheduled Tasks, Microsoft Windows Shortcut File (LNK) files, HTML Application (HTA) script files, zip archives."
+  },
+  {
+   "type": "sector",
+   "name": "Defense",
+   "evidence": "The actors currently target sensitive military information and intellectual property of defense, aerospace, nuclear, engineering organizations."
+  },
+  {
+   "type": "sector",
+   "name": "Aerospace",
+   "evidence": "The actors currently target sensitive military information and intellectual property of defense, aerospace, nuclear, engineering organizations."
+  },
+  {
+   "type": "sector",
+   "name": "Nuclear",
+   "evidence": "The actors currently target sensitive military information and intellectual property of defense, aerospace, nuclear, engineering organizations."
+  },
+  {
+   "type": "sector",
+   "name": "Engineering",
+   "evidence": "The actors currently target sensitive military information and intellectual property of defense, aerospace, nuclear, engineering organizations."
+  },
+  {
+   "type": "country",
+   "name": "Democratic People’s Republic of Korea (DPRK)",
+   "evidence": "North Korea state-sponsored cyber operations."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "RGB 3rd Bureau",
+   "evidence": "Named earlier in the document: RGB 3rd Bureau"
+  },
+  {
+   "type": "country",
+   "name": "Democratic People’s Republic of Korea (DPRK)",
+   "evidence": "Named earlier in the document: Democratic People’s Republic of Korea (DPRK)"
+  },
+  {
+   "type": "campaign",
+   "name": "Global Espionage Campaign",
+   "evidence": "Named earlier in the document: Global Espionage Campaign"
+  },
+  {
+   "type": "malware",
+   "name": "Mimikatz",
+   "evidence": "Named earlier in the document: Mimikatz"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-44228",
+   "evidence": "CVE-2021-44228 – Apache Log4j"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1595",
+   "evidence": "vulnerabilities in public-facing web servers [T1595]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1592",
+   "evidence": "vulnerabilities in public-facing web servers [T1595]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1591",
+   "evidence": "gather open source information about their victims for use in targeting [T1591]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1596",
+   "evidence": "research Common Vulnerabilities and Exposures (CVEs) when published to the National Institute of Standards and Technology (NIST) National Vulnerability Database [T1596]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1587.001",
+   "evidence": "tools allow the actors to maintain access to the victim system with each implant having a designated C2 node [T1587.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1587.004",
+   "evidence": "tools allow the actors to maintain access to the victim system with each implant having a designated C2 node [T1587.004]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1090",
+   "evidence": "3Proxy [T1090]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1040",
+   "evidence": "Juggernaut [T1040]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1003",
+   "evidence": "ProcDump [T1003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1572",
+   "evidence": "PLINK [T1572]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1048",
+   "evidence": "WinSCP [T1048]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1560",
+   "evidence": "WinRAR [T1560]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.001",
+   "evidence": "Scheduled Tasks, Microsoft Windows Shortcut File (LNK) files, HTML Application (HTA) script files, zip archives"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1190",
+   "evidence": "The actors continue to breach organizations by exploiting web server vulnerabilities in public-facing devices and have conducted widespread activity against a number of different organizations simultaneously [T1190]"
+  },
+  {
+   "type": "malware",
+   "name": "Andariel_ScheduledTask_Loader",
+   "evidence": "rule Andariel_ScheduledTask_Loader"
+  },
+  {
+   "type": "malware",
+   "name": "Andariel_KaosRAT_Yamabot",
+   "evidence": "rule Andariel_KaosRAT_Yamabot"
+  },
+  {
+   "type": "malware",
+   "name": "TriFaux_EasyRAT_JUPITER",
+   "evidence": "rule TriFaux_EasyRAT_JUPITER"
+  },
+  {
+   "type": "malware",
+   "name": "Andariel_CutieDrop_MagicRAT",
+   "evidence": "rule Andariel_CutieDrop_MagicRAT"
+  },
+  {
+   "type": "malware",
+   "name": "Andariel_hhsd_FileTransferTool",
+   "evidence": "rule Andariel_hhsd_FileTransferTool"
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz",
+   "evidence": "Named earlier in the document: Mimikatz"
+  },
+  {
+   "type": "vulnerability",
+   "name": "Log4j",
+   "evidence": "Named earlier in the document: Log4j"
+  },
+  {
+   "type": "tool",
+   "name": "web shell",
+   "evidence": "Named earlier in the document: web shell"
+  },
+  {
+   "type": "tool",
+   "name": "Scheduled Tasks",
+   "evidence": "Named earlier in the document: Scheduled Tasks"
+  },
+  {
+   "type": "tool",
+   "name": "Microsoft Windows Shortcut File (LNK) files",
+   "evidence": "Named earlier in the document: Microsoft Windows Shortcut File (LNK) files"
+  },
+  {
+   "type": "tool",
+   "name": "HTML Application (HTA) script files",
+   "evidence": "Named earlier in the document: HTML Application (HTA) script files"
+  },
+  {
+   "type": "tool",
+   "name": "zip archives",
+   "evidence": "Named earlier in the document: zip archives"
+  },
+  {
+   "type": "sector",
+   "name": "Defense",
+   "evidence": "Named earlier in the document: Global Espionage Campaign"
+  },
+  {
+   "type": "sector",
+   "name": "Energy",
+   "evidence": "Named earlier in the document: Global Espionage Campaign"
+  },
+  {
+   "type": "sector",
+   "name": "Finance",
+   "evidence": "Named earlier in the document: Global Espionage Campaign"
+  },
+  {
+   "type": "sector",
+   "name": "Health",
+   "evidence": "Named earlier in the document: Global Espionage Campaign"
+  },
+  {
+   "type": "sector",
+   "name": "Transport",
+   "evidence": "Named earlier in the document: Global Espionage Campaign"
+  },
+  {
+   "type": "country",
+   "name": "Democratic People’s Republic of Korea (DPRK)",
+   "evidence": "Named earlier in the document: Democratic People’s Republic of Korea (DPRK)"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "RGB 3rd Bureau",
+   "evidence": "Named earlier in the document: RGB 3rd Bureau"
+  },
+  {
+   "type": "malware",
+   "name": "Andariel_hhsd_FileTransferTool",
+   "evidence": "rule Andariel_hhsd_FileTransferTool"
+  },
+  {
+   "type": "malware",
+   "name": "Andariel_Atharvan_3RAT",
+   "evidence": "rule Andariel_Atharvan_3RAT"
+  },
+  {
+   "type": "malware",
+   "name": "Andariel_LilithRAT_Variant",
+   "evidence": "rule Andariel_LilithRAT_Variant"
+  },
+  {
+   "type": "malware",
+   "name": "Andariel_SocksTroy_Strings_OpCodes",
+   "evidence": "rule Andariel_SocksTroy_Strings_OpCodes"
+  },
+  {
+   "type": "malware",
+   "name": "Andariel_Agni",
+   "evidence": "rule Andariel_Agni"
+  },
+  {
+   "type": "malware",
+   "name": "Andariel_GoLang_validalpha_handshake",
+   "evidence": "rule Andariel_GoLang_validalpha_handshake"
+  },
+  {
+   "type": "malware",
+   "name": "Andariel_GoLang_validalpha_tasks",
+   "evidence": "rule Andariel_GoLang_validalpha_tasks"
+  },
+  {
+   "type": "malware",
+   "name": "Andariel_GoLang_validalpha_BlackString",
+   "evidence": "rule Andariel_GoLang_validalpha_BlackString"
+  },
+  {
+   "type": "malware",
+   "name": "INDICATOR_EXE_Packed_VMProtect",
+   "evidence": "rule INDICATOR_EXE_Packed_VMProtect"
+  },
+  {
+   "type": "malware",
+   "name": "INDICATOR_EXE_Packed_Themida",
+   "evidence": "rule INDICATOR_EXE_Packed_Themida"
+  },
+  {
+   "type": "malware",
+   "name": "Andariel_elf_backdoor_fipps",
+   "evidence": "rule Andariel_elf_backdoor_fipps"
+  },
+  {
+   "type": "malware",
+   "name": "Andariel_bindshell",
+   "evidence": "rule Andariel_bindshell"
+  },
+  {
+   "type": "malware",
+   "name": "Andariel_grease2",
+   "evidence": "rule Andariel_grease2"
+  },
+  {
+   "type": "malware",
+   "name": "Andariel_NoPineapple_Dtrack_unpacked",
+   "evidence": "rule Andariel_NoPineapple_Dtrack_unpacked"
+  },
+  {
+   "type": "malware",
+   "name": "Andariel_dtrack_unpacked",
+   "evidence": "rule Andariel_dtrack_unpacked"
+  },
+  {
+   "type": "malware",
+   "name": "Andariel_TigerRAT_crowdsourced_rule",
+   "evidence": "rule Andariel_TigerRAT_crowdsourced_rule"
+  },
+  {
+   "type": "malware",
+   "name": "win_tiger_rat_auto",
+   "evidence": "rule win_tiger_rat_auto"
+  },
+  {
+   "type": "malware",
+   "name": "Dtrack",
+   "evidence": "INDICATOR_EXE_Packed_VMProtect, INDICATOR_EXE_Packed_Themida, Andariel_NoPineapple_Dtrack_unpacked, Andariel_dtrack_unpacked, win_tiger_rat_auto"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "RGB 3rd Bureau",
+   "evidence": "Named earlier in the document: RGB 3rd Bureau"
+  },
+  {
+   "type": "country",
+   "name": "Democratic People’s Republic of Korea (DPRK)",
+   "evidence": "Named earlier in the document: RGB 3rd Bureau, Democratic People’s Republic of Korea (DPRK)"
+  },
+  {
+   "type": "malware",
+   "name": "Mimikatz",
+   "evidence": "Named earlier in the document: RGB 3rd Bureau, Democratic People’s Republic of Korea (DPRK), Global Espionage Campaign, Mimikatz"
+  },
+  {
+   "type": "vulnerability",
+   "name": "Log4j",
+   "evidence": "Named earlier in the document: RGB 3rd Bureau, Democratic People’s Republic of Korea (DPRK), Global Espionage Campaign, Mimikatz, Log4j"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Org Information",
+   "evidence": "Technique Title ID Use Gather Victim Org Information T1591 The actors gather information about the victim’s organization that can be used during targeting."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Host Information",
+   "evidence": "Technique Title ID Use Gather Victim Host Information T1592 The actors gather information about the victim’s hosts that can be used during targeting."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning",
+   "evidence": "Technique Title ID Use Active Scanning T1595 The actors execute active reconnaissance scans to gather information that can be used during targeting."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Search Open Technical Databases",
+   "evidence": "Technique Title ID Use Search Open Technical Databases T1596 The actors search freely available technical databases for information about victims that can be used during targeting."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping",
+   "evidence": "Technique Title ID Use OS Credential Dumping T1003 The actors attempt to dump credentials to obtain account login and credential material, normally in the form of a hash or a clear text password, from the operating system and software."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Alternative Protocol",
+   "evidence": "Technique Title ID Use Exfiltration Over Alternative Protocol T1048 The actors steal data by exfiltrating it over a different protocol than that of the existing command and control channel."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy",
+   "evidence": "Technique Title ID Use Proxy T1090 The actors use a connection proxy to direct network traffic between systems or act as intermediary for network communications to a command and control server to avoid direct connections to their infrastructure."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Archive Collected Data",
+   "evidence": "Technique Title ID Use Archive Collected Data T1560 The actors compress and/or encrypt data that is collected prior to exfiltration."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Protocol Tunneling",
+   "evidence": "Technique Title ID Use Protocol Tunneling T1572 The actors tunnel network communications to and from a victim system within a separate protocol to avoid detection/network filtering and/or enable access to otherwise unreachable systems."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Malware",
+   "evidence": "Technique Title ID Use Develop Capabilities: Malware T1587.001 The actors develop malware and malware components that can be used during targeting."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Exploits",
+   "evidence": "Technique Title ID Use Develop Capabilities: Exploits T1587.004 The actors develop exploits that can be used during targeting."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter",
+   "evidence": "Technique Title ID Use Command and Scripting Interpreter T1059 The actors abuse command and script interpreters to execute commands, scripts, or binaries."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information",
+   "evidence": "Technique Title ID Use Obfuscated Files or Information T1027 The actors attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its content on the system or in transit."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services",
+   "evidence": "Technique Title ID Use Remote Services T1021 The actors use valid accounts to log into a service that accepts remote connections, such as telnet, SSH, and VNC."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: SMB/Windows Admin Shares",
+   "evidence": "Technique Title ID Use Remote Services: SMB/Windows Admin Shares T1021.002 The actors use valid accounts to interact with a remote network share using Server Message Block (SMB)."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "File and Directory Discovery",
+   "evidence": "Technique Title ID Use File and Directory Discovery T1083 The actors enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Discovery",
+   "evidence": "Technique Title ID Use Account Discovery T1087 The actors attempt to get a listing of valid accounts, usernames, or email addresses on a system or within a compromised environment."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Application Layer Protocol",
+   "evidence": "Technique Title ID Use Application Layer Protocol T1071 The actors establish command and control capabilities over commonly used application layer protocols such as HTTP(S), OPC, telnet, DNP3, and Modbus."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Network Shared Drive",
+   "evidence": "Technique Title ID Use Data from Network Shared Drive T1039 The actors search network shares on computers they have compromised to find files of interest."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Web Service",
+   "evidence": "Technique Title ID Use Exfiltration Over Web Service T1567 The actors use an existing, legitimate external Web service to exfiltrate data rather than their primary command and control channel."
+  }
+ ],
+ "observables": [
+  {
+   "type": "domain-name",
+   "value": "CISA’s North Korea Cyber Threat Overview and Advisories webpage",
+   "indicates": [
+    "threat-actor",
+    "campaign"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "AA24-207A STIX XML (297KB)",
+   "indicates": [
+    "campaign"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "AA24-207A STIX JSON (141KB)",
+   "indicates": [
+    "campaign"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "Apache Log4j",
+   "indicates": [
+    "vulnerability"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "CVE-2021-44228",
+   "hash": "CVE-2021-44228",
+   "indicates": [
+    "vulnerability"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ed8ec7a8dd089019cfd29143f008fa0951c56a35d73b2e1b274315152d0c0ee6",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_ScheduledTask_Loader"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "db6a9934570fa98a93a979e7e0e218e0c9710e5a787b18c6948f2eedd9338984",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_KaosRAT_Yamabot",
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "773760fd71d52457ba53a314f15dddb1a74e8b2f5a90e5e150dea48a21aa76df",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_CutieDrop_MagicRAT"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "05e9fe8e9e693cb073ba82096c291145c953ca3a3f8b3974f9c66d15c1a3a11d",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_CutieDrop_MagicRAT"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e3027062e602c5d1812c039739e2f93fc78341a67b77692567a4690935123abe",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_CutieDrop_MagicRAT"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "1962ebb7bf8d2b306c6f3b55c3dcd69a755eeff1a17577b7606894b781841c3a",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_CutieDrop_MagicRAT"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "f226086b5959eb96bd30dec0ffcbf0f09186cd11721507f416f1c39901addafb",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_CutieDrop_MagicRAT"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "6db57bbc2d07343dd6ceba0f53c73756af78f09fe1cb5ce8e8008e5e7242eae1",
+   "hash": "sha253",
+   "indicates": [
+    "Andariel_CutieDrop_MagicRAT"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "b7435d23769e79fcbe69b28df4aef062685d1a631892c2354f96d833eae467be",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_CutieDrop_MagicRAT"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "66415464a0795d0569efa5cb5664785f74ed0b92a593280d689f3a2ac68dca66",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_CutieDrop_MagicRAT"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "def2f01fbd4be85f48101e5ab7ddd82efb720e67daa6838f30fd8dcda1977563",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "323cbe7a3d050230cfaa822c2a22160b4f8c5fe65481dd329841ee2754b522d9",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "74529dd15d1953a47f0d7ecc2916b2b92865274a106e453a24943ca9ee434643",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "1e4de822695570421eb2f12fdfe1d32ab8639655e12180a7ab3cf429e7811b8f",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8ce219552e235dcaf1c694be122d6339ed4ff8df70bf358cd165e6eb487ccfc5",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c2904dc8bbb569536c742fca0c51a766e836d0da8fac1c1abd99744e9b50164f",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "dda53eee2c5cb0abdbf5242f5e82f4de83898b6a9dd8aa935c2be29bafc9a469",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "90fb0cd574155fd8667d20f97ac464eca67bdb6a8ee64184159362d45d79b6a4",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "452ca47230afd4bb85c45af54fcacbfa544208ef8b4604c3c5caefe3a64dcc19",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "199ba618efc6af9280c5abd86c09cdf2d475c09c8c7ffc393a35c3d70277aed1",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "2eb16dbc1097a590f07787ab285a013f5fe235287cb4fb948d4f9cce9efa5dbc",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ce779e30502ecee991260fd342cc0d7d5f73d1a070395b4120b8d300ad11d694",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "db6a9934570fa98a93a979e7e0e218e0c9710e5a787b18c6948f2eedd9338984",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c28bb61de4a6ad1c5e225ad9ec2eaf4a6c8ccfff40cf45a640499c0adb0d8740",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "34d5a5d8bec893519f204b573c33d54537b093c52df01b3d8c518af08ee94947",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "664f8d19af3400a325998b332343a9304f03bab9738ddab1530869eff13dae54",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "772b06f34facf6a2ce351b8679ff957cf601ef3ad29645935cb050b4184c8d51",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "aa29bf4292b68d197f4d8ca026b97ec7785796edcb644db625a8f8b66733ab54",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9a5504dcfb7e664259bfa58c46cfd33e554225daf1cedea2ec2a9d83bbbfe238",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c2500a6e12f22b16e221ba01952b69c92278cd05632283d8b84c55c916efe27c",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8aa6612c95c7cef49709596da43a0f8354f14d8c08128c4cb9b1f37e548f083b",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "38f0f2d658e09c57fc78698482f2f638843eb53412d860fb3a99bb6f51025b07",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0",
+   "hash": "sha256",
+   "indicates": [
+    "Andariel_hhsd_FileTransferTool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "INDICATOR_EXE_Packed_VMProtect",
+   "hash": "MD5",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "INDICATOR_EXE_Packed_Themida",
+   "hash": "MD5",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Andariel_NoPineapple_Dtrack_unpacked",
+   "hash": "MD5",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Andariel_dtrack_unpacked",
+   "hash": "MD5",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "win_tiger_rat_auto",
+   "hash": "MD5",
+   "indicates": [
+    "malware"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "targets",
+   "target": "Defense",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "targets",
+   "target": "Aerospace",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "targets",
+   "target": "Nuclear",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "targets",
+   "target": "Engineering",
+   "evidence": "The group primarily targets defense, aerospace, nuclear, and engineering entities"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "targets",
+   "target": "Japan",
+   "evidence": "The authoring agencies believe the group and the cyber techniques remain an ongoing threat to various industry sectors worldwide, including but not limited to entities in their respective countries, as well as in Japan and India."
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "targets",
+   "target": "India",
+   "evidence": "The authoring agencies believe the group and the cyber techniques remain an ongoing threat to various industry sectors worldwide, including but not limited to entities in their respective countries, as well as in Japan and India."
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "uses",
+   "target": "Log4j",
+   "evidence": "The actors gain initial access through widespread exploitation of web servers through known vulnerabilities in software, such as Log4j, to deploy a web shell and gain access to sensitive information and applications for further exploitation."
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "uses",
+   "target": "Mimikatz",
+   "evidence": "The actors employ standard system discovery and enumeration techniques, establish persistence using Scheduled Tasks, and perform privilege escalation using common credential stealing tools such as Mimikatz."
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "uses",
+   "target": "Microsoft Windows Shortcut File (LNK) files",
+   "evidence": "The actors also conduct phishing activity using malicious attachments, including Microsoft Windows Shortcut File (LNK) files or HTML Application (HTA) script files inside encrypted or unencrypted zip archives."
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "uses",
+   "target": "HTML Application (HTA) script files",
+   "evidence": "The actors also conduct phishing activity using malicious attachments, including Microsoft Windows Shortcut File (LNK) files or HTML Application (HTA) script files inside encrypted or unencrypted zip archives."
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "uses",
+   "target": "zip archives",
+   "evidence": "The actors also conduct phishing activity using malicious attachments, including Microsoft Windows Shortcut File (LNK) files or HTML Application (HTA) script files inside encrypted or unencrypted zip archives."
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "uses",
+   "target": "Exploitation of known vulnerabilities",
+   "evidence": "The actors gain initial access through widespread exploitation of web servers through known vulnerabilities in software, such as Log4j, to deploy a web shell and gain access to sensitive information and applications for further exploitation."
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "uses",
+   "target": "Privilege escalation using credential stealing tools",
+   "evidence": "The actors employ standard system discovery and enumeration techniques, establish persistence using Scheduled Tasks, and perform privilege escalation using common credential stealing tools such as Mimikatz."
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "uses",
+   "target": "Phishing with malicious attachments",
+   "evidence": "The actors also conduct phishing activity using malicious attachments, including Microsoft Windows Shortcut File (LNK) files or HTML Application (HTA) script files inside encrypted or unencrypted zip archives."
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "originates-from",
+   "target": "North Korea",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "attributed-to",
+   "target": "Democratic People’s Republic of Korea (DPRK)",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group"
+  },
+  {
+   "source": "Andariel",
+   "type": "attributed-to",
+   "target": "RGB 3rd Bureau",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group known publicly as Andariel, Onyx Sleet (formerly PLUTONIUM), DarkSeoul, Silent Chollima, and Stonefly/Clasiopa."
+  },
+  {
+   "source": "Onyx Sleet (formerly PLUTONIUM)",
+   "type": "attributed-to",
+   "target": "RGB 3rd Bureau",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group known publicly as Andariel, Onyx Sleet (formerly PLUTONIUM), DarkSeoul, Silent Chollima, and Stonefly/Clasiopa."
+  },
+  {
+   "source": "DarkSeoul",
+   "type": "attributed-to",
+   "target": "RGB 3rd Bureau",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group known publicly as Andariel, Onyx Sleet (formerly PLUTONIUM), DarkSeoul, Silent Chollima, and Stonefly/Clasiopa."
+  },
+  {
+   "source": "Silent Chollima",
+   "type": "attributed-to",
+   "target": "RGB 3rd Bureau",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group known publicly as Andariel, Onyx Sleet (formerly PLUTONIUM), DarkSeoul, Silent Chollima, and Stonefly/Clasiopa."
+  },
+  {
+   "source": "Stonefly/Clasiopa",
+   "type": "attributed-to",
+   "target": "RGB 3rd Bureau",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group known publicly as Andariel, Onyx Sleet (formerly PLUTONIUM), DarkSeoul, Silent Chollima, and Stonefly/Clasiopa."
+  },
+  {
+   "source": "Log4j",
+   "type": "exploits",
+   "target": "vulnerability",
+   "evidence": "The actors gain initial access through widespread exploitation of web servers through known vulnerabilities in software, such as Log4j, to deploy a web shell and gain access to sensitive information and applications for further exploitation."
+  },
+  {
+   "source": "Mimikatz",
+   "type": "exploits",
+   "target": "Privilege escalation using credential stealing tools",
+   "evidence": "The actors employ standard system discovery and enumeration techniques, establish persistence using Scheduled Tasks, and perform privilege escalation using common credential stealing tools such as Mimikatz."
+  },
+  {
+   "source": "Microsoft Windows Shortcut File (LNK) files",
+   "type": "uses",
+   "target": "Phishing with malicious attachments",
+   "evidence": "The actors also conduct phishing activity using malicious attachments, including Microsoft Windows Shortcut File (LNK) files or HTML Application (HTA) script files inside encrypted or unencrypted zip archives."
+  },
+  {
+   "source": "HTML Application (HTA) script files",
+   "type": "uses",
+   "target": "Phishing with malicious attachments",
+   "evidence": "The actors also conduct phishing activity using malicious attachments, including Microsoft Windows Shortcut File (LNK) files or HTML Application (HTA) script files inside encrypted or unencrypted zip archives."
+  },
+  {
+   "source": "zip archives",
+   "type": "uses",
+   "target": "Phishing with malicious attachments",
+   "evidence": "The actors also conduct phishing activity using malicious attachments, including Microsoft Windows Shortcut File (LNK) files or HTML Application (HTA) script files inside encrypted or unencrypted zip archives."
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "The actors currently target sensitive military information and intellectual property of defense, aerospace, nuclear, engineering organizations."
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "attributed-to",
+   "target": "threat-actor",
+   "evidence": "North Korea state-sponsored cyber operations."
+  },
+  {
+   "source": "campaign",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "The actors currently target sensitive military information and intellectual property of defense, aerospace, nuclear, engineering organizations."
+  },
+  {
+   "source": "campaign",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "Log4j, web shell, Scheduled Tasks, Microsoft Windows Shortcut File (LNK) files, HTML Application (HTA) script files, zip archives."
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "The information targeted—such as contract specifications, bills of materials, project details, design drawings, and engineering documents—has military and civilian applications and leads the authoring"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "uses",
+   "target": "malware",
+   "evidence": "The actors leverage custom tools and malware for discovery and execution."
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "The actors gain initial access through widespread exploitation of web servers through known vulnerabilities, such as CVE-2021-44228 (“Log4Shell”) in Apache’s Log4j software library and other CVEs listed above, to deploy web shells and gain access to sensitive information and applications for further exploitation."
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "The actors gain initial access through widespread exploitation of web servers through known vulnerabilities, such as CVE-2021-44228 (“Log4Shell”) in Apache’s Log4j software library and other CVEs listed above, to deploy web shells and gain access to sensitive information and applications for further exploitation."
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "The information targeted—such as contract specifications, bills of materials, project details, design drawings, and engineering documents—has military and civilian applications and leads the authoring"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "originates-from",
+   "target": "Democratic People’s Republic of Korea (DPRK)",
+   "evidence": "Named earlier in the document: Democratic People’s Republic of Korea (DPRK)"
+  },
+  {
+   "source": "Global Espionage Campaign",
+   "type": "attributed-to",
+   "target": "RGB 3rd Bureau",
+   "evidence": "Named earlier in the document: Global Espionage Campaign"
+  },
+  {
+   "source": "Mimikatz",
+   "type": "exploits",
+   "target": "vulnerability",
+   "evidence": "The authoring agencies have identified the following open source and dual-use tools as used and/or customized by the actors: Mimikatz [S0002]"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "targets",
+   "target": "Defense",
+   "evidence": "Named earlier in the document: Global Espionage Campaign"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "targets",
+   "target": "Energy",
+   "evidence": "Named earlier in the document: Global Espionage Campaign"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "targets",
+   "target": "Finance",
+   "evidence": "Named earlier in the document: Global Espionage Campaign"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "targets",
+   "target": "Health",
+   "evidence": "Named earlier in the document: Global Espionage Campaign"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "targets",
+   "target": "Transport",
+   "evidence": "Named earlier in the document: Global Espionage Campaign"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "originates-from",
+   "target": "Democratic People’s Republic of Korea (DPRK)",
+   "evidence": "Named earlier in the document: Democratic People’s Republic of Korea (DPRK)"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "uses",
+   "target": "Andariel_ScheduledTask_Loader",
+   "evidence": "rule Andariel_ScheduledTask_Loader"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "uses",
+   "target": "Andariel_KaosRAT_Yamabot",
+   "evidence": "rule Andariel_KaosRAT_Yamabot"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "uses",
+   "target": "TriFaux_EasyRAT_JUPITER",
+   "evidence": "rule TriFaux_EasyRAT_JUPITER"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "uses",
+   "target": "Andariel_CutieDrop_MagicRAT",
+   "evidence": "rule Andariel_CutieDrop_MagicRAT"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "uses",
+   "target": "Andariel_hhsd_FileTransferTool",
+   "evidence": "rule Andariel_hhsd_FileTransferTool"
+  },
+  {
+   "source": "Andariel_ScheduledTask_Loader",
+   "type": "exploits",
+   "target": "Log4j",
+   "evidence": "Named earlier in the document: Log4j"
+  },
+  {
+   "source": "Andariel_KaosRAT_Yamabot",
+   "type": "exploits",
+   "target": "Log4j",
+   "evidence": "Named earlier in the document: Log4j"
+  },
+  {
+   "source": "Andariel_CutieDrop_MagicRAT",
+   "type": "exploits",
+   "target": "Log4j",
+   "evidence": "Named earlier in the document: Log4j"
+  },
+  {
+   "source": "Andariel_hhsd_FileTransferTool",
+   "type": "exploits",
+   "target": "Log4j",
+   "evidence": "Named earlier in the document: Log4j"
+  },
+  {
+   "source": "Dtrack",
+   "type": "variant-of",
+   "target": "Andariel_NoPineapple_Dtrack_unpacked",
+   "evidence": "Andariel_NoPineapple_Dtrack_unpacked"
+  },
+  {
+   "source": "Dtrack",
+   "type": "variant-of",
+   "target": "Andariel_dtrack_unpacked",
+   "evidence": "Andariel_dtrack_unpacked"
+  },
+  {
+   "source": "Dtrack",
+   "type": "variant-of",
+   "target": "win_tiger_rat_auto",
+   "evidence": "win_tiger_rat_auto"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "Named earlier in the document: RGB 3rd Bureau, Democratic People’s Republic of Korea (DPRK), Global Espionage Campaign, Mimikatz, Log4j, web shell, Scheduled Tasks, Microsoft Windows Shortcut File (LNK) files, HTML Application (HTA) script files, zip archives, Andariel_ScheduledTask_Loader, Andariel_KaosRAT_Yamabot, TriFaux_EasyRAT_JUPITER, Andariel_CutieDrop_MagicRAT, Andariel_hhsd_FileTransferTool, Andariel_Atharvan_3RAT, Andariel_LilithRAT_Variant, Andariel_SocksTroy_Strings_OpCodes, Andariel_Agni, Andariel_GoLang_validalpha_handshake, Andariel_GoLang_validalpha_tasks, Andariel_GoLang_validalpha_BlackString, INDICATOR_EXE_Packed_VMProtect, INDICATOR_EXE_Packed_Themida, Andariel_elf_backdoor_fipps, Andariel_bindshell, Andariel_grease2, Andariel_NoPineapple_Dtrack_unpacked, Andariel_dtrack_unpacked, Andariel_TigerRAT_crowdsourced_rule, win_tiger_rat_auto, Dtrack"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "uses",
+   "target": "malware",
+   "evidence": "Named earlier in the document: RGB 3rd Bureau, Democratic People’s Republic of Korea (DPRK), Global Espionage Campaign, Mimikatz, Log4j, web shell, Scheduled Tasks, Microsoft Windows Shortcut File (LNK) files, HTML Application (HTA) script files, zip archives, Andariel_ScheduledTask_Loader, Andariel_KaosRAT_Yamabot, TriFaux_EasyRAT_JUPITER, Andariel_CutieDrop_MagicRAT, Andariel_hhsd_FileTransferTool, Andariel_Atharvan_3RAT, Andariel_LilithRAT_Variant, Andariel_SocksTroy_Strings_OpCodes, Andariel_Agni, Andariel_GoLang_validalpha_handshake, Andariel_Go, Andariel_GoLang_validalpha_tasks, Andariel_GoLang_validalpha_BlackString, INDICATOR_EXE_Packed_VMProtect, INDICATOR_EXE_Packed_Themida, Andariel_elf_backdoor_fipps, Andariel_bindshell, Andariel_grease2, Andariel_NoPineapple_Dtrack_unpacked, Andariel_dtrack_unpacked, Andariel_TigerRAT_crowdsourced_rule, win_tiger_rat_auto, Dtrack"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Named earlier in the document: RGB 3rd Bureau, Democratic People’s Republic of Korea (DPRK), Global Espionage Campaign, Mimikatz, Log4j, web shell, Scheduled Tasks, Microsoft Windows Shortcut File (LNK) files, HTML Application (HTA) script files, zip archives, Andariel_ScheduledTask_Loader, Andariel_KaosRAT_Yamabot, TriFaux_EasyRAT_JUPITER, Andariel_CutieDrop_MagicRAT, Andariel_hhsd_FileTransferTool, Andariel_Atharvan_3RAT, Andariel_LilithRAT_Variant, Andariel_SocksTroy_Strings_OpCodes, Andariel_Agni, Andariel_GoLang_validalpha_handshake, Andariel_GoLang_validalpha_tasks, Andariel_GoLang_validalpha_BlackString, INDICATOR_EXE_Packed_VMProtect, INDICATOR_EXE_Packed_Themida, Andariel_elf_backdoor_fipps, Andariel_bindshell, Andariel_grease2, Andariel_NoPineapple_Dtrack_unpacked, Andariel_dtrack_unpacked, Andariel_TigerRAT_crowdsourced_rule, win_tiger_rat_auto, Dtrack"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "Named earlier in the document: RGB 3rd Bureau, Democratic People’s Republic of Korea (DPRK), Global Espionage Campaign, Mimikatz, Log4j, web shell, Scheduled Tasks, Microsoft Windows Shortcut File (LNK) files, HTML Application (HTA) script files, zip archives, Andariel_ScheduledTask_Loader, Andariel_KaosRAT_Yamabot, TriFaux_EasyRAT_JUPITER, Andariel_CutieDrop_MagicRAT, Andariel_hhsd_FileTransferTool, Andariel_Atharvan_3RAT, Andariel_LilithRAT_Variant, Andariel_SocksTroy_Strings_OpCodes, Andariel_Agni, Andariel_GoLang_validalpha_handshake, Andariel_GoLang_validalpha_tasks, Andariel_GoLang_validalpha_BlackString, INDICATOR_EXE_Packed_VMProtect, INDICATOR_EXE_Packed_Themida, Andariel_elf_backdoor_fipps, Andariel_bindshell, Andariel_grease2, Andariel_NoPineapple_Dtrack_unpacked, Andariel_dtrack_unpacked, Andariel_TigerRAT_crowdsourced_rule, win_tiger_rat_auto, Dtrack"
+  },
+  {
+   "source": "Mimikatz",
+   "type": "exploits",
+   "target": "vulnerability",
+   "evidence": "Named earlier in the document: RGB 3rd Bureau, Democratic People’s Republic of Korea (DPRK), Global Espionage Campaign, Mimikatz, Log4j, web shell, Scheduled Tasks, Microsoft Windows Shortcut File (LNK) files, HTML Application (HTA) script files, zip archives, Andariel_ScheduledTask_Loader, Andariel_KaosRAT_Yamabot, TriFaux_EasyRAT_JUPITER, Andariel_CutieDrop_MagicRAT, Andariel_hhsd_FileTransferTool, Andariel_Atharvan_3RAT, Andariel_LilithRAT_Variant, Andariel_SocksTroy_Strings_OpCodes, Andariel_Agni, Andariel_GoLang_validalpha_handshake, Andariel_GoLang_validalpha_tasks, Andariel_GoLang_validalpha_BlackString, INDICATOR_EXE_Packed_VMProtect, INDICATOR_EXE_Packed_Themida, Andariel_elf_backdoor_fipps, Andariel_bindshell, Andariel_grease2, Andariel_NoPineapple_Dtrack_unpacked, Andariel_dtrack_unpacked, Andariel_TigerRAT_crowdsourced_rule, win_tiger_rat_auto, Dtrack"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "originates-from",
+   "target": "country",
+   "evidence": "Named earlier in the document: RGB 3rd Bureau, Democratic People’s Republic of Korea (DPRK), Global Espionage Campaign, Mimikatz, Log4j, web shell, Scheduled Tasks, Microsoft Windows Shortcut File (LNK) files, HTML Application (HTA) script files, zip archives, Andariel_ScheduledTask_Loader, Andariel_KaosRAT_Yamabot, TriFaux_EasyRAT_JUPITER, Andariel_CutieDrop_MagicRAT, Andariel_hhsd_FileTransferTool, Andariel_Atharvan_3RAT, Andariel_LilithRAT_Variant, Andariel_SocksTroy_Strings_OpCodes, Andariel_Agni, Andariel_GoLang_validalpha_handshake, Andariel_GoLang_validalpha_tasks, Andariel_GoLang_validalpha_BlackString, INDICATOR_EXE_Packed_VMProtect, INDICATOR_EXE_Packed_Themida, Andariel_elf_backdoor_fipps, Andariel_bindshell, Andariel_grease2, Andariel_NoPineapple_Dtrack_unpacked, Andariel_dtrack_unpacked, Andariel_TigerRAT_crowdsourced_rule, win_tiger_rat_auto, Dtrack"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "attributed-to",
+   "target": "country",
+   "evidence": "Named earlier in the document: RGB 3rd Bureau, Democratic People’s Republic of Korea (DPRK), Global Espionage Campaign, Mimikatz, Log4j, web shell, Scheduled Tasks, Microsoft Windows Shortcut File (LNK) files, HTML Application (HTA) script files, zip archives, Andariel_ScheduledTask_Loader, Andariel_KaosRAT_Yamabot, TriFaux_EasyRAT_JUPITER, Andariel_CutieDrop_MagicRAT, Andariel_hhsd_FileTransferTool, Andariel_Atharvan_3RAT, Andariel_LilithRAT_Variant, Andariel_SocksTroy_Strings_OpCodes, Andariel_Agni, Andariel_GoLang_validalpha_handshake, Andariel_GoLang_validalpha_tasks, Andariel_GoLang_validalpha_BlackString, INDICATOR_EXE_Packed_VMProtect, INDICATOR_EXE_Packed_Themida, Andariel_elf_backdoor_fipps, Andariel_bindshell, Andariel_grease2, Andariel_NoPineapple_Dtrack_unpacked, Andariel_dtrack_unpacked, Andariel_TigerRAT_crowdsourced_rule, win_tiger_rat_auto, Dtrack"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "attributed-to",
+   "target": "country",
+   "evidence": "Named earlier in the document: RGB 3rd Bureau, Democratic People’s Republic of Korea (DPRK), Global Espionage Campaign, Mimikatz, Log4j, web shell, Scheduled Tasks, Microsoft Windows Shortcut File (LNK) files, HTML Application (HTA) script files, zip archives, Andariel_ScheduledTask_Loader, Andariel_KaosRAT_Yamabot, TriFaux_EasyRAT_JUPITER, Andariel_CutieDrop_MagicRAT, Andariel_hhsd_FileTransferTool, Andariel_Atharvan_3RAT, Andariel_LilithRAT_Variant, Andariel_SocksTroy_Strings_OpCodes, Andariel_Agni, Andariel_GoLang_validalpha_handshake, Andariel_GoLang_validalpha_tasks, Andariel_GoLang_validalpha_BlackString, INDICATOR_EXE_Packed_VMProtect, INDICATOR_EXE_Packed_Themida, Andariel_elf_backdoor_fipps, Andariel_bindshell, Andariel_grease2, Andariel_NoPineapple_Dtrack_unpacked, Andariel_dtrack_unpacked, Andariel_TigerRAT_crowdsourced_rule, win_tiger_rat_auto, Dtrack"
+  },
+  {
+   "source": "Log4j",
+   "type": "exploits",
+   "target": "vulnerability",
+   "evidence": "Named earlier in the document: RGB 3rd Bureau, Democratic People’s Republic of Korea (DPRK), Global Espionage Campaign, Mimikatz, Log4j, web shell, Scheduled Tasks, Microsoft Windows Shortcut File (LNK) files, HTML Application (HTA) script files, zip archives, Andariel_ScheduledTask_Loader, Andariel_KaosRAT_Yamabot, TriFaux_EasyRAT_JUPITER, Andariel_CutieDrop_MagicRAT, Andariel_hhsd_FileTransferTool, Andariel_Atharvan_3RAT, Andariel_LilithRAT_Variant, Andariel_SocksTroy_Strings_OpCodes, Andariel_Agni, Andariel_GoLang_validalpha_handshake, Andariel_GoLang_validalpha_tasks, Andariel_GoLang_validalpha_BlackString, INDICATOR_EXE_Packed_VMProtect, INDICATOR_EXE_Packed_Themida, Andariel_elf_backdoor_fipps, Andariel_bindshell, Andariel_grease2, Andariel_NoPineapple_Dtrack_unpacked, Andariel_dtrack_unpacked, Andariel_TigerRAT_crowdsourced_rule, win_tiger_rat_auto, Dtrack"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "Named earlier in the document: RGB 3rd Bureau, Democratic People’s Republic of Korea (DPRK), Global Espionage Campaign, Mimikatz, Log4j, web shell, Scheduled Tasks, Microsoft Windows Shortcut File (LNK) files, HTML Application (HTA) script files, zip archives, Andariel_ScheduledTask_Loader, Andariel_KaosRAT_Yamabot, TriFaux_EasyRAT_JUPITER, Andariel_CutieDrop_MagicRAT, Andariel_hhsd_FileTransferTool, Andariel_Atharvan_3RAT, Andariel_LilithRAT_Variant, Andariel_SocksTroy_Strings_OpCodes, Andariel_Agni, Andariel_GoLang_validalpha_handshake, Andariel_GoLang_validalpha_tasks, Andariel_GoLang_validalpha_BlackString, INDICATOR_EXE_Packed_VMProtect, INDICATOR_EXE_Packed_Themida, Andariel_elf_backdoor_fipps, Andariel_bindshell, Andariel_grease2, Andariel_NoPineapple_Dtrack_unpacked, Andariel_dtrack_unpacked, Andariel_TigerRAT_crowdsourced_rule, win_tiger_rat_auto, Dtrack"
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "Named earlier in the document: RGB 3rd Bureau, Democratic People’s Republic of Korea (DPRK), Global Espionage Campaign, Mimikatz, Log4j, web shell, Scheduled Tasks, Microsoft Windows Shortcut File (LNK) files, HTML Application (HTA) script files, zip archives, Andariel_ScheduledTask_Loader, Andariel_KaosRAT_Yamabot, TriFaux_EasyRAT_JUPITER, Andariel_CutieDrop_MagicRAT, Andariel_hhsd_FileTransferTool, Andariel_Atharvan_3RAT, Andariel_LilithRAT_Variant, Andariel_SocksTroy_Strings_OpCodes, Andariel_Agni, Andariel_GoLang_validalpha_handshake, Andariel_GoLang_validalpha_tasks, Andariel_GoLang_validalpha_BlackString, INDICATOR_EXE_Packed_VMProtect, INDICATOR_EXE_Packed_Themida, Andariel_elf_backdoor_fipps, Andariel_bindshell, Andariel_grease2, Andariel_NoPineapple_Dtrack_unpacked, Andariel_dtrack_unpacked, Andariel_TigerRAT_crowdsourced_rule, win_tiger_rat_auto, Dtrack"
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "qwen3:8b",
+  "seconds": 1819.2,
+  "errors": "2 unparsable chunk(s)"
+ }
+}

@@ -1,0 +1,1226 @@
+{
+ "entities": [
+  {
+   "type": "malware",
+   "name": "SystemBC",
+   "evidence": "Les attaquants ont utilisé leur accès de bureau à distance afin d’exécuter deux portes dérobées : SystemBC 2 et Cobalt Strike."
+  },
+  {
+   "type": "malware",
+   "name": "Cobalt Strike",
+   "evidence": "Les attaquants ont utilisé leur accès de bureau à distance afin d’exécuter deux portes dérobées : SystemBC 2 et Cobalt Strike."
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "Les opérateurs du MOA FIN12 seraient responsables d’un nombre conséquent d’attaques par rançongiciel sur le territoire français. Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti."
+  },
+  {
+   "type": "malware",
+   "name": "Conti",
+   "evidence": "Les opérateurs du MOA FIN12 seraient responsables d’un nombre conséquent d’attaques par rançongiciel sur le territoire français. Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti."
+  },
+  {
+   "type": "malware",
+   "name": "Hive",
+   "evidence": "Les opérateurs du MOA FIN12 seraient responsables d’un nombre conséquent d’attaques par rançongiciel sur le territoire français. Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et Nokoyawa."
+  },
+  {
+   "type": "malware",
+   "name": "BlackCat",
+   "evidence": "Les opérateurs du MOA FIN12 seraient responsables d’un nombre conséquent d’attaques par rançongiciel sur le territoire français. Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et Nokoyawa."
+  },
+  {
+   "type": "malware",
+   "name": "Nokoyawa",
+   "evidence": "Les opérateurs du MOA FIN12 seraient responsables d’un nombre conséquent d’attaques par rançongiciel sur le territoire français. Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et Nokoyawa."
+  },
+  {
+   "type": "malware",
+   "name": "Play",
+   "evidence": "Les opérateurs du MOA FIN12 seraient responsables d’un nombre conséquent d’attaques par rançongiciel sur le territoire français. Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et Nokoyawa. Ils auraient également utilisé les rançongiciels Play et Royal."
+  },
+  {
+   "type": "malware",
+   "name": "Royal",
+   "evidence": "Les opérateurs du MOA FIN12 seraient responsables d’un nombre conséquent d’attaques par rançongiciel sur le territoire français. Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et Nokoyawa. Ils auraient également utilisé les rançongiciels Play et Royal."
+  },
+  {
+   "type": "campaign",
+   "name": "FIN12",
+   "evidence": "La découverte de liens avec un ensemble d’incidents observés sur le périmètre français et rapportés en sources ouvertes a permis à l’ANSSI d’associer cette attaque au MOA cybercriminel FIN12."
+  },
+  {
+   "type": "sector",
+   "name": "Health",
+   "evidence": "Le jeudi 9 mars 2023, l’ANSSI a émis un signalement concernant la compromission de l’un des serveurs du centre hospitalier universitaire (CHU) de Brest."
+  },
+  {
+   "type": "country",
+   "name": "France",
+   "evidence": "Les opérateurs du MOA FIN12 seraient responsables d’un nombre conséquent d’attaques par rançongiciel sur le territoire français."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "FIN12",
+   "evidence": "Les opérateurs du mode opératoire impliqué dans l’incident du CHU de Brest utiliseraient donc les rançongiciels Play et Royal."
+  },
+  {
+   "type": "threat-actor",
+   "name": "FIN12",
+   "evidence": "Les opérateurs de FIN12 seraient responsables d’une partie importante, mais non exclusive, des campagnes d’attaques des rançongiciels Ryuk et Conti entre 2020 et 2021."
+  },
+  {
+   "type": "campaign",
+   "name": "PISTACHE TEMPEST",
+   "evidence": "MICROSOFT suit ce mode opératoire sous la dénomination PISTACHE TEMPEST ou DEV-0237."
+  },
+  {
+   "type": "malware",
+   "name": "SystemBC",
+   "evidence": "Le 11 mars 2022, le compte Twitter @Cryptolaemus1 a identifié la distribution d’un implant SystemBC par le botnet Epoch 5."
+  },
+  {
+   "type": "malware",
+   "name": "Cobalt Strike",
+   "evidence": "L’infrastructure de commande et de contrôle SystemBC était similaire à celle employée par les attaquants impliqués dans l’incident du CHU de Brest."
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "Les attaquants impliqués dans l’incident du CHU de Brest seraient actifs depuis au moins 2019 et auraient utilisé successivement les rançongiciels Ryuk, Conti, Hive, Nokoyawa et Play."
+  },
+  {
+   "type": "malware",
+   "name": "Conti",
+   "evidence": "Les attaquants impliqués dans l’incident du CHU de Brest seraient actifs depuis au moins 2019 et auraient utilisé successivement les rançongiciels Ryuk, Conti, Hive, Nokoyawa et Play."
+  },
+  {
+   "type": "malware",
+   "name": "Hive",
+   "evidence": "Les attaquants impliqués dans l’incident du CHU de Brest seraient actifs depuis au moins 2019 et auraient utilisé successivement les rançongiciels Ryuk, Conti, Hive, Nokoyawa et Play."
+  },
+  {
+   "type": "malware",
+   "name": "Nokoyawa",
+   "evidence": "Les attaquants impliqués dans l’incident du CHU de Brest seraient actifs depuis au moins 2019 et auraient utilisé successivement les rançongiciels Ryuk, Conti, Hive, Nokoyawa et Play."
+  },
+  {
+   "type": "malware",
+   "name": "Play",
+   "evidence": "Les attaquants impliqués dans l’incident du CHU de Brest seraient actifs depuis au moins 2019 et auraient utilisé successivement les rançongiciels Ryuk, Conti, Hive, Nokoyawa et Play."
+  },
+  {
+   "type": "malware",
+   "name": "Royal",
+   "evidence": "Les attaquants impliqués dans l’incident du CHU de Brest utiliseraient donc les rançongiciels Play et Royal."
+  },
+  {
+   "type": "malware",
+   "name": "BlackCat",
+   "evidence": "MICROSOFT ajoute l’utilisation des rançongiciels BlackCat, Agenda et Mindware."
+  },
+  {
+   "type": "malware",
+   "name": "BazarLoader",
+   "evidence": "Les attaquants impliqués dans l’incident du CHU de Brest auraient également eu recours aux services du code malveillant BazarLoader entre 2020 et 2021."
+  },
+  {
+   "type": "malware",
+   "name": "Emotet",
+   "evidence": "Le 11 mars 2022, le compte Twitter @Cryptolaemus1 a identifié la distribution d’un implant SystemBC par le botnet Epoch 5 lié au Malware-as-a-Service (MaaS) Emotet."
+  },
+  {
+   "type": "malware",
+   "name": "TrickBot",
+   "evidence": "MICROSOFT, les opérateurs de PISTACHE TEMPEST auraient également utilisé le code malveillant TrickBot et le MaaS GoziAT."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-41080",
+   "evidence": "De plus, grâce à des liens d’infrastructure, l’ANSSI a pu rattacher au même MOA plusieurs exploitations de la vulnérabilité ProxyNotShell (CVE-2022-41080 et CVE-2022-41082)."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-41082",
+   "evidence": "De plus, grâce à des liens d’infrastructure, l’ANSSI a pu rattacher au même MOA plusieurs exploitations de la vulnérabilité ProxyNotShell (CVE-2022-41080 et CVE-2022-41082)."
+  },
+  {
+   "type": "sector",
+   "name": "Health",
+   "evidence": "Les opérateurs de FIN12 seraient caractérisés par un intérêt pour les entreprises susceptibles de payer des rançons élevées (Big Game Hunting) ainsi que par un ciblage important du secteur de la santé."
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "Le ciblage des opérateurs de FIN12 se concentrait sur l’Amérique du Nord et l’Europe."
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "La campagne du rançongiciel Ryuk en 2020 contre des établissements publics de santé aux États-Unis attribuée à UNC1878."
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "La campagne du rançongiciel Ryuk en 2020 contre des établissements publics de santé aux États-Unis attribuée à UNC1878."
+  },
+  {
+   "type": "country",
+   "name": "Russia",
+   "evidence": "À la suite de la déclaration d’allégeance de CONTI à la Russie et des « Conti Leaks »."
+  },
+  {
+   "type": "organization",
+   "name": "ANSSI",
+   "evidence": "Les analyses de l’ANSSI ont permis d’établir des liens entre l’incident du CHU de Brest et le chiffrement d’une trentaine d’entités entre 2020 et 2023."
+  },
+  {
+   "type": "organization",
+   "name": "Microsoft",
+   "evidence": "MICROSOFT suit ce mode opératoire sous la dénomination PISTACHE TEMPEST (ou DEV-0237)."
+  },
+  {
+   "type": "organization",
+   "name": "Mandiant",
+   "evidence": "L’éditeur MANDIANT suivait d’abord ce MOA sous l’appellation UNC1878 avant de choisir FIN12."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "FIN12",
+   "evidence": "ait d’abord ce MOA sous l’appellation UNC1878 avant de choisir FIN12."
+  },
+  {
+   "type": "threat-actor",
+   "name": "Troy",
+   "evidence": "l’acteur « Troy » pourrait être l’un des individus responsables des opérations associées au mode opératoire FIN12."
+  },
+  {
+   "type": "campaign",
+   "name": "PISTACHE TEMPEST",
+   "evidence": "FIN12\nvement leurs opérations en répartissant leurs activités au sein de multiples opérations de rançongiciel [17]."
+  },
+  {
+   "type": "malware",
+   "name": "SystemBC",
+   "evidence": "Utilisation de VPS hébergés chez VULTR comme serveurs C2 SystemBC, et utilisation du port 4177."
+  },
+  {
+   "type": "malware",
+   "name": "Cobalt Strike",
+   "evidence": "Utilisation de l’outil Random C2 Profile Generator pour générer le profil Malleable C2 Cobalt Strike."
+  },
+  {
+   "type": "malware",
+   "name": "BazarLoader",
+   "evidence": "BazarLoader est un code malveillant identifié pour la première fois en avril 2020 et opéré par le groupe CONTI (WIZARD SPIDER)."
+  },
+  {
+   "type": "malware",
+   "name": "Play",
+   "evidence": "Au début de l’année 2023, l’utilisation par les opérateurs de PISTACHE TEMPEST du rançongiciel Play indique l’existence continue de relations entre des ex-membres de CONTI."
+  },
+  {
+   "type": "malware",
+   "name": "Royal",
+   "evidence": "ROYAL constitue notoirement un groupe de rançongiciel né de l’interruption des activités de CONTI [19, 20, 21]."
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz",
+   "evidence": "Utilisation de l’outil Mimikatz."
+  },
+  {
+   "type": "tool",
+   "name": "SharpRoast",
+   "evidence": "Utilisation de l’outil SharpRoast."
+  },
+  {
+   "type": "tool",
+   "name": "Softperfect Network Scanner",
+   "evidence": "Utilisation de l’outil de découverte réseau Softperfect Network Scanner."
+  },
+  {
+   "type": "tool",
+   "name": "PingCastle",
+   "evidence": "Utilisation des outils de découverte PingCastle et BloodHound."
+  },
+  {
+   "type": "tool",
+   "name": "BloodHound",
+   "evidence": "Utilisation des outils de découverte PingCastle et BloodHound."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-21746",
+   "evidence": "Tentative d’exploitation des vulnérabilités LocalPotato (CVE-2023-21746) et CVE-2022-24521."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-24521",
+   "evidence": "Tentative d’exploitation des vulnérabilités LocalPotato (CVE-2023-21746) et CVE-2022-24521."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-34527",
+   "evidence": "Tentative d’exploitation des vulnérabilités PrintNightmare (CVE-2021-34527), BlueKeep (CVE-2019-0708) et ZeroLogon (CVE-2020-1472)."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-0708",
+   "evidence": "Tentative d’exploitation des vulnérabilités PrintNightmare (CVE-2021-34527), BlueKeep (CVE-2019-0708) et ZeroLogon (CVE-2020-1472)."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-1472",
+   "evidence": "Tentative d’exploitation des vulnérabilités PrintNightmare (CVE-2021-34527), BlueKeep (CVE-2019-0708) et ZeroLogon (CVE-2020-1472)."
+  },
+  {
+   "type": "sector",
+   "name": "Finance",
+   "evidence": "FIN12\nvement leurs opérations en répartissant leurs activités au sein de multiples opérations de rançongiciel [17]."
+  },
+  {
+   "type": "country",
+   "name": "France",
+   "evidence": "TLP:CLEAR"
+  },
+  {
+   "type": "organization",
+   "name": "ANSSI",
+   "evidence": "Le recoupement des analyses de l’ANSSI avec les publications d’éditeurs permet d’effectuer la synthèse chronologique suivante :"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "FIN12",
+   "evidence": "FIN12"
+  },
+  {
+   "type": "malware",
+   "name": "LocalPotato",
+   "evidence": "DECODER-IT . Decoder-It/LocalPotato."
+  },
+  {
+   "type": "malware",
+   "name": "Sockbot",
+   "evidence": "Ido SECURITYJOES . « Sockbot in GoLand – Linking APT Groups with Ransomware Gangs »."
+  },
+  {
+   "type": "malware",
+   "name": "Mimikatz",
+   "evidence": "Gentilkiwi/Mimikatz: A Little Tool to Play with Windows Security."
+  },
+  {
+   "type": "malware",
+   "name": "SharpRoast",
+   "evidence": "GhostPack/SharpRoast: DEPRECATED SharpRoast Is a C# Port of Various PowerView’s Kerberoasting Functionality."
+  },
+  {
+   "type": "malware",
+   "name": "Cobalt Strike",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "type": "malware",
+   "name": "Conti",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "type": "malware",
+   "name": "Hive",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "type": "malware",
+   "name": "BlackCat",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "type": "malware",
+   "name": "Play",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "type": "malware",
+   "name": "Royal",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "type": "malware",
+   "name": "BazarLoader",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "type": "malware",
+   "name": "Emotet",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "type": "malware",
+   "name": "TrickBot",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "type": "malware",
+   "name": "Troy",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "type": "malware",
+   "name": "Softperfect Network Scanner",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "type": "malware",
+   "name": "PingCastle",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "type": "malware",
+   "name": "BloodHound",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-34527",
+   "evidence": "SPLOITUS . Exploit for Improper Privilege Management in Microsoft CVE-2021-34527 CVE-2021-1675."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-1675",
+   "evidence": "SPLOITUS . Exploit for Improper Privilege Management in Microsoft CVE-2021-34527 CVE-2021-1675."
+  },
+  {
+   "type": "sector",
+   "name": "Healthcare services",
+   "evidence": "MANDIANT . FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets."
+  },
+  {
+   "type": "organization",
+   "name": "Microsoft Defender Threat Intelligence CENTER (MSTIC)",
+   "evidence": "Microsoft Defender Threat Intelligence CENTER (MSTIC) Microsoft Threat Intelligence. Ransomware as a Service: Understanding the Cybercrime Gig Economy and How to Protect Yourself."
+  },
+  {
+   "type": "organization",
+   "name": "Microsoft",
+   "evidence": "MICROSOFT . Comment Microsoft nomme les acteurs de menace."
+  },
+  {
+   "type": "organization",
+   "name": "Mandiant",
+   "evidence": "MANDIANT . FIN12 GROUP PROFILE: FIN12 PRIORITIZES SPEED TO DEPLOY RANSOMWARE AGAINST HIGH-VALUE TARGETS."
+  },
+  {
+   "type": "organization",
+   "name": "Trellix",
+   "evidence": "TRELLIX . Conti Leaks: Examining the Panama Papers of Ransomware | Trellix."
+  },
+  {
+   "type": "organization",
+   "name": "Trend Micro",
+   "evidence": "TREND MICRO . Conti Team One Splinter Group Resurfaces as Royal Ransomware with Callback Phishing Attacks."
+  },
+  {
+   "type": "organization",
+   "name": "Advintel",
+   "evidence": "ADVINTEL . DisCONTInued: The End of Conti’s Brand Marks New Chapter For Cybercrime Landscape."
+  },
+  {
+   "type": "organization",
+   "name": "The Record Media",
+   "evidence": "THE RECORD MEDIA . Disgruntled ransomware affiliate leaks the Conti gang’s technical manuals."
+  },
+  {
+   "type": "organization",
+   "name": "Bushidotoken",
+   "evidence": "BUSHIDOTOKEN . The Continuity of Conti."
+  },
+  {
+   "type": "organization",
+   "name": "GitHub",
+   "evidence": "GITHUB . Threatexpress/Random_c2_profile: Cobalt Strike Random C2 Profile Generator."
+  },
+  {
+   "type": "organization",
+   "name": "CISA",
+   "evidence": "CISA . BlackCat/ALPHV Ransomware Indicators of Compromise."
+  },
+  {
+   "type": "organization",
+   "name": "TheParmak",
+   "evidence": "GITHUB . TheParmak/Conti-Leaks-Englished: Google and Deepl Translated Conti Leaks, Which Is Shared by a Member of the Conti Ransomware Group."
+  },
+  {
+   "type": "organization",
+   "name": "Reuters",
+   "evidence": "REUTERS . « Building Wave of Ransomware Attacks Strike U.S. Hospitals »."
+  }
+ ],
+ "observables": [
+  {
+   "type": "ipv4-addr",
+   "value": "149.28.197.120",
+   "indicates": [
+    "SystemBC"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "149.28.213.157",
+   "indicates": [
+    "SystemBC"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "youthconscience.com",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "host.dll",
+   "hash": "8a0743f17110dc945007f08f3e63da166a3937dc",
+   "indicates": [
+    "SystemBC"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "b64.exe",
+   "hash": "9e2737994aa8bf0d6900e5369d51978adc4c02f9",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "tumbleproperty.com",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "96.30.196.207",
+   "indicates": [
+    "SystemBC"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.32.132.182",
+   "indicates": [
+    "SystemBC"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "getinteriorartstudio.com",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "performernews.com",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "texasflooddesign.com",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "tumbleproperty.com",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "purpleinfluenceonline.com",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "realversedesign.com",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "tributepower.com",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "youthconscience.com",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "149.28.197.120",
+   "indicates": [
+    "SystemBC"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "149.28.213.157",
+   "indicates": [
+    "SystemBC"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "host.dll",
+   "hash": "8a0743f17110dc945007f08f3e63da166a3937dc",
+   "indicates": [
+    "SystemBC"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "b64.exe",
+   "hash": "9e2737994aa8bf0d6900e5369d51978adc4c02f9",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "cleanlpe1day.exe",
+   "hash": "364a4d9ea6f88eec098b13728fce2c1ead94c48d",
+   "indicates": [
+    "CVE-2022-24521"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "LocalPotato.exe",
+   "hash": "8291929d6f3ede6ec025c21d1559a7fe9d30a9ce",
+   "indicates": [
+    "CVE-2023-21746"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "lpe.exe",
+   "hash": "70ad1a42ce05404c00513989c949c83a94feca92",
+   "indicates": []
+  },
+  {
+   "type": "file",
+   "value": "svchost.exe",
+   "hash": "28400c267815762e49c200e8b481a592c67f9cf7",
+   "indicates": [
+    "AccountRestore"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "sharproast.exe",
+   "hash": "d65969088eb8f6098c33c5427a650e8576cdbfa6",
+   "indicates": [
+    "SharpRoast"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "netscan.exe",
+   "hash": "eeaf29a71330db50cdd4630f8d9f1c2b6a34578c",
+   "indicates": [
+    "Softperfect Network Scanner"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "PingCastle.exe",
+   "hash": "292629c6ab33bddf123d26328025e2d157d9e8fc",
+   "indicates": [
+    "PingCastle"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "PingCastleAutoUpdater.exe",
+   "hash": "536734aa6ec0f0b1ba8e43088edc6857eca42667",
+   "indicates": [
+    "PingCastle"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "LPE-Exploit-RunAsUser.bat",
+   "hash": "e2a68116d52182f207c087f349e04e049982d431",
+   "indicates": [
+    "CVE-2021-34527"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Step1-RunAsAdmin.bat",
+   "hash": "fae6068d4433b33751bf7de866d7f2900aa15139",
+   "indicates": [
+    "CVE-2021-34527"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Step2-RunAsUser.bat",
+   "hash": "d69420a636dacfbafaf01f7153692c197e9b6400",
+   "indicates": [
+    "CVE-2021-34527"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "spn.exe",
+   "hash": "68a07540fbf58fe743636b7fc8f0370c84134eb3",
+   "indicates": [
+    "CVE-2021-34527"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "spn_nf3.exe",
+   "hash": "58cb839dbc0232874b6fed9a354d4cc6d355cbac",
+   "indicates": [
+    "CVE-2021-34527"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "spider.dll",
+   "hash": "1e0ec6994400413c7899cd5c59bdbd6397dea7b5",
+   "indicates": [
+    "CVE-2021-34527"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "spider_32.dll",
+   "hash": "35ff55bcf493e1b936dc6e978a981ee2a75543a1",
+   "indicates": [
+    "CVE-2021-34527"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "CreShar.exe",
+   "hash": "a00ebf699ea0759e7bf4af65dddd741133c38484",
+   "indicates": [
+    "CVE-2021-34527"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "MakeMeGood.bat",
+   "hash": "df12386df2c0fcf65522282914424d63da962d79",
+   "indicates": [
+    "CVE-2021-34527"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "SystemBC",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "SystemBC a été exécuté dans un intervalle de 20 minutes après Cobalt Strike depuis le même répertoire."
+  },
+  {
+   "source": "Cobalt Strike",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Cobalt Strike a été exécuté dans un intervalle de 20 minutes après SystemBC depuis le même répertoire."
+  },
+  {
+   "source": "FIN12",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "Les opérateurs du MOA FIN12 seraient responsables d’un nombre conséquent d’attaques par rançongiciel sur le territoire français."
+  },
+  {
+   "source": "FIN12",
+   "type": "targets",
+   "target": "country",
+   "evidence": "Les opérateurs du MOA FIN12 seraient responsables d’un nombre conséquent d’attaques par rançongiciel sur le territoire français."
+  },
+  {
+   "source": "FIN12",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "Le jeudi 9 mars 2023, l’ANSSI a émis un signalement concernant la compromission de l’un des serveurs du centre hospitalier universitaire (CHU) de Brest."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "malware",
+   "evidence": "Les opérateurs du MOA FIN12 seraient responsables d’un nombre conséquent d’attaques par rançongiciel sur le territoire français. Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et Nokoyawa. Ils auraient également utilisé les rançongiciels Play et Royal."
+  },
+  {
+   "source": "FIN12",
+   "type": "targets",
+   "target": "Health",
+   "evidence": "Les opérateurs de FIN12 seraient caractérisés par un intérêt pour les entreprises susceptibles de payer des rançons élevées (Big Game Hunting) ainsi que par un ciblage important du secteur de la santé."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "SystemBC",
+   "evidence": "Le 11 mars 2022, le compte Twitter @Cryptolaemus1 a identifié la distribution d’un implant SystemBC par le botnet Epoch 5."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Cobalt Strike",
+   "evidence": "L’infrastructure de commande et de contrôle SystemBC était similaire à celle employée par les attaquants impliqués dans l’incident du CHU de Brest."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Ryuk",
+   "evidence": "Les attaquants impliqués dans l’incident du CHU de Brest seraient actifs depuis au moins 2019 et auraient utilisé successivement les rançongiciels Ryuk, Conti, Hive, Nokoyawa et Play."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Conti",
+   "evidence": "Les attaquants impliqués dans l’incident du CHU de Brest seraient actifs depuis au moins 2019 et auraient utilisé successivement les rançongiciels Ryuk, Conti, Hive, Nokoyawa et Play."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Hive",
+   "evidence": "Les attaquants impliqués dans l’incident du CHU de Brest seraient actifs depuis au moins 2019 et auraient utilisé successivement les rançongiciels Ryuk, Conti, Hive, Nokoyawa et Play."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Nokoyawa",
+   "evidence": "Les attaquants impliqués dans l’incident du CHU de Brest seraient actifs depuis au moins 2019 et auraient utilisé successivement les rançongiciels Ryuk, Conti, Hive, Nokoyawa et Play."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Play",
+   "evidence": "Les attaquants impliqués dans l’incident du CHU de Brest seraient actifs depuis au moins 2019 et auraient utilisé successivement les rançongiciels Ryuk, Conti, Hive, Nokoyawa et Play."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Royal",
+   "evidence": "Les opérateurs du mode opératoire impliqué dans l’incident du CHU de Brest utiliseraient donc les rançongiciels Play et Royal."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "BazarLoader",
+   "evidence": "Les attaquants impliqués dans l’incident du CHU de Brest auraient également eu recours aux services du code malveillant BazarLoader entre 2020 et 2021."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Emotet",
+   "evidence": "Le 11 mars 2022, le compte Twitter @Cryptolaemus1 a identifié la distribution d’un implant SystemBC par le botnet Epoch 5 lié au Malware-as-a-Service (MaaS) Emotet."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "TrickBot",
+   "evidence": "MICROSOFT, les opérateurs de PISTACHE TEMPEST auraient également utilisé le code malveillant TrickBot et le MaaS GoziAT."
+  },
+  {
+   "source": "FIN12",
+   "type": "targets",
+   "target": "United States",
+   "evidence": "La campagne du rançongiciel Ryuk en 2020 contre des établissements publics de santé aux États-Unis attribuée à UNC1878."
+  },
+  {
+   "source": "FIN12",
+   "type": "originates-from",
+   "target": "Russia",
+   "evidence": "À la suite de la déclaration d’allégeance de CONTI à la Russie et des « Conti Leaks »."
+  },
+  {
+   "source": "FIN12",
+   "type": "attributed-to",
+   "target": "PISTACHE TEMPEST",
+   "evidence": "MICROSOFT suit ce mode opératoire sous la dénomination PISTACHE TEMPEST (ou DEV-0237)."
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "attributed-to",
+   "target": "FIN12",
+   "evidence": "MICROSOFT suit ce mode opératoire sous la dénomination PISTACHE TEMPEST (ou DEV-0237)."
+  },
+  {
+   "source": "FIN12",
+   "type": "targets",
+   "target": "United States",
+   "evidence": "Le ciblage des opérateurs de FIN12 se concentrait sur l’Amérique du Nord et l’Europe."
+  },
+  {
+   "source": "FIN12",
+   "type": "targets",
+   "target": "United States",
+   "evidence": "La campagne du rançongiciel Ryuk en 2020 contre des établissements publics de santé aux États-Unis attribuée à UNC1878."
+  },
+  {
+   "source": "FIN12",
+   "type": "targets",
+   "target": "United States",
+   "evidence": "La campagne du rançongiciel Ryuk en 2020 contre des établissements publics de santé aux États-Unis attribuée à UNC1878."
+  },
+  {
+   "source": "FIN12",
+   "type": "targets",
+   "target": "Finance",
+   "evidence": "FIN12\nvement leurs opérations en répartissant leurs activités au sein de multiples opérations de rançongiciel [17]."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "SystemBC",
+   "evidence": "Utilisation de VPS hébergés chez VULTR comme serveurs C2 SystemBC, et utilisation du port 4177."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Cobalt Strike",
+   "evidence": "Utilisation de l’outil Random C2 Profile Generator pour générer le profil Malle32f7e0b84b76a8f8ec0069e2188475e5"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "BazarLoader",
+   "evidence": "BazarLoader est un code malveillant identifié pour la première fois en avril 2020 et opéré par le groupe CONTI (WIZARD SPIDER)."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Play",
+   "evidence": "Au début de l’année 2023, l’utilisation par les opérateurs de PISTACHE TEMPEST du rançongiciel Play indique l’existence continue de relations entre des ex-membres de CONTI."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Royal",
+   "evidence": "ROYAL constitue notoirement un groupe de rançongiciel né de l’interruption des activités de CONTI [19, 20, 21]."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Mimikatz",
+   "evidence": "Utilisation de l’outil Mimikatz."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "SharpRoast",
+   "evidence": "Utilisation de l’outil SharpRoast."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Softperfect Network Scanner",
+   "evidence": "Utilisation de l’outil de découverte réseau Softperfect Network Scanner."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "PingCastle",
+   "evidence": "Utilisation des outils de découverte PingCastle et BloodHound."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "BloodHound",
+   "evidence": "Utilisation des outils de découverte PingCastle et BloodHound."
+  },
+  {
+   "source": "FIN12",
+   "type": "exploits",
+   "target": "CVE-2023-21746",
+   "evidence": "Tentative d’exploitation des vulnérabilités LocalPotato (CVE-2023-21746) et CVE-2022-24521."
+  },
+  {
+   "source": "FIN12",
+   "type": "exploits",
+   "target": "CVE-2022-24521",
+   "evidence": "Tentative d’exploitation des vulnérabilités LocalPotato (CVE-2023-21746) et CVE-2022-24521."
+  },
+  {
+   "source": "FIN12",
+   "type": "exploits",
+   "target": "CVE-2021-34527",
+   "evidence": "Tentative d’exploitation des vulnérabilités PrintNightmare (CVE-2021-34527), BlueKeep (CVE-2019-0708) et ZeroLogon (CVE-2020-1472)."
+  },
+  {
+   "source": "FIN12",
+   "type": "exploits",
+   "target": "CVE-2019-0708",
+   "evidence": "Tentative d’exploitation des vulnérabilités PrintNightmare (CVE-2021-34527), BlueKeep (CVE-2019-0708) et ZeroLogon (CVE-2020-1472)."
+  },
+  {
+   "source": "FIN12",
+   "type": "exploits",
+   "target": "CVE-2020-1472",
+   "evidence": "Tentative d’exploitation des vulnérabilités PrintNightmare (CVE-2021-34527), BlueKeep (CVE-2019-0708) et ZeroLogon (CVE-2020-1472)."
+  },
+  {
+   "source": "Troy",
+   "type": "attributed-to",
+   "target": "FIN12",
+   "evidence": "l’acteur « Troy » pourrait être l’un des individus responsables des opérations associées au mode opératoire FIN12."
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "targets",
+   "target": "Finance",
+   "evidence": "FIN12\nvement leurs opérations en répartissant leurs activités au sein de multiples opérations de rançongiciel [17]."
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "SystemBC",
+   "evidence": "Utilisation de VPS hébergés chez VULTR comme serveurs C2 SystemBC, et utilisation du port 4177."
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "Cobalt Strike",
+   "evidence": "Utilisation de l’outil Random C2 Profile Generator pour générer le profil Malleable C2 Cobalt Strike."
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "Play",
+   "evidence": "Au début de l’année 2023, l’utilisation par les opérateurs de PISTACHE TEMPEST du rançongiciel Play indique l’existence continue de relations entre des ex-membres de CONTI."
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "Royal",
+   "evidence": "ROYAL constitue notoirement un groupe de rançongiciel né de l’interruption des activités de CONTI [19, 20, 21]."
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "Mimikatz",
+   "evidence": "Utilisation de l’outil Mimikatz."
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "SharpRoast",
+   "evidence": "Utilisation de l’outil SharpRoast."
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "Softperfect Network Scanner",
+   "evidence": "Utilisation de l’outil de découverte réseau Softperfect Network Scanner."
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "PingCastle",
+   "evidence": "Utilisation des outils de découverte PingCastle et BloodHound."
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "BloodHound",
+   "evidence": "Utilisation des outils de découverte PingCastle et BloodHound."
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "exploits",
+   "target": "CVE-2023-21746",
+   "evidence": "Tentative d’exploitation des vulnérabilités LocalPotato (CVE-2023-21746) et CVE-2022-24521."
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "exploits",
+   "target": "CVE-2022-24521",
+   "evidence": "Tentative d’exploitation des vulnérabilités LocalPotato (CVE-2023-21746) et CVE-2022-24521."
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "exploits",
+   "target": "CVE-2021-34527",
+   "evidence": "Tentative d’exploitation des vulnérabilités PrintNightmare (CVE-2021-34527), BlueKeep (CVE-2019-0708) et ZeroLogon (CVE-2020-1472)."
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "exploits",
+   "target": "CVE-2019-0708",
+   "evidence": "Tentative d’exploitation des vulnérabilités PrintNightmare (CVE-2021-34527), BlueKeep (CVE-2019-0708) et ZeroLogon (CVE-2020-1472)."
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "exploits",
+   "target": "CVE-2020-1472",
+   "evidence": "Tentative d’exploitation des vulnérabilités PrintNightmare (CVE-2021-34527), BlueKeep (CVE-2019-0708) et ZeroLogon (CVE-2020-1472)."
+  },
+  {
+   "source": "ANSSI",
+   "type": "attributed-to",
+   "target": "FIN12",
+   "evidence": "Le recoupement des analyses de l’ANSSI avec les publications d’éditeurs permet d’effectuer la synthèse chronologique suivante :"
+  },
+  {
+   "source": "FIN12",
+   "type": "targets",
+   "target": "Healthcare services",
+   "evidence": "MANDIANT . FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Cobalt Strike",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Ryuk",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Conti",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Hive",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "BlackCat",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Play",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Royal",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryyuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "BazarLoader",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Emotet",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "TrickBot",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Troy",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Softperfect Network Scanner",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "PingCastle",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "BloodHound",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Mimikatz",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "SharpRoast",
+   "evidence": "Named earlier in the document: SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Play, Royal, FIN12, FIN12, PISTACHE TEMPEST, BazarLoader, Emotet, TrickBot, Troy, Mimikatz, SharpRoast, Softperfect Network Scanner, PingCastle, BloodHound"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "LocalPotato",
+   "evidence": "DECODER-IT . Decoder-It/LocalPotato."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Sockbot",
+   "evidence": "Ido SECURITYJOES . « Sockbot in GoLand – Linking APT Groups with Ransomware Gangs »."
+  },
+  {
+   "source": "FIN12",
+   "type": "exploits",
+   "target": "CVE-2021-34527",
+   "evidence": "SPLOITUS . Exploit for Improper Privilege Management in Microsoft CVE-2021-34527 CVE-2021-1675."
+  },
+  {
+   "source": "FIN12",
+   "type": "exploits",
+   "target": "CVE-2021-1675",
+   "evidence": "SPLOITUS . Exploit for Improper Privilege Management in Microsoft CVE-2021-34527 CVE-2021-1675."
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "qwen3:8b",
+  "seconds": 671.0,
+  "errors": "1 unparsable chunk(s)"
+ }
+}

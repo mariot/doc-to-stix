@@ -1,0 +1,1527 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "APT40",
+   "evidence": "The PRC state-sponsored cyber group has previously targeted organizations in various countries, including Australia and the United States, and the techniques highlighted below are regularly used by other PRC state-sponsored actors globally."
+  },
+  {
+   "type": "threat-actor",
+   "name": "People’s Republic of China (PRC) Ministry of State Security (MSS)",
+   "evidence": "The authoring agencies assess that this group conduct malicious cyber operations for the PRC Ministry of State Security (MSS)."
+  },
+  {
+   "type": "malware",
+   "name": "horizon.jsp",
+   "evidence": "ASD’s ACSC are sharing some of the malicious files identified during the investigations outlined below. These files have been uploaded to VirusTotal to enable the wider network defense and cyber security communities to better understand the threats they need to defend against."
+  },
+  {
+   "type": "malware",
+   "name": "Index_jsp$ProxyEndpoint$Attach.class",
+   "evidence": "ASD’s ACSC are sharing some of the malicious files identified during the investigations outlined below. These files have been uploaded to VirusTotal to enable the wider network defense and cyber security communities to better understand the threats they need to defend against."
+  },
+  {
+   "type": "malware",
+   "name": "Index_jsp.class",
+   "evidence": "ASD’s ACSC are sharing some of the malicious files identified during the investigations outlined below. These files have been uploaded to VirusTotal to enable the wider network defense and cyber security communities to better understand the threats they need to defend against."
+  },
+  {
+   "type": "malware",
+   "name": "Index_jsp.java",
+   "evidence": "ASD’s ACSC are sharing some of the malicious files identified during the investigations outlined below. These files have been uploaded to VirusTotal to enable the wider network defense and cyber security communities to better understand the threats they need to defend against."
+  },
+  {
+   "type": "malware",
+   "name": "Index_jsp$ProxyEndpoint.class",
+   "evidence": "ASD’s ACSC are sharing some of the malicious files identified during the investigations outlined below. These files have been uploaded to VirusTotal to enable the wider network defense and cyber security communities to better understand the threats they need to defend against."
+  },
+  {
+   "type": "malware",
+   "name": "Index_jsp$ProxyEndpoint$1.class",
+   "evidence": "ASD’s ACSC are sharing some of the malicious files identified during the investigations outlined below. These files have been uploaded to VirusTotal to enable the wider network defense and cyber security communities to better understand the threats they need to defend against."
+  },
+  {
+   "type": "malware",
+   "name": "Index_jsp$ProxyEndpoint$2.class",
+   "evidence": "ASD’s ACSC are sharing some of the malicious files identified during the investigations outlined below. These files have been uploaded to VirusTotal to enable the wider network defense and cyber security communities to better understand the threats they need to defend against."
+  },
+  {
+   "type": "malware",
+   "name": "Nova_jsp.class",
+   "evidence": "ASD’s ACSC are sharing some of the malicious files identified during the investigations outlined below. These files have been uploaded to VirusTotal to enable the wider network defense and cyber security communities to better understand the threats they need to defend against."
+  },
+  {
+   "type": "malware",
+   "name": "Nova_jsp$TomcatListenerMemShellFromThread.class",
+   "evidence": "ASD’s ACSC are sharing some of the malicious files identified during the investigations outlined below. These files have been uploaded to VirusTotal to enable the wider network defense and cyber security communities to better understand the threats they need to defend against."
+  },
+  {
+   "type": "malware",
+   "name": "Nova_jsp.java",
+   "evidence": "ASD’s ACSC are sharing some of the malicious files identified during the investigations outlined below. These files have been uploaded to VirusTotal to enable the wider network defense and cyber security communities to better understand the threats they need to defend against."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1505.003",
+   "evidence": "This group appears to prefer exploiting vulnerable, public-facing infrastructure over techniques that require user interaction, such as phishing campaigns, and places a high priority on obtaining valid credentials to enable a range of follow-on activities. APT40 regularly uses web shells [ T1505.003 ] for persistence."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1594",
+   "evidence": "Although APT40 has previously used compromised Australian websites as command and control (C2) hosts for its operations, the group have evolved this technique [ T1594 ]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1584.008",
+   "evidence": "APT40 has embraced the global trend of using compromised devices, including small-office/home-office (SOHO) devices, as operational infrastructure and last-hop redirectors [ T1584.008 ] for its operations in Australia."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1001.003",
+   "evidence": "Once compromised, SOHO devices offer a launching point for attacks that is designed to blend in with legitimate traffic and challenge network defenders [ T1001.003 ]."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-44228",
+   "evidence": "APT40 rapidly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021-31207 , CVE-2021-34523 , CVE-2021-34473 )."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-31207",
+   "evidence": "APT40 rapidly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021-31207 , CVE-2021-34523 , CVE-2021-34473 )."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-26084",
+   "evidence": "APT40 rapidly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021-31207 , CVE-2021-34523 , CVE-2021-34473 )."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-34523",
+   "evidence": "APT40 rapidly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021-31207 , CVE-2021-34523 , CVE-2021-34473 )."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-34473",
+   "evidence": "APT40 rapidly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021-31207 , CVE-2021-34523 , CVE-2021-34473 )."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT40",
+   "evidence": "People’s Republic of China (PRC) Ministry of State Security APT40 Tradecraft in Action"
+  },
+  {
+   "type": "threat-actor",
+   "name": "People’s Republic of China (PRC) Ministry of State Security (MSS)",
+   "evidence": "People’s Republic of China (PRC) Ministry of State Security APT40 Tradecraft in Action"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1190",
+   "evidence": "The ASD’s ACSC assesses the following techniques and tactics to be relevant to the actor’s malicious activity: ... T1190 – Exploit Public-Facing Application (regarding exploiting the custom web application)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1078.002",
+   "evidence": "The ASD’s ACSC assesses the following techniques and tactics to be relevant to the actor’s malicious activity: ... T1078.002 – Valid Accounts: Domain Accounts (regarding logging on with comprised credentials)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059",
+   "evidence": "The ASD’s ACSC assesses the following techniques and tactics to be relevant to the actor’s malicious activity: ... T1059 – Command and Scripting Interpreter (regarding command execution through the web shell)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1072",
+   "evidence": "The ASD’s ACSC assesses the following techniques and tactics to be relevant to the actor’s malicious activity: ... T1072 – Software Deployment Tools (regarding the actor using open-source tool Secure Socket Funnelling (SSF) to connect to an IP)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1505.003",
+   "evidence": "The ASD’s ACSC assesses the following techniques and tactics to be relevant to the actor’s malicious activity: ... T1505.003 – Server Software Component: Web Shell (regarding use of a web shell and SSF to establish access)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1552.001",
+   "evidence": "The ASD’s ACSC assesses the following techniques and tactics to be relevant to the actor’s malicious activity: ... T1552.001 – Credentials from Password Stores (regarding password files relating to building management system [BMS])"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1558.003",
+   "evidence": "The ASD’s ACSC assesses the following techniques and tactics to be relevant to the actor’s malicious activity: ... T1558.003 – Steal or Forge Kerberos Tickets: Kerberoasting (regarding attack to gain network credentials)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1021.002",
+   "evidence": "The ASD’s ACSC assesses the following techniques and tactics to be relevant to the actor’s malicious activity: ... T1021.002 – Remote Services: SMB Shares (regarding the actor mounting SMB shares from multiple devices)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1213",
+   "evidence": "The ASD’s ACSC assesses the following techniques and tactics to be relevant to the actor’s malicious activity: ... T1213 – Data from Information Repositories (regarding manuals/documentation found on the BMS server)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1041",
+   "evidence": "The ASD’s ACSC assesses the following techniques and tactics to be relevant to the actor’s malicious activity: ... T1041 – Exfiltration Over C2 Channel (regarding the actor’s data exfiltration from Active Directory and mounting shares)"
+  },
+  {
+   "type": "tool",
+   "name": "Secure Socket Funnelling",
+   "evidence": "The actors deploy the open-source tool Secure Socket Funnelling, which was used to connect out to the malicious infrastructure."
+  },
+  {
+   "type": "vulnerability",
+   "name": "T1190",
+   "evidence": "The ASD’s ACSC assesses the following techniques and tactics to be relevant to the actor’s malicious activity: ... T1190 – Exploit Public-Facing Application (regarding exploiting the custom web application)"
+  },
+  {
+   "type": "sector",
+   "name": "Energy",
+   "evidence": "The ASD’s ACSC believes that the two IP address connections were part of the same intrusion due to their shared interest and initial connections occurring minutes apart."
+  },
+  {
+   "type": "country",
+   "name": "People’s Republic of China",
+   "evidence": "People’s Republic of China (PRC) Ministry of State Security APT40 Tradecraft in Action"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT40",
+   "evidence": "This report details the findings of ASD’s ACSC investigation into the successful compromise of the organization’s network in April 2022. This investigation report was provided to the organization to summarize observed malicious activity and frame remediation recommendations. The findings indicate the compromise was undertaken by APT40."
+  },
+  {
+   "type": "threat-actor",
+   "name": "People’s Republic of China (PRC) Ministry of State Security (MSS)",
+   "evidence": "Named earlier in the document: APT40, People’s Republic of China (PRC) Ministry of State Security (MSS), horizon.jsp, Index_jsp$ProxyEndpoint$Attach.class, Index_jsp.class, Index_jsp.java, Index_jsp$ProxyEndpoint.class, Index_jsp$ProxyEndpoint$1.class, Index_jsp$ProxyEndpoint$2.class, Nova_jsp.class, Nova_jsp$TomcatListenerMemShellFromThread.class, Nova_jsp.java, Secure Socket Funnelling"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1213 – Data from Information Repositories",
+   "evidence": "g the actor mounting SMB shares from multiple devices)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1041 – Exfiltration Over C2 Channel",
+   "evidence": "regarding the actor’s data exfiltration from Active Directory and mounting shares)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1021.001",
+   "evidence": "Access [ T1021.001 ]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1505.001",
+   "evidence": "the scraping of an internal SQL server [ T1505.001 ]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1003",
+   "evidence": "passwords [ T1003 ]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1111",
+   "evidence": "MFA token values [ T1111 ]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1528",
+   "evidence": "JSON Web Tokens (JWTs) [ T1528 ]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1563.002",
+   "evidence": "create or hijack virtual desktop sessions [ T1563.002 ]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1078",
+   "evidence": "access the internal organization network segment as a legitimate user [ T1078 ]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "TA0008",
+   "evidence": "the group sought to move laterally in the organization’s network [ TA0008 ]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "TA0011",
+   "evidence": "unexplained traffic observed going from known malicious IP addresses through the access gateway appliances [ TA0011 ]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1070",
+   "evidence": "A log file was modified ( T1070 ) on HOST3. This file contains credential material ( T1078 ) likely captured by a malicious actor."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1505.003",
+   "evidence": "Additional web shells ( T1505.003 ) were created on HOST1 and HOST3."
+  },
+  {
+   "type": "threat-actor",
+   "name": "People’s Republic of China (PRC) Ministry of State Security",
+   "evidence": "People’s Republic of China (PRC) Ministry of State Security APT40 Tradecraft in Action"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT40",
+   "evidence": "Named earlier in the document: APT40"
+  },
+  {
+   "type": "malware",
+   "name": "horizon.jsp",
+   "evidence": "Named earlier in the document: APT40, People’s Republic of China (PRC) Ministry of State Security (MSS), horizon.jsp"
+  },
+  {
+   "type": "malware",
+   "name": "Index_jsp$ProxyEndpoint$Attach.class",
+   "evidence": "Named earlier in the document: APT40, People’s Republic of China (PRC) Ministry of State Security (MSS), horizon.jsp, Index_jsp$ProxyEndpoint$Attach.class"
+  },
+  {
+   "type": "malware",
+   "name": "Index_jsp.class",
+   "evidence": "Named earlier in the document: APT40, People’s Republic of China (PRC) Ministry of State Security (MSS), horizon.jsp, Index_jsp$ProxyEndpoint$Attach.class, Index_jsp.class"
+  },
+  {
+   "type": "malware",
+   "name": "Index_jsp.java",
+   "evidence": "Named earlier in the document: APT40, People’s Republic of China (PRC) Ministry of State Security (MSS), horizon.jsp, Index_jsp$ProxyEndpoint$Attach.class, Index_jsp.class, Index_jsp.java"
+  },
+  {
+   "type": "malware",
+   "name": "Index_jsp$ProxyEndpoint.class",
+   "evidence": "Named earlier in the document: APT40, People’s Republic of China (PRC) Ministry of State Security (MSS), horizon.jsp, Index_jsp$ProxyEndpoint$Attach.class, Index_jsp.class, Index_jsp.java, Index_jsp$ProxyEndpoint.class"
+  },
+  {
+   "type": "malware",
+   "name": "Index_jsp$ProxyEndpoint$1.class",
+   "evidence": "Named earlier in the document: APT40, People’s Republic of China (PRC) Ministry of State Security (MSS), horizon.jsp, Index_jsp$ProxyEndpoint$Attach.class, Index_jsp.class, Index_jsp.java, Index_jsp$ProxyEndpoint.class, Index_jsp$ProxyEndpoint$1.class"
+  },
+  {
+   "type": "malware",
+   "name": "Index_jsp$ProxyEndpoint$2.class",
+   "evidence": "Named earlier in the document: APT40, People’s Republic of China (PRC) Ministry of State Security (MSS), horizon.jsp, Index_jsp$ProxyEndpoint$Attach.class, Index_jsp.class, Index_jsp.java, Index_jsp$ProxyEndpoint.class, Index_jsp$ProxyEndpoint$1.class, Index_jsp$ProxyEndpoint$2.class"
+  },
+  {
+   "type": "malware",
+   "name": "Nova_jsp.class",
+   "evidence": "Named earlier in the document: APT40, People’s Republic of China (PRC) Ministry of State Security (MSS), horizon.jsp, Index_jsp$ProxyEndpoint$Attach.class, Index_jsp.class, Index_jsp.java, Index_jsp$ProxyEndpoint.class, Index_jsp$ProxyEndpoint$1.class, Index_jsp$ProxyEndpoint$2.class, Nova_jsp.class"
+  },
+  {
+   "type": "malware",
+   "name": "Nova_jsp$TomcatListenerMemShellFromThread.class",
+   "evidence": "Named earlier in the document: APT40, People’s Republic of China (PRC) Ministry of State Security (MSS), horizon.jsp, Index_jsp$ProxyEndpoint$Attach.class, Index_jsp.class, Index_jsp.java, Index_jsp$ProxyEndpoint.class, Index_jsp$ProxyEndpoint$1.class, Index_jsp$ProxyEndpoint$2.class, Nova_jsp.class, Nova_jsp$TomcatListenerMemShellFromThread.class"
+  },
+  {
+   "type": "malware",
+   "name": "Nova_jsp.java",
+   "evidence": "Named earlier in the document: APT40, People’s Republic of China (PRC) Ministry of State Security (MSS), horizon.jsp, Index_jsp$ProxyEndpoint$Attach.class, Index_jsp.class, Index_jsp.java, Index_jsp$ProxyEndpoint.class, Index_jsp$ProxyEndpoint$1.class, Index_jsp$ProxyEndpoint$2.class, Nova_jsp.class, Nova_jsp$TomcatListenerMemShellFromThread.class, Nova_jsp.java"
+  },
+  {
+   "type": "tool",
+   "name": "Secure Socket Funnelling",
+   "evidence": "Named earlier in the document: APT40, People’s Republic of China (PRC) Ministry of State Security (MSS), horizon.jsp, Index_jsp$ProxyEndpoint$Attach.class, Index_jsp.class, Index_jsp.java, Index_jsp$ProxyEndpoint.class, Index_jsp$ProxyEndpoint$1.class, Index_jsp$ProxyEndpoint$2.class, Nova_jsp.class, Nova_jsp$TomcatListenerMemShellFromThread.class, Nova_jsp.java, Secure Socket Funnelling"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT40",
+   "evidence": "People’s Republic of China (PRC) Ministry of State Security APT40 Tradecraft in Action"
+  },
+  {
+   "type": "threat-actor",
+   "name": "People’s Republic of China (PRC) Ministry of State Security (MSS)",
+   "evidence": "People’s Republic of China (PRC) Ministry of State Security APT40 Tradecraft in Action"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation of Public-Facing Application",
+   "evidence": "T1190",
+   "mitre_id": "T1190"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter",
+   "evidence": "T1059",
+   "mitre_id": "T1059"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Shell",
+   "evidence": "T1505.003",
+   "mitre_id": "T1505.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "evidence": "T1078",
+   "mitre_id": "T1078"
+  },
+  {
+   "type": "vulnerability",
+   "name": "T1190",
+   "evidence": "Exploitation of Public-Facing Application"
+  },
+  {
+   "type": "sector",
+   "name": "Government and administrations",
+   "evidence": "People’s Republic of China (PRC) Ministry of State Security"
+  },
+  {
+   "type": "country",
+   "name": "People’s Republic of China",
+   "evidence": "People’s Republic of China (PRC) Ministry of State Security"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT40",
+   "evidence": "People’s Republic of China (PRC) Ministry of State Security APT40 Tradecraft in Action"
+  },
+  {
+   "type": "threat-actor",
+   "name": "People’s Republic of China (PRC) Ministry of State Security",
+   "evidence": "People’s Republic of China (PRC) Ministry of State Security APT40 Tradecraft in Action"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Process Injection: Thread Execution Hijacking",
+   "evidence": "ks [T1497.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Process Injection: Process Hollowing",
+   "evidence": "Process Injection: Process Hollowing [T1055.012]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Impair Defences: Disable or Modify System Firewall",
+   "evidence": "Impair Defences: Disable or Modify System Firewall [T1562.004]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credential Access (TA0006)",
+   "evidence": "Credential Access (TA0006)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Discovery (TA0007)",
+   "evidence": "Discovery (TA0007)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Lateral Movement (TA0008)",
+   "evidence": "Lateral Movement (TA0008)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Collection (TA0009)",
+   "evidence": "Collection (TA0009)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration (TA0010)",
+   "evidence": "Exfiltration (TA0010)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Control (TA0011)",
+   "evidence": "Command and Control (TA0011)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Impact (TA0040)",
+   "evidence": "Impact (TA0040)"
+  },
+  {
+   "type": "country",
+   "name": "China",
+   "evidence": "Nation-State Actor : China"
+  }
+ ],
+ "observables": [
+  {
+   "type": "file",
+   "value": "horizon.jsp",
+   "hash": "26a5a7e71a601be991073c78d513dee3",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Index_jsp$ProxyEndpoint$Attach.class",
+   "hash": "87c88f06a7464db2534bc78ec2b915de",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Index_jsp.class",
+   "hash": "6a9bc68c9bc5cefaf1880ae6ffb1d0ca",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Index_jsp.java",
+   "hash": "64454645a9a21510226ab29e01e76d39",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Index_jsp$ProxyEndpoint.class",
+   "hash": "e2175f91ce3da2e8d46b0639e941e13f",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Index_jsp$ProxyEndpoint$1.class",
+   "hash": "9f89f069466b8b5c9bf25c9374a4daf8",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Index_jsp$ProxyEndpoint$2.class",
+   "hash": "187d6f2ed2c80f805461d9119a5878ac",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Nova_jsp.class",
+   "hash": "ed7178cec90ed21644e669378b3a97ec",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Nova_jsp$TomcatListenerMemShellFromThread.class",
+   "hash": "5bf7560d0a638e34035f85cd3788e258",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Nova_jsp.java",
+   "hash": "e02be0dc614523ddd7a28c9e9d500cff",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "<webapp>2-ext",
+   "indicates": [
+    "attack-pattern",
+    "vulnerability"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "<webapp>2 -ext",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "<firstname.surname> @ <organisation domain>",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "HOST1",
+   "indicates": [
+    "appliance infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "HOST2",
+   "indicates": [
+    "appliance infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "HOST3",
+   "indicates": [
+    "appliance infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "HOST7",
+   "indicates": [
+    "access gateway host"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "known malicious IP addresses",
+   "indicates": [
+    "compromised appliance",
+    "access gateway host"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "APT40",
+   "type": "targets",
+   "target": "Australia",
+   "evidence": "APT40 has repeatedly targeted Australian networks as well as government and private sector networks in the region, and the threat they pose to our networks is ongoing."
+  },
+  {
+   "source": "APT40",
+   "type": "targets",
+   "target": "United States",
+   "evidence": "The PRC state-sponsored cyber group has previously targeted organizations in various countries, including Australia and the United States."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "This group appears to prefer exploiting vulnerable, public-facing infrastructure over techniques that require user interaction, such as phishing campaigns, and places a high priority on obtaining valid credentials to enable a range of follow-on activities. APT40 regularly uses web shells [ T1505.003 ] for persistence."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1594",
+   "evidence": "Although APT40 has previously used compromised Australian websites as command and control (C2) hosts for its operations, the group have evolved this technique [ T1594 ]."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1584.008",
+   "evidence": "APT40 has embraced the global trend of using compromised devices, including small-office/home-office (SOHO) devices, as operational infrastructure and last-hop redirectors [ T1584.008 ] for its operations in Australia."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1001.003",
+   "evidence": "Once compromised, SOHO devices offer a launching point for attacks that is designed to blend in with legitimate traffic and challenge network defenders [ T1001.003 ]."
+  },
+  {
+   "source": "APT40",
+   "type": "exploits",
+   "target": "CVE-2021-44228",
+   "evidence": "APT40 rapidly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021-31207 , CVE-2021-34523 , CVE-2021-34473 )."
+  },
+  {
+   "source": "APT40",
+   "type": "exploits",
+   "target": "CVE-2021-31207",
+   "evidence": "APT40 rapidly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021-31207 , CVE-2021-34523 , CVE-2021-34473 )."
+  },
+  {
+   "source": "APT40",
+   "type": "exploits",
+   "target": "CVE-2021-26084",
+   "evidence": "APT40 rapidly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021-31207 , CVE-2021-34523 , CVE-2021-34473 )."
+  },
+  {
+   "source": "APT40",
+   "type": "exploits",
+   "target": "CVE-2021-34523",
+   "evidence": "APT40 rapidly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021-31207 , CVE-2021-34523 , CVE-2021-34473 )."
+  },
+  {
+   "source": "APT40",
+   "type": "exploits",
+   "target": "CVE-2021-34473",
+   "evidence": "APT40 rapidly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021-31207 , CVE-2021-34523 , CVE-2021-34473 )."
+  },
+  {
+   "source": "People’s Republic of China (PRC) Ministry of State Security (MSS)",
+   "type": "originates-from",
+   "target": "People’s Republic of China",
+   "evidence": "The authoring agencies assess that this group conduct malicious cyber operations for the PRC Ministry of State Security (MSS)."
+  },
+  {
+   "source": "APT40",
+   "type": "attributed-to",
+   "target": "People’s Republic of China (PRC) Ministry of State Security (MSS)",
+   "evidence": "The authoring agencies assess that this group conduct malicious cyber operations for the PRC Ministry of State Security (MSS)."
+  },
+  {
+   "source": "APT40",
+   "type": "targets",
+   "target": "Energy",
+   "evidence": "The ASD’s ACSC believes that the two IP address connections were part of the same intrusion due to their shared interest and initial connections occurring minutes apart."
+  },
+  {
+   "source": "APT40",
+   "type": "originates-from",
+   "target": "People’s Republic of China",
+   "evidence": "People’s Republic of China (PRC) Ministry of State Security APT40 Tradecraft in Action"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "The ASD’s ACSC assesses the following techniques and tactics to be relevant to the actor’s malicious activity: ... T1190 – Exploit Public-Facing Application (regarding exploiting the custom web application)"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1078.002",
+   "evidence": "The ASD’s ACSC assesses the following techniques and tactics to be relevant to the actor’s malicious activity: ... T1078.002 – Valid Accounts: Domain Accounts (regarding logging on with comprised credentials)"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1059",
+   "evidence": "The ASD’s ACSC assesses the following techniques and tactics to be relevant to the actor’s malicious activity: ... T1059 – Command and Scripting Interpreter (regarding command execution through the web shell)"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1072",
+   "evidence": "The ASD’s ACSC assesses the following techniques and tactics to be relevant to the actor’s malicious activity: ... T1072 – Software Deployment Tools (regarding the actor using open-source tool Secure Socket Funnelling (SSF) to connect to an IP)"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "The ASD’s ACSC assesses the following techniques and tactics to be relevant to the actor’s malicious activity: ... T1505.003 – Server Software Component: Web Shell (regarding use of a web shell and SSF to establish access)"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1552.001",
+   "evidence": "The ASD’s ACSC assesses the following techniques and tactics to be relevant to the actor’s malicious activity: ... T1552.001 – Credentials from Password Stores (regarding password files relating to building management system [BMS])"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1558.003",
+   "evidence": "The ASD’s ACSC assesses the following techniques and tactics to be relevant to the actor’s malicious activity: ... T1558.003 – Steal or Forge Kerberos Tickets: Kerberoasting (regarding attack to gain network credentials)"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1021.002",
+   "evidence": "The ASD’s ACSC assesses the following techniques and tactics to be relevant to the actor’s malicious activity: ... T1021.002 – Remote Services: SMB Shares (regarding the actor mounting SMB shares from multiple devices)"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1213",
+   "evidence": "The ASD’s ACSC assesses the following techniques and tactics to be relevant to the actor’s malicious activity: ... T1213 – Data from Information Repositories (regarding manuals/documentation found on the BMS server)"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1041",
+   "evidence": "The ASD’s ACSC assesses the following techniques and tactics to be relevant to the actor’s malicious activity: ... T1041 – Exfiltration Over C2 Channel (regarding the actor’s data exfiltration from Active Directory and mounting shares)"
+  },
+  {
+   "source": "Secure Socket Funnelling",
+   "type": "uses",
+   "target": "T1072",
+   "evidence": "The actors deploy the open-source tool Secure Socket Funnelling, which was used to connect out to the malicious infrastructure."
+  },
+  {
+   "source": "APT40",
+   "type": "targets",
+   "target": "organization",
+   "evidence": "This report details the findings of ASD’s ACSC investigation into the successful compromise of the organization’s network in April 2022."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1213 – Data from Information Repositories",
+   "evidence": "g the actor mounting SMB shares from multiple devices)"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1041 – Exfiltration Over C2 Channel",
+   "evidence": "regarding the actor’s data exfiltration from Active Directory and mounting shares)"
+  },
+  {
+   "source": "APT40",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "The ASD’s ACSC assesses that the actor may have collected these technical artefacts to hijack or create a remote login session as a legitimate user, and access the organization’s internal corporate network using a legitimate user account."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1021.001",
+   "evidence": "Access [ T1021.001 ]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1505.001",
+   "evidence": "the scraping of an internal SQL server [ T1505.001 ]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1003",
+   "evidence": "passwords [ T1003 ]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1111",
+   "evidence": "MFA token values [ T1111 ]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1528",
+   "evidence": "JSON Web Tokens (JWTs) [ T1528 ]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1563.002",
+   "evidence": "create or hijack virtual desktop sessions [ T1563.002 ]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1078",
+   "evidence": "access the internal organization network segment as a legitimate user [ T1078 ]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "TA0008",
+   "evidence": "the group sought to move laterally in the organization’s network [ TA0008 ]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "TA0011",
+   "evidence": "unexplained traffic observed going from known malicious IP addresses through the access gateway appliances [ TA0011 ]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1070",
+   "evidence": "A log file was modified ( T1070 ) on HOST3. This file contains credential material ( T1078 ) likely captured by a malicious actor."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "Additional web shells ( T1505.003 ) were created on HOST1 and HOST3."
+  },
+  {
+   "source": "APT40",
+   "type": "targets",
+   "target": "country",
+   "evidence": "Named earlier in the document: APT40, People’s Republic of China (PRC) Ministry of State Security (MSS), horizon.jsp, Index_jsp$ProxyEndpoint$Attach.class, Index_jsp.class, Index_jsp.java, Index_jsp$ProxyEndpoint.class, Index_jsp$ProxyEndpoint$1.class, Index_jsp$ProxyEndpoint$2.class, Nova_jsp.class, Nova_jsp$TomcatListenerMemShellFromThread.class, Nova_jsp.java, Secure Socket Funnelling"
+  },
+  {
+   "source": "APT40",
+   "type": "targets",
+   "target": "organization",
+   "evidence": "The ASD’s ACSC assesses that the actor may have collected these technical artefacts to hijack or create a remote login session as a legitimate user, and access the organization’s internal corporate network using a legitimate user account."
+  },
+  {
+   "source": "APT40",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "The ASD’s ACSC assesses that the actor may have collected these technical artefacts to hijack or create a remote login session as a legitimate user, and access the organization’s internal corporate network using a legitimate user account."
+  },
+  {
+   "source": "APT40",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "People’s Republic of China (PRC) Ministry of State Security APT40 Tradecraft in Action"
+  },
+  {
+   "source": "APT40",
+   "type": "targets",
+   "target": "country",
+   "evidence": "People’s Republic of China (PRC) Ministry of State Security APT40 Tradecraft in Action"
+  },
+  {
+   "source": "People’s Republic of China (PRC) Ministry of State Security",
+   "type": "originates-from",
+   "target": "country",
+   "evidence": "People’s Republic of China (PRC) Ministry of State Security APT40 Tradecraft in Action"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "malware",
+   "evidence": "Named earlier in the document: APT40, People’s Republic of China (PRC) Ministry of State Security (MSS), horizon.jsp, Index_jsp$ProxyEndpoint$Attach.class, Index_jsp.class, Index_jsp.java, Index_jsp$ProxyEndpoint.class, Index_jsp$ProxyEndpoint$1.class, Index_jsp$ProxyEndpoint$2.class, Nova_jsp.class, Nova_jsp$TomcatListenerMemShellFromThread.class, Nova_jsp.java, Secure Socket Funnelling"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "tool",
+   "evidence": "Named earlier in the document: APT40, People’s Republic of China (PRC) Ministry of State Security (MSS), horizon.jsp, Index_jsp$ProxyEndpoint$Attach.class, Index_jsp.class, Index_jsp.java, Index_jsp$ProxyEndpoint.class, Index_jsp$ProxyEndpoint$1.class, Index_jsp$ProxyEndpoint$2.class, Nova_jsp.class, Nova_jsp$TomcatListenerMemShellFromThread.class, Nova_jsp.java, Secure Socket Funnelling"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "Exploitation of Public-Facing Application"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1059",
+   "evidence": "Command and Scripting Interpreter"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "Server Software Component: Web Shell"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1078",
+   "evidence": "Valid Accounts"
+  },
+  {
+   "source": "APT40",
+   "type": "targets",
+   "target": "Government and administrations",
+   "evidence": "People’s Republic of China (PRC) Ministry of State Security"
+  },
+  {
+   "source": "APT40",
+   "type": "originates-from",
+   "target": "People’s Republic of China",
+   "evidence": "People’s Republic of China (PRC) Ministry of State Security"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "ks [T1497.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Process Injection: Thread Execution Hijacking [T1055.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Reflective Code Loading [T1620]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Impair Defences: Disable or Modify System Firewall [T1562.004]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Process Injection: Process Hollowing [T1055.012]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Hide Artifacts: Hidden Files and Directories [T1564.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Indicator Removal: File Deletion [T1070.004]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Hide Artifacts: Hidden Window [T1564.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Indicator Removal: Timestomp [T1070.006]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Hijack Execution Flow: DLL Search Order Hijacking [T1574.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Indicator Removal: Clear Windows Event Logs [T1070.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Hijack Execution Flow: DLL Side-Loading [T1574.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Modify Registry [T1112]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Web Service [T1102]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Deobfuscate/Decode Files or Information [T1140]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Masquerading: Masquerade Task or Service [T1036.004]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Impair Defenses [T1562]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "OS Credential Dumping: LSASS Memory [T1003.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Unsecured Credentials: Credentials in Files [T1552.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "OS Credential Dumping: NTDS [T1003.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Brute Force: Password Guessing [T1110.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Network Sniffing [T1040]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Forced Authentication [T1187]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Credentials from Password Stores: Keychain [T1555.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Steal or Forge Kerberos Tickets: Kerberoasting [T1558.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Input Capture: Keylogging [T1056.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Multi-Factor Authentication Interception [T1111]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Steal Web Session Cookie [T1539]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Steal Application Access Token [T1528]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Exploitation for Credential Access [T1212]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Brute Force: Password Cracking [T1110.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Input Capture: Web Portal Capture [T1056.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "OS Credential Dumping: DCSync [T1003.006]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Credentials from Password Stores [T1555]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Credentials from Password Stores: Credentials from Web Browsers [T1555.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "System Service Discovery [T1007]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "System Information Discovery [T1082]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Application Window Discovery [T1010]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Account Discovery: Local Account [T1087.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Query Registry [T1012]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "System Information Discovery, Technique T1082 - Enterprise | MITRE ATT&CK®"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "File and Directory Discovery [T1083]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "System Time Discovery [T1124]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Network Service Discovery [T1046]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "System Owner/User Discovery [T1033]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Remote System Discovery [T1018]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Domain Trust Discovery [T1482]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Account Discovery: Email Account [T1087.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Account Discovery: Domain Account [T1087.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "System Network Connections Discovery [T1049]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Virtualisation/Sandbox Evasion: System Checks [T1497.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Process Discovery [T1057]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Software Discovery [T1518]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Permission Groups Discovery: Domain Groups [T1069.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Network Share Discovery, Technique T1135 - Enterprise | MITRE ATT&CK®"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "System Network Configuration Discovery: Internet Connection Discovery [T1016.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Remote Services: Remote Desktop Protocol [T1021.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Remote Services [T1021]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Remote Services: SMB/Windows Admin Shares [T1021.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Use Alternate Authentication Material: Pass the Ticket [T1550.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Remote Services: Windows Remote Management [T1021.006]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Lateral Tool Transfer [T1570]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Data from Local System [T1005]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Archive Collected Data: Archive via Library [T1560.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Data from Network Shared Drive [T1039]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Email Collection: Remote Email Collection [T1114.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Input Capture: Keylogging [T1056.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Clipboard Data [T1115]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Automated Collection [T1119]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Data from Information Repositories [T1213]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Input Capture: Web Portal Capture [T1056.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Data Staged: Remote Data Staging [T1074.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Data Staged: Local Data Staging [T1074.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Archive Collected Data [T1560]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Email Collection [T1114]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Exfiltration Over C2 Channel [T1041]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Exfiltration Over Alternative Protocol: Exfiltration Over Asymmetric Encrypted Non-C2 Protocol [T1048.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Exfiltration Over Alternative Protocol [T1048]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Exfiltration Over Web Service: Exfiltration to Cloud Storage [T1567.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Data Obfuscation: Protocol Impersonation [T1001.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Web Service: Dead Drop Resolver [T1102.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Commonly Used Port [T1043]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Web Service: One-way Communication [T1102.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Application Layer Protocol: Web Protocols [T1071.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Ingress Tool Transfer [T1105]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Application Layer Protocol: File Transfer Protocols [T1071.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Proxy: Internal Proxy [T1090.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Proxy: External Proxy [T1090.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Non-Standard Port [T1571]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Proxy: Multi-hop Proxy [T1090.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Protocol Tunnelling [T1572]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Web Service: Bidirectional Communication [T1102.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Encrypted Channel [T1573]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Encrypted Channel: Asymmetric Cryptography [T1573.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Ingress Tool Transfer [T1105]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Proxy, Technique T1090 - Enterprise | MITRE ATT&CK®"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Service Stop [T1489]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Disk Wipe [T1561]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "System Shutdown/Reboot [T1529]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Resource Hijacking [T1496]"
+  },
+  {
+   "source": "People’s Republic of China (PRC) Ministry of State Security",
+   "type": "originates-from",
+   "target": "China",
+   "evidence": "Nation-State Actor : China"
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "qwen3:8b",
+  "seconds": 1323.1,
+  "errors": "1 unparsable chunk(s)"
+ }
+}

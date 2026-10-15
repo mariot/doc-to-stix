@@ -1,0 +1,1599 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "Russian Foreign Intelligence Service (SVR)",
+   "evidence": "Russian Foreign Intelligence Service (SVR) cyber actors—also known as Advanced Persistent Threat 29 (APT 29), the Dukes, CozyBear, and NOBELIUM/Midnight Blizzard—are exploiting CVE-2023-42793"
+  },
+  {
+   "type": "threat-actor",
+   "name": "Russian Foreign Intelligence Service (SVR)",
+   "evidence": "Russian Foreign Intelligence Service (SVR) cyber actors—also known as Advanced Persistent Threat 29 (APT 29), the Dukes, CozyBear, and NOBELIUM/Midnight Blizzard—are exploiting CVE-2023-42793"
+  },
+  {
+   "type": "campaign",
+   "name": "Diplomatic Orbiter",
+   "evidence": "The SVR’s use of spear phishing operations are visible today in its ongoing Diplomatic Orbiter campaign, primarily targeting diplomatic agencies."
+  },
+  {
+   "type": "malware",
+   "name": "WellMess",
+   "evidence": "the SVR’s deployment of custom malware known as WellMess, WellMail, and Sorefang to target organizations involved in COVID-19 vaccine development."
+  },
+  {
+   "type": "malware",
+   "name": "WellMail",
+   "evidence": "the SVR’s deployment of custom malware known as WellMess, WellMail, and Sorefang to target organizations involved in COVID-19 vaccine development."
+  },
+  {
+   "type": "malware",
+   "name": "Sorefang",
+   "evidence": "the SVR’s deployment of custom malware known as WellMess, WellMail, and Sorefang to target organizations involved in COVID-19 vaccine development."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-42793",
+   "evidence": "Russian Foreign Intelligence Service (SVR) cyber actors—also known as Advanced Persistent Threat 29 (APT 29), the Dukes, CozyBear, and NOBELIUM/Midnight Blizzard—are exploiting CVE-2023-42793"
+  },
+  {
+   "type": "sector",
+   "name": "Energy",
+   "evidence": "the SVR’s WellMess campaign also targeted energy companies."
+  },
+  {
+   "type": "sector",
+   "name": "Health",
+   "evidence": "the SVR’s deployment of custom malware known as WellMess, WellMail, and Sorefang to target organizations involved in COVID-19 vaccine development."
+  },
+  {
+   "type": "country",
+   "name": "Russia",
+   "evidence": "Russian Foreign Intelligence Service (SVR)"
+  },
+  {
+   "type": "organization",
+   "name": "SolarWinds",
+   "evidence": "the SVR used such access to compromise SolarWinds and its customers in 2020"
+  },
+  {
+   "type": "organization",
+   "name": "U.S. Federal Bureau of Investigation (FBI)",
+   "evidence": "The U.S. Federal Bureau of Investigation (FBI), U.S. Cybersecurity & Infrastructure Security Agency (CISA), U.S. National Security Agency (NSA), Polish Military Counterintelligence Service (SKW), CERT Polska (CERT.PL), and the UK’s National Cyber Security Centre (NCSC) assess Russian Foreign Intelligence Service (SVR) cyber actors"
+  },
+  {
+   "type": "organization",
+   "name": "U.S. Cybersecurity & Infrastructure Security Agency (CISA)",
+   "evidence": "The U.S. Federal Bureau of Investigation (FBI), U.S. Cybersecurity & Infrastructure Security Agency (CISA), U.S. National Security Agency (NSA), Polish Military Counterintelligence Service (SKW), CERT Polska (CERT.PL), and the UK’s National Cyber Security Centre (NCSC) assess Russian Foreign Intelligence Service (SVR) cyber actors"
+  },
+  {
+   "type": "organization",
+   "name": "U.S. National Security Agency (NSA)",
+   "evidence": "The U.S. Federal Bureau of Investigation (FBI), U.S. Cybersecurity & Infrastructure Security Agency (CISA), U.S. National Security Agency (NSA), Polish Military Counterintelligence Service (SKW), CERT Polska (CERT.PL), and the UK’s National Cyber Security Centre (NCSC) assess Russian Foreign Intelligence Service (SVR) cyber actors"
+  },
+  {
+   "type": "organization",
+   "name": "Polish Military Counterintelligence Service (SKW)",
+   "evidence": "The U.S. Federal Bureau of Investigation (FBI), U.S. Cybersecurity & Infrastructure Security Agency (CISA), U.S. National Security Agency (NSA), Polish Military Counterintelligence Service (SKW), CERT Polska (CERT.PL), and the UK’s National Cyber Security Centre (NCSC) assess Russian Foreign Intelligence Service (SVR) cyber actors"
+  },
+  {
+   "type": "organization",
+   "name": "CERT Polska (CERT.PL)",
+   "evidence": "The U.S. Federal Bureau of Investigation (FBI), U.S. Cybersecurity & Infrastructure Security Agency (CISA), U.S. National Security Agency (NSA), Polish Military Counterintelligence Service (SKW), CERT Polska (CERT.PL), and the UK’s National Cyber Security Centre (NCSC) assess Russian Foreign Intelligence Service (SVR) cyber actors"
+  },
+  {
+   "type": "organization",
+   "name": "UK’s National Cyber Security Centre (NCSC)",
+   "evidence": "The U.S. Federal Bureau of Investigation (FBI), U.S. Cybersecurity & Infrastructure Security Agency (CISA), U.S. National Security Agency (NSA), Polish Military Counterintelligence Service (SKW), CERT Polska (CERT.PL), and the UK’s National Cyber Security Centre (NCSC) assess Russian Foreign Intelligence Service (SVR) cyber actors"
+  },
+  {
+   "type": "organization",
+   "name": "U.S. Government",
+   "evidence": "In April 2021, the U.S. Government attributed a supply chain operation targeting the SolarWinds information technology company and its customers to the SVR."
+  },
+  {
+   "type": "organization",
+   "name": "U.K. Government",
+   "evidence": "Following this attribution, the U.S. and U.K. Governments published advisories highlighting additional SVR TTPs"
+  },
+  {
+   "type": "organization",
+   "name": "Canadian Government",
+   "evidence": "In July 2020, U.S., U.K., and Canadian Governments jointly published an advisory revealing the SVR’s exploitation of CVEs to gain initial access to networks"
+  },
+  {
+   "type": "threat-actor",
+   "name": "Russian Foreign Intelligence Service (SVR)",
+   "evidence": "Russian Foreign Intelligence Service (SVR), Diplomatic Orbiter, WellMess, WellMail, Sorefang"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-42793",
+   "evidence": "the SVR demonstrably continues its practice of targeting technology companies. By choosing to exploit CVE-2023-42793"
+  },
+  {
+   "type": "malware",
+   "name": "EDRSandBlast",
+   "evidence": "the SVR used an open source project called “EDRSandBlast.”"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1190",
+   "evidence": "The SVR started to exploit Internet-connected JetBrains TeamCity servers [T1190]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1203",
+   "evidence": "The authoring agencies’ observations show that the TeamCity exploitation usually resulted in code execution [T1203]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1033",
+   "evidence": "SVR used the following basic, built-in commands to perform host reconnaissance [T1033]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.003",
+   "evidence": "SVR used the following basic, built-in commands to perform host reconnaissance [T1059.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1592.002",
+   "evidence": "SVR used the following basic, built-in commands to perform host reconnaissance [T1592.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1041",
+   "evidence": "the SVR exfiltrating files [T1041]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1068",
+   "evidence": "To avoid detection, the SVR used a “Bring Your Own Vulnerable Driver” [T1068] technique"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1562.001",
+   "evidence": "To avoid detection, the SVR used a “Bring Your Own Vulnerable Driver” [T1068] technique to disable or outright kill endpoint detection and response (EDR) and antivirus (AV) software [T1562.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1003.001",
+   "evidence": "executables that are likely to be detected (i.e. Mimikatz) were executed in memory [T1003.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1564",
+   "evidence": "data exchanged with malware via OneDrive and Dropbox were hidden inside randomly generated BMP files [T1564]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1098",
+   "evidence": "To facilitate privilege escalation [T1098], the SVR used multiple techniques"
+  },
+  {
+   "type": "threat-actor",
+   "name": "Russian Foreign Intelligence Service (SVR)",
+   "evidence": "SVR devised a covert C2 channel that used Microsoft OneDrive and Dropbox cloud services."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1564",
+   "evidence": "data exchanged with malware via OneDrive and Dropbox were hidden inside randomly generated BMP files [T1564]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1098",
+   "evidence": "To facilitate privilege escalation [T1098], the SVR used multiple techniques, including WinPEAS, NoLMHash registry key modification, and the Mimikatz tool."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1003",
+   "evidence": "The SVR used the following Mimikatz commands [T1003]: privilege::debug, lsadump::cache, lsadump::secrets, lsadump::sam, sekurlsa::logonpasswords."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1053.005",
+   "evidence": "The SVR relied on scheduled tasks [T1053.005] to secure persistent execution of backdoors."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1558.001",
+   "evidence": "The SVR used the Rubeus toolkit to craft Ticket Granting Tickets (TGTs) [T1558.001]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1020",
+   "evidence": "The SVR exfiltrated the following Windows Registry hives from its victims [T1020]: HKLM\\SYSTEM, HKLM\\SAM, HKLM\\SECURITY."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1003.002",
+   "evidence": "In order to exfiltrate Windows Registry, the SVR saved hives into files [T1003.002], packed them, and then exfiltrated them using a backdoor capability."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1590.004",
+   "evidence": "After the SVR built a secure foothold and gained an awareness of a victim’s TeamCity server, it then focused on network reconnaissance [T1590.004]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1572",
+   "evidence": "In selected environments the SVR used an additional tool named, “rr.exe”—a modified open source reverse socks tunneler named Rsockstun—to establish a tunnel to the C2 infrastructure [T1572]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1047",
+   "evidence": "The SVR executed Rsockstun either in memory or using the Windows Management Instrumentation Command Line (WMIC) [T1047] utility after dropping it to disk."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1046",
+   "evidence": "The SVR executed the following PowerSploit commands: Get-NetComputer, Get-NetGroup, Get-NetUser -UACFilter NOT_ACCOUNTDISABLE | select samaccountname, description, pwdlastset, logoncount, badpwdcount, Get-NetDiDomain, Get-AdUser, Get-DomainUser -UserName, Get-NetUser -PreauthNotRequire, Get-NetComputer | select samaccountname, Get-NetUser -SPN | select serviceprincipalname."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1210",
+   "evidence": "The SVR used WMIC to facilitate lateral movement [T1047],[T1210]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.001",
+   "evidence": "SVR cyber actors used powershell commands to compress Microsoft SQL server .dll files."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.003",
+   "evidence": "SVR cyber actors execute these powershell commands to perform host reconnaissance: powershell ([adsisearcher]\"((samaccountn ame=<redacted>))\").Findall().Properties, powershell ([adsisearcher]\"((samaccountn ame=<redacted>))\").Findall().Properties.memberof, powershell Get-WmiObject -Class Win32_Service -Computername, powershell Get-WindowsDriver -Online -All."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1203",
+   "evidence": "SVR cyber actors leverage arbitrary code execution after exploiting CVE-2023-42793."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-42793",
+   "evidence": "Exploit Public-Facing Application T1190 SVR cyber actors exploit internet-connected JetBrains TeamCity server using CVE-2023-42793 for initial access."
+  },
+  {
+   "type": "threat-actor",
+   "name": "Russian Foreign Intelligence Service (SVR)",
+   "evidence": "Russian Foreign Intelligence Service (SVR) Exploiting JetBrains TeamCity CVE Globally"
+  },
+  {
+   "type": "malware",
+   "name": "GraphicalProton",
+   "evidence": "SVR cyber actors use a variant of GraphicalProton that uses DLL hijacking in Zabbix as a means to start execution."
+  },
+  {
+   "type": "malware",
+   "name": "Mimikatz",
+   "evidence": "SVR cyber actors executed Mimikatz commands in memory to gain access to credentials stored in memory."
+  },
+  {
+   "type": "malware",
+   "name": "Rubeus",
+   "evidence": "SVR used the Rubeus toolkit to craft Ticket Granting Tickets (TGTs)."
+  },
+  {
+   "type": "malware",
+   "name": "SharpChromium",
+   "evidence": "SVR used the SharpChromium tool to obtain sensitive browser data such as session cookies, browsing history, or saved logins."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-42793",
+   "evidence": "SVR cyber actors leverage arbitrary code execution after exploiting CVE-2023-42793."
+  },
+  {
+   "type": "vulnerability",
+   "name": "JetBrains TeamCity",
+   "evidence": "SVR cyber actors exploit JetBrains TeamCity vulnerability to achieve escalated privileges."
+  },
+  {
+   "type": "sector",
+   "name": "Energy",
+   "evidence": "Identified victims included: an energy trade association;"
+  },
+  {
+   "type": "sector",
+   "name": "Finance",
+   "evidence": "Identified victims included: companies that provide software for financial management;"
+  },
+  {
+   "type": "sector",
+   "name": "Health",
+   "evidence": "Identified victims included: companies that provide software for medical devices;"
+  },
+  {
+   "type": "sector",
+   "name": "Information Technologies Consulting",
+   "evidence": "Identified victims included: companies that provide software for IT companies;"
+  },
+  {
+   "type": "sector",
+   "name": "Manufacturing",
+   "evidence": "Identified victims included: companies that provide software for employee monitoring;"
+  },
+  {
+   "type": "sector",
+   "name": "Retail (distribution)",
+   "evidence": "Identified victims included: companies that provide software for sales;"
+  },
+  {
+   "type": "sector",
+   "name": "Telecommunications",
+   "evidence": "Identified victims included: hosting companies, tools manufacturers;"
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "the FBI, CISA, NSA, SKW, CERT Polska, and NCSC have identified a few dozen compromised companies in the United States"
+  },
+  {
+   "type": "country",
+   "name": "Europe",
+   "evidence": "the FBI, CISA, NSA, SKW, CERT Polska, and NCSC have identified a few dozen compromised companies in the United States, Europe, Asia, and Australia"
+  },
+  {
+   "type": "country",
+   "name": "Asia",
+   "evidence": "the FBI, CISA, NSA, SKW, CERT Polska, and NCSC have identified a few dozen compromised companies in the United States, Europe, Asia, and Australia"
+  },
+  {
+   "type": "country",
+   "name": "Australia",
+   "evidence": "the FBI, CISA, NSA, SKW, CERT Polska, and NCSC have identified a few dozen compromised companies in the United States, Europe, Asia, and Australia"
+  },
+  {
+   "type": "threat-actor",
+   "name": "Russian Foreign Intelligence Service (SVR)",
+   "evidence": "Russian Foreign Intelligence Service (SVR) Exploiting JetBrains TeamCity CVE Globally"
+  },
+  {
+   "type": "malware",
+   "name": "GraphicalProton",
+   "evidence": "DLL names used by SVR for GraphicalProton backdoor"
+  },
+  {
+   "type": "malware",
+   "name": "WellMess",
+   "evidence": "Named earlier in the document: Russian Foreign Intelligence Service (SVR), Diplomatic Orbiter, WellMess, WellMail, Sorefang, EDRSandBlast, GraphicalProton, Mimikatz, Rubeus, SharpChromium"
+  },
+  {
+   "type": "malware",
+   "name": "WellMail",
+   "evidence": "Named earlier in the document: Russian Foreign Intelligence Service (SVR), Diplomatic Orbiter, WellMess, WellMail, Sorefang, EDRSandBlast, GraphicalProton, Mimikatz, Rubeus, SharpChromium"
+  },
+  {
+   "type": "malware",
+   "name": "Sorefang",
+   "evidence": "Named earlier in the document: Russian Foreign Intelligence Service (SVR), Diplomatic Orbiter, WellMess, WellMail, Sorefang, EDRSandBlast, GraphicalProton, Mimikatz, Rubeus, SharpChromium"
+  },
+  {
+   "type": "malware",
+   "name": "EDRSandBlast",
+   "evidence": "Named earlier in the document: Russian Foreign Intelligence Service (SVR), Diplomatic Orbiter, WellMess, WellMail, Sorefang, EDRSandBlast, GraphicalProton, Mimikatz, Rubeus, SharpChromium"
+  },
+  {
+   "type": "malware",
+   "name": "Mimikatz",
+   "evidence": "Named earlier in the document: Russian Foreign Intelligence Service (SVR), Diplomatic Orbiter, WellMess, WellMail, Sorefang, EDRSandBlast, GraphicalProton, Mimikatz, Rubeus, SharpChromium"
+  },
+  {
+   "type": "malware",
+   "name": "Rubeus",
+   "evidence": "Named earlier in the document: Russian Foreign Intelligence Service (SVR), Diplomatic Orbiter, WellMess, WellMail, Sorefang, EDRSandBlast, GraphicalProton, Mimikatz, Rubeus, SharpChromium"
+  },
+  {
+   "type": "malware",
+   "name": "SharpChromium",
+   "evidence": "Named earlier in the document: Russian Foreign Intelligence Service (SVR), Diplomatic Orbiter, WellMess, WellMail, Sorefang, EDRSandBlast, GraphicalProton, Mimikatz, Rubeus, SharpChromium"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-XXXX",
+   "evidence": "Russian Foreign Intelligence Service (SVR) Exploiting JetBrains TeamCity CVE Globally"
+  },
+  {
+   "type": "sector",
+   "name": "Energy",
+   "evidence": "Identified victims included: an energy trade association;"
+  },
+  {
+   "type": "sector",
+   "name": "Finance",
+   "evidence": "companies that provide software for billing, medical devices, customer care, employee monitoring, financial management, marketing, sales, and video games;"
+  },
+  {
+   "type": "sector",
+   "name": "Health",
+   "evidence": "companies that provide software for billing, medical devices, customer care, employee monitoring, financial management, marketing, sales, and video games;"
+  },
+  {
+   "type": "sector",
+   "name": "Information Technologies Consulting",
+   "evidence": "companies that provide software for billing, medical devices, customer care, employee monitoring, financial management, marketing, sales, and video games;"
+  },
+  {
+   "type": "sector",
+   "name": "Manufacturing",
+   "evidence": "companies that provide software for billing, medical devices, customer care, employee monitoring, financial management, marketing, sales, and video games;"
+  },
+  {
+   "type": "sector",
+   "name": "Retail (distribution)",
+   "evidence": "companies that provide software for billing, medical devices, customer care, employee monitoring, financial management, marketing, sales, and video games;"
+  },
+  {
+   "type": "sector",
+   "name": "Telecommunications",
+   "evidence": "companies that provide software for billing, medical devices, customer care, employee monitoring, financial management, marketing, sales, and video games;"
+  },
+  {
+   "type": "sector",
+   "name": "Transport",
+   "evidence": "companies that provide software for billing, medical devices, customer care, employee monitoring, financial management, marketing, sales, and video games;"
+  },
+  {
+   "type": "sector",
+   "name": "Utilities",
+   "evidence": "companies that provide software for billing, medical devices, customer care, employee monitoring, financial management, marketing, sales, and video games;"
+  },
+  {
+   "type": "country",
+   "name": "Russia",
+   "evidence": "Russian Foreign Intelligence Service (SVR)"
+  },
+  {
+   "type": "threat-actor",
+   "name": "Russian Foreign Intelligence Service (SVR)",
+   "evidence": "Russian Foreign Intelligence Service (SVR) Exploiting JetBrains TeamCity CVE Globally"
+  },
+  {
+   "type": "malware",
+   "name": "GraphicalProton",
+   "evidence": "The following rule detects most known GraphicalProton variants."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-42793",
+   "evidence": "Apply available patches for CVE-2023-42793 issued by JetBrains TeamCity in mid-September 2023, if not already completed."
+  },
+  {
+   "type": "sector",
+   "name": "Government and administrations",
+   "evidence": "The FBI, CISA, NSA, SKW, CERT Polska, and NCSC assess the scope and indiscriminate targeting of this campaign poses a threat to public safety"
+  },
+  {
+   "type": "country",
+   "name": "Russia",
+   "evidence": "Russian Foreign Intelligence Service (SVR) Exploiting JetBrains TeamCity CVE Globally"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Russian Foreign Intelligence Service (SVR)",
+   "evidence": "Russian Foreign Intelligence Service (SVR) Exploiting JetBrains TeamCity CVE Globally"
+  },
+  {
+   "type": "malware",
+   "name": "GraphicalProton",
+   "evidence": "GraphicalProton backdoor"
+  },
+  {
+   "type": "malware",
+   "name": "GraphicalProton HTTPS backdoor",
+   "evidence": "GraphicalProton HTTPS backdoor"
+  },
+  {
+   "type": "malware",
+   "name": "vcperf",
+   "evidence": "Backdoored vcperf"
+  },
+  {
+   "type": "malware",
+   "name": "Zabbix installation archive",
+   "evidence": "Backdoored Zabbix installation archive"
+  },
+  {
+   "type": "malware",
+   "name": "Webroot AV installation archive",
+   "evidence": "Backdoored Webroot AV installation archive"
+  },
+  {
+   "type": "malware",
+   "name": "rsockstun",
+   "evidence": "Modified rsockstun"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-42793",
+   "evidence": "CVE-2023-42793"
+  },
+  {
+   "type": "sector",
+   "name": "Health",
+   "evidence": "APT 29 Targets COVID-19 Vaccine Development"
+  },
+  {
+   "type": "country",
+   "name": "Russia",
+   "evidence": "Russian Foreign Intelligence Service (SVR)"
+  }
+ ],
+ "observables": [
+  {
+   "type": "domain-name",
+   "value": "cisa.gov",
+   "indicates": [
+    "U.S. Cybersecurity & Infrastructure Security Agency (CISA)"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "cisecurity.org",
+   "indicates": [
+    "U.S. Cybersecurity & Infrastructure Security Agency (CISA)"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "report@cisa.gov",
+   "indicates": [
+    "U.S. Cybersecurity & Infrastructure Security Agency (CISA)"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "soc@cisecurity.org",
+   "indicates": [
+    "U.S. Cybersecurity & Infrastructure Security Agency (CISA)"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "cisa.gov/tlp/",
+   "indicates": [
+    "U.S. Cybersecurity & Infrastructure Security Agency (CISA)"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "888.282.0870",
+   "indicates": [
+    "U.S. Cybersecurity & Infrastructure Security Agency (CISA)"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "866-787-4722",
+   "indicates": [
+    "SLTT organizations"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "C:\\Windows\\system32\\ntoskrnl.exe",
+   "hash": "",
+   "indicates": [
+    "vulnerability",
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "C:\\Program Files\\Microsoft SQL Server\\MSSQL14.MSSQLSERVER\\MSSQL\\Binn\\sqlmin.dll",
+   "hash": "",
+   "indicates": [
+    "vulnerability",
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "C:\\Program Files\\Microsoft SQL Server\\MSSQL14.MSSQLSERVER\\MSSQL\\Binn\\sqllos.dll",
+   "hash": "",
+   "indicates": [
+    "vulnerability",
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "C:\\Program Files\\Microsoft SQL Server\\MSSQL14.MSSQLSERVER\\MSSQL\\Binn\\sqllang.dll",
+   "hash": "",
+   "indicates": [
+    "vulnerability",
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "C:\\Program Files\\Microsoft SQL Server\\MSSQL14.MSSQLSERVER\\MSSQL\\Binn\\sqltses.dll",
+   "hash": "",
+   "indicates": [
+    "vulnerability",
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "C:\\Program Files\\Microsoft SQL Server\\MSSQL14.MSSQLSERVER\\MSSQL\\Binn\\secforwarder.dll",
+   "hash": "",
+   "indicates": [
+    "vulnerability",
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\SQL\\Common7\\IDE\\VSIXAutoUpdate.exe",
+   "hash": "",
+   "indicates": [
+    "vulnerability",
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "C:\\Program Files (x86)\\PatchManagementInstallation\\Agent\\12\\Httpd\\bin\\httpd.exe",
+   "hash": "",
+   "indicates": [
+    "vulnerability",
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "C:\\Program Files (x86)\\PatchManagementInstallation\\Agent\\12\\Httpd",
+   "hash": "",
+   "indicates": [
+    "vulnerability",
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "C:\\ProgramData\\GFI\\LanGuard 12\\HttpdConfig\\httpd.conf",
+   "hash": "",
+   "indicates": [
+    "vulnerability",
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "65.20.97[.]203:443",
+   "indicates": [
+    "rr.exe"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "Poetpages[.]com:8443",
+   "indicates": [
+    "rr.exe"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "poetpages.com",
+   "indicates": [
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://poetpages.com",
+   "indicates": [
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "C:\\Program Files\\Windows Defender Advanced Threat Protection\\Sense.exe",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "01aa278b07b58dc46c84bd0b1b5c8e9ee4e62ea0bf7a695862444af32e87f1fd",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0296e2ce999e67c76352613a718e11516fe1b0efc3ffdb8918fc999dd76a73a5",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "01B5F7094DE0B2C6F8E28AA9A2DED678C166D615530E595621E692A9C0240732",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "34C8F155601A3948DDB0D60B582CFE87DE970D443CC0E05DF48B1A1AD2E42B5E",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "620D2BF14FE345EEF618FDD1DAC242B3A0BB65CCB75699FE00F7C671F2C1D869",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "773F0102720AF2957859D6930CD09693824D87DB705B3303CEF9EE794375CE13",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "7B666B978DBBE7C032CEF19A90993E8E4922B743EE839632BFA6D99314EA6C53",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8AFB71B7CE511B0BCE642F46D6FC5DD79FAD86A58223061B684313966EFEF9C7",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "971F0CED6C42DD2B6E3EA3E6C54D0081CF9B06E79A38C2EDE3A2C5228C27A6DC",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "CB83E5CB264161C28DE76A44D0EDB450745E773D24BEC5869D85F69633E44DCF",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "CD3584D61C2724F927553770924149BB51811742A461146B15B34A26C92CAD43",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "EBE231C90FAD02590FC56D5840ACC63B90312B0E2FEE7DA3C7606027ED92600E",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "F1B40E6E5A7CBC22F7A0BD34607B13E7E3493B8AAD7431C47F1366F0256E23EB",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "C7B01242D2E15C3DA0F45B8ADEC4E6913E534849CDE16A2A6C480045E03FBEE4",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "4BF1915785D7C6E0987EB9C15857F7AC67DC365177A1707B14822131D43A6166",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "18101518EAE3EEC6EBE453DE4C4C380160774D7C3ED5C79E1813013AC1BB0B93",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton HTTPS backdoor"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "19F1EF66E449CF2A2B0283DBB756850CCA396114286E1485E35E6C672C9C3641",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton HTTPS backdoor"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "1E74CF0223D57FD846E171F4A58790280D4593DF1F23132044076560A5455FF8",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton HTTPS backdoor"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "219FB90D2E88A2197A9E08B0E7811E2E0BD23D59233287587CCC4642C2CF3D67",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton HTTPS backdoor"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "92C7693E82A90D08249EDEAFBCA6533FED81B62E9E056DEC34C24756E0A130A6",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton HTTPS backdoor"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "B53E27C79EED8531B1E05827ACE2362603FB9F77F53CEE2E34940D570217CBF7",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton HTTPS backdoor"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "C37C109171F32456BBE57B8676CC533091E387E6BA733FBAA01175C43CFB6EBD",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton HTTPS backdoor"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "C40A8006A7B1F10B1B42FDD8D6D0F434BE503FB3400FB948AC9AB8DDFA5B78A0",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton HTTPS backdoor"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "C832462C15C8041191F190F7A88D25089D57F78E97161C3003D68D0CC2C4BAA3",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton HTTPS backdoor"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "F6194121E1540C3553273709127DFA1DAAB96B0ACFAB6E92548BFB4059913C69",
+   "hash": "SHA-256",
+   "indicates": [
+    "GraphicalProton HTTPS backdoor"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "D724728344FCF3812A0664A80270F7B4980B82342449A8C5A2FA510E10600443",
+   "hash": "SHA-256",
+   "indicates": [
+    "vcperf"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "4EE70128C70D646C5C2A9A17AD05949CB1FBF1043E9D671998812B2DCE75CF0F",
+   "hash": "SHA-256",
+   "indicates": [
+    "Zabbix installation archive"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "950ADBAF66AB214DE837E6F1C00921C501746616A882EA8C42F1BAD5F9B6EFF4",
+   "hash": "SHA-256",
+   "indicates": [
+    "Webroot AV installation archive"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "CB83E5CB264161C28DE76A44D0EDB450745E773D24BEC5869D85F69633E44DCF",
+   "hash": "SHA-256",
+   "indicates": [
+    "rsockstun"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "65.20.97[.]203",
+   "indicates": [
+    "Tunnel Endpoints"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "65.21.51[.]58",
+   "indicates": [
+    "Tunnel Endpoints"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "103.76.128[.]34",
+   "indicates": [
+    "Exploitation Server"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "hxxps://matclick[.]com/wp-query[.]php",
+   "indicates": [
+    "GraphicalProton HTTPS C2 URL"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "targets",
+   "target": "Energy",
+   "evidence": "the SVR’s WellMess campaign also targeted energy companies."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "targets",
+   "target": "Health",
+   "evidence": "the SVR’s deployment of custom malware known as WellMess, WellMail, and Sorefang to target organizations involved in COVID-19 vaccine development."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "CVE-2023-42793",
+   "evidence": "Russian Foreign Intelligence Service (SVR) cyber actors—also known as Advanced Persistent Threat 29 (APT 29), the Dukes, CozyBear, and NOBELIUM/Midnight Blizzard—are exploiting CVE-2023-42793"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "malware",
+   "evidence": "the SVR’s deployment of custom malware known as WellMess, WellMail, and Sorefang to target organizations involved in COVID-19 vaccine development."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "targets",
+   "target": "SolarWinds",
+   "evidence": "the SVR used such access to compromise SolarWinds and its customers in 2020"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "originates-from",
+   "target": "Russia",
+   "evidence": "Russian Foreign Intelligence Service (SVR)"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "attributed-to",
+   "target": "threat-actor",
+   "evidence": "Russian Foreign Intelligence Service (SVR) cyber actors—also known as Advanced Persistent Threat 29 (APT 29), the Dukes, CozyBear, and NOBELIUM/Midnight Blizzard—are exploiting CVE-2023-42793"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "attributed-to",
+   "target": "intrusion-set",
+   "evidence": "Russian Foreign Intelligence Service (SVR) cyber actors—also known as Advanced Persistent Threat 29 (APT 29), the Dukes, CozyBear, and NOBELIUM/Midnight Blizzard—are exploiting CVE-2023-42793"
+  },
+  {
+   "source": "U.S. Government",
+   "type": "attributed-to",
+   "target": "Russian Foreign Intelligence Service (SVR)",
+   "evidence": "In April 2021, the U.S. Government attributed a supply chain operation targeting the SolarWinds information technology company and its customers to the SVR."
+  },
+  {
+   "source": "U.K. Government",
+   "type": "attributed-to",
+   "target": "Russian Foreign Intelligence Service (SVR)",
+   "evidence": "Following this attribution, the U.S. and U.K. Governments published advisories highlighting additional SVR TTPs"
+  },
+  {
+   "source": "Canadian Government",
+   "type": "attributed-to",
+   "target": "Russian Foreign Intelligence Service (SVR)",
+   "evidence": "In July 2020, U.S., U.K., and Canadian Governments jointly published an advisory revealing the SVR’s exploitation of CVEs to gain initial access to networks"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "the SVR demonstrably continues its practice of targeting technology companies. By choosing to exploit CVE-2023-42793"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "EDRSandBlast",
+   "evidence": "the SVR used an open source project called “EDRSandBlast.”"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "The SVR started to exploit Internet-connected JetBrains TeamCity servers [T1190]"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "The authoring agencies’ observations show that the TeamCity exploitation usually resulted in code execution [T1203]"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "SVR used the following basic, built-in commands to perform host reconnaissance [T1033]"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "SVR used the following basic, built-in commands to perform host reconnaissance [T1059.003]"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "SVR used the following basic, built-in commands to perform host reconnaissance [T1592.002]"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "the SVR exfiltrating files [T1041]"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "To avoid detection, the SVR used a “Bring Your Own Vulnerable Driver” [T1068] technique"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "To avoid detection, the SVR used a “Bring Your Own Vulnerable Driver” [T1068] technique to disable or outright kill endpoint detection and response (EDR) and antivirus (AV) software [T1562.001]"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "executables that are likely to be detected (i.e. Mimikatz) were executed in memory [T1003.001]"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "data exchanged with malware via OneDrive and Dropbox were hidden inside randomly generated BMP files [T1564]"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "To facilitate privilege escalation [T1098], the SVR used multiple techniques"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1564",
+   "evidence": "data exchanged with malware via OneDrive and Dropbox were hidden inside randomly generated BMP files [T1564]"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1098",
+   "evidence": "To facilitate privilege escalation [T1098], the SVR used multiple techniques, including WinPEAS, NoLMHash registry key modification, and the Mimikatz tool."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1003",
+   "evidence": "The SVR used the following Mimikatz commands [T1003]: privilege::debug, lsadump::cache, lsadump::secrets, lsadump::sam, sekurlsa::logonpasswords."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1053.005",
+   "evidence": "The SVR relied on scheduled tasks [T1053.005] to secure persistent execution of backdoors."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1558.001",
+   "evidence": "The SVR used the Rubeus toolkit to craft Ticket Granting Tickets (TGTs) [T1558.001]."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1020",
+   "evidence": "The SVR exfiltrated the following Windows Registry hives from its victims [T1020]: HKLM\\SYSTEM, HKLM\\SAM, HKLM\\SECURITY."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1003.002",
+   "evidence": "In order to exfiltrate Windows Registry, the SVR saved hives into files [T1003.002], packed them, and then exfiltrated them using a backdoor capability."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1590.004",
+   "evidence": "After the SVR built a secure foothold and gained an awareness of a victim’s TeamCity server, it then focused on network reconnaissance [T1590.004]."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1572",
+   "evidence": "In selected environments the SVR used an additional tool named, “rr.exe”—a modified open source reverse socks tunneler named Rsockstun—to establish a tunnel to the C2 infrastructure [T1572]."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1047",
+   "evidence": "The SVR executed Rsockstun either in memory or using the Windows Management Instrumentation Command Line (WMIC) [T1047] utility after dropping it to disk."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1046",
+   "evidence": "The SVR executed the following PowerSploit commands: Get-NetComputer, Get-NetGroup, Get-NetUser -UACFilter NOT_ACCOUNTDISABLE | select samaccountname, description, pwdlastset, logoncount, badpwdcount, Get-NetDiDomain, Get-AdUser, Get-DomainUser -UserName, Get-NetUser -PreauthNotRequire, Get-NetComputer | select samaccountname, Get-NetUser -SPN | select serviceprincipalname."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1210",
+   "evidence": "The SVR used WMIC to facilitate lateral movement [T1047],[T1210]."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1059.001",
+   "evidence": "SVR cyber actors used powershell commands to compress Microsoft SQL server .dll files."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1059.003",
+   "evidence": "SVR cyber actors execute these powershell commands to perform host reconnaissance: powershell ([adsisearcher]\"((samaccountn ame=<redacted>))\").Findall().Properties, powershell ([adsisearcher]\"((samaccountn ame=<redacted>))\").Findall().Properties.memberof, powershell Get-WmiObject -Class Win32_Service -Computername, powershell Get-WindowsDriver -Online -All."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1203",
+   "evidence": "SVR cyber actors leverage arbitrary code execution after exploiting CVE-2023-42793."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "targets",
+   "target": "CVE-2023-42793",
+   "evidence": "Exploit Public-Facing Application T1190 SVR cyber actors exploit internet-connected JetBrains TeamCity server using CVE-2023-42793 for initial access."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1059.003",
+   "evidence": "SVR cyber actors execute these powershell commands to perform host reconnaissance:"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1203",
+   "evidence": "SVR cyber actors leverage arbitrary code execution after exploiting CVE-2023-42793."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1574.002",
+   "evidence": "SVR cyber actors use a variant of GraphicalProton that uses DLL hijacking in Zabbix as a means to start execution."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1053.005",
+   "evidence": "SVR cyber actors may abuse Windows Task Schedule to perform task scheduling for initial or recurring execution of malicious code."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1505.001",
+   "evidence": "SVR cyber actors abuse SQL server stored procedures to maintain persistence."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1547",
+   "evidence": "SVR cyber actors used C:\\Windows\\system32\\ntoskrnl.exe to configure automatic system boot settings to maintain persistence."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1068",
+   "evidence": "SVR cyber actors exploit JetBrains TeamCity vulnerability to achieve escalated privileges."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1036",
+   "evidence": "SVR cyber actors use a variant that uses DLL hijacking in Zabbix as a means to start execution (and potentially provide long-term, hard-to-detect access) and a variant that masks itself within vcperf, an open-source C++ build analysis tool from Microsoft."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1055",
+   "evidence": "SVR cyber actors inject code into AV and EDR processes to evade defenses."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1562.001",
+   "evidence": "SVR cyber actors may modify and/or disable tools to avoid possible detection of their malware/tools and activities."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1564",
+   "evidence": "SVR cyber actors may attempt to hide artifacts associated with their behaviors to evade detection."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1003.001",
+   "evidence": "SVR cyber actors executed Mimikatz commands in memory to gain access to credentials stored in memory."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1003.002",
+   "evidence": "SVR cyber actors used: privilege::debug, lsadump::cache, lsadump::secrets, lsadump::sam, sekurlsa::logonpasswords Mimikatz commands to gain access to credentials."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1555.003",
+   "evidence": "SVR used the SharpChromium tool to obtain sensitive browser data such as session cookies, browsing history, or saved logins."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1558.001",
+   "evidence": "SVR used the Rubeus toolkit to craft Ticket Granting Tickets (TGTs)."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1033",
+   "evidence": "SVR cyber actors use these built-in commands to perform host reconnaissance: whoami /priv, whoami / all, whoami / groups, whoami / domain to perform user discovery."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1046",
+   "evidence": "SVR cyber actors performed network reconnaissance using a mix of built-in commands and additional tools, such as port scanner and PowerSploit."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1057",
+   "evidence": "SVR cyber actors use GraphicalProton to gather running processes data."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1590",
+   "evidence": "SVR cyber actors use GraphicalProton to gather victim network information."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1210",
+   "evidence": "SVR cyber actors may exploit remote services to gain unauthorized access to internal systems once inside a network."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1047",
+   "evidence": "SVR cyber actors executed Rsockstun either in memory or using Windows Management Instrumentation (WMI) to execute malicious commands and payloads."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1568",
+   "evidence": "SV, may dynamically establish connections to command-and-control infrastructure to evade common detections and remediations."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1572",
+   "evidence": "SVR cyber actors may tunnel network communications to and from a victim system within a separate protocol to avoid detection/network filtering and/or enable access to otherwise unreachable systems."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1020",
+   "evidence": "SVR cyber actors may exfiltrate data, such as sensitive documents, through the use of automated processing after being gathered during collection."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1041",
+   "evidence": "SVR cyber actors may steal data by exfiltrating it over an existing C2 channel. Stolen data is encoded into normal communications using the same protocol as C2 communications."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "uses",
+   "target": "T1567",
+   "evidence": "SVR cyber actors use OneDrive and Dropbox to exfiltrate data to their C2 station."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "targets",
+   "target": "Energy",
+   "evidence": "Identified victims included: an energy trade association;"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "targets",
+   "target": "Finance",
+   "evidence": "Identified victims included: companies that provide software for financial management;"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "targets",
+   "target": "Health",
+   "evidence": "Identified victims included: companies that provide software for medical devices;"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "targets",
+   "target": "Information Technologies Consulting",
+   "evidence": "Identified victims included: companies that provide software for IT companies;"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "targets",
+   "target": "Manufacturing",
+   "evidence": "Identified victims included: companies that provide software for employee monitoring;"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "targets",
+   "target": "Retail (distribution)",
+   "evidence": "Identified victims included: companies that provide software for sales;"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "targets",
+   "target": "Telecommunications",
+   "evidence": "Identified victims included: hosting companies, tools manufacturers;"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "targets",
+   "target": "United States",
+   "evidence": "the FBI, CISA, NSA, SKW, CERT Polska, and NCSC have identified a few dozen compromised companies in the United States"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "targets",
+   "target": "Europe",
+   "evidence": "the FBI, CISA, NSA, SKW, CERT Polska, and NCSC have identified a few dozen compromised companies in the United States, Europe, Asia, and Australia"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "targets",
+   "target": "Asia",
+   "evidence": "the FBI, CISA, NSA, SKW, CERT Polska, and NCSC have identified a few dozen compromised companies in the United States, Europe, Asia, and Australia"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "targets",
+   "target": "Australia",
+   "evidence": "the FBI, CISA, NSA, SKW, CERT Polska, and NCSC have identified a few dozen compromised companies in the United States, Europe, Asia, and Australia"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "Russian Foreign Intelligence Service (SVR) Exploiting JetBrains TeamCity CVE Globally"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "Identified victims included: an energy trade association; companies that provide software for billing, medical devices, customer care, employee monitoring, financial management, marketing, sales, and video games; as well as hosting companies, tools manufacturers, and small and large IT companies."
+  },
+  {
+   "source": "GraphicalProton",
+   "type": "exploits",
+   "target": "vulnerability",
+   "evidence": "DLL names used by SVR for GraphicalProton backdoor"
+  },
+  {
+   "source": "GraphicalProton",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "DLL names used by SVR for GraphicalProton backdoor"
+  },
+  {
+   "source": "WellMess",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "Named earlier in the document: Russian Foreign Intelligence Service (SVR), Diplomatic Orbiter, WellMess, WellMail, Sorefang, EDRSandBlast, GraphicalProton, Mimikatz, Rubeus, SharpChromium"
+  },
+  {
+   "source": "WellMail",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "Named earlier in the document: Russian Foreign Intelligence Service (SVR), Diplomatic Orbiter, WellMess, WellMail, Sorefang, EDRSandBlast, GraphicalProton, Mimikatz, Rubeus, SharpChromium"
+  },
+  {
+   "source": "Sorefang",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "Named earlier in the document: Russian Foreign Intelligence Service (SVR), Diplomatic Orbiter, WellMess, WellMail, Sorefang, EDRSandBlast, GraphicalProton, Mimikatz, Rubeus, SharpChromium"
+  },
+  {
+   "source": "EDRSandBlast",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "Named earlier in the document: Russian Foreign Intelligence Service (SVR), Diplomatic Orbiter, WellMess, WellMail, Sorefang, EDRSandBlast, GraphicalProton, Mimikatz, Rubeus, SharpChromium"
+  },
+  {
+   "source": "Mimikatz",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "Named earlier in the document: Russian Foreign Intelligence Service (SVR), Diplomatic Orbiter, WellMess, WellMail, Sorefang, EDRSandBlast, GraphicalProton, Mimikatz, Rubeus, SharpChromium"
+  },
+  {
+   "source": "Rubeus",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "Named earlier in the document: Russian Foreign Intelligence Service (SVR), Diplomatic Orbiter, WellMess, WellMail, Sorefang, EDRSandBlast, GraphicalProton, Mimikatz, Rubeus, SharpChromium"
+  },
+  {
+   "source": "SharpChromium",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "Named earlier in the document: Russian Foreign Intelligence Service (SVR), Diplomatic Orbiter, WellMess, WellMail, Sorefang, EDRSandBlast, GraphicalProton, Mimikatz, Rubeus, SharpChromium"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "targets",
+   "target": "Government and administrations",
+   "evidence": "The FBI, CISA, NSA, SKW, CERT Polska, and NCSC assess the scope and indiscriminate targeting of this campaign poses a threat to public safety"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "originates-from",
+   "target": "Russia",
+   "evidence": "Russian Foreign Intelligence Service (SVR) Exploiting JetBrains TeamCity CVE Globally"
+  },
+  {
+   "source": "GraphicalProton",
+   "type": "exploits",
+   "target": "CVE-2023-42793",
+   "evidence": "Apply available patches for CVE-2023-42793 issued by JetBrains TeamCity in mid-September 2023, if not already completed."
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "Russian Foreign Intelligence Service (SVR) Exploiting JetBrains TeamCity CVE Globally"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "APT 29 Targets COVID-19 Vaccine Development"
+  },
+  {
+   "source": "GraphicalProton",
+   "type": "exploits",
+   "target": "vulnerability",
+   "evidence": "CVE-2023-42793"
+  },
+  {
+   "source": "GraphicalProton",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "APT 29 Targets COVID-19 Vaccine Development"
+  },
+  {
+   "source": "GraphicalProton HTTPS backdoor",
+   "type": "exploits",
+   "target": "vulnerability",
+   "evidence": "CVE-2023-42793"
+  },
+  {
+   "source": "GraphicalProton HTTPS backdoor",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "APT 29 Targets COVID-19 Vaccine Development"
+  },
+  {
+   "source": "vcperf",
+   "type": "exploits",
+   "target": "vulnerability",
+   "evidence": "CVE-2023-42793"
+  },
+  {
+   "source": "vcperf",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "APT 29 Targets COVID-19 Vaccine Development"
+  },
+  {
+   "source": "Zabbix installation archive",
+   "type": "exploits",
+   "target": "vulnerability",
+   "evidence": "CVE-2023-42793"
+  },
+  {
+   "source": "Zabbix installation archive",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "APT 29 Targets COVID-19 Vaccine Development"
+  },
+  {
+   "source": "Webroot AV installation archive",
+   "type": "exploits",
+   "target": "vulnerability",
+   "evidence": "CVE-2023-42793"
+  },
+  {
+   "source": "Webroot AV installation archive",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "APT 29 Targets COVID-19 Vaccine Development"
+  },
+  {
+   "source": "rsockstun",
+   "type": "exploits",
+   "target": "vulnerability",
+   "evidence": "CVE-2023-42793"
+  },
+  {
+   "source": "rsockstun",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "APT 29 Targets COVID-19 Vaccine Development"
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "qwen3:8b",
+  "seconds": 1068.3,
+  "errors": ""
+ }
+}

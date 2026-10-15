@@ -1,0 +1,950 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "Scattered Spider",
+   "evidence": "Scattered Spider is a cybercriminal group that targets large companies and their contracted information technology (IT) help desks."
+  },
+  {
+   "type": "malware",
+   "name": "AveMaria",
+   "evidence": "AveMaria (also known as WarZone [S0670]) Enables remote access to a targeted organization’s systems."
+  },
+  {
+   "type": "malware",
+   "name": "Raccoon Stealer",
+   "evidence": "Raccoon Stealer [S1148] Steals information including login credentials [TA0006], browser history [T1217], cookies [T1539], and other data."
+  },
+  {
+   "type": "malware",
+   "name": "VIDAR Stealer",
+   "evidence": "VIDAR Stealer Steals information including login credentials, browser history, cookies, and other data."
+  },
+  {
+   "type": "malware",
+   "name": "RattyRAT",
+   "evidence": "RattyRAT Java-based remote access trojan, used for persistent, stealth access and internal reconnaissance."
+  },
+  {
+   "type": "malware",
+   "name": "DragonForce Ransomware",
+   "evidence": "DragonForce Ransomware Infiltrates networks, encrypts data, and demands ransom."
+  },
+  {
+   "type": "tool",
+   "name": "Fleetdeck.io",
+   "evidence": "Fleetdeck.io Enables remote monitoring and management of systems."
+  },
+  {
+   "type": "tool",
+   "name": "Level.io",
+   "evidence": "Level.io Enables remote monitoring and management of systems."
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz",
+   "evidence": "Mimikatz [S0002] Extracts credentials from a system."
+  },
+  {
+   "type": "tool",
+   "name": "Ngrok",
+   "evidence": "Ngrok [S0508] Enables remote access to a local web server by tunneling over the internet."
+  },
+  {
+   "type": "tool",
+   "name": "Pulseway",
+   "evidence": "Pulseway Enables remote monitoring and management of systems."
+  },
+  {
+   "type": "tool",
+   "name": "Screenconnect",
+   "evidence": "Screenconnect Enables remote connections to network devices for management."
+  },
+  {
+   "type": "tool",
+   "name": "Splashtop",
+   "evidence": "Splashtop Enables remote connections to network devices for management."
+  },
+  {
+   "type": "tool",
+   "name": "Tactical.RMM",
+   "evidence": "Tactical.RMM Enables remote monitoring and management of systems."
+  },
+  {
+   "type": "tool",
+   "name": "Tailscale",
+   "evidence": "Tailscale Provides virtual private networks (VPNs) to secure network communications."
+  },
+  {
+   "type": "tool",
+   "name": "TeamViewer",
+   "evidence": "TeamViewer Enables remote connections to network devices for management."
+  },
+  {
+   "type": "tool",
+   "name": "Teleport.sh",
+   "evidence": "Teleport.sh Enables remote access to a local system by tunneling over the internet."
+  },
+  {
+   "type": "tool",
+   "name": "AnyDesk",
+   "evidence": "AnyDesk Enables remote access to network devices for management, bypassing security alerts due to AnyDesk being a legitimate application."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Social Engineering",
+   "evidence": "Scattered Spider threat actors use multiple social engineering techniques—including push bombing—and subscriber identity module (SIM) swap attacks, to obtain credentials, install remote access tools, and/or bypass multi-factor authentication (MFA)."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing",
+   "evidence": "Scattered Spider threat actors Posed as company IT and/or helpdesk staff using phone calls or SMS messages to obtain credentials from employees and gain access to the network [T1598] [T1656]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Access",
+   "evidence": "Scattered Spider threat actors Posed as company IT and/or helpdesk staff to direct employees to run commercial remote access tools enabling initial access [T1204] [T1219] [T1566]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Multi-Factor Authentication Bypass",
+   "evidence": "Scattered Spider threat actors Posed as IT staff to convince employees to share their one-time password (OTP), an MFA authentication code."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "MFA Fatigue",
+   "evidence": "Sent repeated MFA notification prompts leading to employees pressing the “Accept” button (also known as MFA fatigue) [T1621]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "SIM Swap",
+   "evidence": "Convinced cellular carriers to transfer control of a targeted user’s phone number to a SIM card in their possession, gaining control over the phone and access to MFA prompts."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Exfiltration",
+   "evidence": "Scattered Spider threat actors have observably exfiltrated data [TA0010] after gaining access and threatened to release it without deploying ransomware."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Ransomware",
+   "evidence": "DragonForce Ransomware Infiltrates networks, encrypts data, and demands ransom."
+  },
+  {
+   "type": "sector",
+   "name": "Commercial facilities",
+   "evidence": "Scattered Spider threat actors against the commercial facilities sectors, subsectors, and other sectors."
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "U.S. and international federal organizations identified new TTPs associated with the Scattered Spider cybercriminal group."
+  },
+  {
+   "type": "country",
+   "name": "Canada",
+   "evidence": "U.S. and international federal organizations identified new TTPs associated with the Scattered Spider cybercriminal group."
+  },
+  {
+   "type": "country",
+   "name": "Australia",
+   "evidence": "U.S. and international federal organizations identified new TTPs associated with the Scattered Spider cybercriminal group."
+  },
+  {
+   "type": "country",
+   "name": "United Kingdom",
+   "evidence": "U.S. and international federal organizations identified new TTPs associated with the Scattered Spider cybercriminal group."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Scattered Spider",
+   "evidence": "Scattered Spider threat actors gather usernames, passwords, and PII for targeted organizations."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity",
+   "evidence": "Scattered Spider threat actors gather usernames, passwords, and PII for targeted organizations.",
+   "mitre_id": "T1589"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing for Information",
+   "evidence": "Scattered Spider threat actors use phishing to obtain login credentials, gaining access to a targeted organization’s network.",
+   "mitre_id": "T1598"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Search Closed Sources: Purchase Technical Data",
+   "evidence": "Scattered Spider threat actors purchase credentials from illicit marketplaces.",
+   "mitre_id": "T1597.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Search Victim-Owned Websites",
+   "evidence": "Scattered Spider threat actors search targeted organization-owned websites to gather information such as work roles and contact information.",
+   "mitre_id": "T1594"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing",
+   "evidence": "Scattered Spider threat actors use broad phishing attempts against a target to obtain information used to gain initial access.",
+   "mitre_id": "T1566"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing (Mobile)",
+   "evidence": "Scattered Spider threat actors send SMS messages, known as smishing, when targeting an organization.",
+   "mitre_id": "T1660"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing: Spearphishing Voice",
+   "evidence": "Scattered Spider threat actors use voice communications to convince IT help desk personnel to reset passwords and/or MFA tokens.",
+   "mitre_id": "T1566.004"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Trusted Relationship",
+   "evidence": "Scattered Spider threat actors abuse trusted relationships of contracted IT help desks to gain access to targeted organizations.",
+   "mitre_id": "T1199"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Domain Accounts",
+   "evidence": "Scattered Spider threat actors obtain access to valid domain accounts to gain initial access to a targeted organization.",
+   "mitre_id": "T1078.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Serverless Execution",
+   "evidence": "Scattered Spider threat actors use ETL tools to collect data in cloud environments.",
+   "mitre_id": "T1648"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "User Execution",
+   "evidence": "Scattered Spider threat actors impersonating helpdesk personnel direct employees to run commercial remote access tools thereby enabling access to the targeted organization’s network.",
+   "mitre_id": "T1204"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Persistence",
+   "evidence": "Scattered Spider threat actors seek to maintain persistence on a targeted organization’s network.",
+   "mitre_id": "TA0003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create Account",
+   "evidence": "Scattered Spider threat actors create new user identities in the targeted organization.",
+   "mitre_id": "T1136"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify Authentication Process: Multi-Factor Authentication",
+   "evidence": "Scattered Spider threat actors may modify MFA tokens to gain access to a targeted organization’s network.",
+   "mitre_id": "T1556.006"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "evidence": "Scattered Spider threat actors abuse and control valid accounts to maintain network access even when passwords are changed.",
+   "mitre_id": "T1078"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Privilege Escalation",
+   "evidence": "Scattered Spider threat actors escalate account privileges when on a targeted organization’s network.",
+   "mitre_id": "TA0004"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Domain Policy Modification: Domain Trust Modification",
+   "evidence": "Scattered Spider threat actors add a federated identity provider to the targeted organization’s SSO tenant and activate automatic account linking.",
+   "mitre_id": "T1484.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify Cloud Compute Infrastructure: Create Cloud Instance",
+   "evidence": "Scattered Spider threat actors create cloud instances for use during lateral movement and data collection.",
+   "mitre_id": "T1578.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Impersonation",
+   "evidence": "Scattered Spider threat actors pose as company IT and/or helpdesk staff to gain access to targeted organization’s networks.",
+   "mitre_id": "T1656"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credential Access",
+   "evidence": "Scattered Spider threat actors use tools, such as Raccoon Stealer, to obtain login credentials.",
+   "mitre_id": "TA0006"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Forge Web Credentials",
+   "evidence": "Scattered Spider threat actors may forge MFA tokens to gain access to a targeted organization’s network.",
+   "mitre_id": "T1606"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Multi-Factor Authentication Request Generation",
+   "evidence": "Scattered Spider sends repeated MFA notification prompts to lead employees to accept the prompt and gain access to the target network.",
+   "mitre_id": "T1621"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Unsecured Credentials: Credentials in Files",
+   "evidence": "Scattered Spider threat actors search for insecurely stored credentials on targeted organization’s systems.",
+   "mitre_id": "T1552.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Unsecured Credentials: Private Keys",
+   "evidence": "Scattered Spider threat actors search for insecurely stored private keys on targeted organization’s systems.",
+   "mitre_id": "T1552.004"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "SIM Swap",
+   "evidence": "Scattered Spider threat actors steal OTPs, credentials, and security answers.",
+   "mitre_id": "T1451"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Discovery",
+   "evidence": "Upon gaining access to a targeted network, Scattered Spider threat actors seek out SharePoint sites, credential storage documentation, VMware vCenter, infrastructure backups and enumerate AD to identify useful information to support further operations.",
+   "mitre_id": "TA0007"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Browser Information Discovery",
+   "evidence": "Scattered Spider threat actors use tools (e.g., Racco, Raccoon Stealer) to obtain browser histories.",
+   "mitre_id": "T1217"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Cloud Service Dashboard",
+   "evidence": "Scattered Spider threat actors leverage AWS Systems Manager Inventory to discover targets for lateral movement.",
+   "mitre_id": "T1538"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "File and Directory Discovery",
+   "evidence": "Scattered Spider threat actors search a compromised network to discover files and directories for further information or exploitation.",
+   "mitre_id": "T1083"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote System Discovery",
+   "evidence": "Scattered Spider threat actors search for infrastructure, such as remote systems, to exploit.",
+   "mitre_id": "T1018"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Steal Web Session Cookie",
+   "evidence": "Scattered Spider threat actors use tools, such as Raccoon Stealer, to obtain browser cookies.",
+   "mitre_id": "T1539"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Lateral Movement",
+   "evidence": "Scattered Spider threat actors laterally move across a target network upon gaining access and establishing persistence.",
+   "mitre_id": "TA0008"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Cloud Services",
+   "evidence": "Scattered Spider threat actors use pre-existing cloud instances for lateral movement and data collection.",
+   "mitre_id": "T1021.007"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Collection",
+   "evidence": "Scattered Spider threat actors search code repositories for data collection and exfiltration.",
+   "mitre_id": "T1213.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Information Repositories: SharePoint",
+   "evidence": "Scattered Spider threat actors search SharePoint repositories for information.",
+   "mitre_id": "T1213.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Staged",
+   "evidence": "Scattered Spider threat actors stage data from multiple data sources into a centralized database before exfiltration.",
+   "mitre_id": "T1074"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection",
+   "evidence": "Scattered Spider threat actors search targeted organization’s emails to determine if the organization has detected the intrusion and initiated any security response.",
+   "mitre_id": "T1114"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Cloud Storage",
+   "evidence": "Scattered Spider threat actors search data in cloud storage for collection and exfiltration.",
+   "mitre_id": "T1530"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Scattered Spider",
+   "evidence": "Scattered Spider threat actors search SharePoint repositories for information."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Information Repositories",
+   "evidence": "Data from Information Repositories: SharePoint T1213.002 Scattered Spider threat actors search SharePoint repositories for information."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Staged",
+   "evidence": "Data Staged T1074 Scattered Spider threat actors stage data from multiple data sources into a centralized database before exfiltration."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection",
+   "evidence": "Email Collection T1114 Scattered Spider threat actors search targeted organization’s emails to determine if the organization has detected the intrusion and initiated any security response."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Cloud Storage",
+   "evidence": "Data from Cloud Storage T1530 Scattered Spider threat actors search data in cloud storage for collection and exfiltration."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Access Software",
+   "evidence": "Remote Access Software T1219 Impersonating helpdesk personnel, Scattered Spider threat actors direct employees to run commercial remote access tools thereby enabling access to, and command and control of, the targeted organization’s network."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy",
+   "evidence": "Proxy T1090 Scattered Spider threat actors use proxy networks to disguise the source of malicious traffic."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration",
+   "evidence": "Exfiltration TA0010 Scattered Spider threat actors exfiltrate data from a target network for data extortion."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Web Service",
+   "evidence": "Exfiltration Over Web Service T1567 Scattered Spider threat actors exfiltrate data using the Snowflake Data Cloud."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Encrypted for Impact",
+   "evidence": "Data Encrypted for Impact T1486 Scattered Spider threat actors recently began encrypting data on a target network and demanding a ransom for decryption."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Web Service: Exfiltration to Cloud Storage",
+   "evidence": "Exfiltration Over Web Service: Exfiltration to Cloud Storage T1567.002 Scattered Spider threat actors exfiltrate data to multiple sites including U.S.-based data centers and MEGA[.]NZ."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Financial Theft",
+   "evidence": "Financial Theft T1657 Scattered Spider threat actors monetized access to targeted organization’s networks in numerous ways including extortion-enabled ransomware and data theft."
+  }
+ ],
+ "observables": [
+  {
+   "type": "domain-name",
+   "value": "mega.nz",
+   "indicates": [
+    "Scattered Spider"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "amazonaws.com",
+   "indicates": [
+    "Scattered Spider"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "Scattered Spider",
+   "type": "targets",
+   "target": "Commercial facilities",
+   "evidence": "Scattered Spider threat actors against the commercial facilities sectors, subsectors, and other sectors."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "AveMaria",
+   "evidence": "AveMaria (also known as WarZone [S0670]) Enables remote access to a targeted organization’s systems."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "Raccoon Stealer",
+   "evidence": "Raccoon Stealer [S1148] Steals information including login credentials [TA0006], browser history [T1217], cookies [T1539], and other data."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "VIDAR Stealer",
+   "evidence": "VIDAR Stealer Steals information including login credentials, browser history, cookies, and other data."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "RattyRAT",
+   "evidence": "RattyRAT Java-based remote access trojan, used for persistent, stealth access and internal reconnaissance."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "DragonForce Ransomware",
+   "evidence": "DragonForce Ransomware Infiltrates networks, encrypts data, and demands ransom."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "Fleetdeck.io",
+   "evidence": "Fleetdeck.io Enables remote monitoring and management of systems."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "Level.io",
+   "evidence": "Level.io Enables remote monitoring and management of systems."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "Mimikatz",
+   "evidence": "Mimikatz [S0002] Extracts credentials from a system."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "Ngrok",
+   "evidence": "Ngrok [S0508] Enables remote access to a local web server by tunneling over the internet."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "Pulseway",
+   "evidence": "Pulseway Enables remote monitoring and management of systems."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "Screenconnect",
+   "evidence": "Screenconnect Enables remote connections to network devices for management."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "Splashtop",
+   "evidence": "Splashtop Enables remote connections to network devices for management."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "Tactical.RMM",
+   "evidence": "Tactical.RMM Enables remote monitoring and management of systems."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "Tailscale",
+   "evidence": "Tailscale Provides virtual private networks (VPNs) to secure network communications."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "TeamViewer",
+   "evidence": "TeamViewer Enables remote connections to network devices for management."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "Teleport.sh",
+   "evidence": "Teleport.sh Enables remote access to a local system by tunneling over the internet."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "AnyDesk",
+   "evidence": "AnyDesk Enables remote access to network devices for management, bypassing security alerts due to AnyDesk being a legitimate application."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "Social Engineering",
+   "evidence": "Scattered Spider threat actors use multiple social engineering techniques—including push bombing—and subscriber identity module (SIM) swap attacks, to obtain credentials, install remote access tools, and/or bypass multi-factor authentication (MFA)."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "Phishing",
+   "evidence": "Scattered Spider threat actors Posed as company IT and/or helpdesk staff using phone calls or SMS messages to obtain credentials from employees and gain access to the network [T1598] [T1656]."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "Remote Access",
+   "evidence": "Scattered Spider threat actors Posed as company IT and/or helpdesk staff to direct employees to run commercial remote access tools enabling initial access [T1204] [T1219] [T1566]."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "Multi-Factor Authentication Bypass",
+   "evidence": "Scattered Spider threat actors Posed as IT staff to convince employees to share their one-time password (OTP), an MFA authentication code."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "MFA Fatigue",
+   "evidence": "Sent repeated MFA notification prompts leading to employees pressing the “Accept” button (also known as MFA fatigue) [T1621]."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "SIM Swap",
+   "evidence": "Convinced cellular carriers to transfer control of a targeted user’s phone number to a SIM card in their possession, gaining control over the phone and access to MFA prompts."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "Data Exfiltration",
+   "evidence": "Scattered Spider threat actors have observably exfiltrated data [TA0010] after gaining access and threatened to release it without deploying ransomware."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "Ransomware",
+   "evidence": "DragonForce Ransomware Infiltrates networks, encrypts data, and demands ransom."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "originates-from",
+   "target": "United States",
+   "evidence": "U.S. and international federal organizations identified new TTPs associated with the Scattered Spider cybercriminal group."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "originates-from",
+   "target": "Canada",
+   "evidence": "U.S. and international federal organizations identified new TTPs associated with the Scattered Spider cybercriminal group."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "originates-from",
+   "target": "Australia",
+   "evidence": "U.S. and international federal organizations identified new TTPs associated with the Scattered Spider cybercriminal group."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "originates-from",
+   "target": "United Kingdom",
+   "evidence": "U.S. and international federal organizations identified new TTPs associated with the Scattered Spider cybercriminal group."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1589",
+   "evidence": "Scattered Spider threat actors gather usernames, passwords, and PII for targeted organizations."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1598",
+   "evidence": "Scattered Spider threat actors use phishing to obtain login credentials, gaining access to a targeted organization’s network."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1597.002",
+   "evidence": "Scattered Spider threat actors purchase credentials from illicit marketplaces."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1594",
+   "evidence": "Scattered Spider threat actors search targeted organization-owned websites to gather information such as work roles and contact information."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1566",
+   "evidence": "Scattered Spider threat actors use broad phishing attempts against a target to obtain information used to gain initial access."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1660",
+   "evidence": "Scattered Spider threat actors send SMS messages, known as smishing, when targeting an organization."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1566.004",
+   "evidence": "Scattered Spider threat actors use voice communications to convince IT help desk personnel to reset passwords and/or MFA tokens."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1199",
+   "evidence": "Scattered Spider threat actors abuse trusted relationships of contracted IT help desks to gain access to targeted organizations."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1078.002",
+   "evidence": "Scattered Spider threat actors obtain access to valid domain accounts to gain initial access to a targeted organization."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1648",
+   "evidence": "Scattered Spider threat actors use ETL tools to collect data in cloud environments."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1204",
+   "evidence": "Scattered Spider threat actors impersonating helpdesk personnel direct employees to run commercial remote access tools thereby enabling access to the targeted organization’s network."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "TA0003",
+   "evidence": "Scattered Spider threat actors seek to maintain persistence on a targeted organization’s network."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1136",
+   "evidence": "Scattered Spider threat actors create new user identities in the targeted organization."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1556.006",
+   "evidence": "Scattered Spider threat actors may modify MFA tokens to gain access to a targeted organization’s network."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1078",
+   "evidence": "Scattered Spider threat actors abuse and control valid accounts to maintain network access even when passwords are changed."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "TA0004",
+   "evidence": "Scattered Spider threat actors escalate account privileges when on a targeted organization’s network."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1484.002",
+   "evidence": "Scattered Spider threat actors add a federated identity provider to the targeted organization’s SSO tenant and activate automatic account linking."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1578.002",
+   "evidence": "Scattered Spider threat actors create cloud instances for use during lateral movement and data collection."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1656",
+   "evidence": "Scattered Spider threat actors pose as company IT and/or helpdesk staff to gain access to targeted organization’s networks."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "TA0006",
+   "evidence": "Scattered Spider threat actors use tools, such as Raccoon Stealer, to obtain login credentials."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1606",
+   "evidence": "Scattered Spider threat actors may forge MFA tokens to gain access to a targeted organization’s network."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1621",
+   "evidence": "Scattered Spider sends repeated MFA notification prompts to lead employees to accept the prompt and gain access to the target network."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1552.001",
+   "evidence": "Scattered Spider threat actors search for insecurely stored credentials on targeted organization’s systems."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1552.004",
+   "evidence": "Scattered Spider threat actors search for insecurely stored private keys on targeted organization’s systems."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1451",
+   "evidence": "Scattered Spider threat actors steal OTPs, credentials, and security answers."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "TA0007",
+   "evidence": "Upon gaining access to a targeted network, Scattered Spider threat actors seek out SharePoint sites, credential storage documentation, VMware vCenter, infrastructure backups and enumerate AD to identify useful information to support further operations."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1217",
+   "evidence": "Scattered Spider threat actors use tools (e.g., Raccoon Stealer) to obtain browser histories."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1538",
+   "evidence": "Scattered Spider threat actors leverage AWS Systems Manager Inventory to discover targets for lateral movement."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1083",
+   "evidence": "Scattered Spider threat actors search a compromised network to discover files and directories for further information or exploitation."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1018",
+   "evidence": "Scattered Spider threat actors search for infrastructure, such as remote systems, to exploit."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1539",
+   "evidence": "Scattered Spider threat actors use tools, such as Raccoon Stealer, to obtain browser cookies."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "TA0008",
+   "evidence": "Scattered Spider threat actors laterally move across a target network upon gaining access and establishing persistence."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1021.007",
+   "evidence": "Scattered Spider threat actors use pre-existing cloud instances for lateral movement and data collection."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1213.003",
+   "evidence": "Scattered Spider threat actors search code repositories for data collection and exfiltration."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1213.002",
+   "evidence": "Scattered Spider threat actors search SharePoint repositories for information."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1074",
+   "evidence": "Scattered Spider threat actors stage data from multiple data sources into a centralized database before exfiltration."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1114",
+   "evidence": "Scattered Spider threat actors search targeted organization’s emails to determine if the organization has detected the intrusion and initiated any security response."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1530",
+   "evidence": "Scattered Spider threat actors search data in cloud storage for collection and exfiltration."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1213.002",
+   "evidence": "Data from Information Repositories: SharePoint T1213.002 Scattered Spider threat actors search SharePoint repositories for information."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1074",
+   "evidence": "Data Staged T1074 Scattered Spider threat actors stage data from multiple data sources into a centralized database before exfiltration."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1114",
+   "evidence": "Email Collection T1114 Scattered Spider threat actors search targeted organization’s emails to determine if the organization has detected the intrusion and initiated any security response."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1530",
+   "evidence": "Data from Cloud Storage T1530 Scattered Spider threat actors search data in cloud storage for collection and exfiltration."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1219",
+   "evidence": "Remote Access Software T1219 Impersonating helpdesk personnel, Scattered Spider threat actors direct employees to run commercial remote access tools thereby enabling access to, and command and control of, the targeted organization’s network."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1090",
+   "evidence": "Proxy T1090 Scattered Spider threat actors use proxy networks to disguise the source of malicious traffic."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "TA0010",
+   "evidence": "Exfiltration TA0010 Scattered Spider threat actors exfiltrate data from a target network for data extortion."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1567",
+   "evidence": "Exfiltration Over Web Service T1567 Scattered Spider threat actors exfiltrate data using the Snowflake Data Cloud."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1486",
+   "evidence": "Data Encrypted for Impact T1486 Scattered Spider threat actors recently began encrypting data on a target network and demanding a ransom for decryption."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1567.002",
+   "evidence": "Exfiltration Over Web Service: Exfiltration to Cloud Storage T1567.002 Scattered Spider threat actors exfiltrate data to multiple sites including U.S.-based data centers and MEGA[.]NZ."
+  },
+  {
+   "source": "Scattered Spider",
+   "type": "uses",
+   "target": "T1657",
+   "evidence": "Financial Theft T1657 Scattered Spider threat actors monetized access to targeted organization’s networks in numerous ways including extortion-enabled ransomware and data theft."
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "qwen3:8b",
+  "seconds": 1287.4,
+  "errors": "2 unparsable chunk(s)"
+ }
+}

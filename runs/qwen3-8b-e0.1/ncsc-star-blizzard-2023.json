@@ -1,0 +1,441 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "Star Blizzard",
+   "evidence": "Russian FSB cyber actor Star Blizzard continues worldwide spear-phishing campaigns"
+  },
+  {
+   "type": "threat-actor",
+   "name": "Russian FSB",
+   "evidence": "The Russia-based actor is targeting organisations and individuals in the UK and other geographical areas of interest."
+  },
+  {
+   "type": "campaign",
+   "name": "spear-phishing campaigns",
+   "evidence": "The Russia-based actor Star Blizzard continues to successfully use spear-phishing attacks against targeted organisations and individuals in the UK"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "spear-phishing",
+   "evidence": "The activity is typical of spear-phishing campaigns, where an actor targets a specific individual or group"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1589",
+   "evidence": "Research and preparation... [T1589; T1593]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1593",
+   "evidence": "Research and preparation... [T1589; T1593]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1585.001",
+   "evidence": "Star Blizzard creates fake social media or networking profiles that impersonate respected experts [T1585.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1585.002",
+   "evidence": "Star Blizzard uses webmail addresses from different providers... [T1585.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1583.001",
+   "evidence": "Star Blizzard also creates malicious domains resembling legitimate organisations [T1583.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1566.002",
+   "evidence": "Once trust is established, the attacker uses typical phishing tradecraft and shares a link [T1566.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1566.001",
+   "evidence": "The malicious link may be a URL in an email message, or the actor may embed a link in a document [T1566.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1539",
+   "evidence": "Star Blizzard uses the open-source framework EvilGinx... [T1539; T1550.004]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1550.004",
+   "evidence": "Star Blizzard uses the open-source framework EvilGinx... [T1539; T1550.004]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1078",
+   "evidence": "Star Blizzard then uses the stolen credentials to log in to a target’s email account [T1078]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1114.002",
+   "evidence": "They are known to access and steal emails and attachments from the victim’s inbox [T1114.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1114.003",
+   "evidence": "They have also set up mail-forwarding rules, giving them ongoing visibility of victim correspondence [T1114.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1586.002",
+   "evidence": "They have also used compromised email accounts for further phishing activity [T1586.002]"
+  },
+  {
+   "type": "sector",
+   "name": "academia",
+   "evidence": "Since 2019, Star Blizzard has targeted sectors including academia, defence, governmental organisations, NGOs, think tanks and politicians."
+  },
+  {
+   "type": "sector",
+   "name": "defence",
+   "evidence": "Since 2019, Star Blizzard has targeted sectors including academia, defence, governmental organisations, NGOs, think tanks and politicians."
+  },
+  {
+   "type": "sector",
+   "name": "governmental organisations",
+   "evidence": "Since 2019, Star Blizzard has targeted sectors including academia, defence, governmental organisations, NGOs, think tanks and politicians."
+  },
+  {
+   "type": "sector",
+   "name": "NGOs",
+   "evidence": "Since 2019, Star Blizzard has targeted sectors including academia, defence, governmental organisations, NGOs, think tanks and politicians."
+  },
+  {
+   "type": "sector",
+   "name": "think tanks",
+   "evidence": "Since 2019, Star Blizzard has targeted sectors including academia, defence, governmental organisations, NGOs, think tanks and politicians."
+  },
+  {
+   "type": "sector",
+   "name": "politicians",
+   "evidence": "Since 2019, Star Blizzard has targeted sectors including academia, defence, governmental organisations, NGOs, think tanks and politicians."
+  },
+  {
+   "type": "country",
+   "name": "UK",
+   "evidence": "The Russia-based actor is targeting organisations and individuals in the UK and other geographical areas of interest."
+  },
+  {
+   "type": "country",
+   "name": "US",
+   "evidence": "Targets in the UK and US appear to have been most affected by Star Blizzard activity"
+  },
+  {
+   "type": "country",
+   "name": "Russia",
+   "evidence": "The Russia-based actor is targeting organisations and individuals in the UK and other geographical areas of interest."
+  },
+  {
+   "type": "organization",
+   "name": "UK National Cyber Security Centre (NCSC)",
+   "evidence": "The UK National Cyber Security Centre (NCSC), the US Cybersecurity and Infrastructure Security Agency (CISA), the US Federal Bureau of Investigation (FBI), the US National Security Agency (NSA), the US Cyber National Mission Force (CNMF), the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the Canadian Centre for Cyber Security (CCCS), and the New Zealand National Cyber Security Centre (NCSC-NZ) assess that Star Blizzard is almost certainly subordinate to the Russian Federal Security Service (FSB) Centre 18."
+  },
+  {
+   "type": "organization",
+   "name": "US Cybersecurity and Infrastructure Security Agency (CISA)",
+   "evidence": "The UK National Cyber Security Centre (NCSC), the US Cybersecurity and Infrastructure Security Agency (CISA), the US Federal Bureau of Investigation (FBI), the US National Security Agency (NSA), the US Cyber National Mission Force (CNMF), the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the Canadian Centre for Cyber Security (CCCS), and the New Zealand National Cyber Security Centre (NCSC-NZ) assess that Star Blizzard is almost certainly subordinate to the Russian Federal Security Service (FSB) Centre 18."
+  },
+  {
+   "type": "organization",
+   "name": "US Federal Bureau of Investigation (FBI)",
+   "evidence": "The UK National Cyber Security Centre (NCSC), the US Cybersecurity and Infrastructure Security Agency (CISA), the US Federal Bureau of Investigation (FBI), the US National Security Agency (NSA), the US Cyber National Mission Force (CNMF), the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the Canadian Centre for Cyber Security (CCCS), and the New Zealand National Cyber Security Centre (NCSC-NZ) assess that Star Blizzard is almost certainly subordinate to the Russian Federal Security Service (FSB) Centre 18."
+  },
+  {
+   "type": "organization",
+   "name": "US National Security Agency (NSA)",
+   "evidence": "The UK National Cyber Security Centre (NCSC), the US Cybersecurity and Infrastructure Security Agency (CISA), the US Federal Bureau of Investigation (FBI), the US National Security Agency (NSA), the US Cyber National Mission Force (CNMF), the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the Canadian Centre for Cyber Security (CCCS), and the New Zealand National Cyber Security Centre (NCSC-NZ) assess that Star Blizzard is almost certainly subordinate to the Russian Federal Security Service (FSB) Centre 18."
+  },
+  {
+   "type": "organization",
+   "name": "US Cyber National Mission Force (CNMF)",
+   "evidence": "The UK National Cyber Security Centre (NCSC), the US Cybersecurity and Infrastructure Security Agency (CISA), the US Federal Bureau of Investigation (FBI), the US National Security Agency (NSA), the US Cyber National Mission Force (CNMF), the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the Canadian Centre for Cyber Security (CCCS), and the New Zealand National Cyber Security Centre (NCSC-NZ) assess that Star Blizzard is almost certainly subordinate to the Russian Federal Security Service (FSB) Centre 18."
+  },
+  {
+   "type": "organization",
+   "name": "Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC)",
+   "evidence": "The UK National Cyber Security Centre (NCSC), the US Cybersecurity and Infrastructure Security Agency (CISA), the US Federal Bureau of Investigation (FBI), the US National Security Agency (NSA), the US Cyber National Mission Force (CNMF), the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the Canadian Centre for Cyber Security (CCCS), and the New Zealand National Cyber Security Centre (NCSC-NZ) assess that Star Blizzard is almost certainly subordinate to the Russian Federal Security Service (FSB) Centre 18."
+  },
+  {
+   "type": "organization",
+   "name": "Canadian Centre for Cyber Security (CCCS)",
+   "evidence": "The UK National Cyber Security Centre (NCSC), the US Cybersecurity and Infrastructure Security Agency (CISA), the US Federal Bureau of Investigation (FBI), the US National Security Agency (NSA), the US Cyber National Mission Force (CNMF), the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the Canadian Centre for Cyber Security (CCCS), and the New Zealand National Cyber Security Centre (NCSC-NZ) assess that Star Blizzard is almost certainly subordinate to the Russian Federal Security Service (FSB) Centre 18."
+  },
+  {
+   "type": "organization",
+   "name": "New Zealand National Cyber Security Centre (NCSC-NZ)",
+   "evidence": "The UK National Cyber Security Centre (NCSC), the US Cybersecurity and Infrastructure Security Agency (CISA), the US Federal Bureau of Investigation (FBI), the US National Security Agency (NSA), the US Cyber National Mission Force (CNMF), the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the Canadian Centre for Cyber Security (CCCS), and the New Zealand National Cyber Security Centre (NCSC-NZ) assess that Star Blizzard is almost certainly subordinate to the Russian Federal Security Service (FSB) Centre 18."
+  },
+  {
+   "type": "organization",
+   "name": "Microsoft Threat Intelligence Center (MSTIC)",
+   "evidence": "Microsoft Threat Intelligence Center (MSTIC) provides a list of observed Indicators of Compromise (IOCs) in their SEABORGIUM blog, but this is not exhaustive."
+  },
+  {
+   "type": "tool",
+   "name": "EvilGinx",
+   "evidence": "Star Blizzard uses the open-source framework EvilGinx in their spear-phishing activity, which allows them to harvest credentials and session cookies to successfully bypass the use of two-factor authentication [T1539; T1550.004]"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Star Blizzard",
+   "evidence": "Russian FSB cyber actor Star Blizzard continues worldwide spear-phishing campaigns"
+  },
+  {
+   "type": "threat-actor",
+   "name": "Russian FSB",
+   "evidence": "Russian FSB cyber actor Star Blizzard continues worldwide spear-phishing campaigns"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Spear-phishing",
+   "evidence": "Spear-phishing is an established technique used by many actors, and Star Blizzard uses it successfully"
+  },
+  {
+   "type": "tool",
+   "name": "EvilGinx",
+   "evidence": "Star Blizzard uses EvilGinx to steal the session cookies of victims directed to their fake log-in domains."
+  },
+  {
+   "type": "country",
+   "name": "Russia",
+   "evidence": "Russian FSB cyber actor Star Blizzard continues worldwide spear-phishing campaigns"
+  }
+ ],
+ "observables": [
+  {
+   "type": "domain-name",
+   "value": "outlook.com",
+   "indicates": [
+    "Star Blizzard"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "gmail.com",
+   "indicates": [
+    "Star Blizzard"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "yahoo.com",
+   "indicates": [
+    "Star Blizzard"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "proton mail",
+   "indicates": [
+    "Star Blizzard"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "malicious domains resembling legitimate organisations",
+   "indicates": [
+    "Star Blizzard"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "EvilGinx",
+   "indicates": [
+    "tool"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "Star Blizzard",
+   "type": "targets",
+   "target": "academia",
+   "evidence": "Since 2019, Star Blizzard has targeted sectors including academia, defence, governmental organisations, NGOs, think tanks and politicians."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "targets",
+   "target": "defence",
+   "evidence": "Since 2019, Star Blizzard has targeted sectors including academia, defence, governmental organisations, NGOs, think tanks and politicians."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "targets",
+   "target": "governmental organisations",
+   "evidence": "Since 2019, Star Blizzard has targeted sectors including academia, defence, governmental organisations, NGOs, think tanks and politicians."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "targets",
+   "target": "NGOs",
+   "evidence": "Since 2019, Star Blizzard has targeted sectors including academia, defence, governmental organisations, NGOs, think tanks and politicians."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "targets",
+   "target": "think tanks",
+   "evidence": "Since 2019, Star Blizzard has targeted sectors including academia, defence, governmental organisations, NGOs, think tanks and politicians."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "targets",
+   "target": "politicians",
+   "evidence": "Since 2019, Star Blizzard has targeted sectors including academia, defence, governmental organisations, NGOs, think tanks and politicians."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "targets",
+   "target": "UK",
+   "evidence": "The Russia-based actor is targeting organisations and individuals in the UK and other geographical areas of interest."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "targets",
+   "target": "US",
+   "evidence": "Targets in the UK and US appear to have been most affected by Star Blizzard activity"
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "targets",
+   "target": "Russia",
+   "evidence": "The Russia-based actor is targeting organisations and individuals in the UK and other geographical areas of interest."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "T1589",
+   "evidence": "Research and preparation... [T1589; T1593]"
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "T1593",
+   "evidence": "Research and preparation... [T1589; T1593]"
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "T1585.001",
+   "evidence": "Star Blizzard creates fake social media or networking profiles that impersonate respected experts [T1585.001]"
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "T1585.002",
+   "evidence": "Star Blizzard uses webmail addresses from different providers... [T1585.002]"
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "T1583.001",
+   "evidence": "Star Blizzard also creates malicious domains resembling legitimate organisations [T1583.001]"
+  },
+  {
+   "source": "Star, Blizzard",
+   "type": "uses",
+   "target": "T1566.002",
+   "evidence": "Once trust is established, the attacker uses typical phishing tradecraft and shares a link [T1566.002]"
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "T1566.001",
+   "evidence": "The malicious link may be a URL in an email message, or the actor may embed a link in a document [T1566.001]"
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "T1539",
+   "evidence": "Star Blizzard uses the open-source framework EvilGinx... [T1539; T1550.004]"
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "T1550.004",
+   "evidence": "Star Blizzard uses the open-source framework EvilGinx... [T1539; T1550.004]"
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "T1078",
+   "evidence": "Star Blizzard then uses the stolen credentials to log in to a target’s email account [T1078]"
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "T1114.002",
+   "evidence": "They are known to access and steal emails and attachments from the victim’s inbox [T1114.002]"
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "They have also set up mail-forwarding rules, giving them ongoing visibility of victim correspondence [T1114.003]"
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "T1586.002",
+   "evidence": "They have also used compromised email accounts for further phishing activity [T1586.002]"
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "EvilGinx",
+   "evidence": "Star Blizzard uses the open-source framework EvilGinx in their spear-phishing activity, which allows them to harvest credentials and session cookies to successfully bypass the use of two-factor authentication [T1539; T1550.004]"
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "originates-from",
+   "target": "Russia",
+   "evidence": "The Russia-based actor is targeting organisations and individuals in the UK and other geographical areas of interest."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "attributed-to",
+   "target": "Russian FSB",
+   "evidence": "The UK National Cyber Security Centre (NCSC), the US Cybersecurity and Infrastructure Security Agency (CISA), the US Federal Bureau of Investigation (FBI), the US National Security Agency (NSA), the US Cyber National Mission Force (CNMF), the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the Canadian Centre for Cyber Security (CCCS), and the New Zealand National Cyber Security Centre (NCSC-NZ) assess that Star Blizzard is almost certainly subordinate to the Russian Federal Security Service (FSB) Centre 18."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "Spear-phishing",
+   "evidence": "Spear-phishing is an established technique used by many actors, and Star Blizzard uses it successfully"
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "EvilGinx",
+   "evidence": "Star Blizzard uses EvilGinx to steal the session cookies of victims directed to their fake log-in domains."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "originates-from",
+   "target": "Russia",
+   "evidence": "Russian FSB cyber actor Star Blizzard continues worldwide spear-phishing campaigns"
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "Individuals and organisations from previously targeted sectors should be vigilant of the techniques described in this advisory."
+  },
+  {
+   "source": "EvilGinx",
+   "type": "exploits",
+   "target": "vulnerability",
+   "evidence": "Star Blizzard bypasses multi-factor authentication on victim email accounts by using session cookies stolen using EvilGinx."
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "qwen3:8b",
+  "seconds": 195.7,
+  "errors": ""
+ }
+}

@@ -1,0 +1,196 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "APT 29",
+   "evidence": "Russian Foreign Intelligence Service (SVR) cyber actors—also known as Advanced Persistent Threat 29 (APT 29), the Dukes, CozyBear, and Yttrium—will continue to seek intelligence from US and foreign entities through cyber exploitation"
+  },
+  {
+   "type": "threat-actor",
+   "name": "Russian Foreign Intelligence Service (SVR)",
+   "evidence": "Russian Foreign Intelligence Service (SVR) cyber actors—also known as Advanced Persistent Threat 29 (APT 29), the Dukes, CozyBear, and Yttrium—will continue to seek intelligence from US and foreign entities through cyber exploitation"
+  },
+  {
+   "type": "campaign",
+   "name": "SolarWinds compromise",
+   "evidence": "the White House released a statement on the recent SolarWinds compromise, attributing the activity to the SVR"
+  },
+  {
+   "type": "sector",
+   "name": "government",
+   "evidence": "SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies"
+  },
+  {
+   "type": "sector",
+   "name": "information technology",
+   "evidence": "SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies"
+  },
+  {
+   "type": "sector",
+   "name": "think tank and policy analysis",
+   "evidence": "SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies"
+  },
+  {
+   "type": "country",
+   "name": "Russia",
+   "evidence": "Russian Foreign Intelligence Service (SVR)"
+  },
+  {
+   "type": "organization",
+   "name": "Federal Bureau of Investigation (FBI)",
+   "evidence": "The Federal Bureau of Investigation (FBI) and US Department of Homeland Security (DHS) assess"
+  },
+  {
+   "type": "organization",
+   "name": "US Department of Homeland Security (DHS)",
+   "evidence": "The Federal Bureau of Investigation (FBI) and US Department of Homeland Security (DHS) assess"
+  },
+  {
+   "type": "organization",
+   "name": "Cybersecurity and Infrastructure Security Agency (CISA)",
+   "evidence": "For additional detailed information on identified vulnerabilities and mitigations, see the National Security Agency (NSA), Cybersecurity and Infrastructure Security Agency (CISA), and FBI Cybersecurity Advisory titled “Russian SVR Targets U.S. and Allied Networks,” released on 15 April 2021."
+  },
+  {
+   "type": "organization",
+   "name": "National Security Agency (NSA)",
+   "evidence": "For additional detailed information on identified vulnerabilities and mitigations, see the National Security Agency (NSA), Cybersecurity and Infrastructure Security Agency (CISA), and FBI Cybersecurity Advisory titled “Russian SVR Targets U.S. and Allied Networks,” released on 15 April 2021."
+  },
+  {
+   "type": "threat-actor",
+   "name": "Russian Foreign Intelligence Service (SVR)",
+   "evidence": "Russian Foreign Intelligence Service (SVR) Cyber Operations: Trends and Best Practices for Network Defenders"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT 29",
+   "evidence": "the governments of the United Kingdom, Canada, and the United States attributed intrusions... to APT 29"
+  },
+  {
+   "type": "malware",
+   "name": "WELLMESS",
+   "evidence": "malware known as WELLMESS to APT 29"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-19781",
+   "evidence": "SVR actors used CVE-2019-19781, a zero-day exploit at the time"
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz",
+   "evidence": "open source credential-dumping too"
+  },
+  {
+   "type": "tool",
+   "name": "Cobalt Strike",
+   "evidence": "commercially available exploitation tool"
+  }
+ ],
+ "observables": [
+  {
+   "type": "domain-name",
+   "value": "cock[.]li",
+   "indicates": [
+    "SVR cyber personas"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "government",
+   "evidence": "SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies"
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "information technology",
+   "evidence": "SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies"
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "think tank and policy analysis",
+   "evidence": "SVR primarily targets government networks, think tank and policy analysis organizations, and information technology companies"
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "SolarWinds compromise",
+   "evidence": "the White House released a statement on the recent SolarWinds compromise, attributing the activity to the SVR"
+  },
+  {
+   "source": "Russian Foreign Intelligence Service (SVR)",
+   "type": "originates-from",
+   "target": "Russia",
+   "evidence": "Russian Foreign Intelligence Service (SVR)"
+  },
+  {
+   "source": "APT 29",
+   "type": "attributed-to",
+   "target": "Russian Foreign Intelligence Service (SVR)",
+   "evidence": "Russian Foreign Intelligence Service (SVR) cyber actors—also known as Advanced Persistent Threat 29 (APT 29), the Dukes, CozyBear, and Yttrium—will continue to seek intelligence from US and foreign entities through cyber exploitation"
+  },
+  {
+   "source": "SolarWinds compromise",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "the White House released a statement on the recent SolarWinds compromise, attributing the activity to the SVR"
+  },
+  {
+   "source": "SVR",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "the actors used dedicated VPSs located in the same country as the victim, probably to make it appear that the network traffic was not anomalous with normal activity."
+  },
+  {
+   "source": "SVR",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "SVR actors used CVE-2019-19781, a zero-day exploit at the time"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "malware",
+   "evidence": "the governments of the United Kingdom, Canada, and the United States attributed intrusions... to APT 29"
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "the previously-identified activity appeared to focus on targeting COVID-19 vaccine development"
+  },
+  {
+   "source": "SVR",
+   "type": "originates-from",
+   "target": "country",
+   "evidence": "the actors used dedicated VPSs located in the same country as the victim"
+  },
+  {
+   "source": "APT 29",
+   "type": "attributed-to",
+   "target": "threat-actor",
+   "evidence": "the governments of the United Kingdom, Canada, and the United States attributed intrusions... to APT 29"
+  },
+  {
+   "source": "SVR",
+   "type": "uses",
+   "target": "tool",
+   "evidence": "SVR cyber operators have used open source or commercially available tools... including Mimikatz"
+  },
+  {
+   "source": "SVR",
+   "type": "uses",
+   "target": "tool",
+   "evidence": "SVR cyber operators have used open source or commercially available tools... including Cobalt Strike"
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "qwen3:8b",
+  "seconds": 117.1,
+  "errors": ""
+ }
+}

@@ -1,0 +1,676 @@
+{
+ "entities": [
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-3519",
+   "evidence": "CVE-2023-3519 is an unauthenticated RCE vulnerability affecting the following versions of NetScaler ADC and NetScaler Gateway:"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-3519",
+   "evidence": "Threat Actors Exploiting Citrix CVE-2023-3519 to Implant Webshells"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1036.008",
+   "evidence": "collected data by uploading as an image file [T1036.008] to a web-accessible path"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1074",
+   "evidence": "cp /var/tmp/test.tar.gz /netscaler/ns_gui/vpn/medialogininit.png."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1016.001",
+   "evidence": "Verified outbound network connectivity with a ping command (ping -c 1 google.com)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1531",
+   "evidence": "The actors deleted the authorization configuration file (/etc/auth.conf)—likely to prevent configured users (e.g., admin) from logging in remotely (e.g., CLI) [T1531]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1090.001",
+   "evidence": "The actors likely used this to attempt proxying SMB traffic to the DC [T1090.001] (the victim observed SMB connections where the actors attempted to use the previously decrypted AD credential to authenticate with the DC from the ADC via a virtual machine)."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1036.005",
+   "evidence": "Threat actors uploaded a PHP webshell *logouttm.php* [T1036.005], likely as part of their initial exploit chain, to */netscaler/ns_gui/vpn/."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.004",
+   "evidence": "The actors implanted an Executable and Linkable Format (ELF) binary pykeygen that set user unique identifier (UID) to root and executed /bin/sh [T1059.004] via setuid and execve syscall."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1106",
+   "evidence": "The actors executed /bin/sh via syscall and change the UID to root."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1584",
+   "evidence": "The actors appeared to use compromised pfSense devices [T1584]; the victim observed communications with two pfSense IP addresses indicating the actor was using them for multi-hop proxying C2 traffic."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1588.002",
+   "evidence": "Threat actors leveraged open source webshells and other publicly available tools [T1588.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1090.003",
+   "evidence": "the victim observed communications with two pfSense IP addresses indicating the actor was using them for multi-hop proxying C2 traffic [T1090.003]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1140",
+   "evidence": "The webshell can decrypt it using an internally embedded RSA public key [T1140]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1074.001",
+   "evidence": "The actors' modifications to the tool wrote encoded captured credentials (20 random characters + reversed/base64) to a file created in a hard-coded path (/var/nslog/counters/prometheus/metrc_codes_client.log) [T1074.001]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1572",
+   "evidence": "Deployed LIGOLO-NG [5] tunneller with the filename the in the /tmp directory. LIGOLO-NG is a tunneller [T1572] written in Go that provides encrypted reverse TCP/TLS connections [T1573.002] to a remote host."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1573.002",
+   "evidence": "LIGOLO-NG is a tunneller [T1572] written in Go that provides encrypted reverse TCP/TLS connections [T1573.002] to a remote host."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1222.002",
+   "evidence": "Appended /flash/nsconfig/rc.netscaler with: chmod u+s /bin/sh"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1547",
+   "evidence": "The webshell was run on every reboot [T1547]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1070.004",
+   "evidence": "The actors deleted them from the system [T1070.004] as well as some access logs, error logs, and authentication logs."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1070.002",
+   "evidence": "The actors deleted them from the system [T1070.004] as well as some access logs, error logs, and authentication logs [T1070.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1036",
+   "evidence": "The actor has used the following file names for SECRETSAUCE: vpn[.]php, logout[.]php, log[.]php, prod[.]php [T1036]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059",
+   "evidence": "Command and Scripting Interpreter: Unix Shell [T1059.004]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1106",
+   "evidence": "Native API [T1106]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1547",
+   "evidence": "Boot or Logon Autostart Execution [T1547]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1090.003",
+   "evidence": "Proxy: Multi-hop Proxy [T1090.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1140",
+   "evidence": "Deobfuscate/Decode Files or Information [T1140]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1222.002",
+   "evidence": "File and Directory Permissions Modification: Linux and Mac File and Directory Permissions Modification [T1222.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1070",
+   "evidence": "Indicator Removal [T1070]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1070.002",
+   "evidence": "Indicator Removal: Clear Linux or Mac System Logs [T1070.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1036",
+   "evidence": "Masquerading [T1036]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1036.005",
+   "evidence": "Masquerading: Match Legitimate Name or Location [T1036.005]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1074.001",
+   "evidence": "Data Staged: Local Data Staging [T1074.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1572",
+   "evidence": "Protocol Tunneling [T1572]"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-3519",
+   "evidence": "Threat Actors Exploiting Citrix CVE-2023-3519 to Implant Webshells"
+  },
+  {
+   "type": "malware",
+   "name": "Webshell",
+   "evidence": "Review NetScaler ADC internal logs (sh.log*, bash.log*) for traces of potential malicious activity (some example keywords for grep are provided below): o database.php o ns_gui/vpn"
+  },
+  {
+   "type": "malware",
+   "name": "PHP",
+   "evidence": "Review NetScaler ADC internal logs (sh.log*, bash.log*) for traces of potential malicious activity (some example keywords for grep are provided below): o database.php o ns_gui/vpn"
+  },
+  {
+   "type": "malware",
+   "name": "ELF Binary",
+   "evidence": "File Name Description SHA-1 Hash MD5 Hash pykeygen ELF Binary b8f9258e9c7c882944e2b77355"
+  },
+  {
+   "type": "tool",
+   "name": "LIGOLO-NG",
+   "evidence": "File Name Description SHA-1 Hash MD5 Hash the LIGOLO-NG [3] tunneller dec36a2aa4ecb86eafd"
+  },
+  {
+   "type": "tool",
+   "name": "NPS",
+   "evidence": "File Name Description SHA-1 Hash MD5 Hash NPS NPS tunneller [4] ec17f7b3acb2334a062"
+  },
+  {
+   "type": "tool",
+   "name": "Neo-reGeorg",
+   "evidence": "[4] GitHub - L-codes/Neo-reGeorg: Neo-reGeorg is a project that seeks to aggressively refactor reGeorg"
+  },
+  {
+   "type": "tool",
+   "name": "php-stream-shell",
+   "evidence": "[2] GitHub - dxkite/php-stream-shell: a simple stream_wrapper shell"
+  },
+  {
+   "type": "tool",
+   "name": "injectme.c",
+   "evidence": "[3] GitHub - ssh-inject/injectme.c"
+  },
+  {
+   "type": "tool",
+   "name": "ligolo-ng",
+   "evidence": "[5] GitHub - nicocha30/ligolo-ng"
+  },
+  {
+   "type": "tool",
+   "name": "nps",
+   "evidence": "[6] GitHub - ehang-io/nps"
+  },
+  {
+   "type": "sector",
+   "name": "Energy",
+   "evidence": "The following resources may assist with detecting signs of compromise: • Mandiant: Exploitation of Citrix Zero-Day by Possible Espionage Actors (CVE-2023-3519)"
+  },
+  {
+   "type": "sector",
+   "name": "Finance",
+   "evidence": "The following resources may assist with detecting signs of compromise: • Mandiant: Exploitation of Citrix Zero-Day by Possible Espionage Actors (CVE-2023-3519)"
+  },
+  {
+   "type": "sector",
+   "name": "Health",
+   "evidence": "The following resources may assist with detecting signs of compromise: • Mandiant: Exploitation of Citrix Zero-Day by Possible Espionage Actors (CVE-2023-3519)"
+  },
+  {
+   "type": "sector",
+   "name": "Information Technologies Consulting",
+   "evidence": "The following resources may assist with detecting signs of compromise: • Mandiant: Exploitation of Citrix Zero-Day by Possible Espionage Actors (CVE-2023-3519)"
+  },
+  {
+   "type": "sector",
+   "name": "Telecommunications",
+   "evidence": "The following resources may assist with detecting signs of compromise: • Mandiant: Exploitation of Citrix Zero-Day by Possible Espionage Actors (CVE-2023-3519)"
+  },
+  {
+   "type": "sector",
+   "name": "Transport",
+   "evidence": "The following resources may assist with detecting signs of compromise: • Mandiant: Exploitation of Citrix Zero-Day by Possible Espionage Actors (CVE-2023-3519)"
+  },
+  {
+   "type": "sector",
+   "name": "Utilities",
+   "evidence": "The following resources may assist with detecting signs of compromise: • Mandiant: Exploitation of Citrix Zero-Day by Possible Espionage Actors (CVE-2023-3519)"
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "CISA recommends all organizations: • Install the relevant updated version of NetScaler ADC and NetScaler Gateway as soon as possible."
+  }
+ ],
+ "observables": [
+  {
+   "type": "domain-name",
+   "value": "cisa.gov",
+   "indicates": [
+    "organization"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "mitre.org",
+   "indicates": [
+    "organization"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "google.com",
+   "indicates": [
+    "organization"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "pykeygen",
+   "hash": "N/A",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "pip4",
+   "hash": "N/A",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "libnsd.so",
+   "hash": "N/A",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "SECRETSAUCE",
+   "hash": "N/A",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "defaults.php",
+   "hash": "N/A",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "the",
+   "hash": "N/A",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "NPS",
+   "hash": "N/A",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ADExplorer.exe",
+   "hash": "N/A",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.2.64[.]155",
+   "indicates": [
+    "vulnerability",
+    "malware"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.255.101[.]76",
+   "indicates": [
+    "vulnerability",
+    "malware"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "172.94.124[.]18",
+   "indicates": [
+    "vulnerability",
+    "malware"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "154.6.91[.]149",
+   "indicates": [
+    "vulnerability",
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Logouttm[.]php",
+   "hash": "3345ad8b43d6771532ca55acf7e95fe98aeadb27",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "pykeygen",
+   "hash": "b8f9258e9c7c882944e2b773557b49e5821517fe",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "info[.]php",
+   "hash": "55c83cb25be5c521e4874e22b1422c360abf0a29",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "NPS",
+   "hash": "ec17f7b3acb2334a062c37e0271c31c3c8b6879c",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "LIGOLO-NG",
+   "hash": "dec36a2aa4ecb86eafd01015e27c06f51d104317",
+   "indicates": [
+    "malware"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "CVE-2023-3519",
+   "type": "targets",
+   "target": "organization",
+   "evidence": "CVE-2023-3519 is an unauthenticated RCE vulnerability affecting the following versions of NetScaler ADC and NetScaler Gateway:"
+  },
+  {
+   "source": "CVE-2023-3519",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "The Cybersecurity and Infrastructure Security Agency (CISA) is releasing this Cybersecurity Advisory to warn network defenders about exploitation of CVE-2023-3519, an unauthenticated remote code execution (RCE) vulnerability affecting NetScaler (formerly Citrix) Application Delivery Controller (ADC) and NetScaler Gateway."
+  },
+  {
+   "source": "CVE-2023-3519",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "Threat Actors Exploiting Citrix CVE-2023-3519 to Implant Webshells"
+  },
+  {
+   "source": "T1036.008",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "collected data by uploading as an image file [T1036.008] to a web-accessible path"
+  },
+  {
+   "source": "T1074",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "cp /var/tmp/test.tar.gz /netscaler/ns_gui/vpn/medialogininit.png."
+  },
+  {
+   "source": "T1016.001",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Verified outbound network connectivity with a ping command (ping -c 1 google.com)"
+  },
+  {
+   "source": "T1531",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "The actors deleted the authorization configuration file (/etc/auth.conf)—likely to prevent configured users (e.g., admin) from logging in remotely (e.g., CLI) [T1531]."
+  },
+  {
+   "source": "T1090.001",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "The actors likely used this to attempt proxying SMB traffic to the DC [T1090.001] (the victim observed SMB connections where the actors attempted to use the previously decrypted AD credential to authenticate with the DC from the ADC via a virtual machine)."
+  },
+  {
+   "source": "T1036.005",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Threat actors uploaded a PHP webshell *logouttm.php* [T1036.005], likely as part of their initial exploit chain, to */netscaler/ns_gui/vpn/."
+  },
+  {
+   "source": "T1059.004",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "The actors implanted an Executable and Linkable Format (ELF) binary pykeygen that set user unique identifier (UID) to root and executed /bin/sh [T1059.004] via setuid and execve syscall."
+  },
+  {
+   "source": "T1106",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "The actors executed /bin/sh via syscall and change the UID to root."
+  },
+  {
+   "source": "T1584",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "The actors appeared to use compromised pfSense devices [T1584]; the victim observed communications with two pfSense IP addresses indicating the actor was using them for multi-hop proxying C2 traffic."
+  },
+  {
+   "source": "T1588.002",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Threat actors leveraged open source webshells and other publicly available tools [T1588.002]."
+  },
+  {
+   "source": "T1090.003",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "the victim observed communications with two pfSense IP addresses indicating the actor was using them for multi-hop proxying C2 traffic [T1090.003]."
+  },
+  {
+   "source": "T1140",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "The webshell can decrypt it using an internally embedded RSA public key [T1140]."
+  },
+  {
+   "source": "T1074.001",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "The actors' modifications to the tool wrote encoded captured credentials (20 random characters + reversed/base64) to a file created in a hard-coded path (/var/nslog/counters/prometheus/metrc_codes_client.log) [T1074.001]."
+  },
+  {
+   "source": "T1572",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Deployed LIGOLO-NG [5] tunneller with the filename the in the /tmp directory. LIGOLO-NG is a tunneller [T1572] written in Go that provides encrypted reverse TCP/TLS connections [T1573.002] to a remote host."
+  },
+  {
+   "source": "T1573.002",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "LIGOLO-NG is a tunneller [T1572] written in Go that provides encrypted reverse TCP/TLS connections [T1573.002] to a remote host."
+  },
+  {
+   "source": "T1222.002",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Appended /flash/nsconfig/rc.netscaler with: chmod u+s /bin/sh"
+  },
+  {
+   "source": "T1547",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "The webshell was run on every reboot [T1547]."
+  },
+  {
+   "source": "T1070.004",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "The actors deleted them from the system [T1070.004] as well as some access logs, error logs, and authentication logs."
+  },
+  {
+   "source": "T1070.002",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "The actors deleted them from the system [T1070.004] as well as some access logs, error logs, and authentication logs [T1070.002]."
+  },
+  {
+   "source": "T1036",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "The actor has used the following file names for SECRETSAUCE: vpn[.]php, logout[.]php, log[.]php, prod[.]php [T1036]."
+  },
+  {
+   "source": "T1059",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Command and Scripting Interpreter: Unix Shell [T1059.004]"
+  },
+  {
+   "source": "T1106",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Native API [T1106]"
+  },
+  {
+   "source": "T1547",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Boot or Logon Autostart Execution [T1547]"
+  },
+  {
+   "source": "T1090.003",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Proxy: Multi-hop Proxy [T1090.003]"
+  },
+  {
+   "source": "T1140",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Deobfuscate/Decode Files or Information [T1140]"
+  },
+  {
+   "source": "T1222.002",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "File and Directory Permissions Modification: Linux and Mac File and Directory Permissions Modification [T1222.002]"
+  },
+  {
+   "source": "T1070",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Indicator Removal [T1070]"
+  },
+  {
+   "source": "T1070.002",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Indicator Removal: Clear Linux or Mac System Logs [T1070.002]"
+  },
+  {
+   "source": "T1036",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Masquerading [T1036]"
+  },
+  {
+   "source": "T1036.005",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Masquerading: Match Legitimate Name or Location [T1036.005]"
+  },
+  {
+   "source": "T1074.001",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Data Staged: Local Data Staging [T1074.001]"
+  },
+  {
+   "source": "T1572",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Protocol Tunneling [T1572]"
+  },
+  {
+   "source": "vulnerability",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "The following resources may assist with detecting signs of compromise: • Mandiant: Exploitation of Citrix Zero-Day by Possible Espionage Actors (CVE-2023-3519)"
+  },
+  {
+   "source": "malware",
+   "type": "exploits",
+   "target": "vulnerability",
+   "evidence": "Threat Actors Exploiting Citrix CVE-2023-3519 to Implant Webshells"
+  },
+  {
+   "source": "malware",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "The following resources may assist with detecting signs of compromise: • Mandiant: Exploitation of Citrix Zero-Day by Possible Espionage Actors (CVE-2023-3519)"
+  },
+  {
+   "source": "tool",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "The following resources may assist with detecting signs of compromise: • Mandiant: Exploitation of Citrix Zero-Day by Possible Espionage Actors (CVE-2023-3519)"
+  },
+  {
+   "source": "country",
+   "type": "originates-from",
+   "target": "malware",
+   "evidence": "CISA recommends all organizations: • Install the relevant updated version of NetScaler ADC and NetScaler Gateway as soon as possible."
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "qwen3:8b",
+  "seconds": 771.4,
+  "errors": "1 unparsable chunk(s)"
+ }
+}

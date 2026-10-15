@@ -1,0 +1,268 @@
+{
+ "entities": [
+  {
+   "type": "malware",
+   "name": "Jaguar Tooth",
+   "evidence": "Jaguar Tooth is non-persistent malware that targets Cisco IOS routers."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2017-6742",
+   "evidence": "It is deployed and executed via exploitation of the patched SNMP vulnerability CVE-2017-6742."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1556",
+   "evidence": "Jaguar Tooth patches two authentication functions to grant access to local accounts for Telnet and physical sessions, without checking the provided password."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1601.001",
+   "evidence": "Jaguar Tooth patches the system image in memory to enable a user authentication bypass."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1190",
+   "evidence": "Jaguar Tooth is deployed via an SNMP exploit which grants remote code execution and write-access to the target operating system."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1048.003",
+   "evidence": "Jaguar Tooth exfiltrates collected device information over TFTP."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1020",
+   "evidence": "Jaguar Tooth contains a hard-coded list of Cisco IOS CLI and Tcl commands which are automatically executed and the results exfiltrated over TFTP."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1119",
+   "evidence": "Jaguar Tooth contains a hard-coded list of Cisco IOS CLI and Tcl commands which are automatically executed and the results exfiltrated over TFTP."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1602.002",
+   "evidence": "Jaguar Tooth utilises a Cisco IOS CLI command to dump the current device running configuration."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1018",
+   "evidence": "Jaguar Tooth performs remote system discovery by utilising Cisco IOS CLI commands to obtain ARP and connected devices information."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1083",
+   "evidence": "Jaguar Tooth enumerates the local flash filesystem by utilising a Cisco IOS CLI command."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1016",
+   "evidence": "Jaguar Tooth utilises several Cisco IOS CLI commands to discover the system network configuration."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1082",
+   "evidence": "Jaguar Tooth discovers system information such as interfaces and software versioning by utilising several Cisco IOS CLI commands."
+  },
+  {
+   "type": "malware",
+   "name": "Jaguar Tooth",
+   "evidence": "Jaguar Tooth is non-persistent malware that targets Cisco IOS routers."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-0418",
+   "evidence": "The vulnerability occurs within k_alpsRemPeerConnEntry_get (0x60E72178), part of AirLine Protocol Support (ALPS), where a long enough OID causes a stack-based buffer overflow."
+  },
+  {
+   "type": "sector",
+   "name": "Technology",
+   "evidence": "Jaguar Tooth targets Cisco IOS routers, which are part of the Technology sector."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Buffer overflow",
+   "evidence": "The vulnerability occurs within k_alpsRemPeerConnEntry_get (0x60E72178), part of AirLine Protocol Support (ALPS), where a long enough OID causes a stack-based buffer overflow."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit padding",
+   "evidence": "This signature detects the Jaguar Tooth exploit padding."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Payload deployment",
+   "evidence": "This signature detects the Jaguar Tooth payload deployment."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Backdoor access",
+   "evidence": "Jaguar Tooth has been observed being deployed via multiple SNMP exploit packets. Whilst the payloads deployed are basic, combined with the exploit this malware is assessed to be of low to medium sophistication."
+  }
+ ],
+ "observables": [
+  {
+   "type": "ipv4-addr",
+   "value": "[IP ADDRESS]",
+   "indicates": [
+    "Jaguar Tooth"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "[URL PAGE]",
+   "indicates": [
+    "Jaguar Tooth"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "any",
+   "indicates": [
+    "Jaguar Tooth exploit padding",
+    "Jaguar Tooth payload deployment"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "any",
+   "indicates": [
+    "Jaguar Tooth backdoor patch deployment"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "any",
+   "indicates": [
+    "Jaguar Tooth exploit padding",
+    "Jaguar Tooth payload deployment"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "any",
+   "indicates": [
+    "Jaguar Tooth backdoor patch deployment"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "JaguarTooth_Cisco_IOS_payload",
+   "hash": "unknown",
+   "indicates": [
+    "Jaguar Tooth Cisco IOS malware"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "Jaguar Tooth",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "It is deployed and executed via exploitation of the patched SNMP vulnerability CVE-2017-6742."
+  },
+  {
+   "source": "Jaguar Tooth",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Jaguar Tooth patches two authentication functions to grant access to local accounts for Telnet and physical sessions, without checking the provided password."
+  },
+  {
+   "source": "Jaguar Tooth",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Jaguar Tooth patches the system image in memory to enable a user authentication bypass."
+  },
+  {
+   "source": "Jaguar Tooth",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Jaguar Tooth is deployed via an SNMP exploit which grants remote code execution and write-access to the target operating system."
+  },
+  {
+   "source": "Jaguar Tooth",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Jaguar Tooth exfiltrates collected device information over TFTP."
+  },
+  {
+   "source": "Jaguar Tooth",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Jaguar Tooth contains a hard-coded list of Cisco IOS CLI and Tcl commands which are automatically executed and the results exfiltrated over TFTP."
+  },
+  {
+   "source": "Jaguar Tooth",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Jaguar Tooth utilises a Cisco IOS CLI command to dump the current device running configuration."
+  },
+  {
+   "source": "Jaguar Tooth",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Jaguar Tooth performs remote system discovery by utilising Cisco IOS CLI commands to obtain ARP and connected devices information."
+  },
+  {
+   "source": "Jaguar Tooth",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Jaguar Tooth enumerates the local flash filesystem by utilising a Cisco IOS CLI command."
+  },
+  {
+   "source": "Jaguar Tooth",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Jaguar Tooth utilises several Cisco IOS CLI commands to discover the system network configuration."
+  },
+  {
+   "source": "Jaguar Tooth",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Jaguar Tooth discovers system information such as interfaces and software versioning by utilising several Cisco IOS CLI commands."
+  },
+  {
+   "source": "Jaguar Tooth",
+   "type": "targets",
+   "target": "Technology",
+   "evidence": "Jaguar Tooth targets Cisco IOS routers, which are part of the Technology sector."
+  },
+  {
+   "source": "Jaguar Tooth",
+   "type": "exploits",
+   "target": "CVE-2023-0418",
+   "evidence": "The vulnerability occurs within k_alpsRemPeerConnEntry_get (0x60E72178), part of AirLine Protocol Support (ALPS), where a long enough OID causes a stack-based buffer overflow."
+  },
+  {
+   "source": "Jaguar Tooth",
+   "type": "uses",
+   "target": "Buffer overflow",
+   "evidence": "The vulnerability occurs within k_alpsRemPeerConnEntry_get (0x60E72178), part of AirLine Protocol Support (ALPS), where a long enough OID causes a stack-based buffer overflow."
+  },
+  {
+   "source": "Jaguar Tooth",
+   "type": "uses",
+   "target": "Exploit padding",
+   "evidence": "This signature detects the Jaguar Tooth exploit padding."
+  },
+  {
+   "source": "Jaguar Tooth",
+   "type": "uses",
+   "target": "Payload deployment",
+   "evidence": "This signature detects the Jaguar Tooth payload deployment."
+  },
+  {
+   "source": "Jaguar Tooth",
+   "type": "uses",
+   "target": "Backdoor access",
+   "evidence": "Jaguar Tooth has been observed being deployed via multiple SNMP exploit packets. Whilst the payloads deployed are basic, combined with the exploit this malware is assessed to be of low to medium sophistication."
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "qwen3:8b",
+  "seconds": 113.1,
+  "errors": ""
+ }
+}

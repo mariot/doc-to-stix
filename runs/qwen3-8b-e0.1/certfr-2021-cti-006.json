@@ -1,0 +1,443 @@
+{
+ "entities": [
+  {
+   "type": "malware",
+   "name": "Ryuk ransomware",
+   "evidence": "Ryuk ransomware was first observed in August 2018 [1]."
+  },
+  {
+   "type": "malware",
+   "name": "Hermes 2.1",
+   "evidence": "Ryuk is a variant of the Hermes 2.1 ransomware, sold on the underground forum exploit.in from February 2017 by the cybercriminal group CryptoTech for around 300 dollars [2]."
+  },
+  {
+   "type": "threat-actor",
+   "name": "CryptoTech",
+   "evidence": "The cybercriminal group CryptoTech confirmed that it was behind the ransomware and announced the forthcoming release of a new version of Hermes."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Bluenoroff",
+   "evidence": "A connection with the tactics, techniques and procedures (TTPs) of the Bluenoroff intrusion set, reportedly linked to North Korea, had been momentarily established by some editors."
+  },
+  {
+   "type": "organization",
+   "name": "ANSSI",
+   "evidence": "A Ryuk sample with worm-like capabilities allowing it to spread automatically within networks it infects, was discovered during an incident response handled by the ANSSI in early 2021."
+  },
+  {
+   "type": "organization",
+   "name": "Deloitte",
+   "evidence": "Deloitte researchers believe Ryuk is sold as a toolkit to attacker groups."
+  },
+  {
+   "type": "organization",
+   "name": "Ahnlab",
+   "evidence": "Ahnlab is a South Korean IT threat analysis and response company."
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk ransomware",
+   "evidence": "Ryuk is not officially a RaaS. However, it appears that several different attackers are involved in infection chains leading to the deployment of Ryuk."
+  },
+  {
+   "type": "malware",
+   "name": "Hermes 2.1",
+   "evidence": "The Hermes kit sold on the Dark Web did not contain any exploitation tool, forcing its buyers to compromise the victims using their own resources or those of an intermediary."
+  },
+  {
+   "type": "malware",
+   "name": "CryptoTech",
+   "evidence": "Ryuk is not officially a RaaS. However, it appears that several different attackers are involved in infection chains leading to the deployment of Ryuk."
+  },
+  {
+   "type": "malware",
+   "name": "Bluenoroff",
+   "evidence": "Ryuk is not officially a RaaS. However, it appears that several different attackers are involved in infection chains leading to the deployment of Ryuk."
+  },
+  {
+   "type": "malware",
+   "name": "More_Eggs",
+   "evidence": "More_Eggs is a JavaScript backdoor made available to certain affiliates by the service provider as malware-as-a-service Venom Spider (alias badbullzvenom), active since 2012."
+  },
+  {
+   "type": "malware",
+   "name": "Venom Spider",
+   "evidence": "More_Eggs is a JavaScript backdoor made available to certain affiliates by the service provider as malware-as-a-service Venom Spider (alias badbullzvenom), active since 2012."
+  },
+  {
+   "type": "malware",
+   "name": "SpicyOmelette",
+   "evidence": "More_Eggs is a JavaScript backdoor made available to certain affiliates by the service provider as malware-as-a-service Venom Spider (alias badbullzvenom), active since 2012."
+  },
+  {
+   "type": "malware",
+   "name": "Skid",
+   "evidence": "More_Eggs is a JavaScript backdoor made available to certain affiliates by the service provider as malware-as-a-service Venom Spider (alias badbullzvenom), active since 2012."
+  },
+  {
+   "type": "malware",
+   "name": "badbullzvenom",
+   "evidence": "More_Eggs is a JavaScript backdoor made available to certain affiliates by the service provider as malware-as-a-service Venom Spider (alias badbullzvenom), active since 2012."
+  },
+  {
+   "type": "malware",
+   "name": "TrickBot",
+   "evidence": "It is therefore possible that the same Ryuk and Conti user may use or be affiliated with the TrickBot distribution service."
+  },
+  {
+   "type": "malware",
+   "name": "Bazar",
+   "evidence": "It is therefore possible that the same Ryuk and Conti user may use or be affiliated with the TrickBot distribution service."
+  },
+  {
+   "type": "malware",
+   "name": "Buer",
+   "evidence": "It is therefore possible that the same Ryuk and Conti user may use or be affiliated with the TrickBot distribution service."
+  },
+  {
+   "type": "malware",
+   "name": "SilentNight",
+   "evidence": "It is therefore possible that the same Ryuk and Conti user may use or be affiliated with the TrickBot distribution service."
+  },
+  {
+   "type": "malware",
+   "name": "FIN6",
+   "evidence": "FIN6 or affiliated parties would clearly have been involved in Ryuk incidents in 2019 in which no intermediate payload of the type seen with previous loaders was observed."
+  },
+  {
+   "type": "malware",
+   "name": "UNC1878",
+   "evidence": "According to FireEye, UNC1878 is responsible for 83% of Ryuk infections in 2020 and is not believed to exfiltrate any information, unlike other Ryuk operators that may exfiltrate internal reconnaissance information from their victims’ networks."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.001",
+   "evidence": "The Ryuk ransomware remains particularly active in the second half of 2020. It differs from most other ransomwares in that at least one of its operators attacked hospitals during a pandemic, the absence of a dedicated data disclosure site and the extreme speed of execution (around a few hours) of the Bazar-Ryuk chain of infection."
+  },
+  {
+   "type": "sector",
+   "name": "Health",
+   "evidence": "The Ryuk ransomware remains particularly active in the second half of 2020. It differs from most other ransomwares in that at least one of its operators attacked hospitals during a pandemic, the absence of a dedicated data disclosure site and the extreme speed of execution (around a few hours) of the Bazar-Ryuk chain of infection."
+  },
+  {
+   "type": "tool",
+   "name": "Wake-On-LAN",
+   "evidence": "Ryuk looks for network shares on the victim IT infrastructure. To do so, some private IP ranges are scanned: ... Before this scan step, Ryuk reads through the victim’s ARP table and sends a Wake-On-LAN paquet to each host."
+  },
+  {
+   "type": "tool",
+   "name": "SMB",
+   "evidence": "Ryuk looks for network shares on the victim IT infrastructure. To do so, some private IP ranges are scanned: ... For each identified host, Ryuk will attempt to mount possible network shares using SMB enumeration."
+  },
+  {
+   "type": "tool",
+   "name": "schtasks.exe",
+   "evidence": "The scheduled task is created through a call to the schtasks.exe system tool, a native-Windows tool."
+  },
+  {
+   "type": "tool",
+   "name": "icacls",
+   "evidence": "The malware can launch icacls <path> /grant Everyone:F /T /C /Q to delete every access-based restrictions on files and directories."
+  },
+  {
+   "type": "tool",
+   "name": "wordpad.exe",
+   "evidence": "The fake DLL is locally launched through a scheduled task executing wordpad.exe <random>.dll."
+  },
+  {
+   "type": "tool",
+   "name": "RC4",
+   "evidence": "The malicious code is stored in the resource 11/943 of the binary and encrypted with the RC4 algorithm using the key pDkzˆq#+(2w&95."
+  },
+  {
+   "type": "tool",
+   "name": "RTF",
+   "evidence": "The RTF file contains the usual Ryuk message:: « balance of shadow universe »."
+  },
+  {
+   "type": "tool",
+   "name": "ICMP",
+   "evidence": "The program generates every possible IP addresses on local networks and sends an ICMP ping to each of them."
+  },
+  {
+   "type": "tool",
+   "name": "ARP",
+   "evidence": "Ryuk looks for network shares on the victim IT infrastructure. To do so, some private IP ranges are scanned: ... Before this scan step, Ryuk reads through the victim’s ARP table and sends a Wake-On-LAN paquet to each host."
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk ransomware",
+   "evidence": "The Ryuk Ransomware Named earlier in the document: Ryuk ransomware, Hermes 2.1, CryptoTech, Bluenoroff, CryptoTech, Bluenoroff, More_Eggs, Venom Spider, SpicyOmelette, badbullzvenom, TrickBot, Bazar, Buer, SilentNight, FIN6, UNC1878, Wake-On-LAN, SMB, schtasks.exe, icacls, wordpad.exe, RC4, RTF, ICMP, ARP"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Scheduled task creation",
+   "evidence": "Finally, it can remotely create a scheduled task to execute itself on this host.",
+   "mitre_id": "T1059.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Process termination",
+   "evidence": "The malware interrupts multiple programs based on hardcoded lists : • a list of 41 processes to be killed (task kill) ;",
+   "mitre_id": "T1012"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Service stop",
+   "evidence": "The malware interrupts multiple programs based on hardcoded lists : • and a list of 64 services to stop.",
+   "mitre_id": "T1012"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data encryption",
+   "evidence": "The files are encrypted using Microsoft CryptoAPI with AES256 algorithm.",
+   "mitre_id": "T1486"
+  },
+  {
+   "type": "tool",
+   "name": "schtasks.exe",
+   "evidence": "The scheduled task is created through a call to the schtasks.exe system tool, a native-Windows tool."
+  },
+  {
+   "type": "tool",
+   "name": "RC4",
+   "evidence": "The files are encrypted using Microsoft CryptoAPI with AES256 algorithm."
+  },
+  {
+   "type": "tool",
+   "name": "RSA public key",
+   "evidence": "The AES key is wrapped with a RSA public key stored in the binary code."
+  },
+  {
+   "type": "tool",
+   "name": "XML",
+   "evidence": "Example of scheduled tasks created by the propagation <?xml version=\"1.0\" encoding=\"UTF-16\"?>"
+  },
+  {
+   "type": "tool",
+   "name": "XML Task Scheduler",
+   "evidence": "Example of scheduled tasks created by the propagation <?xml version=\"1.0\" encoding=\"UTF-16\"?>"
+  },
+  {
+   "type": "tool",
+   "name": "XML Task Scheduler",
+   "evidence": "Example of scheduled tasks created by the propagation <?xml version=\"1.0\" encoding=\"UTF-16\"?>"
+  }
+ ],
+ "observables": [
+  {
+   "type": "ipv4-addr",
+   "value": "10.0.0.0/8",
+   "indicates": [
+    "Ryuk ransomware"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "172.16.0.0/16",
+   "indicates": [
+    "Ryuk ransomware"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "192.168.0.0/16",
+   "indicates": [
+    "Ryuk ransomware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "XkIiKWrgErep.exe",
+   "hash": "2820bf6bb2a2d0670c6233301b414ae293cf85536127ac63b2ebd07d8616ae89",
+   "indicates": [
+    "Ryuk ransomware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ryukreadme.html",
+   "hash": "",
+   "indicates": [
+    "Ryuk ransomware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "544900a527328f2e4fe7598985bc688f",
+   "hash": "MD5",
+   "indicates": [
+    "Ryuk ransomware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "453d355037fabfc9c200022d189b91310fc2577a",
+   "hash": "SHA-1",
+   "indicates": [
+    "Ryuk ransomware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "2820bf6bb2a2d0670c6233301b414ae293cf85536127ac63b2ebd07d8616ae89",
+   "hash": "SHA-256",
+   "indicates": [
+    "Ryuk ransomware"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "CryptoTech",
+   "type": "attributed-to",
+   "target": "Ryuk ransomware",
+   "evidence": "CryptoTech confirmed that it was behind the ransomware."
+  },
+  {
+   "source": "Ryuk ransomware",
+   "type": "variant-of",
+   "target": "Hermes 2.1",
+   "evidence": "Ryuk is a variant of the Hermes 2.1 ransomware."
+  },
+  {
+   "source": "Bluenoroff",
+   "type": "uses",
+   "target": "Hermes ransomware",
+   "evidence": "A connection with the tactics, techniques and procedures (TTPs) of the Bluenoroff intrusion set... had been momentarily established by some editors due to the use of the Hermes ransomware."
+  },
+  {
+   "source": "Ryuk ransomware",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "Ryuk does not have the capacity for automatic lateral movement within a network, hence the need for access via a first payload [1] or manual lateral movement."
+  },
+  {
+   "source": "Ryuk ransomware",
+   "type": "targets",
+   "target": "organization",
+   "evidence": "A Ryuk sample with worm-like capabilities allowing it to spread automatically within networks it infects, was discovered during an incident response handled by the ANSSI in early 2021."
+  },
+  {
+   "source": "Ryuk ransomware",
+   "type": "targets",
+   "target": "Health",
+   "evidence": "The Ryuk ransomware remains particularly active in the second half of 2020. It differs from most other ransomwares in that at least one of its operators attacked hospitals during a pandemic, the absence of a dedicated data disclosure site and the extreme speed of execution (around a few hours) of the Bazar-Ryuk chain of infection."
+  },
+  {
+   "source": "Ryuk ransomware",
+   "type": "uses",
+   "target": "T1059.001",
+   "evidence": "The Ryuk ransomware remains particularly active in the second half of 2020. It differs from most other ransomwares in that at least one of its operators attacked hospitals during a pandemic, the absence of a dedicated data disclosure site and the extreme speed of execution (around a few hours) of the Bazar-Ryuk chain of infection."
+  },
+  {
+   "source": "Ryuk ransomware",
+   "type": "uses",
+   "target": "Wake-On-LAN",
+   "evidence": "Ryuk looks for network shares on the victim IT infrastructure. To do so, some private IP ranges are scanned: ... Before this scan step, Ryuk reads through the victim’s ARP table and sends a Wake-On-LAN paquet to each host."
+  },
+  {
+   "source": "Ryuk ransomware",
+   "type": "uses",
+   "target": "SMB",
+   "evidence": "Ryuk looks for network shares on the victim IT infrastructure. To do so, some private IP ranges are scanned: ... For each identified host, Ryuk will attempt to mount possible network shares using SMB enumeration."
+  },
+  {
+   "source": "Ryuk ransomware",
+   "type": "uses",
+   "target": "schtasks.exe",
+   "evidence": "The scheduled task is created through a call to the schtasks.exe system tool, a native-Windows tool."
+  },
+  {
+   "source": "Ryuk ransomware",
+   "type": "uses",
+   "target": "icacls",
+   "evidence": "The malware can launch icacls <path> /grant Everyone:F /T /C /Q to delete every access-based restrictions on files and directories."
+  },
+  {
+   "source": "Ryuk ransomware",
+   "type": "uses",
+   "target": "wordpad.exe",
+   "evidence": "The fake DLL is locally launched through a scheduled task executing wordpad.exe <random>.dll."
+  },
+  {
+   "source": "Ryuk ransomware",
+   "type": "uses",
+   "target": "RC4",
+   "evidence": "The malicious code is stored in the resource 11/943 of the binary and encrypted with the RC4 algorithm using the key pDkzˆq#+(2w&95."
+  },
+  {
+   "source": "Ryuk ransomware",
+   "type": "uses",
+   "target": "RTF",
+   "evidence": "The RTF file contains the usual Ryuk message:: « balance of shadow universe »."
+  },
+  {
+   "source": "Ryuk ransomware",
+   "type": "uses",
+   "target": "ICMP",
+   "evidence": "The program generates every possible IP addresses on local networks and sends an ICMP ping to each of them."
+  },
+  {
+   "source": "Ryuk ransomware",
+   "type": "uses",
+   "target": "ARP",
+   "evidence": "Ryuk looks for network shares on the victim IT infrastructure. To do so, some private IP ranges are scanned: ... Before this scan step, Ryuk reads through the victim’s ARP table and sends a Wake-On-LAN paquet to each host."
+  },
+  {
+   "source": "Ryuk ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Finally, it can remotely create a scheduled task to execute itself on this host."
+  },
+  {
+   "source": "Ryuk ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "The malware interrupts multiple programs based on hardcoded lists : • a list of 41 processes to be killed (task kill) ;"
+  },
+  {
+   "source": "Ryuk ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "The malware interrupts multiple programs based on hardcoded lists : • and a list of 64 services to stop."
+  },
+  {
+   "source": "Ryuk ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "The files are encrypted using Microsoft CryptoAPI with AES256 algorithm."
+  },
+  {
+   "source": "Ryuk ransomware",
+   "type": "uses",
+   "target": "tool",
+   "evidence": "The scheduled task is created through a call to the schtasks.exe system tool, a native-Windows tool."
+  },
+  {
+   "source": "Ryuk ransomware",
+   "type": "uses",
+   "target": "tool",
+   "evidence": "The files are encrypted using Microsoft CryptoAPI with AES256 algorithm."
+  },
+  {
+   "source": "Ryuk ransomware",
+   "type": "uses",
+   "target": "tool",
+   "evidence": "The AES key is wrapped with a RSA public key stored in the binary code."
+  },
+  {
+   "source": "Ryuk ransomware",
+   "type": "uses",
+   "target": "tool",
+   "evidence": "Example of scheduled tasks created by the propagation <?xml version=\"1.0\" encoding=\"UTF-16\"?>"
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "qwen3:8b",
+  "seconds": 846.2,
+  "errors": "4 unparsable chunk(s)"
+ }
+}

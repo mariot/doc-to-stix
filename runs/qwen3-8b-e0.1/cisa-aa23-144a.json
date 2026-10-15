@@ -1,0 +1,1231 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "Volt Typhoon",
+   "evidence": "also known as Volt Typhoon"
+  },
+  {
+   "type": "country",
+   "name": "People's Republic of China",
+   "evidence": "People’s Republic of China (PRC) state-sponsored cyber actor"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "living off the land",
+   "evidence": "One of the actor’s primary tactics, techniques, and procedures (TTPs) is living off the land"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Earthworm",
+   "evidence": "The actor has used Earthworm and a custom Fast Reverse Proxy (FRP) client"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1090",
+   "evidence": "hardcoded C2 callbacks [ T1090 ]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1082",
+   "evidence": "gather information about local drives [ T1082 ]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.003",
+   "evidence": "uses a command prompt [ T1059.003 ]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1047",
+   "evidence": "executed WMIC commands [ T1047 ]"
+  },
+  {
+   "type": "vulnerability",
+   "name": "T1003.003",
+   "evidence": "exfiltrate the ntds.dit file and the SYSTEM registry hive from Windows domain controllers (DCs) out of the network to perform password cracking [ T1003.003 ]"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Volt Typhoon",
+   "evidence": "Named earlier in the document: Volt Typhoon"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1047",
+   "evidence": "actor has executed WMIC commands [ T1047 ] to create a copy of the ntds.dit file"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1090",
+   "evidence": "The actor has used the following commands to enable port forwarding [ T1090 ] on the host"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.001",
+   "evidence": "The actor has used the following PowerShell [ T1059.001 ] command to identify successful logons to the host [ T1033 ]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1110",
+   "evidence": "If the actor is using brute force password attempts [ T1110 ] against a single user account"
+  },
+  {
+   "type": "tool",
+   "name": "Impacket",
+   "evidence": "The actor regularly employs the use of Impacket’s wmiexec"
+  },
+  {
+   "type": "tool",
+   "name": "Secretsdump.py",
+   "evidence": "In addition to the above TTPs used by the actor to copy the ntds.dit file, the following tools could be used by an actor to obtain the same information: Secretsdump.py"
+  },
+  {
+   "type": "tool",
+   "name": "Invoke-NinjaCopy",
+   "evidence": "In addition to the above TTPs used by the actor to copy the ntds.dit file, the following tools could be used by an actor to obtain the same information: Invoke-NinjaCopy"
+  },
+  {
+   "type": "tool",
+   "name": "DSInternals",
+   "evidence": "In addition to the above TTPs used by the actor to copy the ntds.dit file, the following tools could be used by an actor to obtain the same information: DSInternals"
+  },
+  {
+   "type": "tool",
+   "name": "FgDump",
+   "evidence": "In addition to the above TTPs used by the actor to copy the ntds.dit file, the following tools could be used by an actor to obtain the same information: FgDump"
+  },
+  {
+   "type": "tool",
+   "name": "Metasploit",
+   "evidence": "In addition to the above TTPs used by the actor to copy the ntds.dit file, the following tools could be used by an actor to obtain the same information: Metasploit"
+  },
+  {
+   "type": "tool",
+   "name": "PortProxy",
+   "evidence": "The actor has used the following commands to enable port forwarding [ T1090 ] on the host"
+  },
+  {
+   "type": "threat-actor",
+   "name": "People's Republic of China State-Sponsored Cyber Actor",
+   "evidence": "People's Republic of China State-Sponsored Cyber Actor Living off the Land to Evade Detection"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Volt Typhoon",
+   "evidence": "Named earlier in the document: Volt Typhoon"
+  },
+  {
+   "type": "tool",
+   "name": "Impacket",
+   "evidence": "The actor regularly employs the use of Impacket’s wmiexec"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1016",
+   "evidence": "Enumeration of the environment [ T1016 ]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1069.002",
+   "evidence": "Enumeration of the environment [ T1069.002 ]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1069.001",
+   "evidence": "Enumeration of the environment [ T1069.001 ]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1082",
+   "evidence": "Enumeration of the environment [ T1082 ]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1555",
+   "evidence": "Additional Credential Theft [ T1555 ]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1003",
+   "evidence": "Additional Credential Theft [ T1003 ]"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-40539",
+   "evidence": "Exploiting vulnerabilities [ T1190 ] in widely used software including, but not limited to: CVE-2021-40539—ManageEngine ADSelfService Plus."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-27860",
+   "evidence": "Exploiting vulnerabilities [ T1190 ] in widely used software including, but not limited to: CVE-2021-27860—FatPipe WARP, IPVPN, MPVPN."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1505.003",
+   "evidence": "Using webshells for persistence and exfiltration [ T1505.003 ]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1090.002",
+   "evidence": "Using compromised Small-Office Home-Office (SOHO) devices (e.g. routers) to obfuscate the source of the activity [ T1090.002 ]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1190",
+   "evidence": "Exploiting vulnerabilities [ T1190 ] in widely used software including, but not limited to:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1070.001",
+   "evidence": "The actor takes measures to hide their tracks, such as clearing logs [ T1070.001 ]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.001",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: certutil"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.001",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: dnscmd"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.001",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: ldifde"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.001",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: makecab"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.001",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: net user/group/use"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.001",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: netsh"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.001",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: nltest"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.001",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: ntdsutil"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.001",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: PowerShell"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.001",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: req query/save"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.001",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: systeminfo"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.001",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: tasklist"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.001",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: wevtutil"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.001",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: wmic"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.001",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: xcopy /no_think"
+  },
+  {
+   "type": "threat-actor",
+   "name": "People's Republic of China State-Sponsored Cyber Actor",
+   "evidence": "People's Republic of China State-Sponsored Cyber Actor Living off the Land to Evade Detection"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Volt Typhoon",
+   "evidence": "Named earlier in the document: Volt Typhoon"
+  },
+  {
+   "type": "malware",
+   "name": "Impacket",
+   "evidence": "Using open source “hacktools” tools, such as: Impacket"
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz.exe",
+   "evidence": "Using open source “hacktools” tools, such as: Mimikatz.exe"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1070",
+   "evidence": "Selective clearing of Windows Event Logs, system logs, and other technical artifacts to remove evidence of their intrusion activity [ T1070 ]"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVEs for ASUS, Cisco RV, Draytek Vigor, FatPipe IPVPN/MPVPN/WARP, Fortinet Fortigate, Netgear Prosafe, Zyxel USG devices",
+   "evidence": "Most common types include ASUS, Cisco RV, Draytek Vigor, FatPipe IPVPN/MPVPN/WARP, Fortinet Fortigate, Netgear Prosafe, and Zyxel USG devices."
+  },
+  {
+   "type": "sector",
+   "name": "Defense",
+   "evidence": "To detect Impacket usage, see the joint Cybersecurity Advisory: Impacket and Exfiltration Tool Used to Steal Sensitive Information from Defense Industrial Base Organization"
+  },
+  {
+   "type": "country",
+   "name": "People's Republic of China",
+   "evidence": "People's Republic of China State-Sponsored Cyber Actor"
+  },
+  {
+   "type": "threat-actor",
+   "name": "People's Republic of China State-Sponsored Cyber Actor",
+   "evidence": "People's Republic of China State-Sponsored Cyber Actor Living off the Land to Evade Detection"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Volt Typhoon",
+   "evidence": "Named earlier in the document: Volt Typhoon"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-facing Application",
+   "evidence": "Actor used public-facing applications to gain initial access to systems; in this case, Earthworm and PortProxy."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Windows Management Instrumentation",
+   "evidence": "The actor executed WMIC commands to create a copy of the SYSTEM registry."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "evidence": "The actor used a PowerShell command to identify successful logons to the host."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "evidence": "The actor used this primary command prompt to execute a query that collected information about the storage devices on the local host."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Shell",
+   "evidence": "The actor used backdoor web servers with web shells to establish persistence to systems, including some of the webshells being derived from Awen webshell."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal",
+   "evidence": "The actor selectively cleared Windows Event Logs, system logs, and other technical artifacts to remove evidence of their intrusion activity."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: Clear Windows Event Logs",
+   "evidence": "The actor cleared system event logs to hide activity of an intrusion."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: NTDS",
+   "evidence": "The actor may try to exfiltrate the ntds.dit file and the SYSTEM registry hive out of the network to perform password cracking."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force",
+   "evidence": "The actor attempted to gain access to accounts with multiple password attempts."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force: Password Spraying",
+   "evidence": "The actor used commonly used passwords against accounts to attempt to acquire valid credentials."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping",
+   "evidence": "The actor used additional commands to obtain credentials in the environment."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credentials from Password Stores",
+   "evidence": "The actors searched for common password storage locations."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Information Discovery",
+   "evidence": "The actors executed commands to gather information about local drives."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Owner/User Discovery",
+   "evidence": "The actors gathered information about successful logons to the host using a PowerShell command."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Permission Groups Discovery: Local Groups",
+   "evidence": "The actors attempt to find local system groups and permission settings."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Permission Groups Discovery: Domain Groups",
+   "evidence": "The actors used commands to enumerate the active directory structure."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "evidence": "The actors used commands to enumerate the network topology."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy",
+   "evidence": "The actors used commands to enable port forwarding on the host."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy: External Proxy",
+   "evidence": "The actors used compromised SOHO devices (e.g. routers) to obfuscate the source of their activity."
+  },
+  {
+   "type": "country",
+   "name": "China",
+   "evidence": "Nation-State Actor : China"
+  }
+ ],
+ "observables": [
+  {
+   "type": "ipv4-addr",
+   "value": "8080",
+   "indicates": [
+    "attack-pattern",
+    "Earthworm"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "8443",
+   "indicates": [
+    "attack-pattern",
+    "Earthworm"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "8043",
+   "indicates": [
+    "attack-pattern",
+    "Earthworm"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "8000",
+   "indicates": [
+    "attack-pattern",
+    "Earthworm"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "10443",
+   "indicates": [
+    "attack-pattern",
+    "Earthworm"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "cisco_up.exe",
+   "hash": "unknown",
+   "indicates": [
+    "attack-pattern",
+    "Earthworm"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "cl64.exe",
+   "hash": "unknown",
+   "indicates": [
+    "attack-pattern",
+    "Earthworm"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "vm3dservice.exe",
+   "hash": "unknown",
+   "indicates": [
+    "attack-pattern",
+    "Earthworm"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "watchdogd.exe",
+   "hash": "unknown",
+   "indicates": [
+    "attack-pattern",
+    "Earthworm"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Win.exe",
+   "hash": "unknown",
+   "indicates": [
+    "attack-pattern",
+    "Earthworm"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "WmiPreSV.exe",
+   "hash": "unknown",
+   "indicates": [
+    "attack-pattern",
+    "Earthworm"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "WmiPrvSE.exe",
+   "hash": "unknown",
+   "indicates": [
+    "attack-pattern",
+    "Earthworm"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "127.0.0.1",
+   "indicates": [
+    "tool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ntds.dit",
+   "hash": "",
+   "indicates": [
+    "attack-pattern",
+    "tool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ntds.jfm",
+   "hash": "",
+   "indicates": [
+    "attack-pattern",
+    "tool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "SECURITY",
+   "hash": "",
+   "indicates": [
+    "attack-pattern",
+    "tool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "SYSTEM",
+   "hash": "",
+   "indicates": [
+    "attack-pattern",
+    "tool"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "127.0.0.1",
+   "indicates": [
+    "tool",
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ss.dat",
+   "hash": "reg save hklm\\sam ss.dat",
+   "indicates": [
+    "tool",
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "sy.dat",
+   "hash": "reg save hklm\\system sy.dat",
+   "indicates": [
+    "tool",
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "putty.log",
+   "hash": "C:\\Windows\\temp\\putty.log",
+   "indicates": [
+    "tool",
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "tmp.log",
+   "hash": "C:\\Windows\\Temp\\tmp.log",
+   "indicates": [
+    "tool",
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "hp",
+   "hash": "xcopy C:\\windows\\temp\\hp d:\\{REDACTED}",
+   "indicates": [
+    "tool",
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "hp",
+   "hash": "xcopy C:\\windows\\temp\\hp d:\\{REDACTED}",
+   "indicates": [
+    "tool",
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "f4dd44bc19c19056794d29151a5b1bb76afd502388622e24c863a8494af147dd",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ef09b8ff86c276e9b475a6ae6b54f08ed77e09e169f7fc0872eb1d427ee27d31",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d6ebde42457fe4b2a927ce53fc36f465f0000da931cfab9b79a36083e914ceca",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "472ccfb865c81704562ea95870f60c08ef00bcd2ca1d7f09352398c05be5d05d",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "66a19f7d2547a8a85cee7a62d0b6114fd31afdee090bd43f36b89470238393d7",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "3c2fe308c0a563e06263bbacf793bbe9b2259d795fcc36b953793a7e499e7f71",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "41e5181b9553bbe33d91ee204fe1d2ca321ac123f9147bb475c0ed32f9488597",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c7fee7a3ffaf0732f42d89c4399cbff219459ae04a81fc6eff7050d53bd69b99",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "3a9d8bb85fbcfe92bae79d5ab18e4bca9eaf36cea70086e8d1ab85336c83945f",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "fe95a382b4f879830e2666473d662a24b34fccf34b6b3505ee1b62b32adafa15",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ee8df354503a56c62719656fae71b3502acf9f87951c55ffd955feec90a11484",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "One of the actor’s primary tactics, techniques, and procedures (TTPs) is living off the land"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "The actor has used Earthworm and a custom Fast Reverse Proxy (FRP) client"
+  },
+  {
+   "source": "attack-pattern",
+   "type": "exploits",
+   "target": "vulnerability",
+   "evidence": "exfiltrate the ntds.dit file and the SYSTEM registry hive from Windows domain controllers (DCs) out of the network to perform password cracking [ T1003.003 ]"
+  },
+  {
+   "source": "attack-pattern",
+   "type": "exploits",
+   "target": "vulnerability",
+   "evidence": "exfiltrate the ntds.dit file and the SYSTEM registry hive from Windows domain controllers (DCs) out of the network to perform password cracking [ T1003.003 ]"
+  },
+  {
+   "source": "attack-pattern",
+   "type": "exploits",
+   "target": "vulnerability",
+   "evidence": "exfiltrate the ntds.dit file and the SYSTEM registry hive from Windows domain controllers (DCs) out of the network to perform password cracking [ T1003.003 ]"
+  },
+  {
+   "source": "attack-pattern",
+   "type": "exploits",
+   "target": "vulnerability",
+   "evidence": "exfiltrate the ntds.dit file and the SYSTEM registry hive from Windows domain controllers (DCs) out of the network to perform password cracking [ T1003.003 ]"
+  },
+  {
+   "source": "attack-pattern",
+   "type": "exploits",
+   "target": "vulnerability",
+   "evidence": "exfiltrate the ntds.dit file and the SYSTEM registry hive from Windows domain controllers (DCs) out of the network to perform password cracking [ T1003.003 ]"
+  },
+  {
+   "source": "attack-pattern",
+   "type": "exploits",
+   "target": "vulnerability",
+   "evidence": "exfiltrate the ntds.dit file and the SYSTEM registry hive from Windows domain controllers (DCs) out of the network to perform password cracking [ T1003.003 ]"
+  },
+  {
+   "source": "attack-pattern",
+   "type": "exploits",
+   "target": "vulnerability",
+   "evidence": "exfiltrate the ntds.dit file and the SYSTEM registry hive from Windows domain controllers (DCs) out of the network to perform password cracking [ T1003.003 ]"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "actor has executed WMIC commands [ T1047 ] to create a copy of the ntds.dit file"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "The actor has used the following commands to enable port forwarding [ T1090 ] on the host"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "The actor has used the following PowerShell [ T1059.001 ] command to identify successful logons to the host [ T1033 ]"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "tool",
+   "evidence": "In addition to the above TTPs used by the actor to copy the ntds.dit file, the following tools could be used by an actor to obtain the same information: Secretsdump.py"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "tool",
+   "evidence": "In addition to the above TTPs used by the actor to copy the ntds.dit file, the following tools could be used by an actor to obtain the same information: Invoke-NinjaCopy"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "tool",
+   "evidence": "In addition to the above TTPs used by the actor to copy the ntds.dit file, the following tools could be used by an actor to obtain the same information: DSInternals"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "tool",
+   "evidence": "In addition to the above TTPs used by the actor to copy the ntds.dit file, the following tools could be used by an actor to obtain the same information: FgDump"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "tool",
+   "evidence": "In addition to the above TTPs used by the actor to copy the ntds.dit file, the following tools could be used by an actor to obtain the same information: Metasploit"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "tool",
+   "evidence": "The actor regularly employs the use of Impacket’s wmiexec"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "tool",
+   "evidence": "The actor has used the following commands to enable port forwarding [ T1090 ] on the host"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Exploiting vulnerabilities [ T1190 ] in widely used software including, but not limited to:"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using webshells for persistence and exfiltration [ T1505.003 ]"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using compromised Small-Office Home-Office (SOHO) devices (e.g. routers) to obfuscate the source of the activity [ T1090.002 ]"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: certutil"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: dnscmd"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: ldifde"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: makecab"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: net user/group/use"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: netsh"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: nltest"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: ntdsutil"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: PowerShell"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: req query/save"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: systeminfo"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: tasklist"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: wevtutil"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: wmic"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: xcopy /no_think"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "tool",
+   "evidence": "The actor regularly employs the use of Impacket’s wmiexec"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "tool",
+   "evidence": "The actor also used the following commands to identify additional opportunities for obtaining credentials in the environment"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "tool",
+   "evidence": "The actor executed the following additional commands"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "tool",
+   "evidence": "The actor takes measures to hide their tracks, such as clearing logs"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "The actor takes measures to hide their tracks, such as clearing logs [ T1070.001 ]"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Exploiting vulnerabilities [ T1190 ] in widely used software including, but not limited to:"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using webshells for persistence and exfiltration [ T1505.003 ]"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using compromised Small-Office Home-Office (SOHO) devices (e.g. routers) to obfuscate the source of the activity [ T1090.002 ]"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: certutil"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: dnscmd"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: ldifde"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: makecab"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: net user/group/use"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: netsh"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: nltest"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: ntdsutil"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: PowerShell"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: req query/save"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: systeminfo"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: tasklist"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: wevtutil"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: wmic"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include: xcopy /no_think"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Selective clearing of Windows Event Logs, system logs, and other technical artifacts to remove evidence of their intrusion activity [ T1070 ]"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "To detect Impacket usage, see the joint Cybersecurity Advisory: Impacket and Exfiltration Tool Used to Steal Sensitive Information from Defense Industrial Base Organization"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "originates-from",
+   "target": "country",
+   "evidence": "People's Republic of China State-Sponsored Cyber Actor"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "attributed-to",
+   "target": "People's Republic of China State-Sponsored Cyber Actor",
+   "evidence": "Named earlier in the document: Volt Typhoon"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "Most common types include ASUS, Cisco RV, Draytek Vigor, FatPipe IPVPN/MPVPN/WARP, Fortinet Fortigate, Netgear Prosafe, and Zyxel USG devices."
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "targets",
+   "target": "country",
+   "evidence": "Nation-State Actor : China"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "attributed-to",
+   "target": "People's Republic of China State-Sponsored Cyber Actor",
+   "evidence": "Named earlier in the document: Volt Typhoon"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Exploit Public-facing Application"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Windows Management Instrumentation"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Command and Scripting Interpreter: PowerShell"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Command and Scripting Interpreter: Windows Command Shell"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Server Software Component: Web Shell"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Indicator Removal"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Indicator Removal: Clear Windows Event Logs"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "OS Credential Dumping: NTDS"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Brute Force"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Brute Force: Password Spraying"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "OS Credential Dumping"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Credentials from Password Stores"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "System Information Discovery"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "System Owner/User Discovery"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Permission Groups Discovery: Local Groups"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Permission Groups Discovery: Domain Groups"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "System Network Configuration Discovery"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Proxy"
+  },
+  {
+   "source": "People's Republic of China State-Sponsored Cyber Actor",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Proxy: External Proxy"
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "qwen3:8b",
+  "seconds": 693.8,
+  "errors": ""
+ }
+}

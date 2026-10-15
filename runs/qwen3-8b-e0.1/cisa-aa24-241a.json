@@ -1,0 +1,771 @@
+{
+ "entities": [
+  {
+   "type": "threat-actor",
+   "name": "Iran-based Cyber Actors",
+   "evidence": "Iran-based Cyber Actors Enabling Ransomware Attacks on US Organizations"
+  },
+  {
+   "type": "campaign",
+   "name": "Ransomware Attacks on US Organizations",
+   "evidence": "Iran-based Cyber Actors Enabling Ransomware Attacks on US Organizations"
+  },
+  {
+   "type": "sector",
+   "name": "Education",
+   "evidence": "organizations across several sectors in the U.S. (including in the education, finance, healthcare, and defense sectors"
+  },
+  {
+   "type": "sector",
+   "name": "Finance",
+   "evidence": "organizations across several sectors in the U.S. (including in the education, finance, healthcare, and defense sectors"
+  },
+  {
+   "type": "sector",
+   "name": "Healthcare",
+   "evidence": "organizations across several sectors in the U.S. (including in the education, finance, healthcare, and defense sectors"
+  },
+  {
+   "type": "sector",
+   "name": "Defense",
+   "evidence": "organizations across several sectors in the U.S. (including in the education, finance, healthcare, and defense sectors"
+  },
+  {
+   "type": "sector",
+   "name": "Local Government",
+   "evidence": "organizations across several sectors in the U.S. (including in the education, finance, healthcare, and defense sectors as well as local government entities"
+  },
+  {
+   "type": "country",
+   "name": "Iran",
+   "evidence": "Iran-based Cyber Actors Enabling Ransomware Attacks on US Organizations"
+  },
+  {
+   "type": "organization",
+   "name": "FBI",
+   "evidence": "Federal Bureau of Investigation (FBI), Cybersecurity and Infrastructure Security Agency (CISA), and the Department of Defense Cyber Crime Center (DC3)"
+  },
+  {
+   "type": "organization",
+   "name": "CISA",
+   "evidence": "Federal Bureau of Investigation (FBI), Cybersecurity and Infrastructure Security Agency (CISA), and the Department of Defense Cyber Crime Center (DC3)"
+  },
+  {
+   "type": "organization",
+   "name": "DC3",
+   "evidence": "Federal Bureau of Investigation (FBI), Cybersecurity and Infrastructure Security Agency (CISA), and the Department of Defense Cyber Crime Center (DC3)"
+  },
+  {
+   "type": "organization",
+   "name": "NoEscape",
+   "evidence": "collaborated with the ransomware affiliates NoEscape[3], Ransomhouse[4], and ALPHV (aka BlackCat)"
+  },
+  {
+   "type": "organization",
+   "name": "Ransomhouse",
+   "evidence": "collaborated with the ransomware affiliates NoEscape[3], Ransomhouse[4], and ALPHV (aka BlackCat)"
+  },
+  {
+   "type": "organization",
+   "name": "ALPHV",
+   "evidence": "collaborated with the ransomware affiliates NoEscape[3], Ransomhouse[4], and ALPHV (aka BlackCat)"
+  },
+  {
+   "type": "organization",
+   "name": "BlackCat",
+   "evidence": "collaborated with the ransomware affiliates NoEscape[3], Ransomhouse[4], and ALPHV (aka BlackCat)"
+  },
+  {
+   "type": "organization",
+   "name": "Pay2Key",
+   "evidence": "late 2020 campaign known as Pay2Key.[5],[6]"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Iranian cyber actors",
+   "evidence": "FBI investigation identified that the Iranian cyber actors conduct malicious cyber activity"
+  },
+  {
+   "type": "threat-actor",
+   "name": "GOI",
+   "evidence": "the group maintains an association with the GOI"
+  },
+  {
+   "type": "malware",
+   "name": "Pay2Key",
+   "evidence": "the FBI assesses Pay2Key was an information operation"
+  },
+  {
+   "type": "tool",
+   "name": "AnyDesk",
+   "evidence": "Install \"AnyDesk\" remote access program as a backup access method"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1596",
+   "evidence": "Iranian cyber actors use Shodan (Shodan[.]io) to identify internet infrastructure hosting devices vulnerable to particular CVEs."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-24919",
+   "evidence": "As of July 2024, these actors have been observed scanning IP addresses hosting Check Point Security Gateways, probing for devices potentially vulnerable to CVE-2024-24919."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-3400",
+   "evidence": "As of April 2024, these actors have conducted mass scanning of IP addresses hosting Palo Alto Networks PAN-OS and GlobalProtect VPN devices."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-19781",
+   "evidence": "Historically, this group has exploited organizations by leveraging CVE-2019-19781 related to Citrix Netscaler."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-3519",
+   "evidence": "Historically, this group has exploited organizations by leveraging CVE-2023-3519 related to Citrix Netscaler."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-1388",
+   "evidence": "Historically, this group has exploited organizations by leveraging CVE-2022-1388 related to BIG-IP F5 devices."
+  },
+  {
+   "type": "sector",
+   "name": "Defense",
+   "evidence": "the group directs their activity towards countries and organizations consistent with Iranian state interests, and typically not of interest to the group’s ransomware affiliate contacts, such as U.S. defense sector networks"
+  },
+  {
+   "type": "country",
+   "name": "Iran",
+   "evidence": "Iran-based Cyber Actors"
+  },
+  {
+   "type": "organization",
+   "name": "Danesh Novin Sahand",
+   "evidence": "The group uses the Iranian company name Danesh Novin Sahand (identification number 14007585836), likely as a cover IT entity for the group’s malicious cyber activities."
+  },
+  {
+   "type": "threat-actor",
+   "name": "Iranian cyber actors",
+   "evidence": "Iranian cyber actors scan and exploit public-facing networking devices, including the following devices and associated CVEs:"
+  },
+  {
+   "type": "campaign",
+   "name": "Ransomware Attacks on US Organizations",
+   "evidence": "Iran-based Cyber Actors Enabling Ransomware Attacks on US Organizations"
+  },
+  {
+   "type": "malware",
+   "name": "Pay2Key",
+   "evidence": "Named earlier in the document: Iran-based Cyber Actors, Ransomware Attacks on US Organizations, Iranian cyber actors, GOI, Pay2Key, AnyDesk"
+  },
+  {
+   "type": "tool",
+   "name": "AnyDesk",
+   "evidence": "Iranian cyber actors install “AnyDesk” remote access program."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Search Open Technical Databases",
+   "evidence": "Iranian cyber actors use Shodan (Shodan[.]io) to identify internet infrastructure hosting devices vulnerable to particular CVEs.",
+   "mitre_id": "T1596"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "Iranian cyber actors scan and exploit public-facing networking devices, including the following devices and associated CVEs:",
+   "mitre_id": "T1190"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Shell",
+   "evidence": "Iranian cyber actors capture login credentials on compromised Netscaler devices via deployed webshell; create a directory on Netscaler devices for webshell deployment; deploy webshells on compromised Netscaler devices in two directories (observed closely after system owning patching); and place the malicious backdoor version.dll.",
+   "mitre_id": "T1505.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create Account (Local Account)",
+   "evidence": "Iranian cyber actors create local accounts on victim networks.",
+   "mitre_id": "T1136.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Manipulation",
+   "evidence": "Iranian cyber actors request exemptions to zero-trust application for tools they intend to deploy.",
+   "mitre_id": "T1098"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Scheduled Task/Job",
+   "evidence": "Iranian cyber actors implement a scheduled task that uses a DLL side-loading technique and a scheduled task that loads malware through back doors.",
+   "mitre_id": "T1053"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component",
+   "evidence": "Iranian cyber actors implement the daily creation of a Windows service task for persistence as detection and mitigation occur.",
+   "mitre_id": "T1505"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Local Accounts",
+   "evidence": "Iranian cyber actors repurpose compromised credentials (e.g., from a Netscaler device) to log into other applications.",
+   "mitre_id": "T1078.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Domain Accounts",
+   "evidence": "Iranian cyber actors repurpose administrative credentials of network admins to log into domain controllers and other infrastructure.",
+   "mitre_id": "T1078.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Impair Defenses: Disable or Modify Tools",
+   "evidence": "Iranian cyber actors use administrator credentials to disable antivirus and security software.",
+   "mitre_id": "T1562.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Impair Defenses: Downgrade Attack",
+   "evidence": "Iranian cyber actors lower PowerShell policies to a less secure level.",
+   "mitre_id": "T1562.010"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Input Capture",
+   "evidence": "Iranian cyber actors capture login credentials on compromised Netscaler devices via a deployed webshell.",
+   "mitre_id": "T1056"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting",
+   "evidence": "Iranian cyber actors use an admin account to initiate a remote desktop session to start Microsoft Windows PowerShell ISE.",
+   "mitre_id": "T1059.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter",
+   "evidence": "Iranian cyber actors enable servers to use Windows PowerShell Web Access.",
+   "mitre_id": "T1059.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Query Registry",
+   "evidence": "Iranian cyber actors export registry hives and network firewall configurations.",
+   "mitre_id": "T1012"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Domain Trust Discovery",
+   "evidence": "Iranian cyber actors exfiltrate account usernames from the domain controller and access configuration files and logs.",
+   "mitre_id": "T1482"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Access Software",
+   "evidence": "Iranian cyber actors install “AnyDesk” remote access program.",
+   "mitre_id": "T1219"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Protocol Tunneling",
+   "evidence": "Iranian cyber actors use ligolo / ligolo-ng for open source tunneling and ngrok[.]io NGROK to create outbound connections to a random subdomain.",
+   "mitre_id": "T1572"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-19781",
+   "evidence": "Iranian cyber actors scan and exploit public-facing networking devices, including the following devices and associated CVEs:"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-3519",
+   "evidence": "Iranian cyber actors scan and exploit public-facing networking devices, including the following devices and associated CVEs:"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-1388",
+   "evidence": "Iranian cyber actors scan and exploit public-facing networking devices, including the following devices and associated CVEs:"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21887",
+   "evidence": "Iranian cyber actors scan and exploit public-facing networking devices, including the following devices and associated CVEs:"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-3400",
+   "evidence": "Iranian cyber actors scan and exploit public-facing networking devices, including the following devices and associated CVEs:"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-24919",
+   "evidence": "Iranian cyber actors scan and exploit public-facing networking devices, including the following devices and associated CVEs:"
+  },
+  {
+   "type": "sector",
+   "name": "Defense",
+   "evidence": "The FBI has observed instances of the actors using compromised cloud service accounts to transmit data stolen from other compromised organizations."
+  },
+  {
+   "type": "sector",
+   "name": "Education",
+   "evidence": "The FBI has observed instances of the actors using compromised cloud service accounts to transmit data stolen from other compromised organizations."
+  },
+  {
+   "type": "country",
+   "name": "Iran",
+   "evidence": "Iran-based Cyber Actors Enabling Ransomware Attacks on US Organizations"
+  },
+  {
+   "type": "organization",
+   "name": "FBI",
+   "evidence": "FBI | CISA| DC3 TLP:CLEAR"
+  },
+  {
+   "type": "organization",
+   "name": "CISA",
+   "evidence": "FBI | CISA| DC3 TLP:CLEAR"
+  }
+ ],
+ "observables": [
+  {
+   "type": "domain-name",
+   "value": "Shodan[.]io",
+   "indicates": [
+    "attack-pattern",
+    "T1596"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "Catbox",
+   "indicates": [
+    "attack-pattern",
+    "T1059.001"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "ngrok[.]io",
+   "indicates": [
+    "attack-pattern",
+    "T1572"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "ligolo/ligolo-ng",
+   "indicates": [
+    "attack-pattern",
+    "T1572"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "AnyDesk",
+   "indicates": [
+    "tool"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "138.68.90[.]19",
+   "indicates": [
+    "Ransomware Attacks on US Organizations"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "167.99.202[.]130",
+   "indicates": [
+    "Ransomware Attacks on US Organizations"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "78.141.238[.]182",
+   "indicates": [
+    "Ransomware Attacks on US Organizations"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "51.16.51[.]81",
+   "indicates": [
+    "Ransomware Attacks on US Organizations"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "51.20.138[.]134",
+   "indicates": [
+    "Ransomware Attacks on US Organizations"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "134.209.30[.]220",
+   "indicates": [
+    "Ransomware Attacks on US Organizations"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "13.53.124[.]246",
+   "indicates": [
+    "Ransomware Attacks on US Organizations"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "api.gupdate[.]net",
+   "indicates": [
+    "Ransomware Attacks on US Organizations"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "githubapp[.]net",
+   "indicates": [
+    "Ransomware Attacks on US Organizations"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "login.forticloud[.]online",
+   "indicates": [
+    "Ransomware Attacks on US Organizations"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "fortigate.forticloud.[]online",
+   "indicates": [
+    "Ransomware Attacks on US Organizations"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "cloud.sophos[.]one",
+   "indicates": [
+    "Ransomware Attacks on US Organizations"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "Iran-based Cyber Actors",
+   "type": "targets",
+   "target": "Education",
+   "evidence": "organizations across several sectors in the U.S. (including in the education, finance, healthcare, and defense sectors"
+  },
+  {
+   "source": "Iran-based Cyber Actors",
+   "type": "targets",
+   "target": "Finance",
+   "evidence": "organizations across several sectors in the U.S. (including in the education, finance, healthcare, and defense sectors"
+  },
+  {
+   "source": "Iran-based Cyber Actors",
+   "type": "targets",
+   "target": "Healthcare",
+   "evidence": "organizations across several sectors in the U.S. (including in the education, finance, healthcare, and defense sectors"
+  },
+  {
+   "source": "Iran-based Cyber Actors",
+   "type": "targets",
+   "target": "Defense",
+   "evidence": "organizations across several sectors in the U.S. (including in the education, finance, healthcare, and defense sectors"
+  },
+  {
+   "source": "Iran-based Cyber Actors",
+   "type": "targets",
+   "target": "Local Government",
+   "evidence": "organizations across several sectors in the U.S. (including in the education, finance, healthcare, and defense sectors as well as local government entities"
+  },
+  {
+   "source": "Iran-based Cyber Actors",
+   "type": "targets",
+   "target": "Israel",
+   "evidence": "other countries (including in Israel, Azerbaijan, and the United Arab Emirates)"
+  },
+  {
+   "source": "Iran-based Cyber Actors",
+   "type": "targets",
+   "target": "Azerbaijan",
+   "evidence": "other countries (including in Israel, Azerbaijan, and the United Arab Emirates)"
+  },
+  {
+   "source": "Iran-based Cyber Actors",
+   "type": "targets",
+   "target": "United Arab Emirates",
+   "evidence": "other countries (including in Israel, Azerbaijan, and the United Arab Emirates)"
+  },
+  {
+   "source": "Iran-based Cyber Actors",
+   "type": "originates-from",
+   "target": "Iran",
+   "evidence": "Iran-based Cyber Actors Enabling Ransomware Attacks on US Organizations"
+  },
+  {
+   "source": "Iran-based Cyber Actors",
+   "type": "targets",
+   "target": "NoEscape",
+   "evidence": "collaborated with the ransomware affiliates NoEscape[3], Ransomhouse[4], and ALPHV (aka BlackCat)"
+  },
+  {
+   "source": "Iran-based Cyber Actors",
+   "type": "targets",
+   "target": "Ransomhouse",
+   "evidence": "collaborated with the ransomware affiliates NoEscape[3], Ransomhouse[4], and ALPHV (aka BlackCat)"
+  },
+  {
+   "source": "Iran-based Cyber Actors",
+   "type": "targets",
+   "target": "ALPHV",
+   "evidence": "collaborated with the ransomware affiliates NoEscape[3], Ransomhouse[4], and ALPHV (aka BlackCat)"
+  },
+  {
+   "source": "Iran-based Cyber Actors",
+   "type": "targets",
+   "target": "BlackCat",
+   "evidence": "collaborated with the ransomware affiliates NoEscape[3], Ransomhouse[4], and ALPHV (aka BlackCat)"
+  },
+  {
+   "source": "Iran-based Cyber Actors",
+   "type": "targets",
+   "target": "Pay2Key",
+   "evidence": "late 2020 campaign known as Pay2Key.[5],[6]"
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "targets",
+   "target": "Defense",
+   "evidence": "the group directs their activity towards countries and organizations consistent with Iranian state interests, and typically not of interest to the group’s ransomware affiliate contacts, such as U.S. defense sector networks"
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Iranian cyber actors use Shodan (Shodan[.]io) to identify internet infrastructure hosting devices vulnerable to particular CVEs."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "uses",
+   "target": "malware",
+   "evidence": "the FBI assesses Pay2Key was an information operation aimed at undermining the security of Israel-based cyber infrastructure."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "As of July 2024, these actors have been observed scanning IP addresses hosting Check Point Security Gateways, probing for devices potentially vulnerable to CVE-2024-24919."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "As of April 2024, these actors have conducted mass scanning of IP addresses hosting Palo Alto Networks PAN-OS and GlobalProtect VPN devices."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "Historically, this group has exploited organizations by leveraging CVE-2019-19781 related to Citrix Netscaler."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "Historically, this group has exploited organizations by leveraging CVE-2023-3519 related to Citrix Netscaler."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "Historically, this group has exploited organizations by leveraging CVE-2022-1388 related to BIG-IP F5 devices."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "originates-from",
+   "target": "Iran",
+   "evidence": "Iran-based Cyber Actors"
+  },
+  {
+   "source": "Pay2Key",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "the FBI assesses Pay2Key was an information operation aimed at undermining the security of Israel-based cyber infrastructure."
+  },
+  {
+   "source": "Pay2Key",
+   "type": "targets",
+   "target": "country",
+   "evidence": "the FBI assesses Pay2Key was an information operation aimed at undermining the security of Israel-based cyber infrastructure."
+  },
+  {
+   "source": "Pay2Key",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "the FBI assesses Pay2Key was an information operation aimed at undermining the security of Israel-based cyber infrastructure."
+  },
+  {
+   "source": "GOI",
+   "type": "attributed-to",
+   "target": "Iranian cyber actors",
+   "evidence": "the group maintains an association with the GOI"
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "uses",
+   "target": "Search Open Technical Databases",
+   "evidence": "Iranian cyber actors use Shodan (Shodan[.]io) to identify internet infrastructure hosting devices vulnerable to particular CVEs."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "uses",
+   "target": "Exploit Public-Facing Application",
+   "evidence": "Iranian cyber actors scan and exploit public-facing networking devices, including the following devices and associated CVEs:"
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "uses",
+   "target": "Server Software Component: Web Shell",
+   "evidence": "Iranian cyber actors capture login credentials on compromised Netscaler devices via deployed webshell; create a directory on Netscaler devices for webshell deployment; deploy webshells on compromised Netscaler devices in two directories (observed closely after system owning patching); and place the malicious backdoor version.dll."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "uses",
+   "target": "Create Account (Local Account)",
+   "evidence": "Iranian cyber actors create local accounts on victim networks."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "uses",
+   "target": "Account Manipulation",
+   "evidence": "Iranian cyber actors request exemptions to zero-trust application for tools they intend to deploy."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "uses",
+   "target": "Scheduled Task/Job",
+   "evidence": "Iranian cyber actors implement a scheduled task that uses a DLL side-loading technique and a scheduled task that loads malware through back doors."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "uses",
+   "target": "Server Software Component",
+   "evidence": "Iranian cyber actors implement the daily creation of a Windows service task for persistence as detection and mitigation occur."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "uses",
+   "target": "Valid Accounts: Local Accounts",
+   "evidence": "Iranian cyber actors repurpose compromised credentials (e.g., from a Netscaler device) to log into other applications."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "uses",
+   "target": "Valid Accounts: Domain Accounts",
+   "evidence": "Iranian cyber actors repurpose administrative credentials of network admins to log into domain controllers and other infrastructure."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "uses",
+   "target": "Impair Defenses: Disable or Modify Tools",
+   "evidence": "Iranian cyber actors use administrator credentials to disable antivirus and security software."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "uses",
+   "target": "Impair Defenses: Downgrade Attack",
+   "evidence": "Iranian cyber actors lower PowerShell policies to a less secure level."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "uses",
+   "target": "Input Capture",
+   "evidence": "Iranian cyber actors capture login credentials on compromised Netscaler devices via a deployed webshell."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "uses",
+   "target": "Command and Scripting",
+   "evidence": "Iranian cyber actors use an admin account to initiate a remote desktop session to start Microsoft Windows PowerShell ISE."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "uses",
+   "target": "Command and Scripting Interpreter",
+   "evidence": "Iranian cyber actors enable servers to use Windows PowerShell Web Access."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "uses",
+   "target": "Query Registry",
+   "evidence": "Iranian cyber actors export registry hives and network firewall configurations."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "uses",
+   "target": "Domain Trust Discovery",
+   "evidence": "Iranian cyber actors exfiltrate account usernames from the domain controller and access configuration files and logs."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "uses",
+   "target": "Remote Access Software",
+   "evidence": "Iranian cyber actors install “AnyDesk” remote access program."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "uses",
+   "target": "Protocol Tunneling",
+   "evidence": "Iranian cyber actors use ligolo / ligolo-ng for open source tunneling and ngrok[.]io NGROK to create outbound connections to a random subdomain."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "targets",
+   "target": "Defense",
+   "evidence": "The FBI has observed instances of the actors using compromised cloud service accounts to transmit data stolen from other compromised organizations."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "targets",
+   "target": "Education",
+   "evidence": "The FBI has observed instances of the actors using compromised cloud service accounts to transmit data stolen from other compromised organizations."
+  },
+  {
+   "source": "Iranian cyber actors",
+   "type": "originates-from",
+   "target": "Iran",
+   "evidence": "Iran-based Cyber Actors Enabling Ransomware Attacks on US Organizations"
+  },
+  {
+   "source": "Ransomware Attacks on US Organizations",
+   "type": "attributed-to",
+   "target": "Iranian cyber actors",
+   "evidence": "Iran-based Cyber Actors Enabling Ransomware Attacks on US Organizations"
+  },
+  {
+   "source": "Pay2Key",
+   "type": "variant-of",
+   "target": "Ransomware Attacks on US Organizations",
+   "evidence": "Named earlier in the document: Iran-based Cyber Actors, Ransomware Attacks on US Organizations, Iranian cyber actors, GOI, Pay2Key, AnyDesk"
+  },
+  {
+   "source": "AnyDesk",
+   "type": "uses",
+   "target": "Remote Access Software",
+   "evidence": "Iranian cyber actors install “AnyDesk” remote access program."
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "qwen3:8b",
+  "seconds": 837.2,
+  "errors": "1 unparsable chunk(s)"
+ }
+}

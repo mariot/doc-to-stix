@@ -1,0 +1,569 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "Cyber Army of Russia Reborn",
+   "evidence": "Pro-Russia hacktivist groups—Cyber Army of Russia Reborn (CARR), Z-Pentest, NoName057(16), Sector16, and affiliated groups—are capitalizing on the widespread prevalence of accessible VNC devices to execute attacks against critical infrastructure entities"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Z-Pentest",
+   "evidence": "Pro-Russia hacktivist groups—Cyber Army of Russia Reborn (CARR), Z-Pentest, NoName057(16), Sector16, and affiliated groups—are capitalizing on the widespread prevalence of accessible VNC devices to execute attacks against critical infrastructure entities"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "NoName057(16)",
+   "evidence": "Pro-Russia hacktivist groups—Cyber Army of Russia Reborn (CARR), Z-Pentest, NoName057(16), Sector16, and affiliated groups—are capitalizing on the widespread prevalence of accessible VNC devices to execute attacks against critical infrastructure entities"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Sector16",
+   "evidence": "Pro-Russia hacktivist groups—Cyber Army of Russia Reborn (CARR), Z-Pentest, NoName057(16), Sector16, and affiliated groups—are capitalizing on the widespread prevalence of accessible VNC devices to execute attacks against critical infrastructure entities"
+  },
+  {
+   "type": "sector",
+   "name": "Water and Wastewater Systems",
+   "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+  },
+  {
+   "type": "sector",
+   "name": "Food and Agriculture",
+   "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+  },
+  {
+   "type": "sector",
+   "name": "Energy",
+   "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+  },
+  {
+   "type": "country",
+   "name": "Russia",
+   "evidence": "Pro-Russia hacktivist groups—Cyber Army of Russia Reborn (CARR), Z-Pentest, NoName057(16), Sector16, and affiliated groups—are capitalizing on the widespread prevalence of accessible VNC devices to execute attacks against critical infrastructure entities"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Pro-Russia Hacktivists",
+   "evidence": "Pro-Russia hacktivist groups employ easily disseminated and replicated TTPs across various entities."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Sector16",
+   "evidence": "Members of Sector16 may have received indirect support from the Russian government in exchange for conducting specific cyber operations."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Z-Pentest",
+   "evidence": "Z-Pentest jointly claimed intrusion of a U.S. system with Sector16."
+  },
+  {
+   "type": "country",
+   "name": "Russia",
+   "evidence": "Members of Sector16 may have received indirect support from the Russian government."
+  },
+  {
+   "type": "sector",
+   "name": "Water and Wastewater",
+   "evidence": "these groups can indiscriminately compromise critical infrastructure entities, including those in the Water and Wastewater, Food and Agriculture, and Energy Sectors."
+  },
+  {
+   "type": "sector",
+   "name": "Food and Agriculture",
+   "evidence": "these groups can indiscriminately compromise critical infrastructure entities, including those in the Water and Wastewater, Food and Agriculture, and Energy Sectors."
+  },
+  {
+   "type": "sector",
+   "name": "Energy",
+   "evidence": "these groups can indiscriminately compromise critical infrastructure entities, including those in the Water and Wastewater, Food and Agriculture, and Energy Sectors."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Scan for vulnerable devices on the internet",
+   "evidence": "Scan for vulnerable devices on the internet [T0883] with open VNC ports [T1595.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Initiate temporary virtual private server (VPS)",
+   "evidence": "Initiate temporary virtual private server (VPS) [T1583.003] to execute password brute force software."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Use VNC software to access hosts",
+   "evidence": "Use VNC software to access hosts [T1021.005]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Confirm connection to the vulnerable device",
+   "evidence": "Confirm connection to the vulnerable device [T0886]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute force the password, if required",
+   "evidence": "Brute force the password, if required [T1110.003]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gain access to HMI devices",
+   "evidence": "Gain access to HMI devices [T0883], typically with default [T0812], weak, or no passwords [T0859]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Log the confirmed vulnerable device IP address, port, and password",
+   "evidence": "Log the confirmed vulnerable device IP address, port, and password."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Use HMI graphical interface to capture screen recordings",
+   "evidence": "Using the HMI graphical interface [T0823], capture screen recordings or intermittent screenshots while conducting the following actions, intending to affect productivity and cause additional costs [T0828]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify usernames/passwords",
+   "evidence": "Modify usernames/passwords [T0892];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify parameters",
+   "evidence": "Modify parameters [T0836];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify device name",
+   "evidence": "Modify device name [T0892];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify instrument settings",
+   "evidence": "Modify instrument settings [T0831];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable alarms",
+   "evidence": "Disable alarms [T0878];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create loss of view",
+   "evidence": "Create loss of view (a technique that mandates local hands-on operator intervention) [T0829];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Device restart or shutdown",
+   "evidence": "Device restart or shutdown [T0816]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Research the compromised device company",
+   "evidence": "Research the compromised device company after the intrusion [T1591]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning: Vulnerability Scanning",
+   "evidence": "Threat actors use open source tools to look for IP addresses in target countries with visible VNC services on common ports."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure: Virtual Private Server",
+   "evidence": "Threat actors use virtual infrastructure to obfuscate identifiers."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Internet Accessible Device",
+   "evidence": "Threat actors gain access through less secure HMI devices exposed to the internet."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Pro-Russia Hacktivists",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, Pro-Russia Hacktivists"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Vulnerability Scanning",
+   "evidence": "Vulnerability Scanning T1595.002 Threat actors use open source tools to look for IP addresses in target countries with visible VNC services on common ports."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure",
+   "evidence": "Acquire Infrastructure: Virtual Private Server T1583.003 Threat actors use virtual infrastructure to obfuscate identifiers."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Internet Accessible Device",
+   "evidence": "Internet Accessible Device T0883 Threat actors gain access through less secure HMI devices exposed to the internet."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "evidence": "Valid Accounts T0859 Threat actors use password guessing tools to access legitimate accounts on the HMI devices."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force: Password Spraying",
+   "evidence": "Brute Force: Password Spraying T1110.003 Threat actors use tools to rapidly guess common or simple passwords."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Default Credentials",
+   "evidence": "Default Credentials T0812 Threat actors seek and build libraries of known default passwords for control devices to access legitimate user accounts."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services",
+   "evidence": "Remote Services T0886 Threat actors leverage VNC services to access system HMI devices."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: VNC",
+   "evidence": "Remote Services: VNC T1021.005 Threat actors hunt VNC-enabled devices visible on the internet and connect with remote viewer software."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Graphical User Interface",
+   "evidence": "Graphical User Interface T0823 Threat actors interact with HMI devices via GUIs, attempting to modify control devices."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Device Restart/Shutdown",
+   "evidence": "Device Restart/Shutdown T0816 While threat actors claim to turn off HMIs, it is possible that operators (not the threat actors) turn the devices off during incident response."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Alarm Suppression",
+   "evidence": "Alarm Suppression T0878 Threat actors use HMI interfaces to clear alarms caused by their activity and alarms already present on the system at the time of their intrusion."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Change Credential",
+   "evidence": "Change Credential T0892 Threat actors change the usernames and passwords of HMI devices in operator lockout attempts, usually resulting in a loss of view and operators switching to manual operations."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify Parameter",
+   "evidence": "Modify Parameter T0836 Threat actors attempt to change upper and lower limits of operational devices as available from the HMI."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Unauthorized Command Message",
+   "evidence": "Unauthorized Command Message T0855 Threat actors attempt to send unauthorized command messages to instruct control system assets to perform actions outside of their intended functionality, causing possible impact."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Loss of Productivity and Revenue",
+   "evidence": "Loss of Productivity and Revenue T0828 Threat actors purposefully attempt to impact productivity and create additional costs for the affected entities."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Loss of View",
+   "evidence": "Loss of View T0829 Threat actors change credentials on HMI devices, preventing operators from modifying processes remotely."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Manipulation of Control",
+   "evidence": "Manipulation of Control T0831 Threat actors change setpoints in processes, impacting the efficiency of operations for those specific processes."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Incident Response",
+   "evidence": "Incident Response If organizations find exposed systems with weak or default passwords, they should assume threat actors compromised the system and begin the following incident response protocols:"
+  },
+  {
+   "type": "sector",
+   "name": "Energy",
+   "evidence": "Pro-Russia Hacktivists Conduct Opportunistic Attacks Against US and Global Critical Infrastructure"
+  },
+  {
+   "type": "sector",
+   "name": "Transport",
+   "evidence": "Pro-Russia Hacktivists Conduct Opportunistic Attacks Against US and Global Critical Infrastructure"
+  },
+  {
+   "type": "sector",
+   "name": "Defense",
+   "evidence": "Pro-Russia Hacktivists Conduct Opportunistic Attacks Against US and Global Critical Infrastructure"
+  },
+  {
+   "type": "sector",
+   "name": "Health",
+   "evidence": "Pro-Russia Hacktivists Conduct Opportunistic Attacks Against US and Global Critical Infrastructure"
+  },
+  {
+   "type": "sector",
+   "name": "Finance",
+   "evidence": "Pro-Russia Hacktivists Conduct Opportunistic Attacks Against US and Global Critical Infrastructure"
+  },
+  {
+   "type": "sector",
+   "name": "Telecommunications",
+   "evidence": "Pro-Russia Hacktivists Conduct Opportunistic Attacks Against US and Global Critical Infrastructure"
+  },
+  {
+   "type": "sector",
+   "name": "Water distribution and supply",
+   "evidence": "Pro-Russia Hacktivists Conduct Opportunistic Attacks Against US and Global Critical Infrastructure"
+  },
+  {
+   "type": "country",
+   "name": "Russia",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, Pro-Russia Hacktivists"
+  },
+  {
+   "type": "threat-actor",
+   "name": "Pro-Russia Hacktivists",
+   "evidence": "Pro-Russia Hacktivists Conduct Opportunistic Attacks Against US and Global Critical Infrastructure"
+  }
+ ],
+ "observables": [],
+ "relationships": [
+  {
+   "source": "Cyber Army of Russia Reborn",
+   "type": "targets",
+   "target": "Water and Wastewater Systems",
+   "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+  },
+  {
+   "source": "Cyber Army of Russia Reborn",
+   "type": "targets",
+   "target": "Food and Agriculture",
+   "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+  },
+  {
+   "source": "Cyber Army of Russia Reborn",
+   "type": "targets",
+   "target": "Energy",
+   "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+  },
+  {
+   "source": "Cyber Army of Russia Reborn",
+   "type": "originates-from",
+   "target": "Russia",
+   "evidence": "Pro-Russia hacktivist groups—Cyber Army of Russia Reborn (CARR), Z-Pentest, NoName057(16), Sector16, and affiliated groups—are capitalizing on the widespread prevalence of accessible VNC devices to execute attacks against critical infrastructure entities"
+  },
+  {
+   "source": "Z-Pentest",
+   "type": "originates-from",
+   "target": "Russia",
+   "evidence": "Pro-Russia hacktivist groups—Cyber Army of Russia Reborn (CARR), Z-Pentest, NoName057(16), Sector16, and affiliated groups—are capitalizing on the widespread prevalence of accessible VNC devices to execute attacks against critical infrastructure entities"
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "originates-from",
+   "target": "Russia",
+   "evidence": "Pro-Russia hacktivist groups—Cyber Army of Russia Reborn (CARR), Z-Pent, NoName057(16), Sector16, and affiliated groups—are capitalizing on the widespread prevalence of accessible VNC devices to execute attacks against critical infrastructure entities"
+  },
+  {
+   "source": "Sector16",
+   "type": "originates-from",
+   "target": "Russia",
+   "evidence": "Pro-Russia hacktivist groups—Cyber Army of Russia Reborn (CARR), Z-Pentest, NoName057(16), Sector16, and affiliated groups—are capitalizing on the widespread prevalence of accessible VNC devices to execute attacks against critical infrastructure entities"
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "targets",
+   "target": "Water and Wastewater",
+   "evidence": "these groups can indiscriminately compromise critical infrastructure entities, including those in the Water and Wastewater, Food and Agriculture, and Energy Sectors."
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "targets",
+   "target": "Food and Agriculture",
+   "evidence": "these groups can indiscriminately compromise critical infrastructure entities, including those in the Water and Wastewater, Food and Agriculture, and Energy Sectors."
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "targets",
+   "target": "Energy",
+   "evidence": "these groups can indiscriminately compromise critical infrastructure entities, including those in the Water and Wastewater, Food and Agriculture, and Energy Sectors."
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "uses",
+   "target": "Scan for vulnerable devices on the internet",
+   "evidence": "Scan for vulnerable devices on the internet [T0883] with open VNC ports [T1595.002]."
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "uses",
+   "target": "Initiate temporary virtual private server (VPS)",
+   "evidence": "Initiate temporary virtual private server (VPS) [T1583.003] to execute password brute force software."
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "uses",
+   "target": "Use VNC software to access hosts",
+   "evidence": "Use VNC software to access hosts [T1021.005]."
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "uses",
+   "target": "Confirm connection to the vulnerable device",
+   "evidence": "Confirm connection to the vulnerable device [T0886]."
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "uses",
+   "target": "Brute force the password, if required",
+   "evidence": "Brute force the password, if required [T1110.003]."
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "uses",
+   "target": "Gain access to HMI devices",
+   "evidence": "Gain access to HMI devices [T0883], typically with default [T0812], weak, or no passwords [T0859]."
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "uses",
+   "target": "Log the confirmed vulnerable device IP address, port, and password",
+   "evidence": "Log the confirmed vulnerable device IP address, port, and password."
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "uses",
+   "target": "Use HMI graphical interface to capture screen recordings",
+   "evidence": "Using the HMI graphical interface [T0823], capture screen recordings or intermittent screenshots while conducting the following actions, intending to affect productivity and cause additional costs [T0828]."
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "uses",
+   "target": "Modify usernames/passwords",
+   "evidence": "Modify usernames/passwords [T0892];"
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "uses",
+   "target": "Modify parameters",
+   "evidence": "Modify parameters [T0836];"
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "uses",
+   "target": "Modify device name",
+   "evidence": "Modify device name [T0892];"
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "uses",
+   "target": "Modify instrument settings",
+   "evidence": "Modify instrument settings [T0831];"
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "uses",
+   "target": "Disable alarms",
+   "evidence": "Disable alarms [T0878];"
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "uses",
+   "target": "Create loss of view",
+   "evidence": "Create loss of view (a technique that mandates local hands-on operator intervention) [T0829];"
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "uses",
+   "target": "Device restart or shutdown",
+   "evidence": "Device restart or shutdown [T0816]."
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "uses",
+   "target": "Research the compromised device company",
+   "evidence": "Research the compromised device company after the intrusion [T1591]."
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "uses",
+   "target": "Active Scanning: Vulnerability Scanning",
+   "evidence": "Threat actors use open source tools to look for IP addresses in target countries with visible VNC services on common ports."
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "uses",
+   "target": "Acquire Infrastructure: Virtual Private Server",
+   "evidence": "Threat actors use virtual infrastructure to obfuscate identifiers."
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "uses",
+   "target": "Internet Accessible Device",
+   "evidence": "Threat actors gain access through less secure HMI devices exposed to the internet."
+  },
+  {
+   "source": "Sector16",
+   "type": "originates-from",
+   "target": "Russia",
+   "evidence": "Members of Sector16 may have received indirect support from the Russian government in exchange for conducting specific cyber operations that further Russian strategic goals."
+  },
+  {
+   "source": "Z-Pentest",
+   "type": "originates-from",
+   "target": "Russia",
+   "evidence": "Members of Sector16 may have received indirect support from the Russian government in exchange for conducting specific cyber operations that further Russian strategic goals."
+  },
+  {
+   "source": "Sector16",
+   "type": "attributed-to",
+   "target": "Pro-Russia Hacktivists",
+   "evidence": "Members of Sector16 may have received indirect support from the Russian government in exchange for conducting specific cyber operations that further Russian strategic goals."
+  },
+  {
+   "source": "Z-Pentest",
+   "type": "attributed-to",
+   "target": "Pro-Russia Hacktivists",
+   "evidence": "Z-Pentest jointly claimed intrusion of a U.S. system with Sector16."
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "targets",
+   "target": "Energy",
+   "evidence": "Pro-Russia Hacktivists Conduct Opportunistic Attacks Against US and Global Critical Infrastructure"
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "targets",
+   "target": "Transport",
+   "evidence": "Pro-Russia Hacktivists Conduct Opportunistic Attacks Against US and Global Critical Infrastructure"
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "targets",
+   "target": "Defense",
+   "evidence": "Pro-Russia Hacktivists Conduct Opportunistic Attacks Against US and Global Critical Infrastructure"
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "targets",
+   "target": "Health",
+   "evidence": "Pro-Russia Hacktivists Conduct Opportunistic Attacks Against US and Global Critical Infrastructure"
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "targets",
+   "target": "Finance",
+   "evidence": "Pro-Russia Hacktivists Conduct Opportunistic Attacks Against US and Global Critical Infrastructure"
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "targets",
+   "target": "Telecommunications",
+   "evidence": "Pro-Russia Hacktivists Conduct Opportunistic Attacks Against US and Global Critical Infrastructure"
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "targets",
+   "target": "Water distribution and supply",
+   "evidence": "Pro-Russia Hacktivists Conduct Opportunistic Attacks Against US and Global Critical Infrastructure"
+  },
+  {
+   "source": "Pro-Russia Hacktivists",
+   "type": "originates-from",
+   "target": "Russia",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, Pro-Russia Hacktivists"
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "qwen3:8b",
+  "seconds": 903.0,
+  "errors": "2 unparsable chunk(s)"
+ }
+}

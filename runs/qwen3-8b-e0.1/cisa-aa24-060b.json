@@ -1,0 +1,494 @@
+{
+ "entities": [
+  {
+   "type": "vulnerability",
+   "name": "Ivanti Connect Secure",
+   "evidence": "Threat Actors Exploit Multiple Vulnerabilities in Ivanti Connect Secure and Policy Secure Gateways"
+  },
+  {
+   "type": "vulnerability",
+   "name": "Ivanti Policy Secure",
+   "evidence": "Threat Actors Exploit Multiple Vulnerabilities in Ivanti Connect Secure and Policy Secure Gateways"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-46805",
+   "evidence": "KB CVE-2023-46805 (Authentication Bypass) & CVE-2024-21887 (Command Injection) for Ivanti Connect Secure and Ivanti Policy Secure Gateways"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21887",
+   "evidence": "KB CVE-2023-46805 (Authentication Bypass) & CVE-2024-21887 (Command Injection) for Ivanti Connect Secure and Ivanti Policy Secure Gateways"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21893",
+   "evidence": "Research included a variety of tests on version 22.3R1 Build 1647, connected to Active Directory credentials, to leverage the access obtained through CVE-2023-46805, CVE-2024-21887 and CVE-2024-21893."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "TA0003",
+   "evidence": "CISA’s researchers were able to exfiltrate domain administrator cleartext credentials [TA0006], gain root-level persistence [TA0003], and bypass integrity checks used by the Integrity Checker application."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "TA0006",
+   "evidence": "CISA’s researchers were able to exfiltrate domain administrator cleartext credentials [TA0006], gain root-level persistence [TA0003], and bypass integrity checks used by the Integrity Checker application."
+  },
+  {
+   "type": "malware",
+   "name": "WIREFIRE",
+   "evidence": "Filename: Cav-0.1-py3.6.egg, Description: WIREFIRE web shell"
+  },
+  {
+   "type": "malware",
+   "name": "CHAINLINE",
+   "evidence": "Filename: Health.py, Description: CHAINLINE web shell"
+  },
+  {
+   "type": "malware",
+   "name": "LIGHTWIRE",
+   "evidence": "Filename: lastauthserverused.js, Description: LIGHTWIRE web shell"
+  },
+  {
+   "type": "malware",
+   "name": "WARPWIRE",
+   "evidence": "Filename: lastauthserverused.js, Description: WARPWIRE credential harvester variant"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration of credentials",
+   "evidence": "Below is a demonstration of the capacity for post exploitation exfiltration of base64 encoded cleartext credentials for active directory users and their associated NTLM password hashes:"
+  },
+  {
+   "type": "vulnerability",
+   "name": "Ivanti Connect Secure",
+   "evidence": "Threat Actors Exploit Multiple Vulnerabilities in Ivanti Connect Secure and Policy Secure Gateways"
+  },
+  {
+   "type": "sector",
+   "name": "Information Technologies Consulting",
+   "evidence": "Table 1: Ivanti Connect Secure VPN Indicators of Compromise"
+  },
+  {
+   "type": "country",
+   "name": "Unknown",
+   "evidence": "UTA0178 IP address observed interacting with compromised device tied to Cyberoam proxy network."
+  },
+  {
+   "type": "malware",
+   "name": "WARPWIRE",
+   "evidence": "WARPWIRE variant C2 server"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Applications",
+   "evidence": "Exploit Public-Facing Applications T1190",
+   "mitre_id": "T1190"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "evidence": "Valid Accounts T1078",
+   "mitre_id": "T1078"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Web Shell",
+   "evidence": "Server Software Component: Web Shell T1505.003",
+   "mitre_id": "T1505.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "evidence": "Command and Scripting Interpreter: PowerShell T1059.001",
+   "mitre_id": "T1059.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Client Execution",
+   "evidence": "Exploitation for Client Execution T1203",
+   "mitre_id": "T1203"
+  }
+ ],
+ "observables": [
+  {
+   "type": "ipv4-addr",
+   "value": "88.119.169.227",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "103.13.28.40",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "46.8.68.100",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "206.189.208.156",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "75.145.243.85",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "47.207.9.89",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "98.160.48.170",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "173.220.106.166",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "73.128.178.221",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.243.177.161",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.213.208.89",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "64.24.179.210",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "75.145.224.109",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.215.39.49",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "71.127.149.194",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "173.53.43.7",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "symantke.com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "miltonhouse.nl",
+   "indicates": [
+    "WARPWIRE variant"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "entraide-internationale.fr",
+   "indicates": [
+    "WARPWIRE variant"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "api.d-n-s.name",
+   "indicates": [
+    "WARPWIRE variant"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "cpanel.netbar.org",
+   "indicates": [
+    "WARPWIRE variant"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "clickcom.click",
+   "indicates": [
+    "WARPWIRE variant"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "clicko.click",
+   "indicates": [
+    "WARPWIRE variant"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "duorhytm.fun",
+   "indicates": [
+    "WARPWIRE variant"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "line-api.com",
+   "indicates": [
+    "WARPWIRE variant"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "areekaweb.com",
+   "indicates": [
+    "WARPWIRE variant"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "ehangmun.com",
+   "indicates": [
+    "WARPWIRE variant"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "secure-cama.com",
+   "indicates": [
+    "WARPWIRE variant"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "line-api[.]com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "areekaweb[.]com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "ehangmun[.]com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "secure-cama[.]com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "146.0.228[.]66",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "159.65.130[.]146",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "8.137.112[.]245",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "91.92.254[.]14",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "186.179.39[.]235",
+   "indicates": [
+    "Mass exploitation activity"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.215.39[.]49",
+   "indicates": [
+    "Post-exploitation activity"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.61.136[.]14",
+   "indicates": [
+    "Post-exploitation activity"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "173.220.106[.]166",
+   "indicates": [
+    "Post-exploitation activity"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "CVE-2023-46805",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "Research included a variety of tests on version 22.3R1 Build 1647, connected to Active Directory credentials, to leverage the access obtained through CVE-2023-46805, CVE-2024-21887 and CVE-2024-21893."
+  },
+  {
+   "source": "CVE-2024-21887",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "Research included a variety of tests on version 22.3R1 Build 1647, connected to Active Directory credentials, to leverage the access obtained through CVE-2023-46805, CVE-2024-21887 and CVE-2024-21893."
+  },
+  {
+   "source": "CVE-2024-21893",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "Research included a variety of tests on version 22.3R1 Build 1647, connected to Active Directory credentials, to leverage the access obtained through CVE-2023-46805, CVE-2024-21887 and CVE-2024-21893."
+  },
+  {
+   "source": "TA0003",
+   "type": "targets",
+   "target": "attack-pattern",
+   "evidence": "CISA’s researchers were able to exfiltrate domain administrator cleartext credentials [TA0006], gain root-level persistence [TA0003], and bypass integrity checks used by the Integrity Checker application."
+  },
+  {
+   "source": "TA0006",
+   "type": "targets",
+   "target": "attack-pattern",
+   "evidence": "CISA’s researchers were able to exfiltrate domain administrator cleartext credentials [TA0006], gain root-level persistence [TA0003], and bypass integrity checks used by the Integrity Checker application."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "Table 4: Host-Based Indicators (HBIs) Indicators of Compromise"
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "targets",
+   "target": "country",
+   "evidence": "UTA0178 IP address observed interacting with compromised device tied to Cyberoam proxy network."
+  },
+  {
+   "source": "WIREFIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Below is a demonstration of the capacity for post exploitation exfiltration of base64 encoded cleartext credentials for active directory users and their associated NTLM password hashes:"
+  },
+  {
+   "source": "CHAINLINE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Below is a demonstration of the capacity for post exploitation exfiltration of base64 encoded cleartext credentials for active directory users and their associated NTLM password hashes:"
+  },
+  {
+   "source": "LIGHTWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Below is a demonstration of the capacity for post exploitation exfiltration of base64 encoded cleartext credentials for active directory users and their associated NTLM password hashes:"
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Below is a demonstration of the capacity for post exploitation exfiltration of base64 encoded cleartext credentials for active directory users and their associated NTLM password hashes:"
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "Exploit Public-Facing Applications",
+   "evidence": "WARPWIRE variant C2 server"
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "Web Shell",
+   "evidence": "WARPWIRE variant C2 server"
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "Command and Scripting Interpreter: PowerShell",
+   "evidence": "WARPWIRE variant C2 server"
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "Exploitation for Client Execution",
+   "evidence": "WARPWIRE variant C2 server"
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "qwen3:8b",
+  "seconds": 952.7,
+  "errors": "2 unparsable chunk(s)"
+ }
+}

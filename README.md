@@ -132,7 +132,7 @@ Engine versions in `src/doc2stix/__init__.py`; runs and scores in `runs/`.
 | doc2stix-qwen3-8b-v1-e0.2 | LoRA v1 (Qwen3-8B), engine 0.2 | 0.579 | 0.654 | 0.179 | 0.904 |
 | harvest-only | no model, harvesting only | 0.531 | 0.698 | 0.000 | 0.894 |
 | qwen3-30b-a3b-e0.1 | qwen3:30b-a3b, engine 0.1 | 0.460 | 0.645 | 0.299 | 0.437 |
-| qwen3-8b-e0.1 | qwen3:8b untrained, engine 0.1 | 0.328 | 0.371 | 0.099 | 0.515 |
+| qwen3-8b-e0.1 | qwen3:8b untrained, engine 0.1 | 0.352 | 0.398 | 0.115 | 0.544 |
 | doc2stix-qwen3-8b-v1-e0.1 | LoRA v1 (Qwen3-8B), engine 0.1 | 0.245 | 0.419 | 0.002 | 0.313 |
 
 Per family (F1), engine 0.2 with qwen3:30b-a3b: actors 0.64, software 0.70,
@@ -191,10 +191,10 @@ Every step taken to improve the training, in order, with its effect.
    techniques (inventing some: "Target Sector: Energy"), calls Volt Typhoon a
    campaign, and drops the CVE, the sector, the country and the tools: 88 % of
    its examples were ATT&CK paragraphs, which hold only actors and techniques.
-   Scored on the eval set: **0.245 against 0.328 for the untrained qwen3:8b**
-   (engine 0.1). Techniques improved (F1 0.35 → 0.60), everything else
-   collapsed: relationships 0.10 → 0.002, software 0.37 → 0.01, victims
-   0.34 → 0.06; 21 chunks unparsable (free output, no schema). With
+   Scored on the eval set: **0.245 against 0.352 for the untrained qwen3:8b**
+   (engine 0.1). Techniques improved (F1 0.34 → 0.60), everything else
+   collapsed: relationships 0.12 → 0.002, software 0.44 → 0.01, victims
+   0.38 → 0.06; 21 chunks unparsable (free output, no schema). With
    harvesting (engine 0.2) it reaches 0.579, below the 30B's 0.695.
    Lesson: examples whose labels cover only part of the task teach the model
    to leave the rest out.

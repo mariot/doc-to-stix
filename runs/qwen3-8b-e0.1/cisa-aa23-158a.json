@@ -1,0 +1,1967 @@
+{
+ "entities": [
+  {
+   "type": "malware",
+   "name": "LEMURLOOT",
+   "evidence": "LEMURLOOT is a web shell written in C# designed to target the MOVEit Transfer platform."
+  },
+  {
+   "type": "malware",
+   "name": "Truebot",
+   "evidence": "Truebot is a first-stage downloader module that can collect system information and take screenshots."
+  },
+  {
+   "type": "malware",
+   "name": "Cobalt Strike",
+   "evidence": "Cobalt Strike is used to expand network access after gaining access to the Active Directory (AD) server."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-34362",
+   "evidence": "CVE-2023-34362 MOVEIT TRANSFER VULNERABILITY"
+  },
+  {
+   "type": "malware",
+   "name": "FlawedGrace",
+   "evidence": "In the case of TA505, Truebot has been used to download FlawedGrace or Cobalt Strike beacons."
+  },
+  {
+   "type": "malware",
+   "name": "DEWMODE",
+   "evidence": "DEWMODE is a web shell written in PHP designed to target Accellion FTA devices."
+  },
+  {
+   "type": "threat-actor",
+   "name": "CL0P",
+   "evidence": "CL0P ransomware group exploited a SQL injection zero-day vulnerability CVE-2023-34362 to install a web shell named LEMURLOOT."
+  },
+  {
+   "type": "threat-actor",
+   "name": "TA505",
+   "evidence": "In the case of TA505, Truebot has been used to download FlawedGrace or Cobalt Strike beacons."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1546.011",
+   "evidence": "This malware uses application shimming for persistence and to avoid detection [T1546.011]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1113",
+   "evidence": "Truebot is a first-stage downloader module that can collect system information and take screenshots [T1113]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1055",
+   "evidence": "Truebot can be instructed to load shell code [T1055] or DLLs [T1574.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1574.002",
+   "evidence": "Truebot can be instructed to load shell code [T1055] or DLLs [T1574.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1129",
+   "evidence": "Truebot can be instructed to load shell code [T1055] or DLLs [T1574.002], download additional modules [T1129], run them, or delete itself [T1070]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1070",
+   "evidence": "Truebot can be instructed to load shell code [T1055] or DLLs [T1574.002], download additional modules [T1129], run them, or delete itself [T1070]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1190",
+   "evidence": "MOVEit is typically used to manage an organization’s file transfer operations and has a web application that supports MySQL, Microsoft SQL Server, and Azure SQL database engines. In May 2023, the CL0P ransomware group exploited a SQL injection zero-day vulnerability CVE-2023-34362 to install a web shell named LEMURLOOT on MOVEit Transfer web applications [T1190]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1505.003",
+   "evidence": "rule MOVEit_Transfer_exploit_webshell_aspx { mitre = \"T1505.003\" }"
+  },
+  {
+   "type": "malware",
+   "name": "CL0P",
+   "evidence": "CL0P Ransomware Gang Exploits CVE-2023-34362 MOVEit Vulnerability"
+  },
+  {
+   "type": "malware",
+   "name": "Truebot",
+   "evidence": "Truebot"
+  },
+  {
+   "type": "malware",
+   "name": "LEMURLOOT",
+   "evidence": "LEMURLOOT"
+  },
+  {
+   "type": "malware",
+   "name": "FlawedGrace",
+   "evidence": "Named earlier in the document: LEMURLOOT, Truebot, Cobalt Strike, FlawedGrace, DEWMODE, CL0P, TA505"
+  },
+  {
+   "type": "malware",
+   "name": "DEWMODE",
+   "evidence": "Named earlier in the document: LEMURLOOT, Truebot, Cobalt Strike, FlawedGrace, DEWMODE, CL0P, TA505"
+  },
+  {
+   "type": "malware",
+   "name": "Cobalt Strike",
+   "evidence": "Named earlier in the document: LEMURLOOT, Truebot, Cobalt Strike, FlawedGrace, DEWMODE, CL0P, TA505"
+  },
+  {
+   "type": "malware",
+   "name": "TA505",
+   "evidence": "Named earlier in the document: LEMURLOOT, Truebot, Cobalt Strike, FlawedGrace, DEWMODE, CL0P, TA505"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-34362",
+   "evidence": "CL0P Ransomware Gang Exploits CVE-2023-34362 MOVEit Vulnerability"
+  },
+  {
+   "type": "tool",
+   "name": "MOVEit Transfer",
+   "evidence": "Detects indicators of compromise in MOVEit Transfer exploitation."
+  },
+  {
+   "type": "sector",
+   "name": "Finance",
+   "evidence": "Victims can use the following SQL query to audit for active administrative accounts, and should validate that only intended accounts are present."
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "FBI | CISA"
+  },
+  {
+   "type": "organization",
+   "name": "Fortra",
+   "evidence": "Fortra GoAnywhere"
+  },
+  {
+   "type": "malware",
+   "name": "CL0P",
+   "evidence": "CL0P ransomware group exploited the zero-day vulnerability CVE-2023-34362 affecting MOVEit Transfer software"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-34362",
+   "evidence": "CL0P ransomware group exploited the zero-day vulnerability CVE-2023-34362 affecting MOVEit Transfer software"
+  },
+  {
+   "type": "malware",
+   "name": "MOVEit Transfer",
+   "evidence": "CL0P ransomware group exploited the zero-day vulnerability CVE-2023-34362 affecting MOVEit Transfer software"
+  },
+  {
+   "type": "malware",
+   "name": "Truebot",
+   "evidence": "CL0P actors use Truebot to download additional modules."
+  },
+  {
+   "type": "malware",
+   "name": "SDBot",
+   "evidence": "CL0P actors use SDBot as a backdoor to enable other commands and functions to be executed in the compromised computer."
+  },
+  {
+   "type": "malware",
+   "name": "TinyMet",
+   "evidence": "CL0P actors use TinyMet, a small open-source Meterpreter stager to establish a reverse shell to their C2 server."
+  },
+  {
+   "type": "malware",
+   "name": "DEWMODE",
+   "evidence": "DEWMODE is a web shell designed to interact with a MySQL database, and is used to exfiltrate data from the compromised network."
+  },
+  {
+   "type": "malware",
+   "name": "Cobalt Strike",
+   "evidence": "CL0P actors use Cobalt Strike to expand network access after gaining access to the Active Directory (AD) servers."
+  },
+  {
+   "type": "malware",
+   "name": "FlawedAmmyy",
+   "evidence": "CL0P actors use FlawedAmmyy remote access trojan (RAT) to communicate with the Command and Control (C2)."
+  },
+  {
+   "type": "malware",
+   "name": "FlawedGrace",
+   "evidence": "Named earlier in the document: LEMURLOOT, Truebot, Cobalt Strike, FlawedGrace, DEWMODE, CL0P, TA505, CL0P, TA505, MOVEit Transfer"
+  },
+  {
+   "type": "malware",
+   "name": "TA505",
+   "evidence": "Named earlier in the document: LEMURLOOT, Truebot, Cobalt Strike, FlawedGrace, DEWMODE, CL0P, TA505, CL0P, TA505, MOVEit Transfer"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "Exploit Public-Facing Application T1190 CL0P ransomware group exploited the zero-day vulnerability CVE-2023-34362 affecting MOVEit Transfer software; begins with a SQL injection to infiltrate the MOVEit Transfer web application.",
+   "mitre_id": "T1190"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing",
+   "evidence": "Phishing T1566 CL0P actors send a large volume of spear-phishing emails to employees of an organization to gain initial access.",
+   "mitre_id": "T1566"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter",
+   "evidence": "Command and Scripting Interpreter T1059.003 CL0P actors use TinyMet, a small open-source Meterpreter stager to establish a reverse shell to their C2 server.",
+   "mitre_id": "T1059.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Shared Modules",
+   "evidence": "Shared Modules T1129 CL0P actors use Truebot to download additional modules.",
+   "mitre_id": "T1129"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Web Shell",
+   "evidence": "Web Shell T1505.003 DEWMODE is a web shell designed to interact with a MySQL database, and is used to exfiltrate data from the compromised network.",
+   "mitre_id": "T1505.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Event Triggered Execution",
+   "evidence": "Event Triggered Execution: Application Shimming T1546.011 CL0P actors use SDBot malware for application shimming for persistence and to avoid detection.",
+   "mitre_id": "T1546.011"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Privilege Escalation",
+   "evidence": "Exploitation for Privilege Escalation T1068 CL0P actors were gaining access to MOVEit Transfer databases prior to escalating privileges within compromised network.",
+   "mitre_id": "T1068"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Process Injection",
+   "evidence": "Process Injection T1055 CL0P actors use Truebot to load shell code.",
+   "mitre_id": "T1055"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal",
+   "evidence": "Indicator Removal T1070 CL0P actors delete traces of Truebot malware after it is used.",
+   "mitre_id": "T1070"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Hijack Execution Flow: DLL Side-Loading",
+   "evidence": "Hijack Execution Flow: DLL Side-Loading T1574.002 CL0P actors use Truebot to side load DLLs.",
+   "mitre_id": "T1574.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote System Discovery",
+   "evidence": "Remote System Discovery T1018 CL0P actors use Cobalt Strike to expand network access after gaining access to the Active Directory (AD) servers.",
+   "mitre_id": "T1018"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: SMB/Windows Admin Shares",
+   "evidence": "Remote Services: SMB/Windows Admin Shares T1021.002 CL0P actors have been observed attempting to compromise the AD server using Server Message Block (SMB) vulnerabilities with follow-on Cobalt Strike activity.",
+   "mitre_id": "T1021.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Service Session Hijacking: RDP Hijacking",
+   "evidence": "Remote Service Session Hijacking: RDP Hijacking T1563.002 CL0P ransomware actors have been observed using Remote Desktop Protocol (RDP) to interact with compromised systems after initial access.",
+   "mitre_id": "T1563.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Screen Capture",
+   "evidence": "Screen Capture T1113 CL0P actors use Truebot to take screenshots in effort to collect sensitive data.",
+   "mitre_id": "T1113"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Application Layer Protocol",
+   "evidence": "Application Layer Protocol T1071 CL0P actors use FlawedAmmyy remote access trojan (RAT) to communicate with the Command and Control (C2).",
+   "mitre_id": "T1071"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over C2 Channel",
+   "evidence": "Exfiltration Over C2 Channel T1041 CL0P actors exfiltrate data for C2 channels.",
+   "mitre_id": "T1041"
+  },
+  {
+   "type": "malware",
+   "name": "CL0P",
+   "evidence": "CL0P Ransomware Gang Exploits CVE-2023-34362 MOVEit Vulnerability"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-34362",
+   "evidence": "CL0P Ransomware Gang Exploits CVE-2023-34362 MOVEit Vulnerability"
+  },
+  {
+   "type": "tool",
+   "name": "MOVEit Transfer",
+   "evidence": "CL0P Ransomware Gang Exploits CVE-2023-34362 MOVEit Vulnerability"
+  },
+  {
+   "type": "sector",
+   "name": "Finance",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Health",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Energy",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Transport",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Telecommunications",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Defense",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Government and administrations",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Education",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Technology",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Manufacturing",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Retail (distribution)",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Information Technologies Consulting",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Healthcare services",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Utilities",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Water distribution and supply",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Mining",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Research",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Construction",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Consulting",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Legal consulting",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Engineering consulting",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Insurance services",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Market infrastructures",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Diplomacy",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Defense ministries (including the military)",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Defense industry",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Defense research and development",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "High-tech",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Digital infrastructures",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Hosting service providers",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Internet Service providers",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Medias and audiovisual",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Non-Governmental Organizations (NGOs)",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Civil society",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Political parties",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "sector",
+   "name": "Dissidents",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "FBI and CISA recommend exercising, testing, and validating your organization’s security program against the threat behaviors mapped to the MITRE ATT&CK for Enterprise framework in this advisory."
+  },
+  {
+   "type": "organization",
+   "name": "FBI",
+   "evidence": "FBI and CISA recommend exercising, testing, and validating your organization’s security program against the threat behaviors mapped to the MITRE ATT&CK for Enterprise framework in this advisory."
+  },
+  {
+   "type": "organization",
+   "name": "CISA",
+   "evidence": "FBI and CISA recommend exercising, testing, and validating your organization’s security program against the threat behaviors mapped to the MITRE ATT&CK for Enterprise framework in this advisory."
+  },
+  {
+   "type": "organization",
+   "name": "CL0P",
+   "evidence": "CL0P Ransomware Gang Exploits CVE-2023-34362 MOVEit Vulnerability"
+  },
+  {
+   "type": "organization",
+   "name": "Mandiant",
+   "evidence": "Zero-Day Vulnerability in MOVEit Transfer Exploited for Data Theft | Mandiant"
+  },
+  {
+   "type": "organization",
+   "name": "Progress Community",
+   "evidence": "MOVEit Transfer Critical Vulnerability (May 2023) - Progress Community"
+  },
+  {
+   "type": "organization",
+   "name": "huntress.com",
+   "evidence": "MOVEit Transfer Critical Vulnerability CVE-2023-34362 Rapid Response (huntress.com)"
+  }
+ ],
+ "observables": [
+  {
+   "type": "file",
+   "value": "3a977446ed70b02864ef8cfa3135d8b134c93ef868a4cc0aa5d3c2a74545725b",
+   "hash": "SHA256",
+   "indicates": [
+    "LEMURLOOT"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c58c2c2ea608c83fad9326055a8271d47d8246dc9cb401e420c0971c67e19cbf",
+   "hash": "SHA256",
+   "indicates": [
+    "LEMURLOOT"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "cf23ea0d63b4c4c348865cefd70c35727ea8c82ba86d56635e488d816e60ea45x",
+   "hash": "MD5",
+   "indicates": [
+    "LEMURLOOT"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "44d8e68c7c4e04ed3adacb5a88450552",
+   "hash": "SHA256",
+   "indicates": [
+    "LEMURLOOT"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "7d7349e51a9bdcdd8b5daeeefe6772b5",
+   "hash": "SHA256",
+   "indicates": [
+    "LEMURLOOT"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "b69e23cd45c8ac71652737ef44e15a34",
+   "hash": "MD5",
+   "indicates": [
+    "LEMURLOOT"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "hiperfdhaus.com",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "jirostrogud.com",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "qweastradoc.com",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "connectzoomdownload.com",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "zoom.voyage",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "guerdofest.com",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "unlock@rsv-box.com",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "unlock@support-mult.com",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "rey14000707@gmail.com",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "gagnondani225@gmail.com",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "104.194.222.107",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "146.0.77.141",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "146.0.77.155",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "146.0.77.183",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "148.113.152.144",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "162.244.34.26",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "162.244.35.6",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.60.150.143",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.104.194.156",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.104.194.24",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.104.194.40",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.117.88.17",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.162.128.75",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.174.100.215",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.174.100.250",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.181.229.240",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.181.229.73",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.183.32.122",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.185.50.172",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "188.241.58.244",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "193.169.245.79",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "194.33.40.103",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "194.33.40.104",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "194.33.40.64",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "198.12.76.214",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "198.27.75.110",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "206.221.182.106",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "209.127.116.122",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "209.127.4.22",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "209.222.103.170",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.227.253.133",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.227.253.147",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.227.253.50",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.227.253.6",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.227.253.82",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.56.165.248",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.149.248.68",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.149.250.74",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.149.250.92",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.188.86.114",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.188.86.250",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.188.87.194",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.188.87.226",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.188.87.27",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.252.23.116",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.252.25.88",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.34.180.205",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "62.112.11.57",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "62.182.82.19",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "62.182.85.234",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "66.85.26.215",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "66.85.26.234",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "66.85.26.248",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "79.141.160.78",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "79.141.160.83",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "84.234.96.104",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "84.234.96.31",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "89.39.104.118",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "89.39.105.108",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "91.202.4.76",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "91.222.174.95",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "91.229.76.187",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "93.190.142.131",
+   "indicates": [
+    "MOVEit Campaign Infrastructure"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "92.118.36.249",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.34.180.48",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.33.86.225",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "148.113.159.213",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "15.235.13.184",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "82.117.252.141",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.80.52.230",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "91.222.174.68",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.34.178.31",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.104.194.134",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.34.178.28",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.81.113.156",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.34.178.30",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "77.83.197.66",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "193.42.38.196",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "209.222.98.25",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "106.75.139.199",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "79.141.166.119",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.117.88.2",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "79.141.160.78",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.33.87.126",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "82.117.252.142",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "15.235.83.73",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "81.56.49.148",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "96.44.181.131",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "192.42.116.191",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "213.121.182.84",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "104.200.72.149",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "152.57.231.216",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "142.44.212.178",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "54.39.133.41",
+   "indicates": [
+    "Fortra GoAnywhere"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "92.118.36[.]249",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.34.180[.]48",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.33.86[.]225",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "148.113.159[.]213",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "15.235.13[.]184",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "82.117.252[.]141",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.80.52[.]230",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "91.222.174[.]68",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.34.178[.]31",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.104.194[.]134",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.34.178[.]28",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.81.113[.]156",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.34.178[.]30",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "77.83.197[.]66",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "193.42.38[.]196",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "209.222.98[.]25",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "106.75.139[.]199",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "79.141.166[.]119",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.117.88[.]2",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "79.141.160[.]78",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.33.87[.]126",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "82.117.252[.]142",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "15.235.83[.]73",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "81.56.49[.]148",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "96.44.181[.]131",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "192.42.116[.]191",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "213.121.182[.]84",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "104.200.72[.]149",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "152.57.231[.]216",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "142.44.212[.]178",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "54.39.133[.]41",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "76.117.196[.]3",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "24.3.132[.]168",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "166.70.47[.]90",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "208.115.199[.]25",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "216.144.248[.]20",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "173.254.236[.]131",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "3.101.53[.]11",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "54.184.187[.]134",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "100.21.161[.]34",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "44.206.3[.]111",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "75.101.131[.]237",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "20.47.120[.]195",
+   "indicates": [
+    "CL0P"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "198.137.247[.]10",
+   "indicates": [
+    "CL0P"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "CL0P",
+   "type": "targets",
+   "target": "CVE-2023-34362",
+   "evidence": "CL0P ransomware group exploited a SQL injection zero-day vulnerability CVE-2023-34362 to install a web shell named LEMURLOOT on MOVEit Transfer web applications."
+  },
+  {
+   "source": "LEMURLOOT",
+   "type": "exploits",
+   "target": "CVE-2023-34362",
+   "evidence": "LEMURLOOT was used as a method of persistence, information gathering and data stealing in CVE-2023-34362."
+  },
+  {
+   "source": "LEMURLOOT",
+   "type": "targets",
+   "target": "MOVEit Transfer",
+   "evidence": "LEMURLOOT is a web shell written in C# designed to target the MOVEit Transfer platform."
+  },
+  {
+   "source": "Truebot",
+   "type": "uses",
+   "target": "T1546.011",
+   "evidence": "This malware uses application shimming for persistence and to avoid detection [T1546.011]."
+  },
+  {
+   "source": "Truebot",
+   "type": "uses",
+   "target": "T1113",
+   "evidence": "Truebot is a first-stage downloader module that can collect system information and take screenshots [T1113]."
+  },
+  {
+   "source": "Truebot",
+   "type": "uses",
+   "target": "T1055",
+   "evidence": "Truebot can be instructed to load shell code [T1055] or DLLs [T1574.002]."
+  },
+  {
+   "source": "Truebot",
+   "type": "uses",
+   "target": "T1574.002",
+   "evidence": "Truebot can be instructed to load shell code [T1055] or DLLs [T1574.002]."
+  },
+  {
+   "source": "Truebot",
+   "type": "uses",
+   "target": "T1129",
+   "evidence": "Truebot can be instructed to load shell code [T1055] or DLLs [T1574.002], download additional modules [T1129], run them, or delete itself [T1070]."
+  },
+  {
+   "source": "Truebot",
+   "type": "uses",
+   "target": "T1070",
+   "evidence": "Truebot can be instructed to load shell code [T1055] or DLLs [T1574.002], download additional modules [T1129], run them, or delete itself [T1070]."
+  },
+  {
+   "source": "Cobalt Strike",
+   "type": "uses",
+   "target": "T1018",
+   "evidence": "Cobalt Strike is used to expand network access after gaining access to the Active Directory (AD) server [T1018]."
+  },
+  {
+   "source": "DEWMODE",
+   "type": "targets",
+   "target": "Accellion FTA devices",
+   "evidence": "DEWMODE is a web shell written in PHP designed to target Accellion FTA devices and interact with the underlying MySQL database."
+  },
+  {
+   "source": "LEMURLOOT",
+   "type": "targets",
+   "target": "MOVEit Transfer",
+   "evidence": "LEMURLOOT is a web shell written in C# designed to target the MOVEit Transfer platform."
+  },
+  {
+   "source": "LEMURLOOT",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "MOVEit is typically used to manage an organization’s file transfer operations and has a web application that supports MySQL, Microsoft SQL Server, and Azure SQL database engines. In May 2023, the CL0P ransomware group exploited a SQL injection zero-day vulnerability CVE-2023-34362 to install a web shell named LEMURLOOT on MOVEit Transfer web applications [T1190]."
+  },
+  {
+   "source": "LEMURLOOT",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "rule MOVEit_Transfer_exploit_webshell_aspx { mitre = \"T1505.003\" }"
+  },
+  {
+   "source": "CL0P",
+   "type": "targets",
+   "target": "Finance",
+   "evidence": "Victims can use the following SQL query to audit for active administrative accounts, and should validate that only intended accounts are present."
+  },
+  {
+   "source": "CL0P",
+   "type": "exploits",
+   "target": "CVE-2023-34362",
+   "evidence": "CL0P Ransomware Gang Exploits CVE-2023-34362 MOVEit Vulnerability"
+  },
+  {
+   "source": "MOVEit Transfer",
+   "type": "exploits",
+   "target": "CVE-2023-34362",
+   "evidence": "Detects indicators of compromise in MOVEit Transfer exploitation."
+  },
+  {
+   "source": "CL0P",
+   "type": "uses",
+   "target": "LEMURLOOT",
+   "evidence": "LEMURLOOT"
+  },
+  {
+   "source": "CL0P",
+   "type": "uses",
+   "target": "Truebot",
+   "evidence": "Truebot"
+  },
+  {
+   "source": "CL0P",
+   "type": "uses",
+   "target": "FlawedGrace",
+   "evidence": "Named earlier in the document: LEMURLOOT, Truebot, Cobalt Strike, FlawedGrace, DEWMODE, CL0P, TA505"
+  },
+  {
+   "source": "CL00P",
+   "type": "uses",
+   "target": "Cobalt Strike",
+   "evidence": "Named earlier in the document: LEMURLOOT, Truebot, Cobalt Strike, FlawedGrace, DEWMODE, CL0P, TA505"
+  },
+  {
+   "source": "CL0P",
+   "type": "uses",
+   "target": "DEWMODE",
+   "evidence": "Named earlier in the document: LEMURLOOT, Truebot, Cobalt Strike, FlawedGrace, DEWMODE, CL0P, TA505"
+  },
+  {
+   "source": "CL0P",
+   "type": "uses",
+   "target": "TA505",
+   "evidence": "Named earlier in the document: LEMURLOOT, Truebot, Cobalt Strike, FlawedGrace, DEWMODE, CL0P, TA505"
+  },
+  {
+   "source": "MOVEit Campaign Infrastructure",
+   "type": "targets",
+   "target": "Fortra",
+   "evidence": "Fortra GoAnywhere"
+  },
+  {
+   "source": "MOVEit Campaign Infrastructure",
+   "type": "targets",
+   "target": "United States",
+   "evidence": "FBI | CISA"
+  },
+  {
+   "source": "CL0P",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "Exploit Public-Facing Application T1190 CL0P ransomware group exploited the zero-day vulnerability CVE-2023-34362 affecting MOVEit Transfer software; begins with a SQL injection to infiltrate the MOVEit Transfer web application."
+  },
+  {
+   "source": "CL0P",
+   "type": "uses",
+   "target": "T1566",
+   "evidence": "Phishing T1566 CL0P actors send a large volume of spear-phishing emails to employees of an organization to gain initial access."
+  },
+  {
+   "source": "CL0P",
+   "type": "uses",
+   "target": "T1059.001",
+   "evidence": "Command and Scripting Interpreter: PowerShell T1059.001 CL0P actors use SDBot as a backdoor to enable other commands and functions to be executed in the compromised computer."
+  },
+  {
+   "source": "CL0P",
+   "type": "uses",
+   "target": "T1059.003",
+   "evidence": "Command and Scripting Interpreter T1059.003 CL0P actors use TinyMet, a small open-source Meterpreter stager to establish a reverse shell to their C2 server."
+  },
+  {
+   "source": "CL0P",
+   "type": "uses",
+   "target": "T1129",
+   "evidence": "Shared Modules T1129 CL0P actors use Truebot to download additional modules."
+  },
+  {
+   "source": "CL0P",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "Web Shell T1505.003 DEWMODE is a web shell designed to interact with a MySQL database, and is used to exfiltrate data from the compromised network."
+  },
+  {
+   "source": "CL0P",
+   "type": "uses",
+   "target": "T1546.011",
+   "evidence": "Event Triggered Execution: Application Shimming T1546.011 CL0P actors use SDBot malware for application shimming for persistence and to avoid detection."
+  },
+  {
+   "source": "CL0P",
+   "type": "uses",
+   "target": "T1068",
+   "evidence": "Exploitation for Privilege Escalation T1068 CL0P actors were gaining access to MOVEit Transfer databases prior to escalating privileges within compromised network."
+  },
+  {
+   "source": "CL0P",
+   "type": "uses",
+   "target": "T1055",
+   "evidence": "Process Injection T1055 CL0P actors use Truebot to load shell code."
+  },
+  {
+   "source": "CL0P",
+   "type": "uses",
+   "target": "T1070",
+   "evidence": "Indicator Removal T1070 CL0P actors delete traces of Truebot malware after it is used."
+  },
+  {
+   "source": "CL0P",
+   "type": "uses",
+   "target": "T1574.002",
+   "evidence": "Hijack Execution Flow: DLL Side-Loading T1574.002 CL0P actors use Truebot to side load DLLs."
+  },
+  {
+   "source": "CL0P",
+   "type": "uses",
+   "target": "T1018",
+   "evidence": "Remote System Discovery T1018 CL0P actors use Cobalt Strike to expand network access after gaining access to the Active Directory (AD) servers."
+  },
+  {
+   "source": "CL0P",
+   "type": "uses",
+   "target": "T1021.002",
+   "evidence": "Remote Services: SMB/Windows Admin Shares T1021.002 CL0P actors have been observed attempting to compromise the AD server using Server Message Block (SMB) vulnerabilities with follow-on Cobalt Strike activity."
+  },
+  {
+   "source": "CL0P",
+   "type": "uses",
+   "target": "T1563.002",
+   "evidence": "Remote Service Session Hijacking: RDP Hijacking T1563.002 CL0P ransomware actors have been observed using Remote Desktop Protocol (RDP) to interact with compromised systems after initial access."
+  },
+  {
+   "source": "CL0P",
+   "type": "uses",
+   "target": "T1113",
+   "evidence": "Screen Capture T1113 CL0P actors use Truebot to take screenshots in effort to collect sensitive data."
+  },
+  {
+   "source": "CL0P",
+   "type": "uses",
+   "target": "T1071",
+   "evidence": "Application Layer Protocol T1071 CL0P actors use FlawedAmmyy remote access trojan (RAT) to communicate with the Command and Control (C2)."
+  },
+  {
+   "source": "CL0P",
+   "type": "uses",
+   "target": "T1041",
+   "evidence": "Exfiltration Over C2 Channel T1041 CL0P actors exfiltrate data for C2 channels."
+  },
+  {
+   "source": "CL0P",
+   "type": "targets",
+   "target": "CVE-2023-34362",
+   "evidence": "CL0P ransomware group exploited the zero-day vulnerability CVE-2023-34362 affecting MOVEit Transfer software"
+  },
+  {
+   "source": "CL0P",
+   "type": "targets",
+   "target": "MOVEit Transfer",
+   "evidence": "CL0P ransomware group exploited the zero-day vulnerability CVE-2023-34362 affecting MOVEit Transfer software"
+  },
+  {
+   "source": "CL0P",
+   "type": "targets",
+   "target": "Truebot",
+   "evidence": "CL0P actors use Truebot to download additional modules."
+  },
+  {
+   "source": "CL0P",
+   "type": "targets",
+   "target": "SDBot",
+   "evidence": "CL0P actors use SDBot as a backdoor to enable other commands and functions to be executed in the compromised computer."
+  },
+  {
+   "source": "CL0P",
+   "type": "targets",
+   "target": "TinyMet",
+   "evidence": "CL0P actors use TinyMet, a small open-source Meterpreter stager to establish a reverse shell to their C2 server."
+  },
+  {
+   "source": "CL0P",
+   "type": "targets",
+   "target": "DEWMODE",
+   "evidence": "DEWMODE is a web shell designed to interact with a MySQL database, and is used to exfiltrate data from the compromised network."
+  },
+  {
+   "source": "CL0P",
+   "type": "targets",
+   "target": "Cobalt Strike",
+   "evidence": "CL0P actors use Cobalt Strike to expand network access after gaining access to the Active Directory (AD) servers."
+  },
+  {
+   "source": "CL0P",
+   "type": "targets",
+   "target": "FlawedAmmyy",
+   "evidence": "CL0P actors use FlawedAmmyy remote access trojan (RAT) to communicate with the Command and Control (C2)."
+  },
+  {
+   "source": "CL0P",
+   "type": "targets",
+   "target": "FlawedGrace",
+   "evidence": "Named earlier in the document: LEMURLOOT, Truebot, Cobalt Strike, FlawedGrace, DEWMODE, CL0P, TA505, CL0P, TA505, MOVEit Transfer"
+  },
+  {
+   "source": "CL0P",
+   "type": "targets",
+   "target": "TA505",
+   "evidence": "Named earlier in the document: LEMURLOOT, Truebot, Cobalt Strike, FlawedGrace, DEWMODE, CL0P, TA505, CL0P, TA505, MOVEit Transfer"
+  },
+  {
+   "source": "CL0P",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "CL0P Ransomware Gang Exploits CVE-2023-34362 MOVEit Vulnerability"
+  },
+  {
+   "source": "CL0P",
+   "type": "uses",
+   "target": "malware",
+   "evidence": "CL0P Ransomware Gang Exploits CVE-2023-34362 MOVEit Vulnerability"
+  },
+  {
+   "source": "CL0P",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "Implement a recovery plan to maintain and retain multiple copies of sensitive or proprietary data and servers in a physically separate, segmented, and secure location (i.e., hard drive, storage device, the cloud)."
+  },
+  {
+   "source": "CL0P",
+   "type": "exploits",
+   "target": "vulnerability",
+   "evidence": "CL0P Ransomware Gang Exploits CVE-2023-34362 MOVEit Vulnerability"
+  },
+  {
+   "source": "FBI",
+   "type": "originates-from",
+   "target": "country",
+   "evidence": "FBI and CISA recommend exercising, testing, and validating your organization’s security program against the threat behaviors mapped to the MITRE ATT&CK for Enterprise framework in this advisory."
+  },
+  {
+   "source": "CISA",
+   "type": "originates-from",
+   "target": "country",
+   "evidence": "FBI and CISA recommend exercising, testing, and validating your organization’s security program against the threat behaviors mapped to the MITRE ATT&CK for Enterprise framework in this advisory."
+  }
+ ],
+ "_meta": {
+  "engine": "0.1",
+  "model": "qwen3:8b",
+  "seconds": 1427.8,
+  "errors": "1 unparsable chunk(s)"
+ }
+}
