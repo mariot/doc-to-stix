@@ -56,6 +56,7 @@ class Engine:
                     merged[k] += [x for x in data.get(k) or [] if isinstance(x, dict)]
         if self.harvest:  # engine 0.2: IDs, CVEs and IOCs written literally (harvest.py)
             merged = harvest.merge(merged, text)
+            merged = harvest.consolidate(merged, text)  # engine 0.4: the guidelines' rules
         if self.keep_chunks:
             merged["_chunks"] = chunks_kept
         merged["_meta"] = {

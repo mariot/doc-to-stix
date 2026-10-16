@@ -17,7 +17,7 @@ training documents, so:
 
 No Claude output is used for training; the eval gold is never used.
 
-    uv run python training/build_distill_examples.py runs/teacher-qwen3-30b-a3b-train
+    uv run python training/build_distill_examples.py runs/teacher-qwen3-30b-a3b-train [more runs] [--consolidate]
 """
 
 import json
@@ -102,14 +102,20 @@ def label(x: dict) -> str:
     return x.get("value") or x.get("mitre_id") or x["name"]
 
 
-def main(run_dir: str) -> None:
+def main(run_dirs: list[str], consolidated: bool = False) -> None:
+    """--consolidate (v3): each chunk's label also follows engine 0.4's rules
+    (only the guidelines' relationships, no private addresses or authors'
+    domains, IOCs tied to nobody indicate the document's main subject)."""
     examples = []
-    for f in sorted(Path(run_dir).glob("*.json")):
-        if f.name == "score.json":
-            continue
+    files = [f for d in run_dirs for f in sorted(Path(d).glob("*.json")) if f.name != "score.json"]
+    for f in files:
         doc_id = f.stem
         result = json.loads(f.read_text())
         objs = official(doc_id)
+        text = (ROOT / "corpus" / "text" / f"{doc_id}.txt").read_text()
+        subject = (
+            harvest.main_subject(text, compact.parse(result).entities) if consolidated else None
+        )
         n = 0
         for c in result.get("_chunks", []):
             if c["answer"] is None:
@@ -125,6 +131,13 @@ def main(run_dir: str) -> None:
                 off = chunk_labels(c["chunk"], objs)
                 for k in merged:
                     merged[k] += off[k]
+            if consolidated:
+                merged = harvest.consolidate(merged, text, orphan_iocs=False)
+                if subject and subject in c["user"]:  # named in the chunk or earlier
+                    merged["observables"] = [
+                        o if o.get("indicates") else {**o, "indicates": [subject]}
+                        for o in merged["observables"]
+                    ]
             answer = to_compact(compact.parse(merged), c["chunk"])
             if not any(answer.values()):
                 continue
@@ -154,4 +167,5 @@ def main(run_dir: str) -> None:
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    args = sys.argv[1:]
+    main([a for a in args if not a.startswith("--")], consolidated="--consolidate" in args)

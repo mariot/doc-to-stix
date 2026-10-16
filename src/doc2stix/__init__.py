@@ -8,4 +8,9 @@
 # 0.3  an answer cut at the output limit, unparsable or aborted (repetition loop)
 #      is asked again in two halves of the chunk, down to two levels; a failed
 #      request no longer ends the document
-ENGINE_VERSION = "0.3"
+# 0.4  consolidation by the guidelines (harvest.consolidate): only the guidelines'
+#      relationships, no private addresses or authors' domains as IOCs, and IOCs
+#      tied to nobody indicate the document's main subject
+# (0.5 tried a prompt separating the authors' country from victims and file names
+#  from families: 0.744 against 0.756, software recall 0.62 -> 0.44; reverted)
+ENGINE_VERSION = "0.4"

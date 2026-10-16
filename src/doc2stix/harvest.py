@@ -137,3 +137,91 @@ def merge(model: dict, text: str) -> dict:
                     }
                 )
     return out
+
+
+# -- engine 0.4: consolidation by the guidelines' rules ----------------------------
+
+ACTOR = {"intrusion-set", "threat-actor", "campaign"}
+SOFTWARE = {"malware", "tool"}
+VICTIM = {"sector", "organization", "country", "region"}
+# The relationships of gold/GUIDELINES.md: (source types, type, target types).
+GUIDELINE_RELATIONSHIPS = [
+    (ACTOR | SOFTWARE, "uses", {"attack-pattern"}),
+    (ACTOR, "uses", SOFTWARE),
+    (ACTOR | {"malware"}, "targets", VICTIM),
+    (ACTOR, "targets", {"vulnerability"}),
+    ({"malware"}, "exploits", {"vulnerability"}),
+    ({"tool"}, "targets", {"vulnerability"}),
+    ({"intrusion-set"}, "originates-from", {"country"}),
+    ({"threat-actor"}, "located-at", {"country"}),
+    ({"intrusion-set"}, "attributed-to", {"threat-actor"}),
+    ({"campaign"}, "attributed-to", {"intrusion-set", "threat-actor"}),
+    ({"malware"}, "variant-of", {"malware"}),
+]
+# Not IOCs: the authors' own sites and contacts (guidelines: "the agency's own contacts").
+AUTHOR_DOMAINS = re.compile(r"(\.gov|\.mil|\.gouv\.fr|\.gc\.ca|\.gov\.uk|\.gov\.au|mitre\.org)$")
+
+
+def in_guidelines(r: dict) -> bool:
+    s, t = r["source"].get("type"), r["target"].get("type")
+    return any(s in a and r["type"] == rt and t in b for a, rt, b in GUIDELINE_RELATIONSHIPS)
+
+
+def not_an_ioc(o: dict) -> bool:
+    v = o["value"].lower()
+    if o["type"] in ("ipv4-addr", "ipv6-addr"):
+        try:
+            return not ipaddress.ip_address(v.split("/")[0]).is_global
+        except ValueError:
+            return True
+    host = v
+    if o["type"] == "url":
+        host = re.sub(r"^[a-z]+://", "", v).split("/")[0].split(":")[0]
+    elif o["type"] == "email-addr":
+        host = v.split("@")[-1]
+    return bool(AUTHOR_DOMAINS.search(host))
+
+
+def consolidate(
+    extraction: dict,
+    text: str,
+    *,
+    guideline_relationships: bool = True,
+    drop_non_iocs: bool = True,
+    orphan_iocs: bool = True,
+) -> dict:
+    """The guidelines' rules applied after the model (engine 0.4), on the raw
+    lists (entities are left as they are):
+    - only the relationships of the guidelines table (the model also writes
+      "software uses software", "actor uses CVE"...);
+    - not IOCs: private and loopback addresses, the authors' own domains;
+    - IOCs tied to nobody indicate the document's main subject (as for
+      technique tables: "when the document does not say, the main subject")."""
+    ex = compact.parse(extraction)
+    resolver = compact.Resolver(ex)
+    out = {k: list(extraction.get(k) or []) for k in ("entities", "observables", "relationships")}
+    if guideline_relationships:
+        kept = []
+        for r in out["relationships"]:
+            rtype = str(r.get("type") or "").strip().lower()
+            src, tgt = compact.pick_ends(resolver, r.get("source"), rtype, r.get("target"))
+            if src is None or tgt is None:
+                continue
+            if compact.reversed_fact(src, rtype, tgt):
+                src, tgt = tgt, src
+            if in_guidelines({"source": src, "type": rtype, "target": tgt}):
+                kept.append(r)
+        out["relationships"] = kept
+    if drop_non_iocs:
+        clean = []
+        for o in out["observables"]:
+            c = compact.canonical_observable(dict(o))
+            if c is not None and not not_an_ioc(c):
+                clean.append(o)
+        out["observables"] = clean
+    subject = main_subject(text, ex.entities)
+    if subject and orphan_iocs:
+        out["observables"] = [
+            o if o.get("indicates") else {**o, "indicates": [subject]} for o in out["observables"]
+        ]
+    return out

@@ -15,6 +15,7 @@ mean of the three F1, so a long IOC table does not outweigh the analysis.
 from collections import Counter
 from dataclasses import dataclass, field
 
+from doc2stix import reference
 from doc2stix.compact import Extraction, Resolver, entity_key, family_type, names_of
 
 FAMILY = {
@@ -113,10 +114,22 @@ def gold_index(gold: Extraction) -> dict[tuple, tuple]:
     return idx
 
 
+def top_sector(name: str) -> str:
+    """The top-level OpenCTI sector of a sector (Healthcare services -> Health)."""
+    parents = {s["name"]: s["parent"] for s in reference.opencti()["sectors"]}
+    while parents.get(name):
+        name = parents[name]
+    return name
+
+
 def keyer(idx: dict[tuple, tuple]):
     def key(x: dict) -> tuple:
         if "value" in x:
             return Resolver.key(x)
+        if x.get("type") == "sector":  # sectors are scored at OpenCTI's top level:
+            # "the most specific sector" is a judgment call ("Health" or
+            # "Healthcare services" for hospitals); the bundle keeps the specific one
+            return ("sector", reference.name_key(top_sector(x["name"])))
         for n in names_of(x):
             hit = idx.get((family_type(x["type"]), n))
             if hit:

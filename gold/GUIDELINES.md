@@ -39,7 +39,10 @@ The format is the compact extraction described in `src/doc2stix/compact.py`;
 Not entities: the authoring agencies and their countries (CISA, the FBI, ANSSI,
 "United States" as an author), security vendors cited as sources, generic words
 ("ransomware", "a backdoor", "web shell") without a name, legitimate products
-that are only targets (they go into a CVE or a sector, not a tool).
+that are only targets (they go into a CVE or a sector, not a tool), and file
+names ("stage1.exe", "Client.exe") unless the document uses one as the name of
+the family. The authors' country is an entity when it is a target ("victims in
+the United States"), only not as an author.
 
 Ransomware: the malware is the ransomware family ("Akira"); the group operating
 it is an intrusion-set only when the document speaks of the group ("Akira

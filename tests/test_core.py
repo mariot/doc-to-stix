@@ -138,3 +138,29 @@ def test_engine_splits_a_cut_off_chunk():
     assert backend.calls > 1
     assert result["_meta"]["errors"] == ""  # every half answered
     assert any(e["name"] == "APT29" for e in result["entities"])
+
+
+def test_consolidate_applies_the_guidelines():
+    text = "Volt Typhoon used Mimikatz.\nIOCs: 203.0.113.9 8.8.4.4 www.cisa.gov 127.0.0.1"
+    raw = {
+        "entities": [
+            {"type": "intrusion-set", "name": "Volt Typhoon", "evidence": "Volt Typhoon"},
+            {"type": "tool", "name": "Mimikatz", "evidence": "Mimikatz"},
+            {"type": "vulnerability", "name": "CVE-2023-3519", "evidence": "x"},
+        ],
+        "observables": [
+            {"type": "ipv4-addr", "value": "8.8.4.4"},
+            {"type": "ipv4-addr", "value": "127.0.0.1"},
+            {"type": "domain-name", "value": "www.cisa.gov"},
+        ],
+        "relationships": [
+            {"source": "Volt Typhoon", "type": "uses", "target": "Mimikatz"},
+            {"source": "Volt Typhoon", "type": "uses", "target": "CVE-2023-3519"},  # not a rule
+        ],
+    }
+    out = harvest.consolidate(raw, text)
+    assert [o["value"] for o in out["observables"]] == ["8.8.4.4"]
+    assert out["observables"][0]["indicates"] == ["Volt Typhoon"]
+    assert [(r["source"], r["type"], r["target"]) for r in out["relationships"]] == [
+        ("Volt Typhoon", "uses", "Mimikatz")
+    ]
