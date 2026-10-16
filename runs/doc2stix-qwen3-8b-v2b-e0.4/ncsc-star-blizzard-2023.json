@@ -1,0 +1,478 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "Star Blizzard",
+   "evidence": "The Russia-based actor Star Blizzard (formerly known as SEABORGIUM, also known as Callisto Group/TA446/COLDRIVER/TAG￾53/BlueCharlie) continues to successfully use spear-phishing attacks against targeted organisations and individuals in the",
+   "aliases": [
+    "SEABORGIUM",
+    "Callisto Group",
+    "TA446",
+    "COLDRIVER",
+    "TAG-53",
+    "BlueCharlie"
+   ]
+  },
+  {
+   "type": "country",
+   "name": "Russian Federation",
+   "evidence": "The Russia-based actor is targeting organisations and individuals in the UK and other geographical areas of interest."
+  },
+  {
+   "type": "sector",
+   "name": "Academia",
+   "evidence": "Since 2019, Star Blizzard has targeted sectors including academia, defence, governmental organisations, NGOs, think tanks and politicians."
+  },
+  {
+   "type": "sector",
+   "name": "Defense",
+   "evidence": "Since 2019, Star Blizzard has targeted sectors including academia, defence, governmental organisations, NGOs, think tanks and politicians."
+  },
+  {
+   "type": "sector",
+   "name": "Governmental organisations",
+   "evidence": "Since 2019, Star Blizzard has targeted sectors including academia, defence, governmental organisations, NGOs, think tanks and politicians."
+  },
+  {
+   "type": "sector",
+   "name": "NGOs",
+   "evidence": "Since 2019, Star Blizzard has targeted sectors including academia, defence, governmental organisations, NGOs, think tanks and politicians."
+  },
+  {
+   "type": "sector",
+   "name": "Think tanks",
+   "evidence": "Since 2019, Star Blizzard has targeted sectors including academia, defence, governmental organisations, NGOs, think tanks and politicians."
+  },
+  {
+   "type": "sector",
+   "name": "Politicians",
+   "evidence": "Since 2019, Star Blizzard has targeted sectors including academia, defence, governmental organisations, NGOs, think tanks and politicians."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Spear-phishing",
+   "evidence": "The Russia-based actor Star Blizzard (formerly known as SEABORGIUM, also known as Callisto Group/TA446/COLDRIVER/TAG￾53/BlueCharlie) continues to successfully use spear-phishing attacks against targeted organisations and individuals in the",
+   "mitre_id": "T1566"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Star Blizzard",
+   "evidence": "Targets in the UK and US appear to have been most affected by Star Blizzard activity, however activity has also been"
+  },
+  {
+   "type": "country",
+   "name": "United Kingdom",
+   "evidence": "Targets in the UK and US appear to have been most affected by Star Blizzard activity, however activity has also been"
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "Targets in the UK and US appear to have been most affected by Star Blizzard activity, however activity has also been"
+  },
+  {
+   "type": "country",
+   "name": "NATO countries",
+   "evidence": "activity has also been observed against targets in other NATO countries, and countries neighbouring Russia."
+  },
+  {
+   "type": "country",
+   "name": "Russia",
+   "evidence": "countries neighbouring Russia."
+  },
+  {
+   "type": "sector",
+   "name": "Defense",
+   "evidence": "During 2022, Star Blizzard activity appeared to expand further, to include defence-industrial targets, as well as US Department of Energy facilities."
+  },
+  {
+   "type": "sector",
+   "name": "Energy",
+   "evidence": "US Department of Energy facilities."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Spear-phishing",
+   "evidence": "The activity is typical of spear-phishing campaigns, where an actor targets a specific individual or group, using information"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Open-source intelligence",
+   "evidence": "Using open-source resources to conduct reconnaissance, including social media and professional networking platforms,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Impersonation",
+   "evidence": "Star Blizzard creates email accounts impersonating known contacts of their targets to help appear legitimate. They also"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Social engineering",
+   "evidence": "create fake social media or networking profiles that impersonate respected experts [T1585.001] and have used supposed"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing",
+   "evidence": "Star Blizzard uses webmail addresses from different providers, including Outlook, Gmail, Yahoo and Proton mail in their"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing",
+   "evidence": "initial approach [T1585.002], impersonating known contacts of the target or well-known names in the target’s field of"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Open-source intelligence",
+   "evidence": "T1589; T1593"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Star Blizzard",
+   "evidence": "Russian FSB cyber actor Star Blizzard continues worldwide spear-phishing campaigns"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Star Blizzard",
+   "evidence": "Star Blizzard continues worldwide spear-phishing campaigns"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Search Open Websites/Domains",
+   "evidence": "Search Open Websites/Domains T1593 Star Blizzard uses open-source research and social media to identify information",
+   "mitre_id": "T1593"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information",
+   "evidence": "Gather Victim Identity Information T1589 Star Blizzard uses online data sets and open-source resources to gather",
+   "mitre_id": "T1589"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Establish Accounts: Social Media Accounts",
+   "evidence": "Establish Accounts: Social Media Accounts T1585.001 Star Blizzard has been observed establishing fraudulent profiles on professional",
+   "mitre_id": "T1585.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Establish Accounts: Email Accounts",
+   "evidence": "Establish Accounts: Email Accounts T1585.002 Star Blizzard registers consumer email accounts matching the names of",
+   "mitre_id": "T1585.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure: Domains",
+   "evidence": "Acquire Infrastructure: Domains T1583.001 Star Blizzard registers domains to host their phishing framework.",
+   "mitre_id": "T1583.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Compromise Accounts: Email Accounts",
+   "evidence": "Compromise Accounts: Email Accounts T1586.002 Star Blizzard has been observed using compromised victim email accounts to",
+   "mitre_id": "T1586.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "evidence": "Valid Accounts T1078 Star Blizzard uses compromised credentials, captured from fake log-in pages, to",
+   "mitre_id": "T1078"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing: Spear-phishing Attachment",
+   "evidence": "Phishing: Spear-phishing Attachment T1566.001 Star Blizzard uses malicious links embedded in email attachments to direct victims",
+   "mitre_id": "T1566.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing: Spear-phishing Link",
+   "evidence": "Phishing: Spear-phishing Link T1566.002 Star Blizzard sends spear-phishing emails with malicious links directly to",
+   "mitre_id": "T1566.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Use Alternate Authentication Material: Web Session Cookie",
+   "evidence": "Use Alternate Authentication Material: Web Session Cookie T1550.004 Star Blizzard bypasses multi-factor authentication on victim email accounts by",
+   "mitre_id": "T1550.004"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Steal Web Session Cookie",
+   "evidence": "Steal Web Session Cookie T1539 Star Blizzard uses EvilGinx to steal the session cookies of victims directed to their",
+   "mitre_id": "T1539"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Remote Email Collection",
+   "evidence": "Email Collection: Remote Email Collection T1114.002 Star Blizzard interacts directly with externally facing Exchange services, Office 365",
+   "mitre_id": "T1114.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding Rule",
+   "evidence": "Email Collection: Email Forwarding Rule T1114.003 Star Blizzard abuse email-forwarding rules to monitor the activities of a victim,",
+   "mitre_id": "T1114.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information",
+   "mitre_id": "T1589",
+   "evidence": "Star Blizzard identifies hooks to engage their target. They take the time to research their interests and identify their real￾world social or professional contacts. [T1589; T1593]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Search Open Websites/Domains",
+   "mitre_id": "T1593",
+   "evidence": "Star Blizzard identifies hooks to engage their target. They take the time to research their interests and identify their real￾world social or professional contacts. [T1589; T1593]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Establish Accounts: Social Media Accounts",
+   "mitre_id": "T1585.001",
+   "evidence": "create fake social media or networking profiles that impersonate respected experts [T1585.001] and have used supposed"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Establish Accounts: Email Accounts",
+   "mitre_id": "T1585.002",
+   "evidence": "initial approach [T1585.002], impersonating known contacts of the target or well-known names in the target’s field of"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure: Domains",
+   "mitre_id": "T1583.001",
+   "evidence": "To appear authentic, the actor also creates malicious domains resembling legitimate organisations [T1583.001]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing: Spearphishing Link",
+   "mitre_id": "T1566.002",
+   "evidence": "Once trust is established, the attacker uses typical phishing tradecraft and shares a link [T1566.002], apparently to a"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing: Spearphishing Attachment",
+   "mitre_id": "T1566.001",
+   "evidence": "The malicious link may be a URL in an email message, or the actor may embed a link in a document [T1566.001] on OneDrive,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Steal Web Session Cookie",
+   "mitre_id": "T1539",
+   "evidence": "credentials and session cookies to successfully bypass the use of two-factor authentication [T1539; T1550.004]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Use Alternate Authentication Material: Web Session Cookie",
+   "mitre_id": "T1550.004",
+   "evidence": "credentials and session cookies to successfully bypass the use of two-factor authentication [T1539; T1550.004]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "Star Blizzard then uses the stolen credentials to log in to a target’s email account [T1078], where they are known to access"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Remote Email Collection",
+   "mitre_id": "T1114.002",
+   "evidence": "and steal emails and attachments from the victim’s inbox [T1114.002]. They have also set up mail-forwarding rules, giving"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Email Forwarding Rule",
+   "mitre_id": "T1114.003",
+   "evidence": "them ongoing visibility of victim correspondence [T1114.003]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Compromise Accounts: Email Accounts",
+   "mitre_id": "T1586.002",
+   "evidence": "[T1586.002]."
+  }
+ ],
+ "observables": [],
+ "relationships": [
+  {
+   "source": "Star Blizzard",
+   "type": "targets",
+   "target": "Academia",
+   "evidence": "Since 2019, Star Blizzard has targeted sectors including academia, defence, governmental organisations, NGOs, think tanks and politicians."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "targets",
+   "target": "Defense",
+   "evidence": "Since 2019, Star Blizzard has targeted sectors including academia, defence, governmental organisations, NGOs, think tanks and politicians."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "targets",
+   "target": "NGOs",
+   "evidence": "Since 2019, Star Blizzard has targeted sectors including academia, defence, governmental organisations, NGOs, think tanks and politicians."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "targets",
+   "target": "Think tanks",
+   "evidence": "Since 2019, Star Blizzard has targeted sectors including academia, defence, governmental organisations, NGOs, think tanks and politicians."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "originates-from",
+   "target": "Russian Federation",
+   "evidence": "The Russia-based actor is targeting organisations and individuals in the UK and other geographical areas of interest."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "targets",
+   "target": "United Kingdom",
+   "evidence": "Targets in the UK and US appear to have been most affected by Star Blizzard activity, however activity has also been"
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "targets",
+   "target": "United States",
+   "evidence": "Targets in the UK and US appear to have been most affected by Star Blizzard activity, however activity has also been"
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "targets",
+   "target": "Russia",
+   "evidence": "countries neighbouring Russia."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "targets",
+   "target": "Defense",
+   "evidence": "During 2022, Star Blizzard activity appeared to expand further, to include defence-industrial targets, as well as US Department of Energy facilities."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "targets",
+   "target": "Energy",
+   "evidence": "US Department of Energy facilities."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "Spear-phishing",
+   "evidence": "The activity is typical of spear-phishing campaigns, where an actor targets a specific individual or group, using information"
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "Open-source intelligence",
+   "evidence": "Using open-source resources to conduct reconnaissance, including social media and professional networking platforms,"
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "Social engineering",
+   "evidence": "create fake social media or networking profiles that impersonate respected experts [T1585.001] and have used supposed"
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "Phishing",
+   "evidence": "Star Blizzard uses webmail addresses from different providers, including Outlook, Gmail, Yahoo and Proton mail in their"
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "Phishing",
+   "evidence": "initial approach [T1585.002], impersonating known contacts of the target or well-known names in the target’s field of"
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "Open-source intelligence",
+   "evidence": "T1589; T1593"
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "T1593",
+   "evidence": "Star Blizzard uses open-source research and social media to identify information about victims to use in targeting."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "T1589",
+   "evidence": "Star Blizzard uses online data sets and open-source resources to gather information about their targets."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "T1585.001",
+   "evidence": "Star Blizzard has been observed establishing fraudulent profiles on professional networking sites to conduct reconnaissance."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "T1585.002",
+   "evidence": "Star Blizzard registers consumer email accounts matching the names of individuals they are impersonating to conduct spear-phishing activity."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "T1583.001",
+   "evidence": "Star Blizzard registers domains to host their phishing framework."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "T1586.002",
+   "evidence": "Star Blizzard has been observed using compromised victim email accounts to conduct spear-phishing activity against contacts of the original victim."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "T1078",
+   "evidence": "Star Blizzard uses compromised credentials, captured from fake log-in pages, to log in to valid victim user accounts."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "T1566.001",
+   "evidence": "Star Blizzard uses malicious links embedded in email attachments to direct victims to their credential-stealing sites."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "T1566.002",
+   "evidence": "Star Blizzard sends spear-phishing emails with malicious links directly to credential-stealing sites, or to documents hosted on a file-sharing site, which then direct victims to credential-stealing sites."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "T1550.004",
+   "evidence": "Star Blizzard bypasses multi-factor authentication on victim email accounts by using session cookies stolen using EvilGinx."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "T1539",
+   "evidence": "Star Blizzard uses EvilGinx to steal the session cookies of victims directed to their fake log-in domains."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "T1114.002",
+   "evidence": "Star Blizzard interacts directly with externally facing Exchange services, Office 365 and Google Workspace to access email and steal information using compromised credentials or access tokens."
+  },
+  {
+   "source": "Star Blizzard",
+   "type": "uses",
+   "target": "T1114.003",
+   "evidence": "Star Blizzard abuse email-forwarding rules to monitor the activities of a victim, steal information, and maintain persistent access to victim's emails, even after compromised credentials are reset."
+  }
+ ],
+ "_meta": {
+  "engine": "0.4",
+  "model": "doc2stix-qwen3-8b:v2b",
+  "seconds": 764.1,
+  "errors": "1 unparsable chunk(s)",
+  "replayed_from": "doc2stix-qwen3-8b-v2b-e0.3"
+ }
+}

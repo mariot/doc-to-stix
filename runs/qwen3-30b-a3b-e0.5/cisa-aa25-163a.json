@@ -1,0 +1,68 @@
+{
+ "entities": [
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-57727",
+   "evidence": "SimpleHelp versions 5.5.7 and earlier contain several vulnerabilities, including CVE-2024-57727—a path traversal vulnerability.",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "ransomware",
+   "evidence": "ransomware actors leveraging unpatched instances of a vulnerability in SimpleHelp Remote Monitoring and Management (RMM) to compromise customers of a utility billing software provider.",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "SimpleHelp Remote Monitoring and Management",
+   "evidence": "ransomware actors leveraging unpatched instances of a vulnerability in SimpleHelp Remote Monitoring and Management (RMM) to compromise customers of a utility billing software provider.",
+   "aliases": [
+    "SimpleHelp RMM"
+   ]
+  },
+  {
+   "type": "organization",
+   "name": "utility billing software provider",
+   "evidence": "ransomware actors leveraging unpatched instances of a vulnerability in SimpleHelp Remote Monitoring and Management (RMM) to compromise customers of a utility billing software provider.",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "ransomware",
+   "evidence": "Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Compromise Utility Billing Software Provider",
+   "aliases": [
+    "ransomware"
+   ]
+  },
+  {
+   "type": "tool",
+   "name": "SimpleHelp Remote Monitoring and Management",
+   "evidence": "Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Compromise Utility Billing Software Provider",
+   "aliases": [
+    "SimpleHelp RMM Software"
+   ]
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-57727",
+   "evidence": "SimpleHelp versions 5.5.7 and earlier contain several vulnerabilities, including CVE-2024-57727—a path"
+  }
+ ],
+ "observables": [
+  {
+   "type": "domain-name",
+   "value": "simple-help.com",
+   "hash": "",
+   "indicates": [
+    "CVE-2024-57727"
+   ]
+  }
+ ],
+ "relationships": [],
+ "_meta": {
+  "engine": "0.5",
+  "model": "qwen3:30b-a3b",
+  "seconds": 20.0,
+  "errors": ""
+ }
+}

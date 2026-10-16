@@ -1,0 +1,2997 @@
+{
+ "entities": [
+  {
+   "type": "malware",
+   "name": "Akira Ransomware",
+   "evidence": "Akira ransomware threat actors are associated with other groups known as Storm-1567, Howling Scorpius, Punk Spider, and Gold Sahara, and may have connections to the defunct Conti ransomware group."
+  },
+  {
+   "type": "malware",
+   "name": "Megazord",
+   "evidence": "Early versions of the Akira ransomware variant used C++ to write the code and encrypted files with a .akira extension; however, beginning in August 2023, some Akira attacks began deploying a Megazord encryptor—a Rust-based tool that encrypts files with a .powerranges extension."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-40766",
+   "evidence": "Akira threat actors likely abused Common Vulnerabilities and Exposures (CVE)-2024-40766 (Common Weakness Enumeration [CWE]-284: Improper Access Control), a SonicWall vulnerability, for initial access."
+  },
+  {
+   "type": "sector",
+   "name": "Education",
+   "evidence": "Akira threat actors have a notable preference for educational institutions and organizations in the Critical Manufacturing, Information Technology, Healthcare and Public Health, Financial Services, and Food and Agriculture sectors."
+  },
+  {
+   "type": "sector",
+   "name": "Critical Manufacturing",
+   "evidence": "Akira threat actors have a notable preference for educational institutions and organizations in the Critical Manufacturing, Information Technology, Healthcare and Public Health, Financial Services, and Food and Agriculture sectors."
+  },
+  {
+   "type": "sector",
+   "name": "Information Technology",
+   "evidence": "Akira threat actors have a notable preference for educational institutions and organizations in the Critical Manufacturing, Information Technology, Healthcare and Public Health, Financial Services, and Food and Agriculture sectors."
+  },
+  {
+   "type": "sector",
+   "name": "Healthcare and Public Health",
+   "evidence": "Akira threat actors have a notable preference for educational institutions and organizations in the Critical Manufacturing, Information Technology, Healthcare and Public Health, Financial Services, and Food and Agriculture sectors."
+  },
+  {
+   "type": "sector",
+   "name": "Financial Services",
+   "evidence": "Akira threat actors have a notable preference for educational institutions and organizations in the Critical Manufacturing, Information Technology, Healthcare and Public Health, Financial Services, and Food and Agriculture sectors."
+  },
+  {
+   "type": "sector",
+   "name": "Food and Agriculture",
+   "evidence": "Akira threat actors have a notable preference for educational institutions and organizations in the Critical Manufacturing, Information Technology, Healthcare and Public Health, Financial Services, and Food and Agriculture sectors."
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "The United States’ Federal Bureau of Investigation (FBI), Cybersecurity and Infrastructure Security Agency (CISA), Department of Defense Cyber Crime Center (DC3), and Department of Health and Human Services (HHS);"
+  },
+  {
+   "type": "country",
+   "name": "France",
+   "evidence": "France’s Office Anti-Cybercriminalite (OFAC) – French Cybercrime Central Office;"
+  },
+  {
+   "type": "country",
+   "name": "Germany",
+   "evidence": "Germany’s Generalstaatsanwaltschaft Karlsruhe – Cybercrime-Zentrum Baden-Württemberg and Landeskriminalamt Baden-Württemberg;"
+  },
+  {
+   "type": "country",
+   "name": "Netherlands",
+   "evidence": "the Netherlands’s National Cyber Security Centre (NCSC-NL)—hereafter referred to as the “authoring organizations”—are releasing this joint advisory"
+  },
+  {
+   "type": "organization",
+   "name": "FBI",
+   "evidence": "The United States’ Federal Bureau of Investigation (FBI), Cybersecurity and Infrastructure Security Agency (CISA), Department of Defense Cyber Crime Center (DC3), and Department of Health and Human Services (HHS);"
+  },
+  {
+   "type": "organization",
+   "name": "CISA",
+   "evidence": "The United States’ Federal Bureau of Investigation (FBI), Cybersecurity and Infrastructure Security Agency (CISA), Department of Defense Cyber Crime Center (DC3), and Department of Health and Human Services (HHS);"
+  },
+  {
+   "type": "organization",
+   "name": "DC3",
+   "evidence": "The United States’ Federal Bureau of Investigation (FBI), Cybersecurity and Infrastructure Security Agency (CISA), Department of Defense Cyber Crime Center (DC3), and Department of Health and Human Services (HHS);"
+  },
+  {
+   "type": "organization",
+   "name": "HHS",
+   "evidence": "The United States’ Federal Bureau of Investigation (FBI), Cybersecurity and Infrastructure Security Agency (CISA), Department of Defense Cyber Crime Center (DC3), and Department of Health and Human Services (HHS);"
+  },
+  {
+   "type": "organization",
+   "name": "Europol’s European Cybercrime Centre (EC3)",
+   "evidence": "The United States’ Federal Bureau of Investigation (FBI), Cybersecurity and Infrastructure Security Agency (CISA), Department of Defense Cyber Crime Center (DC3), and Department of Health and Human Services (HHS);"
+  },
+  {
+   "type": "organization",
+   "name": "OFAC",
+   "evidence": "France’s Office Anti-Cybercriminalite (OFAC) – French Cybercrime Central Office;"
+  },
+  {
+   "type": "organization",
+   "name": "NCSC-NL",
+   "evidence": "the Netherlands’s National Cyber Security Centre (NCSC-NL)—hereafter referred to as the “authoring organizations”—are releasing this joint advisory"
+  },
+  {
+   "type": "malware",
+   "name": "Akira Ransomware",
+   "evidence": "Named earlier in the document: Akira Ransomware, Megazord"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-3259",
+   "evidence": "CVE-2020-3259 [Common Weakness Enumeration (CWE)-200: Exposure of Sensitive Information to an Unauthorized Actor]"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-20269",
+   "evidence": "CVE-2023-20269 [CWE-288: Authentication Bypass Using an Alternate Path or Channel]"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-3580",
+   "evidence": "CVE-2020-3580 [CWE-79: Improper Neutralization of Input During Web Page Generation (‘Cross-site Scripting’)]"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-28252",
+   "evidence": "CVE-2023-28252 [CWE-122: Heap-based Buffer Overflow]"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-37085",
+   "evidence": "CVE-2024-37085 [CWE-305: Authentication Bypass by Primary Weakness]"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-27532",
+   "evidence": "CVE-2023-27532 [CWE-306: Missing Authentication for Critical Function]"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-40711",
+   "evidence": "CVE-2024-40711 [CWE-502: Deserialization of Untrusted Data]"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-40766",
+   "evidence": "CVE-2024-40766 [CWE-284: Improper Access Control]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "password spraying",
+   "evidence": "Akira threat actors deploy password spraying techniques, using tools such as SharpDomainSpray to gain access to account credentials [T1110.003]"
+  },
+  {
+   "type": "malware",
+   "name": "Akira Ransomware",
+   "evidence": "s through compromised VPN credentials, potentially by using initial access brokers or brute-forcing VPN endpoints [T1110]."
+  },
+  {
+   "type": "malware",
+   "name": "Megazord",
+   "evidence": "Named earlier in the document: Akira Ransomware, Megazord"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "password spraying",
+   "evidence": "Akira threat actors deploy password spraying techniques, using tools such as SharpDomainSpray to gain access to account credentials [T1110.003]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "exploiting router’s IP address",
+   "evidence": "Akira threat actors gained initial access through the Secure Shell (SSH) protocol by exploiting a router’s IP address [T1021.004]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "exploiting Veeam Backup and Replication component",
+   "evidence": "Akira threat actors exploit publicly available vulnerabilities, such as those found in the Veeam Backup and Replication component of unpatched Veeam backup servers [T1068] (CVE-2023-27532 and CVE-2024-40711)."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "using VB scripts",
+   "evidence": "Akira threat actors frequently execute malicious commands by using Visual Basic (VB) scripts [T1059.005]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "creating domain accounts",
+   "evidence": "Akira threat actors attempt to establish persistence by creating new domain accounts [T1136.002] to abuse the functions of domain controllers."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Kerberoasting",
+   "evidence": "Akira threat actors leverage post-exploitation techniques, such as Kerberoasting, to extract credentials stored in the process memory of the Local Security Authority Subsystem Service (LSASS) [T1003.001]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "credential scraping",
+   "evidence": "Akira threat actors use credential scraping tools [T1003], like Mimikatz and LaZagne, to aid in privilege escalation."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "network discovery and reconnaissance",
+   "evidence": "Akira threat actors use tools like SoftPerfect, Advanced IP Scanner, and NetScan [T1016] for network discovery and reconnaissance."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "using nltest /dclist: and nltest /DOMAIN_TRUSTS",
+   "evidence": "Akira threat actors use nltest /dclist: and nltest /DOMAIN_TRUSTS [T1018][T1482] for network and domain discovery."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "disabling security software",
+   "evidence": "Akira threat actors disable security software to avoid detection. Cybersecurity researchers observed Akira threat actors using PowerTool to exploit the Zemana AntiMalware driver and terminate antivirus-related processes [T1562.001]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "abusing remote access tools",
+   "evidence": "Akira threat actors abuse remote access tools such as AnyDesk and LogMeIn [T1219] to maintain persistence and blend in with administrator activity."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "using Impacket",
+   "evidence": "Akira threat actors leverage Impacket (an open source tool designed for network protocol manipulation) to execute the remote command wmiexec.py."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "uninstalling EDR systems",
+   "evidence": "Akira threat actors implement techniques such as uninstalling endpoint detection and response (EDR) systems [T1562.001]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "creating new user accounts",
+   "evidence": "Akira threat actors create new user accounts and add them to the administrator group to establish a foothold in the environment [T1136.001]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "bypassing VMDK file protection",
+   "evidence": "Akira threat actors bypassed Virtual Machine Disk (VMDK) file protection by temporarily powering down the domain controller’s VM, copying the VMDK files, and attaching them to a newly created VM."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "leveraging Veeam.Backup.MountService.exe",
+   "evidence": "Akira threat actors have also been observed leveraging services like Veeam.Backup.MountService.exe for privilege escalation (CVE-2024-40711) [T1068]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "using legitimate remote access tools",
+   "evidence": "Akira threat actors use legitimate remote access tools like AnyDesk or LogMeIn [T1219] to pivot laterally."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "using RDP",
+   "evidence": "Akira threat actors also employ RDP [T1021.001], SSH [T1021.004], and MobaXterm to expand their presence within the compromised network [T1021]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "using tunneling utilities",
+   "evidence": "Akira threat actors establish command and control (C2) communications by using tunneling utilities, such as Ngrok [T1572], to initiate encrypted sessions that bypass perimeter monitoring."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "using PowerShell and WMIC",
+   "evidence": "Akira threat actors use PowerShell and Windows Management Instrumentation Command-line (WMIC) [T1059.001] to disable services and execute malicious scripts."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "data collection",
+   "evidence": "Akira threat actors leverage tools such as FileZilla and WinRAR to collect data [T1560.001]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "data exfiltration",
+   "evidence": "Akira threat actors use WinSCP and RClone to exfiltrate data [T1048]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "using AnyDesk, MobaXterm, RustDesk, and Cloudflare Tunnel",
+   "evidence": "Akira threat actors leverage readily available tools like AnyDesk, MobaXterm, RustDesk, and Cloudflare Tunnel to exfiltrate data through various protocols such as FTP, SFTP, and cloud storage services like Mega [T1537]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "using Ngrok for data exfiltration",
+   "evidence": "Akira threat actors use Ngrok to create secure tunnels for data exfiltration [T1090]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "double-extortion model",
+   "evidence": "Akira threat actors use a double-extortion model [T1657], which involves threat actors both encrypting systems [T1486] and threatening to leak sensitive information."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "using .onion URLs",
+   "evidence": "The Akira ransom note provides each company with a unique code and instructions to contact the threat actors via a .onion URL, which is accessible through the Tor network [T1090.003][T1573.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "using Bitcoin for ransom payments",
+   "evidence": "Victims make ransom payments by using Bitcoin to cryptocurrency-wallet addresses provided by the Akira threat actors."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "threatening to publish exfiltrated data",
+   "evidence": "Akira threat actors threaten to publish exfiltrated data on the Tor network, and in some instances have called victimized companies, according to FBI reporting."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "using ChaCha20 stream cipher and RSA public-key cryptosystem",
+   "evidence": "Akira threat actors use a sophisticated hybrid encryption scheme to lock data. This involves combining a ChaCha20 stream cipher with an RSA public-key cryptosystem for a fast and secure key exchange [T1486]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "using .akira or .powerranges extensions",
+   "evidence": "Encrypted files are appended with a .akira or .powerranges extension."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "using .akiranew or .aki extensions",
+   "evidence": "With the new Akira_v2 variant, encrypted files are appended either with an .akira or .powerranges extension, or with .akiranew or .aki."
+  },
+  {
+   "type": "malware",
+   "name": "Akira Ransomware",
+   "evidence": "Akira threat actors use a sophisticated hybrid encryption scheme to lock data."
+  },
+  {
+   "type": "malware",
+   "name": "Akira_v2",
+   "evidence": "With the new Akira_v2 variant, encrypted files are appended either with an .akira or .powerranges extension, or with .akiranew or .aki."
+  },
+  {
+   "type": "tool",
+   "name": "AdFind",
+   "evidence": "A command-line tool used to query and retrieve information from Active Directory [T1087.002]."
+  },
+  {
+   "type": "tool",
+   "name": "Advanced IP Scanner",
+   "evidence": "A network scanning tool used for reconnaissance that locates all computers on a network and conducts a scan of their ports."
+  },
+  {
+   "type": "tool",
+   "name": "AnyDesk",
+   "evidence": "Legitimate desktop support software used to obtain remote access to victim systems and for lateral movement."
+  },
+  {
+   "type": "tool",
+   "name": "LaZagne",
+   "evidence": "An open source tool that enables users to recover stored passwords on Windows, Linux, and Mac OS X systems."
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz",
+   "evidence": "A credential dumper that enables users to view and save authentication credentials, such as Kerberos tickets."
+  },
+  {
+   "type": "tool",
+   "name": "Ngrok",
+   "evidence": "A reverse proxy tool [T1090] used to create a secure tunnel to servers behind firewalls or local machines without a public IP address."
+  },
+  {
+   "type": "tool",
+   "name": "PCHunter64",
+   "evidence": "A tool used to acquire detailed process and system information [T1082]."
+  },
+  {
+   "type": "tool",
+   "name": "PowerShell",
+   "evidence": "A cross-platform task automation solution used for various malicious activities, including deleting shadow copies."
+  },
+  {
+   "type": "tool",
+   "name": "RClone",
+   "evidence": "A legitimate command-line program used to sync files with cloud storage services, such as Mega."
+  },
+  {
+   "type": "tool",
+   "name": "SoftPerfect",
+   "evidence": "A network scanner (netscan.exe) used to ping computers, scan ports, discover shared folders, and retrieve information about network devices."
+  },
+  {
+   "type": "tool",
+   "name": "WinRAR",
+   "evidence": "Archive utility used to split compromised data into segments and to compress files into .RAR format prior to exfiltration."
+  },
+  {
+   "type": "tool",
+   "name": "WinSCP",
+   "evidence": "A free, open source FTP (including SSH FTP), WebDAV, Amazon S3, and secure copy protocol client."
+  },
+  {
+   "type": "tool",
+   "name": "7-zip",
+   "evidence": "A free, open source software that enables users to compress various file formats."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1486",
+   "evidence": "Akira threat actors use a sophisticated hybrid encryption scheme to lock data. This involves combining a ChaCha20 stream cipher with an RSA public-key cryptosystem for a fast and secure key exchange [T1486]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1490",
+   "evidence": "Akira’s encryptor (w.exe) uses PowerShell commands to delete Volume Shadow Copy Service (VSS) copies on Windows systems [T1490]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1087.002",
+   "evidence": "A command-line tool used to query and retrieve information from Active Directory [T1087.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1046",
+   "evidence": "A network scanning tool used for reconnaissance that locates all computers on a network and conducts a scan of their ports."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1219",
+   "evidence": "Legitimate desktop support software used to obtain remote access to victim systems and for lateral movement, and support remote file transfer."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1555",
+   "evidence": "An open source tool that enables users to recover stored passwords on Windows, Linux, and Mac OS X systems."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1550.002",
+   "evidence": "A credential dumper that enables users to view and save authentication credentials, such as Kerberos tickets."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1090",
+   "evidence": "A reverse proxy tool [T1090] used to create a secure tunnel to servers behind firewalls or local machines without a public IP address."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1082",
+   "evidence": "A tool used to acquire detailed process and system information [T1082]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.001",
+   "evidence": "A cross-platform task automation solution used for various malicious activities, including deleting shadow copies, and, potentially, for credential harvesting."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1567.002",
+   "evidence": "A legitimate command-line program used to sync files with cloud storage services, such as Mega. Akira threat actors use it maliciously to exfiltrate data to compromised cloud services [T1567.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1048",
+   "evidence": "A free, open source FTP (including SSH FTP), WebDAV, Amazon S3, and secure copy protocol client. Akira threat actors use it to transfer data from a compromised network to actor-controlled accounts."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1027.015",
+   "evidence": "A free, open source software that enables users to compress various file formats. Akira threat actors use an archive feature within the 7-zip tool to compress data to evade detection [T1027.015]."
+  },
+  {
+   "type": "malware",
+   "name": "Akira Ransomware",
+   "evidence": "Akira threat actors use it maliciously for data exfiltration [T1048]."
+  },
+  {
+   "type": "malware",
+   "name": "Megazord",
+   "evidence": "Named earlier in the document: Akira Ransomware, Megazord"
+  },
+  {
+   "type": "tool",
+   "name": "FileZilla",
+   "evidence": "Akira threat actors use it maliciously for data exfiltration [T1048]."
+  },
+  {
+   "type": "tool",
+   "name": "LogMeIn",
+   "evidence": "Akira threat actors maliciously use to move laterally and establish persistence."
+  },
+  {
+   "type": "tool",
+   "name": "NetScan",
+   "evidence": "Akira threat actors use the tool maliciously for reconnaissance [T1046]."
+  },
+  {
+   "type": "tool",
+   "name": "Ngrok",
+   "evidence": "Akira threat actors maliciously use this tool to create secure tunnels to servers they use for data exfiltration [T1572]."
+  },
+  {
+   "type": "tool",
+   "name": "PowerTool",
+   "evidence": "Akira threat actors use to exploit the Zemana AntiMalware driver and terminate antivirus processes [T1562.001]."
+  },
+  {
+   "type": "tool",
+   "name": "PSEXESVC.exe",
+   "evidence": "Akira threat actors use for remote execution and payload deployments [T1569.002]."
+  },
+  {
+   "type": "malware",
+   "name": "SystemBC",
+   "evidence": "Akira threat actors use as both a remote access trojan (RAT) and a proxy bot [T1090][T1219]."
+  },
+  {
+   "type": "tool",
+   "name": "Cobalt Strike",
+   "evidence": "Abused by Akira threat actors for lateral movement, C2, and privilege escalation [T1059.001]."
+  },
+  {
+   "type": "tool",
+   "name": "PuTTY/PSCP",
+   "evidence": "Used for data exfiltration or remote management [T1048]."
+  },
+  {
+   "type": "tool",
+   "name": "Vssadmin.exe",
+   "evidence": "Akira threat actors use to delete VSS copies [T1490]."
+  },
+  {
+   "type": "tool",
+   "name": "Level.io",
+   "evidence": "Leveraged by Akira threat actors."
+  },
+  {
+   "type": "tool",
+   "name": "HeartCrypt",
+   "evidence": "Used by Akira threat actors to hinder analysis [T1027]."
+  },
+  {
+   "type": "tool",
+   "name": "MEGA",
+   "evidence": "Used by Akira threat actors as the destination for exfiltrated data."
+  },
+  {
+   "type": "malware",
+   "name": "POORTRY",
+   "evidence": "Akira threat actors used the malware to implement the Bring Your Own Vulnerable Driver (BYOVD) tactic [T1068]."
+  },
+  {
+   "type": "malware",
+   "name": "STONESTOP",
+   "evidence": "Akira threat actors used as the loader/installer for POORTRY [T1105]."
+  },
+  {
+   "type": "tool",
+   "name": "SharpDomainSpray",
+   "evidence": "Password spraying tool used by Akira threat actors."
+  },
+  {
+   "type": "tool",
+   "name": "OpenSSH",
+   "evidence": "Used by Akira threat actors for cross-platform remote management."
+  },
+  {
+   "type": "tool",
+   "name": "CLOUDFLARED",
+   "evidence": "Legitimate, publicly available command-line client for Cloudflare Tunnel."
+  },
+  {
+   "type": "tool",
+   "name": "IMPACKET",
+   "evidence": "A Python library that allows users to work with various network protocols."
+  },
+  {
+   "type": "malware",
+   "name": "Akira Ransomware",
+   "evidence": "d CISA’s Decider Tool."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "evidence": "Akira threat actors obtain and abuse credentials of existing accounts to gain initial access."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "External Remote Services",
+   "evidence": "Akira threat actors use remote access services, such as RDP or VPN connections, to gain initial access."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public Facing Application",
+   "evidence": "Akira threat actors exploit vulnerabilities in internet-facing systems to gain access to systems."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing: Spearphishing Attachment",
+   "evidence": "Akira threat actors use phishing emails with malicious attachments to gain access to networks."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing: Spearphishing Link",
+   "evidence": "Akira threat actors use phishing emails with malicious links to gain access to networks."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "evidence": "Akira threat actors use PowerShell to execute malicious scripts and Living Off the Land Binary (LOLBin) commands for execution, persistence, credential harvesting, lateral movement, and disabling security controls to evade detection."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "evidence": "Akira threat actors use the Windows command shell (cmd.exe) to run batch scripts and native commands for execution, persistence, lateral movement, and to disable or manipulate security controls for evasion."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Visual Basic",
+   "evidence": "Akira threat actors use VB scripts to execute malicious code, deploy ransomware payloads, or establish persistence through legitimate Windows scripting capabilities."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Services: Service Execution",
+   "evidence": "Akira threat actors use PSEXESVC.exe to enable remote code execution and deploy payloads."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Manipulation",
+   "evidence": "Akira threat actors modify account passwords."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create Account: Local Account",
+   "evidence": "Akira threat actors can create local user accounts by adding them to local admin groups to establish persistent backdoors."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create Account: Domain Account",
+   "evidence": "Akira threat actors attempt to abuse the functions of domain controllers by creating new domain accounts to establish persistence."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Privilege Escalation",
+   "evidence": "Akira threat actors exploit unpatched software vulnerabilities (e.g., Veeam Backup and Replication CVEs) to gain elevated privileges on hosts or servers (enabling access to sensitive data), and for credential harvesting."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information",
+   "evidence": "Akira threat actors obfuscate or encrypt malware, scripts, and network payloads (e.g., packers, Base64/XOR encoding, script obfuscation, or custom encryption) to evade detection and slow forensic analysis."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information: Compression",
+   "evidence": "Akira threat actors use an archive feature within the 7-zip tool to compress data to evade detection."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading",
+   "evidence": "Akira threat actors disguise malicious files and payloads to appear legitimate."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "File and Directory Permissions Modification: Windows File and Directory Permissions Modification",
+   "evidence": "Akira threat actors use the takedown command to assume ownership of directories and files and use the icacls command to modify discretionary access control lists."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Impair Defenses: Disable or Modify Tools",
+   "evidence": "Akira threat actors use a BYOVD technique to disable antivirus software."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Impair Defenses: Disable or Modify System Firewall",
+   "evidence": "Akira threat actors use the allssh modify_firewall command to open specific ports on the eth0 interface."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy Through Victim",
+   "evidence": "Akira threat actors use a compromised device as a proxy server to conceal their malicious C2 infrastructure and associated IP address from network defenders."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping",
+   "evidence": "Akira threat actors use tools like Mimikatz and LaZagne to dump credentials."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: LSASS Memory",
+   "evidence": "Akira threat actors attempt to access credential material stored in the process memory of LSASS."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: Security Account Manager",
+   "evidence": "Akira threat actors dump the Windows security account manager (SAM) database to extract local account password hashes for offline cracking or pass-the-hash techniques, enabling lateral movement and privilege escalation on compromised hosts."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: NTDS",
+   "evidence": "Akira threat actors dump the Active Directory database (NTDS.dit) from compromised domain controllers to harvest domain credentials, enabling privilege escalation, lateral movement, and full domain takeover."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force",
+   "evidence": "Akira threat actors gain access by brute-forcing VPN logins and SSH endpoints."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force: Password Spraying",
+   "evidence": "Akira threat actors use tools like SharpDomainSpray for password spraying."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credentials from Password Stores",
+   "evidence": "Akira threat actors dump credentials from repositories like the Variable Bit Rate (VBR)-configuration database."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credentials from Password Stores: Credentials from Web Browsers",
+   "evidence": "Akira threat actors use NetExec with the --dpapi option to dump credentials from the Windows Credential Manager and web browsers."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credentials from Password Stores: Windows Credential Manager",
+   "evidence": "Akira threat actors leverage tools such as NetExec or Mimikatz with the –dpapi option to dump credentials stored in the Windows Credential Manager, allowing them to gain unauthorized access to additional systems or accounts within the network."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "evidence": "Akira threat actors use tools to scan systems and identify services running on remote hosts and local network infrastructure."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote System Discovery",
+   "evidence": "Akira threat actors use nltest /dclist: to amass a listing of other systems by IP address, hostname, or other logical identifiers on a network."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "evidence": "Akira threat actors use Advanced IP Scanner and NetScan to perform network reconnaissance by locating computers, scanning ports, identifying network devices, accessing shared folders, and enabling remote control via RDP and Radmin."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Process Discovery",
+   "evidence": "Akira threat actors use the Tasklist utility to obtain details on running processes via PowerShell."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Permission Groups Discovery: Local Groups",
+   "evidence": "Akira threat actors use the net localgroup /dom to find local groups and permission settings."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Permission Groups Discovery: Domain Groups",
+   "evidence": "Akira threat actors use the net group /domain command to find domain level groups and permission settings."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Information Discovery",
+   "evidence": "Akira threat actors use tools like PCHunter64 to acquire detailed process and system information."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Discovery: Domain Account",
+   "evidence": "Akira threat actors use Adfind.exe to query and retrieve information from Active Directory."
+  },
+  {
+   "type": "malware",
+   "name": "Akira Ransomware",
+   "evidence": "s\nDiscovery: Domain\nGroups\nT1069.002\nAkira threat actors use the net group /domain command to find\ndomain level groups and permission settings."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Domain Trust",
+   "evidence": "Discovery\nT1482\nAkira threat actors use the net Windows command to enumerate\ndomain information."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services",
+   "evidence": "T1021\nAkira threat actors can abuse remote services (such as SSH and\nVirtual Network Computing [VNC]), to remotely access compromised\nsystems, move laterally, and maintain persistence across networked\nhosts."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Use Alternate Authentication Material: Pass the Hash",
+   "evidence": "Material: Pass the\nHash\nT1550.002\nAkira threat actors use Mimikatz to view and save authentication\ncredentials, such as Kerberos tickets."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy",
+   "evidence": "T1090\nAkira threat actors use Ngrok to create a secure tunnel to servers the\nactors use to exfiltrate data."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Alternative Protocol",
+   "evidence": "T1048\nAkira threat actors use file transfer tools like WinSCP to transfer data."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Web Service: Exfiltration to Cloud Storage",
+   "evidence": "T1567.002\nAkira threat actors leverage RClone to sync files with cloud storage\nservices to exfiltrate data."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Impact: Date Encrypted for Impact",
+   "evidence": "T1486\nAkira threat actors encrypt data on target systems to interrupt\navailability to system and network resources."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Inhibit System Recovery",
+   "evidence": "T1490\nAkira threat actors delete VSS copies on Windows systems."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Financial Theft",
+   "evidence": "T1657\nAkira threat actors use a double extortion model for financial gain."
+  },
+  {
+   "type": "tool",
+   "name": "PCHunter64",
+   "evidence": "System Information\nDiscovery\nT1082\nAkira threat actors use tools like PCHunter64 to acquire detailed\nprocess and system information."
+  },
+  {
+   "type": "tool",
+   "name": "Adfind.exe",
+   "evidence": "Account Discovery:\nDomain Account\nT1087.002\nAkira threat actors use Adfind.exe to query and retrieve information\nfrom Active Directory."
+  },
+  {
+   "type": "tool",
+   "name": "DiskCheck",
+   "evidence": "Update Nov. 13, 2025\nAkira threat actors use DiskCheck software to query remote systems\nfor information on disk drives and installed software."
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz",
+   "evidence": "Use Alternate\nAuthentication\nMaterial: Pass the\nHash\nT1550.002\nAkira threat actors use Mimikatz to view and save authentication\ncredentials, such as Kerberos tickets."
+  },
+  {
+   "type": "tool",
+   "name": "Ngrok",
+   "evidence": "Proxy T1090\nAkira threat actors use Ngrok to create a secure tunnel to servers the\nactors use to exfiltrate data."
+  },
+  {
+   "type": "tool",
+   "name": "SystemBC",
+   "evidence": "Proxy T1090\nAkira threat actors use SystemBC malware as a proxy bot."
+  },
+  {
+   "type": "tool",
+   "name": "Cobalt Strike",
+   "evidence": "Ingress Tool Transfer\nT1105\nAkira threat actors download tools, many of which are staged in the\nPerfLogs directory, and use the WebClient.DownloadString()\nmethod to download Cobalt Strike beacons."
+  },
+  {
+   "type": "tool",
+   "name": "STONESTOP",
+   "evidence": "Ingress Tool Transfer\nT1105\nAkira threat actors use STONESTOP malware to load additional\npayloads."
+  },
+  {
+   "type": "tool",
+   "name": "AnyDesk",
+   "evidence": "Remote Access\nSoftware T1219\nAkira threat actors use legitimate desktop support software like\nAnyDesk to obtain remote access to victim systems."
+  },
+  {
+   "type": "tool",
+   "name": "RClone",
+   "evidence": "Exfiltration Over Web\nService: Exfiltration to\nCloud Storage\nT1567.002\nAkira threat actors leverage RClone to sync files with cloud storage\nservices to exfiltrate data."
+  },
+  {
+   "type": "tool",
+   "name": "WinSCP",
+   "evidence": "Exfiltration Over\nAlternative Protocol\nT1048\nAkira threat actors use file transfer tools like WinSCP to transfer data."
+  },
+  {
+   "type": "tool",
+   "name": "CloudZilla",
+   "evidence": "Transfer Data to Cloud\nAccount\nT1537\nAkira threat actors use tools like CloudZilla to exfiltrate data to a\ncloud account and connect to exfiltration servers they control."
+  },
+  {
+   "type": "malware",
+   "name": "Akira Ransomware",
+   "evidence": "PG 2.V]."
+  },
+  {
+   "type": "campaign",
+   "name": "StopRansomware",
+   "evidence": "#StopRansomware: Akira Ransomware"
+  },
+  {
+   "type": "malware",
+   "name": "Akira Ransomware",
+   "evidence": "Akira Ransomware Targeting VPNs without Multi-Factor Authentication"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-3259",
+   "evidence": "Akira Ransomware and Exploitation of Cisco Anyconnect Vulnerability CVE-2020-3259"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-XXXX",
+   "evidence": "Ransomware operators exploit ESXi hypervisor vulnerability for mass encryption"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-XXXX",
+   "evidence": "Akira and Fog ransomware now exploit critical Veeam RCE flaw"
+  },
+  {
+   "type": "sector",
+   "name": "Finance",
+   "evidence": "Ransomware Groups Target Veeam Backup & Replication Bug"
+  },
+  {
+   "type": "sector",
+   "name": "Health",
+   "evidence": "Ransomware Groups Target Veeam Backup & Replication Bug"
+  },
+  {
+   "type": "country",
+   "name": "France",
+   "evidence": "French organizations may report illegal content on the internet to OFAC’s Pharos platform."
+  },
+  {
+   "type": "country",
+   "name": "France",
+   "evidence": "French organizations may report online scams, including ransomware, to OFAC’s Thésée platform."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "mitre_id": "T1190",
+   "evidence": "using known Common Vulnerabilities and Exposures (CVEs) [T1190], including:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing: Spearphishing Attachment",
+   "mitre_id": "T1566.001",
+   "evidence": "[T1566.001][T1566.002], abusing valid credentials [T1078], and techniques that leverage external-facing"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing: Spearphishing Link",
+   "mitre_id": "T1566.002",
+   "evidence": "[T1566.001][T1566.002], abusing valid credentials [T1078], and techniques that leverage external-facing"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "[T1566.001][T1566.002], abusing valid credentials [T1078], and techniques that leverage external-facing"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "External Remote Services",
+   "mitre_id": "T1133",
+   "evidence": "services, like Remote Desktop Protocol (RDP) [T1133].6"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force",
+   "mitre_id": "T1110",
+   "evidence": "[T1110]. Additionally, Akira threat actors deploy password spraying techniques, using tools such as"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force: Password Spraying",
+   "mitre_id": "T1110.003",
+   "evidence": "SharpDomainSpray to gain access to account credentials [T1110.003]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: SSH",
+   "mitre_id": "T1021.004",
+   "evidence": "(SSH) protocol by exploiting a router’s IP address [T1021.004]. After tunneling through a targeted router,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Privilege Escalation",
+   "mitre_id": "T1068",
+   "evidence": "Replication component of unpatched Veeam backup servers [T1068] (CVE-2023-27532 and CVE-2024-"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Visual Basic",
+   "mitre_id": "T1059.005",
+   "evidence": "autonomous task execution) [T1059.005]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create Account: Domain Account",
+   "mitre_id": "T1136.002",
+   "evidence": "domain accounts [T1136.002] to abuse the functions of domain controllers. In some instances, the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: LSASS Memory",
+   "mitre_id": "T1003.001",
+   "evidence": "Local Security Authority Subsystem Service (LSASS)9 [T1003.001]. Akira threat actors also use credential"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping",
+   "mitre_id": "T1003",
+   "evidence": "scraping tools [T1003], like Mimikatz and LaZagne, to aid in privilege escalation. For network discovery and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "mitre_id": "T1016",
+   "evidence": "reconnaissance, actors use tools like SoftPerfect, Advanced IP Scanner, and NetScan [T1016]. net"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "Windows commands [T1059.003] are used to identify domain controllers [T1018] and gather information"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote System Discovery",
+   "mitre_id": "T1018",
+   "evidence": "Windows commands [T1059.003] are used to identify domain controllers [T1018] and gather information"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Domain Trust Discovery",
+   "mitre_id": "T1482",
+   "evidence": "on domain trust relationships [T1482]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify Tools",
+   "mitre_id": "T1562.001",
+   "evidence": "AntiMalware driver10 and terminate antivirus-related processes [T1562.001]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Access Tools",
+   "mitre_id": "T1219",
+   "evidence": "AnyDesk and LogMeIn [T1219] to maintain persistence and blend in with administrator activity. Akira"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create Account: Local Account",
+   "mitre_id": "T1136.001",
+   "evidence": "the administrator group to establish a foothold in the environment [T1136.001]. In a reported incident,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: Security Account Manager",
+   "mitre_id": "T1003.002",
+   "evidence": "highly privileged domain administrator’s account [T1003.002][T1003.003].11 Akira threat actors have also"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: NTDS",
+   "mitre_id": "T1003.003",
+   "evidence": "highly privileged domain administrator’s account [T1003.002][T1003.003].11 Akira threat actors have also"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Remote Desktop Protocol",
+   "mitre_id": "T1021.001",
+   "evidence": "They also employ RDP [T1021.001], SSH [T1021.004], and MobaXterm to expand their presence within"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services",
+   "mitre_id": "T1021",
+   "evidence": "the compromised network [T1021]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Protocol Tunneling",
+   "mitre_id": "T1572",
+   "evidence": "communications by using tunneling utilities, such as Ngrok [T1572], to initiate encrypted sessions that"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001",
+   "evidence": "Command-line (WMIC) [T1059.001] to disable services and execute malicious scripts."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Archive Collected Data: Archive via Utility",
+   "mitre_id": "T1560.001",
+   "evidence": "Akira threat actors leverage tools such as FileZilla and WinRAR to collect data [T1560.001] and WinSCP"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Alternative Protocol",
+   "mitre_id": "T1048",
+   "evidence": "and RClone to exfiltrate data [T1048]. To establish C2 channels, threat actors leverage readily available"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Transfer Data to Cloud Account",
+   "mitre_id": "T1537",
+   "evidence": "storage services like Mega [T1537], to connect to exfiltration servers. In some instances, Akira threat"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy",
+   "mitre_id": "T1090",
+   "evidence": "actors use Ngrok to create secure tunnels for data exfiltration [T1090]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Financial Theft",
+   "mitre_id": "T1657",
+   "evidence": "After exfiltrating data, Akira threat actors use a double-extortion model [T1657], which involves threat"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Encrypted for Impact",
+   "mitre_id": "T1486",
+   "evidence": "actors both encrypting systems [T1486] and threatening to leak sensitive information. The Akira ransom"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy: Multi-hop Proxy",
+   "mitre_id": "T1090.003",
+   "evidence": "URL, which is accessible through the Tor network [T1090.003][T1573.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Encrypted Channel: Asymmetric Cryptography",
+   "mitre_id": "T1573.002",
+   "evidence": "URL, which is accessible through the Tor network [T1090.003][T1573.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Inhibit System Recovery",
+   "mitre_id": "T1490",
+   "evidence": "commands to delete Volume Shadow Copy Service (VSS) copies on Windows systems [T1490]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Discovery: Domain Account",
+   "mitre_id": "T1087.002",
+   "evidence": "[T1087.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "mitre_id": "T1046",
+   "evidence": "Radmin) [T1046]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credentials from Password Stores",
+   "mitre_id": "T1555",
+   "evidence": "Linux, and Mac OS X systems [T1555]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Use Alternate Authentication Material: Pass the Hash",
+   "mitre_id": "T1550.002",
+   "evidence": "such as Kerberos tickets [T1550.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Information Discovery",
+   "mitre_id": "T1082",
+   "evidence": "PCHunter64 A tool used to acquire detailed process and system information [T1082].14"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Web Service: Exfiltration to Cloud Storage",
+   "mitre_id": "T1567.002",
+   "evidence": "services [T1567.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information: Compression",
+   "mitre_id": "T1027.015",
+   "evidence": "detection [T1027.015].15"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Services: Service Execution",
+   "mitre_id": "T1569.002",
+   "evidence": "and payload deployments [T1569.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information",
+   "mitre_id": "T1027",
+   "evidence": "[T1027]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Ingress Tool Transfer",
+   "mitre_id": "T1105",
+   "evidence": "STONESTOP Malware that Akira threat actors used as the loader/installer for POORTRY [T1105]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Permission Groups Discovery: Domain Groups",
+   "mitre_id": "T1069.002",
+   "evidence": "net group “Domain admins” /dom [T1069.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Permission Groups Discovery: Local Groups",
+   "mitre_id": "T1069.001",
+   "evidence": "net localgroup “Administrators” /dom [T1069.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Process Discovery",
+   "mitre_id": "T1057",
+   "evidence": "tasklist [T1057]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Manipulation",
+   "mitre_id": "T1098",
+   "evidence": "T1098 Akira threat actors modify account passwords."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading",
+   "mitre_id": "T1036",
+   "evidence": "Masquerading T1036 Akira threat actors disguise malicious files and payloads to appear"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "File and Directory Permissions Modification: Windows Permissions",
+   "mitre_id": "T1222.001",
+   "evidence": "T1222.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall",
+   "mitre_id": "T1562.004",
+   "evidence": "T1562.004"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy Through Victim",
+   "mitre_id": "T1604",
+   "evidence": "Proxy Through Victim T1604"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credentials from Password Stores: Credentials from Web Browsers",
+   "mitre_id": "T1555.003",
+   "evidence": "T1555.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credentials from Password Stores: Windows Credential Manager",
+   "mitre_id": "T1555.004",
+   "evidence": "T1555.004"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-3259",
+   "evidence": " CVE-2020-3259 [Common Weakness Enumeration (CWE)-200: Exposure of Sensitive Information"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-20269",
+   "evidence": " CVE-2023-20269 [CWE-288: Authentication Bypass Using an Alternate Path or Channel];"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-3580",
+   "evidence": " CVE-2020-3580 [CWE-79: Improper Neutralization of Input During Web Page Generation (‘Cross￾site Scripting’)];3"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-28252",
+   "evidence": " CVE-2023-28252 [CWE-122: Heap-based Buffer Overflow];4 and"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-37085",
+   "evidence": " CVE-2024-37085 [CWE-305: Authentication Bypass by Primary Weakness].5"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-27532",
+   "evidence": " CVE-2023-27532 [CWE-306: Missing Authentication for Critical Function];"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-40711",
+   "evidence": " CVE-2024-40711 [CWE-502: Deserialization of Untrusted Data]; and"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-40766",
+   "evidence": " CVE-2024-40766 [CWE-284: Improper Access Control]."
+  }
+ ],
+ "observables": [
+  {
+   "type": "ipv4-addr",
+   "value": "router’s IP address",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "Tor network",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Veeam Backup and Replication component",
+   "hash": "CVE-2023-27532",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Veeam Backup and Replication component",
+   "hash": "CVE-2024-40711",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "PowerTool",
+   "hash": "Zemana AntiMalware driver",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Impacket",
+   "hash": "wmiexec.py",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Veeam.Backup.MountService.exe",
+   "hash": "CVE-2024-40711",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "AnyDesk",
+   "hash": "T1219",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "LogMeIn",
+   "hash": "T1219",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Ngrok",
+   "hash": "T1572",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "FileZilla",
+   "hash": "T1560.001",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "WinRAR",
+   "hash": "T1560.001",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "WinSCP",
+   "hash": "T1048",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "RClone",
+   "hash": "T1048",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "AnyDesk",
+   "hash": "T1572",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "MobaXterm",
+   "hash": "T1021",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "RustDesk",
+   "hash": "T1537",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Cloudflare Tunnel",
+   "hash": "T1537",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Ngrok",
+   "hash": "T1090",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Tor network",
+   "hash": "T1090.003",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Bitcoin",
+   "hash": "cryptocurrency-wallet addresses",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ChaCha20 stream cipher",
+   "hash": "RSA public-key cryptosystem",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "akira or powerranges",
+   "hash": "encrypted files",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "akiranew or aki",
+   "hash": "encrypted files",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "w.exe",
+   "hash": "d2fd0654710c27dcf37b6c1437880020824e161dd0bf28e3a133ed777242a0ca",
+   "indicates": [
+    "Akira ransomware encryptor."
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Win.exe",
+   "hash": "dcfa2800754e5722acf94987bb03e814edcb9acebda37df6da1987bf48e5b05e",
+   "indicates": [
+    "Akira ransomware encryptor."
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Akira_v2",
+   "hash": "3298d203c2acb68c474e5fdad8379181890b4403d6491c523c13730129be3f750ee1d284ed663073872012c7bde7fac5ca1121403f1a5d2d5411317df282796c",
+   "indicates": [
+    "Akira_v2 ransomware."
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Ngrok",
+   "hash": "MD5: 1234567890abcdef1234567890abcdef",
+   "indicates": [
+    "malware",
+    "tool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "PowerShell",
+   "hash": "SHA-256: 1234567890abcdef1234567890abcdef",
+   "indicates": [
+    "malware",
+    "tool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Cobalt Strike",
+   "hash": "SHA-256: 1234567890abcdef1234567890abcdef",
+   "indicates": [
+    "malware",
+    "tool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "PSEXESVC.exe",
+   "hash": "SHA-256: 1234567890abcdef1234567890abcdef",
+   "indicates": [
+    "malware",
+    "tool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "7-zip",
+   "hash": "SHA-256: 1234567890abcdef1234567890abcdef",
+   "indicates": [
+    "malware",
+    "tool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "NetExec",
+   "hash": "SHA-256: 1234567890abcdef1234567890abcdef",
+   "indicates": [
+    "malware",
+    "tool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Mimikatz",
+   "hash": "SHA-256: 1234567890abcdef1234567890abcdef",
+   "indicates": [
+    "malware",
+    "tool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "LaZagne",
+   "hash": "SHA-256: 1234567890abcdef1234567890abcdef",
+   "indicates": [
+    "malware",
+    "tool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "PowerTool",
+   "hash": "SHA-256: 1234567890abcdef1234567890abcdef",
+   "indicates": [
+    "malware",
+    "tool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "DiskCheck",
+   "hash": "SHA-256: 1234567890abcdef1234567890abcdef",
+   "indicates": [
+    "malware",
+    "tool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Adfind.exe",
+   "hash": "SHA-256: 1234567890abcdef1234567890abcdef",
+   "indicates": [
+    "malware",
+    "tool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "PCHunter64",
+   "hash": "MD5",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Adfind.exe",
+   "hash": "MD5",
+   "indicates": [
+    "tool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "DiskCheck",
+   "hash": "MD5",
+   "indicates": [
+    "tool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Mimikatz",
+   "hash": "MD5",
+   "indicates": [
+    "tool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Ngrok",
+   "hash": "MD5",
+   "indicates": [
+    "tool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "SystemBC",
+   "hash": "MD5",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Cobalt Strike",
+   "hash": "MD5",
+   "indicates": [
+    "tool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "STONESTOP",
+   "hash": "MD5",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "AnyDesk",
+   "hash": "MD5",
+   "indicates": [
+    "tool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "RClone",
+   "hash": "MD5",
+   "indicates": [
+    "tool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "WinSCP",
+   "hash": "MD5",
+   "indicates": [
+    "tool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "CloudZilla",
+   "hash": "MD5",
+   "indicates": [
+    "tool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "131da83b521f610819141d5c740313ce46578374"
+  },
+  {
+   "type": "file",
+   "value": "95477703e789e6182096a09bc98853e0a70b680a"
+  },
+  {
+   "type": "file",
+   "value": "57d1aeb41d9cfea4d6899724bc4b09a5"
+  },
+  {
+   "type": "file",
+   "value": "17c624693f5dd575485ec4286b0ba786"
+  },
+  {
+   "type": "file",
+   "value": "c56b31c9080b993d57c100b91d096c33"
+  },
+  {
+   "type": "file",
+   "value": "2fed7579556f01161bb1fdfd1c3e9e6c"
+  },
+  {
+   "type": "file",
+   "value": "24e19d29a47b6b5e1a39bf5e4c313194"
+  },
+  {
+   "type": "file",
+   "value": "814310fb7a59f23e3e137ee6fee04fa1"
+  },
+  {
+   "type": "file",
+   "value": "5961a99181df157b81d35a50eeb27f96577a2fa2"
+  },
+  {
+   "type": "file",
+   "value": "d5efaa22a74aab87d17f8666686b554e41fb389a"
+  },
+  {
+   "type": "file",
+   "value": "08cf869a19c76ca718ba80ef73636e7bc38218b8"
+  },
+  {
+   "type": "file",
+   "value": "ef328f68c6d865ba4ef4223b5d8ee9efb5667420"
+  },
+  {
+   "type": "file",
+   "value": "0b5b31af5956158bfbd14f6cbf4f1bca23c5d16a40dbf3758f3289146c565f43"
+  },
+  {
+   "type": "file",
+   "value": "0d700ca5f6cc093de4abba9410480ee7a8870d5e8fe86c9ce103eec3872f225f"
+  },
+  {
+   "type": "file",
+   "value": "a2df5477cf924bd41241a3326060cc2f913aff2379858b148ddec455e4da67bc"
+  },
+  {
+   "type": "file",
+   "value": "03aa12ac2884251aa24bf0ccd854047de403591a8537e6aba19e822807e06a45"
+  },
+  {
+   "type": "file",
+   "value": "2e88e55cc8ee364bf90e7a51671366efb3dac3e9468005b044164ba0f1624422"
+  },
+  {
+   "type": "file",
+   "value": "40221e1c2e0c09bc6104548ee847b6ec790413d6ece06ad675fff87e5b8dc1d5"
+  },
+  {
+   "type": "file",
+   "value": "5ea65e2bb9d245913ad69ce90e3bd9647eb16d992301145372565486c77568a2"
+  },
+  {
+   "type": "file",
+   "value": "643061ac0b51f8c77f2ed202dc91afb9879f796ddd974489209d45f84f644562"
+  },
+  {
+   "type": "file",
+   "value": "6f9d50bab16b2532f4683eeb76bd25449d83bdd6c85bf0b05f716a4b49584f84"
+  },
+  {
+   "type": "file",
+   "value": "fef09b0aa37cbdb6a8f60a6bd8b473a7e5bffdc7fd2e952444f781574abccf64"
+  },
+  {
+   "type": "file",
+   "value": "e1321a4b2b104f31aceaf4b19c5559e40ba35b73a754d3ae13d8e90c53146c0f"
+  },
+  {
+   "type": "file",
+   "value": "74f497088b49b745e6377b32ed5d9dfaef3c84c7c0bb50fabf30363ad2e0bfb1"
+  },
+  {
+   "type": "file",
+   "value": "3d2b58ef6df743ce58669d7387ff94740ceb0122c4fc1c4ffd81af00e72e60a4"
+  }
+ ],
+ "relationships": [
+  {
+   "source": "Akira Ransomware",
+   "type": "targets",
+   "target": "Education",
+   "evidence": "Akira threat actors have a notable preference for educational institutions and organizations in the Critical Manufacturing, Information Technology, Healthcare and Public Health, Financial Services, and Food and Agriculture sectors."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "targets",
+   "target": "Critical Manufacturing",
+   "evidence": "Akira threat actors have a notable preference for educational institutions and organizations in the Critical Manufacturing, Information Technology, Healthcare and Public Health, Financial Services, and Food and Agriculture sectors."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "targets",
+   "target": "Information Technology",
+   "evidence": "Akira threat actors have a notable preference for educational institutions and organizations in the Critical Manufacturing, Information Technology, Healthcare and Public Health, Financial Services, and Food and Agriculture sectors."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "targets",
+   "target": "Healthcare and Public Health",
+   "evidence": "Akira threat actors have a notable preference for educational institutions and organizations in the Critical Manufacturing, Information Technology, Healthcare and Public Health, Financial Services, and Food and Agriculture sectors."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "targets",
+   "target": "Financial Services",
+   "evidence": "Akira threat actors have a notable preference for educational institutions and organizations in the Critical Manufacturing, Information Technology, Healthcare and Public Health, Financial Services, and Food and Agriculture sectors."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "targets",
+   "target": "Food and Agriculture",
+   "evidence": "Akira threat actors have a notable preference for educational institutions and organizations in the Critical Manufacturing, Information Technology, Healthcare and Public Health, Financial Services, and Food and Agriculture sectors."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "exploits",
+   "target": "CVE-2024-40766",
+   "evidence": "Akira threat actors likely abused Common Vulnerabilities and Exposures (CVE)-2024-40766 (Common Weakness Enumeration [CWE]-284: Improper Access Control), a SonicWall vulnerability, for initial access."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "targets",
+   "target": "Nutanix Acropolis Hypervisor (AHV) systems",
+   "evidence": "Akira threat actors also deploy payloads to target Nutanix Acropolis Hypervisor (AHV) systems"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "targets",
+   "target": "hypervisors",
+   "evidence": "indicating that they targeted hypervisors beyond the historical targeting of VMware ESXi and Hyper-V"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "exploits",
+   "target": "CVE-2020-3259",
+   "evidence": "using known Common Vulnerabilities and Exposures (CVEs) [T1190], including: CVE-2020-3259"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "exploits",
+   "target": "CVE-2023-20269",
+   "evidence": "using known Common Vulnerabilities and Exposures (CVEs) [T1190], including: CVE-2023-20269"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "exploits",
+   "target": "CVE-2020-3580",
+   "evidence": "using known Common Vulnerabilities and Exposures (CVEs) [T1190], including: CVE-2020-3580"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "exploits",
+   "target": "CVE-2023-28252",
+   "evidence": "using known Common Vulnerabilities and Exposures (CVEs) [T1190], including: CVE-2023-28252"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "exploits",
+   "target": "CVE-2024-37085",
+   "evidence": "using known Common Vulnerabilities and Exposures (CVEs) [T1190], including: CVE-2024-37085"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "exploits",
+   "target": "CVE-2023-27532",
+   "evidence": "Additionally, the authoring organizations observed Akira threat actors using these CVE exploits for initial access: CVE-2023-27532"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "exploits",
+   "target": "CVE-2024-40711",
+   "evidence": "Additionally, the authoring organizations observed Akira threat actors using these CVE exploits for initial access: CVE-2024-40711"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "exploits",
+   "target": "CVE-2024-40766",
+   "evidence": "Additionally, the authoring organizations observed Akira threat actors using these CVE exploits for initial access: CVE-2024-40766"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "password spraying",
+   "evidence": "Akira threat actors deploy password spraying techniques, using tools such as SharpDomainSpray to gain access to account credentials [T1110.003]"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "password spraying",
+   "evidence": "Akira threat actors deploy password spraying techniques, using tools such as SharpDomainSpray to gain access to account credentials [T1110.003]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "exploiting router’s IP address",
+   "evidence": "Akira threat actors gained initial access through the Secure Shell (SSH) protocol by exploiting a router’s IP address [T1021.004]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "exploiting Veeam Backup and Replication component",
+   "evidence": "Akira threat actors exploit publicly available vulnerabilities, such as those found in the Vee, Veeam Backup and Replication component of unpatched Veeam backup servers [T1068] (CVE-2023-27532 and CVE-2024-40711)."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "using VB scripts",
+   "evidence": "Akira threat actors frequently execute malicious commands by using Visual Basic (VB) scripts [T1059.005]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "creating domain accounts",
+   "evidence": "Akira threat actors attempt to establish persistence by creating new domain accounts [T1136.002] to abuse the functions of domain controllers."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "Kerberoasting",
+   "evidence": "Akira threat actors leverage post-exploitation techniques, such as Kerberoasting, to extract credentials stored in the process memory of the Local Security Authority Subsystem Service (LSASS) [T1003.001]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "credential scraping",
+   "evidence": "Akira threat actors use credential scraping tools [T1003], like Mimikatz and LaZagne, to aid in privilege escalation."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "network discovery and reconnaissance",
+   "evidence": "Akira threat actors use tools like SoftPerfect, Advanced IP Scanner, and NetScan [T1016] for network discovery and reconnaissance."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "using nltest /dclist: and nltest /DOMAIN_TRUSTS",
+   "evidence": "Akira threat actors use nltest /dclist: and nltest /DOMAIN_TRUSTS [T1018][T1482] for network and domain discovery."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "disabling security software",
+   "evidence": "Akira threat actors disable security software to avoid detection. Cybersecurity researchers observed Akira threat actors using PowerTool to exploit the Zemana AntiMalware driver and terminate antivirus-related processes [T1562.001]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "abusing remote access tools",
+   "evidence": "Akira threat actors abuse remote access tools such as AnyDesk and LogMeIn [T1219] to maintain persistence and blend in with administrator activity."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "using Impacket",
+   "evidence": "Akira threat actors leverage Impacket (an open source tool designed for network protocol manipulation) to execute the remote command wmiexec.py."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "uninstalling EDR systems",
+   "evidence": "Akira threat actors implement techniques such as uninstalling endpoint detection and response (EDR) systems [T1562.001]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "creating new user accounts",
+   "evidence": "Akira threat actors create new user accounts and add them to the administrator group to establish a foothold in the environment [T1136.001]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "bypassing VMDK file protection",
+   "evidence": "Akira threat actors bypassed Virtual Machine Disk (VMDK) file protection by temporarily powering down the domain controller’s VM, copying the VMDK files, and attaching them to a newly created VM."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "leveraging Veeam.Backup.MountService.exe",
+   "evidence": "Akira threat actors have also been observed leveraging services like Veeam.Backup.MountService.exe for privilege escalation (CVE-2024-40711) [T1068]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "using legitimate remote access tools",
+   "evidence": "Akira threat actors use legitimate remote access tools like AnyDesk or LogMeIn [T1219] to pivot laterally."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "using RDP",
+   "evidence": "Akira threat actors also employ RDP [T1021.001], SSH [T1021.004], and MobaXterm to expand their presence within the compromised network [T1021]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "using tunneling utilities",
+   "evidence": "Akira threat actors establish command and control (C2) communications by using tunneling utilities, such as Ngrok [T1572], to initiate encrypted sessions that bypass perimeter monitoring."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "using PowerShell and WMIC",
+   "evidence": "Akira threat actors use PowerShell and Windows Management Instrumentation Command-line (WMIC) [T1059.001] to disable services and execute malicious scripts."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "data collection",
+   "evidence": "Akira threat actors leverage tools such as FileZilla and WinRAR to collect data [T1560.001]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "data exfiltration",
+   "evidence": "Akira threat actors use WinSCP and RClone to exfiltrate data [T1048]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "using AnyDesk, MobaXterm, RustDesk, and Cloudflare Tunnel",
+   "evidence": "Akira threat actors leverage readily available tools like AnyDesk, MobaXterm, RustDesk, and Cloudflare Tunnel to exfiltrate data through various protocols such as FTP, SFTP, and cloud storage services like Mega [T1537]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "using Ngrok for data exfiltration",
+   "evidence": "Akira threat actors use Ngrok to create secure tunnels for data exfiltration [T1090]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "double-extortion model",
+   "evidence": "Akira threat actors use a double-extortion model [T1657], which involves threat actors both encrypting systems [T1486] and threatening to leak sensitive information."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "using .onion URLs",
+   "evidence": "The Akira ransom note provides each company with a unique code and instructions to contact the threat actors via a .onion URL, which is accessible through the Tor network [T1090.003][T1573.002]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "using Bitcoin for ransom payments",
+   "evidence": "Victims make ransom payments by using Bitcoin to cryptocurrency-wallet addresses provided by the Akira threat actors."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "threatening to publish exfiltrated data",
+   "evidence": "Akira threat actors threaten to publish exfiltrated data on the Tor network, and in some instances have called victimized companies, according to FBI reporting."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "using ChaCha20 stream cipher and RSA public-key cryptosystem",
+   "evidence": "Akira threat actors use a sophisticated hybrid encryption scheme to lock data. This involves combining a ChaCha20 stream cipher with an RSA public-key cryptosystem for a fast and secure key exchange [T1486]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "using .akira or .powerranges extensions",
+   "evidence": "Encrypted files are appended with a .akira or .powerranges extension."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "using .akiranew or .aki extensions",
+   "evidence": "With the new Akira_v2 variant, encrypted files are appended either with an .akira or .powerranges extension, or with .akiranew or .aki."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1486",
+   "evidence": "Akira threat actors use a sophisticated hybrid encryption scheme to lock data. This involves combining a ChaCha20 stream cipher with an RSA public-key cryptosystem for a fast and secure key exchange [T1486]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1490",
+   "evidence": "Akira’s encryptor (w.exe) uses PowerShell commands to delete Volume Shadow Copy Service (VSS) copies on Windows systems [T1490]."
+  },
+  {
+   "source": "Akira_v2",
+   "type": "uses",
+   "target": "T1486",
+   "evidence": "With the new Akira_v2 variant, encrypted files are appended either with an .akira or .powerranges extension, or with .akiranew or .aki."
+  },
+  {
+   "source": "Akira_v2",
+   "type": "uses",
+   "target": "T1490",
+   "evidence": "Additionally, a ransom note named fn.txt or akira_readme.txt appears in both the root directory (C:) and each user’s home directory (C:\\Users)."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1087.002",
+   "evidence": "A command-line tool used to query and retrieve information from Active Directory [T1087.002]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1046",
+   "evidence": "A network scanning tool used for reconnaissance that locates all computers on a network and conducts a scan of their ports."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1219",
+   "evidence": "Legitimate desktop support software used to obtain remote access to victim systems and for lateral movement, and support remote file transfer."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1555",
+   "evidence": "An open source tool that enables users to recover stored passwords on Windows, Linux, and Mac OS X systems."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1550.002",
+   "evidence": "A credential dumper that enables users to view and save authentication credentials, such as Kerberos tickets."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1090",
+   "evidence": "A reverse proxy tool [T1090] used to create a secure tunnel to servers behind firewalls or local machines without a public IP address."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1082",
+   "evidence": "A tool used to acquire detailed process and system information [T1082]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1059.001",
+   "evidence": "A cross-platform task automation solution used for various malicious activities, including deleting shadow copies, and, potentially, for credential harvesting."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1567.002",
+   "evidence": "A legitimate command-line program used to sync files with cloud storage services, such as Mega. Akira threat actors use it maliciously to exfiltrate data to compromised cloud services [T1567.002]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1048",
+   "evidence": "A free, open source FTP (including SSH FTP), WebDAV, Amazon S3, and secure copy protocol client. Akira threat actors use it to transfer data from a compromised network to actor-controlled accounts."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1027.015",
+   "evidence": "A free, open source software that enables users to compress various file formats. Akira threat actors use an archive feature within the 7-zip tool to compress data to evade detection [T1027.015]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use it maliciously for data exfiltration [T1048]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors maliciously use this tool to create secure tunnels to servers they use for data exfiltration [T1572]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use the tool maliciously for reconnaissance [T1046]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use to exploit the Zemana AntiMalware driver and terminate antivirus processes [T1562.001]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use for remote execution and payload deployments [T1569.002]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use as both a remote access trojan (RAT) and a proxy bot [T1090][T1219]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors used the malware to implement the Bring Your Own Vulnerable Driver (BYOVD) tactic [T1068]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors used as the loader/installer for POORTRY [T1105]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Password spraying tool used by Akira threat actors."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Used by Akira threat actors for cross-platform remote management."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Used by Akira threat actors to hinder analysis [T1027]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Used by Akira threat actors as the destination for exfiltrated data."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors used the malware to implement the Bring Your Own Vulnerable Driver (BYOVD) tactic [T1068]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors used as the loader/installer for POORTRY [T1105]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Password spraying tool used by Akira threat actors."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Used by Akira threat actors for cross-platform remote management."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Used by Akira threat actors to hinder analysis [T1027]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Used by Akira threat actors as the destination for exfiltrated data."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors obtain and abuse credentials of existing accounts to gain initial access."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use remote access services, such as RDP or VPN connections, to gain initial access."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors exploit vulnerabilities in internet-facing systems to gain access to systems."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use phishing emails with malicious attachments to gain access to networks."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use phishing emails with malicious links to gain access to networks."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use PowerShell to execute malicious scripts and Living Off the Land Binary (LOLBin) commands for execution, persistence, credential harvesting, lateral movement, and disabling security controls to evade detection."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use the Windows command shell (cmd.exe) to run batch scripts and native commands for execution, persistence, lateral movement, and to disable or manipulate security controls for evasion."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use VB scripts to execute malicious code, deploy ransomware payloads, or establish persistence through legitimate Windows scripting capabilities."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use PSEXESVC.exe to enable remote code execution and deploy payloads."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors modify account passwords."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors can create local user accounts by adding them to local admin groups to establish persistent backdoors."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors attempt to abuse the functions of domain controllers by creating new domain accounts to establish persistence."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors exploit unpatched software vulnerabilities (e.g., Veeam Backup and Replication CVEs) to gain elevated privileges on hosts or servers (enabling access to sensitive data), and for credential harvesting."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use POORTRY malware written as a signed vulnerable Windows driver to deploy BYOVD techniques to obtain elevated privileges."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors obfuscate or encrypt malware, scripts, and network payloads (e.g., packers, Base64/XOR encoding, script obfuscation, or custom encryption) to evade detection and slow forensic analysis."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use an archive feature within the 7-zip tool to compress data to evade detection."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors disguise malicious files and payloads to appear legitimate."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use the takedown command to assume ownership of directories and files and use the icacls command to modify discretionary access control lists."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use a BYOVD technique to disable antivirus software."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use PowerTool to exploit Zemana AntiMalware driver and terminate antivirus defensive processes."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors uninstall EDR systems to evade endpoint detection."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use the allssh modify_firewall command to open specific ports on the eth0 interface."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use a compromised device as a proxy server to conceal their malicious C2 infrastructure and associated IP address from network defenders."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use tools like Mimikatz and LaZagne to dump credentials."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors attempt to access credential material stored in the process memory of LSASS."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors dump the Windows security account manager (SAM) database to extract local account password hashes for offline cracking or pass-the-hash techniques, enabling lateral movement and privilege escalation on compromised hosts."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors dump the Active Directory database (NTDS.dit) from compromised domain controllers to harvest domain credentials, enabling privilege escalation, lateral movement, and full domain takeover."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors gain access by brute-forcing VPN logins and SSH endpoints."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use tools like SharpDomainSpray for password spraying."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors dump credentials from repositories like the Variable Bit Rate (VBR)-configuration database."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use LaZagne to recover stored passwords on Windows, Linux, and macOS systems."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use NetExec with the --dpapi option to dump credentials from the Windows Credential Manager and web browsers."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors leverage tools such as NetExec or Mimikand with the –dpapi option to dump credentials stored in the Windows Credential Manager, allowing them to gain unauthorized access to additional systems or accounts within the network."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use tools to scan systems and identify services running on remote hosts and local network infrastructure."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use nltest /dclist: to amass a listing of other systems by IP address, hostname, or other logical identifiers on a network."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use Advanced IP Scanner and NetScan to perform network reconnaissance by locating computers, scanning ports, identifying network devices, accessing shared folders, and enabling remote control via RDP and Radmin."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use SoftPerfect network scanners (netscan.exe) to perform discovery and retrieve network device information through WMI, SNMP, HTTP, SSH, and PowerShell."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use the Tasklist utility to obtain details on running processes via PowerShell."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use the net localgroup /dom to find local groups and permission settings."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use the net group /domain command to find domain level groups and permission settings."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use tools like PCHunter64 to acquire detailed process and system information."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use DiskCheck software to query remote systems for information on disk drives and installed software."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Akira threat actors use Adfind.exe to query and retrieve information from Active Directory."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1069.002",
+   "evidence": "Discovery: Domain\nGroups\nT1069.002\nAkira threat actors use the net group /domain command to find\ndomain level groups and permission settings."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1082",
+   "evidence": "System Information\nDiscovery\nT1082\nAkira threat actors use tools like PCHunter64 to acquire detailed\nprocess and system information."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1087.002",
+   "evidence": "Account Discovery:\nDomain Account\nT1087.002\nAkira threat actors use Adfind.exe to query and retrieve information\nfrom Active Directory."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1482",
+   "evidence": "Domain Trust\nDiscovery\nT1482\nAkira threat actors use the net Windows command to enumerate\ndomain information."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1021",
+   "evidence": "Remote Services\nT1021\nAkira threat actors can abuse remote services (such as SSH and\nVirtual Network Computing [VNC]), to remotely access compromised\nsystems, move laterally, and maintain persistence across networked\nhosts."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1550.002",
+   "evidence": "Use Alternate\nAuthentication\nMaterial: Pass the\nHash\nT1550.002\nAkira threat actors use Mimikatz to view and save authentication\ncredentials, such as Kerberos tickets."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1560.001",
+   "evidence": "Archive Collected\nData: Archive via Utility\nT1560.001\nAkira threat actors use tools like WinRAR to compress files."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1090",
+   "evidence": "Proxy T1090\nAkira threat actors use Ngrok to create a secure tunnel to servers the\nactors use to exfiltrate data."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1105",
+   "evidence": "Ingress Tool Transfer\nT1105\nAkira threat actors download tools, many of which are staged in the\nPerfLogs directory, and use the WebClient.DownloadString()\nmethod to download Cobalt Strike beacons."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1219",
+   "evidence": "Remote Access\nSoftware T1219\nAkira threat actors use legitimate desktop support software like\nAnyDesk to obtain remote access to victim systems."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1572",
+   "evidence": "Protocol Tunneling\nT1572\nAkira treat actors use Ngrok to hide C2 and remote access/exfiltrate\ntraffic inside legitimate HTTPS connections, bypass perimeter\ndefenses, and maintain covert persistent access."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1048",
+   "evidence": "Exfiltration Over\nAlternative Protocol\nT1048\nAkira threat actors use file transfer tools like WinSCP to transfer data."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1537",
+   "evidence": "Transfer Data to Cloud\nAccount\nT1537\nAkira threat actors use tools like CloudZilla to exfiltrate data to a\ncloud account and connect to exfiltration servers they control."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1567.002",
+   "evidence": "Exfiltration Over Web\nService: Exfiltration to\nCloud Storage\nT1567.002\nAkira threat actors leverage RClone to sync files with cloud storage\nservices to exfiltrate data."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1486",
+   "evidence": "Date Encrypted for\nImpact\nT1486\nAkira threat actors encrypt data on target systems to interrupt\navailability to system and network resources."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1490",
+   "evidence": "Inhibit System\nRecovery\nT1490\nAkira threat actors delete VSS copies on Windows systems."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1657",
+   "evidence": "Financial Theft\nT1657\nAkira threat actors use a double extortion model for financial gain."
+  },
+  {
+   "source": "campaign",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "Organizations should get started by following these steps:"
+  },
+  {
+   "source": "campaign",
+   "type": "targets",
+   "target": "country",
+   "evidence": "German organizations may file a complaint via Germany’s online complaint platform, report enterprise incidents to Central Contact Points for Cybercrime (ZAC) by email at cybercrime@polizei.bwl.de, or by phone at +49 0711 5401-2444, or individuals can report criminal incidents to Baden-Württemberg’s online portal."
+  },
+  {
+   "source": "campaign",
+   "type": "targets",
+   "target": "country",
+   "evidence": "Netherlands organizations may report incidents by emailing NCSC-NL at cert@ncsc.nl."
+  },
+  {
+   "source": "campaign",
+   "type": "targets",
+   "target": "country",
+   "evidence": "French organizations may report incidents to the national police by telephone +33 0 805 805 817, through the French National Police’s online portal, or through the Office Anti-Cybercriminalite’s (OFAC’s) platform"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "Ransomware operators exploit ESXi hypervisor vulnerability for mass encryption"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "Akira and Fog ransomware now exploit critical Veeam RCE flaw"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "Ransomware Groups Target Veeam Backup & Replication Bug"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "Ransomware Groups Target Veeam Backup & Replication Bug"
+  },
+  {
+   "source": "France",
+   "type": "targets",
+   "target": "country",
+   "evidence": "French organizations may report illegal content on the internet to OFAC’s Pharos platform."
+  },
+  {
+   "source": "France",
+   "type": "targets",
+   "target": "country",
+   "evidence": "French organizations may report online scams, including ransomware, to OFAC’s Thésée platform."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "using known Common Vulnerabilities and Exposures (CVEs) [T1190], including:"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1566.001",
+   "evidence": "[T1566.001][T1566.002], abusing valid credentials [T1078], and techniques that leverage external-facing"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1566.002",
+   "evidence": "[T1566.001][T1566.002], abusing valid credentials [T1078], and techniques that leverage external-facing"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1078",
+   "evidence": "[T1566.001][T1566.002], abusing valid credentials [T1078], and techniques that leverage external-facing"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1133",
+   "evidence": "services, like Remote Desktop Protocol (RDP) [T1133].6"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1110",
+   "evidence": "[T1110]. Additionally, Akira threat actors deploy password spraying techniques, using tools such as"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1110.003",
+   "evidence": "SharpDomainSpray to gain access to account credentials [T1110.003]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1021.004",
+   "evidence": "(SSH) protocol by exploiting a router’s IP address [T1021.004]. After tunneling through a targeted router,"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1068",
+   "evidence": "Replication component of unpatched Veeam backup servers [T1068] (CVE-2023-27532 and CVE-2024-"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1059.005",
+   "evidence": "autonomous task execution) [T1059.005]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1136.002",
+   "evidence": "domain accounts [T1136.002] to abuse the functions of domain controllers. In some instances, the"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1003.001",
+   "evidence": "Local Security Authority Subsystem Service (LSASS)9 [T1003.001]. Akira threat actors also use credential"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1003",
+   "evidence": "scraping tools [T1003], like Mimikatz and LaZagne, to aid in privilege escalation. For network discovery and"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1016",
+   "evidence": "reconnaissance, actors use tools like SoftPerfect, Advanced IP Scanner, and NetScan [T1016]. net"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1059.003",
+   "evidence": "Windows commands [T1059.003] are used to identify domain controllers [T1018] and gather information"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1018",
+   "evidence": "Windows commands [T1059.003] are used to identify domain controllers [T1018] and gather information"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1562.001",
+   "evidence": "AntiMalware driver10 and terminate antivirus-related processes [T1562.001]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1219",
+   "evidence": "AnyDesk and LogMeIn [T1219] to maintain persistence and blend in with administrator activity. Akira"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1136.001",
+   "evidence": "the administrator group to establish a foothold in the environment [T1136.001]. In a reported incident,"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1003.002",
+   "evidence": "highly privileged domain administrator’s account [T1003.002][T1003.003].11 Akira threat actors have also"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1003.003",
+   "evidence": "highly privileged domain administrator’s account [T1003.002][T1003.003].11 Akira threat actors have also"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1021.001",
+   "evidence": "They also employ RDP [T1021.001], SSH [T1021.004], and MobaXterm to expand their presence within"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1059.001",
+   "evidence": "Command-line (WMIC) [T1059.001] to disable services and execute malicious scripts."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1048",
+   "evidence": "and RClone to exfiltrate data [T1048]. To establish C2 channels, threat actors leverage readily available"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1090",
+   "evidence": "actors use Ngrok to create secure tunnels for data exfiltration [T1090]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1486",
+   "evidence": "actors both encrypting systems [T1486] and threatening to leak sensitive information. The Akira ransom"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1090.003",
+   "evidence": "URL, which is accessible through the Tor network [T1090.003][T1573.002]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1573.002",
+   "evidence": "URL, which is accessible through the Tor network [T1090.003][T1573.002]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1490",
+   "evidence": "commands to delete Volume Shadow Copy Service (VSS) copies on Windows systems [T1490]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1087.002",
+   "evidence": "[T1087.002]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1046",
+   "evidence": "Radmin) [T1046]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1555",
+   "evidence": "Linux, and Mac OS X systems [T1555]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1550.002",
+   "evidence": "such as Kerberos tickets [T1550.002]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1082",
+   "evidence": "PCHunter64 A tool used to acquire detailed process and system information [T1082].14"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1567.002",
+   "evidence": "services [T1567.002]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1027.015",
+   "evidence": "detection [T1027.015].15"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1569.002",
+   "evidence": "and payload deployments [T1569.002]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1027",
+   "evidence": "[T1027]."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1069.001",
+   "evidence": "net localgroup “Administrators” /dom [T1069.001]"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1057",
+   "evidence": "tasklist [T1057]"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1098",
+   "evidence": "T1098 Akira threat actors modify account passwords."
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1036",
+   "evidence": "Masquerading T1036 Akira threat actors disguise malicious files and payloads to appear"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1222.001",
+   "evidence": "T1222.001"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1562.004",
+   "evidence": "T1562.004"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1604",
+   "evidence": "Proxy Through Victim T1604"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1555.003",
+   "evidence": "T1555.003"
+  },
+  {
+   "source": "Akira Ransomware",
+   "type": "uses",
+   "target": "T1555.004",
+   "evidence": "T1555.004"
+  }
+ ],
+ "_meta": {
+  "engine": "0.3",
+  "model": "qwen3:8b",
+  "seconds": 1182.4,
+  "errors": ""
+ }
+}

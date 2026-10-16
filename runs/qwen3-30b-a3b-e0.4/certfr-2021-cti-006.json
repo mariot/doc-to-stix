@@ -1,0 +1,1608 @@
+{
+ "entities": [
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "Ryuk ransomware was first observed in August 2018",
+   "aliases": [
+    "Ryuk ransomware"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "Hermes 2.1",
+   "evidence": "It is a variant of the Hermes 2.1 ransomware",
+   "aliases": [
+    "Hermes ransomware"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "CryptoTech",
+   "evidence": "sold on the underground forum exploit.in from February 2017 by the cybercriminal group CryptoTech",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Bluenoroff",
+   "evidence": "A connection with the tactics, techniques and procedures (TTPs) of the Bluenoroff intrusion set, reportedly linked to North Korea",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "Ryuk ransomware",
+   "aliases": [
+    "Hermes 2.1",
+    "CryptoTech",
+    "Bluenoroff"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "TrickBot",
+   "evidence": "TrickBot",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "BazarLoader",
+   "evidence": "BazarLoader",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Emotet",
+   "evidence": "Emotet",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Cobalt Strike",
+   "evidence": "Cobalt Strike",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz",
+   "evidence": "Mimikatz",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "PsExec",
+   "evidence": "PsExec",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Rubeus",
+   "evidence": "Rubeus",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-1472",
+   "evidence": "Zerologon vulnerability (CVE-2020-1472)",
+   "aliases": []
+  },
+  {
+   "type": "campaign",
+   "name": "UNC1878",
+   "evidence": "UNC1878",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Healthcare",
+   "evidence": "healthcare sector",
+   "aliases": []
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "United States",
+   "aliases": []
+  },
+  {
+   "type": "country",
+   "name": "Canada",
+   "evidence": "Canada",
+   "aliases": []
+  },
+  {
+   "type": "threat-actor",
+   "name": "Wizard Spider",
+   "evidence": "Wizard Spider",
+   "aliases": [
+    "the TrickBot gang"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "Dyre",
+   "evidence": "Dyre",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Gozi Neverquest",
+   "evidence": "Gozi Neverquest",
+   "aliases": [
+    "Vawtrak"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "BazarBackdoor",
+   "evidence": "BazarBackdoor",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Anchor",
+   "evidence": "Anchor",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "PowerTrick",
+   "evidence": "PowerTrick",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "BloodHound",
+   "evidence": "BloodHound",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "PowerSploit",
+   "evidence": "PowerSploit",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "AdFind",
+   "evidence": "AdFind",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Raccine",
+   "evidence": "Raccine",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "SendGrid",
+   "evidence": "SendGrid",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Google Docs",
+   "evidence": "Google Docs",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Google Drive",
+   "evidence": "Google Drive",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Basecamp",
+   "evidence": "Basecamp",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Slack",
+   "evidence": "Slack",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Trello",
+   "evidence": "Trello",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Yougile",
+   "evidence": "Yougile",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "JetBrains",
+   "evidence": "JetBrains",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "cdn77",
+   "evidence": "cdn77",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Dyre",
+   "evidence": "Dyre is believed to have the same developer as Gozi Neverquest (alias Vawtrak) [28]."
+  },
+  {
+   "type": "malware",
+   "name": "Gozi Neverquest",
+   "evidence": "Dyre is believed to have the same developer as Gozi Neverquest (alias Vawtrak) [28].",
+   "aliases": [
+    "Vawtrak"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "BazarLoader",
+   "evidence": "BazarLoader uses EmerDNS .bazar domains for its C2s. This allows decentralised domain names to be registered on a blockchain [23]."
+  },
+  {
+   "type": "malware",
+   "name": "TrickBot",
+   "evidence": "TrickBot, which appeared one year after the dismantling of Dyre, is operated on the basis of an affiliate model involving its distribution by independent groups [30]."
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "Ryuk ransomware its development, Gold Swathmore, is reported to have collaborated with Gold BlackBurn."
+  },
+  {
+   "type": "malware",
+   "name": "Emotet",
+   "evidence": "Gtags other than morXXX have contributed to attacks by this ransomware. It has not been possible to identify whether these attacks, perpetuated for more than two years now, are the work of a single attacker group, or of several groups whose Gtag has evolved."
+  },
+  {
+   "type": "malware",
+   "name": "Dridex",
+   "evidence": "Like Dridex, Dyre emerged two weeks after the dismantling of the GameOverZeuS botnet, operated by M. Bogatchev, the developer of the banking trojan ZeuS, and the Business Club cybercriminal group."
+  },
+  {
+   "type": "malware",
+   "name": "ZeuS",
+   "evidence": "Like Dridex, Dyre emerged two weeks after the dismantling of the GameOverZeuS botnet, operated by M. Bogatchev, the developer of the banking trojan ZeuS, and the Business Club cybercriminal group."
+  },
+  {
+   "type": "malware",
+   "name": "Mimikatz",
+   "evidence": "Mimikatz Kerberos module."
+  },
+  {
+   "type": "tool",
+   "name": "PsExec",
+   "evidence": "PsExec"
+  },
+  {
+   "type": "tool",
+   "name": "Rubeus",
+   "evidence": "Rubeus"
+  },
+  {
+   "type": "tool",
+   "name": "BloodHound",
+   "evidence": "BloodHound"
+  },
+  {
+   "type": "tool",
+   "name": "PowerSploit",
+   "evidence": "PowerSploit"
+  },
+  {
+   "type": "tool",
+   "name": "AdFind",
+   "evidence": "AdFind"
+  },
+  {
+   "type": "tool",
+   "name": "Raccine",
+   "evidence": "Raccine"
+  },
+  {
+   "type": "tool",
+   "name": "SendGrid",
+   "evidence": "SendGrid"
+  },
+  {
+   "type": "tool",
+   "name": "Google Docs",
+   "evidence": "Google Docs"
+  },
+  {
+   "type": "tool",
+   "name": "Google Drive",
+   "evidence": "Google Drive"
+  },
+  {
+   "type": "tool",
+   "name": "Basecamp",
+   "evidence": "Basecamp"
+  },
+  {
+   "type": "tool",
+   "name": "Slack",
+   "evidence": "Slack"
+  },
+  {
+   "type": "tool",
+   "name": "Trello",
+   "evidence": "Trello"
+  },
+  {
+   "type": "tool",
+   "name": "Yougile",
+   "evidence": "Yougile"
+  },
+  {
+   "type": "tool",
+   "name": "JetBrains",
+   "evidence": "JetBrains"
+  },
+  {
+   "type": "tool",
+   "name": "cdn77",
+   "evidence": "cdn77"
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "Ryuk ransomware",
+   "aliases": [
+    "Hermes 2.1",
+    "CryptoTech",
+    "Bluenoroff"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "BazarLoader",
+   "evidence": "BazarLoader",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "BazarBackdoor",
+   "evidence": "BazarBackdoor",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Wizard Spider",
+   "evidence": "Wizard Spider",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "UNC1878",
+   "evidence": "UNC1878",
+   "aliases": [
+    "One group"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "TrickBot",
+   "evidence": "TrickBot",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Cobalt Strike",
+   "evidence": "Cobalt Strike",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz",
+   "evidence": "Mimikatz",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "PsExec",
+   "evidence": "PsExec",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Rubeus",
+   "evidence": "Rubeus",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "BloodHound",
+   "evidence": "BloodHound",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "PowerSploit",
+   "evidence": "PowerSploit",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "AdFind",
+   "evidence": "AdFind",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Empire",
+   "evidence": "Empire",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Meterpreter",
+   "evidence": "Meterpreter",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "LaZagne",
+   "evidence": "LaZagne",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Kerbrute",
+   "evidence": "Kerbrute",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Kerberoast",
+   "evidence": "Kerberoast",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "UNC1878",
+   "evidence": "UNC1878 could rely on different TrickBot affiliates or different attackers with access to BazarLoader to open up access to its victims.",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "Ryuk ransomware",
+   "aliases": [
+    "Ryuk ransomware"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "TrickBot",
+   "evidence": "TrickBot",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "BazarLoader",
+   "evidence": "BazarLoader",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Buer",
+   "evidence": "Buer loader",
+   "aliases": [
+    "Buer"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "SilentNight",
+   "evidence": "SilentNight",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Zloader",
+   "evidence": "Zloader malware",
+   "aliases": [
+    "Zloader"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "FIN6",
+   "evidence": "FIN6",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "LockerGoga",
+   "evidence": "LockerGoga ransomware",
+   "aliases": [
+    "LockerGoga"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "Cobalt Strike",
+   "evidence": "Cobalt Strike",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Empire",
+   "evidence": "Empire attack framework",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Metasploit",
+   "evidence": "Metasploit payloads",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "FrameworkPOS",
+   "evidence": "FrameworkPOS malicious code",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Dridex",
+   "evidence": "Dridex",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "ZeuS",
+   "evidence": "ZeuS",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Gozi",
+   "evidence": "Gozi",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Neverquest",
+   "evidence": "Neverquest",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "BazarBackdoor",
+   "evidence": "BazarBackdoor",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Anchor",
+   "evidence": "Anchor",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "PowerTrick",
+   "evidence": "PowerTrick",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "BloodHound",
+   "evidence": "BloodHound",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "PowerSploit",
+   "evidence": "PowerSploit",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "AdFind",
+   "evidence": "AdFind",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Raccine",
+   "evidence": "Raccine",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "SendGrid",
+   "evidence": "SendGrid",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Google Docs",
+   "evidence": "Google Docs",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Google Drive",
+   "evidence": "Google Drive",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Basecamp",
+   "evidence": "Basecamp",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Slack",
+   "evidence": "Slack",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Trello",
+   "evidence": "Trello",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Yougile",
+   "evidence": "Yougile",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "JetBrains",
+   "evidence": "JetBrains",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "cdn77",
+   "evidence": "cdn77",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Kerbrute",
+   "evidence": "Kerbrute",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Kerberoast",
+   "evidence": "Kerberoast",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Mimikatz",
+   "evidence": "Mimikatz",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "PsExec",
+   "evidence": "PsExec",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Rubeus",
+   "evidence": "Rubeus",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Hermes 2.1",
+   "evidence": "Hermes 2.1",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "CryptoTech",
+   "evidence": "CryptoTech",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Bluenoroff",
+   "evidence": "Bluenoroff",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Emotet",
+   "evidence": "Emotet",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Dyre",
+   "evidence": "Dyre",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Empire",
+   "evidence": "Empire",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Meterpreter",
+   "evidence": "Meterpreter",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "LaZagne",
+   "evidence": "LaZagne",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "Ryuk ransomware",
+   "aliases": [
+    "Hermes 2.1",
+    "CryptoTech",
+    "Bluenoroff"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "LockerGoga",
+   "evidence": "LockerGoga ransomware",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "TrickBot",
+   "evidence": "TrickBot",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "BazarLoader",
+   "evidence": "BazarLoader",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Emotet",
+   "evidence": "Emotet",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Cobalt Strike",
+   "evidence": "Cobalt Strike",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz",
+   "evidence": "Mimikatz",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "PsExec",
+   "evidence": "PsExec",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Rubeus",
+   "evidence": "Rubeus",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "UNC1878",
+   "evidence": "UNC1878",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Wizard Spider",
+   "evidence": "Wizard Spider",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Dyre",
+   "evidence": "Dyre",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Gozi",
+   "evidence": "Gozi",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Neverquest",
+   "evidence": "Neverquest",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "BazarBackdoor",
+   "evidence": "BazarBackdoor",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Anchor",
+   "evidence": "Anchor",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "PowerTrick",
+   "evidence": "PowerTrick",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "BloodHound",
+   "evidence": "BloodHound",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "PowerSploit",
+   "evidence": "PowerSploit",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "AdFind",
+   "evidence": "AdFind",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Raccine",
+   "evidence": "Raccine",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "SendGrid",
+   "evidence": "SendGrid",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Google Docs",
+   "evidence": "Google Docs",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Google Drive",
+   "evidence": "Google Drive",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Basecamp",
+   "evidence": "Basecamp",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Slack",
+   "evidence": "Slack",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Trello",
+   "evidence": "Trello",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Yougile",
+   "evidence": "Yougile",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "JetBrains",
+   "evidence": "JetBrains",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "cdn77",
+   "evidence": "cdn77",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Dridex",
+   "evidence": "Dridex",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "ZeuS",
+   "evidence": "ZeuS",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "FIN6",
+   "evidence": "FIN6",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Conti",
+   "evidence": "Conti ransomware",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Maze",
+   "evidence": "Maze",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "MegaCortex",
+   "evidence": "MegaCortex",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "TerraLoader",
+   "evidence": "TerraLoader",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "More_Eggs",
+   "evidence": "More_Eggs",
+   "aliases": [
+    "SpicyOmelette",
+    "Skid"
+   ]
+  },
+  {
+   "type": "tool",
+   "name": "Venom Spider",
+   "evidence": "Venom Spider",
+   "aliases": [
+    "badbullzvenom"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "Ryuk ransomware",
+   "aliases": [
+    "Hermes 2.1",
+    "CryptoTech",
+    "Bluenoroff",
+    "TrickBot",
+    "BazarLoader",
+    "Emotet",
+    "Cobalt Strike",
+    "Mimikatz",
+    "PsExec",
+    "Rubeus",
+    "UNC1878",
+    "Wizard Spider",
+    "Dyre",
+    "Gozi Neverquest",
+    "BazarBackdoor",
+    "Anchor",
+    "PowerTrick",
+    "BloodHound",
+    "PowerSploit",
+    "AdFind",
+    "Raccine",
+    "SendGrid",
+    "Google Docs",
+    "Google Drive",
+    "Basecamp",
+    "Slack",
+    "Trello",
+    "Yougile",
+    "JetBrains",
+    "cdn77",
+    "Dridex",
+    "ZeuS",
+    "UNC1878",
+    "Empire",
+    "Meterpreter",
+    "LaZagne",
+    "Kerbrute",
+    "Kerberoast",
+    "Buer"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "Maze",
+   "evidence": "Maze",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "TrickBot",
+   "evidence": "TrickBot",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "BazarLoader",
+   "evidence": "BazarLoader",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Buer",
+   "evidence": "Buer",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "SilentNight",
+   "evidence": "SilentNight",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "FIN6",
+   "evidence": "FIN6",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "UNC1878",
+   "evidence": "UNC1878",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "PsExec",
+   "evidence": "PsExec",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz",
+   "evidence": "Mimikatz",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Rubeus",
+   "evidence": "Rubeus",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Cobalt Strike",
+   "evidence": "Cobalt Strike",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "BloodHound",
+   "evidence": "BloodHound",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "PowerSploit",
+   "evidence": "PowerSploit",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "AdFind",
+   "evidence": "AdFind",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Raccine",
+   "evidence": "Raccine",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "SendGrid",
+   "evidence": "SendGrid",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Google Docs",
+   "evidence": "Google Docs",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Google Drive",
+   "evidence": "Google Drive",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Basecamp",
+   "evidence": "Basecamp",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Slack",
+   "evidence": "Slack",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Trello",
+   "evidence": "Trello",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Yougile",
+   "evidence": "Yougile",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "JetBrains",
+   "evidence": "JetBrains",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "cdn77",
+   "evidence": "cdn77",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Dridex",
+   "evidence": "Dridex",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "ZeuS",
+   "evidence": "ZeuS",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Empire",
+   "evidence": "Empire",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Meterpreter",
+   "evidence": "Meterpreter",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "LaZagne",
+   "evidence": "LaZagne",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Kerbrute",
+   "evidence": "Kerbrute",
+   "aliases": []
+  },
+  {
+   "type": "tool",
+   "name": "Kerberoast",
+   "evidence": "Kerberoast",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "This malware can also create a ryukreadme.html file as well as a copy of itself on the targeted host."
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "Ryuk ransomware",
+   "aliases": [
+    "Hermes 2.1",
+    "CryptoTech",
+    "Bluenoroff",
+    "TrickBot",
+    "BazarLoader",
+    "Emotet",
+    "Cobalt Strike",
+    "Mimikatz",
+    "PsExec",
+    "Rubeus",
+    "UNC1878",
+    "Wizard Spider",
+    "Dyre",
+    "Gozi Neverquest",
+    "BazarBackdoor",
+    "Anchor",
+    "PowerTrick",
+    "BloodHound",
+    "PowerSploit",
+    "AdFind",
+    "Raccine",
+    "SendGrid",
+    "Google Docs",
+    "Google Drive",
+    "Basecamp",
+    "Slack",
+    "Trello",
+    "Yougile",
+    "JetBrains",
+    "cdn77",
+    "Dridex",
+    "ZeuS",
+    "UNC1878",
+    "Empire",
+    "Meterpreter",
+    "LaZagne",
+    "Kerbrute",
+    "Kerberoast",
+    "Buer"
+   ]
+  }
+ ],
+ "observables": [
+  {
+   "type": "url",
+   "value": "https://www.google.com/docs",
+   "hash": "",
+   "indicates": [
+    "BazarLoader"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://www.google.com/drive",
+   "hash": "",
+   "indicates": [
+    "BazarLoader"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://www.basecamp.com",
+   "hash": "",
+   "indicates": [
+    "BazarLoader"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://www.slack.com",
+   "hash": "",
+   "indicates": [
+    "BazarLoader"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://www.trello.com",
+   "hash": "",
+   "indicates": [
+    "BazarLoader"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://www.yougile.com",
+   "hash": "",
+   "indicates": [
+    "BazarLoader"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://www.jetbrains.com",
+   "hash": "",
+   "indicates": [
+    "BazarLoader"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://www.cdn77.com",
+   "hash": "",
+   "indicates": [
+    "BazarLoader"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.202.174.91",
+   "hash": "",
+   "indicates": [
+    "LockerGoga",
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "93.115.26.171",
+   "hash": "",
+   "indicates": [
+    "LockerGoga",
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "93.115.26.171",
+   "hash": "",
+   "indicates": [
+    "FIN6"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Afee",
+   "hash": "MD5",
+   "indicates": [
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "544900a527328f2e4fe7598985bc688f",
+   "indicates": [
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "453d355037fabfc9c200022d189b91310fc2577a",
+   "indicates": [
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "2820bf6bb2a2d0670c6233301b414ae293cf85536127ac63b2ebd07d8616ae89",
+   "indicates": [
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "machunion.com",
+   "indicates": [
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "bakedbuns.com",
+   "indicates": [
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "ruths-brownies.com",
+   "indicates": [
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.202.174.91",
+   "indicates": [
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "93.115.26.171",
+   "indicates": [
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.202.174.0",
+   "indicates": [
+    "Ryuk"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "93.115.26.0",
+   "indicates": [
+    "Ryuk"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "Ryuk",
+   "type": "variant-of",
+   "target": "Hermes 2.1",
+   "evidence": "It is a variant of the Hermes 2.1 ransomware"
+  },
+  {
+   "source": "Ryuk",
+   "type": "targets",
+   "target": "Healthcare",
+   "evidence": "Ryuk was reportedly responsible for 75% of attacks on the American healthcare sector"
+  },
+  {
+   "source": "Ryuk",
+   "type": "targets",
+   "target": "United States",
+   "evidence": "Ryuk appears in particular to be impacting the United States and Canada"
+  },
+  {
+   "source": "Ryuk",
+   "type": "targets",
+   "target": "Canada",
+   "evidence": "Ryuk appears in particular to be impacting the United States and Canada"
+  },
+  {
+   "source": "Wizard Spider",
+   "type": "uses",
+   "target": "TrickBot",
+   "evidence": "The group operating the TrickBot malware is called Wizard Spider by Crowdstrike"
+  },
+  {
+   "source": "Wizard Spider",
+   "type": "uses",
+   "target": "Anchor",
+   "evidence": "This group is believed to include members of the Gold BlackBurn group, developers and operators of the Dyre banking trojan [27], which ceased activities in November 2015 following action by the Russian police. Dyre emerged in June 2014. Its specific characteristics were as follows: • Dyre is believed to have the same developer as Gozi Neverquest (alias Vawtrak) [28]."
+  },
+  {
+   "source": "Wizard Spider",
+   "type": "uses",
+   "target": "PowerTrick",
+   "evidence": "This group is believed to include members of the Gold BlackBurn group, developers and operators of the Dyre banking trojan [27], which ceased activities in November 2015 following action by the Russian police. Dyre emerged in June 2014. Its specific characteristics were as follows: • Dyre is believed to have the same developer as Gozi Neverquest (alias Vawtrak) [28]."
+  },
+  {
+   "source": "Wizard Spider",
+   "type": "uses",
+   "target": "BazarLoader",
+   "evidence": "Wizard Spider is believed to have started distributing the BazarLoader and BazarBackdoor malwares in March 2020"
+  },
+  {
+   "source": "Wizard Spider",
+   "type": "uses",
+   "target": "BazarBackdoor",
+   "evidence": "Wizard Spider is believed to have started distributing the BazarLoader and BazarBackdoor malwares in March 2020"
+  },
+  {
+   "source": "UNC1878",
+   "type": "uses",
+   "target": "TrickBot",
+   "evidence": "UNC1878, also known as One group, is an activity cluster discovered by FireEye at the end of January 2020 and involved in TrickBot-Ryuk infection chains since January 2020"
+  },
+  {
+   "source": "UNC1878",
+   "type": "uses",
+   "target": "Ryuk",
+   "evidence": "UNC1878, also known as One group, is an activity cluster discovered by FireEye at the end of January 2020 and involved in TrickBot-Ryuk infection chains since January 2020"
+  },
+  {
+   "source": "UNC1878",
+   "type": "uses",
+   "target": "Cobalt Strike",
+   "evidence": "the constant use of self-signed Cobalt Strike samples"
+  },
+  {
+   "source": "UNC1878",
+   "type": "uses",
+   "target": "Mimikatz",
+   "evidence": "the use of legitimate tools throughout the post-compromise infection chain (Cobalt Strike Beacon, Empire, Meterpreter, Mimikatz, LaZagne, Kerbrute, Kerberoast, BloodHound, AdFind, PowerSploit)"
+  },
+  {
+   "source": "UNC1878",
+   "type": "uses",
+   "target": "Empire",
+   "evidence": "the use of legitimate tools throughout the post-compromise infection chain (Cobalt Strike Beacon, Empire, Meterpreter, Mimikatz, LaZagne, Kerbrute, Kerberoast, BloodHound, AdFind, PowerSploit)"
+  },
+  {
+   "source": "UNC1878",
+   "type": "uses",
+   "target": "Meterpreter",
+   "evidence": "the use of legitimate tools throughout the post-compromise infection chain (Cobalt Strike Beacon, Empire, Meterpreter, Mimikatz, LaZagne, Kerbrute, Kerberoast, BloodHound, AdFind, PowerSploit)"
+  },
+  {
+   "source": "UNC1878",
+   "type": "uses",
+   "target": "LaZagne",
+   "evidence": "the use of legitimate tools throughout the post-compromise infection chain (Cobalt Strike Beacon, Empire, Meterpreter, Mimikatz, LaZagne, Kerbrute, Kerberoast, BloodHound, AdFind, PowerSploit)"
+  },
+  {
+   "source": "UNC1878",
+   "type": "uses",
+   "target": "Kerbrute",
+   "evidence": "the use of legitimate tools throughout the post-compromise infection chain (Cobalt Strike Beacon, Empire, Meterpreter, Mimikatz, LaZagne, Kerbrute, Kerberoast, BloodHound, AdFind, PowerSploit)"
+  },
+  {
+   "source": "UNC1878",
+   "type": "uses",
+   "target": "Kerberoast",
+   "evidence": "the use of legitimate tools throughout the post-compromise infection chain (Cobalt Strike Beacon, Empire, Meterpreter, Mimikatz, LaZagne, Kerbrute, Kerberoast, BloodHound, AdFind, PowerSploit)"
+  },
+  {
+   "source": "UNC1878",
+   "type": "uses",
+   "target": "BloodHound",
+   "evidence": "the use of legitimate tools throughout the post-compromise infection chain (Cobalt Strike Beacon, Empire, Meterpreter, Mimikatz, LaZagne, Kerbrute, Kerberoast, BloodHound, AdFind, PowerSploit)"
+  },
+  {
+   "source": "UNC1878",
+   "type": "uses",
+   "target": "AdFind",
+   "evidence": "the use of legitimate tools throughout the post-compromise infection chain (Cobalt Strike Beacon, Empire, Meterpreter, Mimikatz, LaZagne, Kerbrute, Kerberoast, BloodHound, AdFind, PowerSploit)"
+  },
+  {
+   "source": "UNC1878",
+   "type": "uses",
+   "target": "PowerSploit",
+   "evidence": "the use of legitimate tools throughout the post-compromise infection chain (Cobalt Strike Beacon, Empire, Meterpreter, Mimikatz, LaZagne, Kerbrute, Kerberoast, BloodHound, AdFind, PowerSploit)"
+  },
+  {
+   "source": "UNC1878",
+   "type": "uses",
+   "target": "TrickBot",
+   "evidence": "UNC1878 could rely on different TrickBot affiliates or different attackers with access to BazarLoader to open up access to its victims."
+  },
+  {
+   "source": "UNC1878",
+   "type": "uses",
+   "target": "BazarLoader",
+   "evidence": "UNC1878 could rely on different TrickBot affiliates or different attackers with access to BazarLoader to open up access to its victims."
+  },
+  {
+   "source": "Wizard Spider",
+   "type": "uses",
+   "target": "More_Eggs",
+   "evidence": "TerraLoader had installed the backdoor More_Eggs, of which FIN6 is one of the main users (together with the Cobalt Gang cybercriminal group)"
+  },
+  {
+   "source": "FIN6",
+   "type": "attributed-to",
+   "target": "Wizard Spider",
+   "evidence": "IBM [42] believes FIN6 and Wizard Spider to be working together"
+  }
+ ],
+ "_meta": {
+  "engine": "0.4",
+  "model": "qwen3:30b-a3b",
+  "seconds": 602.8,
+  "errors": "",
+  "replayed_from": "qwen3-30b-a3b-e0.3"
+ }
+}

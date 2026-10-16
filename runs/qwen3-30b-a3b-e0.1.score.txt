@@ -1,12 +1,12 @@
 qwen3-30b-a3b-e0.1 on 22 eval documents
-HEADLINE (mean F1)  0.460
-  entities       P 0.849  R 0.520  F1 0.645   (tp 659, fp 117, fn 609)
+HEADLINE (mean F1)  0.462
+  entities       P 0.852  R 0.523  F1 0.648   (tp 660, fp 115, fn 602)
   observables    P 0.694  R 0.319  F1 0.437   (tp 272, fp 120, fn 582)
-  relationships  P 0.489  R 0.216  F1 0.299   (tp 517, fp 541, fn 1882)
+  relationships  P 0.490  R 0.216  F1 0.300   (tp 518, fp 539, fn 1876)
     actors         P 0.577  R 0.732  F1 0.645
     software       P 0.784  R 0.695  F1 0.737
     techniques     P 0.979  R 0.409  F1 0.577
-    victims        P 0.647  R 0.361  F1 0.463
+    victims        P 0.672  R 0.388  F1 0.492
     vulnerabilities P 0.936  R 0.838  F1 0.884
 
 per document (headline, entities F1, relationships F1, observables F1):
@@ -15,20 +15,20 @@ per document (headline, entities F1, relationships F1, observables F1):
   cisa-aa21-116a               0.558  0.467  0.207  1.000
   cisa-aa23-347a               0.794  0.832  0.597  0.954
   cisa-aa24-249a               0.433  0.726  0.350  0.222
-  cisa-aa24-241a               0.678  0.725  0.518  0.791
-  cisa-aa24-207a               0.321  0.795  0.169  0.000
+  cisa-aa24-241a               0.691  0.750  0.532  0.791
+  cisa-aa24-207a               0.322  0.798  0.169  0.000
   cisa-aa23-158a               0.476  0.800  0.174  0.453
   cisa-aa24-109a               0.233  0.685  0.013  0.000
-  cisa-aa25-071a               0.423  0.611  0.009  0.648
+  cisa-aa25-071a               0.424  0.615  0.009  0.648
   cisa-aa25-163a               0.067  0.200  0.000  0.000
   cisa-aa23-201a               0.446  0.927  0.115  0.296
   cisa-aa24-060b               0.421  0.436  0.000  0.828
   cisa-aa23-320a               0.097  0.169  0.123  0.000
-  cisa-aa25-343a               0.724  0.761  0.411  1.000
+  cisa-aa25-343a               0.728  0.771  0.413  1.000
   cisa-aa23-335a               0.672  0.545  0.471  1.000
-  certfr-2021-cti-006          0.540  0.606  0.243  0.769
+  certfr-2021-cti-006          0.544  0.619  0.246  0.769
   certfr-2023-cti-007          0.679  0.893  0.518  0.627
   certfr-2023-cti-009          0.691  0.635  0.710  0.727
   ncsc-mar-jaguar-tooth        0.112  0.250  0.087  0.000
   ncsc-mar-small-sieve         0.172  0.182  0.111  0.222
-  ncsc-star-blizzard-2023      0.358  0.074  0.000  1.000
+  ncsc-star-blizzard-2023      0.360  0.080  0.000  1.000

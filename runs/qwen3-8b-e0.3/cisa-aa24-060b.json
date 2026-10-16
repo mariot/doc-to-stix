@@ -1,0 +1,1287 @@
+{
+ "entities": [
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-46805",
+   "evidence": "Cyber threat actors are actively exploiting multiple previously identified vulnerabilities—CVE-2023-46805, CVE-2024-21887, and CVE-2024-21893—affecting Ivanti Connect Secure and Ivanti Policy Secure gateways."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21887",
+   "evidence": "Cyber threat actors are actively exploiting multiple previously identified vulnerabilities—CVE-2023-46805, CVE-2024-21887, and CVE-2024-21893—affecting Ivanti Connect Secure and Ivanti Policy Secure gateways."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21893",
+   "evidence": "Cyber threat actors are actively exploiting multiple previously identified vulnerabilities—CVE-2023-46805, CVE-2024-21887, and CVE-2024-21893—affecting Ivanti Connect Secure and Ivanti Policy Secure gateways."
+  },
+  {
+   "type": "organization",
+   "name": "Federal Bureau of Investigation (FBI)",
+   "evidence": "Authoring organizations: • Federal Bureau of Investigation (FBI)"
+  },
+  {
+   "type": "organization",
+   "name": "Multi-State Information Sharing & Analysis Center (MS-ISAC)",
+   "evidence": "Authoring organizations: • Multi-State Information Sharing & Analysis Center (MS-ISAC)"
+  },
+  {
+   "type": "organization",
+   "name": "Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC)",
+   "evidence": "Authoring organizations: • Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC)"
+  },
+  {
+   "type": "organization",
+   "name": "United Kingdom National Cyber Security Centre (NCSC-UK)",
+   "evidence": "Authoring organizations: • United Kingdom National Cyber Security Centre (NCSC-UK)"
+  },
+  {
+   "type": "organization",
+   "name": "Canadian Centre for Cyber Security (Cyber Centre)",
+   "evidence": "Authoring organizations: • Canadian Centre for Cyber Security (Cyber Centre), a part of the Communications Security Establishment"
+  },
+  {
+   "type": "organization",
+   "name": "New Zealand National Cyber Security Centre (NCSC-NZ)",
+   "evidence": "Authoring organizations: • New Zealand National Cyber Security Centre (NCSC-NZ)"
+  },
+  {
+   "type": "organization",
+   "name": "CERT-New Zealand (CERT NZ)",
+   "evidence": "Authoring organizations: • CERT-New Zealand (CERT NZ)"
+  },
+  {
+   "type": "organization",
+   "name": "Volexity",
+   "evidence": "CISA and authoring organizations appreciate the cooperation of Volexity, Ivanti, Mandiant and other industry partners in the development of this advisory and ongoing incident response activities."
+  },
+  {
+   "type": "organization",
+   "name": "Ivanti",
+   "evidence": "CISA and authoring organizations appreciate the cooperation of Volexity, Ivanti, Mandiant and other industry partners in the development of this advisory and ongoing incident response activities."
+  },
+  {
+   "type": "organization",
+   "name": "Mandiant",
+   "evidence": "CISA and authoring organizations appreciate the cooperation of Volexity, Ivanti, Mandiant and other industry partners in the development of this advisory and ongoing incident response activities."
+  },
+  {
+   "type": "sector",
+   "name": "Defense",
+   "evidence": "Note: On February 9, 2024, CISA issued Emergency Directive (ED) 24-01: Mitigate Ivanti Connect Secure and Ivanti Policy Secure Vulnerabilities, which requires emergency action from Federal Civilian Executive Branch (FCEB) agencies to perform specific actions on affected products."
+  },
+  {
+   "type": "sector",
+   "name": "Finance",
+   "evidence": "Note: On February 9, 2024, CISA issued Emergency Directive (ED) 24-01: Mitigate Ivanti Connect Secure and Ivanti Policy Secure Vulnerabilities, which requires emergency action from Federal Civilian Executive Branch (FCEB) agencies to perform specific actions on affected products."
+  },
+  {
+   "type": "sector",
+   "name": "Health",
+   "evidence": "Note: On February 9, 2024, CISA issued Emergency Directive (ED) 24-01: Mitigate Ivanti Connect Secure and Ivanti Policy Secure Vulnerabilities, which requires emergency action from Federal Civilian Executive Branch (FCEB) agencies to perform specific actions on affected products."
+  },
+  {
+   "type": "sector",
+   "name": "Energy",
+   "evidence": "Note: On February 9, 2024, CISA issued Emergency Directive (ED) 24-01: Mitigate Ivanti Connect Secure and Ivanti Policy Secure Vulnerabilities, which requires emergency action from Federal Civilian Executive Branch (FCEB) agencies to perform specific actions on affected products."
+  },
+  {
+   "type": "sector",
+   "name": "Transport",
+   "evidence": "Note: On February 9, 2024, CISA issued Emergency Directive (ED) 24-01: Mitigate Ivanti Connect Secure and Ivanti Policy Secure Vulnerabilities, which requires emergency action from Federal Civilian Executive Branch (FCEB) agencies to perform specific actions on affected products."
+  },
+  {
+   "type": "sector",
+   "name": "Telecommunications",
+   "evidence": "Note: On February 9, 2024, CISA issued Emergency Directive (ED) 24-01: Mitigate Ivanti Connect Secure and Ivanti Policy Secure Vulnerabilities, which requires emergency action from Federal Civilian Executive Branch (FCEB) agencies to perform specific actions on affected products."
+  },
+  {
+   "type": "sector",
+   "name": "Water distribution and supply",
+   "evidence": "Note: On February 9, 2024, CISA issued Emergency Directive (ED) 24-01: Mitigate Ivanti Connect Secure and Ivanti Policy Secure Vulnerabilities, which requires emergency action from Federal Civilian Executive Branch (FCEB) agencies to perform specific actions on affected products."
+  },
+  {
+   "type": "sector",
+   "name": "Government and administrations",
+   "evidence": "Note: On February 9, 2024, CISA issued Emergency Directive (ED) 24-01: Mitigate Ivanti Connect Secure and Ivanti Policy Secure Vulnerabilities, which requires emergency action from Federal Civilian Executive Branch (FCEB) agencies to perform specific actions on affected products."
+  },
+  {
+   "type": "sector",
+   "name": "Defense",
+   "evidence": "The authoring organizations strongly urge all organizations to consider the significant risk of adversary access to, and persistence on, Ivanti Connect Secure and Ivanti Policy Secure gateways when determining whether to continue operating these devices in an enterprise environment."
+  },
+  {
+   "type": "sector",
+   "name": "Finance",
+   "evidence": "The authoring organizations strongly urge all organizations to consider the significant risk of adversary access to, and persistence on, Ivanti Connect Secure and Ivanti Policy Secure gateways when determining whether to continue operating these devices in an enterprise environment."
+  },
+  {
+   "type": "sector",
+   "name": "Health",
+   "evidence": "The authoring organizations strongly urge all organizations to consider the significant risk of adversary access to, and persistence on, Ivanti Connect Secure and Ivanti Policy Secure gateways when determining whether to continue operating these devices in an enterprise environment."
+  },
+  {
+   "type": "sector",
+   "name": "Energy",
+   "evidence": "The authoring organizations strongly urge all organizations to consider the significant risk of adversary access to, and persistence on, Ivanti Connect Secure and Ivanti Policy Secure gateways when determining whether to continue operating these devices in an enterprise environment."
+  },
+  {
+   "type": "sector",
+   "name": "Transport",
+   "evidence": "The authoring organizations strongly urge all organizations to consider the significant risk of adversary access to, and persistence on, Ivanti Connect Secure and Ivanti Policy Secure gateways when determining whether to continue operating these devices in an enterprise environment."
+  },
+  {
+   "type": "sector",
+   "name": "Telecommunications",
+   "evidence": "The authoring organizations strongly urge all organizations to consider the significant risk of adversary access to, and persistence on, Ivanti Connect Secure and Ivanti Policy Secure gateways when determining whether to continue operating these devices in an enterprise environment."
+  },
+  {
+   "type": "sector",
+   "name": "Water distribution and supply",
+   "evidence": "The authoring organizations strongly urge all organizations to consider the significant risk of adversary access to, and persistence on, Ivanti Connect Secure and Ivanti Policy Secure gateways when determining whether to continue operating these devices in an enterprise environment."
+  },
+  {
+   "type": "sector",
+   "name": "Government and administrations",
+   "evidence": "The authoring organizations strongly urge all organizations to consider the significant risk of adversary access to, and persistence on, Ivanti Connect Secure and Ivanti Policy Secure gateways when determining whether to continue operating these devices in an enterprise environment."
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "U.S. organizations: To report suspicious or criminal activity related to information found in this joint Cybersecurity Advisory, contact your local FBI field office or CISA’s 24/7 Operations Center at report@cisa.gov or (888) 282-0870."
+  },
+  {
+   "type": "country",
+   "name": "Canada",
+   "evidence": "The Canadian Centre for Cyber Security also issued an alert, Ivanti Connect Secure and Ivanti Policy Secure gateways zero-day vulnerabilities, which provides periodic updates for IT professionals and managers affected by the Ivanti vulnerabilities."
+  },
+  {
+   "type": "country",
+   "name": "Australia",
+   "evidence": "Authoring organizations: • Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC)"
+  },
+  {
+   "type": "country",
+   "name": "United Kingdom",
+   "evidence": "Authoring organizations: • United Kingdom National Cyber Security Centre (NCSC-UK)"
+  },
+  {
+   "type": "country",
+   "name": "New Zealand",
+   "evidence": "Authoring organizations: • New Zealand National Cyber Security Centre (NCSC-NZ)"
+  },
+  {
+   "type": "country",
+   "name": "New Zealand",
+   "evidence": "Authoring organizations: • CERT-New Zealand (CERT NZ)"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVEs in Ivanti Connect Secure and Policy Secure Gateways",
+   "evidence": "Threat Actor Activity CISA has responded to multiple incidents related to the above vulnerabilities in Ivanti Connect Secure and Policy Secure Gateways."
+  },
+  {
+   "type": "vulnerability",
+   "name": "Ivanti Connect Secure and Policy Secure Gateways",
+   "evidence": "Threat Actors Exploit Multiple Vulnerabilities in Ivanti Connect Secure and Policy Secure Gateways"
+  },
+  {
+   "type": "vulnerability",
+   "name": "Ivanti Connect Secure",
+   "evidence": "Threat Actors Exploit Multiple Vulnerabilities in Ivanti Connect Secure and Policy Secure Gateways"
+  },
+  {
+   "type": "vulnerability",
+   "name": "Ivanti Policy Secure",
+   "evidence": "Threat Actors Exploit Multiple Vulnerabilities in Ivanti Connect Secure and Policy Secure Gateways"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-46805",
+   "evidence": "KB CVE-2023-46805 (Authentication Bypass) & CVE-2024-21887 (Command Injection) for Ivanti Connect Secure and Ivanti Policy Secure Gateways"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21887",
+   "evidence": "KB CVE-2023-46805 (Authentication Bypass) & CVE-2024-21887 (Command Injection) for Ivanti Connect Secure and Ivanti Policy Secure Gateways"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21893",
+   "evidence": "Research included a variety of tests on version 22.3R1 Build 1647, connected to Active Directory credentials, to leverage the access obtained through CVE-2023-46805, CVE-2024-21887 and CVE-2024-21893."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "TA0003",
+   "evidence": "CISA’s researchers were able to exfiltrate domain administrator cleartext credentials [TA0006], gain root-level persistence [TA0003], and bypass integrity checks used by the Integrity Checker application."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "TA0006",
+   "evidence": "CISA’s researchers were able to exfiltrate domain administrator cleartext credentials [TA0006], gain root-level persistence [TA0003], and bypass integrity checks used by the Integrity Checker application."
+  },
+  {
+   "type": "malware",
+   "name": "WIREFIRE",
+   "evidence": "Filename: Cav-0.1-py3.6.egg, Description: WIREFIRE web shell."
+  },
+  {
+   "type": "malware",
+   "name": "CHAINLINE",
+   "evidence": "Filename: Health.py, Description: CHAINLINE web shell."
+  },
+  {
+   "type": "malware",
+   "name": "LIGHTWIRE",
+   "evidence": "Filename: lastauthserverused.js, Description: LIGHTWIRE web shell."
+  },
+  {
+   "type": "malware",
+   "name": "WARPWIRE",
+   "evidence": "Filename: lastauthserverused.js, Description: WARPWIRE credential harvester variant."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credential harvesting",
+   "evidence": "Modified legitimate JavaScript component loaded by user login page of the Web SSL VPN component of Ivanti Connect Secure. Modified to harvest entered credentials and send them to a remote URL on an attacker-controlled domain.",
+   "mitre_id": "T1001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote code execution",
+   "evidence": "Modified legitimate component of the ICS VPN appliance, with new Perl module imports added and a one-liner to execute commands based on request parameters. Allows remote code execution over the Internet if the attacker can craft a request with the correct parameters.",
+   "mitre_id": "T1059"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-24828",
+   "evidence": "Threat Actors Exploit Multiple Vulnerabilities in Ivanti Connect Secure and Policy Secure Gateways."
+  },
+  {
+   "type": "sector",
+   "name": "Information Technologies Consulting",
+   "evidence": "The text does not specify a sector."
+  },
+  {
+   "type": "country",
+   "name": "Unknown",
+   "evidence": "The text does not specify a country."
+  },
+  {
+   "type": "organization",
+   "name": "Ivanti",
+   "evidence": "Threat Actors Exploit Multiple Vulnerabilities in Ivanti Connect Secure and Policy Secure Gateways."
+  },
+  {
+   "type": "malware",
+   "name": "WARPWIRE",
+   "evidence": "WARPWIRE variant C2 server"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Applications",
+   "evidence": "Exploit Public-Facing Applications T1190",
+   "mitre_id": "T1190"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "evidence": "Valid Accounts T1078",
+   "mitre_id": "T1078"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Web Shell",
+   "evidence": "Server Software Component: Web Shell T1505.003",
+   "mitre_id": "T1505.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "evidence": "Command and Scripting Interpreter: PowerShell T1059.001",
+   "mitre_id": "T1059.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Client Execution",
+   "evidence": "Exploitation for Client Execution T1203",
+   "mitre_id": "T1203"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Shell",
+   "mitre_id": "T1505.003",
+   "evidence": "[T1505.003]. Once successfully deployed, these web shells are used to execute commands on"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "mitre_id": "T1190",
+   "evidence": "Applications T1190"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "Valid Accounts T1078"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001",
+   "evidence": "T1059.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Client Execution",
+   "mitre_id": "T1203",
+   "evidence": "Execution T1203"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21887",
+   "evidence": "46805, CVE-2024-21887, and CVE-2024-21893—affecting Ivanti Connect Secure and Ivanti Policy"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21893",
+   "evidence": "46805, CVE-2024-21887, and CVE-2024-21893—affecting Ivanti Connect Secure and Ivanti Policy"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-22024",
+   "evidence": "• CVE-2024-22024 is an XML vulnerability in the SAML component of Ivanti Connect Secure"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21888",
+   "evidence": "• CVE-2024-21888 is a privilege escalation vulnerability found in the web component of Ivanti"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-46805",
+   "evidence": "[3] KB CVE-2023-46805 (Authentication Bypass) & CVE-2024-21887 (Command Injection) for"
+  }
+ ],
+ "observables": [
+  {
+   "type": "ipv4-addr",
+   "value": "IP addresses",
+   "indicates": [
+    "threat-actor"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "domain names",
+   "indicates": [
+    "threat-actor"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "URLs",
+   "indicates": [
+    "threat-actor"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "hashes",
+   "hash": "MD5, SHA-1, SHA-256 or SHA-512",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "88.119.169.227",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "103.13.28.40",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "46.8.68.100",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "206.189.208.156",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "75.145.243.85",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "47.207.9.89",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "98.160.48.170",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "173.220.106.166",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "73.128.178.221",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.243.177.161",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.213.208.89",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "64.24.179.210",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "75.145.224.109",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.215.39.49",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "71.127.149.194",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "173.53.43.7",
+   "indicates": [
+    "UTA0178"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "symantke.com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "miltonhouse.nl",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "entraide-internationale.fr",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "api.d-n-s.name",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "cpanel.netbar.org",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "clickcom.click",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "clicko.click",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "duorhytm.fun",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "line-api.com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "areekaweb.com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "ehangmun.com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "secure-cama.com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Cav-0.1-py3.6.egg",
+   "hash": "ed4b855941d6d7e07aacf016a2402c4c870876a050a4a547af194f5a9b47945f",
+   "indicates": [
+    "WIREFIRE"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "Health.py",
+   "hash": "3045f5b3d355a9ab26ab6f44cc831a83",
+   "indicates": [
+    "CHAINLINE"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "compcheckresult.cgi",
+   "hash": "3d97f55a03ceb4f71671aa2ecf5b24e9",
+   "indicates": [
+    "CHAINLINE"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "lastauthserverused.js",
+   "hash": "2ec505088b942c234f39a37188e80d7a",
+   "indicates": [
+    "LIGHTWIRE"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "lastauthserverused.js",
+   "hash": "8eb042da6ba683ef1bae460af103cc44",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "lastauthserver. js",
+   "hash": "a739bd4c2b9f3679f43579711448786f",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "lastauthserverused.js",
+   "hash": "a81813f70151a022ea1065b7f4d6b5ab",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "lastauthserverused.js",
+   "hash": "d0c7a334a4d9dcd3c6335ae13bee59ea",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "lastauthserverused.js",
+   "hash": "e8489983d73ed30a4240a14b1f161254",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "logo.gif",
+   "hash": "N/A",
+   "indicates": [
+    "Configuration and cache dump or CAV web server log exfiltration"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "login.gif",
+   "hash": "N/A",
+   "indicates": [
+    "Configuration and cache dump"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "[a-fA-f0-9]{10}.css",
+   "hash": "N/A",
+   "indicates": [
+    "Configuration and cache dump"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "visits.py",
+   "hash": "N/A",
+   "indicates": [
+    "WIREFIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "line-api[.]com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "areekaweb[.]com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "ehangmun[.]com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "secure-cama[.]com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "146.0.228[.]66",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "159.65.130[.]146",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "8.137.112[.]245",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "91.92.254[.]14",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "186.179.39[.]235",
+   "indicates": [
+    "Mass exploitation activity"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.215.39[.]49",
+   "indicates": [
+    "Post-exploitation activity"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.61.136[.]14",
+   "indicates": [
+    "Post-exploitation activity"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "173.220.106[.]166",
+   "indicates": [
+    "Post-exploitation activity"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "3045f5b3d355a9ab26ab6f44cc831a83"
+  },
+  {
+   "type": "file",
+   "value": "3d97f55a03ceb4f71671aa2ecf5b24e9"
+  },
+  {
+   "type": "file",
+   "value": "2ec505088b942c234f39a37188e80d7a"
+  },
+  {
+   "type": "file",
+   "value": "8eb042da6ba683ef1bae460af103cc44"
+  },
+  {
+   "type": "file",
+   "value": "a739bd4c2b9f3679f43579711448786f"
+  },
+  {
+   "type": "file",
+   "value": "a81813f70151a022ea1065b7f4d6b5ab"
+  },
+  {
+   "type": "file",
+   "value": "d0c7a334a4d9dcd3c6335ae13bee59ea"
+  },
+  {
+   "type": "file",
+   "value": "e8489983d73ed30a4240a14b1f161254"
+  },
+  {
+   "type": "file",
+   "value": "8bc8f4da98ee05c9d403d2cb76097818de0b524d90bea8ed846615e42cb031d2"
+  },
+  {
+   "type": "file",
+   "value": "26cbb54b1feb75fe008e36285334d747428f80aacdb57badf294e597f3e9430d"
+  },
+  {
+   "type": "file",
+   "value": "9d901f1a494ffa98d967ee6ee30a46402c12a807ce425d5f51252eb69941d988"
+  },
+  {
+   "type": "file",
+   "value": "e192932d834292478c9b1032543c53edfc2b252fdf7e27e4c438f4b249544eeb"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "88.119.169.227"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "103.13.28.40"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "46.8.68.100"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "206.189.208.156"
+  },
+  {
+   "type": "domain-name",
+   "value": "gpoaccess.com"
+  },
+  {
+   "type": "domain-name",
+   "value": "webb-institute.com"
+  },
+  {
+   "type": "domain-name",
+   "value": "symantke.com"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "75.145.243.85"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "47.207.9.89"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "98.160.48.170"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "173.220.106.166"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "73.128.178.221"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.243.177.161"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.213.208.89"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "64.24.179.210"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "75.145.224.109"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.215.39.49"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "71.127.149.194"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "173.53.43.7"
+  },
+  {
+   "type": "domain-name",
+   "value": "miltonhouse.nl"
+  },
+  {
+   "type": "domain-name",
+   "value": "entraide-internationale.fr"
+  },
+  {
+   "type": "domain-name",
+   "value": "api.d-n-s.name"
+  },
+  {
+   "type": "domain-name",
+   "value": "cpanel.netbar.org"
+  },
+  {
+   "type": "domain-name",
+   "value": "clickcom.click"
+  },
+  {
+   "type": "domain-name",
+   "value": "clicko.click"
+  },
+  {
+   "type": "domain-name",
+   "value": "duorhytm.fun"
+  },
+  {
+   "type": "domain-name",
+   "value": "line-api.com"
+  },
+  {
+   "type": "domain-name",
+   "value": "areekaweb.com"
+  },
+  {
+   "type": "domain-name",
+   "value": "ehangmun.com"
+  },
+  {
+   "type": "domain-name",
+   "value": "secure-cama.com"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "146.0.228.66"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "159.65.130.146"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "8.137.112.245"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "91.92.254.14"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "186.179.39.235"
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.61.136.14"
+  }
+ ],
+ "relationships": [
+  {
+   "source": "CVE-2023-46805",
+   "type": "targets",
+   "target": "Ivanti Connect Secure",
+   "evidence": "Cyber threat actors are actively exploiting multiple previously identified vulnerabilities—CVE-2023-46805, CVE-2024-21887, and CVE-2024-21893—affecting Ivanti Connect Secure and Ivanti Policy Secure gateways."
+  },
+  {
+   "source": "CVE-2023-46805",
+   "type": "targets",
+   "target": "Ivanti Policy Secure",
+   "evidence": "Cyber threat actors are actively exploiting multiple previously identified vulnerabilities—CVE-2023-46805, CVE-2024-21887, and CVE-2024-21893—affecting Ivanti Connect Secure and Ivanti Policy Secure gateways."
+  },
+  {
+   "source": "CVE-2024-21887",
+   "type": "targets",
+   "target": "Ivanti Connect Secure",
+   "evidence": "Cyber threat actors are actively exploiting multiple previously identified vulnerabilities—CVE-2023-46805, CVE-2024-21887, and CVE-2024-21893—affecting Ivanti Connect Secure and Ivanti Policy Secure gateways."
+  },
+  {
+   "source": "CVE-2024-21887",
+   "type": "targets",
+   "target": "Ivanti Policy Secure",
+   "evidence": "Cyber threat actors are actively exploiting multiple previously identified vulnerabilities—CVE-2023-46805, CVE-2024-21887, and CVE-2024-21893—affecting Ivanti Connect Secure and Ivanti Policy Secure gateways."
+  },
+  {
+   "source": "CVE-2024-21893",
+   "type": "targets",
+   "target": "Ivanti Connect Secure",
+   "evidence": "Cyber threat actors are actively exploiting multiple previously identified vulnerabilities—CVE-2023-46805, CVE-2024-21887, and CVE-2024-21893—affecting Ivanti Connect Secure and Ivanti Policy Secure gateways."
+  },
+  {
+   "source": "CVE-2024-21893",
+   "type": "targets",
+   "target": "Ivanti Policy Secure",
+   "evidence": "Cyber threat actors are actively exploiting multiple previously identified vulnerabilities—CVE-2023-46805, CVE-2024-21887, and CVE-2024-21893—affecting Ivanti Connect Secure and Ivanti Policy Secure gateways."
+  },
+  {
+   "source": "threat-actor",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "Threat Actor Activity CISA has responded to multiple incidents related to the above vulnerabilities in Ivanti Connect Secure and Policy Secure Gateways."
+  },
+  {
+   "source": "malware",
+   "type": "exploits",
+   "target": "vulnerability",
+   "evidence": "Threat Actor Activity In these incidents, actors exploited these CVEs for initial access to implant web shells and to harvest credentials stored on the devices."
+  },
+  {
+   "source": "CVE-2023-46805",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "Research included a variety of tests on version 22.3R1 Build 1647, connected to Active Directory credentials, to leverage the access obtained through CVE-2023-46805, CVE-2024-21887 and CVE-2024-21893."
+  },
+  {
+   "source": "CVE-2024-21887",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "Research included a variety of tests on version 22.3R1 Build 1647, connected to Active Directory credentials, to leverage the access obtained through CVE-2023-46805, CVE-2024-21887 and CVE-2024-21893."
+  },
+  {
+   "source": "CVE-2024-21893",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "Research included a variety of tests on version 22.3R1 Build 1647, connected to Active Directory credentials, to leverage the access obtained through CVE-2023-46805, CVE-2024-21887 and CVE-2024-21893."
+  },
+  {
+   "source": "TA0003",
+   "type": "targets",
+   "target": "attack-pattern",
+   "evidence": "CISA’s researchers were able to exfiltrate domain administrator cleartext credentials [TA0006], gain root-level persistence [TA0003], and bypass integrity checks used by the Integrity Checker application."
+  },
+  {
+   "source": "TA0006",
+   "type": "targets",
+   "target": "attack-pattern",
+   "evidence": "CISA’s researchers were able to exfiltrate domain administrator cleartext credentials [TA0006], gain root-level persistence [TA0003], and bypass integrity checks used by the Integrity Checker application."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "Threat Actors Exploit Multiple Vulnerabilities in Ivanti Connect Secure and Policy Secure Gateways."
+  },
+  {
+   "source": "WIREFIRE",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "Threat Actors Exploit Multiple Vulnerabilities in Ivanti Connect Secure and Policy Secure Gateways."
+  },
+  {
+   "source": "CHAINLINE",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "Threat Actors Exploit Multiple Vulnerabilities in Ivanti Connect Secure and Policy Secure Gateways."
+  },
+  {
+   "source": "LIGHTWIRE",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "Threat Actors Exploit Multiple Vulnerabilities in Ivanti Connect Secure and Policy Secure Gateways."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "The text does not specify a sector."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "targets",
+   "target": "country",
+   "evidence": "The text does not specify a country."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "targets",
+   "target": "organization",
+   "evidence": "Threat Actors Exploit Multiple Vulnerabilities in Ivanti Connect Secure and Policy Secure Gateways."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Modified legitimate JavaScript component loaded by user login page of the Web SSL VPN component of Ivanti Connect Secure. Modified to harvest entered credentials and send them to a remote URL on an attacker-controlled domain."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Modified legitimate component of the ICS VPN appliance, with new Perl module imports added and a one-liner to execute commands based on request parameters. Allows remote code execution over the Internet if the attacker can craft a request with the correct parameters."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Modified legitimate JavaScript component loaded by user login page of the Web SSL VPN component of Ivanti Connect Secure. Modified to harvest entered credentials and send them to a remote URL on an attacker-controlled domain."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Modified legitimate component of the ICS VPN appliance, with new Perl module imports added and a one-liner to execute commands based on request parameters. Allows remote code execution over the Internet if the attacker can craft a request with the correct parameters."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Modified legitimate JavaScript component loaded by user login page of the Web SSL VPN component of Ivanti Connect Secure. Modified to harvest entered credentials and send them to a remote URL on an attacker-controlled domain."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Modified legitimate component of the ICS VPN appliance, with new Perl module imports added and a one-liner to execute commands based on request parameters. Allows remote code execution over the Internet if the attacker can craft a request with the correct parameters."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Modified legitimate JavaScript component loaded by user login page of the Web SSL VPN component of Ivanti Connect Secure. Modified to harvest entered credentials and send them to a remote URL on an attacker-controlled domain."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Modified legitimate component of the ICS VPN appliance, with new Perl module imports added and a one-liner to execute commands based on request parameters. Allows remote code execution over the Internet if the attacker can craft a request with the correct parameters."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Modified legitimate JavaScript component loaded by user login page of the Web SSL VPN component of Ivanti Connect Secure. Modified to harvest entered credentials and send them to a remote URL on an attacker-controlled domain."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Modified legitimate component of the ICS VPN appliance, with new Perl module imports added and a one-liner to execute commands based on request parameters. Allows remote code execution over the Internet if the attacker can craft a request with the correct parameters."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Modified legitimate JavaScript component loaded by user login page of the Web SSL VPN component of Ivanti Connect Secure. Modified to harvest entered credentials and send them to a remote URL on an attacker-controlled domain."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Modified legitimate component of the ICS VPN appliance, with new Perl module imports added and a one-liner to execute commands based on request parameters. Allows remote code execution over the Internet if the attacker can craft a request with the correct parameters."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Modified legitimate JavaScript component loaded by user login page of the Web SSL VPN component of Ivanti Connect Secure. Modified to harvest entered credentials and send them to a remote URL on an attacker-controlled domain."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Modified legitimate component of the ICS VPN appliance, with new Perl module imports added and a one-liner to execute commands based on request parameters. Allows remote code execution over the Internet if the attacker can craft a request with the correct parameters."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Modified legitimate JavaScript component loaded by user login page of the Web SSL VPN component of Ivanti Connect Secure. Modified to harvest entered credentials and send them to a remote URL on an attacker-controlled domain."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Modified legitimate component of the ICS VPN appliance, with new Perl module imports added and a one-liner to execute commands based on request parameters. Allows remote code execution over the Internet if the attacker can craft a request with the correct parameters."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Modified legitimate JavaScript component loaded by user login page of the Web SSL VPN component of Ivanti Connect Secure. Modified to harvest entered credentials and send them to a remote URL on an attacker-controlled domain."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Modified legitimate component of the ICS VPN appliance, with new Perl module imports added and a one-liner to execute commands based on request parameters. Allows remote code execution over the Internet if the attacker can craft a request with the correct parameters."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Modified legitimate JavaScript component loaded by user login page of the Web SSL VPN component of Ivanti Connect Secure. Modified to harvest entered credentials and send them to a remote URL on an attacker-controlled domain."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Modified legitimate component of the ICS VPN appliance, with new Perl module imports added and a one-liner to execute commands based on request parameters. Allows remote code execution over the Internet if the attacker can craft a request with the correct parameters."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Modified legitimate JavaScript component loaded by user login page of the Web SSL VPN component of Ivanti Connect Secure. Modified to harvest entered credentials and send them to a remote URL on an attacker-controlled domain."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Modified legitimate component of the ICS VPN appliance, with new Perl module imports added and a one-liner to execute commands based on request parameters. Allows remote code execution over the Internet if the attacker can craft a request with the correct parameters."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Modified legitimate JavaScript component loaded by user login page of the Web SSL VPN component of Ivanti Connect Secure. Modified to harvest entered credentials and send them to a remote URL on an attacker-controlled domain."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Modified legitimate component of the ICS VPN appliance, with new Perl module imports added and a one-liner to execute commands based on request parameters. Allows remote code, execution over the Internet if the attacker can craft a request with the correct parameters."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "Exploit Public-Facing Applications",
+   "evidence": "WARPWIRE variant C2 server"
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "Web Shell",
+   "evidence": "WARPWIRE variant C2 server"
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "Command and Scripting Interpreter: PowerShell",
+   "evidence": "WARPWIRE variant C2 server"
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "Exploitation for Client Execution",
+   "evidence": "WARPWIRE variant C2 server"
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "[T1505.003]. Once successfully deployed, these web shells are used to execute commands on"
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "Applications T1190"
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "T1078",
+   "evidence": "Valid Accounts T1078"
+  }
+ ],
+ "_meta": {
+  "engine": "0.3",
+  "model": "qwen3:8b",
+  "seconds": 966.3,
+  "errors": "1 unparsable chunk(s)"
+ }
+}

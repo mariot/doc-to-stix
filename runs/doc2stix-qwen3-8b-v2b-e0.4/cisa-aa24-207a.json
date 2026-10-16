@@ -1,0 +1,3488 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "Andariel",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group known publicly as"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Onyx Sleet",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group known publicly as"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "DarkSeoul",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group known publicly as"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Silent Chollima",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group known publicly as"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Stonefly/Clasiopa",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group known publicly as"
+  },
+  {
+   "type": "country",
+   "name": "North Korea",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group known publicly as"
+  },
+  {
+   "type": "organization",
+   "name": "Democratic People’s Republic of Korea",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group known publicly as"
+  },
+  {
+   "type": "organization",
+   "name": "Reconnaissance General Bureau",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group known publicly as"
+  },
+  {
+   "type": "organization",
+   "name": "3rd Bureau",
+   "evidence": "The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group known publicly as"
+  },
+  {
+   "type": "country",
+   "name": "South Korea",
+   "evidence": "Republic of Korea’s National Intelligence Service (NIS)"
+  },
+  {
+   "type": "country",
+   "name": "United Kingdom",
+   "evidence": "United Kingdom’s National Cyber Security Centre (NCSC)"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "RGB 3rd Bureau",
+   "evidence": "RGB 3rd Bureau actors fund their espionage activity through ransomware operations against U.S. healthcare entities."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "The actors gain initial access through widespread exploitation of web servers through known vulnerabilities in software, such as Log4j, to deploy a web shell and gain access to sensitive information and applications for further exploitation.",
+   "mitre_id": "T1190"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Services Discovery",
+   "evidence": "The actors then employ standard system discovery and enumeration techniques, establish persistence using Scheduled Tasks, and perform privilege escalation using common credential stealing tools such as Mimikatz.",
+   "mitre_id": "T1018"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing",
+   "evidence": "The actors also conduct phishing activity using malicious attachments, including Microsoft Windows Shortcut File (LNK) files or HTML Application (HTA) script files inside encrypted or unencrypted zip archives.",
+   "mitre_id": "T1566"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "evidence": "The actors deploy and leverage custom malware implants, remote access tools (RATs), and open source tooling for execution, lateral movement, and data exfiltration.",
+   "mitre_id": "T1059.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing",
+   "evidence": "The actors also conduct phishing activity using malicious attachments, including Microsoft Windows Shortcut File (LNK) files or HTML Application (HTA) script files inside encrypted or unencrypted zip archives.",
+   "mitre_id": "T1566"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "The actors gain initial access through widespread exploitation of web servers through known vulnerabilities in software, such as Log4j, to deploy a web shell and gain access to sensitive information and applications for further exploitation.",
+   "mitre_id": "T1190"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Services Discovery",
+   "evidence": "The actors then employ standard system discovery and enumeration techniques, establish persistence using Scheduled Tasks, and perform privilege escalation using common credential stealing tools such as Mimikatz.",
+   "mitre_id": "T1018"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing",
+   "evidence": "The actors also conduct phishing activity using malicious attachments, including Microsoft Windows Shortcut File (LNK) files or HTML Application (HTA) script files inside encrypted or unencrypted zip archives.",
+   "mitre_id": "T1566"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "evidence": "The actors deploy and leverage custom malware implants, remote access tools (RATs), and open source tooling for execution, lateral movement, and data exfiltration.",
+   "mitre_id": "T1059.001"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Andariel",
+   "evidence": "Andariel (also known as Onyx Sleet, formerly PLUTONIUM, DarkSeoul, Silent Chollima, and Stonefly/Clasiopa) is a North Korean state-sponsored cyber group, under the RGB 3rd Bureau, based in Pyongyang and Sinuiju."
+  },
+  {
+   "type": "organization",
+   "name": "RGB 3rd Bureau",
+   "evidence": "Andariel (also known as Onyx Sleet, formerly PLUTONIUM, DarkSeoul, Silent Chollima, and Stonefly/Clasiopa) is a North Korean state-sponsored cyber group, under the RGB 3rd Bureau, based in Pyongyang and Sinuiju."
+  },
+  {
+   "type": "country",
+   "name": "North Korea",
+   "evidence": "North Korea state-sponsored cyber operations."
+  },
+  {
+   "type": "sector",
+   "name": "Defense",
+   "evidence": "The actors currently target sensitive military information and intellectual property of defense, aerospace, nuclear, engineering organizations."
+  },
+  {
+   "type": "sector",
+   "name": "Aerospace",
+   "evidence": "The actors currently target sensitive military information and intellectual property of defense, aerospace, nuclear, engineering organizations."
+  },
+  {
+   "type": "sector",
+   "name": "Nuclear",
+   "evidence": "The actors currently target sensitive military information and intellectual property of defense, aerospace, nuclear, engineering organizations."
+  },
+  {
+   "type": "sector",
+   "name": "Engineering",
+   "evidence": "The actors currently target sensitive military information and intellectual property of defense, aerospace, nuclear, engineering organizations."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Reconnaissance",
+   "evidence": "While there is limited available information on the group’s initial reconnaissance methods, the actors likely identify vulnerable systems using publicly available internet scanning tools that reveal information such as"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Enumeration",
+   "evidence": "vulnerabilities in public-facing web servers [T1595, T1592]. The actors gather open source information"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Research Vulnerabilities",
+   "evidence": "about their victims for use in targeting [T1591] and research Common Vulnerabilities and Exposures (CVEs) when published to the National Institute of Standards and Technology (NIST) National Vulnerability Database [T1596]. CVEs researched include:"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-46604",
+   "evidence": " CVE-2023-46604 – Apache ActiveMQ"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-42793",
+   "evidence": " CVE-2023-42793 – TeamCity"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-3519",
+   "evidence": " CVE-2023-3519 – Citrix NetScaler"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-35078",
+   "evidence": " CVE-2023-35078 – Ivanti Endpoint Manager Mobile (EPMM)"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-34362",
+   "evidence": " CVE-2023-34362 – MOVEIt"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-33246",
+   "evidence": " CVE-2023-33246 – RocketMQ"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-32784",
+   "evidence": " CVE-2023-32784 – KeePass"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-32315",
+   "evidence": " CVE-2023-32315 – Openfire"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-3079",
+   "evidence": " CVE-2023-3079 – Google Chromium V8 Type Confusion"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-28771",
+   "evidence": " CVE-2023-28771 and CVE-2023-33010 – Zyxell firmware"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-2868",
+   "evidence": " CVE-2023-2868 – Barracuda Email Security Gateway"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-27997",
+   "evidence": " CVE-2023-27997 – FortiGate SSL VPN"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-25690",
+   "evidence": " CVE-2023-25690 – Apache HTTP Server"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-21932",
+   "evidence": " CVE-2023-21932 – Oracle Hospitality Opera 5"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-0669",
+   "evidence": " CVE-2023-0669 – GoAnywhere MFT"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-47966",
+   "evidence": " CVE-2022-47966 – ManageEngine"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-41352",
+   "evidence": " CVE-2022-41352 and CVE-2022-27925 – Zimbra Collaboration Suite"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-27925",
+   "evidence": " CVE-2022-41352 and CVE-2022-27925 – Zimbra Collaboration Suite"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-30190",
+   "evidence": " CVE-2022-30190 – Microsoft Windows Support Diagnostic Tool"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-25064",
+   "evidence": " CVE-2022-25064 – TP-LINK"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-24990",
+   "evidence": " CVE-2022-24990 and CVE-2021-45837 – TerraMaster NAS"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-45837",
+   "evidence": " CVE-2022-24990 and CVE-2021-45837 – TerraMaster NAS"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-24785",
+   "evidence": " CVE-2022-24785 – Moment.js"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-24665",
+   "evidence": " CVE-2022-24665, CVE-2022-24664, and CVE-2022-24663 – PHP Everywhere"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-24664",
+   "evidence": " CVE-2022-24665, CVE-2022-24664, and CVE-2022-24663 – PHP Everywhere"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-24663",
+   "evidence": " CVE-2022-24665, CVE-2022-24664, and CVE-2022-24663 – PHP Everywhere"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-22965",
+   "evidence": " CVE-2022-22965 – Spring4Shell"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-22947",
+   "evidence": " CVE-2022-22947 – Spring Cloud Gateway"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-22005",
+   "evidence": " CVE-2022-22005 – Microsoft SharePoint Server"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-21882",
+   "evidence": " CVE-2022-21882 – Win32k Elevation of Privilege"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-44228",
+   "evidence": " CVE-2021-44228 – Apache Log4j"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-44142",
+   "evidence": " CVE-2021-44142 – Samba vfs_fruit module"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-43226",
+   "evidence": " CVE-2021-43226, CEV-2021-43207, CVE-2021-36955 – Windows log file vulnerabilities"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-43207",
+   "evidence": " CVE-2021-43226, CEV-2021-43207, CVE-2021-36955 – Windows log file vulnerabilities"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-36955",
+   "evidence": " CVE-2021-43226, CEV-2021-43207, CVE-2021-36955 – Windows log file vulnerabilities"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-41773",
+   "evidence": " CVE-2021-41773 – Apache HTTP Server 2.4.49"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-40684",
+   "evidence": " CVE-2021-40684 – Talend ESB Runtime"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-3018",
+   "evidence": " CVE-2021-3018 – IPeakCMS 3.5"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-20038",
+   "evidence": " CVE-2021-20038 – SMA100 Apache httpd server (SonicWall)"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-20028",
+   "evidence": " CVE-2021-20028 – SonicWall Secure Remote Access (SRA)"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-15637",
+   "evidence": " CVE-2019-15637 – Tableau"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-0708",
+   "evidence": " CVE-2019-0708 – Microsoft Remote Desktop Services"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2017-4946",
+   "evidence": " CVE-2017-4946 – VMware V4H and V4PA"
+  },
+  {
+   "type": "malware",
+   "name": "Atharvan",
+   "evidence": " Atharvan"
+  },
+  {
+   "type": "malware",
+   "name": "ELF Backdoor",
+   "evidence": " ELF Backdoor"
+  },
+  {
+   "type": "malware",
+   "name": "Jupiter",
+   "evidence": " Jupiter"
+  },
+  {
+   "type": "malware",
+   "name": "MagicRAT",
+   "evidence": " MagicRAT"
+  },
+  {
+   "type": "malware",
+   "name": "No Pineapple",
+   "evidence": " “No Pineapple”"
+  },
+  {
+   "type": "malware",
+   "name": "TigerRAT",
+   "evidence": " TigerRAT"
+  },
+  {
+   "type": "malware",
+   "name": "Valefor/VSingle",
+   "evidence": " Valefor/VSingle"
+  },
+  {
+   "type": "malware",
+   "name": "ValidAlpha",
+   "evidence": " ValidAlpha"
+  },
+  {
+   "type": "malware",
+   "name": "YamaBot",
+   "evidence": " YamaBot"
+  },
+  {
+   "type": "malware",
+   "name": "NukeSped",
+   "evidence": " NukeSped"
+  },
+  {
+   "type": "malware",
+   "name": "Goat RAT",
+   "evidence": " Goat RAT"
+  },
+  {
+   "type": "malware",
+   "name": "Black RAT",
+   "evidence": " Black RAT"
+  },
+  {
+   "type": "malware",
+   "name": "AndarLoader",
+   "evidence": " AndarLoader"
+  },
+  {
+   "type": "malware",
+   "name": "DurianBeacon",
+   "evidence": " DurianBeacon"
+  },
+  {
+   "type": "malware",
+   "name": "Trifaux",
+   "evidence": " Trifaux"
+  },
+  {
+   "type": "malware",
+   "name": "KaosRAT",
+   "evidence": " KaosRAT"
+  },
+  {
+   "type": "malware",
+   "name": "Preft",
+   "evidence": " Preft"
+  },
+  {
+   "type": "malware",
+   "name": "Andariel Scheduled Task Malware",
+   "evidence": " Andariel Scheduled Task Malware"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1560",
+   "evidence": "nRAR [T1560]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1048",
+   "evidence": " WinSCP [T1048]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1572",
+   "evidence": " RDP Wrapper [T1572]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1190",
+   "evidence": "simultaneously [T1190]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059",
+   "evidence": "naop and netstat –noa [T1059]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1027",
+   "evidence": "and other commercial tools have advanced anti-debugging and detection capabilities. These files are typically multiple megabytes in size and often contain unusual file section names such as vmp0 and vmp1"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1003",
+   "evidence": "steal credentials. In one instance, the actors used the vssadmin command-line utility to back up a volume to retrieve a copy of the NTDS.dit file containing Active Directory data. In another instance, the actors were observed collecting registry hive data for offline extraction of credentials [T1003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1087",
+   "evidence": "receiving and executing command line arguments to enumerate directories and files and compress output files. The tool collects the following information for each drive targeted on a system: depth relative to starting path, name, last write time, last access time, creation time, size, and attributes [T1087, T1083]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1021.002",
+   "evidence": "The actors also enumerate directories and files of connected devices using Server Message Block (SMB) protocol, which enables network file sharing and the ability to request services and programs from a network [T1021.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1021",
+   "evidence": "The actors have also used Remote Desktop Protocol (RDP) to move laterally [T1021]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1090",
+   "evidence": "Tunneling enables the actors to perform C2 operations despite network configurations that would typically pose a challenge, such as the use of Network Address Translation (NAT) or traffic funneled through a web proxy [T1090, T1071]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1567",
+   "evidence": "The actors typically exfiltrate data to web services such as cloud storage or servers not associated with their primary C2. Notably, the actors have been observed logging into actor-controlled cloud-based storage service accounts directly from victim networks to exfiltrate data [T1567]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1048",
+   "evidence": "The actors have also been observed using the utilities PuTTY and WinSCP to exfiltrate data to North Korea-controlled servers via File Transfer Protocol (FTP) and other protocols [T1048]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1560",
+   "evidence": "The actors have also been identified staging files for exfiltration on victim machines, establishing Remote Desktop Protocol connections, and conducting HTTP GET requests on port 80 to receive information [T1021]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "Page 12 of 30 | Product ID: AA24-207A"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Python",
+   "evidence": "Page 12 of 30 | Product ID: AA24-207A"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "evidence": "Page 12 of 30 | Product ID: AA24-207A"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Bash",
+   "evidence": "Page 12 of 30 | Product ID: AA24-207A"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: JavaScript",
+   "evidence": "Page 12 of 30 | Product ID: AA24-207A"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: VBScript",
+   "evidence": "Page 12 of 30 | Product ID: AA24-207A"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Python",
+   "evidence": "Page 12 of 30 | Product ID: AA24-207A"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "evidence": "Page 12 of 30 | Product ID: AA24-207A"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Bash",
+   "evidence": "Page 12 of 30 | Product ID: AA24-207A"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: JavaScript",
+   "evidence": "Page 12 of 30 | Product ID: AA24-207A"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: VBScript",
+   "evidence": "Page 12 of 30 | Product ID: AA24-207A"
+  },
+  {
+   "type": "malware",
+   "name": "Andariel",
+   "evidence": "rule Andariel_ScheduledTask_Loader"
+  },
+  {
+   "type": "malware",
+   "name": "KaosRAT",
+   "evidence": "rule Andariel_KaosRAT_Yamabot"
+  },
+  {
+   "type": "malware",
+   "name": "TriFaux",
+   "evidence": "rule TriFaux_EasyRAT_JUPITER"
+  },
+  {
+   "type": "malware",
+   "name": "MagicRAT",
+   "evidence": "rule Andariel_CutieDrop_MagicRAT"
+  },
+  {
+   "type": "malware",
+   "name": "YamaBot",
+   "evidence": "rule Andariel_KaosRAT_Yamabot"
+  },
+  {
+   "type": "malware",
+   "name": "Andariel",
+   "evidence": "rule Andariel_hhsd_FileTransferTool"
+  },
+  {
+   "type": "malware",
+   "name": "Atharvan",
+   "evidence": "rule Andariel_Atharvan_3RAT"
+  },
+  {
+   "type": "malware",
+   "name": "3RAT",
+   "evidence": "rule Andariel_Atharvan_3RAT"
+  },
+  {
+   "type": "malware",
+   "name": "LilithRAT",
+   "evidence": "rule Andariel_LilithRAT_Variant"
+  },
+  {
+   "type": "malware",
+   "name": "SocksTroy",
+   "evidence": "rule Andariel_SocksTroy_Strings_OpCodes"
+  },
+  {
+   "type": "malware",
+   "name": "Agni",
+   "evidence": "rule Andariel_Agni"
+  },
+  {
+   "type": "malware",
+   "name": "GoLang_validalpha",
+   "evidence": "rule Andariel_GoLang_validalpha_handshake"
+  },
+  {
+   "type": "malware",
+   "name": "Black",
+   "evidence": "rule Andariel_GoLang_validalpha_BlackString"
+  },
+  {
+   "type": "malware",
+   "name": "INDICATOR_EXE_Packed_VMProtect",
+   "evidence": "rule INDICATOR_EXE_Packed_VMProtect"
+  },
+  {
+   "type": "malware",
+   "name": "INDICATOR_EXE_Packed_Themida",
+   "evidence": "rule INDICATOR_EXE_Packed_Themida"
+  },
+  {
+   "type": "malware",
+   "name": "elf_backdoor",
+   "evidence": "rule Andariel_elf_backdoor_fipps"
+  },
+  {
+   "type": "malware",
+   "name": "bindshell",
+   "evidence": "rule Andariel_bindshell"
+  },
+  {
+   "type": "malware",
+   "name": "grease2",
+   "evidence": "rule Andariel_grease2"
+  },
+  {
+   "type": "malware",
+   "name": "NoPineapple",
+   "evidence": "rule Andariel_NoPineapple_Dtrack_unpacked"
+  },
+  {
+   "type": "malware",
+   "name": "dtrack",
+   "evidence": "rule Andariel_dtrack_unpacked"
+  },
+  {
+   "type": "malware",
+   "name": "TigerRAT",
+   "evidence": "rule Andariel_TigerRAT_crowdsourced_rule"
+  },
+  {
+   "type": "malware",
+   "name": "win_tiger_rat_auto",
+   "evidence": "rule win_tiger_rat_auto"
+  },
+  {
+   "type": "malware",
+   "name": "dtrack",
+   "evidence": "48890d???????? 488905???????? 488d05ae610000 488905???????? 488d05a0550000 488905???????? "
+  },
+  {
+   "type": "malware",
+   "name": "win_dtrack_auto",
+   "evidence": "52 8b4508 50 e8???????? 83c414 8b4d10 51 "
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Process Injection",
+   "evidence": "48890d???????? 488905???????? 488d05ae610000 488905???????? 488d05a0550000 488905???????? "
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Dynamic-link Library Injection",
+   "evidence": "52 8b4508 50 e8???????? 83c414 8b4d10 51 "
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Code Injection",
+   "evidence": "48890d???????? 488905???????? 488d05ae610000 488905???????? 488d05a0550000 488905???????? "
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Process Hollowing",
+   "evidence": "52 8b4508 50 e8???????? 83c414 8b4d10 51 "
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Memory Corruption",
+   "evidence": "48890d???????? 488905???????? 488d05ae610000 488905???????? 488d05a0550000 488905???????? "
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter",
+   "evidence": "52 8b4508 50 e8???????? 83c414 8b4d10 51 "
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Services Discovery",
+   "evidence": "48890d???????? 488905???????? 488d05ae610000 488905???????? 488d05a0550000 488905???????? "
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "evidence": "52 8b4508 50 e8???????? 83c414 8b4d10 51 "
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command-Line Interface",
+   "evidence": "Monitoring for suspicious command-line activity, implementing multi-factor authentication for remote access services, and properly segmenting and using allow-listing tools for critical assets can protect"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-44228",
+   "evidence": "Note: CVE-2021-44228 ‘Log4Shell’ was disclosed in December 2021 and affects the Log4j library prior to version 2.17.0."
+  },
+  {
+   "type": "malware",
+   "name": "Andariel",
+   "evidence": "Monitoring for suspicious command-line activity, implementing multi-factor authentication for remote access services, and properly segmenting and using allow-listing tools for critical assets can protect against malicious activity by RGB 3rd Bureau’s Andariel group and other cyber threat actors."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Andariel",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Onyx Sleet",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "DarkSeoul",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Silent Chollima",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Stonefly/Clasiopa",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "RGB 3rd Bureau",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Atharvan",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "malware",
+   "name": "ELF Backdoor",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "malware",
+   "name": "Jupiter",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "malware",
+   "name": "MagicRAT",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "malware",
+   "name": "No Pineapple",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "malware",
+   "name": "TigerRAT",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "malware",
+   "name": "Valefor/VSingle",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "malware",
+   "name": "ValidAlpha",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "malware",
+   "name": "YamaBot",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "malware",
+   "name": "NukeSped",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "malware",
+   "name": "Goat RAT",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "malware",
+   "name": "Black RAT",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "malware",
+   "name": "AndarLoader",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "malware",
+   "name": "DurianBeacon",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "malware",
+   "name": "Trifaux",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "malware",
+   "name": "KaosRAT",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "malware",
+   "name": "Preft",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "malware",
+   "name": "Andariel Scheduled Task Malware",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "malware",
+   "name": "3RAT",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "malware",
+   "name": "LilithRAT",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "malware",
+   "name": "SocksTroy",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "malware",
+   "name": "Agni",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "malware",
+   "name": "GoLang_validalpha",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "malware",
+   "name": "Black",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "malware",
+   "name": "INDICATOR_EXE_Packed_VMProtect",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "malware",
+   "name": "INDICATOR_EXE_Packed_Themida",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "tool",
+   "name": "bindshell",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "tool",
+   "name": "grease2",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "tool",
+   "name": "dtrack",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "tool",
+   "name": "win_tiger_rat_auto",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "tool",
+   "name": "win_dtrack_auto",
+   "evidence": "including Andariel, or"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "T1190 The actors attempt to exploit a weakness in an Internet-facing host or"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter",
+   "evidence": "T1059 The actors abuse command and script interpreters to execute"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information",
+   "evidence": "T1027 The actors attempt to make an executable or file difficult to discover or"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping",
+   "evidence": "T1003 The actors attempt to dump credentials to obtain account login and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services",
+   "evidence": "T1021 The actors use valid accounts to log into a service that accepts remote"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: SMB/Windows Admin Shares",
+   "evidence": "T1021.002 The actors use valid accounts to interact with a remote network share"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "File and Directory Discovery",
+   "evidence": "T1083 The actors enumerate files and directories or may search in specific"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Discovery",
+   "evidence": "T1087 The actors attempt to get a listing of valid accounts, usernames, or"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Application Layer Protocol",
+   "evidence": "T1071 The actors establish command and control capabilities over commonly"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy",
+   "evidence": "T1090 The actors use a connection proxy to direct network traffic between"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Network Shared Drive",
+   "evidence": "T1039 The actors search network shares on computers they have"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Alternative Protocol",
+   "evidence": "T1048 The actors steal data by exfiltrating it over a different protocol than"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Archive Collected Data",
+   "evidence": "T1560 The actors compress and/or encrypt data that is collected prior to"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Web Service",
+   "evidence": "T1567 The actors use an existing, legitimate external Web service to exfiltrate"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning",
+   "mitre_id": "T1595",
+   "evidence": "vulnerabilities in public-facing web servers [T1595, T1592]. The actors gather open source information"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Host Information",
+   "mitre_id": "T1592",
+   "evidence": "vulnerabilities in public-facing web servers [T1595, T1592]. The actors gather open source information"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Org Information",
+   "mitre_id": "T1591",
+   "evidence": "about their victims for use in targeting [T1591] and research Common Vulnerabilities and Exposures"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Search Open Technical Databases",
+   "mitre_id": "T1596",
+   "evidence": "Database [T1596]. CVEs researched include:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Malware",
+   "mitre_id": "T1587.001",
+   "evidence": "connections, and uploading content to command and control (C2) [T1587.001, T1587.004]. The tools"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Exploits",
+   "mitre_id": "T1587.004",
+   "evidence": "connections, and uploading content to command and control (C2) [T1587.001, T1587.004]. The tools"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy",
+   "mitre_id": "T1090",
+   "evidence": " 3Proxy [T1090]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Sniffing",
+   "mitre_id": "T1040",
+   "evidence": " Juggernaut [T1040]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Protocol Tunneling",
+   "mitre_id": "T1572",
+   "evidence": " PLINK [T1572]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping",
+   "mitre_id": "T1003",
+   "evidence": " ProcDump [T1003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Archive Collected Data",
+   "mitre_id": "T1560",
+   "evidence": " WinRAR [T1560]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Alternative Protocol",
+   "mitre_id": "T1048",
+   "evidence": " WinSCP [T1048]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "mitre_id": "T1190",
+   "evidence": "simultaneously [T1190]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter",
+   "mitre_id": "T1059",
+   "evidence": "naop and netstat –noa [T1059]. Example commands used by the actors include the following:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information",
+   "mitre_id": "T1027",
+   "evidence": "for VMProtect and Themida or randomized file section names for Themida [T1027]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Discovery",
+   "mitre_id": "T1087",
+   "evidence": "starting path, name, last write time, last access time, creation time, size, and attributes [T1087, T1083]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "File and Directory Discovery",
+   "mitre_id": "T1083",
+   "evidence": "starting path, name, last write time, last access time, creation time, size, and attributes [T1087, T1083]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: SMB/Windows Admin Shares",
+   "mitre_id": "T1021.002",
+   "evidence": "network [T1021.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services",
+   "mitre_id": "T1021",
+   "evidence": "The actors have also used Remote Desktop Protocol (RDP) to move laterally [T1021]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Application Layer Protocol",
+   "mitre_id": "T1071",
+   "evidence": "proxy [T1090, T1071]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Network Shared Drive",
+   "mitre_id": "T1039",
+   "evidence": "environment with other malicious tooling [T1560, T1039]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Web Service",
+   "mitre_id": "T1567",
+   "evidence": "service accounts directly from victim networks to exfiltrate data [T1567]. The actors have also been"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities",
+   "mitre_id": "T1587",
+   "evidence": "T1587."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-46604",
+   "evidence": " CVE-2023-46604 – Apache ActiveMQ"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-42793",
+   "evidence": " CVE-2023-42793 – TeamCity"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-3519",
+   "evidence": " CVE-2023-3519 – Citrix NetScaler"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-35078",
+   "evidence": " CVE-2023-35078 – Ivanti Endpoint Manager Mobile (EPMM)"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-34362",
+   "evidence": " CVE-2023-34362 – MOVEIt"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-33246",
+   "evidence": " CVE-2023-33246 – RocketMQ"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-32784",
+   "evidence": " CVE-2023-32784 – KeePass"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-32315",
+   "evidence": " CVE-2023-32315 – Openfire"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-3079",
+   "evidence": " CVE-2023-3079 – Google Chromium V8 Type Confusion"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-28771",
+   "evidence": " CVE-2023-28771 and CVE-2023-33010 – Zyxell firmware"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-33010",
+   "evidence": " CVE-2023-28771 and CVE-2023-33010 – Zyxell firmware"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-2868",
+   "evidence": " CVE-2023-2868 – Barracuda Email Security Gateway"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-27997",
+   "evidence": " CVE-2023-27997 – FortiGate SSL VPN"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-25690",
+   "evidence": " CVE-2023-25690 – Apache HTTP Server"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-21932",
+   "evidence": " CVE-2023-21932 – Oracle Hospitality Opera 5"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-0669",
+   "evidence": " CVE-2023-0669 – GoAnywhere MFT"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-47966",
+   "evidence": " CVE-2022-47966 – ManageEngine"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-41352",
+   "evidence": " CVE-2022-41352 and CVE-2022-27925 – Zimbra Collaboration Suite"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-27925",
+   "evidence": " CVE-2022-41352 and CVE-2022-27925 – Zimbra Collaboration Suite"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-30190",
+   "evidence": " CVE-2022-30190 – Microsoft Windows Support Diagnostic Tool"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-25064",
+   "evidence": " CVE-2022-25064 – TP-LINK"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-24990",
+   "evidence": " CVE-2022-24990 and CVE-2021-45837 – TerraMaster NAS"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-45837",
+   "evidence": " CVE-2022-24990 and CVE-2021-45837 – TerraMaster NAS"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-24785",
+   "evidence": " CVE-2022-24785 – Moment.js"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-24665",
+   "evidence": " CVE-2022-24665, CVE-2022-24664, and CVE-2022-24663 – PHP Everywhere"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-24664",
+   "evidence": " CVE-2022-24665, CVE-2022-24664, and CVE-2022-24663 – PHP Everywhere"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-24663",
+   "evidence": " CVE-2022-24665, CVE-2022-24664, and CVE-2022-24663 – PHP Everywhere"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-22965",
+   "evidence": " CVE-2022-22965 – Spring4Shell"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-22947",
+   "evidence": " CVE-2022-22947 – Spring Cloud Gateway"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-22005",
+   "evidence": " CVE-2022-22005 – Microsoft SharePoint Server"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-21882",
+   "evidence": " CVE-2022-21882 – Win32k Elevation of Privilege"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-44228",
+   "evidence": " CVE-2021-44228 – Apache Log4j"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-44142",
+   "evidence": " CVE-2021-44142 – Samba vfs_fruit module"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-43226",
+   "evidence": " CVE-2021-43226, CEV-2021-43207, CVE-2021-36955 – Windows log file vulnerabilities"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-36955",
+   "evidence": " CVE-2021-43226, CEV-2021-43207, CVE-2021-36955 – Windows log file vulnerabilities"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-41773",
+   "evidence": " CVE-2021-41773 – Apache HTTP Server 2.4.49"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-40684",
+   "evidence": " CVE-2021-40684 – Talend ESB Runtime"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-3018",
+   "evidence": " CVE-2021-3018 – IPeakCMS 3.5"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-20038",
+   "evidence": " CVE-2021-20038 – SMA100 Apache httpd server (SonicWall)"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-20028",
+   "evidence": " CVE-2021-20028 – SonicWall Secure Remote Access (SRA)"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-15637",
+   "evidence": " CVE-2019-15637 – Tableau"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-7609",
+   "evidence": " CVE-2019-7609 – Kibana"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-0708",
+   "evidence": " CVE-2019-0708 – Microsoft Remote Desktop Services"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2017-4946",
+   "evidence": " CVE-2017-4946 – VMware V4H and V4PA"
+  }
+ ],
+ "observables": [
+  {
+   "type": "file",
+   "value": "88a7c84ac7f7ed310b5ee791ec8bd6c5",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "6ab4eb4c23c9e419fbba85884ea141f4",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "97ce00c7ef1f7d98b48291d73d900181",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "079b4588eaa99a1e802adf5e0b26d8aa",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0873b5744d8ab6e3fe7c9754cf7761a3",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0d696d27bae69a62def82e308d28857a",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0ecf4bac2b070cf40f0b17e18ce312e6",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "17c46ed7b80c2e4dbea6d0e88ea0827c",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "1f2410c3c25dadf9e0943cd634558800",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "2968c20a07cfc97a167aa3dd54124cda",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "33e85d0f3ef2020cdb0fc3c8d80e8e69",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "4118d9adce7350c3eedeb056a3335346",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "4aa57e1c66c2e01f2da3f106ed2303fa",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "58ad3103295afcc22bde8d81e77c282f",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "5c41cbf8a7620e10f158f6b70963d1cb",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "61a949553d35f31957db6442f36730c5",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "72a22afde3f820422cfdbba7a4cbabde",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "84bd45e223b018e67e4662c057f2c47e",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "86465d92f0d690b62866f52f5283b9fc",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8b395cc6ecdec0900facf6e93ec48fbb",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "97f352e2808c78eef9b31c758ca13032",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "a50f3b7aa11b977ae89285b60968aa67",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "afdeb24975a318fc5f20d9e61422a308",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "b697b81b341692a0b137b2c748310ea7",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "bcac28919fa33704a01d7a9e5e3ddf3f",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c027d641c4c1e9d9ad048cda2af85db6",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c892c60817e6399f939987bd2bf5dee0",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "cdeae978f3293f4e783761bc61b34810",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d0f310c99476f1712ac082f78dd29fdc",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d8da33fae924b991b776797ba8cde24c",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e230c5728f9ea5a94e390e7da7bf1ffa",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "f4d46629ca15313b94992f3798718df7",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "fb84a392601fc19aeb7f8ce11b3a4907",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ff3194d3d5810a42858f3e22c91500b1",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "13b4ce1fc26d400d34ede460a8530d93",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "41895c5416fdc82f7e0babc6bb6c7216",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c2f8c9bb7df688d0a7030a96314bb493",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "33a3da2de78418b89a603e28a1e8852c",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "4896da30a745079cd6265b6332886d45",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "73eb2f4f101aab6158c615094f7a632a",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "7f33d2d2a2ce9c195202acb59de31eee",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e1afd01400ef405e46091e8ef10c721c",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "fe25c192875ec1914b8880ea3896cda2",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "232586f8cfe82b80fd0dfa6ed8795c56",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c1f266f7ec886278f030e7d7cd4e9131",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "49bb2ad67a8c5dfbfe8db2169e6fa46e",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "beb199b15bd075996fa8d6a0ed554ca8",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "4053ca3e37ed1f8d37b29eed61c2e729",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "3a0c8ae783116c1840740417c4fbe678",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0414a2ab718d44bf6f7103cff287b312",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ca564428a29faf1a613f35d9fa36313f",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ad6d4eb34d29e350f96dc8df6d8a092e",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "dc70dc9845aa747001ebf2a02467c203",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "3d2ec58f37c8176e0dbcc47ff93e5a76",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0a09b7f2317b3d5f057180be6b6d0755",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "1ffccc23fef2964e9b1747098c19d956",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9112efb49cae021abebd3e9a564e6ca4",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ac0ada011f1544aa3a1cf27a26f2e288",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0211a3160cc5871cbcd4e5514449162b",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "7416ea48102e2715c87edd49ddbd1526",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "a2aefb7ab6c644aa8eeb482e27b2dbc4",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e7fd7f48fbf5635a04e302af50dfb651",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "33b2b5b7c830c34c688cf6ced287e5be",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e5410abaaac69c88db84ab3d0e9485ac",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "eb35b75369805e7a6371577b1d2c4531",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "5a3f3f75048b9cec177838fb8b40b945",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9d7bd0caed10cc002670faff7ca130f5",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8434cdd34425916be234b19f933ad7ea",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "bbaee4fe73ccff1097d635422fdc0483",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "79e474e056b4798e0a3e7c60dd67fd28",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "95c276215dcc1bd7606c0cb2be06bf70",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "426bb55531e8e3055c942a1a035e46b9",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "cfae52529468034dbbb40c9a985fa504",
+   "hash": "MD5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ed8ec7a8dd089019cfd29143f008fa0951c56a35d73b2e1b274315152d0c0ee6",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "db6a9934570fa98a93a979e7e0e218e0c9710e5a787b18c6948f2eedd9338984",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "773760fd71d52457ba53a314f15dddb1a74e8b2f5a90e5e150dea48a21aa76df",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "05e9fe8e9e693cb073ba82096c291145c953ca3a3f8b3974f9c66d15c1a3a11d",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e3027062e602c5d1812c039739e2f93fc78341a67b77692567a4690935123abe",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "1962ebb7bf8d2b306c6f3b55c3dcd69a755eeff1a17577b7606894b781841c3a",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "f226086b5959eb96bd30dec0ffcbf0f09186cd11721507f416f1c39901addafb",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "6db57bbc2d07343dd6ceba0f53c73756af78f09fe1cb5ce8e8008e5e7242eae1",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "b7435d23769e79fcbe69b28df4aef062685d1a631892c2354f96d833eae467be",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "66415464a0795d0569efa5cb5664785f74ed0b92a593280d689f3a2ac68dca66",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "def2f01fbd4be85f48101e5ab7ddd82efb720e67daa6838f30fd8dcda1977563",
+   "hash": "MD5",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "323cbe7a3d050230cfaa822c2a22160b4f8c5fe65481dd329841ee2754b522d9",
+   "hash": "MD5",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "74529dd15d1953a47f0d7ecc2916b2b92865274a106e453a24943ca9ee434643",
+   "hash": "MD5",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "1e4de822695570421eb2f12fdfe1d32ab8639655e12180a7ab3cf429e7811b8f",
+   "hash": "MD5",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8ce219552e235dcaf1c694be122d6339ed4ff8df70bf358cd165e6eb487ccfc5",
+   "hash": "MD5",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c2904dc8bbb569536c742fca0c51a766e836d0da8fac1c1abd99744e9b50164f",
+   "hash": "MD5",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "dda53eee2c5cb0abdbf5242f5e82f4de83898b6a9dd8aa935c2be29bafc9a469",
+   "hash": "MD5",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "90fb0cd574155fd8667d20f97ac464eca67bdb6a8ee64184159362d45d79b6a4",
+   "hash": "MD5",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "452ca47230afd4bb85c45af54fcacbfa544208ef8b4604c3c5caefe3a64dcc19",
+   "hash": "MD5",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "199ba618efc6af9280c5abd86c09cdf2d475c09c8c7ffc393a35c3d70277aed1",
+   "hash": "MD5",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "2eb16dbc1097a590f07787ab285a013f5fe235287cb4fb948d4f9cce9efa5dbc",
+   "hash": "MD5",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ce779e30502ecee991260fd342cc0d7d5f73d1a070395b4120b8d300ad11d694",
+   "hash": "MD5",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "db6a9934570fa98a93a979e7e0e218e0c9710e5a787b18c6948f2eedd9338984",
+   "hash": "MD5",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c28bb61de4a6ad1c5e225ad9ec2eaf4a6c8ccfff40cf45a640499c0adb0d8740",
+   "hash": "MD5",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "34d5a5d8bec893519f204b573c33d54537b093c52df01b3d8c518af08ee94947",
+   "hash": "MD5",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "664f8d19af3400a325998b332343a9304f03bab9738ddab1530869eff13dae54",
+   "hash": "MD5",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "772b06f34facf6a2ce351b8679ff957cf601ef3ad29645935cb050b4184c8d51",
+   "hash": "MD5",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "aa29bf4292b68d197f4d8ca026b97ec7785796edcb644db625a8f8b66733ab54",
+   "hash": "MD5",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9a5504dcfb7e664259bfa58c46cfd33e554225daf1cedea2ec2a9d83bbbfe238",
+   "hash": "MD5",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c2500a6e12f22b16e221ba01952b69c92278cd05632283d8b84c55c916efe27c",
+   "hash": "MD5",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8aa6612c95c7cef49709596da43a0f8354f14d8c08128c4cb9b1f37e548f083b",
+   "hash": "MD5",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "38f0f2d658e09c57fc78698482f2f638843eb53412d860fb3a99bb6f51025b07",
+   "hash": "MD5",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "88a7c84ac7f7ed310b5ee791ec8bd6c5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "6ab4eb4c23c9e419fbba85884ea141f4",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "97ce00c7ef1f7d98b48291d73d900181",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "079b4588eaa99a1e802adf5e0b26d8aa",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0873b5744d8ab6e3fe7c9754cf7761a3",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0d696d27bae69a62def82e308d28857a",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0ecf4bac2b070cf40f0b17e18ce312e6",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "17c46ed7b80c2e4dbea6d0e88ea0827c",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "1f2410c3c25dadf9e0943cd634558800",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "2968c20a07cfc97a167aa3dd54124cda",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "33e85d0f3ef2020cdb0fc3c8d80e8e69",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "4118d9adce7350c3eedeb056a3335346",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "4aa57e1c66c2e01f2da3f106ed2303fa",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "58ad3103295afcc22bde8d81e77c282f",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "5c41cbf8a7620e10f158f6b70963d1cb",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "61a949553d35f31957db6442f36730c5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "72a22afde3f820422cfdbba7a4cbabde",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "84bd45e223b018e67e4662c057f2c47e",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "86465d92f0d690b62866f52f5283b9fc",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8b395cc6ecdec0900facf6e93ec48fbb",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "97f352e2808c78eef9b31c758ca13032",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "a50f3b7aa11b977ae89285b60968aa67",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "afd25ce56b9808c5ed7eade75d2e12a7",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "afdeb24975a318fc5f20d9e61422a308",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "b697b81b341692a0b137b2c748310ea7",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "bcac28919fa33704a01d7a9e5e3ddf3f",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c027d641c4c1e9d9ad048cda2af85db6",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c892c60817e6399f939987bd2bf5dee0",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "cdeae978f3293f4e783761bc61b34810",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d0f310c99476f1712ac082f78dd29fdc",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d8da33fae924b991b776797ba8cde24c",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e230c5728f9ea5a94e390e7da7bf1ffa",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "f4d46629ca15313b94992f3798718df7",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "fb84a392601fc19aeb7f8ce11b3a4907",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ff3194d3d5810a42858f3e22c91500b1",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "13b4ce1fc26d400d34ede460a8530d93",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "41895c5416fdc82f7e0babc6bb6c7216",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c2f8c9bb7df688d0a7030a96314bb493",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "33a3da2de78418b89a603e28a1e8852c",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "4896da30a745079cd6265b6332886d45",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "73eb2f4f101aab6158c615094f7a632a",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "7f33d2d2a2ce9c195202acb59de31eee",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e1afd01400ef405e46091e8ef10c721c",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "fe25c192875ec1914b8880ea3896cda2",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "232586f8cfe82b80fd0dfa6ed8795c56",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c1f266f7ec886278f030e7d7cd4e9131",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "49bb2ad67a8c5dfbfe8db2169e6fa46e",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "beb199b15bd075996fa8d6a0ed554ca8",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "4053ca3e37ed1f8d37b29eed61c2e729",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "3a0c8ae783116c1840740417c4fbe678",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0414a2ab718d44bf6f7103cff287b312",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ca564428a29faf1a613f35d9fa36313f",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ad6d4eb34d29e350f96dc8df6d8a092e",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "dc70dc9845aa747001ebf2a02467c203",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "3d2ec58f37c8176e0dbcc47ff93e5a76",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0a09b7f2317b3d5f057180be6b6d0755",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "1ffccc23fef2964e9b1747098c19d956",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9112efb49cae021abebd3e9a564e6ca4",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ac0ada011f1544aa3a1cf27a26f2e288",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0211a3160cc5871cbcd4e5514449162b",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "7416ea48102e2715c87edd49ddbd1526",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "a2aefb7ab6c644aa8eeb482e27b2dbc4",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e7fd7f48fbf5635a04e302af50dfb651",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "33b2b5b7c830c34c688cf6ced287e5be",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e5410abaaac69c88db84ab3d0e9485ac",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "eb35b75369805e7a6371577b1d2c4531",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "5a3f3f75048b9cec177838fb8b40b945",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9d7bd0caed10cc002670faff7ca130f5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8434cdd34425916be234b19f933ad7ea",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "bbaee4fe73ccff1097d635422fdc0483",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "79e474e056b4798e0a3e7c60dd67fd28",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "95c276215dcc1bd7606c0cb2be06bf70",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "426bb55531e8e3055c942a1a035e46b9",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "cfae52529468034dbbb40c9a985fa504",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "deae4be61c90ad6d499f5bdac5dad242",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "bda0686d02a8b7685adf937cbcd35f46",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "6de6c27ca8f4e00f0b3e8ff5185a59d1",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c61a8c4f6f6870c7ca0013e084b893d2",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "5291aed100cc48415636c4875592f70c",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "f4795f7aec4389c8323f7f40b50ae46f",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "cf1a90e458966bcba8286d46d6ab052c",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "792370eb01e16ac3dc511143932d0e1d",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "612538328e0c4f3e445fb58ef811336a",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9767aa592ec2d6ae3c7d40b6049d0466",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "b22fd0604c4f189f2b7a59c8f48882dd",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e53ca714787a86c13f07942a56d64efa",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c7b09f1dd0a5694de677f3ecceda41b7",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c8346b39418f92725719f364068a218d",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "730bff14e80ffd7737a97cdf11362ab5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9a481bc83fea1dea3e3bdfff5e154d44",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ddb1f970371fa32faae61fc5b8423d4b",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "6c2b947921e7c77d9af62ce9a3ed7621",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "977d30b261f64cc582b48960909d0a89",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "7ce51b56a6b0f8f78056ddfc5b5de67c",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "dd9625be4a1201c6dfb205c12cf3a381",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ecb4a09618e2aba77ea37bd011d7d7f7",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0fd8c6f56c52c21c061a94e5765b27b4",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c90d094a8fbeaa8a0083c7372bfc1897",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0055a266aa536b2fdadb3336ef8d4fba",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "55bb271bbbf19108fec73d224c9b4218",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0c046a2f5304ed8d768795a49b99d6e4",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "f34664e0d9a10974da117c1ca859dba8",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "a2c2099d503fcc29478205f5aef0283b",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e439f850aa8ead560c99a8d93e472225",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "7c30ed6a612a1fd252565300c03c7523",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "81738405a7783c09906da5c7212e606b",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "eb7ba9f7424dffdb7d695b00007a3c6d",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "3e9ee5982e3054dc76d3ba5cc88ae3de",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "073e3170a8e7537ff985ec8316319351",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9b0e7c460a80f740d455a7521f0eada1",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "2d02f5499d35a8dffb4c8bc0b7fec5c2",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0984954526232f7d05910aa5b07c5893",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "4156a7283284ece739e1bae05f99e17c",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "3026d419ee140f3c6acd5bff54132795",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "7aa132c0cc63a38fb4d1789553266fc7",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "1a0811472fad0ff507a92c957542fffd",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "f8aef59d0c5afe8df31e11a1984fbc0a",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "82491b42b9a2d34b13137e36784a67d7",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0a199944f757d5615164e8808a3c712a",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9c97ea18da290a6833a1d36e2d419efc",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "16f768eac33f79775a9672018e0d64f5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ed8ec7a8dd089019cfd29143f008fa0951c56a35d73b2e1b274315152d0c0ee6",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "db6a9934570fa98a93a979e7e0e218e0c9710e5a787b18c6948f2eedd9338984",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "773760fd71d52457ba53a314f15dddb1a74e8b2f5a90e5e150dea48a21aa76df",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "05e9fe8e9e693cb073ba82096c291145c953ca3a3f8b3974f9c66d15c1a3a11d",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e3027062e602c5d1812c039739e2f93fc78341a67b77692567a4690935123abe",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "1962ebb7bf8d2b306c6f3b55c3dcd69a755eeff1a17577b7606894b781841c3a",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "f226086b5959eb96bd30dec0ffcbf0f09186cd11721507f416f1c39901addafb",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "6db57bbc2d07343dd6ceba0f53c73756af78f09fe1cb5ce8e8008e5e7242eae1",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "b7435d23769e79fcbe69b28df4aef062685d1a631892c2354f96d833eae467be",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "66415464a0795d0569efa5cb5664785f74ed0b92a593280d689f3a2ac68dca66",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "def2f01fbd4be85f48101e5ab7ddd82efb720e67daa6838f30fd8dcda1977563",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "323cbe7a3d050230cfaa822c2a22160b4f8c5fe65481dd329841ee2754b522d9",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "74529dd15d1953a47f0d7ecc2916b2b92865274a106e453a24943ca9ee434643",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "1e4de822695570421eb2f12fdfe1d32ab8639655e12180a7ab3cf429e7811b8f",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8ce219552e235dcaf1c694be122d6339ed4ff8df70bf358cd165e6eb487ccfc5",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c2904dc8bbb569536c742fca0c51a766e836d0da8fac1c1abd99744e9b50164f",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "dda53eee2c5cb0abdbf5242f5e82f4de83898b6a9dd8aa935c2be29bafc9a469",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "90fb0cd574155fd8667d20f97ac464eca67bdb6a8ee64184159362d45d79b6a4",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "452ca47230afd4bb85c45af54fcacbfa544208ef8b4604c3c5caefe3a64dcc19",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "199ba618efc6af9280c5abd86c09cdf2d475c09c8c7ffc393a35c3d70277aed1",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "2eb16dbc1097a590f07787ab285a013f5fe235287cb4fb948d4f9cce9efa5dbc",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ce779e30502ecee991260fd342cc0d7d5f73d1a070395b4120b8d300ad11d694",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c28bb61de4a6ad1c5e225ad9ec2eaf4a6c8ccfff40cf45a640499c0adb0d8740",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "34d5a5d8bec893519f204b573c33d54537b093c52df01b3d8c518af08ee94947",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "664f8d19af3400a325998b332343a9304f03bab9738ddab1530869eff13dae54",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "772b06f34facf6a2ce351b8679ff957cf601ef3ad29645935cb050b4184c8d51",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "aa29bf4292b68d197f4d8ca026b97ec7785796edcb644db625a8f8b66733ab54",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9a5504dcfb7e664259bfa58c46cfd33e554225daf1cedea2ec2a9d83bbbfe238",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c2500a6e12f22b16e221ba01952b69c92278cd05632283d8b84c55c916efe27c",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8aa6612c95c7cef49709596da43a0f8354f14d8c08128c4cb9b1f37e548f083b",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "38f0f2d658e09c57fc78698482f2f638843eb53412d860fb3a99bb6f51025b07",
+   "indicates": [
+    "Andariel"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "http://[IP",
+   "indicates": [
+    "Andariel"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "The actors gain initial access through widespread exploitation of web servers through known vulnerabilities in software, such as Log4j, to deploy a web shell and gain access to sensitive information and applications for further exploitation."
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "uses",
+   "target": "T1018",
+   "evidence": "The actors then employ standard system discovery and enumeration techniques, establish persistence using Scheduled Tasks, and perform privilege escalation using common credential stealing tools such as Mimikatz."
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "uses",
+   "target": "T1566",
+   "evidence": "The actors also conduct phishing activity using malicious attachments, including Microsoft Windows Shortcut File (LNK) files or HTML Application (HTA) script files inside encrypted or unencrypted zip archives."
+  },
+  {
+   "source": "RGB 3rd Bureau",
+   "type": "uses",
+   "target": "T1059.001",
+   "evidence": "The actors deploy and leverage custom malware implants, remote access tools (RATs), and open source tooling for execution, lateral movement, and data exfiltration."
+  },
+  {
+   "source": "Andariel",
+   "type": "targets",
+   "target": "Defense",
+   "evidence": "The actors currently target sensitive military information and intellectual property of defense, aerospace, nuclear, engineering organizations."
+  },
+  {
+   "source": "Andariel",
+   "type": "targets",
+   "target": "Aerospace",
+   "evidence": "The actors currently target sensitive military information and intellectual property of defense, aerospace, nuclear, engineering organizations."
+  },
+  {
+   "source": "Andariel",
+   "type": "targets",
+   "target": "Nuclear",
+   "evidence": "The actors currently target sensitive military information and intellectual property of defense, aerospace, nuclear, engineering organizations."
+  },
+  {
+   "source": "Andariel",
+   "type": "targets",
+   "target": "Engineering",
+   "evidence": "The actors currently target sensitive military information and intellectual property of defense, aerospace, nuclear, engineering organizations."
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1595",
+   "evidence": "vulnerabilities in public-facing web servers [T1595, T1592]. The actors gather open source information"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1592",
+   "evidence": "vulnerabilities in public-facing web servers [T1595, T1592]. The actors gather open source information"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1591",
+   "evidence": "about their victims for use in targeting [T1591] and research Common Vulnerabilities and Exposures"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1596",
+   "evidence": "Database [T1596]. CVEs researched include:"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1587.001",
+   "evidence": "connections, and uploading content to command and control (C2) [T1587.001, T1587.004]. The tools"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1587.004",
+   "evidence": "connections, and uploading content to command and control (C2) [T1587.001, T1587.004]. The tools"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1090",
+   "evidence": " 3Proxy [T1090]"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1040",
+   "evidence": " Juggernaut [T1040]"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1572",
+   "evidence": " PLINK [T1572]"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1003",
+   "evidence": " ProcDump [T1003]"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1560",
+   "evidence": " WinRAR [T1560]"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1048",
+   "evidence": " WinSCP [T1048]"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1059",
+   "evidence": "naop and netstat –noa [T1059]. Example commands used by the actors include the following:"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1027",
+   "evidence": "for VMProtect and Themida or randomized file section names for Themida [T1027]."
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1087",
+   "evidence": "starting path, name, last write time, last access time, creation time, size, and attributes [T1087, T1083]."
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1083",
+   "evidence": "starting path, name, last write time, last access time, creation time, size, and attributes [T1087, T1083]."
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1021.002",
+   "evidence": "network [T1021.002]."
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1021",
+   "evidence": "The actors have also used Remote Desktop Protocol (RDP) to move laterally [T1021]."
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1071",
+   "evidence": "proxy [T1090, T1071]."
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1039",
+   "evidence": "environment with other malicious tooling [T1560, T1039]."
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1567",
+   "evidence": "service accounts directly from victim networks to exfiltrate data [T1567]. The actors have also been"
+  },
+  {
+   "source": "Andariel",
+   "type": "uses",
+   "target": "T1587",
+   "evidence": "T1587."
+  }
+ ],
+ "_meta": {
+  "engine": "0.4",
+  "model": "doc2stix-qwen3-8b:v2b",
+  "seconds": 1757.6,
+  "errors": "1 unparsable chunk(s)",
+  "replayed_from": "doc2stix-qwen3-8b-v2b-e0.3"
+ }
+}

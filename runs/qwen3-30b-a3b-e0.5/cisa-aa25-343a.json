@@ -1,0 +1,730 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "Cyber Army of Russia Reborn",
+   "evidence": "Cyber Army of Russia Reborn (CARR), Z-Pentest, NoName057(16), Sector16, and affiliated groups"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Z-Pentest",
+   "evidence": "Cyber Army of Russia Reborn (CARR), Z-Pentest, NoName057(16), Sector16, and affiliated groups"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "NoName057(16)",
+   "evidence": "Cyber Army of Russia Reborn (CARR), Z-Pentest, NoName057(16), Sector16, and affiliated groups"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Sector16",
+   "evidence": "Cyber Army of Russia Reborn (CARR), Z-Pentest, NoName057(16), Sector16, and affiliated groups"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Cyber Army of Russia Reborn",
+   "evidence": "Cyber Army of Russia Reborn",
+   "aliases": [
+    "The People's Cyber Army of Russia"
+   ]
+  },
+  {
+   "type": "intrusion-set",
+   "name": "NoName057(16)",
+   "evidence": "NoName057(16)",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Z-Pentest",
+   "evidence": "Z-Pentest",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Sector16",
+   "evidence": "Sector16",
+   "aliases": []
+  },
+  {
+   "type": "threat-actor",
+   "name": "GRU",
+   "evidence": "Russian General Staff Main Intelligence Directorate (GRU)",
+   "aliases": [
+    "GRU"
+   ]
+  },
+  {
+   "type": "threat-actor",
+   "name": "CISM",
+   "evidence": "Center for the Study and Network Monitoring of the Youth Environment (CISM)",
+   "aliases": [
+    "CISM"
+   ]
+  },
+  {
+   "type": "campaign",
+   "name": "DDoSia",
+   "evidence": "NoName057(16) proprietary DDoS tool DDoSia",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "DDoSia",
+   "evidence": "NoName057(16) proprietary DDoS tool DDoSia",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Critical Infrastructure",
+   "evidence": "pro-Russia hacktivist groups conducting cyber operations against numerous organizations and critical infrastructure sectors worldwide",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Industrial Control Systems (ICS)",
+   "evidence": "CARR expanded their operations to include attacks on industrial control systems (ICS)",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Human-Machine Interface (HMI)",
+   "evidence": "CARR targeted human-machine interface (HMI) devices",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Energy",
+   "evidence": "Sector16 ... claims of compromising U.S. energy infrastructure",
+   "aliases": []
+  },
+  {
+   "type": "country",
+   "name": "Russia",
+   "evidence": "pro-Russia hacktivist groups",
+   "aliases": []
+  },
+  {
+   "type": "country",
+   "name": "Ukraine",
+   "evidence": "targeting Ukrainian and allied infrastructure",
+   "aliases": []
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "DDoS attacks against the U.S. and Europe",
+   "aliases": []
+  },
+  {
+   "type": "country",
+   "name": "Europe",
+   "evidence": "DDoS attacks against the U.S. and Europe",
+   "aliases": []
+  },
+  {
+   "type": "country",
+   "name": "NATO",
+   "evidence": "government and private sector entities in North Atlantic Treaty Organization (NATO) member states",
+   "aliases": [
+    "NATO"
+   ]
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Cyber Army of Russia Reborn",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Z-Pentest",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "NoName057(16)",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Sector16",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "GRU",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "CISM",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "DDoSia",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "DDoSia",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia",
+   "aliases": []
+  },
+  {
+   "type": "threat-actor",
+   "name": "Russian government",
+   "evidence": "Members of Sector16 may have received indirect support from the Russian government in exchange for conducting specific cyber operations that further Russian strategic goals.",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Energy",
+   "evidence": "Consequently, these groups can indiscriminately compromise critical infrastructure entities, including those in the Water and Wastewater, Food and Agriculture, and Energy Sectors.",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Water and Wastewater",
+   "evidence": "Consequently, these groups can indiscriminately compromise critical infrastructure entities, including those in the Water and Wastewater, Food and Agriculture, and Energy Sectors.",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Food and Agriculture",
+   "evidence": "Consequently, these groups can indiscriminately compromise critical infrastructure entities, including those in the Water and Wastewater, Food and Agriculture, and Energy Sectors.",
+   "aliases": []
+  },
+  {
+   "type": "country",
+   "name": "Russia",
+   "evidence": "Members of Sector16 may have received indirect support from the Russian government in exchange for conducting specific cyber operations that further Russian strategic goals.",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Cyber Army of Russia Reborn",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Z-Pentest",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia, DDoSia, Russian government"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "NoName057(16)",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia, DDoSia, Russian government"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Sector16",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia, DDoSia, Russian government"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "DDoSia",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia, DDoSia, Russian government"
+  },
+  {
+   "type": "threat-actor",
+   "name": "GRU",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia, DDoSia, Russian government"
+  },
+  {
+   "type": "threat-actor",
+   "name": "CISM",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia, DDoSia, Russian government"
+  },
+  {
+   "type": "threat-actor",
+   "name": "Russian government",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia, DDoSia, Russian government"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Cyber Army of Russia Reborn",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia, DDoSia, Russian government",
+   "aliases": [
+    "CyberArmy of Russia",
+    "Народная CyberАрмия (НКА)",
+    "People’s CyberArmy of Russia (PCA)",
+    "Russian CyberArmy Team (RCAT)"
+   ]
+  },
+  {
+   "type": "intrusion-set",
+   "name": "NoName057(16)",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia, DDoSia, Russian government",
+   "aliases": [
+    "NoName057(16) Spain",
+    "NoName057(16) Italy",
+    "NoName057(16) France"
+   ]
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Z-Pentest",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia, DDoSia, Russian government",
+   "aliases": [
+    "Z-Pentest Beograd",
+    "Z-Pentest Alliance",
+    "Z-Alliance"
+   ]
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Sector16",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia, DDoSia, Russian government",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "GRU",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia, DDoSia, Russian government",
+   "aliases": [
+    "GRU military unit 74455",
+    "Sandworm Team",
+    "Voodoo Bear",
+    "Seashell Blizzard",
+    "APT44"
+   ]
+  },
+  {
+   "type": "intrusion-set",
+   "name": "CISM",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia, DDoSia, Russian government",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "DDoSia",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia, DDoSia, Russian government",
+   "aliases": []
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Internet Accessible Device",
+   "mitre_id": "T0883",
+   "evidence": " Scan for vulnerable devices on the internet [T0883] with open VNC ports [T1595.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning: Vulnerability Scanning",
+   "mitre_id": "T1595.002",
+   "evidence": " Scan for vulnerable devices on the internet [T0883] with open VNC ports [T1595.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure: Virtual Private Server",
+   "mitre_id": "T1583.003",
+   "evidence": " Initiate temporary virtual private server (VPS) [T1583.003] to execute password brute force"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: VNC",
+   "mitre_id": "T1021.005",
+   "evidence": " Use VNC software to access hosts [T1021.005]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services",
+   "mitre_id": "T0886",
+   "evidence": " Confirm connection to the vulnerable device [T0886]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force: Password Spraying",
+   "mitre_id": "T1110.003",
+   "evidence": " Brute force the password, if required [T1110.003]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Insecure Credentials: Default Credentials",
+   "mitre_id": "T0812",
+   "evidence": " Gain access to HMI devices [T0883], typically with default [T0812], weak, or no passwords"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T0859",
+   "evidence": "[T0859]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Graphical User Interface",
+   "mitre_id": "T0823",
+   "evidence": " Using the HMI graphical interface [T0823], capture screen recordings or intermittent screenshots"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Loss of Productivity and Revenue",
+   "mitre_id": "T0828",
+   "evidence": "[T0828]:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Change Credential",
+   "mitre_id": "T0892",
+   "evidence": "o Modify usernames/passwords [T0892];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify Parameter",
+   "mitre_id": "T0836",
+   "evidence": "o Modify parameters [T0836];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Manipulation of Control",
+   "mitre_id": "T0831",
+   "evidence": "o Modify instrument settings [T0831];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Alarm Suppression",
+   "mitre_id": "T0878",
+   "evidence": "o Disable alarms [T0878];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Loss of View",
+   "mitre_id": "T0829",
+   "evidence": "o Create loss of view (a technique that mandates local hands-on operator intervention) [T0829];"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Device Restart/Shutdown",
+   "mitre_id": "T0816",
+   "evidence": "o Device restart or shutdown [T0816]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Org Information",
+   "mitre_id": "T1591",
+   "evidence": " Research the compromised device company after the intrusion [T1591]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Unauthorized Message: Command Message",
+   "mitre_id": "T0855",
+   "evidence": "Command Message T0855"
+  }
+ ],
+ "observables": [],
+ "relationships": [
+  {
+   "source": "Cyber Army of Russia Reborn",
+   "type": "targets",
+   "target": "Water and Wastewater Systems",
+   "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+  },
+  {
+   "source": "Z-Pentest",
+   "type": "targets",
+   "target": "Water and Wastewater Systems",
+   "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "targets",
+   "target": "Water and Wastewater Systems",
+   "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+  },
+  {
+   "source": "Sector16",
+   "type": "targets",
+   "target": "Water and Wastewater Systems",
+   "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+  },
+  {
+   "source": "Cyber Army of Russia Reborn",
+   "type": "targets",
+   "target": "Food and Agriculture",
+   "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+  },
+  {
+   "source": "Z-Pentest",
+   "type": "targets",
+   "target": "Food and Agriculture",
+   "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "targets",
+   "target": "Food and Agriculture",
+   "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+  },
+  {
+   "source": "Sector16",
+   "type": "targets",
+   "target": "Food and Agriculture",
+   "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+  },
+  {
+   "source": "Cyber Army of Russia Reborn",
+   "type": "targets",
+   "target": "Energy",
+   "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+  },
+  {
+   "source": "Z-Pentest",
+   "type": "targets",
+   "target": "Energy",
+   "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "targets",
+   "target": "Energy",
+   "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+  },
+  {
+   "source": "Sector16",
+   "type": "targets",
+   "target": "Energy",
+   "evidence": "Targeted sectors include Water and Wastewater Systems, Food and Agriculture, and Energy."
+  },
+  {
+   "source": "Cyber Army of Russia Reborn",
+   "type": "attributed-to",
+   "target": "GRU",
+   "evidence": "the Russian General Staff Main Intelligence Directorate (GRU) Main Center for Special Technologies (GTsST) military unit 74455—tracked in the cybersecurity community under several names"
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "attributed-to",
+   "target": "CISM",
+   "evidence": "the Center for the Study and Network Monitoring of the Youth Environment (CISM), established on behalf of the Kremlin"
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "uses",
+   "target": "DDoSia",
+   "evidence": "NoName057(16) proprietary DDoS tool DDoSia"
+  },
+  {
+   "source": "Z-Pentest",
+   "type": "targets",
+   "target": "Critical Infrastructure",
+   "evidence": "Z-Pentest is composed of members from CARR and NoName057(16). The group specializes in OT intrusion operations targeting globally dispersed critical infrastructure entities"
+  },
+  {
+   "source": "Z-Pentest",
+   "type": "targets",
+   "target": "Energy",
+   "evidence": "Sector16 ... claims of compromising U.S. energy infrastructure"
+  },
+  {
+   "source": "Sector16",
+   "type": "targets",
+   "target": "Energy",
+   "evidence": "Sector16 ... claims of compromising U.S. energy infrastructure"
+  },
+  {
+   "source": "Sector16",
+   "type": "attributed-to",
+   "target": "Russian government",
+   "evidence": "Members of Sector16 may have received indirect support from the Russian government in exchange for conducting specific cyber operations that further Russian strategic goals."
+  },
+  {
+   "source": "Sector16",
+   "type": "targets",
+   "target": "Energy",
+   "evidence": "Consequently, these groups can indiscriminately compromise critical infrastructure entities, including those in the Water and Wastewater, Food and Agriculture, and Energy Sectors."
+  },
+  {
+   "source": "Sector16",
+   "type": "targets",
+   "target": "Water and Wastewater",
+   "evidence": "Consequently, these groups can indiscriminately compromise critical infrastructure entities, including those in the Water and Wastewater, Food and Agriculture, and Energy Sectors."
+  },
+  {
+   "source": "Sector16",
+   "type": "targets",
+   "target": "Food and Agriculture",
+   "evidence": "Consequently, these groups can indiscriminately compromise critical infrastructure entities, including those in the Water and Wastewater, Food and Agriculture, and Energy Sectors."
+  },
+  {
+   "source": "Sector16",
+   "type": "uses",
+   "target": "T0883",
+   "evidence": "Scan for vulnerable devices on the internet [T0883] with open VNC ports [T1595.002]."
+  },
+  {
+   "source": "Sector16",
+   "type": "uses",
+   "target": "T1595.002",
+   "evidence": "Scan for vulnerable devices on the internet [T0883] with open VNC ports [T1595.002]."
+  },
+  {
+   "source": "Sector16",
+   "type": "uses",
+   "target": "T1583.003",
+   "evidence": "Initiate temporary virtual private server (VPS) [T1583.003] to execute password brute force software."
+  },
+  {
+   "source": "Sector16",
+   "type": "uses",
+   "target": "T1021.005",
+   "evidence": "Use VNC software to access hosts [T1021.005]."
+  },
+  {
+   "source": "Sector16",
+   "type": "uses",
+   "target": "T0886",
+   "evidence": "Confirm connection to the vulnerable device [T0886]."
+  },
+  {
+   "source": "Sector16",
+   "type": "uses",
+   "target": "T1110.003",
+   "evidence": "Brute force the password, if required [T1110.003]."
+  },
+  {
+   "source": "Sector16",
+   "type": "uses",
+   "target": "T0883",
+   "evidence": "Gain access to HMI devices [T0883], typically with default [T0812], weak, or no passwords [T0859]."
+  },
+  {
+   "source": "Sector16",
+   "type": "uses",
+   "target": "T0812",
+   "evidence": "Gain access to HMI devices [T0883], typically with default [T0812], weak, or no passwords [T0859]."
+  },
+  {
+   "source": "Sector16",
+   "type": "uses",
+   "target": "T0859",
+   "evidence": "Gain access to HMI devices [T0883], typically with default [T0812], weak, or no passwords [T0859]."
+  },
+  {
+   "source": "Sector16",
+   "type": "uses",
+   "target": "T0823",
+   "evidence": "Using the HMI graphical interface [T0823], capture screen recordings or intermittent screenshots while conducting the following actions, intending to affect productivity and cause additional costs [T0828]."
+  },
+  {
+   "source": "Sector16",
+   "type": "uses",
+   "target": "T0892",
+   "evidence": "Modify usernames/passwords [T0892];"
+  },
+  {
+   "source": "Sector16",
+   "type": "uses",
+   "target": "T0836",
+   "evidence": "Modify parameters [T0836];"
+  },
+  {
+   "source": "Sector16",
+   "type": "uses",
+   "target": "T0892",
+   "evidence": "Modify device name [T0892];"
+  },
+  {
+   "source": "Sector16",
+   "type": "uses",
+   "target": "T0831",
+   "evidence": "Modify instrument settings [T0831];"
+  },
+  {
+   "source": "Sector16",
+   "type": "uses",
+   "target": "T0878",
+   "evidence": "Disable alarms [T0878];"
+  },
+  {
+   "source": "Sector16",
+   "type": "uses",
+   "target": "T0829",
+   "evidence": "Create loss of view (a technique that mandates local hands-on operator intervention) [T0829];"
+  },
+  {
+   "source": "Sector16",
+   "type": "uses",
+   "target": "T0816",
+   "evidence": "Device restart or shutdown [T0816]."
+  },
+  {
+   "source": "Sector16",
+   "type": "uses",
+   "target": "T1591",
+   "evidence": "Research the compromised device company after the intrusion [T1591]."
+  },
+  {
+   "source": "Sector16",
+   "type": "uses",
+   "target": "T1595.002",
+   "evidence": "Threat actors use open source tools to look for IP addresses in target countries with visible VNC services on common ports."
+  },
+  {
+   "source": "Sector16",
+   "type": "uses",
+   "target": "T1583.003",
+   "evidence": "Threat actors use virtual infrastructure to obfuscate identifiers."
+  },
+  {
+   "source": "Sector16",
+   "type": "uses",
+   "target": "T0883",
+   "evidence": "Threat actors gain access through less secure HMI devices exposed to the internet."
+  },
+  {
+   "source": "Cyber Army of Russia Reborn",
+   "type": "attributed-to",
+   "target": "Russian government",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia, DDoSia, Russian government"
+  },
+  {
+   "source": "Z-Pentest",
+   "type": "attributed-to",
+   "target": "Russian government",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia, DDoSia, Russian government"
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "attributed-to",
+   "target": "Russian government",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia, DDoSia, Russian government"
+  },
+  {
+   "source": "Sector16",
+   "type": "attributed-to",
+   "target": "Russian government",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia, DDoSia, Russian government"
+  },
+  {
+   "source": "DDoSia",
+   "type": "attributed-to",
+   "target": "Russian government",
+   "evidence": "Named earlier in the document: Cyber Army of Russia Reborn, Z-Pentest, NoName057(16), Sector16, GRU, CISM, DDoSia, DDoSia, DDoSia, Russian government"
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "uses",
+   "target": "T0828",
+   "evidence": "[T0828]:"
+  },
+  {
+   "source": "NoName057(16)",
+   "type": "uses",
+   "target": "T0855",
+   "evidence": "Command Message T0855"
+  }
+ ],
+ "_meta": {
+  "engine": "0.5",
+  "model": "qwen3:30b-a3b",
+  "seconds": 128.6,
+  "errors": ""
+ }
+}

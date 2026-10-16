@@ -1,0 +1,125 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "APT 29",
+   "evidence": "Russian Foreign Intelligence Service (SVR) cyber actors—also known as Advanced Persistent Threat 29 (APT 29), the Dukes, CozyBear, and Yttrium—will continue to seek intelligence from US and"
+  },
+  {
+   "type": "threat-actor",
+   "name": "Russian Foreign Intelligence Service (SVR)",
+   "evidence": "Russian Foreign Intelligence Service (SVR) cyber actors—also known as Advanced Persistent Threat 29 (APT 29), the Dukes, CozyBear, and Yttrium—will continue to seek intelligence from US and"
+  },
+  {
+   "type": "campaign",
+   "name": "SolarWinds compromise",
+   "evidence": "On 15 April 2021, the White House released a statement on the recent SolarWinds compromise, attributing the activity to the SVR."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-10486",
+   "evidence": "The exploitation of Microsoft Office 365 environments following network access gained through use of modified SolarWinds software reflects this continuing trend."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Password Spraying",
+   "evidence": "Password Spraying"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Spoofing User Agent Strings",
+   "evidence": "including Apple’s mail client and old versions of Microsoft Outlook."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify Permissions",
+   "evidence": "The actors modified permissions of specific e-mail accounts on the network, allowing any authenticated network user to read those accounts."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Misconfiguration",
+   "evidence": "The organization unintentionally exempted the compromised administrator’s account from multi-factor authentication requirements."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Access",
+   "evidence": "Prohibit remote access to administrative functions and resources from IP addresses and systems not owned by the organization."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Access",
+   "evidence": "Once the actors obtained access to an account, that compromised account was generally only accessed from a single IP address corresponding to a leased virtual private server (VPS)."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT 29",
+   "evidence": "In 2020, the governments of the United Kingdom, Canada, and the United States attributed intrusions perpetrated using malware known as WELLMESS to APT 29."
+  },
+  {
+   "type": "threat-actor",
+   "name": "Russian Foreign Intelligence Service (SVR)",
+   "evidence": "During the spring and summer of 2020, using modified SolarWinds network monitoring software as an initial intrusion vector, SVR cyber operators began to expand their access to numerous networks."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-19781",
+   "evidence": "In a separate incident, SVR actors used CVE-2019-19781, a zero-day exploit at the time, against a virtual private network (VPN) appliance to obtain network access."
+  },
+  {
+   "type": "malware",
+   "name": "WELLMESS",
+   "evidence": "In 2020, the governments of the United Kingdom, Canada, and the United States attributed intrusions perpetrated using malware known as WELLMESS to APT 29."
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz",
+   "evidence": "The FBI also notes SVR cyber operators have used open source or commercially available tools continuously, including Mimikatz—an open source credential-dumping too—and Cobalt Strike—a commercially available exploitation tool."
+  },
+  {
+   "type": "tool",
+   "name": "Cobalt Strike",
+   "evidence": "The FBI also notes SVR cyber operators have used open source or commercially available tools continuously, including Mimikatz—an open source credential-dumping too—and Cobalt Strike—a commercially available exploitation tool."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-19781",
+   "evidence": "In a separate incident, SVR actors used CVE-2019-19781, a zero-day exploit at the time, against a"
+  }
+ ],
+ "observables": [
+  {
+   "type": "domain-name",
+   "value": "cock.li",
+   "indicates": [
+    "APT 29"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "WELLMESS",
+   "evidence": "In 2020, the governments of the United Kingdom, Canada, and the United States attributed intrusions perpetrated using malware known as WELLMESS to APT 29."
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "Mimikatz",
+   "evidence": "The FBI also notes SVR cyber operators have used open source or commercially available tools continuously, including Mimikatz—an open source credential-dumping too—and Cobalt Strike—a commercially available exploitation tool."
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "Cobalt Strike",
+   "evidence": "The FBI also notes SVR cyber operators have used open source or commercially available tools continuously, including Mimikatz—an open source credential-dumping too—and Cobalt Strike—a commercially available exploitation tool."
+  }
+ ],
+ "_meta": {
+  "engine": "0.4",
+  "model": "doc2stix-qwen3-8b:v2b",
+  "seconds": 225.4,
+  "errors": "",
+  "replayed_from": "doc2stix-qwen3-8b-v2b-e0.3"
+ }
+}

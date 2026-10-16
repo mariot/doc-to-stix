@@ -1,0 +1,777 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "Volt Typhoon",
+   "evidence": "also known as Volt Typhoon"
+  },
+  {
+   "type": "country",
+   "name": "People's Republic of China",
+   "evidence": "People’s Republic of China (PRC) state-sponsored cyber actor"
+  },
+  {
+   "type": "threat-actor",
+   "name": "People's Republic of China State-Sponsored Cyber Actor",
+   "evidence": "People's Republic of China State-Sponsored Cyber Actor"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "evidence": "cmd.exe /C \"wmic path win32_logicaldisk get caption,filesystem,freespace,size,volumename\""
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "evidence": "The actor has executed the following command to gather information about local drives [ T1082 ]:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "evidence": "The actor has executed the following command to gather information about local drives [ T1082 ]:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "evidence": "The actor has executed the following command to gather information about local drives [ T1082 ]:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "evidence": "The actor has executed the following command to gather information about local drives [ T1082 ]:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "evidence": "The actor has executed the following command to gather information about local drives [ T1082 ]:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "evidence": "The actor has executed the following command to gather information about local drives [ T1082 ]:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "evidence": "The actor has executed the following command to gather information about local drives [ T1082 ]:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "evidence": "The actor has executed the following command to gather information about local drives [ T1082 ]:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "evidence": "The actor has executed the following command to gather information about local drives [ T1082 ]:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create or Modify System Process: WMIC",
+   "evidence": "actor has executed WMIC commands [ T1047 ] to create a copy of the ntds.dit file and SYSTEM registry hive using ntdsutil.exe."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "evidence": "The actor has also saved the files directly to the C:\\Windows\\Temp and C:\\Users\\Public directories, so the entirety of those directory structures should be analyzed."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Port Proxy",
+   "evidence": "The actor has used the following commands to enable port forwarding [ T1090 ] on the host:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "evidence": "Netsh is a built-in Windows command line scripting utility that can display or modify the network settings of a host, including the Windows Firewall."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Services: Windows Firewall",
+   "evidence": "Firewall rule additions and changes can be viewed in Windows Event Viewer by navigating to: Applications and Service Logs | Microsoft | Windows | Windows Firewall With Advanced Security | Firewall."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "evidence": "The actor has used the following PowerShell [ T1059.001 ] command to identify successful logons to the host [ T1033 ]:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Manipulation: Password Spray",
+   "evidence": "If the actor is using a password spray technique [ T1110.003 ], there may be several failed logon (Event ID 4625) events for several different user accounts, followed by one or more successful logons (Event ID 4624) within a short period of time."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "evidence": "The actor has used the following PowerShell [ T1059.001 ] command to identify successful logons to the host [ T1033 ]:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Python",
+   "evidence": "Secretsdump.py"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "evidence": "Invoke-NinjaCopy (PowerShell)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "evidence": "DSInternals (PowerShell)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Python",
+   "evidence": "FgDump"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Metasploit",
+   "evidence": "Metasploit"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Python",
+   "evidence": "Impacket"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Python",
+   "evidence": "wmiexec.py"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "evidence": "The following commands were used by the actor to enumerate the network topology [ T1016 ], the active directory structure [ T1069.002 ], and other information about the target environment [ T1069.001 ], [ T1082 ]:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "evidence": "The following commands were used by the actor to enumerate the network topology [ T1016 ], the active directory structure [ T1069.002 ], and other information about the target environment [ T1069.001 ], [ T1082 ]:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "evidence": "The actor also used the following commands to identify additional opportunities for obtaining credentials in the environment [ T1555 ], [ T1003 ]:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "evidence": "The actor also used the following commands to identify additional opportunities for obtaining credentials in the environment [ T1555 ], [ T1003 ]:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploiting vulnerabilities",
+   "evidence": "Exploiting vulnerabilities [ T1190 ] in widely used software including, but not limited to:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Using webshells for persistence and exfiltration",
+   "evidence": "Using webshells for persistence and exfiltration [ T1505.003 ], with at least some of the webshells derived from the Awen webshell."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Using compromised Small-Office Home-Office (SOHO) devices",
+   "evidence": "Using compromised Small-Office Home-Office (SOHO) devices (e.g. routers) to obfuscate the source of the activity [ T1090.002 ]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Using living off the land tools",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include:"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-40539",
+   "evidence": "CVE-2021-40539—ManageEngine ADSelfService Plus."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-27860",
+   "evidence": "CVE-2021-27860—FatPipe WARP, IPVPN, MPVPN."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Volt Typhoon",
+   "evidence": "Named earlier in the document: Volt Typhoon, People's Republic of China State-Sponsored Cyber Actor"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Clear Command and Control Artifacts",
+   "evidence": "Selective clearing of Windows Event Logs, system logs, and other technical artifacts to remove evidence of their intrusion activity [ T1070 ]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "evidence": "PowerShell"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Management Instrumentation",
+   "evidence": "wmic"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "evidence": "certutil"
+  },
+  {
+   "type": "attack或其他",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "evidence": "dnscmd"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "evidence": "ldifde"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "evidence": "makecab"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "evidence": "net user/group/use"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "evidence": "netsh"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "evidence": "nltest"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "evidence": "ntdsutil"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "evidence": "req query/save"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "evidence": "systeminfo"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "evidence": "tasklist"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "evidence": "wevtutil"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "evidence": "xcopy"
+  },
+  {
+   "type": "tool",
+   "name": "Fast Reverse Proxy (frp)",
+   "evidence": "Fast Reverse Proxy (frp)"
+  },
+  {
+   "type": "tool",
+   "name": "Impacket",
+   "evidence": "Impacket"
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz.exe",
+   "evidence": "Mimikatz.exe"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Volt Typhoon",
+   "evidence": "Volt Typhoon"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Volt Typhoon",
+   "evidence": "Named earlier in the document: Volt Typhoon, People's Republic of China State-Sponsored Cyber Actor"
+  },
+  {
+   "type": "country",
+   "name": "China",
+   "evidence": "People's Republic of China State-Sponsored Cyber Actor"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Volt Typhoon",
+   "evidence": "Volt Typhoon activity: Volt Typhoon targets US critical infrastructure with living-off-the-land techniques | Microsoft Security Blog ."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Volt Typhoon",
+   "evidence": "Named earlier in the document: Volt Typhoon, People's Republic of China State-Sponsored Cyber Actor"
+  },
+  {
+   "type": "country",
+   "name": "China",
+   "evidence": "Nation-State Actor : China"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy",
+   "mitre_id": "T1090",
+   "evidence": "The actor has used Earthworm and a custom Fast Reverse Proxy (FRP) client with hardcoded C2 callbacks [ T1090 ] to ports 8080, 8443, 8043, 8000, and 10443 with various filenames including, but not lim"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Information Discovery",
+   "mitre_id": "T1082",
+   "evidence": "The actor has executed the following command to gather information about local drives [ T1082 ]:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "This command does not require administrative credentials to return results. The command uses a command prompt [ T1059.003 ] to execute a Windows Management Instrumentation Command Line (WMIC) query, c"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: NTDS",
+   "mitre_id": "T1003.003",
+   "evidence": "The actor may try to exfiltrate the ntds.dit file and the SYSTEM registry hive from Windows domain controllers (DCs) out of the network to perform password cracking [ T1003.003 ]. (The ntds.dit file i"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Windows Management Instrumentation",
+   "mitre_id": "T1047",
+   "evidence": "The actor has executed WMIC commands [ T1047 ] to create a copy of the ntds.dit file and SYSTEM registry hive using ntdsutil.exe. Each of the following actor commands is a standalone example; multiple"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001",
+   "evidence": "The actor has used the following PowerShell [ T1059.001 ] command to identify successful logons to the host [ T1033 ]:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Owner/User Discovery",
+   "mitre_id": "T1033",
+   "evidence": "The actor has used the following PowerShell [ T1059.001 ] command to identify successful logons to the host [ T1033 ]:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force: Password Spraying",
+   "mitre_id": "T1110.003",
+   "evidence": "This command identifies what user account they are currently leveraging to access the network, identify other users logged on to the host, or identify how their actions are being logged. If the actor "
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force",
+   "mitre_id": "T1110",
+   "evidence": "If the actor is using brute force password attempts [ T1110 ] against a single user account, there may be several Event ID 4625 entries for that account, followed by a successful logon Event ID 4624. "
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "mitre_id": "T1016",
+   "evidence": "The following commands were used by the actor to enumerate the network topology [ T1016 ], the active directory structure [ T1069.002 ], and other information about the target environment [ T1069.001 "
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Permission Groups Discovery: Domain Groups",
+   "mitre_id": "T1069.002",
+   "evidence": "The following commands were used by the actor to enumerate the network topology [ T1016 ], the active directory structure [ T1069.002 ], and other information about the target environment [ T1069.001 "
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Permission Groups Discovery: Local Groups",
+   "mitre_id": "T1069.001",
+   "evidence": "The following commands were used by the actor to enumerate the network topology [ T1016 ], the active directory structure [ T1069.002 ], and other information about the target environment [ T1069.001 "
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credentials from Password Stores",
+   "mitre_id": "T1555",
+   "evidence": "The actor also used the following commands to identify additional opportunities for obtaining credentials in the environment [ T1555 ], [ T1003 ]:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping",
+   "mitre_id": "T1003",
+   "evidence": "The actor also used the following commands to identify additional opportunities for obtaining credentials in the environment [ T1555 ], [ T1003 ]:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify Tools: Clear Windows Event Logs",
+   "mitre_id": "T1070.001",
+   "evidence": "The actor takes measures to hide their tracks, such as clearing logs [ T1070.001 ]. To ensure log integrity and availability, defenders should forward log files to a hardened centralized logging serve"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "mitre_id": "T1190",
+   "evidence": "Exploiting vulnerabilities [ T1190 ] in widely used software including, but not limited to:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Shell",
+   "mitre_id": "T1505.003",
+   "evidence": "Using webshells for persistence and exfiltration [ T1505.003 ], with at least some of the webshells derived from the Awen webshell."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy: External Proxy",
+   "mitre_id": "T1090.002",
+   "evidence": "Using compromised Small-Office Home-Office (SOHO) devices (e.g. routers) to obfuscate the source of the activity [ T1090.002 ]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal",
+   "mitre_id": "T1070",
+   "evidence": "Selective clearing of Windows Event Logs, system logs, and other technical artifacts to remove evidence of their intrusion activity [ T1070 ]."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-40539",
+   "evidence": "CVE-2021-40539—ManageEngine ADSelfService Plus."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-27860",
+   "evidence": "CVE-2021-27860—FatPipe WARP, IPVPN, MPVPN."
+  }
+ ],
+ "observables": [
+  {
+   "type": "url",
+   "value": "www.ip-api.com",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "f4dd44bc19c19056794d29151a5b1bb76afd502388622e24c863a8494af147dd",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ef09b8ff86c276e9b475a6ae6b54f08ed77e09e169f7fc0872eb1d427ee27d31",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d6ebde42457fe4b2a927ce53fc36f465f0000da931cfab9b79a36083e914ceca",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "472ccfb865c81704562ea95870f60c08ef00bcd2ca1d7f09352398c05be5d05d",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "66a19f7d2547a8a85cee7a62d0b6114fd31afdee090bd43f36b89470238393d7",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "3c2fe308c0a563e06263bbacf793bbe9b2259d795fcc36b953793a7e499e7f71",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "41e5181b9553bbe33d91ee204fe1d2ca321ac123f9147bb475c0ed32f9488597",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c7fee7a3ffaf0732f42d89c4399cbff219459ae04a81fc6eff7050d53bd69b99",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "3a9d8bb85fbcfe92bae79d5ab18e4bca9eaf36cea70086e8d1ab85336c83945f",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "fe95a382b4f879830e2666473d662a24b34fccf34b6b3505ee1b62b32adafa15",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ee8df354503a56c62719656fae71b3502acf9f87951c55ffd955feec90a11484",
+   "hash": "SHA-256",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "C:\\Windows\\[a-zA-Z]{8}.exe",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "f4dd44bc19c19056794d29151a5b1bb76afd502388622e24c863a8494af147dd",
+   "indicates": [
+    "Volt Typhoon"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ef09b8ff86c276e9b475a6ae6b54f08ed77e09e169f7fc0872eb1d427ee27d31",
+   "indicates": [
+    "Volt Typhoon"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d6ebde42457fe4b2a927ce53fc36f465f0000da931cfab9b79a36083e914ceca",
+   "indicates": [
+    "Volt Typhoon"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "472ccfb865c81704562ea95870f60c08ef00bcd2ca1d7f09352398c05be5d05d",
+   "indicates": [
+    "Volt Typhoon"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "66a19f7d2547a8a85cee7a62d0b6114fd31afdee090bd43f36b89470238393d7",
+   "indicates": [
+    "Volt Typhoon"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "3c2fe308c0a563e06263bbacf793bbe9b2259d795fcc36b953793a7e499e7f71",
+   "indicates": [
+    "Volt Typhoon"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "41e5181b9553bbe33d91ee204fe1d2ca321ac123f9147bb475c0ed32f9488597",
+   "indicates": [
+    "Volt Typhoon"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c7fee7a3ffaf0732f42d89c4399cbff219459ae04a81fc6eff7050d53bd69b99",
+   "indicates": [
+    "Volt Typhoon"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "3a9d8bb85fbcfe92bae79d5ab18e4bca9eaf36cea70086e8d1ab85336c83945f",
+   "indicates": [
+    "Volt Typhoon"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "fe95a382b4f879830e2666473d662a24b34fccf34b6b3505ee1b62b32adafa15",
+   "indicates": [
+    "Volt Typhoon"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ee8df354503a56c62719656fae71b3502acf9f87951c55ffd955feec90a11484",
+   "indicates": [
+    "Volt Typhoon"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "www.ip-api.com",
+   "indicates": [
+    "Volt Typhoon"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "Windows Management Instrumentation",
+   "evidence": "Using living off the land tools for discovery, lateral movement, and collection activities, to include:"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "Fast Reverse Proxy (frp)",
+   "evidence": "Using open source “hacktools” tools, such as:"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "Impacket",
+   "evidence": "Using open source “hacktools” tools, such as:"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "Mimikatz.exe",
+   "evidence": "Using open source “hacktools” tools, such as:"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "T1090",
+   "evidence": "The actor has used Earthworm and a custom Fast Reverse Proxy (FRP) client with hardcoded C2 callbacks [ T1090 ] to ports 8080, 8443, 8043, 8000, and 10443 with various filenames including, but not lim"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "T1082",
+   "evidence": "The actor has executed the following command to gather information about local drives [ T1082 ]:"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "T1059.003",
+   "evidence": "This command does not require administrative credentials to return results. The command uses a command prompt [ T1059.003 ] to execute a Windows Management Instrumentation Command Line (WMIC) query, c"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "T1003.003",
+   "evidence": "The actor may try to exfiltrate the ntds.dit file and the SYSTEM registry hive from Windows domain controllers (DCs) out of the network to perform password cracking [ T1003.003 ]. (The ntds.dit file i"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "T1059.001",
+   "evidence": "The actor has used the following PowerShell [ T1059.001 ] command to identify successful logons to the host [ T1033 ]:"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "T1033",
+   "evidence": "The actor has used the following PowerShell [ T1059.001 ] command to identify successful logons to the host [ T1033 ]:"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "T1110.003",
+   "evidence": "This command identifies what user account they are currently leveraging to access the network, identify other users logged on to the host, or identify how their actions are being logged. If the actor "
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "T1110",
+   "evidence": "If the actor is using brute force password attempts [ T1110 ] against a single user account, there may be several Event ID 4625 entries for that account, followed by a successful logon Event ID 4624. "
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "T1016",
+   "evidence": "The following commands were used by the actor to enumerate the network topology [ T1016 ], the active directory structure [ T1069.002 ], and other information about the target environment [ T1069.001 "
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "T1069.002",
+   "evidence": "The following commands were used by the actor to enumerate the network topology [ T1016 ], the active directory structure [ T1069.002 ], and other information about the target environment [ T1069.001 "
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "T1069.001",
+   "evidence": "The following commands were used by the actor to enumerate the network topology [ T1016 ], the active directory structure [ T1069.002 ], and other information about the target environment [ T1069.001 "
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "T1555",
+   "evidence": "The actor also used the following commands to identify additional opportunities for obtaining credentials in the environment [ T1555 ], [ T1003 ]:"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "T1003",
+   "evidence": "The actor also used the following commands to identify additional opportunities for obtaining credentials in the environment [ T1555 ], [ T1003 ]:"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "T1070.001",
+   "evidence": "The actor takes measures to hide their tracks, such as clearing logs [ T1070.001 ]. To ensure log integrity and availability, defenders should forward log files to a hardened centralized logging serve"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "Exploiting vulnerabilities [ T1190 ] in widely used software including, but not limited to:"
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "Using webshells for persistence and exfiltration [ T1505.003 ], with at least some of the webshells derived from the Awen webshell."
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "T1090.002",
+   "evidence": "Using compromised Small-Office Home-Office (SOHO) devices (e.g. routers) to obfuscate the source of the activity [ T1090.002 ]."
+  },
+  {
+   "source": "Volt Typhoon",
+   "type": "uses",
+   "target": "T1070",
+   "evidence": "Selective clearing of Windows Event Logs, system logs, and other technical artifacts to remove evidence of their intrusion activity [ T1070 ]."
+  }
+ ],
+ "_meta": {
+  "engine": "0.4",
+  "model": "doc2stix-qwen3-8b:v2b",
+  "seconds": 1549.4,
+  "errors": "2 unparsable chunk(s)",
+  "replayed_from": "doc2stix-qwen3-8b-v2b-e0.3"
+ }
+}

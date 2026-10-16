@@ -128,19 +128,29 @@ Engine versions in `src/doc2stix/__init__.py`; runs and scores in `runs/`.
 
 | run | model | headline | entities F1 | relationships F1 | observables F1 |
 |---|---|---|---|---|---|
-| **qwen3-30b-a3b-e0.3** | **qwen3:30b-a3b, engine 0.3** | **0.723** | **0.820** | **0.467** | **0.881** |
-| qwen3-30b-a3b-e0.2 | qwen3:30b-a3b, engine 0.2 | 0.695 | 0.820 | 0.390 | 0.876 |
-| doc2stix-qwen3-8b-v2b-e0.3 | LoRA v2b (Qwen3-8B, distilled), engine 0.3 | 0.646 | 0.675 | 0.363 | 0.901 |
-| doc2stix-qwen3-8b-v1-e0.2 | LoRA v1 (Qwen3-8B), engine 0.2 | 0.579 | 0.654 | 0.179 | 0.904 |
-| harvest-only | no model, harvesting only | 0.531 | 0.698 | 0.000 | 0.894 |
-| qwen3-30b-a3b-e0.1 | qwen3:30b-a3b, engine 0.1 | 0.460 | 0.645 | 0.299 | 0.437 |
-| qwen3-8b-e0.1 | qwen3:8b untrained, engine 0.1 | 0.352 | 0.398 | 0.115 | 0.544 |
-| doc2stix-qwen3-8b-v1-e0.1 | LoRA v1 (Qwen3-8B), engine 0.1 | 0.245 | 0.419 | 0.002 | 0.313 |
+| **qwen3-30b-a3b-e0.4** | **qwen3:30b-a3b, engine 0.4** | **0.756** | **0.826** | **0.556** | **0.886** |
+| qwen3-30b-a3b-e0.5 | qwen3:30b-a3b, engine 0.5 (prompt, reverted) | 0.744 | 0.802 | 0.534 | 0.896 |
+| qwen3-30b-a3b-e0.3 | qwen3:30b-a3b, engine 0.3 | 0.725 | 0.826 | 0.468 | 0.881 |
+| qwen3-30b-a3b-e0.2 | qwen3:30b-a3b, engine 0.2 | 0.698 | 0.826 | 0.392 | 0.876 |
+| doc2stix-qwen3-8b-v2b-e0.4 | LoRA v2b (Qwen3-8B, distilled), engine 0.4 | 0.685 | 0.679 | 0.463 | 0.912 |
+| doc2stix-qwen3-8b-v2b-e0.3 | LoRA v2b, engine 0.3 | 0.648 | 0.679 | 0.364 | 0.901 |
+| qwen3-8b-e0.4 | qwen3:8b untrained, engine 0.4 | 0.632 | 0.655 | 0.360 | 0.881 |
+| qwen3-8b-e0.3 | qwen3:8b untrained, engine 0.3 | 0.585 | 0.655 | 0.234 | 0.865 |
+| doc2stix-qwen3-8b-v1-e0.2 | LoRA v1 (Qwen3-8B), engine 0.2 | 0.580 | 0.656 | 0.180 | 0.904 |
+| harvest-only | no model, harvesting only | 0.532 | 0.700 | 0.000 | 0.894 |
+| qwen3-30b-a3b-e0.1 | qwen3:30b-a3b, engine 0.1 | 0.462 | 0.648 | 0.300 | 0.437 |
+| qwen3-8b-e0.1 | qwen3:8b untrained, engine 0.1 | 0.354 | 0.404 | 0.115 | 0.544 |
+| doc2stix-qwen3-8b-v1-e0.1 | LoRA v1 (Qwen3-8B), engine 0.1 | 0.245 | 0.421 | 0.002 | 0.313 |
 
-Per family (F1), engine 0.3 with qwen3:30b-a3b: actors 0.67, software 0.69,
-techniques 0.91, victims 0.56, vulnerabilities 0.95. The weak spots are
-relationships (precision 0.57, recall 0.39) and victims (recall 0.48).
-qwen3:30b-a3b with engine 0.3 is the connector's default.
+All runs scored with the same scorer (sectors at OpenCTI's top level since
+step 17). Engine 0.4 rows replay engine 0.4's post-processing on the stored
+engine 0.3 model outputs (`_meta.replayed_from`): the step is deterministic and
+after the model, so a run gives the same result.
+
+The same-engine comparison of the 8B models measures the fine-tuning: LoRA v2b
+is **+0.053** over the untrained qwen3:8b with engine 0.4 (0.685 vs 0.632) and
++0.063 with engine 0.3, mostly on relationships (0.36 vs 0.23 with 0.3).
+qwen3:30b-a3b with engine 0.4 is the connector's default.
 
 ## Training log
 
@@ -240,7 +250,60 @@ Every step taken to improve the training, in order, with its effect.
     engine 0.2, 0.002 without), entities 0.68, observables 0.90; 16
     unparsable chunks in 22 documents (free output). Distillation fixed v1's
     collapse; the 8B student stays below its 30B teacher (0.723) as expected.
-    The fair control (untrained qwen3:8b, engine 0.3) is running.
+    The fair control (untrained qwen3:8b, engine 0.3) scores 0.583: **the
+    fine-tuning is worth +0.063 on the same engine**, mostly relationships
+    (0.23 → 0.36, precision 0.34 → 0.49): the untrained 8B over-extracts.
+16. **Consolidation by the guidelines (engine 0.4).** An error analysis of the
+    best run showed 557 IOCs tied to nobody (the gold ties IOC tables to the
+    document's subject), ~190 relationships of kinds the guidelines do not
+    have ("software uses software", "actor uses CVE"), and private addresses
+    and the authors' domains taken for IOCs. Rules from the guidelines, after
+    the model: only the guidelines' relationships, no private addresses or
+    authors' domains, IOCs tied to nobody indicate the main subject. Each rule
+    helps each of three models; together: 30B 0.725 → 0.756, v2b 0.648 →
+    0.685, untrained 8B 0.585 → 0.632 (relationships 0.47 → 0.56 for the 30B).
+    Caveat: no development set with gold exists, the rules were measured on
+    the eval set; they come from the guidelines, not from the data.
+17. **Sectors scored at OpenCTI's top level.** Most sector errors were
+    granularity ("Healthcare services" against "Health"): the gold annotators
+    themselves applied "the most specific sector" differently. Victims F1 of
+    the 30B 0.56 → 0.61; the bundles keep the specific sector.
+18. **Engine 0.5 (prompt).** The prompt said "not the authoring agencies and
+    their countries", and the 30B dropped the United States where US victims
+    were named (8 documents), or listed the Five Eyes as targets when they
+    signed the advisory; it also took file names (stage1.exe) for malware.
+    The prompt separated authors from victims and file names from families.
+    **Result: 0.744, worse than engine 0.4's 0.756** (runs are deterministic:
+    temperature 0, fixed seed). Victims F1 did not move (0.607: precision
+    0.72 → 0.77, recall 0.53 → 0.50); the file-name rule made the model skip
+    real software (recall 0.62 → 0.44) and actors got noisier (precision 0.61
+    → 0.48). **Reverted**: the engine stays 0.4. The guidelines keep the
+    clarification, which is how the gold was annotated.
+19. **LoRA v3: more data.** v2b stays 0.07 below its teacher with 42 training
+    documents; 55 more (31 CISA, 12 CERT-FR, 12 NCSC, all official, 23 with
+    STIX 2.1 IOC files) are distilled from qwen3:30b-a3b with engine 0.4, and
+    every chunk label now follows engine 0.4's rules (`--consolidate`: only the
+    guidelines' relationships, no private addresses, IOCs tied to the main
+    subject; on the 42 v2 documents this removed 191 relationships and tied
+    731 more IOCs). Same recipe as v2b otherwise (rows over 6 144 tokens
+    dropped, NaN guard). Teacher run, training and eval run unattended
+    (`runs/chain-v3.sh`).
+
+## Known limitations
+
+- **Wrong aliases from the model chain merges.** Entities merge through the
+  aliases the document (or the model) gives: across chunks the same actor is
+  named several ways, and merging on aliases is what lets its relationships
+  meet (merging on names only cost 0.05 of headline). When the model invents
+  an alias ("ALPHV is an alias of Ransomhouse"), distinct families merge.
+- **Built-in tools.** The gold is not consistent on system utilities an actor
+  runs (certutil, nltest, net): one annotator listed them as tools, another
+  left them out.
+- **No development set.** Engine rules were measured on the eval set; each
+  comes from the guidelines and helped every model, but the gains are
+  optimistic estimates.
+- **One annotator per gold document**, an LLM agent, machine-checked
+  (evidence, IOCs, IDs, OpenCTI) but not reviewed by a person.
 
 ## License and data
 

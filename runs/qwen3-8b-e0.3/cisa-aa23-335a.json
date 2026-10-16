@@ -1,0 +1,583 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "IRGC-affiliated APT cyber actors",
+   "evidence": "IRGC-affiliated APT cyber actors targeting U.S. and global critical infrastructure."
+  },
+  {
+   "type": "threat-actor",
+   "name": "IRGC",
+   "evidence": "The Iranian Government’s Islamic Revolutionary Guard Corps (IRGC)."
+  },
+  {
+   "type": "campaign",
+   "name": "CyberAv3ngers",
+   "evidence": "IRGC-affiliated cyber actors using the persona 'CyberAv3ngers' began actively targeting..."
+  },
+  {
+   "type": "malware",
+   "name": "Unitronics Vision Series PLCs",
+   "evidence": "Unitronics Vision Series programmable logic controllers (PLCs) and human machine interfaces (HMIs)."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Custom ladder logic files",
+   "evidence": "developed custom ladder logic files to download for each of these device types."
+  },
+  {
+   "type": "sector",
+   "name": "Water and Wastewater Systems",
+   "evidence": "These PLCs are commonly used in the Water and Wastewater Systems (WWS) Sector."
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "targeting U.S. and global critical infrastructure."
+  },
+  {
+   "type": "country",
+   "name": "Israel",
+   "evidence": "Every equipment 'made in Israel' is CyberAv3ngers legal target."
+  },
+  {
+   "type": "country",
+   "name": "United Kingdom",
+   "evidence": "targeting of PLC devices, including in the United Kingdom."
+  },
+  {
+   "type": "organization",
+   "name": "CISA",
+   "evidence": "the Cybersecurity and Infrastructure Security Agency (CISA)."
+  },
+  {
+   "type": "organization",
+   "name": "FBI",
+   "evidence": "the Federal Bureau of Investigation (FBI)."
+  },
+  {
+   "type": "organization",
+   "name": "NSA",
+   "evidence": "the National Security Agency (NSA)."
+  },
+  {
+   "type": "organization",
+   "name": "EPA",
+   "evidence": "the Environmental Protection Agency (EPA)."
+  },
+  {
+   "type": "organization",
+   "name": "INCD",
+   "evidence": "the Israel National Cyber Directorate (INCD)."
+  },
+  {
+   "type": "organization",
+   "name": "CCCS",
+   "evidence": "the Canadian Centre for Cyber Security (CCCS)."
+  },
+  {
+   "type": "organization",
+   "name": "NCSC",
+   "evidence": "the United Kingdom’s National Cyber Security Centre (NCSC)."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "IRGC-affiliated APT cyber actors",
+   "evidence": "Named earlier in the document: IRGC-affiliated APT cyber actors, IRGC, CyberAv3ngers, Unitronics Vision Series PLCs"
+  },
+  {
+   "type": "threat-actor",
+   "name": "IRGC",
+   "evidence": "Named earlier in the document: IRGC-affiliated APT cyber actors, IRGC, CyberAv3ngers, Unitronics Vision Series PLCs"
+  },
+  {
+   "type": "threat-actor",
+   "name": "CyberAv3ngers",
+   "evidence": "Named earlier in the document: IRGC-affiliated APT cyber actors, IRGC, CyberAv3ngers, Unitronics Vision Series PLCs"
+  },
+  {
+   "type": "campaign",
+   "name": "cyber campaign against Israel and Israeli-made technology",
+   "evidence": "the NCSC observed the targeting of PLC devices, including in the United Kingdom, likely as part of a wider cyber campaign against Israel and Israeli-made technology"
+  },
+  {
+   "type": "malware",
+   "name": "Unitronics Vision Series PLCs",
+   "evidence": "Named earlier in the document: IRGC-affiliated APT cyber actors, IRGC, CyberAv3ngers, Unitronics Vision Series PLCs"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force",
+   "evidence": "Brute Force T1110 The actors used brute force to gain access to Valid Accounts.",
+   "mitre_id": "T1110"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Default Accounts",
+   "evidence": "Default Accounts T1078.001 The actors compromised multiple devices via default credentials.",
+   "mitre_id": "T1078.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Stored Data Manipulation",
+   "evidence": "Stored Data Manipulation T1565.001 The actors erased the original ladder logic file on compromised devices.",
+   "mitre_id": "T1565.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Access Removal",
+   "evidence": "Account Access Removal T1531 The actors renamed the compromised devices so that device operators could no longer access them.",
+   "mitre_id": "T1531"
+  },
+  {
+   "type": "vulnerability",
+   "name": "default passwords or no password",
+   "evidence": "the PLCs were internet-facing, used Unitronics’ default passwords or no password, and connected to default ports—vulnerabilities that were likely exploited by the actors"
+  },
+  {
+   "type": "sector",
+   "name": "Water and Wastewater Systems",
+   "evidence": "the NCSC observed the targeting of PLC devices, including in the United Kingdom, likely as part of a wider cyber campaign against Israel and Israeli-made technology"
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "CyberAv3ngers targeted U.S.-based Unitronics PLC devices used in multiple critical infrastructure industries"
+  },
+  {
+   "type": "country",
+   "name": "Israel",
+   "evidence": "the NCSC observed the targeting of PLC devices, including in the United Kingdom, likely as part of a wider cyber campaign against Israel and Israeli-made technology"
+  },
+  {
+   "type": "organization",
+   "name": "Unitronics",
+   "evidence": "the PLCs were internet-facing, used Unitronics’ default passwords or no password, and connected to default ports—vulnerabilities that were likely exploited by the actors"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "IRGC-affiliated APT cyber actors",
+   "evidence": "IRGC-affiliated APT cyber actors, IRGC, CyberAv3ngers, Unitronics Vision Series PLCs, CyberAv3ngers, cyber campaign against Israel and Israeli-made technology"
+  },
+  {
+   "type": "threat-actor",
+   "name": "IRGC",
+   "evidence": "IRGC-affiliated APT cyber actors, IRGC, CyberAv3ngers, Unitronics Vision Series PLCs, CyberAv3ngers, cyber campaign against Israel and Israeli-made technology"
+  },
+  {
+   "type": "malware",
+   "name": "Unitronics Vision Series PLCs",
+   "evidence": "The cyber threat actors accessed the affected devices—Unitronics Vision Series PLCs—by authenticating to internet-connected devices using default or no passwords."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Endpoint Denial of Service",
+   "evidence": "The actors disabled the upload and download functions of the PLC device to prevent the device operators from taking down the splash page.",
+   "mitre_id": "T1499"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Defacement: Internal Defacement",
+   "evidence": "The actors uploaded a splash page to the HMI screen to display a message regarding the hacking.",
+   "mitre_id": "T1491.001"
+  },
+  {
+   "type": "sector",
+   "name": "Water and Wastewater Systems Facilities",
+   "evidence": "The authoring agencies recommend critical infrastructure organizations, including WWS Sector facilities, implement the following mitigation and detection strategies to improve organizational cybersecurity posture to defend against IRGC-affiliated activity."
+  },
+  {
+   "type": "country",
+   "name": "United States",
+   "evidence": "Recent Cyber Attacks on US Infrastructure Underscore Vulnerability of Critical US Systems, November 2023–April 2024."
+  },
+  {
+   "type": "organization",
+   "name": "Unitronics",
+   "evidence": "The cyber threat actors accessed the affected devices—Unitronics Vision Series PLCs—by authenticating to internet-connected devices using default or no passwords."
+  },
+  {
+   "type": "malware",
+   "name": "Unitronics Vision Series PLCs",
+   "evidence": "Device Manufacturers Although critical infrastructure organizations using Unitronics (including rebranded Unitronics) PLC devices can take steps to mitigate the risks, it is ultimately the responsibility of the device manufacturer to build products that are secure by design and default."
+  },
+  {
+   "type": "campaign",
+   "name": "cyber campaign against Israel and Israeli-made technology",
+   "evidence": "Named earlier in the document: IRGC-affiliated APT cyber actors, IRGC, CyberAv3ngers, cyber campaign against Israel and Israeli-made technology"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force",
+   "mitre_id": "T1110",
+   "evidence": "devices with communications set to the default TCP port 20256 [T1110]. These devices either had a"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Default Accounts",
+   "mitre_id": "T1078.001",
+   "evidence": "default password in place or no password [T1078.001]. The actors made multiple changes to the devices"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Manipulation: Stored Data Manipulation",
+   "mitre_id": "T1565.001",
+   "evidence": "[T1565.001]. Their ladder logic file contained no inputs or outputs. Since the programmed ladder"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Access Removal",
+   "mitre_id": "T1531",
+   "evidence": "[T1531]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Endpoint Denial of Service",
+   "mitre_id": "T1499",
+   "evidence": "operators from taking down the splash page [T1499]. Additionally, the actors enabled password"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Defacement: Internal Defacement",
+   "mitre_id": "T1491.001",
+   "evidence": "such as input and output readings [T1491.001]. In at least one instance the actors displayed a text"
+  }
+ ],
+ "observables": [
+  {
+   "type": "domain-name",
+   "value": "cisa.gov",
+   "indicates": [
+    "CISA"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "ncsc.gov.uk",
+   "indicates": [
+    "NCSC"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "cyber.gc.ca",
+   "indicates": [
+    "CCCS"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "cisecurity.org",
+   "indicates": [
+    "MS-ISAC"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "SayCISA@cisa.gov",
+   "indicates": [
+    "CISA"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "Cybersecurity_Requests@nsa.gov",
+   "indicates": [
+    "NSA"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "contact@cyber.gc.ca",
+   "indicates": [
+    "CCCS"
+   ]
+  },
+  {
+   "type": "email-addr",
+   "value": "SOC@cisecurity.org",
+   "indicates": [
+    "MS-ISAC"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "884.729-2472",
+   "indicates": [
+    "CISA"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "866-787-4722",
+   "indicates": [
+    "MS-ISAC"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "24.729-2472",
+   "indicates": [
+    "CISA"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "866-787-4722",
+   "indicates": [
+    "MS-ISAC"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "20256",
+   "indicates": [
+    "attack-pattern",
+    "T1110"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "20257",
+   "indicates": [
+    "attack-pattern",
+    "T1499"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "Telegram Channel",
+   "indicates": [
+    "threat-actor",
+    "CyberAv3ngers"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "Unitronics",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "public-facing internet",
+   "indicates": [
+    "sector",
+    "organization"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "IRGC-affiliated APT cyber actors",
+   "type": "targets",
+   "target": "Water and Wastewater Systems",
+   "evidence": "These PLCs are commonly used in the Water and Wastewater Systems (WWS) Sector."
+  },
+  {
+   "source": "IRGC-affiliated APT cyber actors",
+   "type": "targets",
+   "target": "United States",
+   "evidence": "targeting U.S. and global critical infrastructure."
+  },
+  {
+   "source": "IRGC-affiliated APT cyber actors",
+   "type": "targets",
+   "target": "United Kingdom",
+   "evidence": "targeting of PLC devices, including in the United Kingdom."
+  },
+  {
+   "source": "IRGC-affiliated APT cyber actors",
+   "type": "targets",
+   "target": "Israel",
+   "evidence": "Every equipment 'made in Israel' is CyberAv3ngers legal target."
+  },
+  {
+   "source": "IRGC-affiliated APT cyber actors",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "developed custom ladder logic files to download for each of these device types."
+  },
+  {
+   "source": "IRGC-affiliated APT cyber actors",
+   "type": "uses",
+   "target": "malware",
+   "evidence": "targeting Unitronics Vision Series PLCs and human machine interfaces (HMIs)."
+  },
+  {
+   "source": "IRGC-affiliated APT cyber actors",
+   "type": "attributed-to",
+   "target": "IRGC",
+   "evidence": "IRGC-affiliated APT cyber actors."
+  },
+  {
+   "source": "CISA",
+   "type": "attributed-to",
+   "target": "IRGC-affiliated APT cyber actors",
+   "evidence": "the authoring agencies are releasing this updated joint advisory to share TTPs associated with IRGC cyber operations."
+  },
+  {
+   "source": "FBI",
+   "type": "attributed-to",
+   "target": "IRGC-affiliated APT cyber actors",
+   "evidence": "the authoring agencies are releasing this updated joint advisory to share TTPs associated with IRGC cyber operations."
+  },
+  {
+   "source": "NSA",
+   "type": "attributed-to",
+   "target": "IRGC-affiliated APT cyber actors",
+   "evidence": "the authoring agencies are releasing this updated joint advisory to share TTPs associated with IRGC cyber operations."
+  },
+  {
+   "source": "EPA",
+   "type": "attributed-to",
+   "target": "IRGC-affiliated APT cyber actors",
+   "evidence": "the authoring agencies are releasing this updated joint advisory to share TTPs associated with IRGC cyber operations."
+  },
+  {
+   "source": "INCD",
+   "type": "attributed-to",
+   "target": "IRGC-affiliated APT cyber actors",
+   "evidence": "the authoring agencies are releasing this updated joint advisory to share TTPs associated with IRGC cyber operations."
+  },
+  {
+   "source": "CCCS",
+   "type": "attributed-to",
+   "target": "IRGC-affiliated APT cyber actors",
+   "evidence": "the authoring agencies are releasing this updated joint advisory to share TTPs associated with IRGC cyber operations."
+  },
+  {
+   "source": "NCSC",
+   "type": "attributed-to",
+   "target": "IRGC-affiliated APT cyber actors",
+   "evidence": "the authoring agencies are releasing this updated joint advisory to share TTPs associated with IRGC cyber operations."
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "CyberAv3ngers targeted Israeli PLCs in the water, energy, shipping, and distribution sectors."
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "targets",
+   "target": "country",
+   "evidence": "CyberAv3ngers targeted U.S.-based Unitronics PLC devices used in multiple critical infrastructure industries"
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "the PLCs were internet-facing, used Unitronics’ default passwords or no password, and connected to default ports—vulnerabilities that were likely exploited by the actors"
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Brute Force T1110 The actors used brute force to gain access to Valid Accounts."
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Default Accounts T1078.001 The actors compromised multiple devices via default credentials."
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Stored Data Manipulation T1565.001 The actors erased the original ladder logic file on compromised devices."
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "uses",
+   "target": "attack-pattern",
+   "evidence": "Account Access Removal T1531 The actors renamed the compromised devices so that device operators could no longer access them."
+  },
+  {
+   "source": "IRGC-affiliated APT cyber actors",
+   "type": "attributed-to",
+   "target": "threat-actor",
+   "evidence": "Named earlier in the document: IRGC-affiliated APT cyber actors, IRGC, CyberAv3ngers, Unitronics Vision Series PLCs"
+  },
+  {
+   "source": "IRGC",
+   "type": "attributed-to",
+   "target": "threat-actor",
+   "evidence": "Named earlier in the document: IRGC-affiliated APT cyber actors, IRGC, CyberAv3ngers, Unitronics Vision Series PLCs"
+  },
+  {
+   "source": "CyberAv3ngers",
+   "type": "attributed-to",
+   "target": "intrusion-set",
+   "evidence": "Named earlier in the document: IRGC-affiliated APT cyber actors, IRGC, CyberAv3ngers, Unitronics Vision Series PLCs"
+  },
+  {
+   "source": "IRGC-affiliated APT cyber actors",
+   "type": "targets",
+   "target": "Water and Wastewater Systems Facilities",
+   "evidence": "The authoring agencies recommend critical infrastructure organizations, including WWS Sector facilities, implement the following mitigation and detection strategies to improve organizational cybersecurity posture to defend against IRGC-affiliated activity."
+  },
+  {
+   "source": "IRGC-affiliated APT cyber actors",
+   "type": "targets",
+   "target": "Unitronics Vision Series PLCs",
+   "evidence": "The cyber threat actors accessed the affected devices—Unitronics Vision Series PLCs—by authenticating to internet-connected devices using default or no passwords."
+  },
+  {
+   "source": "IRGC-affiliated APT cyber actors",
+   "type": "uses",
+   "target": "Endpoint Denial of Service",
+   "evidence": "The actors disabled the upload and download functions of the PLC device to prevent the device operators from taking down the splash page."
+  },
+  {
+   "source": "IRGC-affiliated APT cyber actors",
+   "type": "uses",
+   "target": "Defacement: Internal Defacement",
+   "evidence": "The actors uploaded a splash page to the HMI screen to display a message regarding the hacking."
+  },
+  {
+   "source": "IRGC-affiliated APT cyber actors",
+   "type": "targets",
+   "target": "United States",
+   "evidence": "Recent Cyber Attacks on US Infrastructure Underscore Vulnerability of Critical US Systems, November 2023–April 2024."
+  },
+  {
+   "source": "IRGC-affiliated APT cyber actors",
+   "type": "targets",
+   "target": "Unitronics",
+   "evidence": "The cyber threat actors accessed the affected devices—Unitronics Vision Series PLCs—by authenticating to internet-connected devices using default or no passwords."
+  },
+  {
+   "source": "IRGC",
+   "type": "uses",
+   "target": "T1110",
+   "evidence": "devices with communications set to the default TCP port 20256 [T1110]. These devices either had a"
+  },
+  {
+   "source": "IRGC",
+   "type": "uses",
+   "target": "T1078.001",
+   "evidence": "default password in place or no password [T1078.001]. The actors made multiple changes to the devices"
+  },
+  {
+   "source": "IRGC",
+   "type": "uses",
+   "target": "T1565.001",
+   "evidence": "[T1565.001]. Their ladder logic file contained no inputs or outputs. Since the programmed ladder"
+  },
+  {
+   "source": "IRGC",
+   "type": "uses",
+   "target": "T1531",
+   "evidence": "[T1531]."
+  }
+ ],
+ "_meta": {
+  "engine": "0.3",
+  "model": "qwen3:8b",
+  "seconds": 565.6,
+  "errors": ""
+ }
+}

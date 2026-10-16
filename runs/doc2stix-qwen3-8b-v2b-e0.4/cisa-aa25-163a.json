@@ -1,0 +1,53 @@
+{
+ "entities": [
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-57727",
+   "evidence": "CVE-2024-57727—a path traversal vulnerability."
+  },
+  {
+   "type": "malware",
+   "name": "SimpleHelp Remote Monitoring and Management",
+   "evidence": "SimpleHelp Remote Monitoring and Management (RMM) to Compromise Utility Billing"
+  },
+  {
+   "type": "malware",
+   "name": "SimpleHelp",
+   "evidence": "▪ Maintain a clean, offline backup of the system to ensure encryption will not occur once reverted."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2025-163A",
+   "evidence": "Page 5 of 5 | Product ID: AA25-163A"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-57727",
+   "evidence": "SimpleHelp versions 5.5.7 and earlier contain several vulnerabilities, including CVE-2024-57727—a path"
+  }
+ ],
+ "observables": [
+  {
+   "type": "url",
+   "value": "https://simple-help.com/allversions",
+   "indicates": [
+    "SimpleHelp Remote Monitoring and Management"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "CVE-2024-57727",
+   "type": "exploits",
+   "target": "SimpleHelp Remote Monitoring and Management",
+   "evidence": "ransomware actors leveraging unpatched instances of a vulnerability in SimpleHelp Remote Monitoring and Management (RMM) to compromise customers of a utility billing software provider."
+  }
+ ],
+ "_meta": {
+  "engine": "0.4",
+  "model": "doc2stix-qwen3-8b:v2b",
+  "seconds": 17.1,
+  "errors": "",
+  "replayed_from": "doc2stix-qwen3-8b-v2b-e0.3"
+ }
+}

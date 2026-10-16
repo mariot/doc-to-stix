@@ -1,0 +1,834 @@
+{
+ "entities": [
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-46805",
+   "evidence": "CVE-2023-46805",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21887",
+   "evidence": "CVE-2024-21887",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21893",
+   "evidence": "CVE-2024-21893",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-22024",
+   "evidence": "CVE-2024-22024",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21888",
+   "evidence": "CVE-2024-21888",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-46805",
+   "evidence": "actors exploited these CVEs for initial access",
+   "aliases": [],
+   "mitre_id": "CVE-2023-46805"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-46806",
+   "evidence": "actors exploited these CVEs for initial access",
+   "aliases": [],
+   "mitre_id": "CVE-2023-46806"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-46805",
+   "evidence": "CVE-2023-46805 (Authentication Bypass) & CVE-2024-21887 (Command Injection) for Ivanti Connect Secure and Ivanti Policy Secure Gateways"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21887",
+   "evidence": "CVE-2023-46805 (Authentication Bypass) & CVE-2024-21887 (Command Injection) for Ivanti Connect Secure and Ivanti Policy Secure Gateways"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21893",
+   "evidence": "CISA’s research team wanted to answer the question: “How far could an attacker go if they set were to exploit these CVEs remotely?”"
+  },
+  {
+   "type": "malware",
+   "name": "WARPWIRE",
+   "evidence": "WARPWIRE credential harvester variant",
+   "aliases": [
+    "WARPWIRE variant"
+   ],
+   "mitre_id": ""
+  },
+  {
+   "type": "malware",
+   "name": "CHAINLINE",
+   "evidence": "CHAINLINE web shell",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "malware",
+   "name": "LIGHTWIRE",
+   "evidence": "LIGHTWIRE web shell",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "malware",
+   "name": "WIREFIRE",
+   "evidence": "WIREFIRE web shell",
+   "aliases": [],
+   "mitre_id": ""
+  },
+  {
+   "type": "intrusion-set",
+   "name": "WARPWIRE",
+   "evidence": "Named earlier in the document: WARPWIRE, CHAINLINE, LIGHTWIRE, WIREFIRE",
+   "aliases": [
+    "CHAINLINE",
+    "LIGHTWIRE",
+    "WIREFIRE"
+   ]
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Shell",
+   "mitre_id": "T1505.003",
+   "evidence": "[T1505.003]. Once successfully deployed, these web shells are used to execute commands on"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "mitre_id": "T1190",
+   "evidence": "Applications T1190"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "Valid Accounts T1078"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001",
+   "evidence": "T1059.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Client Execution",
+   "mitre_id": "T1203",
+   "evidence": "Execution T1203"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21887",
+   "evidence": "46805, CVE-2024-21887, and CVE-2024-21893—affecting Ivanti Connect Secure and Ivanti Policy"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21893",
+   "evidence": "46805, CVE-2024-21887, and CVE-2024-21893—affecting Ivanti Connect Secure and Ivanti Policy"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-22024",
+   "evidence": "• CVE-2024-22024 is an XML vulnerability in the SAML component of Ivanti Connect Secure"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-21888",
+   "evidence": "• CVE-2024-21888 is a privilege escalation vulnerability found in the web component of Ivanti"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-46805",
+   "evidence": "[3] KB CVE-2023-46805 (Authentication Bypass) & CVE-2024-21887 (Command Injection) for"
+  }
+ ],
+ "observables": [
+  {
+   "type": "domain-name",
+   "value": "volexity.com",
+   "hash": "",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "mandiant.com",
+   "hash": "",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "github.com",
+   "hash": "",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "symantke.com",
+   "hash": "",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "miltonhouse.nl",
+   "hash": "",
+   "indicates": [
+    "WARPWIRE variant"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "entraide-internationale.fr",
+   "hash": "",
+   "indicates": [
+    "WARPWIRE variant"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "api.d-n-s.name",
+   "hash": "",
+   "indicates": [
+    "WARPWIRE variant"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "cpanel.netbar.org",
+   "hash": "",
+   "indicates": [
+    "WARPWIRE variant"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "clickcom.click",
+   "hash": "",
+   "indicates": [
+    "WARPWIRE variant"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "clicko.click",
+   "hash": "",
+   "indicates": [
+    "WARPWIRE variant"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "duorhytm.fun",
+   "hash": "",
+   "indicates": [
+    "WARPWIRE variant"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "line-api.com",
+   "hash": "",
+   "indicates": [
+    "WARPWIRE variant"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "areekaweb.com",
+   "hash": "",
+   "indicates": [
+    "WARPWIRE variant"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "ehangmun.com",
+   "hash": "",
+   "indicates": [
+    "WARPWIRE variant"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "secure-cama.com",
+   "hash": "",
+   "indicates": [
+    "WARPWIRE variant"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "146.0.228.66",
+   "hash": "",
+   "indicates": [
+    "WARPWIRE variant C2 server"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "159.65.130.146",
+   "hash": "",
+   "indicates": [
+    "WARPWIRE variant C2 server"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "8.137.112.245",
+   "hash": "",
+   "indicates": [
+    "WARPWIRE variant C2 server"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "91.92.254.14",
+   "hash": "",
+   "indicates": [
+    "WARPWIRE variant C2 server"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "186.179.39.235",
+   "hash": "",
+   "indicates": [
+    "Mass exploitation activity"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.215.39.49",
+   "hash": "",
+   "indicates": [
+    "Post-exploitation activity"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.61.136.14",
+   "hash": "",
+   "indicates": [
+    "Post-exploitation activity"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "173.220.106.166",
+   "hash": "",
+   "indicates": [
+    "Post-exploitation activity"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "line-api[.]com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "areekaweb[.]com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "ehangmun[.]com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "secure-cama[.]com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "146.0.228[.]66",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "159.65.130[.]146",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "8.137.112[.]245",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "91.92.254[.]14",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "186.179.39[.]235",
+   "indicates": [
+    "Mass exploitation activity"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.215.39[.]49",
+   "indicates": [
+    "Post-exploitation activity"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.61.136[.]14",
+   "indicates": [
+    "Post-exploitation activity"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "173.220.106[.]166",
+   "indicates": [
+    "Post-exploitation activity"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8bc8f4da98ee05c9d403d2cb76097818de0b524d90bea8ed846615e42cb031d2",
+   "hash": "SHA-256",
+   "indicates": [
+    "COMPLYSHELL"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "26cbb54b1feb75fe008e36285334d747428f80aacdb57badf294e597f3e9430d",
+   "hash": "SHA-256",
+   "indicates": [
+    "custom webshell"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9d901f1a494ffa98d967ee6ee30a46402c12a807ce425d5f51252eb69941d988",
+   "hash": "SHA-256",
+   "indicates": [
+    "reGeorg webshell"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e192932d834292478c9b1032543c53edfc2b252fdf7e27e4c438f4b249544eeb",
+   "hash": "SHA-256",
+   "indicates": [
+    "SOCKS5 proxy tool"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "3045f5b3d355a9ab26ab6f44cc831a83",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "3d97f55a03ceb4f71671aa2ecf5b24e9",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "2ec505088b942c234f39a37188e80d7a",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8eb042da6ba683ef1bae460af103cc44",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "a739bd4c2b9f3679f43579711448786f",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "a81813f70151a022ea1065b7f4d6b5ab",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d0c7a334a4d9dcd3c6335ae13bee59ea",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e8489983d73ed30a4240a14b1f161254",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8bc8f4da98ee05c9d403d2cb76097818de0b524d90bea8ed846615e42cb031d2",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "26cbb54b1feb75fe008e36285334d747428f80aacdb57badf294e597f3e9430d",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9d901f1a494ffa98d967ee6ee30a46402c12a807ce425d5f51252eb69941d988",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e192932d834292478c9b1032543c53edfc2b252fdf7e27e4c438f4b249544eeb",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "88.119.169.227",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "103.13.28.40",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "46.8.68.100",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "206.189.208.156",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "gpoaccess.com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "webb-institute.com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "symantke.com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "75.145.243.85",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "47.207.9.89",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "98.160.48.170",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "173.220.106.166",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "73.128.178.221",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.243.177.161",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.213.208.89",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "64.24.179.210",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "75.145.224.109",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "50.215.39.49",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "71.127.149.194",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "173.53.43.7",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "miltonhouse.nl",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "entraide-internationale.fr",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "api.d-n-s.name",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "cpanel.netbar.org",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "clickcom.click",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "clicko.click",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "duorhytm.fun",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "line-api.com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "areekaweb.com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "ehangmun.com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "secure-cama.com",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "146.0.228.66",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "159.65.130.146",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "8.137.112.245",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "91.92.254.14",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "186.179.39.235",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.61.136.14",
+   "indicates": [
+    "WARPWIRE"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "Cyber actors will use custom web shells planted on public facing applications which allows persistence in victims’ environment."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "T1078",
+   "evidence": "Cyber actors leverage compromised accounts to laterally move within internal systems via RDP, SBD, and SSH."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "Cyber actors may use web shells on internal- and external-facing web servers to establish persistent access to systems."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "T1059.001",
+   "evidence": "Cyber actors leverage code execution from request parameters that are decoded from hex to base64 decoded, then passed to Assembly.Load(), which is used to execute arbitrary PowerShell commands."
+  },
+  {
+   "source": "WARPWIRE",
+   "type": "uses",
+   "target": "T1203",
+   "evidence": "Cyber actors will exploit software vulnerabilities such as command-injection and achieve unauthenticated remote code execution (RCE)."
+  }
+ ],
+ "_meta": {
+  "engine": "0.5",
+  "model": "qwen3:30b-a3b",
+  "seconds": 222.7,
+  "errors": ""
+ }
+}

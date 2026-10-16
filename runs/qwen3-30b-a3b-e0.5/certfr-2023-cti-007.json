@@ -1,0 +1,1506 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "FIN12",
+   "evidence": "La réactivité de l’établissement de santé a permis d’isoler rapidement le système d’information d’Internet et d’entraver la progression du mode opératoire des attaquants (MOA), empêchant ainsi l’exfiltration de données et le chiffrement du système d’information. La découverte de liens avec un ensemble d’incidents observés sur le périmètre français et rapportés en sources ouvertes a permis à l’ANSSI d’associer cette attaque au MOA cybercriminel FIN12."
+  },
+  {
+   "type": "malware",
+   "name": "SystemBC",
+   "evidence": "Les attaquants ont utilisé leur accès de bureau à distance afin d’exécuter deux portes dérobées : SystemBC 2 et Cobalt Strike."
+  },
+  {
+   "type": "malware",
+   "name": "Cobalt Strike",
+   "evidence": "Les attaquants ont utilisé leur accès de bureau à distance afin d’exécuter deux portes dérobées : SystemBC 2 et Cobalt Strike."
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et Nokoyawa. Ils auraient également utilisé les rançongiciels Play et Royal."
+  },
+  {
+   "type": "malware",
+   "name": "Conti",
+   "evidence": "Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et Nokoyawa. Ils auraient également utilisé les rançongiciels Play et Royal."
+  },
+  {
+   "type": "malware",
+   "name": "Hive",
+   "evidence": "Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et Nokoyawa. Ils auraient également utilisé les rançongiciels Play et Royal."
+  },
+  {
+   "type": "malware",
+   "name": "BlackCat",
+   "evidence": "Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et Nokoyawa. Ils auraient également utilisé les rançongiciels Play et Royal."
+  },
+  {
+   "type": "malware",
+   "name": "Nokoyawa",
+   "evidence": "Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et Nokoyawa. Ils auraient également utilisé les rançongiciels Play et Royal."
+  },
+  {
+   "type": "malware",
+   "name": "Play",
+   "evidence": "Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et Nokoyawa. Ils auraient également utilisé les rançongiciels Play et Royal."
+  },
+  {
+   "type": "malware",
+   "name": "Royal",
+   "evidence": "Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et Nokoyawa. Ils auraient également utilisé les rançongiciels Play et Royal."
+  },
+  {
+   "type": "campaign",
+   "name": "PISTACHE TEMPEST",
+   "evidence": "2.2 PISTACHE TEMPEST : l’héritier de FIN12."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "FIN12",
+   "evidence": "FIN 12 : Un groupe cybercriminel aux multiples rançongiciels",
+   "aliases": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "SystemBC",
+   "evidence": "SystemBC est un code malveillant disponible à l’achat sur des forums cybercriminels",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Cobalt Strike",
+   "evidence": "Au cours de l’incident, les attaquants ont employé deux portes dérobées : SystemBC et Cobalt Strike",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Conti",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Hive",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "BlackCat",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Nokoyawa",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Play",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Royal",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "PISTACHE TEMPEST",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "FIN12",
+   "evidence": "D’après les analyses de l’ANSSI, les attaquants responsables de l’incident du CHU de Brest pourraient donc être affiliés à différentes attaques par rançongiciel. Ils auraient utilisé les rançongiciels Ryuk, puis Conti, avant de distribuer Hive, Nokoyawa, Play et Royal. Une analyse historique de leur mode opératoire les lie à FIN12 ainsi qu’à d’autres opérations de rançongiciels ayant succédé à la fin des opérations du groupe CONTI (WIZARD SPIDER).",
+   "aliases": [
+    "PISTACHE TEMPEST",
+    "DEV-0237"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "SystemBC",
+   "evidence": "Le 11 mars 2022, le compte Twitter @Cryptolaemus1 a identifié la distribution d’un implant SystemBC par le botnet Epoch 5 lié au Malware-as-a-Service (MaaS) Emotet.",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Cobalt Strike",
+   "evidence": "Concernant l’infrastructure Cobalt Strike, le nom de domaine « tumbleproperty.com » identifié dans la partie 1.2.2, a été observé par la CISA en décembre 2022 dans un incident impliquant le rançongiciel Royal.",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "2019 / 2021 Mandiant Ryuk",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Conti",
+   "evidence": "2019 / 2021 Mandiant Ryuk\nConti ■ ■ ■ ■ ■",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Hive",
+   "evidence": "2020 / 2022 Microsoft MSTIC\nRyuk\nConti\nHive\nBlackCat\nNokoyawa",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "BlackCat",
+   "evidence": "2020 / 2022 Microsoft MSTIC\nRyuk\nConti\nHive\nBlackCat\nNokoyawa",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Nokoyawa",
+   "evidence": "2020 / 2022 Microsoft MSTIC\nRyuk\nConti\nHive\nBlackCat\nNokoyawa",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Play",
+   "evidence": "2022-07 Trend Micro Play ■ ■ ■ ■ ■",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Royal",
+   "evidence": "Concernant l’infrastructure Cobalt Strike, le nom de domaine « tumbleproperty.com » identifié dans la partie 1.2.2, a été observé par la CISA en décembre 2022 dans un incident impliquant le rançongiciel Royal.",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Emotet",
+   "evidence": "Le 11 mars 2022, le compte Twitter @Cryptolaemus1 a identifié la distribution d’un implant SystemBC par le botnet Epoch 5 lié au Malware-as-a-Service (MaaS) Emotet.",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "BazarLoader",
+   "evidence": "Commentaire : les attaquants impliqués dans l’incident du CHU de Brest seraient donc actifs depuis au moins 2019 et auraient utilisé successivement les rançongiciels Ryuk, Conti, Hive, Nokoyawa et Play. Ils auraient également eu recours aux services du code malveillant BazarLoader entre 2020 et 2021.",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "TrickBot",
+   "evidence": "Selon MICROSOFT, les opérateurs de PISTACHE TEMPEST auraient également utilisé le code malveillant TrickBot et le MaaS GoziAT [14].",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "GoziAT",
+   "evidence": "Selon MICROSOFT, les opérateurs de PISTACHE TEMPEST auraient également utilisé le code malveillant TrickBot et le MaaS GoziAT [14].",
+   "aliases": []
+  },
+  {
+   "type": "campaign",
+   "name": "PISTACHE TEMPEST",
+   "evidence": "MICROSOFT suit ce mode opératoire sous la dénomination PISTACHE TEMPEST ou DEV-0237 [10].",
+   "aliases": [
+    "DEV-0237"
+   ]
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-41080",
+   "evidence": "De plus, grâce à des liens d’infrastructure, l’ANSSI a pu rattacher au même MOA plusieurs exploitations de la vulnérabilité ProxyNotShell (CVE-2022-41080 et CVE-2022-41082) ayant mené au déploiement de Play.",
+   "aliases": []
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-41082",
+   "evidence": "De plus, grâce à des liens d’infrastructure, l’ANSSI a pu rattacher au même MOA plusieurs exploitations de la vulnérabilité ProxyNotShell (CVE-2022-41080 et CVE-2022-41082) ayant mené au déploiement de Play.",
+   "aliases": []
+  },
+  {
+   "type": "sector",
+   "name": "Healthcare",
+   "evidence": "Le mode opératoire FIN12 serait caractérisé par un intérêt pour les entreprises susceptibles de payer des rançons élevées (Big Game Hunting) ainsi que par un ciblage important du secteur de la santé (au moins 20% des victimes du groupe) [12].",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "FIN12",
+   "evidence": "ait d’abord ce MOA sous l’appellation UNC1878 avant de choisir FIN12.",
+   "aliases": [
+    "UNC1878"
+   ]
+  },
+  {
+   "type": "intrusion-set",
+   "name": "PISTACHE TEMPEST",
+   "evidence": "PISTACHE TEMPEST",
+   "aliases": [
+    "PISTACHE TEMPEST"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "BazarLoader",
+   "evidence": "BazarLoader est un code malveillant identifié pour la première fois en avril 2020",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Hive",
+   "evidence": "utilisation par PISTACHE TEMPEST de Hive dès octobre 2021",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Play",
+   "evidence": "PISTACHE TEMPEST aurait commencé à utiliser le rançongiciel Play",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Royal",
+   "evidence": "utilisation par les opérateurs de PISTACHE TEMPEST du rançongiciel Royal",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Conti",
+   "evidence": "groupe CONTI (WIZARD SPIDER)",
+   "aliases": [
+    "WIZARD SPIDER"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "SystemBC",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Cobalt Strike",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "BlackCat",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Nokoyawa",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Emotet",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "TrickBot",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "GoziAT",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "FIN12",
+   "evidence": "FIN 12 : Un groupe cybercriminel aux multiples rançongiciels",
+   "aliases": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "SystemBC",
+   "evidence": "Utilisation de VPS hébergés chez VULTR comme serveurs C2 SystemBC, et utilisation du port 4177.",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Cobalt Strike",
+   "evidence": "Utilisation de l’outil Random C2 Profile Generator pour générer le profil Malleable C2 Cobalt Strike.",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Conti",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Hive",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "BlackCat",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Nokoyawa",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Play",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Royal",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "PISTACHE TEMPEST",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": [
+    "PISTACHE TEMPEST"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "Emotet",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "BazarLoader",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "TrickBot",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "GoziAT",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "intrusion-set",
+   "name": "FIN12",
+   "evidence": "FIN 12 : Un groupe cybercriminel aux multiples rançongiciels",
+   "aliases": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "malware",
+   "name": "SystemBC",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Cobalt Strike",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Conti",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Hive",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "BlackCat",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Nokoyawa",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Play",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Royal",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "PISTACHE TEMPEST",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "Emotet",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "BazarLoader",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "TrickBot",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "malware",
+   "name": "GoziAT",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT",
+   "aliases": []
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obtain Capabilities: Tool",
+   "mitre_id": "T1588.002",
+   "evidence": "Resource Development T1588.002 Obtain Capabilities: Tool Utilisation de l’outil Random C2 Profile Generator pour"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure: Server",
+   "mitre_id": "T1583.004",
+   "evidence": "Resource Development T1583.004 Acquire Infrastructure: Server Utilisation de VPS hébergés chez VULTR comme serveurs C2"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "External Remote Services",
+   "mitre_id": "T1133",
+   "evidence": "Initial Access T1133 External Remote Services Connexion à un service de bureau à distance."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Domain Accounts",
+   "mitre_id": "T1078.002",
+   "evidence": "Initial Access T1078.002 Valid Accounts: Domain Accounts Utilisation d’authentifiants valides pour se connecter à un"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create Account: Local Account",
+   "mitre_id": "T1136.001",
+   "evidence": "Persistence T1136.001 Create Account: Local Account Tentative de création du compte « supp »."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Privilege Escalation",
+   "mitre_id": "T1068",
+   "evidence": "Privilege Escalation T1068 Exploitation for Privilege Escalation Tentative d’exploitation des vulnérabilités LocalPotato"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "Defense Evasion T1036.005 Masquerading: Match Legitimate Name or Location Utilisation des répertoires « C:\\Users\\Public\\Music\\ » et"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force: Password Spraying",
+   "mitre_id": "T1110.003",
+   "evidence": "Credential Access T1110.003 Brute Force: Password Spraying Utilisation de l’outil AccountRestore avec le dictionnaire"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: LSASS Memory",
+   "mitre_id": "T1003.001",
+   "evidence": "Credential Access T1003.001 OS Credential Dumping: LSASS Memory Utilisation de l’outil Mimikatz."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Steal or Forge Kerberos Tickets: Kerberoasting",
+   "mitre_id": "T1558.003",
+   "evidence": "Credential Access T1558.003 Steal or Forge Kerberos Tickets: Kerberoasting Utilisation de l’outil SharpRoast."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "mitre_id": "T1046",
+   "evidence": "Discovery T1046 Network Service Discovery Utilisation de l’outil de découverte réseau Softperfect"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote System Discovery",
+   "mitre_id": "T1018",
+   "evidence": "Discovery T1018 Remote System Discovery Utilisation des outils de découverte PingCastle et"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation of Remote Services",
+   "mitre_id": "T1210",
+   "evidence": "Lateral Movement T1210 Exploitation of Remote Services"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy: Domain Fronting",
+   "mitre_id": "T1090.004",
+   "evidence": "Command and Control T1090.004 Proxy: Domain Fronting Utilisation du CND CLOUDFLARE afin de dissimuler le serveur"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Protocol Tunneling",
+   "mitre_id": "T1572",
+   "evidence": "Command and Control T1572 Protocol Tunneling Utilisation d’un tunnel SOCKS5 via l’implant SystemBC."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-21746",
+   "evidence": "(CVE-2023-21746) et"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-24521",
+   "evidence": "la CVE-2022-24521."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-34527",
+   "evidence": "(CVE-2021-34527), BlueKeep 5"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-0708",
+   "evidence": "(CVE-2019-0708), puis ZeroLogon 6"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-1472",
+   "evidence": "(CVE-2020-1472) via l’outil Mimikatz."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-41080",
+   "evidence": "vulnérabilité ProxyNotShell (CVE-2022-41080 et CVE-2022-41082) ayant mené au déploiement de Play."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-41082",
+   "evidence": "vulnérabilité ProxyNotShell (CVE-2022-41080 et CVE-2022-41082) ayant mené au déploiement de Play."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-1675",
+   "evidence": "[5] SPLOITUS . Exploit for Improper Privilege Management in Microsoft CVE-2021-34527 CVE-2021-1675."
+  }
+ ],
+ "observables": [
+  {
+   "type": "ipv4-addr",
+   "value": "149.28.197.120",
+   "hash": "",
+   "indicates": [
+    "SystemBC"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "149.28.213.157",
+   "hash": "",
+   "indicates": [
+    "SystemBC"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "youthconscience.com",
+   "hash": "",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "149.28.197.120",
+   "hash": "",
+   "indicates": [
+    "SystemBC"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "149.28.213.157",
+   "hash": "",
+   "indicates": [
+    "SystemBC"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "youthconscience.com",
+   "hash": "",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "tumbleproperty.com",
+   "hash": "",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "texasflooddesign.com",
+   "hash": "",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "performernews.com",
+   "hash": "",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "getinteriorartstudio.com",
+   "hash": "",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "tributepower.com",
+   "hash": "",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "realversedesign.com",
+   "hash": "",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "purpleinfluenceonline.com",
+   "hash": "",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "herbswallow.com",
+   "hash": "",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "psychologymax.com",
+   "hash": "",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "jacketsupport.com",
+   "hash": "",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "mirrordirectory.com",
+   "hash": "",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "tumbleproperty.com",
+   "hash": "",
+   "indicates": [
+    "Royal",
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "texasflooddesign.com",
+   "hash": "",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "performernews.com",
+   "hash": "",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "getinteriorartstudio.com",
+   "hash": "",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "youthconscience.com",
+   "hash": "",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "tributepower.com",
+   "hash": "",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "realversedesign.com",
+   "hash": "",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "purpleinfluenceonline.com",
+   "hash": "",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "herbswallow.com",
+   "hash": "",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "psychologymax.com",
+   "hash": "",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "jacketsupport.com",
+   "hash": "",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "mirrordirectory.com",
+   "hash": "",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "96.30.196.207",
+   "hash": "",
+   "indicates": [
+    "SystemBC"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.32.132.182",
+   "hash": "",
+   "indicates": [
+    "SystemBC"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "getinteriorartstudio.com",
+   "hash": "",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "performernews.com",
+   "hash": "",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "texasflooddesign.com",
+   "hash": "",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "tumbleproperty.com",
+   "hash": "",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "purpleinfluenceonline.com",
+   "hash": "",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "realversedesign.com",
+   "hash": "",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "tributepower.com",
+   "hash": "",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "youthconscience.com",
+   "hash": "",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "149.28.197.120",
+   "hash": "",
+   "indicates": [
+    "SystemBC"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "149.28.213.157",
+   "hash": "",
+   "indicates": [
+    "SystemBC"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "herbswallow.com",
+   "hash": "",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "jacketsupport.com",
+   "hash": "",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "psychologymax.com",
+   "hash": "",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "mirrordirectory.com",
+   "hash": "",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "youthconscience.com",
+   "hash": "",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8a0743f17110dc945007f08f3e63da166a3937dc",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9e2737994aa8bf0d6900e5369d51978adc4c02f9",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "364a4d9ea6f88eec098b13728fce2c1ead94c48d",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8291929d6f3ede6ec025c21d1559a7fe9d30a9ce",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "70ad1a42ce05404c00513989c949c83a94feca92",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "28400c267815762e49c200e8b481a592c67f9cf7",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d65969088eb8f6098c33c5427a650e8576cdbfa6",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "eeaf29a71330db50cdd4630f8d9f1c2b6a34578c",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "292629c6ab33bddf123d26328025e2d157d9e8fc",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "536734aa6ec0f0b1ba8e43088edc6857eca42667",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e2a68116d52182f207c087f349e04e049982d431",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "fae6068d4433b33751bf7de866d7f2900aa15139",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d69420a636dacfbafaf01f7153692c197e9b6400",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "68a07540fbf58fe743636b7fc8f0370c84134eb3",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "58cb839dbc0232874b6fed9a354d4cc6d355cbac",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "1e0ec6994400413c7899cd5c59bdbd6397dea7b5",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "35ff55bcf493e1b936dc6e978a981ee2a75543a1",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "a00ebf699ea0759e7bf4af65dddd741133c38484",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "df12386df2c0fcf65522282914424d63da962d79",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "32f7e0b84b76a8f8ec0069e2188475e5",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "149.28.197.120",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "149.28.213.157",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "2.11.0.1",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "96.30.196.207",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.32.132.182",
+   "indicates": [
+    "FIN12"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "SystemBC",
+   "evidence": "Les attaquants ont utilisé leur accès de bureau à distance afin d’exécuter deux portes dérobées : SystemBC 2 et Cobalt Strike."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Cobalt Strike",
+   "evidence": "Les attaquants ont utilisé leur accès de bureau à distance afin d’exécuter deux portes dérobées : SystemBC 2 et Cobalt Strike."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Ryuk",
+   "evidence": "Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et Nokoyawa. Ils auraient également utilisé les rançongiciels Play et Royal."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Conti",
+   "evidence": "Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et Nokoyawa. Ils auraient également utilisé les rançongiciels Play et Royal."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Hive",
+   "evidence": "Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et Nokoyawa. Ils auraient également utilisé les rançongiciels Play et Royal."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "BlackCat",
+   "evidence": "Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et Nokoyawa. Ils auraient également utilisé les rançongiciels Play et Royal."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Nokoyawa",
+   "evidence": "Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et Nokoyawa. Ils auraient également utilisé les rançongiciels Play et Royal."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Play",
+   "evidence": "Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et Nokoyawa. Ils auraient également utilisé les rançongiciels Play et Royal."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Royal",
+   "evidence": "Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et Nokoyawa. Ils auraient également utilisé les rançongiciels Play et Royal."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "SystemBC",
+   "evidence": "Le 11 mars 2022, le compte Twitter @Cryptolaemus1 a identifié la distribution d’un implant SystemBC par le botnet Epoch 5 lié au Malware-as-a-Service (MaaS) Emotet."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Cobalt Strike",
+   "evidence": "Concernant l’infrastructure Cobalt Strike, le nom de domaine « tumbleproperty.com » identifié dans la partie 1.2.2, a été observé par la CISA en décembre 2022 dans un incident impliquant le rançongiciel Royal."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "BazarLoader",
+   "evidence": "Commentaire : les attaquants impliqués dans l’incident du CHU de Brest seraient donc actifs depuis au moins 2019 et auraient utilisé successivement les rançongiciels Ryuk, Conti, Hive, Nokoyawa et Play. Ils auraient également eu recours aux services du code malveillant BazarLoader entre 2020 et 2021."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "TrickBot",
+   "evidence": "Selon MICROSOFT, les opérateurs de PISTACHE TEMPEST auraient également utilisé le code malveillant TrickBot et le MaaS GoziAT [14]."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "GoziAT",
+   "evidence": "Selon MICROSOFT, les opérateurs de PISTACHE TEMPEST auraient également utilisé le code malveillant TrickBot et le MaaS GoziAT [14]."
+  },
+  {
+   "source": "FIN12",
+   "type": "targets",
+   "target": "Healthcare",
+   "evidence": "Le mode opératoire FIN12 serait caractérisé par un intérêt pour les entreprises susceptibles de payer des rançons élevées (Big Game Hunting) ainsi que par un ciblage important du secteur de la santé (au moins 20% des victimes du groupe) [12]."
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "attributed-to",
+   "target": "FIN12",
+   "evidence": "MICROSOFT suit ce mode opératoire sous la dénomination PISTACHE TEMPEST ou DEV-0237 [10]."
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "Play",
+   "evidence": "2022-07 / 2022-12 4 incidents FR Play ■ ■ ■ ■ ■"
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "Royal",
+   "evidence": "Concernant l’infrastructure Cobalt Strike, le nom de domaine « tumbleproperty.com » identifié dans la partie 1.2.2, a été observé par la CISA en décembre 2022 dans un incident impliquant le rançongiciel Royal."
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "Ryuk",
+   "evidence": "2019 / 2021 Mandiant Ryuk"
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "Conti",
+   "evidence": "2019 / 2021 Mandiant Ryuk\nConti ■ ■ ■ ■ ■"
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "Hive",
+   "evidence": "2020 / 2022 Microsoft MSTIC\nRyuk\nConti\nHive\nBlackCat\nNokoyawa"
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "Nokoyawa",
+   "evidence": "2020 / 2022 Microsoft MSTIC\nRyuk\nConti\nHive\nBlackCat\nNokoyawa"
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "BlackCat",
+   "evidence": "2020 / 2022 Microsoft MSTIC\nRyuk\nConti\nHive\nBlackCat\nNokoyawa"
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "Emotet",
+   "evidence": "Le 11 mars 2022, le compte Twitter @Cryptolaemus1 a identifié la distribution d’un implant SystemBC par le botnet Epoch 5 lié au Malware-as-a-Service (MaaS) Emotet."
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "BazarLoader",
+   "evidence": "Commentaire : les attaquants impliqués dans l’incident du CHU de Brest seraient donc actifs depuis au moins 2019 et auraient utilisé successivement les rançongiciels Ryuk, Conti, Hive, Nokoyawa et Play. Ils auraient également eu recours aux services du code malveillant BazarLoader entre 2020 et 2021."
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "TrickBot",
+   "evidence": "Selon MICROSOFT, les opérateurs de PISTACHE TEMPEST auraient également utilisé le code malveillant TrickBot et le MaaS GoziAT [14]."
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "GoziAT",
+   "evidence": "Selon MICROSOFT, les opérateurs de PISTACHE TEMPEST auraient également utilisé le code malveillant TrickBot et le MaaS GoziAT [14]."
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "targets",
+   "target": "Healthcare",
+   "evidence": "Le mode opératoire FIN12 serait caractérisé par un intérêt pour les entreprises susceptibles de payer des rançons élevées (Big Game Hunting) ainsi que par un ciblage important du secteur de la santé (au moins 20% des victimes du groupe) [12]."
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "Hive",
+   "evidence": "utilisation par PISTACHE TEMPEST de Hive dès octobre 2021"
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "Play",
+   "evidence": "PISTACHE TEMPEST aurait commencé à utiliser le rançongiciel Play"
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "Royal",
+   "evidence": "utilisation par les opérateurs de PISTACHE TEMPEST du rançongiciel Royal"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "T1588.002",
+   "evidence": "Utilisation de l’outil Random C2 Profile Generator pour générer le profil Malleable C2 Cobalt Strike."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "T1583.004",
+   "evidence": "Utilisation de VPS hébergés chez VULTR comme serveurs C2 SystemBC, et utilisation du port 4177."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "T1133",
+   "evidence": "Connexion à un service de bureau à distance."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "T1078.002",
+   "evidence": "Utilisation d’authentifiants valides pour se connecter à un service de bureau à distance."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "T1136.001",
+   "evidence": "Tentative de création du compte « supp »."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "T1068",
+   "evidence": "Tentative d’exploitation des vulnérabilités LocalPotato (CVE-2023-21746) et CVE-2022-24521."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "T1036.005",
+   "evidence": "Utilisation des répertoires « C:\\Users\\Public\\Music\\ » et « C:\\Users\\[user]\\Downloads\\ »."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "T1110.003",
+   "evidence": "Utilisation de l’outil AccountRestore avec le dictionnaire « Passwordar.txt »."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "T1003.001",
+   "evidence": "Utilisation de l’outil Mimikatz."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "T1558.003",
+   "evidence": "Utilisation de l’outil SharpRoast."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "T1046",
+   "evidence": "Utilisation de l’outil de découverte réseau Softperfect Network Scanner."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "T1018",
+   "evidence": "Utilisation des outils de découverte PingCastle et BloodHound."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "T1210",
+   "evidence": "Tentative d’exploitation des vulnérabilités PrintNightmare (CVE-2021-34527), BlueKeep (CVE-2019-0708) et ZeroLogon (CVE-2020-1472)."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "T1090.004",
+   "evidence": "Utilisation du CND CLOUDFLARE afin de dissimuler le serveur C2 Cobalt Strike final."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "T1572",
+   "evidence": "Utilisation d’un tunnel SOCKS5 via l’implant SystemBC."
+  },
+  {
+   "source": "SystemBC",
+   "type": "uses",
+   "target": "T1572",
+   "evidence": "Utilisation d’un tunnel SOCKS5 via l’implant SystemBC."
+  },
+  {
+   "source": "Cobalt Strike",
+   "type": "uses",
+   "target": "T1090.004",
+   "evidence": "Utilisation du CND CLOUDFLARE afin de dissimuler le serveur C2 Cobalt Strike final."
+  },
+  {
+   "source": "FIN12",
+   "type": "targets",
+   "target": "Healthcare",
+   "evidence": "FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Cobalt Strike",
+   "evidence": "Named earlier in the document: FIN12, SystemBC, Cobalt Strike, Ryuk, Conti, Hive, BlackCat, Nokoyawa, Play, Royal, PISTACHE TEMPEST, PISTACHE TEMPEST, Emotet, BazarLoader, TrickBot, GoziAT"
+  }
+ ],
+ "_meta": {
+  "engine": "0.5",
+  "model": "qwen3:30b-a3b",
+  "seconds": 529.0,
+  "errors": ""
+ }
+}

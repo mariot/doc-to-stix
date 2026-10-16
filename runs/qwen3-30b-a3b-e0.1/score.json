@@ -2,14 +2,14 @@
  "run": "qwen3-30b-a3b-e0.1",
  "split": "eval",
  "total": {
-  "headline": 0.46,
+  "headline": 0.462,
   "entities": {
-   "tp": 659,
-   "fp": 117,
-   "fn": 609,
-   "precision": 0.849,
-   "recall": 0.52,
-   "f1": 0.645
+   "tp": 660,
+   "fp": 115,
+   "fn": 602,
+   "precision": 0.852,
+   "recall": 0.523,
+   "f1": 0.648
   },
   "families": {
    "actors": {
@@ -37,12 +37,12 @@
     "f1": 0.577
    },
    "victims": {
-    "tp": 44,
-    "fp": 24,
-    "fn": 78,
-    "precision": 0.647,
-    "recall": 0.361,
-    "f1": 0.463
+    "tp": 45,
+    "fp": 22,
+    "fn": 71,
+    "precision": 0.672,
+    "recall": 0.388,
+    "f1": 0.492
    },
    "vulnerabilities": {
     "tp": 88,
@@ -62,12 +62,12 @@
    "f1": 0.437
   },
   "relationships": {
-   "tp": 517,
-   "fp": 541,
-   "fn": 1882,
-   "precision": 0.489,
+   "tp": 518,
+   "fp": 539,
+   "fn": 1876,
+   "precision": 0.49,
    "recall": 0.216,
-   "f1": 0.299
+   "f1": 0.3
   }
  },
  "documents": {
@@ -380,20 +380,20 @@
     "('attack-pattern', 'T1583.003')",
     "('country', 'russianfederation')",
     "('country', 'unitedstatesofamerica')",
+    "('sector', 'diplomacy')",
     "('sector', 'governmentandadministrations')",
-    "('sector', 'healthcareresearch')",
+    "('sector', 'health')",
     "('sector', 'technologies')",
-    "('sector', 'thinktanks')",
     "(('campaign', 'solarwindscompromise'), 'attributed-to', ('intrusion-set', 'svr'))",
     "(('domain-name', 'cock.li'), 'indicates', ('intrusion-set', 'svr'))",
     "(('intrusion-set', 'apt29'), 'attributed-to', ('intrusion-set', 'svr'))",
     "(('intrusion-set', 'apt29'), 'originates-from', ('country', 'russianfederation'))",
-    "(('intrusion-set', 'apt29'), 'targets', ('sector', 'healthcareresearch'))",
+    "(('intrusion-set', 'apt29'), 'targets', ('sector', 'health'))",
     "(('intrusion-set', 'svr'), 'located-at', ('country', 'russianfederation'))",
     "(('intrusion-set', 'svr'), 'targets', ('country', 'unitedstatesofamerica'))",
+    "(('intrusion-set', 'svr'), 'targets', ('sector', 'diplomacy'))",
     "(('intrusion-set', 'svr'), 'targets', ('sector', 'governmentandadministrations'))",
     "(('intrusion-set', 'svr'), 'targets', ('sector', 'technologies'))",
-    "(('intrusion-set', 'svr'), 'targets', ('sector', 'thinktanks'))",
     "(('intrusion-set', 'svr'), 'targets', ('vulnerability', 'cve201919781'))",
     "(('intrusion-set', 'svr'), 'uses', ('attack-pattern', 'T1078'))",
     "(('intrusion-set', 'svr'), 'uses', ('attack-pattern', 'T1090.003'))",
@@ -492,8 +492,8 @@
     "('country', 'unitedstatesofamerica')",
     "('region', 'asia')",
     "('region', 'europe')",
-    "('sector', 'hostingserviceproviders')",
     "('sector', 'manufacturing')",
+    "('sector', 'telecommunications')",
     "(('domain-name', 'matclick.com'), 'indicates', ('intrusion-set', 'russianforeignintelligenceservice'))",
     "(('domain-name', 'matclick.com'), 'indicates', ('malware', 'graphicalproton'))",
     "(('domain-name', 'poetpages.com'), 'indicates', ('intrusion-set', 'russianforeignintelligenceservice'))",
@@ -723,14 +723,14 @@
    ]
   },
   "cisa-aa24-241a": {
-   "headline": 0.678,
+   "headline": 0.691,
    "entities": {
-    "tp": 29,
-    "fp": 5,
-    "fn": 17,
-    "precision": 0.853,
-    "recall": 0.63,
-    "f1": 0.725
+    "tp": 30,
+    "fp": 4,
+    "fn": 16,
+    "precision": 0.882,
+    "recall": 0.652,
+    "f1": 0.75
    },
    "families": {
     "actors": {
@@ -758,12 +758,12 @@
      "f1": 0.927
     },
     "victims": {
-     "tp": 2,
-     "fp": 2,
-     "fn": 8,
-     "precision": 0.5,
-     "recall": 0.2,
-     "f1": 0.286
+     "tp": 3,
+     "fp": 1,
+     "fn": 7,
+     "precision": 0.75,
+     "recall": 0.3,
+     "f1": 0.429
     },
     "vulnerabilities": {
      "tp": 6,
@@ -783,12 +783,12 @@
     "f1": 0.791
    },
    "relationships": {
-    "tp": 36,
-    "fp": 40,
-    "fn": 27,
-    "precision": 0.474,
-    "recall": 0.571,
-    "f1": 0.518
+    "tp": 37,
+    "fp": 39,
+    "fn": 26,
+    "precision": 0.487,
+    "recall": 0.587,
+    "f1": 0.532
    },
    "missed": [
     "('attack-pattern', 'T1486')",
@@ -804,10 +804,9 @@
     "('malware', 'ngrok')",
     "('malware', 'noescape')",
     "('malware', 'ransomhouse')",
-    "('sector', 'education')",
     "('sector', 'finance')",
+    "('sector', 'governmentandadministrations')",
     "('sector', 'health')",
-    "('sector', 'localadministrations')",
     "(('campaign', 'pay2key'), 'attributed-to', ('intrusion-set', 'pioneerkitten'))",
     "(('campaign', 'pay2key'), 'targets', ('country', 'israel'))",
     "(('intrusion-set', 'pioneerkitten'), 'originates-from', ('country', 'iranislamicrepublicof'))",
@@ -815,10 +814,9 @@
     "(('intrusion-set', 'pioneerkitten'), 'targets', ('country', 'israel'))",
     "(('intrusion-set', 'pioneerkitten'), 'targets', ('country', 'unitedarabemirates'))",
     "(('intrusion-set', 'pioneerkitten'), 'targets', ('country', 'unitedstatesofamerica'))",
-    "(('intrusion-set', 'pioneerkitten'), 'targets', ('sector', 'education'))",
     "(('intrusion-set', 'pioneerkitten'), 'targets', ('sector', 'finance'))",
+    "(('intrusion-set', 'pioneerkitten'), 'targets', ('sector', 'governmentandadministrations'))",
     "(('intrusion-set', 'pioneerkitten'), 'targets', ('sector', 'health'))",
-    "(('intrusion-set', 'pioneerkitten'), 'targets', ('sector', 'localadministrations'))",
     "(('intrusion-set', 'pioneerkitten'), 'targets', ('vulnerability', 'cve201919781'))",
     "(('intrusion-set', 'pioneerkitten'), 'targets', ('vulnerability', 'cve20221388'))",
     "(('intrusion-set', 'pioneerkitten'), 'targets', ('vulnerability', 'cve20233519'))",
@@ -841,7 +839,6 @@
     "('intrusion-set', 'iranian')",
     "('malware', 'pay2key')",
     "('organization', 'daneshnovinsahand')",
-    "('sector', 'universities')",
     "(('domain-name', 'catbox.moe'), 'indicates', ('intrusion-set', 'pioneerkitten'))",
     "(('domain-name', 'ligolo.io'), 'indicates', ('intrusion-set', 'pioneerkitten'))",
     "(('domain-name', 'ngrok.io'), 'indicates', ('intrusion-set', 'pioneerkitten'))",
@@ -876,7 +873,6 @@
     "(('intrusion-set', 'iranian'), 'uses', ('vulnerability', 'cve202424919'))",
     "(('intrusion-set', 'iranian'), 'uses', ('vulnerability', 'cve20243400'))",
     "(('intrusion-set', 'pioneerkitten'), 'attributed-to', ('intrusion-set', 'iranian'))",
-    "(('intrusion-set', 'pioneerkitten'), 'targets', ('sector', 'universities'))",
     "(('intrusion-set', 'pioneerkitten'), 'uses', ('email-addr', 'bc1q2egjjzmchtm3q3h3een37zsvpph86hwgq4xskh'))",
     "(('intrusion-set', 'pioneerkitten'), 'uses', ('email-addr', 'bc1q8n7jjgdepuym825zwwftr3qpem3tnjx3m50ku0'))",
     "(('intrusion-set', 'pioneerkitten'), 'uses', ('email-addr', 'bc1qjzw7sh3pd5msgehdaurzv04pm40hm9ajpwjqky'))",
@@ -885,14 +881,14 @@
    ]
   },
   "cisa-aa24-207a": {
-   "headline": 0.321,
+   "headline": 0.322,
    "entities": {
     "tp": 97,
     "fp": 6,
-    "fn": 44,
+    "fn": 43,
     "precision": 0.942,
-    "recall": 0.688,
-    "f1": 0.795
+    "recall": 0.693,
+    "f1": 0.798
    },
    "families": {
     "actors": {
@@ -922,10 +918,10 @@
     "victims": {
      "tp": 7,
      "fp": 0,
-     "fn": 4,
+     "fn": 3,
      "precision": 1.0,
-     "recall": 0.636,
-     "f1": 0.778
+     "recall": 0.7,
+     "f1": 0.824
     },
     "vulnerabilities": {
      "tp": 38,
@@ -947,9 +943,9 @@
    "relationships": {
     "tp": 30,
     "fp": 24,
-    "fn": 272,
+    "fn": 271,
     "precision": 0.556,
-    "recall": 0.099,
+    "recall": 0.1,
     "f1": 0.169
    },
    "missed": [
@@ -989,7 +985,6 @@
     "('malware', 'valefor')",
     "('malware', 'vmprotect')",
     "('malware', 'webshellbyorb')",
-    "('sector', 'energy')",
     "('vulnerability', 'cve202136955')",
     "('vulnerability', 'cve202143207')",
     "('vulnerability', 'cve202145837')",
@@ -1002,7 +997,8 @@
     "(('file', '0414a2ab718d44bf6f7103cff287b312'), 'indicates', ('intrusion-set', 'andariel'))",
     "(('file', '05e9fe8e9e693cb073ba82096c291145c953ca3a3f8b3974f9c66d15c1a3a11d'), 'indicates', ('intrusion-set', 'andariel'))",
     "(('file', '073e3170a8e7537ff985ec8316319351'), 'indicates', ('intrusion-set', 'andariel'))",
-    "(('file', '079b4588eaa99a1e802adf5e0b26d8aa'), 'indicates', ('intrusion-set', 'andariel'))"
+    "(('file', '079b4588eaa99a1e802adf5e0b26d8aa'), 'indicates', ('intrusion-set', 'andariel'))",
+    "(('file', '0873b5744d8ab6e3fe7c9754cf7761a3'), 'indicates', ('intrusion-set', 'andariel'))"
    ],
    "extra": [
     "('attack-pattern', 's0552')",
@@ -1353,14 +1349,14 @@
     "('malware', 'wexe')",
     "('malware', 'winlocker0234bmmnbwmoncexe')",
     "('malware', 'winlockerexe')",
-    "('sector', 'informationtechnologiesconsulting')",
+    "('sector', 'consulting')",
     "(('domain-name', 'akira.onion'), 'indicates', ('malware', 'akira'))",
     "(('malware', 'akira'), 'exploits', ('vulnerability', 'cve202440766'))",
     "(('malware', 'akira'), 'targets', ('sector', 'agricultureandagribusiness'))",
+    "(('malware', 'akira'), 'targets', ('sector', 'consulting'))",
     "(('malware', 'akira'), 'targets', ('sector', 'education'))",
     "(('malware', 'akira'), 'targets', ('sector', 'finance'))",
     "(('malware', 'akira'), 'targets', ('sector', 'health'))",
-    "(('malware', 'akira'), 'targets', ('sector', 'informationtechnologiesconsulting'))",
     "(('malware', 'akira'), 'targets', ('sector', 'manufacturing'))",
     "(('malware', 'akira'), 'uses', ('attack-pattern', 'T1003'))",
     "(('malware', 'akira'), 'uses', ('attack-pattern', 'T1003.001'))",
@@ -1384,14 +1380,14 @@
    ]
   },
   "cisa-aa25-071a": {
-   "headline": 0.423,
+   "headline": 0.424,
    "entities": {
     "tp": 44,
     "fp": 5,
-    "fn": 51,
+    "fn": 50,
     "precision": 0.898,
-    "recall": 0.463,
-    "f1": 0.611
+    "recall": 0.468,
+    "f1": 0.615
    },
    "families": {
     "actors": {
@@ -1421,7 +1417,7 @@
     "victims": {
      "tp": 0,
      "fp": 0,
-     "fn": 7,
+     "fn": 6,
      "precision": 1.0,
      "recall": 0.0,
      "f1": 0.0
@@ -1446,7 +1442,7 @@
    "relationships": {
     "tp": 1,
     "fp": 78,
-    "fn": 152,
+    "fn": 151,
     "precision": 0.013,
     "recall": 0.007,
     "f1": 0.009
@@ -1496,12 +1492,12 @@
     "('malware', 'powerfunps1')",
     "('malware', 'softperfectnetworkscanner')",
     "('malware', 'vssadmin')",
+    "('sector', 'consulting')",
     "('sector', 'education')",
+    "('sector', 'finance')",
     "('sector', 'health')",
-    "('sector', 'healthcareservices')",
-    "('sector', 'insuranceservices')",
-    "('sector', 'legalconsulting')",
-    "('sector', 'manufacturing')"
+    "('sector', 'manufacturing')",
+    "('sector', 'technologies')"
    ],
    "extra": [
     "('malware', 'apachephpwebshell')",
@@ -2045,14 +2041,14 @@
    ]
   },
   "cisa-aa25-343a": {
-   "headline": 0.724,
+   "headline": 0.728,
    "entities": {
     "tp": 27,
-    "fp": 7,
+    "fp": 6,
     "fn": 10,
-    "precision": 0.794,
+    "precision": 0.818,
     "recall": 0.73,
-    "f1": 0.761
+    "f1": 0.771
    },
    "families": {
     "actors": {
@@ -2081,11 +2077,11 @@
     },
     "victims": {
      "tp": 5,
-     "fp": 4,
+     "fp": 3,
      "fn": 2,
-     "precision": 0.556,
+     "precision": 0.625,
      "recall": 0.714,
-     "f1": 0.625
+     "f1": 0.667
     }
    },
    "observables": {
@@ -2098,11 +2094,11 @@
    },
    "relationships": {
     "tp": 31,
-    "fp": 5,
+    "fp": 4,
     "fn": 84,
-    "precision": 0.861,
+    "precision": 0.886,
     "recall": 0.27,
-    "f1": 0.411
+    "f1": 0.413
    },
    "missed": [
     "('attack-pattern', 'T0852')",
@@ -2161,12 +2157,10 @@
     "('country', 'ukraine')",
     "('intrusion-set', 'ddosia')",
     "('intrusion-set', 'russiangovernment')",
-    "('sector', 'heavyindustries')",
     "('sector', 'manufacturing')",
     "('sector', 'transport')",
     "(('intrusion-set', 'cyberarmyofrussiareborn'), 'targets', ('country', 'ukraine'))",
     "(('intrusion-set', 'sector16'), 'originates-from', ('country', 'russianfederation'))",
-    "(('intrusion-set', 'zpentest'), 'targets', ('sector', 'heavyindustries'))",
     "(('intrusion-set', 'zpentest'), 'targets', ('sector', 'manufacturing'))",
     "(('intrusion-set', 'zpentest'), 'targets', ('sector', 'transport'))"
    ]
@@ -2248,9 +2242,9 @@
     "('attack-pattern', 'T1531')",
     "('attack-pattern', 'T1565.001')",
     "('intrusion-set', 'soldiersofsolomon')",
-    "('sector', 'retaildistribution')",
+    "('sector', 'manufacturing')",
     "(('intrusion-set', 'cyberav3ngers'), 'originates-from', ('country', 'iranislamicrepublicof'))",
-    "(('intrusion-set', 'cyberav3ngers'), 'targets', ('sector', 'retaildistribution'))",
+    "(('intrusion-set', 'cyberav3ngers'), 'targets', ('sector', 'manufacturing'))",
     "(('intrusion-set', 'cyberav3ngers'), 'uses', ('attack-pattern', 'T0883'))",
     "(('intrusion-set', 'cyberav3ngers'), 'uses', ('attack-pattern', 'T1078.001'))",
     "(('intrusion-set', 'cyberav3ngers'), 'uses', ('attack-pattern', 'T1110'))",
@@ -2278,14 +2272,14 @@
    ]
   },
   "certfr-2021-cti-006": {
-   "headline": 0.54,
+   "headline": 0.544,
    "entities": {
     "tp": 30,
     "fp": 10,
-    "fn": 29,
+    "fn": 27,
     "precision": 0.75,
-    "recall": 0.508,
-    "f1": 0.606
+    "recall": 0.526,
+    "f1": 0.619
    },
    "families": {
     "actors": {
@@ -2315,10 +2309,10 @@
     "victims": {
      "tp": 3,
      "fp": 0,
-     "fn": 7,
+     "fn": 5,
      "precision": 1.0,
-     "recall": 0.3,
-     "f1": 0.462
+     "recall": 0.375,
+     "f1": 0.545
     },
     "vulnerabilities": {
      "tp": 1,
@@ -2340,10 +2334,10 @@
    "relationships": {
     "tp": 14,
     "fp": 32,
-    "fn": 55,
+    "fn": 54,
     "precision": 0.304,
-    "recall": 0.203,
-    "f1": 0.243
+    "recall": 0.206,
+    "f1": 0.246
    },
    "missed": [
     "('attack-pattern', 'T1018')",
@@ -2370,11 +2364,9 @@
     "('malware', 'megacortex')",
     "('malware', 'meterpreter')",
     "('malware', 'zloader')",
+    "('sector', 'education')",
     "('sector', 'finance')",
     "('sector', 'governmentandadministrations')",
-    "('sector', 'healthcareservices')",
-    "('sector', 'pharmacyanddrugsmanufacturing')",
-    "('sector', 'universities')",
     "(('domain-name', 'bakedbuns.com'), 'indicates', ('malware', 'bazarloader'))",
     "(('domain-name', 'bakedbuns.com'), 'indicates', ('malware', 'trickbot'))",
     "(('domain-name', 'machunion.com'), 'indicates', ('malware', 'bazarloader'))",
@@ -2395,7 +2387,9 @@
     "(('intrusion-set', 'fin6'), 'uses', ('attack-pattern', 'T1190'))",
     "(('intrusion-set', 'fin6'), 'uses', ('malware', 'lockergoga'))",
     "(('intrusion-set', 'fin6'), 'uses', ('malware', 'maze'))",
-    "(('intrusion-set', 'fin6'), 'uses', ('malware', 'megacortex'))"
+    "(('intrusion-set', 'fin6'), 'uses', ('malware', 'megacortex'))",
+    "(('intrusion-set', 'fin6'), 'uses', ('malware', 'ryuk'))",
+    "(('intrusion-set', 'fin6'), 'uses', ('malware', 'terraloader'))"
    ],
    "extra": [
     "('campaign', 'unc1878')",
@@ -2901,14 +2895,14 @@
    ]
   },
   "ncsc-star-blizzard-2023": {
-   "headline": 0.358,
+   "headline": 0.36,
    "entities": {
     "tp": 1,
     "fp": 0,
-    "fn": 25,
+    "fn": 23,
     "precision": 1.0,
-    "recall": 0.038,
-    "f1": 0.074
+    "recall": 0.042,
+    "f1": 0.08
    },
    "families": {
     "actors": {
@@ -2938,7 +2932,7 @@
     "victims": {
      "tp": 0,
      "fp": 0,
-     "fn": 10,
+     "fn": 8,
      "precision": 1.0,
      "recall": 0.0,
      "f1": 0.0
@@ -2955,7 +2949,7 @@
    "relationships": {
     "tp": 0,
     "fp": 0,
-    "fn": 26,
+    "fn": 24,
     "precision": 1.0,
     "recall": 0.0,
     "f1": 0.0
@@ -2979,25 +2973,21 @@
     "('country', 'unitedstatesofamerica')",
     "('intrusion-set', 'russianfederalsecurityservicefsbcentre18')",
     "('malware', 'evilginx')",
+    "('sector', 'civilsociety')",
     "('sector', 'defense')",
-    "('sector', 'defenseindustry')",
+    "('sector', 'diplomacy')",
     "('sector', 'education')",
     "('sector', 'governmentandadministrations')",
-    "('sector', 'nongovernmentalorganizationsngos')",
-    "('sector', 'politicalparties')",
-    "('sector', 'thinktanks')",
     "(('intrusion-set', 'russianfederalsecurityservicefsbcentre18'), 'located-at', ('country', 'russianfederation'))",
     "(('intrusion-set', 'starblizzard'), 'attributed-to', ('intrusion-set', 'russianfederalsecurityservicefsbcentre18'))",
     "(('intrusion-set', 'starblizzard'), 'originates-from', ('country', 'russianfederation'))",
     "(('intrusion-set', 'starblizzard'), 'targets', ('country', 'unitedkingdomofgreatbritainandnorthernireland'))",
     "(('intrusion-set', 'starblizzard'), 'targets', ('country', 'unitedstatesofamerica'))",
+    "(('intrusion-set', 'starblizzard'), 'targets', ('sector', 'civilsociety'))",
     "(('intrusion-set', 'starblizzard'), 'targets', ('sector', 'defense'))",
-    "(('intrusion-set', 'starblizzard'), 'targets', ('sector', 'defenseindustry'))",
+    "(('intrusion-set', 'starblizzard'), 'targets', ('sector', 'diplomacy'))",
     "(('intrusion-set', 'starblizzard'), 'targets', ('sector', 'education'))",
     "(('intrusion-set', 'starblizzard'), 'targets', ('sector', 'governmentandadministrations'))",
-    "(('intrusion-set', 'starblizzard'), 'targets', ('sector', 'nongovernmentalorganizationsngos'))",
-    "(('intrusion-set', 'starblizzard'), 'targets', ('sector', 'politicalparties'))",
-    "(('intrusion-set', 'starblizzard'), 'targets', ('sector', 'thinktanks'))",
     "(('intrusion-set', 'starblizzard'), 'uses', ('attack-pattern', 'T1078'))",
     "(('intrusion-set', 'starblizzard'), 'uses', ('attack-pattern', 'T1114.002'))",
     "(('intrusion-set', 'starblizzard'), 'uses', ('attack-pattern', 'T1114.003'))",
@@ -3010,7 +3000,8 @@
     "(('intrusion-set', 'starblizzard'), 'uses', ('attack-pattern', 'T1585.002'))",
     "(('intrusion-set', 'starblizzard'), 'uses', ('attack-pattern', 'T1586.002'))",
     "(('intrusion-set', 'starblizzard'), 'uses', ('attack-pattern', 'T1589'))",
-    "(('intrusion-set', 'starblizzard'), 'uses', ('attack-pattern', 'T1593'))"
+    "(('intrusion-set', 'starblizzard'), 'uses', ('attack-pattern', 'T1593'))",
+    "(('intrusion-set', 'starblizzard'), 'uses', ('malware', 'evilginx'))"
    ],
    "extra": []
   }

@@ -1,0 +1,95 @@
+{
+ "entities": [
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-57727",
+   "evidence": "SimpleHelp versions 5.5.7 and earlier contain several vulnerabilities, including CVE-2024-57727—a path traversal vulnerability."
+  },
+  {
+   "type": "malware",
+   "name": "Ransomware",
+   "evidence": "Ransomware actors likely leveraged CVE-2024-57727 to access downstream customers’ unpatched SimpleHelp RMM for disruption of services in double extortion compromises."
+  },
+  {
+   "type": "sector",
+   "name": "Utility",
+   "evidence": "This incident reflects a broader pattern of ransomware actors targeting organizations through unpatched versions of SimpleHelp RMM since January 2025."
+  },
+  {
+   "type": "organization",
+   "name": "SimpleHelp",
+   "evidence": "SimpleHelp versions 5.5.7 and earlier contain several vulnerabilities, including CVE-2024-57727—a path traversal vulnerability."
+  },
+  {
+   "type": "malware",
+   "name": "Ransomware",
+   "evidence": "Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Compromise Utility Billing Software Provider"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-57727",
+   "evidence": "SimpleHelp versions 5.5.7 and earlier contain several vulnerabilities, including CVE-2024-57727—a path"
+  }
+ ],
+ "observables": [
+  {
+   "type": "file",
+   "value": "serverconfig.xml",
+   "hash": "",
+   "indicates": [
+    "vulnerability",
+    "organization"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "serviceconfig.xml",
+   "hash": "",
+   "indicates": [
+    "vulnerability",
+    "organization"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "allversions",
+   "hash": "",
+   "indicates": [
+    "vulnerability",
+    "organization"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "malware",
+   "type": "exploits",
+   "target": "vulnerability",
+   "evidence": "Ransomware actors likely leveraged CVE-2024-57727 to access downstream customers’ unpatched SimpleHelp RMM for disruption of services in double extortion compromises."
+  },
+  {
+   "source": "malware",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "This incident reflects a broader pattern of ransomware actors targeting organizations through unpatched versions of SimpleHelp RMM since January 2025."
+  },
+  {
+   "source": "organization",
+   "type": "targets",
+   "target": "sector",
+   "evidence": "This incident reflects a broader pattern of ransomware actors targeting organizations through unpatched versions of SimpleHelp RMM since January 2025."
+  },
+  {
+   "source": "organization",
+   "type": "targets",
+   "target": "vulnerability",
+   "evidence": "SimpleHelp versions 5.5.7 and earlier contain several vulnerabilities, including CVE-2024-57727—a path traversal vulnerability."
+  }
+ ],
+ "_meta": {
+  "engine": "0.3",
+  "model": "qwen3:8b",
+  "seconds": 25.3,
+  "errors": ""
+ }
+}

