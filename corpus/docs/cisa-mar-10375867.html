@@ -1,0 +1,4352 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+<link rel="canonical" href="https://www.cisa.gov/news-events/analysis-reports/ar22-115a" />
+<meta property="og:site_name" content="Cybersecurity and Infrastructure Security Agency CISA" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.cisa.gov/news-events/analysis-reports/ar22-115a" />
+<meta property="og:title" content="MAR-10375867-1.v1 – HermeticWiper | CISA" />
+<meta name="Generator" content="Drupal 11 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/profiles/cisad8_gov/themes/custom/gesso/favicon.png" type="image/png" />
+
+    <title>MAR-10375867-1.v1 – HermeticWiper | CISA</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_1nTlsLI3UggMAMx_SwcHYIToNXlciQFNAKg2Ba9rdB4.css?delta=0&amp;language=en&amp;theme=guswds&amp;include=eJxFjlsOwzAIBC9E4yNZOCaJG2oswEl7-1p9_iBmtCttInfSaDIX5GgbaqlrTN1dqgXzBw-GeadcXDTiPIvmIjX8vmlRqU41wxAUsvaGPOEV70B3H_X96z4Ia7czW1hZEjI0VFwV22bf3N9MvbaeuNhGGZSsjVHloOiYmCwuhcf48CY8L28Ge5jTLSQ0AhfhhDoatlv4EByFTguvO90kd6YnUF5omA" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;family=Public+Sans:wght@400;500;600;700&amp;display=swap" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_O_M2WNrJbFiJft7N5lRAJctUXW9Z_67J66U7h9bVTAM.css?delta=2&amp;language=en&amp;theme=guswds&amp;include=eJxFjlsOwzAIBC9E4yNZOCaJG2oswEl7-1p9_iBmtCttInfSaDIX5GgbaqlrTN1dqgXzBw-GeadcXDTiPIvmIjX8vmlRqU41wxAUsvaGPOEV70B3H_X96z4Ia7czW1hZEjI0VFwV22bf3N9MvbaeuNhGGZSsjVHloOiYmCwuhcf48CY8L28Ge5jTLSQ0AhfhhDoatlv4EByFTguvO90kd6YnUF5omA" />
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/9066","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx1kFtuxCAMRTdEw5KQwQ5DQzCyIY_dl5lJWrVSfyyf67c9tUbilEOC7PQBkkp0vrfGRa22Mw82YSFMjcVBCCyYuNhvb5qFS6OCho42sheL0ivk6UITmWMm1yDaOMxfnuATjt_iamLXHdUCbklZzpu9EGCQvvpboaNCQfDP2jHQ83FHYmYP2VQQiAL1ofdeP8rUS-0-J30QGiGt4-a0PbcY_dTNKY_f2DfB_vFmo6c2Wq0HJdOYswcZFbqovch0nQkjb-66Cgrks6Wg9t_IFLCYLdGu9mWnlbFn-gKIL6Ru","theme":"guswds","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-53QLXSL9"]},"data":{"extlink":{"extTarget":false,"extTargetAppendNewWindowDisplay":false,"extTargetAppendNewWindowLabel":"(opens in a new window)","extTargetNoOverride":false,"extNofollow":false,"extTitleNoOverride":false,"extNoreferrer":false,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"(.\\.gov$)|(.\\.mil$)|(.\\.mil\/)|(.\\.gov\/)","extInclude":"","extCssExclude":".c-menu--social,.c-menu--footer,.c-social-links,.c-text-cta--button,.usa-footer__contact-info","extCssInclude":"","extCssExplicit":"","extAlert":true,"extAlertText":"You are now leaving an official website of the United State Government (USG), the Department of Homeland Security (DHS) and the Cybersecurity and Infrastructure Security Agency (CISA). Links to non-USG, non-DHS and non-CISA sites are provided for the visitor\u0027s convenience and do not represent an endorsement by USG, DHS or CISA of any commercial or private issues, products or services. Note that the privacy policy of the linked site may differ from that of USG, DHS and CISA.","extHideIcons":false,"mailtoClass":"mailto","telClass":"0","mailtoLabel":"(link sends email)","telLabel":"(link is a phone number)","extUseFontAwesome":false,"extIconPlacement":"append","extPreventOrphan":false,"extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","extAdditionalLinkClasses":"","extAdditionalMailtoClasses":"","extAdditionalTelClasses":"","extFaTelClasses":"fa fa-phone","allowedDomains":[],"extExcludeNoreferrer":""}},"ckeditorAccordion":{"accordionStyle":{"collapseAll":1,"keepRowsOpen":0,"animateAccordionOpenAndClose":1,"openTabsWithHash":1,"allowHtmlInTitles":0}},"user":{"uid":0,"permissionsHash":"0f75d40308887aebba0d5b0d2671305b73c9431902f86e672380a6dc6ab97d07"}}</script>
+<script src="/sites/default/files/js/js_0zdf5bkRYtwqp5cDTZ_GjcN_AruB82qurOIibygL0so.js?scope=header&amp;delta=0&amp;language=en&amp;theme=guswds&amp;include=eJx1jmEOwyAIhS_k6pEMCjVuFhrU1t5-bdou2ZL9IXzvwYPwIkxV1EEIopiE7acbRhWuxGio15z4ZVHbDHm40ESRmMlViDbu5ZcHeEL_FicTW1mxWMAlFdHtZq8EGLRN_laoz8AI_tjdD3rptxOzeMhGqczCJS1H-D5W3JhyJbUnwfo42bQyEkZZ3PUKMOStplDsX2cIyG-8HG_w"></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?tmwti5"></script>
+<script src="/modules/contrib/google_tag/js/gtm.js?tmwti5"></script>
+<script src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DHS&amp;subagency=CISA&amp;siteplatform=Drupal&amp;yt=true" id="_fed_an_ua_tag" async></script>
+
+  </head>
+  <body  class="path-node not-front node-page node-page--node-type-advisory" id="top">
+    
+<div  class="c-skiplinks">
+  <a href="#main" class="c-skiplinks__link u-visually-hidden u-focusable">Skip to main content</a>
+</div>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-53QLXSL9"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+<div  class="l-site-container">
+    
+      
+<section  class="usa-banner" aria-label="Official government website">
+  <div class="usa-accordion">  <header class="usa-banner__header">
+    <div class="usa-banner__inner">
+      <div class="grid-col-auto">
+        <img class="usa-banner__header-flag" src="/profiles/cisad8_gov/themes/custom/gesso/dist/images/us_flag_small.png" alt="U.S. flag" />
+      </div>
+      <div class="grid-col-fill tablet:grid-col-auto">
+        <p class="usa-banner__header-text">An official website of the United States government</p>
+              <p class="usa-banner__header-action" aria-hidden="true">Here’s how you know</p></div>
+        <button class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner">
+          <span class="usa-banner__button-text">Here’s how you know</span>
+        </button>
+          </div>
+  </header>
+      <div class="usa-banner__content usa-accordion__content" id="gov-banner">
+      <div class="grid-row grid-gap-lg">
+                  <div class="usa-banner__guidance tablet:grid-col-6">
+            <img class="usa-banner__icon usa-media-block__img" src="/profiles/cisad8_gov/themes/custom/gesso/dist/images/icon-dot-gov.svg" alt="Dot gov">
+            <div class="usa-media-block__body">
+              <p>
+                <strong>Official websites use .gov</strong>
+                <br> A <strong>.gov</strong> website belongs to an official government organization in the United States.
+              </p>
+            </div>
+          </div>
+                  <div class="usa-banner__guidance tablet:grid-col-6">
+            <img class="usa-banner__icon usa-media-block__img" src="/profiles/cisad8_gov/themes/custom/gesso/dist/images/icon-https.svg" alt="HTTPS">
+            <div class="usa-media-block__body">
+              <p>
+                <strong>Secure .gov websites use HTTPS</strong>
+                <br> A <strong>lock</strong> (<span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-title banner-lock-description"><title id="banner-lock-title">Lock</title><desc id="banner-lock-description">A locked padlock</desc><path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"/></svg></span>) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+              </p>
+            </div>
+          </div>
+              </div>
+    </div>
+  </div>
+  </section>
+    
+
+
+<div class="usa-overlay"></div>
+<header  class="usa-header usa-header--extended" role="banner">
+    		
+
+
+
+
+
+  <div  id="block-globalbuttons" class="c-global-header-btns c-global-btns c-block c-block--provider-block-content c-block--id-block-content83069f9f-34fc-4d54-86ec-936a204f8088">
+
+  
+  
+    
+
+      <div  class="l-constrain c-block__content">
+  
+      
+
+
+
+
+<div  class="c-field c-field--name-body c-field--type-text-with-summary c-field--label-hidden">
+  <div class="c-field__content"><p><a class="c-button c-button--basic c-button--gray" href="/staying-secure-large-scale-events">Staying Secure at Events</a><a class="c-button c-button--basic c-button--blue" href="/resources-tools/resources/free-cybersecurity-services-and-tools" title="Free Cyber Services">no-cost Cyber Services</a><a class="c-button c-button--basic c-button--green60" href="/cybersecurity-awareness-month">Cybersecurity Awareness Month</a><a class="c-button c-button--basic c-button--teal" href="/kev">KEV Catalog</a><a class="c-button c-button--report" href="/report">Report A Cyber Issue</a>&nbsp;</p></div></div>
+
+  
+      </div>
+  
+  
+  </div>
+
+	  </header>
+
+	
+<div  class="usa-navbar">
+  <div class="l-constrain">
+    <div class="usa-navbar__row">
+                                    
+
+
+
+  <div  class="c-block c-site-header">
+
+      <div  class="l-constrain">
+  
+  
+    
+
+      <div  class="c-block__content">
+  
+      
+
+
+
+
+
+  <div  id="block-guswds-cisaheaderblock" class="c-block c-block--provider-block-content c-block--id-block-contentbc4e6844-86b4-4e20-b163-a73bda3d1d76">
+
+  
+  
+    
+
+      <div  class="c-block__content">
+  
+      
+
+
+
+
+<div  class="c-field c-field--name-body c-field--type-text-with-summary c-field--label-hidden">
+  <div class="c-field__content"><a href="/"><img src = "/sites/default/files/images/SVG/header_logo_tagline_update.svg" alt="Cybersecurity & Infrastructure Security Agency logo America’s Cyber Security Defense Agency National Coordinator For Critical Infrastructure Security and Resilience"/><img class="print-only" src = "/sites/default/files/images/SVG/header_logo_tagline_update.png" alt="Cybersecurity & Infrastructure Security Agency logo America’s Cyber Security Defense Agency National Coordinator For Critical Infrastructure Security and Resilience"/></a></div></div>
+
+  
+      </div>
+  
+  
+  </div>
+
+  
+      </div>
+  
+      </div>
+  
+  </div>
+
+        
+
+
+
+  <div  class="c-block c-site-header-mobile">
+
+      <div  class="l-constrain">
+  
+  
+    
+
+      <div  class="c-block__content">
+  
+      
+
+
+
+
+
+  <div  id="block-guswds-cisaheaderblockmobile" class="c-block c-block--provider-block-content c-block--id-block-content283396c9-cd36-4ce3-b1e2-9b5576ab4f50">
+
+  
+  
+    
+
+      <div  class="c-block__content">
+  
+      
+
+
+
+
+<div  class="c-field c-field--name-body c-field--type-text-with-summary c-field--label-hidden">
+  <div class="c-field__content"><a href="/"><img src = "/sites/default/files/images/SVG/mobile_logo_wordmark.svg" alt="CISA Logo"/></a></div></div>
+
+  
+      </div>
+  
+  
+  </div>
+
+  
+      </div>
+  
+      </div>
+  
+  </div>
+            <div class="usa-navbar__search">
+        <div class="usa-navbar__search-header">
+          <p>Search</p>
+        </div>
+        
+<div  class="usa-search">
+  <script async src=https://cse.google.com/cse.js?cx=ffc4c79e29d5b3a8c></script>
+  <div class="gcse-searchbox-only" data-resultsurl="/search">&nbsp;</div>
+</div>
+      </div>
+      <button class="mobile-menu-button usa-menu-btn">Menu</button>
+    </div>
+  </div>
+</div>
+    
+
+
+
+  <div  class="c-block c-tagline-mobile">
+
+      <div  class="l-constrain">
+  
+  
+    
+
+      <div  class="c-block__content">
+  
+      
+
+
+
+
+
+  <div  id="block-guswds-mobiletaglinecontainer" class="c-block c-block--provider-block-content c-block--id-block-contentc8d12e9d-7e48-4708-90c1-563609c4b566">
+
+  
+  
+    
+
+      <div  class="c-block__content">
+  
+      
+
+
+
+
+<div  class="c-field c-field--name-body c-field--type-text-with-summary c-field--label-hidden">
+  <div class="c-field__content"><p><center><img src = "/sites/default/files/images/SVG/header_tagline_mobile_update.svg" alt = "America's Cyber Defense Agency" /></center></div></div>
+
+  
+      </div>
+  
+  
+  </div>
+
+  
+      </div>
+  
+      </div>
+  
+  </div>
+	
+
+<nav  class="usa-nav" role="navigation" aria-label="Primary navigation">
+  <div class="usa-nav__inner l-constrain">
+    <div class="usa-nav__row">
+      <button class="usa-nav__close">Close</button>
+      
+<div  class="usa-search">
+  <script async src=https://cse.google.com/cse.js?cx=ffc4c79e29d5b3a8c></script>
+  <div class="gcse-searchbox-only" data-resultsurl="/search">&nbsp;</div>
+</div>
+                
+  
+          <ul class="usa-nav__primary usa-accordion">
+    
+    
+              <li class="usa-nav__primary-item topics">
+      
+              <button class="usa-accordion__button usa-nav__link " aria-expanded="false" aria-controls="basic-mega-nav-section-1">
+          <span>Topics</span>
+        </button>
+      
+                
+  
+          <div id="basic-mega-nav-section-1" class="usa-nav__submenu usa-megamenu" hidden="">
+
+              <div class="usa-megamenu__parent-link">
+          <a href="/topics">Topics</a>
+        </div>
+              <div class="usa-megamenu__menu-items">
+    
+    
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/topics/cybersecurity-best-practices">
+          <span>Cybersecurity Best Practices</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/topics/cyber-threats-and-response">
+          <span>Cyber Threats and Response</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/topics/critical-infrastructure-security-and-resilience">
+          <span>Critical Infrastructure Security and Resilience</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/topics/election-security">
+          <span>Election Security</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/topics/emergency-communications">
+          <span>Emergency Communications</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/topics/industrial-control-systems">
+          <span>Industrial Control Systems</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/topics/information-communications-technology-supply-chain-security">
+          <span>Information and Communications Technology Supply Chain Security</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/topics/partnerships-and-collaboration">
+          <span>Partnerships and Collaboration</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/topics/physical-security">
+          <span>Physical Security</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/topics/risk-management">
+          <span>Risk Management</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+            </div>
+                          
+
+<div  class="c-menu-feature-links">
+      <div class="c-menu-feature-links__title">
+      <a href="/audiences">        How can we help?
+      </a>    </div>
+        <div class="c-menu-feature-links__content"><a href="/topics/government">Government</a><a href="/topics/educational-institutions">Educational Institutions</a><a href="/topics/industry">Industry</a><a href="/topics/state-local-tribal-and-territorial">State, Local, Tribal, and Territorial</a><a href="/topics/individuals-and-families">Individuals and Families</a><a href="/topics/small-and-medium-businesses">Small and Medium Businesses</a><a href="/audiences/find-help-locally">Find Help Locally</a><a href="/audiences/faith-based-community">Faith-Based Community</a><a href="/audiences/executives">Executives</a><a href="/audiences/high-risk-communities">High-Risk Communities</a></div>
+  </div>
+
+              </div>
+    
+  
+      
+              </li>
+          
+              <li class="usa-nav__primary-item spotlight">
+      
+      
+                      <a href="/spotlight" class="usa-nav__link" >
+          <span>Spotlight</span>
+        </a>
+              
+              </li>
+          
+              <li class="usa-nav__primary-item resources--tools">
+      
+              <button class="usa-accordion__button usa-nav__link " aria-expanded="false" aria-controls="basic-mega-nav-section-3">
+          <span>Resources &amp; Tools</span>
+        </button>
+      
+                
+  
+          <div id="basic-mega-nav-section-3" class="usa-nav__submenu usa-megamenu" hidden="">
+
+              <div class="usa-megamenu__parent-link">
+          <a href="/resources-tools">Resources &amp; Tools</a>
+        </div>
+              <div class="usa-megamenu__menu-items">
+    
+    
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/resources-tools/all-resources-tools">
+          <span>All Resources &amp; Tools</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/resources-tools/services">
+          <span>Services</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/resources-tools/programs">
+          <span>Programs</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/resources-tools/resources">
+          <span>Resources</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/resources-tools/training">
+          <span>Training</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/resources-tools/groups">
+          <span>Groups</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+            </div>
+                          
+              </div>
+    
+  
+      
+              </li>
+          
+              <li class="usa-nav__primary-item news--events">
+      
+              <button class="usa-accordion__button usa-nav__link usa-current" aria-expanded="false" aria-controls="basic-mega-nav-section-4">
+          <span>News &amp; Events</span>
+        </button>
+      
+                
+  
+          <div id="basic-mega-nav-section-4" class="usa-nav__submenu usa-megamenu" hidden="">
+
+              <div class="usa-megamenu__parent-link">
+          <a href="/news-events">News &amp; Events</a>
+        </div>
+              <div class="usa-megamenu__menu-items">
+    
+    
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/news-events/directives">
+          <span>Directives</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/news-events/news">
+          <span>News</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/news-events/events">
+          <span>Events</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/news-events/cybersecurity-advisories">
+          <span>Cybersecurity Alerts &amp; Advisories</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/news-events/request-speaker">
+          <span>Request a CISA Speaker</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/news-events/congressional-testimony">
+          <span>Congressional Testimony</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/news-events/cisa-conferences">
+          <span>CISA Conferences</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/cisa-live">
+          <span>CISA Live!</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+            </div>
+                          
+              </div>
+    
+  
+      
+              </li>
+          
+              <li class="usa-nav__primary-item careers">
+      
+              <button class="usa-accordion__button usa-nav__link " aria-expanded="false" aria-controls="basic-mega-nav-section-5">
+          <span>Careers</span>
+        </button>
+      
+                
+  
+          <div id="basic-mega-nav-section-5" class="usa-nav__submenu usa-megamenu" hidden="">
+
+              <div class="usa-megamenu__parent-link">
+          <a href="/careers">Careers</a>
+        </div>
+              <div class="usa-megamenu__menu-items">
+    
+    
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/careers/benefits-perks">
+          <span>Benefits &amp; Perks</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/careers/hiring-and-recruitment">
+          <span>Hiring and Recruitment</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/careers/new-employee-orientation-and-onboarding">
+          <span>New Employee Orientation &amp; Onboarding</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/careers/students-recent-graduates-employment-opportunities">
+          <span>Students &amp; Recent Graduates</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/careers/veteran-and-military-spouse-employment-opportunities">
+          <span>Veteran and Military Spouses</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+            </div>
+                          
+              </div>
+    
+  
+      
+              </li>
+          
+              <li class="usa-nav__primary-item about">
+      
+              <button class="usa-accordion__button usa-nav__link " aria-expanded="false" aria-controls="basic-mega-nav-section-6">
+          <span>About</span>
+        </button>
+      
+                
+  
+          <div id="basic-mega-nav-section-6" class="usa-nav__submenu usa-megamenu" hidden="">
+
+              <div class="usa-megamenu__parent-link">
+          <a href="/about">About</a>
+        </div>
+              <div class="usa-megamenu__menu-items">
+    
+    
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/about/divisions-offices">
+          <span>Divisions &amp; Offices</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/about/regions">
+          <span>Regions</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/about/leadership">
+          <span>Leadership</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/about/doing-business-cisa">
+          <span>Doing Business with CISA</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/site-links">
+          <span>Site Links</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/cisa-github">
+          <span>CISA GitHub</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/about/cisa-central">
+          <span>CISA Central</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/about/contact-us">
+          <span>Contact Us </span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/about/contact-us/subscribe-updates-cisa">
+          <span>Subscribe</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/about/transparency-and-accountability">
+          <span>Transparency and Accountability</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+              <div class="usa-col">
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+                <a href="/about/policies-plans">
+          <span>Policies &amp; Plans</span>
+        </a>
+                  </div>
+              
+              </div>
+          
+            </div>
+                          
+              </div>
+    
+  
+      
+              </li>
+          
+    
+      </ul>
+    
+  
+
+
+            
+
+
+
+  <div  class="c-block c-global-menu-btns c-global-btns">
+
+  
+  
+    
+
+      <div  class="c-block__content">
+  
+      
+
+
+
+
+<div  class="c-field c-field--name-body c-field--type-text-with-summary c-field--label-hidden">
+  <div class="c-field__content"><p><a class="c-button c-button--basic c-button--gray" href="/staying-secure-large-scale-events">Staying Secure at Events</a><a class="c-button c-button--basic c-button--blue" href="/resources-tools/resources/free-cybersecurity-services-and-tools" title="Free Cyber Services">no-cost Cyber Services</a><a class="c-button c-button--basic c-button--green60" href="/cybersecurity-awareness-month">Cybersecurity Awareness Month</a><a class="c-button c-button--basic c-button--teal" href="/kev">KEV Catalog</a><a class="c-button c-button--report" href="/report">Report A Cyber Issue</a>&nbsp;</p></div></div>
+
+  
+      </div>
+  
+  
+  </div>
+    </div>
+  </div>
+</nav>
+
+
+  
+  
+  
+<div  class="l-breadcrumb">
+  <div class="l-constrain">
+    <div class="l-breadcrumb__row">
+      
+
+
+
+
+
+
+
+  
+  
+    
+
+  
+              
+
+
+
+
+<nav  aria-labelledby="breadcrumb-label" class="c-breadcrumb" role="navigation">
+  <div class="l-constrain">
+    <div
+       id="breadcrumb-label" class="c-breadcrumb__title  u-visually-hidden">Breadcrumb</div>
+    <ol class="c-breadcrumb__list">
+              <li class="c-breadcrumb__item">
+                      <a class="c-breadcrumb__link" href="/">Home</a>
+                  </li>
+              <li class="c-breadcrumb__item">
+                      <a class="c-breadcrumb__link" href="/news-events">News & Events</a>
+                  </li>
+              <li class="c-breadcrumb__item">
+                      <a class="c-breadcrumb__link" href="/news-events/cybersecurity-advisories">Cybersecurity Advisories</a>
+                  </li>
+              <li class="c-breadcrumb__item">
+                      <a class="c-breadcrumb__link" href="/news-events/cybersecurity-advisories?f%5B0%5D=advisory_type%3A65">Analysis Report</a>
+                  </li>
+              <li class="c-breadcrumb__item">
+                      <span aria-current="page">
+              MAR-10375867-1.v1 – HermeticWiper
+            </span>
+                  </li>
+          </ol>
+  </div>
+</nav>
+
+  
+  
+  
+  
+
+
+
+
+
+
+  <div  id="block-bettersocialsharingbuttons" class="c-block c-block--social-share c-block--provider-better-social-sharing-buttons c-block--id-social-sharing-buttons-block">
+
+  
+  
+    
+
+      <div  class="c-block__content">
+  
+      <div class="c-block__row">
+      <span>Share:</span>
+      
+<div style="display: none"><link href="/modules/contrib/better_social_sharing_buttons/assets/dist/sprites/social-icons--no-color.svg" as="image" type="image/svg+xml" crossorigin="anonymous" /></div>
+
+<div class="social-sharing-buttons">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.cisa.gov/news-events/analysis-reports/ar22-115a&amp;title=MAR-10375867-1.v1%20%E2%80%93%20HermeticWiper"
+   target="_blank"
+   title="Share to Facebook"
+   aria-label="Share to Facebook (opens in a new window)"
+   class="social-sharing-buttons-button share-facebook"
+   rel="noopener">
+  <svg aria-hidden="true" width="18px" height="18px" style="border-radius:3px;">
+    <use href="/modules/contrib/better_social_sharing_buttons/assets/dist/sprites/social-icons--no-color.svg#facebook" />
+  </svg>
+  <span class="social-sharing-buttons-visually-hidden">
+    Opens in a new window
+  </span>
+</a>
+                <a href="https://twitter.com/intent/tweet?text=MAR-10375867-1.v1%20%E2%80%93%20HermeticWiper+https://www.cisa.gov/news-events/analysis-reports/ar22-115a"
+   target="_blank"
+   title="Share to X"
+   aria-label="Share to X (opens in a new window)"
+   class="social-sharing-buttons-button share-x"
+   rel="noopener">
+  <svg aria-hidden="true" width="18px" height="18px" style="border-radius:3px;">
+    <use href="/modules/contrib/better_social_sharing_buttons/assets/dist/sprites/social-icons--no-color.svg#x" />
+  </svg>
+  <span class="social-sharing-buttons-visually-hidden">
+    Opens in a new window
+  </span>
+</a>
+                <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.cisa.gov/news-events/analysis-reports/ar22-115a"
+   target="_blank"
+   title="Share to LinkedIn"
+   aria-label="Share to LinkedIn (opens in a new window)"
+   class="social-sharing-buttons-button share-linkedin"
+   rel="noopener">
+  <svg aria-hidden="true" width="18px" height="18px" style="border-radius:3px;">
+    <use href="/modules/contrib/better_social_sharing_buttons/assets/dist/sprites/social-icons--no-color.svg#linkedin" />
+  </svg>
+  <span class="social-sharing-buttons-visually-hidden">
+    Opens in a new window
+  </span>
+</a>
+                <a href="mailto:?subject=MAR-10375867-1.v1%20%E2%80%93%20HermeticWiper&amp;body=https://www.cisa.gov/news-events/analysis-reports/ar22-115a"
+   title="Share by email"
+   aria-label="Share by email"
+   class="social-sharing-buttons-button share-email"
+   target="_blank"
+   rel="noopener">
+  <svg aria-hidden="true" width="18px" height="18px" style="border-radius:3px;">
+    <use href="/modules/contrib/better_social_sharing_buttons/assets/dist/sprites/social-icons--no-color.svg#email" />
+  </svg>
+</a>
+                                                                        </div>
+
+    </div>
+  
+      </div>
+  
+  
+  </div>
+
+    </div>
+  </div>
+</div>
+
+  
+  
+
+  <main id="main" class="c-main" role="main" tabindex="-1">
+              <div class="l-constrain">
+        
+<div  class="usa-alert usa-alert--warning">
+  <div class="usa-alert__body">
+    <h3 class="usa-alert__heading">Archived Content</h3>    In an effort to keep CISA.gov current, the archive contains outdated information that may not reflect current policy or programs.
+  </div>
+</div>
+
+      </div>
+    
+      
+    
+
+
+<div  class="l-content">
+          
+
+
+
+
+
+
+
+  
+  
+    
+
+  
+            
+
+
+
+
+
+
+
+
+
+
+<div  class="is-promoted l-full">
+    <div class="l-full__header">
+        
+<div  class="c-page-title">
+	<div class="c-page-title__inner l-constrain">
+		<div class="c-page-title__row">
+			<div>
+				<div class="c-page-title__content">
+											<div class="c-page-title__meta">Analysis Report</div>
+										<h1 class="c-page-title__title">
+<span>MAR-10375867-1.v1 – HermeticWiper</span>
+</h1>
+																																				<div class="c-page-title__fields">  
+
+
+
+
+<div  class="c-field c-field--name-field-last-updated c-field--type-datetime c-field--label-above">
+  <div  class="c-field__label">Last Revised</div><div class="c-field__content"><time datetime="2022-04-28T12:00:00Z">April 28, 2022</time></div></div>
+
+  
+
+
+
+
+<div  class="c-field c-field--name-field-alert-code c-field--type-string c-field--label-above">
+  <div  class="c-field__label">Alert Code</div><div class="c-field__content">AR22-115A</div></div>
+
+</div>
+																								</div>
+				<div class="c-page-title__decoration"></div>
+			</div>
+					</div>
+	</div>
+</div>
+    </div>
+    <div class="l-full__main">
+                      
+
+<div  class="l-page-section l-page-section--rich-text csaf-imported">
+      <div class="l-constrain">
+  
+  
+  <div class="l-page-section__content">
+          <table id="cma-table" class="tablesaw tablesaw-stack" data-tablesaw-mode="stack" data-tablesaw-minimap>
+<tbody>
+<tr>
+<td>
+<h3>Notification</h3>
+<div class="cma-section">
+<p>This report is provided "as is" for informational purposes only. The Department of Homeland Security (DHS) does not provide any warranties of any kind regarding any information contained herein. The DHS does not endorse any commercial product or service referenced in this bulletin or otherwise.</p>
+<p>This document is marked TLP:WHITE--Disclosure is not limited. Sources may use TLP:WHITE when information carries minimal or no foreseeable risk of misuse, in accordance with applicable rules and procedures for public release. Subject to standard copyright rules, TLP:WHITE information may be distributed without restriction. For more information on the Traffic Light Protocol (TLP), see http://www.cisa.gov/tlp.</p>
+</div>
+<h3>Summary</h3>
+<div class="cma-section">
+<h5>Description</h5>
+<p>CISA received seven files for analysis. Five of these files were identified as the HermeticWiper, all digitally signed by Hermetica Digital Ltd. The other two files are 32-bit and 64-bit copies of the EaseUS&nbsp;Partition&nbsp;Master&nbsp;NT&nbsp;Driver (EPMNTDrv), all digitally signed by Chengdu Yiwo Technology Development Co., Ltd with an expired certificate issued in 2012. The wiper contains four copies of compressed EPMNTDrv in its resource section. Each EPMNTDrv targets different versions and architectures of the Windows operating system (OS). Upon execution of the wiper, it extracts, expands, registers the driver with a service key and starts the service immediately. After the driver service is started and the driver process lives in memory, the service key and associated driver files are deleted. The driver process enables the wiper to conduct read and write directly on the disk.<br><br>The wiper overwrites the Master boot record (MBR), New Technologies File System (NTFS) boot sector and data and attributes the system relies on for a system restoration. The wiper sets a sleep timer, which can be its first numeric input. If the wiper runs with the administrative privilege or if the wiper's name begins with the 'c' character, the expiration of the timer will trigger a forced system shutdown followed by an immediate reboot, rendering the system useless at that point. Before the timer expires, the wiper continues the fragmentation process on the disk and overwrites the File Allocation Table (FAT) file system Boot Sector or the NTFS Master File Table (MFT) and its backup in $MFTMirr, user's files from user's directories and the attributes and data contents of the Windows Event Logs with random bytes. The wiper will stop the fragmentation, locate the allocated clusters and overwrite them with random bytes. Finally, the wiper overwrites itself with random bytes and the wiping process is terminated.<br><br>Two of the 'newer' HermeticWiper compiled in 2022 will detect the role of the infected system. If the system is a Domain Controller, the wiper will wait for three minutes to complete the overwriting of the MBR, boot sector and system restore directory attributes and data with random bytes before it exits. The domain controller continues to function until the next reboot.</p>
+<p>For a downloadable copy of IOCs, see: <a href="/sites/default/files/publications/MAR-10375867.r1.v1.WHITE_stix.xml">MAR-10375867-1.v1.stix</a></p>
+<h5>Submitted Files (7)</h5>
+<p>0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da (0385eeab00e946a302b24a91dea418...)</p>
+<p>06086c1da4590dcc7f1e10a6be3431e1166286a9e7761f2de9de79d7fda9c397 (06086c1da4590dcc7f1e10a6be3431...)</p>
+<p>1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591 (1bc44eef75779e3ca1eefb8ff5a648...)</p>
+<p>2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf (2c10b2ec0b995b88c27d141d6f7b14...)</p>
+<p>3c557727953a8f6b4788984464fb77741b821991acbf5e746aebdd02615b1767 (3c557727953a8f6b4788984464fb77...)</p>
+<p>8c614cf476f871274aa06153224e8f7354bf5e23e6853358591bf35a381fb75b (&lt;two-random-characters&gt;dr.sys)</p>
+<p>96b77284744f8761c4f2558388e0aee2140618b484ff53fa8b222b340d2a9c84 (epmntdrv.sys)</p>
+<h5>Additional Files (6)</h5>
+<p>23ef301ddba39bb00f0819d2061c9c14d17dc30f780a945920a51bc3ba0198a4 (&lt;two-random-characters&gt;dr.sys)</p>
+<p>2c7732da3dcfc82f60f063f2ec9fa09f9d38d5cfbe80c850ded44de43bdb666d (&lt;two-random-characters&gt;dr.sys)</p>
+<p>b01e0c6ac0b8bcde145ab7b68cf246deea9402fa7ea3aede7105f7051fe240c1 (drv_x86)</p>
+<p>b6f2e008967c5527337448d768f2332d14b92de22a1279fd4d91000bb3d4a0fd (drv_xp_x64)</p>
+<p>e5f3ef69a534260e899a36cec459440dc572388defd8f1d98760d31c700f42d5 (drv_x64)</p>
+<p>fd7eacc2f87aceac865b0aa97a50503d44b799f27737e009f91f3c281233c17d (drv_xp_x86)</p>
+</div>
+<h3>Findings</h3>
+<div class="cma-section">
+<h4>1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591</h4>
+<h5>Tags</h5>
+<p>droppertrojanviruswiper</p>
+<h5>Details</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader" data-tablesaw-priority="persist">Name</th>
+<td>1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591</td>
+</tr>
+<tr>
+<th role="columnheader">Size</th>
+<td>117000 bytes</td>
+</tr>
+<tr>
+<th role="columnheader">Type</th>
+<td>PE32 executable (GUI) Intel 80386, for MS Windows</td>
+</tr>
+<tr>
+<th role="columnheader">MD5</th>
+<td>3f4a16b29f2f0532b7ce3e7656799125</td>
+</tr>
+<tr>
+<th role="columnheader">SHA1</th>
+<td>61b25d11392172e587d8da3045812a66c3385451</td>
+</tr>
+<tr>
+<th role="columnheader">SHA256</th>
+<td>1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591</td>
+</tr>
+<tr>
+<th role="columnheader">SHA512</th>
+<td>32acaceda42128ef9e0a9f36ee2678d2fc296fda2df38629eb223939c8a9352b3bb2b7021bb84e9f223a4a26df57b528a711447b1451213a013fe00f9b971d80</td>
+</tr>
+<tr>
+<th role="columnheader">ssdeep</th>
+<td>1536:sBOoa7Nn52wurilmw9BgjKu1sPPxaSLyqC:sBOoa7P2wxlPwV1qPkSuqC</td>
+</tr>
+<tr>
+<th role="columnheader">Entropy</th>
+<td>6.385391</td>
+</tr>
+</tbody>
+</table>
+<h5>Antivirus</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">AhnLab</th>
+<td>Trojan/Win.FoxBlade</td>
+</tr>
+<tr>
+<th role="columnheader">Antiy</th>
+<td>Trojan/Win32.HermeticWiper.a</td>
+</tr>
+<tr>
+<th role="columnheader">Avira</th>
+<td>TR/HermeticWiper.T</td>
+</tr>
+<tr>
+<th role="columnheader">Bitdefender</th>
+<td>Trojan.GenericKD.48632599</td>
+</tr>
+<tr>
+<th role="columnheader">ClamAV</th>
+<td>Win.Malware.HermeticWiper-9940039-0</td>
+</tr>
+<tr>
+<th role="columnheader">Comodo</th>
+<td>Malware</td>
+</tr>
+<tr>
+<th role="columnheader">Cyren</th>
+<td>W32/Agent.OSPU-6752</td>
+</tr>
+<tr>
+<th role="columnheader">ESET</th>
+<td>a variant of Win32/KillDisk.NCV trojan</td>
+</tr>
+<tr>
+<th role="columnheader">Emsisoft</th>
+<td>MalCert-S.OE (A)</td>
+</tr>
+<tr>
+<th role="columnheader">IKARUS</th>
+<td>Trojan.Win32.KillDisk</td>
+</tr>
+<tr>
+<th role="columnheader">K7</th>
+<td>Trojan ( 0058ecab1 )</td>
+</tr>
+<tr>
+<th role="columnheader">Lavasoft</th>
+<td>Trojan.GenericKD.48632599</td>
+</tr>
+<tr>
+<th role="columnheader">McAfee</th>
+<td>Generic trojan.jt</td>
+</tr>
+<tr>
+<th role="columnheader">NANOAV</th>
+<td>Trojan.Win32.HermeticWiper.jmyeyd</td>
+</tr>
+<tr>
+<th role="columnheader">NETGATE</th>
+<td>Trojan.Win32.Malware</td>
+</tr>
+<tr>
+<th role="columnheader">Sophos</th>
+<td>Mal/KillDisk-A</td>
+</tr>
+<tr>
+<th role="columnheader">Symantec</th>
+<td>Trojan.KillDisk</td>
+</tr>
+<tr>
+<th role="columnheader">TACHYON</th>
+<td>Trojan/W32.HermeticWiper.117000</td>
+</tr>
+<tr>
+<th role="columnheader">Trend Micro</th>
+<td>Trojan.407C6538</td>
+</tr>
+<tr>
+<th role="columnheader">Trend Micro HouseCall</th>
+<td>Trojan.407C6538</td>
+</tr>
+<tr>
+<th role="columnheader">Vir.IT eXplorer</th>
+<td>Trojan.Win32.HermeticWiper.A</td>
+</tr>
+<tr>
+<th role="columnheader">VirusBlokAda</th>
+<td>Trojan.Agent</td>
+</tr>
+<tr>
+<th role="columnheader">Zillya!</th>
+<td>Dropper.HermeticWiper.Win32.2</td>
+</tr>
+</tbody>
+</table>
+<h5>YARA Rules</h5>
+<ul>
+<li>rule CISA_10375867_01 : wiper HERMETICWIPER<br>{<br>&nbsp;&nbsp;&nbsp;meta:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Author = "CISA Code &amp; Media Analysis"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Incident = "10375867"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Date = "2022-04-05"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Last_Modified = "20220406_1500"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Actor = "n/a"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Category = "Wiper"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Family = "n/a"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Description = "Detects Hermetic Wiper samples"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;MD5_1 = "382fc1a3c5225fceb672eea13f572a38"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SHA256_1 = "2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;MD5_2 = "decc2726599edcae8d1d1d0ca99d83a6"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SHA256_2 = "3c557727953a8f6b4788984464fb77741b821991acbf5e746aebdd02615b1767"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;MD5_3 = "84ba0197920fd3e2b7dfa719fee09d2f"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SHA256_3 = "0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;MD5_4 = "3f4a16b29f2f0532b7ce3e7656799125"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SHA256_4 = "1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;MD5_5 = "f1a33b2be4c6215a1c39b45e391a3e85"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SHA256_5 = "06086c1da4590dcc7f1e10a6be3431e1166286a9e7761f2de9de79d7fda9c397"<br>&nbsp;&nbsp;&nbsp;strings:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc1 = { 53 5A 44 44 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc2 = { 52 00 43 00 44 00 41 00 54 00 41 00 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc3 = { 44 00 52 00 56 00 5F 00 58 00 36 00 34 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc4 = { 44 00 52 00 56 00 5F 00 58 00 38 00 36 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc5 = { 44 00 52 00 56 00 5F 00 58 00 50 00 5F 00 58 00 36 00 34 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc6 = { 44 00 52 00 56 00 5F 00 58 00 50 00 5F 00 58 00 38 00 36 00 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s1 = { 45 00 50 00 4D 00 4E 00 54 00 44 00 52 00 56 00 5C 00 25 00 75 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s2 = { 50 00 68 00 79 00 73 00 69 00 63 00 61 00 6C 00 44 00 72 00 69 00 76 00 65 00 25 00 75 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s3 = { 53 00 59 00 53 00 54 00 45 00 4D 00 5C 00 43 00 75 00 72 00 72 00 65 00 6E 00 74 00 43 00 6F 00 6E 00 74 00 72 00 6F 00 6C 00 53 00 65 00 74 00 5C 00 43 00 6F 00 6E 00 74 00 72 00 6F 00 6C 00 5C 00 43 00 72 00 61 00 73 00 68 00 43 00 6F 00 6E 00 74 00 72 00 6F 00 6C }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s4 = { 43 00 72 00 61 00 73 00 68 00 44 00 75 00 6D 00 70 00 45 00 6E 00 61 00 62 00 6C 00 65 00 64 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s5 = { 24 00 49 00 4E 00 44 00 45 00 58 00 5F 00 41 00 4C 00 4C 00 4F 00 43 00 41 00 54 00 49 00 4F 00 4E }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s6 = { 53 00 65 00 4C 00 6F 00 61 00 64 00 44 00 72 00 69 00 76 00 65 00 72 00 50 00 72 00 69 00 76 00 69 00 6C 00 65 00 67 00 65 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s7 = { 53 00 65 00 42 00 61 00 63 00 6B 00 75 00 70 00 50 00 72 00 69 00 76 00 69 00 6C 00 65 00 67 00 65 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s8 = { 43 00 3A 00 5C 00 57 00 69 00 6E 00 64 00 6F 00 77 00 73 00 5C 00 53 00 59 00 53 00 56 00 4F 00 4C }<br>&nbsp;&nbsp;&nbsp;condition:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;uint16(0) == 0x5A4D and ((3 of ($rsrc*)) and (7 of ($s*)))<br>}</li>
+</ul>
+<h5>ssdeep Matches</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">99</th>
+<td>06086c1da4590dcc7f1e10a6be3431e1166286a9e7761f2de9de79d7fda9c397</td>
+</tr>
+</tbody>
+</table>
+<h5>PE Metadata</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Compile Date</th>
+<td>2022-02-23 04:48:53-05:00</td>
+</tr>
+<tr>
+<th role="columnheader">Import Hash</th>
+<td>fe4a2284122da348258c83ef437fbd7b</td>
+</tr>
+</tbody>
+</table>
+<h5>PE Sections</h5>
+<table class="tablesaw tablesaw-stack" data-tablesaw-mode="stack" data-tablesaw-minimap>
+<thead>
+<tr>
+<th role="columnheader" data-tablesaw-priority="persist">MD5</th>
+<th role="columnheader">Name</th>
+<th role="columnheader">Raw Size</th>
+<th role="columnheader">Entropy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0d370bcce45eae7f5d16bb308b5ca811</td>
+<td>header</td>
+<td>1024</td>
+<td>2.519045</td>
+</tr>
+<tr>
+<td>ba89a1d62ff34e1b9c45da08bda91c3c</td>
+<td>.text</td>
+<td>16384</td>
+<td>6.388564</td>
+</tr>
+<tr>
+<td>a32e2e98f61c52c443c6d653d682991a</td>
+<td>.rdata</td>
+<td>5120</td>
+<td>4.441415</td>
+</tr>
+<tr>
+<td>ca2eecf5edbfc7c94c96a4696789c07d</td>
+<td>.data</td>
+<td>512</td>
+<td>0.762127</td>
+</tr>
+<tr>
+<td>e77f09dc0f10e6627c83ae611fec363c</td>
+<td>.rsrc</td>
+<td>89088</td>
+<td>6.203475</td>
+</tr>
+<tr>
+<td>e5535abe90a2baf02252af4fb155a053</td>
+<td>.reloc</td>
+<td>1024</td>
+<td>6.211847</td>
+</tr>
+</tbody>
+</table>
+<h5>Packers/Compilers/Cryptors</h5>
+<table>
+<tbody>
+<tr>
+<td>Borland Delphi 3.0 (???)</td>
+</tr>
+</tbody>
+</table>
+<h5>Relationships</h5>
+<table>
+<tbody>
+<tr>
+<td>1bc44eef75...</td>
+<td>Contains</td>
+<td>e5f3ef69a534260e899a36cec459440dc572388defd8f1d98760d31c700f42d5</td>
+</tr>
+<tr>
+<td>1bc44eef75...</td>
+<td>Contains</td>
+<td>b6f2e008967c5527337448d768f2332d14b92de22a1279fd4d91000bb3d4a0fd</td>
+</tr>
+<tr>
+<td>1bc44eef75...</td>
+<td>Contains</td>
+<td>b01e0c6ac0b8bcde145ab7b68cf246deea9402fa7ea3aede7105f7051fe240c1</td>
+</tr>
+<tr>
+<td>1bc44eef75...</td>
+<td>Contains</td>
+<td>fd7eacc2f87aceac865b0aa97a50503d44b799f27737e009f91f3c281233c17d</td>
+</tr>
+</tbody>
+</table>
+<h5>Description</h5>
+<p>This file is identified as a 32-bit HermeticWiper. The resource section of the HermeticWiper is embedded with four SZDD compressed driver files as displayed in Figure 1. Depending on the OS major version and system architecture type (32-bit/64-bit), the corresponding SZDD compressed file will be extracted into the System32 directory and expanded to a driver file &lt;random-2-characters&gt;dr.sys (Figures 2-4). The expanded file is a copy of the EaseUs Partition Manager (epmntdrv.sys). The wiper enables SeLoadDriverPrivilege and registers the driver as a system service. The new system service starts immediately and the driver process runs in memory. Then the wiper immediately removes the following registry key and deletes the SZDD file and the expanded driver file from System32 in order to remove its tracks on the victim's system.<br><br>--Begin sample device service installed--<br>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\lxdr, Data: "C:\Windows\system32\Drivers\lxdr.sys"<br>--End sample device service installed--<br><br>In preparation, the wiper disables the crash dump service by disabling the HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CrashControl\CrashDumpEnabled key. In addition, the wiper disables the Volume Snapshot Service (VSS).<br><br>In order to run on user mode, the wiper enables SeBackupPrivilege. If the wiper's name begins with a 'c', it will reconstruct the "SeShutDownPrivilege" string and enable it (Figure 5). The SeShutDownPrivilege is necessary for the wiper when it runs in user mode, to be able to execute InitiateSystemShutdownExW, which is configured to force applications to close, shutdown the system without warning and immediately force a reboot (Figure 13, line 199). The SeShutDownPrivilege is not needed if the wiper runs on administrative privilege; the system will shutdown and reboot regardless of the wiper's name.<br><br>The wiper uses the same method to locate and wipe files. First, it locates target files and stores their disk locations into a customized structure type. Meanwhile, a random buffer is generated using CryptGenRandom (Figure 7) for each group of targeted files and stored into the same structure. The stuffed structure is passed to a wipe function, which runs as a separated process thread later in the program (Figure 6).<br><br>The wiper coordinates the destruction process into groups, each handled by its own process thread. First, the wiper creates a thread to overwrite itself (Figure 13, lines 173, 209). This thread is passed to WaitForMultipleObjects which waits till the very end when the overwrite occurs.<br><br>Next, the wiper makes the system unusable and cannot be revived. First, the wiper locates the MBR and the boot sector of all available physical drives from 0 to 100 (Figure 13, lines 178-179). Then it generates a 4096 byte buffer filled with random bytes. 4096 is the Windows default allocation size (Figure 8). The destruction of MBR and boot sector render the OS unable to reboot (Figure 13, line 213).<br><br>Then, the wiper makes it impossible to restore the system by overwriting the $I30 and the $DATA attributes of the C:\System Volume Information directory (Figure 13, lines 183 and 213). The C:\System Volume Information directory contains system restore points and information used by VSS.<br><br>--Begin target attributes--<br>The $I30 attribute covers both of the following attributes:<br>&nbsp;&nbsp;&nbsp; 1. $INDEX_ROOT - contains information about the files and sub-directories .<br>&nbsp;&nbsp;&nbsp; 2. $INDEX_ALLOCATION - contains spilled over information from $INDEX_ROOT.<br>The $DATA attribute contains user or system stored content.<br>--End target attributes--<br><br>Then the wiper starts a low priority process thread for fragmentation, skipping the following Windows system directories when enumerating files (Figure 13, line 203 and Figure 9). User files that are not in the following directories will be fragmented using FSCTL_GET_RETRIEVAL_POINTERS to obtain the file's allocation and location on disk. The output is randomized and passed to FSCTL_MOVE_FILE to relocate the file's virtual clusters (Figure 10).<br><br>--Begin skipped directories--<br>Windows<br>Program Files<br>Program Files(x86)<br>PerfLogs<br>Boot<br>System Volume Information<br>AppData<br>--End skipped directories--<br><br>In this newer version of HermeticWiper that was compiled in 2022 ensures the wiper will bring down a Domain Controller in the shortest possible time. First, the wiper checks for the presence of C:\Windows\SYSVOL using GetFileAttributesW (Figure 13, line 220). The SYSVOL directory indicates the victim's system is a Domain Controller Server, which is responsible for security authentication requests within a domain. In this case, the wiper waits for three minutes to ensure the destruction of the MBR, boot sector and data requires for a system restore (that already happened in the thread created in Figure 13, line 211). The wiper process and all its process threads exit (Figure 13, lines 220-224). The domain controller continues to function until the next reboot.<br><br>The second stage of data wipe continues on systems that are not identified as a Domain Controller server (Figure 14) .<br><br>The wiper will locate the MFT and its backup in the $MFTMirr file in NTFS, or the Boot Sector in a FAT file system (Figure 11) of all available physical drives from 0 to 100 and store them in a customized structure to be wiped later (Figure 14, lines 228-229, 266). A buffer with random bytes is also generated and passed to the structure.<br><br>Then it locates $Bitmap (contains clusters allocation statuses) and $LogFile (contains journals of metadata transactions) from all available logical drives, such as "C:\" and "D:\" (Figure 14, line 232) and stores them in the same customized structure for these data to be wiped later (Figure 14, line 266).<br><br>Next, it recursively locates users files from the user's directory, avoiding the AppData directory and user filename that contains the "ntuser" string. It also recursively locates files under the user's Desktop and My Document directory (Figure 14, lines 236, 239). These locations are also stored into the same customized structure to be wiped later (Figure 14, line 266).<br><br>The C:\Windows\System32\winevt\Logs directory contains all Windows events logs. The locations of $I30 (includes $INDEX_ROOT and $INDEX_ALLOCATION) as well as locations of $DATA attributes are collected into the same customized structure for these data to be wiped later (Figure 14, lines 242, 266).<br><br>The wiper terminates the data fragmentation in 30 seconds, then calls the same function utilizing FSCTL_GET_VOLUME_BITMAP to obtain occupied clusters in a volume. This information is passed to a separated write structure to be wiped by random buffer later (Figure 14, line 267).<br><br>The HermeticWiper accepts up to two optional numeric inputs (Figure 15). The first numeric input is used to set the first sleep timer that triggers InitiateSystemShutdownExW in a process thread (Figure 13, line 197). If no input is provided, the resulting 34 minutes will be used and the least significant four digits in milliseconds are randomized (Figure 13, lines 187-192) before passing to the sleep timer. That randomization in sleep time is negligible when measuring in minutes. The second numeric input, if provided, will be compared with the first input and the smaller value will be used. If no input is provided, the resulting 19 minutes will be used and the least significant four digits in milliseconds are randomized (Figure 14, lines 244-253). This second sleep time keeps the main wiper thread alive.<br><br>This HermeticWiper variant is signed with the following digital certificate issued by Hermetica Digital Ltd as displayed below:<br><br>--Begin Digital Certificate--<br>Certificate:<br>&nbsp;&nbsp;&nbsp;Data:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Version: 3 (0x2)<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Serial Number:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;0c:48:73:28:73:ac:8c:ce:ba:f8:f0:e1:e8:32:9c:ec<br>&nbsp;&nbsp;&nbsp;Signature Algorithm: sha256WithRSAEncryption<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Issuer: C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert EV Code Signing CA (SHA2)<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Validity<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Not Before: Apr 13 00:00:00 2021 GMT<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Not After : Apr 14 23:59:59 2022 GMT<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Subject: businessCategory=Private Organization/jurisdictionCountryName=CY/serialNumber=HE 419469, C=CY, L=Nicosia, O=Hermetica Digital Ltd, CN=Hermetica Digital Ltd<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Subject Public Key Info:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Public Key Algorithm: rsaEncryption<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Public-Key: (2048 bit)<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Modulus:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;00:92:62:5f:e5:0c:1e:d0:de:a6:75:e5:50:58:1a:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;02:87:e4:4f:3c:b4:f1:d9:6d:e7:b6:4c:94:c6:78:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;59:31:39:58:a3:18:d4:d2:56:44:d6:09:1f:ab:8b:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;fc:3f:72:bf:15:fa:56:ae:64:16:21:13:5b:44:e3:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;29:68:27:4d:30:eb:2e:b1:05:5c:e2:2d:48:d7:62:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;ba:b7:1e:f8:de:74:28:e8:90:50:6f:1c:82:5f:7a:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;e0:d8:60:5f:5c:62:7c:a3:25:bf:f1:99:ab:60:a6:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;3d:e8:a9:0e:92:3f:4b:18:d7:fb:03:9e:1d:ec:89:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;d5:73:aa:b0:a1:4c:1d:4b:a7:0e:b4:44:75:3a:41:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;c0:30:82:a6:0c:b4:db:55:13:93:f2:c5:09:88:a3:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;18:1e:7f:31:d0:1b:5a:ad:94:07:04:32:d9:8f:18:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;65:5a:b8:a5:55:91:9f:ef:ea:9d:e1:ed:f1:bd:ff:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;c6:3e:ff:83:28:87:2e:be:38:ad:21:96:2f:5c:40:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;0f:6c:35:a8:48:2f:a7:a9:cd:bc:19:56:37:25:ec:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;83:12:f5:90:e5:88:a0:bb:ef:4b:0b:11:85:2e:38:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;c7:e3:9e:41:53:9f:9f:52:97:fe:b2:d2:0b:ff:74:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;c9:5b:f0:e5:ad:ad:c2:40:e6:7a:5c:2f:3e:76:f6:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;09:93<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Exponent: 65537 (0x10001)<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;X509v3 extensions:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;X509v3 Authority Key Identifier:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;keyid:8F:E8:7E:F0:6D:32:6A:00:05:23:C7:70:97:6A:3A:90:FF:6B:EA:D4<br><br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;X509v3 Subject Key Identifier:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;C4:9F:18:1C:59:D2:5B:25:71:9E:F1:37:B7:60:59:D6:2A:07:99:E1<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;X509v3 Subject Alternative Name:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;othername:&lt;unsupported&gt;<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;X509v3 Key Usage: critical<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Digital Signature<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;X509v3 Extended Key Usage:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Code Signing<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;X509v3 CRL Distribution Points:<br><br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Full Name:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; URI:http://crl3.digicert.com/EVCodeSigningSHA2-g1.crl<br><br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Full Name:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; URI:http://crl4.digicert.com/EVCodeSigningSHA2-g1.crl<br><br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;X509v3 Certificate Policies:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Policy: 2.16.840.1.114412.3.2<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; CPS: http://www.digicert.com/CPS<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Policy: 2.23.140.1.3<br><br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Authority Information Access:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;OCSP - URI:http://ocsp.digicert.com<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;CA Issuers - URI:http://cacerts.digicert.com/DigiCertEVCodeSigningCA-SHA2.crt<br><br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;X509v3 Basic Constraints: critical<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;CA:FALSE<br>&nbsp;&nbsp;&nbsp;Signature Algorithm: sha256WithRSAEncryption<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 44:da:48:c6:eb:9c:2f:04:bf:3d:64:18:61:13:e0:ad:ec:ec:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 51:93:df:7b:59:6a:95:c1:73:2c:c9:46:19:b1:c2:77:72:85:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; b0:40:c6:52:db:bc:d2:b2:07:19:0f:48:0a:26:c7:05:a3:f5:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; c6:10:f7:55:b2:f1:f3:a6:6f:75:24:04:e4:b5:51:8c:d9:41:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 31:0a:01:5e:4a:f8:e5:96:8c:82:31:49:2f:e1:92:46:a2:93:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; a5:69:d5:d7:a3:6f:56:eb:2f:c5:b6:8f:ff:6f:33:59:c1:9a:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; f6:80:69:20:c3:fe:66:28:f9:0a:75:44:0e:66:16:29:7a:03:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 1b:a6:07:51:00:d7:2d:fa:a9:82:9e:77:2e:45:d7:7b:89:f8:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 62:08:1e:af:db:19:b4:b2:dc:ef:3f:27:3f:f6:45:ac:ce:aa:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 4b:99:1f:98:37:39:73:c0:fb:25:82:9e:86:0d:9b:c1:95:ef:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 1a:0a:d9:21:94:56:ad:07:7d:42:86:8e:e0:3e:e0:0e:88:d0:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 4c:43:4b:a9:7e:88:df:99:27:3a:35:e2:c6:68:a1:c6:99:54:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; b4:76:23:90:ab:df:be:4c:d4:af:c8:65:e4:34:18:a5:6c:89:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; dc:37:25:34:28:03:b4:d4:6a:35:69:82:35:0a:e0:7f:01:c1:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 95:cb:26:e2<br>-----BEGIN CERTIFICATE-----<br>MIIFiTCCBHGgAwIBAgIQDEhzKHOsjM66+PDh6DKc7DANBgkqhkiG9w0BAQsFADBs<br>MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3<br>d3cuZGlnaWNlcnQuY29tMSswKQYDVQQDEyJEaWdpQ2VydCBFViBDb2RlIFNpZ25p<br>bmcgQ0EgKFNIQTIpMB4XDTIxMDQxMzAwMDAwMFoXDTIyMDQxNDIzNTk1OVowgacx<br>HTAbBgNVBA8MFFByaXZhdGUgT3JnYW5pemF0aW9uMRMwEQYLKwYBBAGCNzwCAQMT<br>AkNZMRIwEAYDVQQFEwlIRSA0MTk0NjkxCzAJBgNVBAYTAkNZMRAwDgYDVQQHEwdO<br>aWNvc2lhMR4wHAYDVQQKExVIZXJtZXRpY2EgRGlnaXRhbCBMdGQxHjAcBgNVBAMT<br>FUhlcm1ldGljYSBEaWdpdGFsIEx0ZDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC<br>AQoCggEBAJJiX+UMHtDepnXlUFgaAofkTzy08dlt57ZMlMZ4WTE5WKMY1NJWRNYJ<br>H6uL/D9yvxX6Vq5kFiETW0TjKWgnTTDrLrEFXOItSNdiurce+N50KOiQUG8cgl96<br>4NhgX1xifKMlv/GZq2CmPeipDpI/SxjX+wOeHeyJ1XOqsKFMHUunDrREdTpBwDCC<br>pgy021UTk/LFCYijGB5/MdAbWq2UBwQy2Y8YZVq4pVWRn+/qneHt8b3/xj7/gyiH<br>Lr44rSGWL1xAD2w1qEgvp6nNvBlWNyXsgxL1kOWIoLvvSwsRhS44x+OeQVOfn1KX<br>/rLSC/90yVvw5a2twkDmelwvPnb2CZMCAwEAAaOCAekwggHlMB8GA1UdIwQYMBaA<br>FI/ofvBtMmoABSPHcJdqOpD/a+rUMB0GA1UdDgQWBBTEnxgcWdJbJXGe8Te3YFnW<br>KgeZ4TAnBgNVHREEIDAeoBwGCCsGAQUFBwgDoBAwDgwMQ1ktSEUgNDE5NDY5MA4G<br>A1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzB7BgNVHR8EdDByMDeg<br>NaAzhjFodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vRVZDb2RlU2lnbmluZ1NIQTIt<br>ZzEuY3JsMDegNaAzhjFodHRwOi8vY3JsNC5kaWdpY2VydC5jb20vRVZDb2RlU2ln<br>bmluZ1NIQTItZzEuY3JsMEoGA1UdIARDMEEwNgYJYIZIAYb9bAMCMCkwJwYIKwYB<br>BQUHAgEWG2h0dHA6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzAHBgVngQwBAzB+Bggr<br>BgEFBQcBAQRyMHAwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNv<br>bTBIBggrBgEFBQcwAoY8aHR0cDovL2NhY2VydHMuZGlnaWNlcnQuY29tL0RpZ2lD<br>ZXJ0RVZDb2RlU2lnbmluZ0NBLVNIQTIuY3J0MAwGA1UdEwEB/wQCMAAwDQYJKoZI<br>hvcNAQELBQADggEBAETaSMbrnC8Evz1kGGET4K3s7FGT33tZapXBcyzJRhmxwndy<br>hbBAxlLbvNKyBxkPSAomxwWj9cYQ91Wy8fOmb3UkBOS1UYzZQTEKAV5K+OWWjIIx<br>SS/hkkaik6Vp1dejb1brL8W2j/9vM1nBmvaAaSDD/mYo+Qp1RA5mFil6AxumB1EA<br>1y36qYKedy5F13uJ+GIIHq/bGbSy3O8/Jz/2RazOqkuZH5g3OXPA+yWCnoYNm8GV<br>7xoK2SGUVq0HfUKGjuA+4A6I0ExDS6l+iN+ZJzo14sZoocaZVLR2I5Cr375M1K/I<br>ZeQ0GKVsidw3JTQoA7TUajVpgjUK4H8BwZXLJuI=<br>-----END CERTIFICATE-----<br>--End Digital Certificate--</p>
+<h5>Screenshots</h5>
+<p><img></p>
+<div class="cma-screenshot-text">
+<p><strong>Figure 1 - </strong>The resource section contains four versions of compressed epmntdrv.sys, targeting 32-bit and 64-bit Windows OS.</p>
+</div>
+<p><img></p>
+<div class="cma-screenshot-text">
+<p><strong>Figure 2 - </strong>One of the four compressed driver files is extracted from the resource section based on the OS major version and system architecture (x86/x64).</p>
+</div>
+<p><img></p>
+<div class="cma-screenshot-text">
+<p><strong>Figure 3 - </strong>The SZDD is extracted and decompressed by LZOpenFileW followed by LZCopy. The decompressed file is given a .sys extension, registered as a driver service which is started immediately. The installed service key, the SZDD compressed resource and the .sys files are deleted afterwards.</p>
+</div>
+<p><img></p>
+<div class="cma-screenshot-text">
+<p><strong>Figure 4 - </strong>This algorithm generates a four-character string as the name of the driver and its associated service key. The name contains two random characters and ends with a static string "dr". The indexes to select the first and second character are computed differently, with the variable v12 in the screenshot corresponding to the first character and v12[1] corresponding to the second character.</p>
+</div>
+<p><img></p>
+<div class="cma-screenshot-text">
+<p><strong>Figure 5 - </strong>The string "SeShutDownPrivilege" that passed to LookupPrivilegeValueW will be deobfuscated if the wiper's name begins with the 'c' character. Enabling SeShutDownPrivilege allows the wiper with only user privilege to shutdown the system using InitiateSystemShutdownExW. The SeBackupPrivilege allows the retrieval of file content, skipping the Access Control List (ACL) security check. This privilege is enabled by default to permit the wiper that runs with only user privilege to read and write any files.</p>
+</div>
+<p><img></p>
+<div class="cma-screenshot-text">
+<p><strong>Figure 6 - </strong>Snippet of the function that overwrites saved locations on disk using the 4096 bytes buffer filled with random data generated by CryptGenRandom. This function is used to wipe different groups of data as follows: Figure 13, line 207 (to erase the malware file), Figure 13, line 211 (to erase MBR, MBS and C:\System Volume Information), Figure 14, line 266 (to erase MFT, $Bitmap, $Logfile, users files and Windows Event Logs) and Figure 14, line 267 (to erase allocated clusters).</p>
+</div>
+<p><img></p>
+<div class="cma-screenshot-text">
+<p><strong>Figure 7 - </strong>Snippet from the function that uses CryptGenRandom to generates 0x1000 (4096 bytes) of random bytes.</p>
+</div>
+<p><img></p>
+<div class="cma-screenshot-text">
+<p><strong>Figure 8 - </strong>Error message displayed on the infected system within minutes after being shutdown and followed by an immediate reboot.</p>
+</div>
+<p><img></p>
+<div class="cma-screenshot-text">
+<p><strong>Figure 9 - </strong>Snippet of code from four different functions related to fragmentation (Figure 13, line 201), it begins with disabling both ShowCompColor (displays compressed and encrypted NTFS files in color) and ShowInfoTip (shows pop-up descriptions for folder and desktop items) before the fragmentation.</p>
+</div>
+<p><img></p>
+<div class="cma-screenshot-text">
+<p><strong>Figure 10 - </strong>The FOR loop in Figure 10 eventually runs this snippet of code where the fragmentation takes place. It retrieves the file allocation on a disk using FSCTL_GET_RETRIEVAL_POINTERS and runs some randomization before passing back to MOVE_FILE_DATA to relocate file clusters.</p>
+</div>
+<p><img></p>
+<div class="cma-screenshot-text">
+<p><strong>Figure 11 - </strong>The wiper locates $MFT and its backup $MFTMirr in NTFS or the boot sector in FAT from PhysicalDrive0 to PhysicalDrive100 to wipe.</p>
+</div>
+<p><img></p>
+<div class="cma-screenshot-text">
+<p><strong>Figure 12 - </strong>Screenshot of before and after data wipe on the first MFT entry.</p>
+</div>
+<p><img></p>
+<div class="cma-screenshot-text">
+<p><strong>Figure 13 - </strong>Snippet of the main function displaying the malware first prepared itself to be overwritten (line 172), which does not occur until the end of the process. The wiper collects the locations of the MBR and the Boot Sector of PhysicalDrive0 to PhysicalDrive100 (line 177-178), and the locations of the directory attributes and data of C:\System Volume Information (line 182), together with a random generated buffer (sysStruct) are passed to the wipe function that runs in a dedicated process thread (line 211). The wiper also runs a fragmentation process thread (line 201). The wiper exits the process in 3 minutes if the victim system is a Domain Controller server (line 219-223).</p>
+</div>
+<p><img></p>
+<div class="cma-screenshot-text">
+<p><strong>Figure 14 - </strong>Snippet of the main function continues from Figure 13, it displays the section of code that continues to run on Windows systems that are not identified as the Domain Controller. The wiper collects locations of the NTFS MFT and $MFTMirr or the FAT file system boot sector from PhysicalDrive0 to PhysicalDrive100, generates random bytes buffer (line 228-229), and continues its collection of the locations of $Bitmap and $LogFile of all available logical drives (line 232), some user files (line 236, 239) and Windows Event Logs directory attributes and $DATA (line 242). The structure that contains all these locations and the random buffer (userStruct) is passed to the wipe function that runs in a dedicated process thread (line 266). Then, the fragmentation process is terminated in 30 seconds (line 257-259). The bitmap of occupied clusters together with another random bytes buffer are obtained (clusterStruct) and passed to the wipe function that runs in another dedicated process thread (line 267).</p>
+</div>
+<p><img></p>
+<div class="cma-screenshot-text">
+<p><strong>Figure 15 - </strong>The HermeticWiper accepts up to two numeric inputs. The first numeric input is used to set the first sleep timer thread that ultimately triggers InitiateSystemShutdownExW (Figure 13, line 197). The sleep timer is converted to milliseconds and subtracted from a randomly generated number from its least significant four digits (Figure 13, lines 185-192). The second numeric input, if provided, will be compared with the first input and the smaller value will be used. If no input is provided, the default value is 20 minutes, which will be converted to milliseconds and subtracted from a randomly generated number from its least significant four digits (Figure 14, lines 245-250).</p>
+</div>
+</div>
+<div class="cma-section">
+<h4>06086c1da4590dcc7f1e10a6be3431e1166286a9e7761f2de9de79d7fda9c397</h4>
+<h5>Tags</h5>
+<p>droppertrojanwiper</p>
+<h5>Details</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Name</th>
+<td>06086c1da4590dcc7f1e10a6be3431e1166286a9e7761f2de9de79d7fda9c397</td>
+</tr>
+<tr>
+<th role="columnheader">Size</th>
+<td>117032 bytes</td>
+</tr>
+<tr>
+<th role="columnheader">Type</th>
+<td>PE32 executable (GUI) Intel 80386, for MS Windows</td>
+</tr>
+<tr>
+<th role="columnheader">MD5</th>
+<td>f1a33b2be4c6215a1c39b45e391a3e85</td>
+</tr>
+<tr>
+<th role="columnheader">SHA1</th>
+<td>9518e4ae0862ae871cf9fb634b50b07c66a2c379</td>
+</tr>
+<tr>
+<th role="columnheader">SHA256</th>
+<td>06086c1da4590dcc7f1e10a6be3431e1166286a9e7761f2de9de79d7fda9c397</td>
+</tr>
+<tr>
+<th role="columnheader">SHA512</th>
+<td>0fc69b926a03abc720e6fb05083db8d7bf6107261b54102bfb61025c0ee1ca9fbd7baa0e7d73339a0ea56b84aca329f0a66241cc41dc01d185f15271c82e966a</td>
+</tr>
+<tr>
+<th role="columnheader">ssdeep</th>
+<td>1536:sBOoa7Nn52wurilmw9BgjKu1sPPxaSLyqP:sBOoa7P2wxlPwV1qPkSuqP</td>
+</tr>
+<tr>
+<th role="columnheader">Entropy</th>
+<td>6.385919</td>
+</tr>
+</tbody>
+</table>
+<h5>Antivirus</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">AhnLab</th>
+<td>Trojan/Win.FoxBlade</td>
+</tr>
+<tr>
+<th role="columnheader">Antiy</th>
+<td>Trojan/Win32.HermeticWiper.a</td>
+</tr>
+<tr>
+<th role="columnheader">Avira</th>
+<td>TR/HermeticWiper.T</td>
+</tr>
+<tr>
+<th role="columnheader">Bitdefender</th>
+<td>Trojan.GenericKD.48632599</td>
+</tr>
+<tr>
+<th role="columnheader">ClamAV</th>
+<td>Win.Malware.HermeticWiper-9940039-0</td>
+</tr>
+<tr>
+<th role="columnheader">Cyren</th>
+<td>W32/Agent.OSPU-6752</td>
+</tr>
+<tr>
+<th role="columnheader">ESET</th>
+<td>a variant of Win32/KillDisk.NCV trojan</td>
+</tr>
+<tr>
+<th role="columnheader">Emsisoft</th>
+<td>MalCert-S.OE (A)</td>
+</tr>
+<tr>
+<th role="columnheader">IKARUS</th>
+<td>Trojan.Win32.KillDisk</td>
+</tr>
+<tr>
+<th role="columnheader">K7</th>
+<td>Trojan ( 0058ecab1 )</td>
+</tr>
+<tr>
+<th role="columnheader">Lavasoft</th>
+<td>Trojan.GenericKD.48632599</td>
+</tr>
+<tr>
+<th role="columnheader">McAfee</th>
+<td>RDN/Generic.hbg</td>
+</tr>
+<tr>
+<th role="columnheader">NANOAV</th>
+<td>Trojan.Win32.HermeticWiper.jmxwsb</td>
+</tr>
+<tr>
+<th role="columnheader">Quick Heal</th>
+<td>SM.mal.generic</td>
+</tr>
+<tr>
+<th role="columnheader">Sophos</th>
+<td>Mal/KillDisk-A</td>
+</tr>
+<tr>
+<th role="columnheader">Symantec</th>
+<td>Trojan.KillDisk</td>
+</tr>
+<tr>
+<th role="columnheader">TACHYON</th>
+<td>Trojan-Dropper/W32.HermeticWiper.117032</td>
+</tr>
+<tr>
+<th role="columnheader">Trend Micro</th>
+<td>Trojan.F98CE195</td>
+</tr>
+<tr>
+<th role="columnheader">Trend Micro HouseCall</th>
+<td>Trojan.F98CE195</td>
+</tr>
+<tr>
+<th role="columnheader">Vir.IT eXplorer</th>
+<td>Trojan.Win32.HermeticWiper.A</td>
+</tr>
+<tr>
+<th role="columnheader">VirusBlokAda</th>
+<td>Trojan.Agent</td>
+</tr>
+<tr>
+<th role="columnheader">Zillya!</th>
+<td>Dropper.HermeticWiper.Win32.2</td>
+</tr>
+</tbody>
+</table>
+<h5>YARA Rules</h5>
+<ul>
+<li>rule CISA_10375867_01 : wiper HERMETICWIPER<br>{<br>&nbsp;&nbsp;&nbsp;meta:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Author = "CISA Code &amp; Media Analysis"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Incident = "10375867"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Date = "2022-04-05"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Last_Modified = "20220406_1500"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Actor = "n/a"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Category = "Wiper"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Family = "n/a"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Description = "Detects Hermetic Wiper samples"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;MD5_1 = "382fc1a3c5225fceb672eea13f572a38"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SHA256_1 = "2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;MD5_2 = "decc2726599edcae8d1d1d0ca99d83a6"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SHA256_2 = "3c557727953a8f6b4788984464fb77741b821991acbf5e746aebdd02615b1767"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;MD5_3 = "84ba0197920fd3e2b7dfa719fee09d2f"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SHA256_3 = "0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;MD5_4 = "3f4a16b29f2f0532b7ce3e7656799125"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SHA256_4 = "1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;MD5_5 = "f1a33b2be4c6215a1c39b45e391a3e85"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SHA256_5 = "06086c1da4590dcc7f1e10a6be3431e1166286a9e7761f2de9de79d7fda9c397"<br>&nbsp;&nbsp;&nbsp;strings:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc1 = { 53 5A 44 44 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc2 = { 52 00 43 00 44 00 41 00 54 00 41 00 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc3 = { 44 00 52 00 56 00 5F 00 58 00 36 00 34 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc4 = { 44 00 52 00 56 00 5F 00 58 00 38 00 36 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc5 = { 44 00 52 00 56 00 5F 00 58 00 50 00 5F 00 58 00 36 00 34 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc6 = { 44 00 52 00 56 00 5F 00 58 00 50 00 5F 00 58 00 38 00 36 00 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s1 = { 45 00 50 00 4D 00 4E 00 54 00 44 00 52 00 56 00 5C 00 25 00 75 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s2 = { 50 00 68 00 79 00 73 00 69 00 63 00 61 00 6C 00 44 00 72 00 69 00 76 00 65 00 25 00 75 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s3 = { 53 00 59 00 53 00 54 00 45 00 4D 00 5C 00 43 00 75 00 72 00 72 00 65 00 6E 00 74 00 43 00 6F 00 6E 00 74 00 72 00 6F 00 6C 00 53 00 65 00 74 00 5C 00 43 00 6F 00 6E 00 74 00 72 00 6F 00 6C 00 5C 00 43 00 72 00 61 00 73 00 68 00 43 00 6F 00 6E 00 74 00 72 00 6F 00 6C }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s4 = { 43 00 72 00 61 00 73 00 68 00 44 00 75 00 6D 00 70 00 45 00 6E 00 61 00 62 00 6C 00 65 00 64 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s5 = { 24 00 49 00 4E 00 44 00 45 00 58 00 5F 00 41 00 4C 00 4C 00 4F 00 43 00 41 00 54 00 49 00 4F 00 4E }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s6 = { 53 00 65 00 4C 00 6F 00 61 00 64 00 44 00 72 00 69 00 76 00 65 00 72 00 50 00 72 00 69 00 76 00 69 00 6C 00 65 00 67 00 65 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s7 = { 53 00 65 00 42 00 61 00 63 00 6B 00 75 00 70 00 50 00 72 00 69 00 76 00 69 00 6C 00 65 00 67 00 65 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s8 = { 43 00 3A 00 5C 00 57 00 69 00 6E 00 64 00 6F 00 77 00 73 00 5C 00 53 00 59 00 53 00 56 00 4F 00 4C }<br>&nbsp;&nbsp;&nbsp;condition:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;uint16(0) == 0x5A4D and ((3 of ($rsrc*)) and (7 of ($s*)))<br>}</li>
+</ul>
+<h5>ssdeep Matches</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">99</th>
+<td>1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591</td>
+</tr>
+</tbody>
+</table>
+<h5>PE Metadata</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Compile Date</th>
+<td>2022-02-23 04:48:53-05:00</td>
+</tr>
+<tr>
+<th role="columnheader">Import Hash</th>
+<td>fe4a2284122da348258c83ef437fbd7b</td>
+</tr>
+</tbody>
+</table>
+<h5>PE Sections</h5>
+<table class="tablesaw tablesaw-stack" data-tablesaw-mode="stack" data-tablesaw-minimap>
+<thead>
+<tr>
+<th role="columnheader" data-tablesaw-priority="persist">MD5</th>
+<th role="columnheader">Name</th>
+<th role="columnheader">Raw Size</th>
+<th role="columnheader">Entropy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0d370bcce45eae7f5d16bb308b5ca811</td>
+<td>header</td>
+<td>1024</td>
+<td>2.519045</td>
+</tr>
+<tr>
+<td>ba89a1d62ff34e1b9c45da08bda91c3c</td>
+<td>.text</td>
+<td>16384</td>
+<td>6.388564</td>
+</tr>
+<tr>
+<td>a32e2e98f61c52c443c6d653d682991a</td>
+<td>.rdata</td>
+<td>5120</td>
+<td>4.441415</td>
+</tr>
+<tr>
+<td>ca2eecf5edbfc7c94c96a4696789c07d</td>
+<td>.data</td>
+<td>512</td>
+<td>0.762127</td>
+</tr>
+<tr>
+<td>e77f09dc0f10e6627c83ae611fec363c</td>
+<td>.rsrc</td>
+<td>89088</td>
+<td>6.203475</td>
+</tr>
+<tr>
+<td>e5535abe90a2baf02252af4fb155a053</td>
+<td>.reloc</td>
+<td>1024</td>
+<td>6.211847</td>
+</tr>
+</tbody>
+</table>
+<h5>Packers/Compilers/Cryptors</h5>
+<table>
+<tbody>
+<tr>
+<td>Borland Delphi 3.0 (???)</td>
+</tr>
+</tbody>
+</table>
+<h5>Relationships</h5>
+<table>
+<tbody>
+<tr>
+<td>06086c1da4...</td>
+<td>Contains</td>
+<td>e5f3ef69a534260e899a36cec459440dc572388defd8f1d98760d31c700f42d5</td>
+</tr>
+<tr>
+<td>06086c1da4...</td>
+<td>Contains</td>
+<td>b6f2e008967c5527337448d768f2332d14b92de22a1279fd4d91000bb3d4a0fd</td>
+</tr>
+<tr>
+<td>06086c1da4...</td>
+<td>Contains</td>
+<td>b01e0c6ac0b8bcde145ab7b68cf246deea9402fa7ea3aede7105f7051fe240c1</td>
+</tr>
+<tr>
+<td>06086c1da4...</td>
+<td>Contains</td>
+<td>fd7eacc2f87aceac865b0aa97a50503d44b799f27737e009f91f3c281233c17d</td>
+</tr>
+</tbody>
+</table>
+<h5>Description</h5>
+<p>This is a 32-bit HermeticWiper with ninety-nine percent code-base similarity with 1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d29259, signed with the same digital certificate issued by Hermetica Digital Ltd (Figure 17). Refer to 1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591 for analysis.</p>
+<h5>Screenshots</h5>
+<p><img></p>
+<div class="cma-screenshot-text">
+<p><strong>Figure 16 - </strong>This variant of HermeticWiper contains the same copies of SZDD compressed EaseUS Partition Master NT Drivers.</p>
+</div>
+<p><img></p>
+<div class="cma-screenshot-text">
+<p><strong>Figure 17 - </strong>This variant of HermeticWiper was signed with the same digital certificate (highlighting the unique Serial Number) used in 1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591.</p>
+</div>
+</div>
+<div class="cma-section">
+<h4>2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf</h4>
+<h5>Tags</h5>
+<p>droppertrojanwiper</p>
+<h5>Details</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Name</th>
+<td>2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf</td>
+</tr>
+<tr>
+<th role="columnheader">Size</th>
+<td>117000 bytes</td>
+</tr>
+<tr>
+<th role="columnheader">Type</th>
+<td>PE32 executable (GUI) Intel 80386, for MS Windows</td>
+</tr>
+<tr>
+<th role="columnheader">MD5</th>
+<td>382fc1a3c5225fceb672eea13f572a38</td>
+</tr>
+<tr>
+<th role="columnheader">SHA1</th>
+<td>d9a3596af0463797df4ff25b7999184946e3bfa2</td>
+</tr>
+<tr>
+<th role="columnheader">SHA256</th>
+<td>2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf</td>
+</tr>
+<tr>
+<th role="columnheader">SHA512</th>
+<td>0fa729f6834d475f787634cc69592633c32a0368c63abac5f702bdd8fd838ad9ceb50941448518a3bf1da0ab45bf6b0dac42d99168d51916591277db19dedacd</td>
+</tr>
+<tr>
+<th role="columnheader">ssdeep</th>
+<td>1536:bV3+WmNcWDurilmw9BgjKu1sPPxaS4jqY:bV3+WmjDxlPwV16PkS4jqY</td>
+</tr>
+<tr>
+<th role="columnheader">Entropy</th>
+<td>6.381886</td>
+</tr>
+</tbody>
+</table>
+<h5>Antivirus</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">AhnLab</th>
+<td>Trojan/Win.FoxBlade</td>
+</tr>
+<tr>
+<th role="columnheader">Antiy</th>
+<td>Trojan/Win32.HermeticWiper.a</td>
+</tr>
+<tr>
+<th role="columnheader">Avira</th>
+<td>TR/HermeticWiper.T</td>
+</tr>
+<tr>
+<th role="columnheader">Bitdefender</th>
+<td>Trojan.GenericKD.39164454</td>
+</tr>
+<tr>
+<th role="columnheader">ClamAV</th>
+<td>Win.Malware.HermeticWiper-9940039-0</td>
+</tr>
+<tr>
+<th role="columnheader">Comodo</th>
+<td>Malware</td>
+</tr>
+<tr>
+<th role="columnheader">Cyren</th>
+<td>W32/KillDisk.A.gen!Eldorado</td>
+</tr>
+<tr>
+<th role="columnheader">ESET</th>
+<td>a variant of Win32/KillDisk.NCV trojan</td>
+</tr>
+<tr>
+<th role="columnheader">Emsisoft</th>
+<td>MalCert-S.OE (A)</td>
+</tr>
+<tr>
+<th role="columnheader">IKARUS</th>
+<td>Trojan.Win32.KillDisk</td>
+</tr>
+<tr>
+<th role="columnheader">K7</th>
+<td>Trojan ( 0058ec201 )</td>
+</tr>
+<tr>
+<th role="columnheader">Lavasoft</th>
+<td>Trojan.GenericKD.39164454</td>
+</tr>
+<tr>
+<th role="columnheader">McAfee</th>
+<td>RDN/HermeticWiper</td>
+</tr>
+<tr>
+<th role="columnheader">Quick Heal</th>
+<td>SM.mal.generic</td>
+</tr>
+<tr>
+<th role="columnheader">Sophos</th>
+<td>Mal/KillDisk-A</td>
+</tr>
+<tr>
+<th role="columnheader">Symantec</th>
+<td>Trojan.KillDisk</td>
+</tr>
+<tr>
+<th role="columnheader">TACHYON</th>
+<td>Trojan/W32.HermeticWiper.117000.B</td>
+</tr>
+<tr>
+<th role="columnheader">Trend Micro</th>
+<td>Trojan.D0C378A9</td>
+</tr>
+<tr>
+<th role="columnheader">Trend Micro HouseCall</th>
+<td>Trojan.D0C378A9</td>
+</tr>
+<tr>
+<th role="columnheader">VirusBlokAda</th>
+<td>Trojan.KillDisk</td>
+</tr>
+<tr>
+<th role="columnheader">Zillya!</th>
+<td>Dropper.HermeticWiper.Win32.1</td>
+</tr>
+</tbody>
+</table>
+<h5>YARA Rules</h5>
+<ul>
+<li>rule CISA_10375867_01 : wiper HERMETICWIPER<br>{<br>&nbsp;&nbsp;&nbsp;meta:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Author = "CISA Code &amp; Media Analysis"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Incident = "10375867"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Date = "2022-04-05"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Last_Modified = "20220406_1500"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Actor = "n/a"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Category = "Wiper"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Family = "n/a"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Description = "Detects Hermetic Wiper samples"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;MD5_1 = "382fc1a3c5225fceb672eea13f572a38"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SHA256_1 = "2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;MD5_2 = "decc2726599edcae8d1d1d0ca99d83a6"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SHA256_2 = "3c557727953a8f6b4788984464fb77741b821991acbf5e746aebdd02615b1767"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;MD5_3 = "84ba0197920fd3e2b7dfa719fee09d2f"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SHA256_3 = "0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;MD5_4 = "3f4a16b29f2f0532b7ce3e7656799125"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SHA256_4 = "1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;MD5_5 = "f1a33b2be4c6215a1c39b45e391a3e85"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SHA256_5 = "06086c1da4590dcc7f1e10a6be3431e1166286a9e7761f2de9de79d7fda9c397"<br>&nbsp;&nbsp;&nbsp;strings:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc1 = { 53 5A 44 44 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc2 = { 52 00 43 00 44 00 41 00 54 00 41 00 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc3 = { 44 00 52 00 56 00 5F 00 58 00 36 00 34 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc4 = { 44 00 52 00 56 00 5F 00 58 00 38 00 36 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc5 = { 44 00 52 00 56 00 5F 00 58 00 50 00 5F 00 58 00 36 00 34 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc6 = { 44 00 52 00 56 00 5F 00 58 00 50 00 5F 00 58 00 38 00 36 00 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s1 = { 45 00 50 00 4D 00 4E 00 54 00 44 00 52 00 56 00 5C 00 25 00 75 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s2 = { 50 00 68 00 79 00 73 00 69 00 63 00 61 00 6C 00 44 00 72 00 69 00 76 00 65 00 25 00 75 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s3 = { 53 00 59 00 53 00 54 00 45 00 4D 00 5C 00 43 00 75 00 72 00 72 00 65 00 6E 00 74 00 43 00 6F 00 6E 00 74 00 72 00 6F 00 6C 00 53 00 65 00 74 00 5C 00 43 00 6F 00 6E 00 74 00 72 00 6F 00 6C 00 5C 00 43 00 72 00 61 00 73 00 68 00 43 00 6F 00 6E 00 74 00 72 00 6F 00 6C }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s4 = { 43 00 72 00 61 00 73 00 68 00 44 00 75 00 6D 00 70 00 45 00 6E 00 61 00 62 00 6C 00 65 00 64 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s5 = { 24 00 49 00 4E 00 44 00 45 00 58 00 5F 00 41 00 4C 00 4C 00 4F 00 43 00 41 00 54 00 49 00 4F 00 4E }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s6 = { 53 00 65 00 4C 00 6F 00 61 00 64 00 44 00 72 00 69 00 76 00 65 00 72 00 50 00 72 00 69 00 76 00 69 00 6C 00 65 00 67 00 65 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s7 = { 53 00 65 00 42 00 61 00 63 00 6B 00 75 00 70 00 50 00 72 00 69 00 76 00 69 00 6C 00 65 00 67 00 65 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s8 = { 43 00 3A 00 5C 00 57 00 69 00 6E 00 64 00 6F 00 77 00 73 00 5C 00 53 00 59 00 53 00 56 00 4F 00 4C }<br>&nbsp;&nbsp;&nbsp;condition:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;uint16(0) == 0x5A4D and ((3 of ($rsrc*)) and (7 of ($s*)))<br>}</li>
+</ul>
+<h5>ssdeep Matches</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">90</th>
+<td>0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da</td>
+</tr>
+<tr>
+<th role="columnheader">100</th>
+<td>3c557727953a8f6b4788984464fb77741b821991acbf5e746aebdd02615b1767</td>
+</tr>
+</tbody>
+</table>
+<h5>PE Metadata</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Compile Date</th>
+<td>2021-12-28 03:37:16-05:00</td>
+</tr>
+<tr>
+<th role="columnheader">Import Hash</th>
+<td>4233d97404e1fecedef6a46e0f7c09b9</td>
+</tr>
+</tbody>
+</table>
+<h5>PE Sections</h5>
+<table class="tablesaw tablesaw-stack" data-tablesaw-mode="stack" data-tablesaw-minimap>
+<thead>
+<tr>
+<th role="columnheader" data-tablesaw-priority="persist">MD5</th>
+<th role="columnheader">Name</th>
+<th role="columnheader">Raw Size</th>
+<th role="columnheader">Entropy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>f2b6a5938b17fb5702154542f28b606a</td>
+<td>header</td>
+<td>1024</td>
+<td>2.530310</td>
+</tr>
+<tr>
+<td>48e3e5be9f01e73c7abfb4855940b5ef</td>
+<td>.text</td>
+<td>16384</td>
+<td>6.379494</td>
+</tr>
+<tr>
+<td>479992e081bf4a86292f9b8a7a22e5fd</td>
+<td>.rdata</td>
+<td>5120</td>
+<td>4.393606</td>
+</tr>
+<tr>
+<td>ef90b6137b9fcb8f0238d8e709b680ee</td>
+<td>.data</td>
+<td>512</td>
+<td>0.753634</td>
+</tr>
+<tr>
+<td>16d68310ccf50f7dfef671db2a800bbe</td>
+<td>.rsrc</td>
+<td>89088</td>
+<td>6.203677</td>
+</tr>
+<tr>
+<td>d3c95ee5e68c69ecab2d60810f332824</td>
+<td>.reloc</td>
+<td>1024</td>
+<td>6.149104</td>
+</tr>
+</tbody>
+</table>
+<h5>Packers/Compilers/Cryptors</h5>
+<table>
+<tbody>
+<tr>
+<td>Borland Delphi 3.0 (???)</td>
+</tr>
+</tbody>
+</table>
+<h5>Relationships</h5>
+<table>
+<tbody>
+<tr>
+<td>2c10b2ec0b...</td>
+<td>Contains</td>
+<td>e5f3ef69a534260e899a36cec459440dc572388defd8f1d98760d31c700f42d5</td>
+</tr>
+<tr>
+<td>2c10b2ec0b...</td>
+<td>Contains</td>
+<td>b6f2e008967c5527337448d768f2332d14b92de22a1279fd4d91000bb3d4a0fd</td>
+</tr>
+<tr>
+<td>2c10b2ec0b...</td>
+<td>Contains</td>
+<td>b01e0c6ac0b8bcde145ab7b68cf246deea9402fa7ea3aede7105f7051fe240c1</td>
+</tr>
+<tr>
+<td>2c10b2ec0b...</td>
+<td>Contains</td>
+<td>fd7eacc2f87aceac865b0aa97a50503d44b799f27737e009f91f3c281233c17d</td>
+</tr>
+</tbody>
+</table>
+<h5>Description</h5>
+<p>This HermeticWiper was compiled at an earlier time, 2021-12-28 03:37:16-05:00, instead of on February the 23rd, 2022. It has over ninety percent code-base similarity with 1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d29259, both signed with the same digital certificate issued by Hermetica Digital Ltd (Figure 20).<br><br>A code comparison indicates the only difference is that this HermeticWiper behaves the same on all Windows systems. It does not check for the presence of the C:\Windows\SYSVOL directory, and terminates the wiper process after 3 minutes (Figure 13, lines 218-223). Refer to 1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591 for the remaining analysis.</p>
+<h5>Screenshots</h5>
+<p><img></p>
+<div class="cma-screenshot-text">
+<p><strong>Figure 18 - </strong>The resource section contains four versions of compressed epmntdrv.sys, targeting 32-bit and 64-bit Windows OS.</p>
+</div>
+<p><img></p>
+<div class="cma-screenshot-text">
+<p><strong>Figure 19 - </strong>Snippet of the main function of HermeticWiper that was compiled in 2021. It does not contain the code that checks for C:\Windows\SYSVOL (Figure 13, lines 218-223). The rest of the code is identical.</p>
+</div>
+<p><img></p>
+<div class="cma-screenshot-text">
+<p><strong>Figure 20 - </strong>This variant of HermeticWiper was signed with the same digital certificate (highlighted the unique Serial Number) used in 1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591.</p>
+</div>
+</div>
+<div class="cma-section">
+<h4>3c557727953a8f6b4788984464fb77741b821991acbf5e746aebdd02615b1767</h4>
+<h5>Tags</h5>
+<p>droppertrojanwiper</p>
+<h5>Details</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Name</th>
+<td>3c557727953a8f6b4788984464fb77741b821991acbf5e746aebdd02615b1767</td>
+</tr>
+<tr>
+<th role="columnheader">Size</th>
+<td>117000 bytes</td>
+</tr>
+<tr>
+<th role="columnheader">Type</th>
+<td>PE32 executable (GUI) Intel 80386, for MS Windows</td>
+</tr>
+<tr>
+<th role="columnheader">MD5</th>
+<td>decc2726599edcae8d1d1d0ca99d83a6</td>
+</tr>
+<tr>
+<th role="columnheader">SHA1</th>
+<td>0d8cc992f279ec45e8b8dfd05a700ff1f0437f29</td>
+</tr>
+<tr>
+<th role="columnheader">SHA256</th>
+<td>3c557727953a8f6b4788984464fb77741b821991acbf5e746aebdd02615b1767</td>
+</tr>
+<tr>
+<th role="columnheader">SHA512</th>
+<td>1096ccabe0c99ab73bbc92c645814b6590f5a925801eb3a97e9930e3bc668738f8852e83628474836ba15983b6660eb5c2f2741e925d16877991ca89be47f49a</td>
+</tr>
+<tr>
+<th role="columnheader">ssdeep</th>
+<td>1536:bV3+WmNcWDurilmw9BgjKu1sPPxaS4jqY:bV3+WmjDxlPwV16PkS4jqY</td>
+</tr>
+<tr>
+<th role="columnheader">Entropy</th>
+<td>6.381888</td>
+</tr>
+</tbody>
+</table>
+<h5>Antivirus</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">AhnLab</th>
+<td>Trojan/Win.FoxBlade</td>
+</tr>
+<tr>
+<th role="columnheader">Antiy</th>
+<td>Trojan/Win32.HermeticWiper.a</td>
+</tr>
+<tr>
+<th role="columnheader">Avira</th>
+<td>TR/HermeticWiper.T</td>
+</tr>
+<tr>
+<th role="columnheader">Bitdefender</th>
+<td>Generic.HermeticWiper.A.A7E4AE5D</td>
+</tr>
+<tr>
+<th role="columnheader">ClamAV</th>
+<td>Win.Malware.HermeticWiper-9940039-0</td>
+</tr>
+<tr>
+<th role="columnheader">Cyren</th>
+<td>W32/KillDisk.A.gen!Eldorado</td>
+</tr>
+<tr>
+<th role="columnheader">ESET</th>
+<td>a variant of Win32/KillDisk.NCV trojan</td>
+</tr>
+<tr>
+<th role="columnheader">Emsisoft</th>
+<td>MalCert-S.OE (A)</td>
+</tr>
+<tr>
+<th role="columnheader">IKARUS</th>
+<td>Trojan.Win32.KillDisk</td>
+</tr>
+<tr>
+<th role="columnheader">K7</th>
+<td>Trojan ( 0058ec201 )</td>
+</tr>
+<tr>
+<th role="columnheader">Lavasoft</th>
+<td>Generic.HermeticWiper.A.A7E4AE5D</td>
+</tr>
+<tr>
+<th role="columnheader">McAfee</th>
+<td>RDN/Generic.dx</td>
+</tr>
+<tr>
+<th role="columnheader">Quick Heal</th>
+<td>SM.mal.generic</td>
+</tr>
+<tr>
+<th role="columnheader">Sophos</th>
+<td>Mal/KillDisk-A</td>
+</tr>
+<tr>
+<th role="columnheader">Symantec</th>
+<td>Trojan.KillDisk</td>
+</tr>
+<tr>
+<th role="columnheader">TACHYON</th>
+<td>Trojan/W32.HermeticWiper.117000.B</td>
+</tr>
+<tr>
+<th role="columnheader">Trend Micro</th>
+<td>Trojan.D0C378A9</td>
+</tr>
+<tr>
+<th role="columnheader">Trend Micro HouseCall</th>
+<td>Trojan.D0C378A9</td>
+</tr>
+<tr>
+<th role="columnheader">VirusBlokAda</th>
+<td>Trojan.KillDisk</td>
+</tr>
+<tr>
+<th role="columnheader">Zillya!</th>
+<td>Dropper.HermeticWiper.Win32.1</td>
+</tr>
+</tbody>
+</table>
+<h5>YARA Rules</h5>
+<ul>
+<li>rule CISA_10375867_01 : wiper HERMETICWIPER<br>{<br>&nbsp;&nbsp;&nbsp;meta:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Author = "CISA Code &amp; Media Analysis"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Incident = "10375867"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Date = "2022-04-05"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Last_Modified = "20220406_1500"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Actor = "n/a"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Category = "Wiper"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Family = "n/a"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Description = "Detects Hermetic Wiper samples"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;MD5_1 = "382fc1a3c5225fceb672eea13f572a38"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SHA256_1 = "2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;MD5_2 = "decc2726599edcae8d1d1d0ca99d83a6"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SHA256_2 = "3c557727953a8f6b4788984464fb77741b821991acbf5e746aebdd02615b1767"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;MD5_3 = "84ba0197920fd3e2b7dfa719fee09d2f"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SHA256_3 = "0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;MD5_4 = "3f4a16b29f2f0532b7ce3e7656799125"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SHA256_4 = "1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;MD5_5 = "f1a33b2be4c6215a1c39b45e391a3e85"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SHA256_5 = "06086c1da4590dcc7f1e10a6be3431e1166286a9e7761f2de9de79d7fda9c397"<br>&nbsp;&nbsp;&nbsp;strings:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc1 = { 53 5A 44 44 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc2 = { 52 00 43 00 44 00 41 00 54 00 41 00 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc3 = { 44 00 52 00 56 00 5F 00 58 00 36 00 34 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc4 = { 44 00 52 00 56 00 5F 00 58 00 38 00 36 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc5 = { 44 00 52 00 56 00 5F 00 58 00 50 00 5F 00 58 00 36 00 34 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc6 = { 44 00 52 00 56 00 5F 00 58 00 50 00 5F 00 58 00 38 00 36 00 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s1 = { 45 00 50 00 4D 00 4E 00 54 00 44 00 52 00 56 00 5C 00 25 00 75 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s2 = { 50 00 68 00 79 00 73 00 69 00 63 00 61 00 6C 00 44 00 72 00 69 00 76 00 65 00 25 00 75 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s3 = { 53 00 59 00 53 00 54 00 45 00 4D 00 5C 00 43 00 75 00 72 00 72 00 65 00 6E 00 74 00 43 00 6F 00 6E 00 74 00 72 00 6F 00 6C 00 53 00 65 00 74 00 5C 00 43 00 6F 00 6E 00 74 00 72 00 6F 00 6C 00 5C 00 43 00 72 00 61 00 73 00 68 00 43 00 6F 00 6E 00 74 00 72 00 6F 00 6C }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s4 = { 43 00 72 00 61 00 73 00 68 00 44 00 75 00 6D 00 70 00 45 00 6E 00 61 00 62 00 6C 00 65 00 64 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s5 = { 24 00 49 00 4E 00 44 00 45 00 58 00 5F 00 41 00 4C 00 4C 00 4F 00 43 00 41 00 54 00 49 00 4F 00 4E }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s6 = { 53 00 65 00 4C 00 6F 00 61 00 64 00 44 00 72 00 69 00 76 00 65 00 72 00 50 00 72 00 69 00 76 00 69 00 6C 00 65 00 67 00 65 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s7 = { 53 00 65 00 42 00 61 00 63 00 6B 00 75 00 70 00 50 00 72 00 69 00 76 00 69 00 6C 00 65 00 67 00 65 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s8 = { 43 00 3A 00 5C 00 57 00 69 00 6E 00 64 00 6F 00 77 00 73 00 5C 00 53 00 59 00 53 00 56 00 4F 00 4C }<br>&nbsp;&nbsp;&nbsp;condition:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;uint16(0) == 0x5A4D and ((3 of ($rsrc*)) and (7 of ($s*)))<br>}</li>
+</ul>
+<h5>ssdeep Matches</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">90</th>
+<td>0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da</td>
+</tr>
+<tr>
+<th role="columnheader">100</th>
+<td>2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf</td>
+</tr>
+</tbody>
+</table>
+<h5>PE Metadata</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Compile Date</th>
+<td>2021-12-28 03:37:16-05:00</td>
+</tr>
+<tr>
+<th role="columnheader">Import Hash</th>
+<td>4233d97404e1fecedef6a46e0f7c09b9</td>
+</tr>
+</tbody>
+</table>
+<h5>PE Sections</h5>
+<table class="tablesaw tablesaw-stack" data-tablesaw-mode="stack" data-tablesaw-minimap>
+<thead>
+<tr>
+<th role="columnheader" data-tablesaw-priority="persist">MD5</th>
+<th role="columnheader">Name</th>
+<th role="columnheader">Raw Size</th>
+<th role="columnheader">Entropy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>98bcfa84d6a53ae5d13ed2ab2424274c</td>
+<td>header</td>
+<td>1024</td>
+<td>2.530213</td>
+</tr>
+<tr>
+<td>48e3e5be9f01e73c7abfb4855940b5ef</td>
+<td>.text</td>
+<td>16384</td>
+<td>6.379494</td>
+</tr>
+<tr>
+<td>479992e081bf4a86292f9b8a7a22e5fd</td>
+<td>.rdata</td>
+<td>5120</td>
+<td>4.393606</td>
+</tr>
+<tr>
+<td>ef90b6137b9fcb8f0238d8e709b680ee</td>
+<td>.data</td>
+<td>512</td>
+<td>0.753634</td>
+</tr>
+<tr>
+<td>16d68310ccf50f7dfef671db2a800bbe</td>
+<td>.rsrc</td>
+<td>89088</td>
+<td>6.203677</td>
+</tr>
+<tr>
+<td>d3c95ee5e68c69ecab2d60810f332824</td>
+<td>.reloc</td>
+<td>1024</td>
+<td>6.149104</td>
+</tr>
+</tbody>
+</table>
+<h5>Packers/Compilers/Cryptors</h5>
+<table>
+<tbody>
+<tr>
+<td>Borland Delphi 3.0 (???)</td>
+</tr>
+</tbody>
+</table>
+<h5>Relationships</h5>
+<table>
+<tbody>
+<tr>
+<td>3c55772795...</td>
+<td>Contains</td>
+<td>e5f3ef69a534260e899a36cec459440dc572388defd8f1d98760d31c700f42d5</td>
+</tr>
+<tr>
+<td>3c55772795...</td>
+<td>Contains</td>
+<td>b6f2e008967c5527337448d768f2332d14b92de22a1279fd4d91000bb3d4a0fd</td>
+</tr>
+<tr>
+<td>3c55772795...</td>
+<td>Contains</td>
+<td>b01e0c6ac0b8bcde145ab7b68cf246deea9402fa7ea3aede7105f7051fe240c1</td>
+</tr>
+<tr>
+<td>3c55772795...</td>
+<td>Contains</td>
+<td>fd7eacc2f87aceac865b0aa97a50503d44b799f27737e009f91f3c281233c17d</td>
+</tr>
+</tbody>
+</table>
+<h5>Description</h5>
+<p>This is a 32-bit HermeticWiper with ninety-nine percent code-base similarity with 2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf, signed with the same digital certificate issued by Hermetica Digital Ltd (Figure 22). Refer to 2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf for analysis.</p>
+<h5>Screenshots</h5>
+<p><img></p>
+<div class="cma-screenshot-text">
+<p><strong>Figure 21 - </strong>This variant of HermeticWiper contains the same copies of SZDD compressed EaseUS Partition Master NT Drivers.</p>
+</div>
+<p><img></p>
+<div class="cma-screenshot-text">
+<p><strong>Figure 22 - </strong>This variant of HermeticWiper was signed with the same digital certificate (highlighting the unique Serial Number) used in 1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591.</p>
+</div>
+</div>
+<div class="cma-section">
+<h4>0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da</h4>
+<h5>Tags</h5>
+<p>trojanviruswiper</p>
+<h5>Details</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Name</th>
+<td>0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da</td>
+</tr>
+<tr>
+<th role="columnheader">Size</th>
+<td>117000 bytes</td>
+</tr>
+<tr>
+<th role="columnheader">Type</th>
+<td>PE32 executable (GUI) Intel 80386, for MS Windows</td>
+</tr>
+<tr>
+<th role="columnheader">MD5</th>
+<td>84ba0197920fd3e2b7dfa719fee09d2f</td>
+</tr>
+<tr>
+<th role="columnheader">SHA1</th>
+<td>912342f1c840a42f6b74132f8a7c4ffe7d40fb77</td>
+</tr>
+<tr>
+<th role="columnheader">SHA256</th>
+<td>0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da</td>
+</tr>
+<tr>
+<th role="columnheader">SHA512</th>
+<td>bbd4f0263abc71311404c55cb3e4711b707a71e28dcc1f08abd533a4c7f151db9cc40697105d76f1c978000e8fa7aa219adb65b31fb196b08f1ae003e04b9d23</td>
+</tr>
+<tr>
+<th role="columnheader">ssdeep</th>
+<td>1536:lV3+WmNcWbwurilmw9BgjKu1sPPxaS5qY:lV3+WmjbwxlPwV1qPkS5qY</td>
+</tr>
+<tr>
+<th role="columnheader">Entropy</th>
+<td>6.381785</td>
+</tr>
+</tbody>
+</table>
+<h5>Antivirus</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">AhnLab</th>
+<td>Trojan/Win.FoxBlade</td>
+</tr>
+<tr>
+<th role="columnheader">Antiy</th>
+<td>Trojan/Win32.HermeticWiper.a</td>
+</tr>
+<tr>
+<th role="columnheader">Avira</th>
+<td>TR/HermeticWiper.T</td>
+</tr>
+<tr>
+<th role="columnheader">Bitdefender</th>
+<td>Trojan.GenericKD.39331952</td>
+</tr>
+<tr>
+<th role="columnheader">ClamAV</th>
+<td>Win.Malware.HermeticWiper-9940039-0</td>
+</tr>
+<tr>
+<th role="columnheader">Comodo</th>
+<td>Malware</td>
+</tr>
+<tr>
+<th role="columnheader">Cyren</th>
+<td>W32/KillDisk.A.gen!Eldorado</td>
+</tr>
+<tr>
+<th role="columnheader">ESET</th>
+<td>a variant of Win32/KillDisk.NCV trojan</td>
+</tr>
+<tr>
+<th role="columnheader">Emsisoft</th>
+<td>MalCert-S.OE (A)</td>
+</tr>
+<tr>
+<th role="columnheader">IKARUS</th>
+<td>Trojan.Win32.KillDisk</td>
+</tr>
+<tr>
+<th role="columnheader">K7</th>
+<td>Trojan ( 0058ec201 )</td>
+</tr>
+<tr>
+<th role="columnheader">Lavasoft</th>
+<td>Trojan.GenericKD.39331952</td>
+</tr>
+<tr>
+<th role="columnheader">McAfee</th>
+<td>Generic trojan.jt</td>
+</tr>
+<tr>
+<th role="columnheader">NANOAV</th>
+<td>Trojan.Win32.HermeticWiper.jmoiqj</td>
+</tr>
+<tr>
+<th role="columnheader">Sophos</th>
+<td>Mal/KillDisk-A</td>
+</tr>
+<tr>
+<th role="columnheader">Symantec</th>
+<td>Trojan.KillDisk</td>
+</tr>
+<tr>
+<th role="columnheader">TACHYON</th>
+<td>Trojan/W32.HermeticWiper.117000.B</td>
+</tr>
+<tr>
+<th role="columnheader">Trend Micro</th>
+<td>Trojan.5FA1EFFE</td>
+</tr>
+<tr>
+<th role="columnheader">Trend Micro HouseCall</th>
+<td>Trojan.5FA1EFFE</td>
+</tr>
+<tr>
+<th role="columnheader">Vir.IT eXplorer</th>
+<td>Trojan.Win32.HermeticWiper.A</td>
+</tr>
+<tr>
+<th role="columnheader">VirusBlokAda</th>
+<td>Trojan.KillDisk</td>
+</tr>
+<tr>
+<th role="columnheader">Zillya!</th>
+<td>Trojan.KillDisk.Win32.278</td>
+</tr>
+</tbody>
+</table>
+<h5>YARA Rules</h5>
+<ul>
+<li>rule CISA_10375867_01 : wiper HERMETICWIPER<br>{<br>&nbsp;&nbsp;&nbsp;meta:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Author = "CISA Code &amp; Media Analysis"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Incident = "10375867"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Date = "2022-04-05"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Last_Modified = "20220406_1500"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Actor = "n/a"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Category = "Wiper"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Family = "n/a"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Description = "Detects Hermetic Wiper samples"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;MD5_1 = "382fc1a3c5225fceb672eea13f572a38"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SHA256_1 = "2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;MD5_2 = "decc2726599edcae8d1d1d0ca99d83a6"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SHA256_2 = "3c557727953a8f6b4788984464fb77741b821991acbf5e746aebdd02615b1767"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;MD5_3 = "84ba0197920fd3e2b7dfa719fee09d2f"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SHA256_3 = "0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;MD5_4 = "3f4a16b29f2f0532b7ce3e7656799125"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SHA256_4 = "1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;MD5_5 = "f1a33b2be4c6215a1c39b45e391a3e85"<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SHA256_5 = "06086c1da4590dcc7f1e10a6be3431e1166286a9e7761f2de9de79d7fda9c397"<br>&nbsp;&nbsp;&nbsp;strings:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc1 = { 53 5A 44 44 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc2 = { 52 00 43 00 44 00 41 00 54 00 41 00 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc3 = { 44 00 52 00 56 00 5F 00 58 00 36 00 34 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc4 = { 44 00 52 00 56 00 5F 00 58 00 38 00 36 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc5 = { 44 00 52 00 56 00 5F 00 58 00 50 00 5F 00 58 00 36 00 34 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$rsrc6 = { 44 00 52 00 56 00 5F 00 58 00 50 00 5F 00 58 00 38 00 36 00 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s1 = { 45 00 50 00 4D 00 4E 00 54 00 44 00 52 00 56 00 5C 00 25 00 75 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s2 = { 50 00 68 00 79 00 73 00 69 00 63 00 61 00 6C 00 44 00 72 00 69 00 76 00 65 00 25 00 75 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s3 = { 53 00 59 00 53 00 54 00 45 00 4D 00 5C 00 43 00 75 00 72 00 72 00 65 00 6E 00 74 00 43 00 6F 00 6E 00 74 00 72 00 6F 00 6C 00 53 00 65 00 74 00 5C 00 43 00 6F 00 6E 00 74 00 72 00 6F 00 6C 00 5C 00 43 00 72 00 61 00 73 00 68 00 43 00 6F 00 6E 00 74 00 72 00 6F 00 6C }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s4 = { 43 00 72 00 61 00 73 00 68 00 44 00 75 00 6D 00 70 00 45 00 6E 00 61 00 62 00 6C 00 65 00 64 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s5 = { 24 00 49 00 4E 00 44 00 45 00 58 00 5F 00 41 00 4C 00 4C 00 4F 00 43 00 41 00 54 00 49 00 4F 00 4E }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s6 = { 53 00 65 00 4C 00 6F 00 61 00 64 00 44 00 72 00 69 00 76 00 65 00 72 00 50 00 72 00 69 00 76 00 69 00 6C 00 65 00 67 00 65 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s7 = { 53 00 65 00 42 00 61 00 63 00 6B 00 75 00 70 00 50 00 72 00 69 00 76 00 69 00 6C 00 65 00 67 00 65 }<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$s8 = { 43 00 3A 00 5C 00 57 00 69 00 6E 00 64 00 6F 00 77 00 73 00 5C 00 53 00 59 00 53 00 56 00 4F 00 4C }<br>&nbsp;&nbsp;&nbsp;condition:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;uint16(0) == 0x5A4D and ((3 of ($rsrc*)) and (7 of ($s*)))<br>}</li>
+</ul>
+<h5>ssdeep Matches</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">90</th>
+<td>2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf</td>
+</tr>
+<tr>
+<th role="columnheader">90</th>
+<td>3c557727953a8f6b4788984464fb77741b821991acbf5e746aebdd02615b1767</td>
+</tr>
+</tbody>
+</table>
+<h5>PE Metadata</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Compile Date</th>
+<td>2021-12-28 03:37:16-05:00</td>
+</tr>
+<tr>
+<th role="columnheader">Import Hash</th>
+<td>4233d97404e1fecedef6a46e0f7c09b9</td>
+</tr>
+</tbody>
+</table>
+<h5>PE Sections</h5>
+<table class="tablesaw tablesaw-stack" data-tablesaw-mode="stack" data-tablesaw-minimap>
+<thead>
+<tr>
+<th role="columnheader" data-tablesaw-priority="persist">MD5</th>
+<th role="columnheader">Name</th>
+<th role="columnheader">Raw Size</th>
+<th role="columnheader">Entropy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>75a1e9f181541976ac520c98b18c5a24</td>
+<td>header</td>
+<td>1024</td>
+<td>2.530213</td>
+</tr>
+<tr>
+<td>48e3e5be9f01e73c7abfb4855940b5ef</td>
+<td>.text</td>
+<td>16384</td>
+<td>6.379494</td>
+</tr>
+<tr>
+<td>479992e081bf4a86292f9b8a7a22e5fd</td>
+<td>.rdata</td>
+<td>5120</td>
+<td>4.393606</td>
+</tr>
+<tr>
+<td>ef90b6137b9fcb8f0238d8e709b680ee</td>
+<td>.data</td>
+<td>512</td>
+<td>0.753634</td>
+</tr>
+<tr>
+<td>e77f09dc0f10e6627c83ae611fec363c</td>
+<td>.rsrc</td>
+<td>89088</td>
+<td>6.203475</td>
+</tr>
+<tr>
+<td>d3c95ee5e68c69ecab2d60810f332824</td>
+<td>.reloc</td>
+<td>1024</td>
+<td>6.149104</td>
+</tr>
+</tbody>
+</table>
+<h5>Packers/Compilers/Cryptors</h5>
+<table>
+<tbody>
+<tr>
+<td>Borland Delphi 3.0 (???)</td>
+</tr>
+</tbody>
+</table>
+<h5>Relationships</h5>
+<table>
+<tbody>
+<tr>
+<td>0385eeab00...</td>
+<td>Contains</td>
+<td>e5f3ef69a534260e899a36cec459440dc572388defd8f1d98760d31c700f42d5</td>
+</tr>
+<tr>
+<td>0385eeab00...</td>
+<td>Contains</td>
+<td>b6f2e008967c5527337448d768f2332d14b92de22a1279fd4d91000bb3d4a0fd</td>
+</tr>
+<tr>
+<td>0385eeab00...</td>
+<td>Contains</td>
+<td>b01e0c6ac0b8bcde145ab7b68cf246deea9402fa7ea3aede7105f7051fe240c1</td>
+</tr>
+<tr>
+<td>0385eeab00...</td>
+<td>Contains</td>
+<td>fd7eacc2f87aceac865b0aa97a50503d44b799f27737e009f91f3c281233c17d</td>
+</tr>
+</tbody>
+</table>
+<h5>Description</h5>
+<p>This is a 32-bit HermeticWiper with ninety-nine percent code-base similarity with 2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf, signed with the same digital certificate issued by Hermetica Digital Ltd (Figure 24). Refer to 2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf for analysis.</p>
+<h5>Screenshots</h5>
+<p><img></p>
+<div class="cma-screenshot-text">
+<p><strong>Figure 23 - </strong>This variant of HermeticWiper contains the same copies of SZDD compressed EaseUS Partition Master NT Drivers.</p>
+</div>
+<p><img></p>
+<div class="cma-screenshot-text">
+<p><strong>Figure 24 - </strong>This variant of HermeticWiper was signed with the same digital certificate (highlighting the unique Serial Number) used in 1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591.</p>
+</div>
+</div>
+<div class="cma-section">
+<h4>96b77284744f8761c4f2558388e0aee2140618b484ff53fa8b222b340d2a9c84</h4>
+<h5>Details</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Name</th>
+<td>&lt;two-random-characters&gt;dr.sys</td>
+</tr>
+<tr>
+<th role="columnheader">Name</th>
+<td>epmntdrv.sys</td>
+</tr>
+<tr>
+<th role="columnheader">Size</th>
+<td>17480 bytes</td>
+</tr>
+<tr>
+<th role="columnheader">Type</th>
+<td>PE32+ executable (native) x86-64, for MS Windows</td>
+</tr>
+<tr>
+<th role="columnheader">MD5</th>
+<td>6106653b08f4f72eeaa7f099e7c408a4</td>
+</tr>
+<tr>
+<th role="columnheader">SHA1</th>
+<td>0e84aff18d42fc691cb1104018f44403c325ad21</td>
+</tr>
+<tr>
+<th role="columnheader">SHA256</th>
+<td>96b77284744f8761c4f2558388e0aee2140618b484ff53fa8b222b340d2a9c84</td>
+</tr>
+<tr>
+<th role="columnheader">SHA512</th>
+<td>92b20c99f96907eea3818ba36516e5fa8b5e6ff7a2981177115633e11ba23f9e5a4aa0e8e9d7d8c448e9d5d8fa5e0eb75e44694942f5e4da98a85419db126162</td>
+</tr>
+<tr>
+<th role="columnheader">ssdeep</th>
+<td>384:X+bXehCk34RLjXHc+DoUR70r2ba3c1+UHeMDBB:8k3uDl5G2ma</td>
+</tr>
+<tr>
+<th role="columnheader">Entropy</th>
+<td>6.291010</td>
+</tr>
+<tr>
+<th role="columnheader">Path</th>
+<td>C:\Windows\system32\Drivers\&lt;two-random-characters&gt;dr.sys</td>
+</tr>
+</tbody>
+</table>
+<h5>Antivirus</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Comodo</th>
+<td>Malware</td>
+</tr>
+<tr>
+<th role="columnheader">Cyren</th>
+<td>W64/HermeticWiper.A.gen!Eldorado</td>
+</tr>
+<tr>
+<th role="columnheader">K7</th>
+<td>Trojan ( 0001140e1 )</td>
+</tr>
+<tr>
+<th role="columnheader">Quick Heal</th>
+<td>APEXCFC.Backdoor.Gen</td>
+</tr>
+</tbody>
+</table>
+<h5>YARA Rules</h5>
+<p>No matches found.</p>
+<h5>ssdeep Matches</h5>
+<p>No matches found.</p>
+<h5>PE Metadata</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Compile Date</th>
+<td>2008-08-14 21:11:21-04:00</td>
+</tr>
+<tr>
+<th role="columnheader">Import Hash</th>
+<td>5bba6eb3fccad3d563d56ef2d7e5d5e8</td>
+</tr>
+</tbody>
+</table>
+<h5>PE Sections</h5>
+<table class="tablesaw tablesaw-stack" data-tablesaw-mode="stack" data-tablesaw-minimap>
+<thead>
+<tr>
+<th role="columnheader" data-tablesaw-priority="persist">MD5</th>
+<th role="columnheader">Name</th>
+<th role="columnheader">Raw Size</th>
+<th role="columnheader">Entropy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>282c5e5cbef2faf4a8b9b4158511f0e9</td>
+<td>header</td>
+<td>1024</td>
+<td>2.475418</td>
+</tr>
+<tr>
+<td>2fcb5c88ff0c96b65d5dccaa67f37745</td>
+<td>.text</td>
+<td>7168</td>
+<td>6.242927</td>
+</tr>
+<tr>
+<td>e93f78c66db1b9f06b8aaf4865462156</td>
+<td>.rdata</td>
+<td>1024</td>
+<td>4.056385</td>
+</tr>
+<tr>
+<td>d40508cd041f34d22c9f1488b16aed28</td>
+<td>.data</td>
+<td>512</td>
+<td>0.530587</td>
+</tr>
+<tr>
+<td>367b80fe09b4046dffcdd0ea9154785e</td>
+<td>.pdata</td>
+<td>512</td>
+<td>2.457626</td>
+</tr>
+<tr>
+<td>993da2bba360331277dd7692284508bd</td>
+<td>INIT</td>
+<td>1536</td>
+<td>3.861090</td>
+</tr>
+<tr>
+<td>a3975867b519ff111e66c9b06194ce6d</td>
+<td>.reloc</td>
+<td>512</td>
+<td>0.118370</td>
+</tr>
+</tbody>
+</table>
+<h5>Relationships</h5>
+<table>
+<tbody>
+<tr>
+<td>96b7728474...</td>
+<td>Related_To</td>
+<td>e5f3ef69a534260e899a36cec459440dc572388defd8f1d98760d31c700f42d5</td>
+</tr>
+</tbody>
+</table>
+<h5>Description</h5>
+<p>This file is benign. It is a 64-bit variant of epmntdrv.sys, which is a component of the EaseUS Partition Master software that manages hard drive partitions. This file was digitally signed by the following expired certificate. This file is the expanded version of the SZDD file drv_x64 (e5f3ef69a534260e899a36cec459440dc572388defd8f1d98760d31c700f42d5). This file was submitted as the 64-bit variant of epmntdrv.sys.<br><br>The epmntdrv.sys creates I/O request packets (IRPs) to communicate directly with the device driver; it uses IRP_MJ_READ and IRP_MJ_WRITE to provide direct read write to the device. The HermeticWiper has access to these capabilities by running the &lt;two-random-characters&gt;dr.sys (a copy of epmntdrv.sys) in memory.<br><br>This 64-bit variant of epmntdrv.sys was signed with the following expired certificate.<br><br>--Begin Digital Certificate--<br>Certificate:<br>&nbsp;&nbsp;&nbsp;Data:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Version: 3 (0x2)<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Serial Number:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;33:c3:4c:ca:6e:68:16:b6:2b:67:7d:44:b0:68:35:e5<br>&nbsp;&nbsp;&nbsp;Signature Algorithm: sha1WithRSAEncryption<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Issuer: C=US, O=VeriSign, Inc., OU=VeriSign Trust Network, OU=Terms of use at https://www.verisign.com/rpa (c)10, CN=VeriSign Class 3 Code Signing 2010 CA<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Validity<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Not Before: Apr 23 00:00:00 2012 GMT<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Not After : Sep 11 23:59:59 2014 GMT<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Subject: C=CN, ST=Sichuan, L=Chengdu, O=CHENGDU YIWO Tech Development Co., Ltd., OU=Digital ID Class 3 - Microsoft Software Validation v2, CN=CHENGDU YIWO Tech Development Co., Ltd.<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Subject Public Key Info:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Public Key Algorithm: rsaEncryption<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Public-Key: (2048 bit)<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Modulus:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;00:c5:58:7e:31:12:6e:14:b8:98:55:4f:6f:cf:b6:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;42:07:cf:8d:93:b2:57:36:09:c2:99:e4:40:9f:73:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;bb:93:22:1e:5e:38:0d:c0:bb:ab:ca:4b:90:1e:df:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;61:bd:6a:68:ee:32:53:72:8c:77:69:ab:7b:cd:a9:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;39:c9:59:a2:82:d3:12:5d:d0:4f:03:70:ce:81:1f:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;e9:12:62:67:f4:ae:87:40:bf:1a:b8:96:7c:a7:eb:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;48:70:63:1e:17:b8:70:d4:7f:fa:8c:43:96:1e:b0:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;b1:6d:fe:d7:b9:f3:ea:0f:ed:bb:9e:3b:55:af:6a:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;3d:b7:80:99:82:10:01:6a:ff:22:76:96:a7:9a:45:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;e2:4e:44:8f:ab:88:c4:dc:5e:26:71:db:9e:16:17:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;58:1b:a2:46:74:f3:5d:61:89:57:c9:60:67:18:01:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;05:fd:8d:44:6f:d7:48:f0:42:1d:39:d2:da:da:3b:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;e9:8e:56:2b:23:cc:e9:ff:04:e1:a5:ad:51:89:c4:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;e0:2e:06:f1:ca:72:2a:40:58:44:02:a2:1c:02:4e:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;35:cb:ac:a7:41:44:57:c1:fe:7a:ad:af:82:3e:21:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;ed:28:62:43:e9:2c:bf:de:e4:78:61:e1:99:0b:90:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;6a:d1:19:b3:11:60:f1:21:72:4b:6c:a4:62:78:e9:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;97:79<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Exponent: 65537 (0x10001)<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;X509v3 extensions:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;X509v3 Basic Constraints:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;CA:FALSE<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;X509v3 Key Usage: critical<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Digital Signature<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;X509v3 CRL Distribution Points:<br><br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Full Name:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; URI:http://csc3-2010-crl.verisign.com/CSC3-2010.crl<br><br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;X509v3 Certificate Policies:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Policy: 2.16.840.1.113733.1.7.23.3<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; CPS: https://www.verisign.com/rpa<br><br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;X509v3 Extended Key Usage:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Code Signing<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Authority Information Access:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;OCSP - URI:http://ocsp.verisign.com<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;CA Issuers - URI:http://csc3-2010-aia.verisign.com/CSC3-2010.cer<br><br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;X509v3 Authority Key Identifier:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;keyid:CF:99:A9:EA:7B:26:F4:4B:C9:8E:8F:D7:F0:05:26:EF:E3:D2:A7:9D<br><br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Netscape Cert Type:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Object Signing<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;1.3.6.1.4.1.311.2.1.27:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;0.......<br>&nbsp;&nbsp;&nbsp;Signature Algorithm: sha1WithRSAEncryption<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 05:95:93:20:3a:55:66:38:4e:b4:11:d6:fa:85:28:c0:08:bb:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ee:ae:79:13:f0:c3:40:5c:17:03:6e:5b:34:ea:b9:8a:c3:6c:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; af:35:45:6e:6b:5f:fe:3c:ac:8f:fa:b8:91:0d:9a:9c:68:5b:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; a1:50:d7:65:e6:fe:2b:c7:c2:25:33:d7:82:a8:21:88:c3:65:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 05:80:88:29:48:60:30:ee:78:f3:b7:86:b8:02:44:1b:48:3a:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 1c:65:a6:b6:f1:07:10:98:8c:57:bc:41:f2:04:88:a4:72:86:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 3e:ef:4f:36:37:67:b2:ef:32:77:e8:ab:97:49:28:eb:be:6d:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 5d:d9:5e:5f:ba:17:ce:95:e8:26:6e:63:87:74:58:99:42:39:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; fd:81:a4:a8:21:42:b1:50:11:6f:c0:05:d0:a1:d4:0d:29:c2:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 57:48:d8:dc:c8:07:94:52:cc:a3:0d:29:c1:1f:8a:9a:fa:63:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 74:99:50:f4:e8:63:3b:49:46:c7:b3:8a:51:08:ac:22:36:b1:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ce:19:3e:8c:ed:7d:81:8f:a3:b7:72:e9:c7:bb:76:c7:42:b6:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 61:a8:10:54:6e:84:1d:83:28:b4:aa:cd:c1:6e:4b:77:44:bb:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 86:c1:56:0a:85:80:2d:52:2f:52:ed:56:3c:8d:ae:93:21:51:<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 1b:eb:51:fd<br>-----BEGIN CERTIFICATE-----<br>MIIFkjCCBHqgAwIBAgIQM8NMym5oFrYrZ31EsGg15TANBgkqhkiG9w0BAQUFADCB<br>tDELMAkGA1UEBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMR8wHQYDVQQL<br>ExZWZXJpU2lnbiBUcnVzdCBOZXR3b3JrMTswOQYDVQQLEzJUZXJtcyBvZiB1c2Ug<br>YXQgaHR0cHM6Ly93d3cudmVyaXNpZ24uY29tL3JwYSAoYykxMDEuMCwGA1UEAxMl<br>VmVyaVNpZ24gQ2xhc3MgMyBDb2RlIFNpZ25pbmcgMjAxMCBDQTAeFw0xMjA0MjMw<br>MDAwMDBaFw0xNDA5MTEyMzU5NTlaMIHVMQswCQYDVQQGEwJDTjEQMA4GA1UECBMH<br>U2ljaHVhbjEQMA4GA1UEBxMHQ2hlbmdkdTEwMC4GA1UEChQnQ0hFTkdEVSBZSVdP<br>IFRlY2ggRGV2ZWxvcG1lbnQgQ28uLCBMdGQuMT4wPAYDVQQLEzVEaWdpdGFsIElE<br>IENsYXNzIDMgLSBNaWNyb3NvZnQgU29mdHdhcmUgVmFsaWRhdGlvbiB2MjEwMC4G<br>A1UEAxQnQ0hFTkdEVSBZSVdPIFRlY2ggRGV2ZWxvcG1lbnQgQ28uLCBMdGQuMIIB<br>IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxVh+MRJuFLiYVU9vz7ZCB8+N<br>k7JXNgnCmeRAn3O7kyIeXjgNwLurykuQHt9hvWpo7jJTcox3aat7zak5yVmigtMS<br>XdBPA3DOgR/pEmJn9K6HQL8auJZ8p+tIcGMeF7hw1H/6jEOWHrCxbf7XufPqD+27<br>njtVr2o9t4CZghABav8idpanmkXiTkSPq4jE3F4mcdueFhdYG6JGdPNdYYlXyWBn<br>GAEF/Y1Eb9dI8EIdOdLa2jvpjlYrI8zp/wThpa1RicTgLgbxynIqQFhEAqIcAk41<br>y6ynQURXwf56ra+CPiHtKGJD6Sy/3uR4YeGZC5Bq0RmzEWDxIXJLbKRieOmXeQID<br>AQABo4IBezCCAXcwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCB4AwQAYDVR0fBDkw<br>NzA1oDOgMYYvaHR0cDovL2NzYzMtMjAxMC1jcmwudmVyaXNpZ24uY29tL0NTQzMt<br>MjAxMC5jcmwwRAYDVR0gBD0wOzA5BgtghkgBhvhFAQcXAzAqMCgGCCsGAQUFBwIB<br>FhxodHRwczovL3d3dy52ZXJpc2lnbi5jb20vcnBhMBMGA1UdJQQMMAoGCCsGAQUF<br>BwMDMHEGCCsGAQUFBwEBBGUwYzAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AudmVy<br>aXNpZ24uY29tMDsGCCsGAQUFBzAChi9odHRwOi8vY3NjMy0yMDEwLWFpYS52ZXJp<br>c2lnbi5jb20vQ1NDMy0yMDEwLmNlcjAfBgNVHSMEGDAWgBTPmanqeyb0S8mOj9fw<br>BSbv49KnnTARBglghkgBhvhCAQEEBAMCBBAwFgYKKwYBBAGCNwIBGwQIMAYBAQAB<br>Af8wDQYJKoZIhvcNAQEFBQADggEBAAWVkyA6VWY4TrQR1vqFKMAIu+6ueRPww0Bc<br>FwNuWzTquYrDbK81RW5rX/48rI/6uJENmpxoW6FQ12Xm/ivHwiUz14KoIYjDZQWA<br>iClIYDDuePO3hrgCRBtIOhxlprbxBxCYjFe8QfIEiKRyhj7vTzY3Z7LvMnfoq5dJ<br>KOu+bV3ZXl+6F86V6CZuY4d0WJlCOf2BpKghQrFQEW/ABdCh1A0pwldI2NzIB5RS<br>zKMNKcEfipr6Y3SZUPToYztJRsezilEIrCI2sc4ZPoztfYGPo7dy6ce7dsdCtmGo<br>EFRuhB2DKLSqzcFuS3dEu4bBVgqFgC1SL1LtVjyNrpMhURvrUf0=<br>-----END CERTIFICATE-----<br>--End Digital Certificate--</p>
+</div>
+<div class="cma-section">
+<h4>8c614cf476f871274aa06153224e8f7354bf5e23e6853358591bf35a381fb75b</h4>
+<h5>Details</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Name</th>
+<td>&lt;two-random-characters&gt;dr.sys</td>
+</tr>
+<tr>
+<th role="columnheader">Name</th>
+<td>epmntdrv.sys</td>
+</tr>
+<tr>
+<th role="columnheader">Size</th>
+<td>14920 bytes</td>
+</tr>
+<tr>
+<th role="columnheader">Type</th>
+<td>PE32 executable (native) Intel 80386, for MS Windows</td>
+</tr>
+<tr>
+<th role="columnheader">MD5</th>
+<td>093cee3b45f0954dce6cb891f6a920f7</td>
+</tr>
+<tr>
+<th role="columnheader">SHA1</th>
+<td>379ff9236f0f72963920232f4a0782911a6bd7f7</td>
+</tr>
+<tr>
+<th role="columnheader">SHA256</th>
+<td>8c614cf476f871274aa06153224e8f7354bf5e23e6853358591bf35a381fb75b</td>
+</tr>
+<tr>
+<th role="columnheader">SHA512</th>
+<td>e59dd27845e17ed18da79097fcce7c03922d9fe300814a12554f18a7094dddd7351c36ca3978058ffdcbd493a837431f7fa27110097f75da89e3d1d7894bfbb8</td>
+</tr>
+<tr>
+<th role="columnheader">ssdeep</th>
+<td>192:19Bgq7dIqqXU9piHf0etqlKdaK01r8Y+vpEjtlAur9ZCspE+TMDQrmV:19Bgq7dINXU/iHf03K0a+UHeMDj</td>
+</tr>
+<tr>
+<th role="columnheader">Entropy</th>
+<td>6.536435</td>
+</tr>
+<tr>
+<th role="columnheader">Path</th>
+<td>&lt;two-random-characters&gt;dr.sys</td>
+</tr>
+</tbody>
+</table>
+<h5>Antivirus</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Comodo</th>
+<td>Malware</td>
+</tr>
+<tr>
+<th role="columnheader">Cyren</th>
+<td>W32/HermeticWiper.B.gen!Eldorado</td>
+</tr>
+<tr>
+<th role="columnheader">Quick Heal</th>
+<td>APEXCFC.Backdoor.Gen</td>
+</tr>
+</tbody>
+</table>
+<h5>YARA Rules</h5>
+<p>No matches found.</p>
+<h5>ssdeep Matches</h5>
+<p>No matches found.</p>
+<h5>PE Metadata</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Compile Date</th>
+<td>2008-08-05 01:35:45-04:00</td>
+</tr>
+<tr>
+<th role="columnheader">Import Hash</th>
+<td>497ab08ca4751a30dbbe7158d270945d</td>
+</tr>
+</tbody>
+</table>
+<h5>PE Sections</h5>
+<table class="tablesaw tablesaw-stack" data-tablesaw-mode="stack" data-tablesaw-minimap>
+<thead>
+<tr>
+<th role="columnheader" data-tablesaw-priority="persist">MD5</th>
+<th role="columnheader">Name</th>
+<th role="columnheader">Raw Size</th>
+<th role="columnheader">Entropy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>28f379c0848cbf3ad43fe37873b6c5d4</td>
+<td>header</td>
+<td>1024</td>
+<td>2.244902</td>
+</tr>
+<tr>
+<td>6bbc43603096ffa044c0a268d9a9429f</td>
+<td>.text</td>
+<td>6144</td>
+<td>6.052960</td>
+</tr>
+<tr>
+<td>ae2851de0512b92979bd41f2e7743c1a</td>
+<td>.rdata</td>
+<td>512</td>
+<td>4.770316</td>
+</tr>
+<tr>
+<td>3d4fa9d0508245adc58a5a235964b4eb</td>
+<td>.data</td>
+<td>512</td>
+<td>0.403646</td>
+</tr>
+<tr>
+<td>83cda44c3f736cf615a059cd7efa53d6</td>
+<td>INIT</td>
+<td>1024</td>
+<td>5.069484</td>
+</tr>
+<tr>
+<td>7cf285b6ba58acb025e2ed849942dd71</td>
+<td>.reloc</td>
+<td>512</td>
+<td>3.527019</td>
+</tr>
+</tbody>
+</table>
+<h5>Relationships</h5>
+<table>
+<tbody>
+<tr>
+<td>8c614cf476...</td>
+<td>Related_To</td>
+<td>b01e0c6ac0b8bcde145ab7b68cf246deea9402fa7ea3aede7105f7051fe240c1</td>
+</tr>
+</tbody>
+</table>
+<h5>Description</h5>
+<p>This file is benign. It is a 32-bit variant of epmntdrv.sys, which is a component of the EaseUS Partition Master software that manages hard drive partitions. This file is the expanded version of the SZDD file drv_x86 (b01e0c6ac0b8bcde145ab7b68cf246deea9402fa7ea3aede7105f7051fe240c1). This file was submitted as the 32-bit variant of epmntdrv.sys.<br><br>The epmntdrv.sys creates IRPs to communicate directly with the device driver; it uses IRP_MJ_READ and IRP_MJ_WRITE to provide direct read write to the device. The HermeticWiper has access to these capabilities by running the &lt;two-random-characters&gt;dr.sys (a copy of epmntdrv.sys) in memory.<br><br>This 32-bit variant of epmntdrv.sys was signed with the same certificate in 96b77284744f8761c4f2558388e0aee2140618b484ff53fa8b222b340d2a9c84.</p>
+</div>
+<div class="cma-section">
+<h4>2c7732da3dcfc82f60f063f2ec9fa09f9d38d5cfbe80c850ded44de43bdb666d</h4>
+<h5>Details</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Name</th>
+<td>&lt;two-random-characters&gt;dr.sys</td>
+</tr>
+<tr>
+<th role="columnheader">Name</th>
+<td>epmntdrv.sys</td>
+</tr>
+<tr>
+<th role="columnheader">Size</th>
+<td>13896 bytes</td>
+</tr>
+<tr>
+<th role="columnheader">Type</th>
+<td>PE32 executable (native) Intel 80386, for MS Windows</td>
+</tr>
+<tr>
+<th role="columnheader">MD5</th>
+<td>d57f1811d8258d8d277cd9f53657eef9</td>
+</tr>
+<tr>
+<th role="columnheader">SHA1</th>
+<td>b33dd3ee12f9e6c150c964ea21147bf6b7f7afa9</td>
+</tr>
+<tr>
+<th role="columnheader">SHA256</th>
+<td>2c7732da3dcfc82f60f063f2ec9fa09f9d38d5cfbe80c850ded44de43bdb666d</td>
+</tr>
+<tr>
+<th role="columnheader">SHA512</th>
+<td>98e1979d2642da2cdd22df475e76fcb513036688bc8792e43f61dbeabb4a34f748804fb2f76dff56bf1c68bc8347244ccd87f730d3d747658731485dd8f8abd4</td>
+</tr>
+<tr>
+<th role="columnheader">ssdeep</th>
+<td>192:OJgR9fN2qBIf9pYf0mtq81NL2r8Y+vpEjtlAur9ZCspE+TMDQrDo:OJg/N5Bi3Yf0oLX+UHeMDB</td>
+</tr>
+<tr>
+<th role="columnheader">Entropy</th>
+<td>6.787708</td>
+</tr>
+<tr>
+<th role="columnheader">Path</th>
+<td>C:\Windows\system32\Drivers\&lt;two-random-characters&gt;dr.sys</td>
+</tr>
+</tbody>
+</table>
+<h5>Antivirus</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Bitdefender</th>
+<td>Application.Agent.KJT</td>
+</tr>
+<tr>
+<th role="columnheader">Comodo</th>
+<td>Malware</td>
+</tr>
+<tr>
+<th role="columnheader">Cyren</th>
+<td>W32/HermeticWiper.B.gen!Eldorado</td>
+</tr>
+<tr>
+<th role="columnheader">IKARUS</th>
+<td>Trojan.Win32.HermeticWiper</td>
+</tr>
+<tr>
+<th role="columnheader">Lavasoft</th>
+<td>Application.Agent.KJT</td>
+</tr>
+<tr>
+<th role="columnheader">Quick Heal</th>
+<td>APEXCFC.Backdoor.Gen</td>
+</tr>
+</tbody>
+</table>
+<h5>YARA Rules</h5>
+<p>No matches found.</p>
+<h5>ssdeep Matches</h5>
+<p>No matches found.</p>
+<h5>PE Metadata</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Compile Date</th>
+<td>2008-08-05 01:35:44-04:00</td>
+</tr>
+<tr>
+<th role="columnheader">Import Hash</th>
+<td>57041138fec5a26208c8fbbb522eb8c3</td>
+</tr>
+</tbody>
+</table>
+<h5>PE Sections</h5>
+<table class="tablesaw tablesaw-stack" data-tablesaw-mode="stack" data-tablesaw-minimap>
+<thead>
+<tr>
+<th role="columnheader" data-tablesaw-priority="persist">MD5</th>
+<th role="columnheader">Name</th>
+<th role="columnheader">Raw Size</th>
+<th role="columnheader">Entropy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>d9c35b50aa29eb859d162fee29e54542</td>
+<td>header</td>
+<td>1152</td>
+<td>2.155296</td>
+</tr>
+<tr>
+<td>68c84af2632118f2fd70196641c7b92a</td>
+<td>.text</td>
+<td>5632</td>
+<td>6.258728</td>
+</tr>
+<tr>
+<td>a088f3513b68ed63036d47e4eae5b847</td>
+<td>.rdata</td>
+<td>512</td>
+<td>4.738972</td>
+</tr>
+<tr>
+<td>e27918cd4bc6289095f759fcf3c65f72</td>
+<td>.data</td>
+<td>128</td>
+<td>1.270805</td>
+</tr>
+<tr>
+<td>6a966a3c841ac34cf9732bfe06224601</td>
+<td>INIT</td>
+<td>896</td>
+<td>5.198473</td>
+</tr>
+<tr>
+<td>3b178276205d421cad26b943ca2a438d</td>
+<td>.reloc</td>
+<td>384</td>
+<td>4.141541</td>
+</tr>
+</tbody>
+</table>
+<h5>Relationships</h5>
+<table>
+<tbody>
+<tr>
+<td>2c7732da3d...</td>
+<td>Related_To</td>
+<td>fd7eacc2f87aceac865b0aa97a50503d44b799f27737e009f91f3c281233c17d</td>
+</tr>
+</tbody>
+</table>
+<h5>Description</h5>
+<p>This file is benign. It is a 32-bit variant of epmntdrv.sys, which is a component of the EaseUS Partition Master software that manages hard drive partitions. This file is the expanded version of the SZDD file drv_xp_x86 (fd7eacc2f87aceac865b0aa97a50503d44b799f27737e009f91f3c281233c17d). The HermeticWiper selects drv_xp_x86 for 32-bit OS version numbers less than 6 (Windows OS earlier than Vista ).<br><br>The epmntdrv.sys creates IRPs to communicate directly with the device driver; it uses IRP_MJ_READ and IRP_MJ_WRITE to provide direct read write to the device. The HermeticWiper has access to these capabilities by running the &lt;two-random-characters&gt;dr.sys (a copy of epmntdrv.sys) in memory.<br><br>This 32-bit variant of epmntdrv.sys was signed with the same certificate in 96b77284744f8761c4f2558388e0aee2140618b484ff53fa8b222b340d2a9c84.</p>
+</div>
+<div class="cma-section">
+<h4>23ef301ddba39bb00f0819d2061c9c14d17dc30f780a945920a51bc3ba0198a4</h4>
+<h5>Details</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Name</th>
+<td>&lt;two-random-characters&gt;dr.sys</td>
+</tr>
+<tr>
+<th role="columnheader">Name</th>
+<td>epmntdrv.sys</td>
+</tr>
+<tr>
+<th role="columnheader">Size</th>
+<td>16968 bytes</td>
+</tr>
+<tr>
+<th role="columnheader">Type</th>
+<td>PE32+ executable (native) x86-64, for MS Windows</td>
+</tr>
+<tr>
+<th role="columnheader">MD5</th>
+<td>bdf30adb4e19aff249e7da26b7f33ead</td>
+</tr>
+<tr>
+<th role="columnheader">SHA1</th>
+<td>87bd9404a68035f8d70804a5159a37d1eb0a3568</td>
+</tr>
+<tr>
+<th role="columnheader">SHA256</th>
+<td>23ef301ddba39bb00f0819d2061c9c14d17dc30f780a945920a51bc3ba0198a4</td>
+</tr>
+<tr>
+<th role="columnheader">SHA512</th>
+<td>623e9bc6e5e7074c73471dc5892680f3f4443af8b2b29ea5d8e89cf2f5c8ec9692018a69247c973bcff3805eea9331cd6c47a425ea04ee94434e8fc27131dd2e</td>
+</tr>
+<tr>
+<th role="columnheader">ssdeep</th>
+<td>384:VxzqJCk3VRLzSlD+DoUxN0mTq43+UHeMDH:Nk3rXlX3Tqw</td>
+</tr>
+<tr>
+<th role="columnheader">Entropy</th>
+<td>6.353774</td>
+</tr>
+<tr>
+<th role="columnheader">Path</th>
+<td>C:\Windows\system32\Drivers\&lt;two-random-characters&gt;dr.sys</td>
+</tr>
+</tbody>
+</table>
+<h5>Antivirus</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Comodo</th>
+<td>Malware</td>
+</tr>
+<tr>
+<th role="columnheader">Cyren</th>
+<td>W64/HermeticWiper.A.gen!Eldorado</td>
+</tr>
+<tr>
+<th role="columnheader">Quick Heal</th>
+<td>APEXCFC.Backdoor.Gen</td>
+</tr>
+</tbody>
+</table>
+<h5>YARA Rules</h5>
+<p>No matches found.</p>
+<h5>ssdeep Matches</h5>
+<p>No matches found.</p>
+<h5>PE Metadata</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Compile Date</th>
+<td>2008-08-05 01:35:48-04:00</td>
+</tr>
+<tr>
+<th role="columnheader">Import Hash</th>
+<td>8dfd5cbf88d986cbbf130b4191352375</td>
+</tr>
+</tbody>
+</table>
+<h5>PE Sections</h5>
+<table class="tablesaw tablesaw-stack" data-tablesaw-mode="stack" data-tablesaw-minimap>
+<thead>
+<tr>
+<th role="columnheader" data-tablesaw-priority="persist">MD5</th>
+<th role="columnheader">Name</th>
+<th role="columnheader">Raw Size</th>
+<th role="columnheader">Entropy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>efa36ea148a083801675637c766f0a80</td>
+<td>header</td>
+<td>1024</td>
+<td>2.532014</td>
+</tr>
+<tr>
+<td>8f981b68cfedd0abf60e0bffc25805f3</td>
+<td>.text</td>
+<td>7168</td>
+<td>6.187764</td>
+</tr>
+<tr>
+<td>e39c3a1e6d17269a8cda38a91b3a86f8</td>
+<td>.rdata</td>
+<td>1024</td>
+<td>4.014067</td>
+</tr>
+<tr>
+<td>c14eda830969efc35caea953ed95155e</td>
+<td>.data</td>
+<td>512</td>
+<td>0.514253</td>
+</tr>
+<tr>
+<td>31535b5fbcaddee170fceaabdedbd47a</td>
+<td>.pdata</td>
+<td>512</td>
+<td>2.359089</td>
+</tr>
+<tr>
+<td>5d39a3cbe37b3b99545811c65b636019</td>
+<td>INIT</td>
+<td>1024</td>
+<td>4.699576</td>
+</tr>
+<tr>
+<td>a3975867b519ff111e66c9b06194ce6d</td>
+<td>.reloc</td>
+<td>512</td>
+<td>0.118370</td>
+</tr>
+</tbody>
+</table>
+<h5>Relationships</h5>
+<table>
+<tbody>
+<tr>
+<td>23ef301ddb...</td>
+<td>Related_To</td>
+<td>b6f2e008967c5527337448d768f2332d14b92de22a1279fd4d91000bb3d4a0fd</td>
+</tr>
+</tbody>
+</table>
+<h5>Description</h5>
+<p>This file is benign. It is a 64-bit variant of epmntdrv.sys, which is a component of the EaseUS Partition Master software that manages hard drive partitions. This file is the expanded version of the SZDD file drv_xp_x64 (b6f2e008967c5527337448d768f2332d14b92de22a1279fd4d91000bb3d4a0fd). The HermeticWiper selects drv_xp_x64 for 64-bit OS version numbers less than 6 (Windows OS earlier than Vista).<br><br>The epmntdrv.sys creates IRPs to communicate directly with the device driver; it uses IRP_MJ_READ and IRP_MJ_WRITE to provide direct read write to the device. The HermeticWiper has access to these capabilities by running the &lt;two-random-characters&gt;dr.sys (a copy of epmntdrv.sys) in memory.<br><br>This 64-bit variant of epmntdrv.sys was signed with the same certificate in 96b77284744f8761c4f2558388e0aee2140618b484ff53fa8b222b340d2a9c84.</p>
+</div>
+<div class="cma-section">
+<h4>e5f3ef69a534260e899a36cec459440dc572388defd8f1d98760d31c700f42d5</h4>
+<h5>Details</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Name</th>
+<td>&lt;two-random-characters&gt;dr</td>
+</tr>
+<tr>
+<th role="columnheader">Name</th>
+<td>drv_x64</td>
+</tr>
+<tr>
+<th role="columnheader">Size</th>
+<td>11119 bytes</td>
+</tr>
+<tr>
+<th role="columnheader">Type</th>
+<td>MS Compress archive data, SZDD variant, original size: 17480 bytes</td>
+</tr>
+<tr>
+<th role="columnheader">MD5</th>
+<td>a952e288a1ead66490b3275a807f52e5</td>
+</tr>
+<tr>
+<th role="columnheader">SHA1</th>
+<td>5ceebaf1cbb0c10b95f7edd458804a646c6f215e</td>
+</tr>
+<tr>
+<th role="columnheader">SHA256</th>
+<td>e5f3ef69a534260e899a36cec459440dc572388defd8f1d98760d31c700f42d5</td>
+</tr>
+<tr>
+<th role="columnheader">SHA512</th>
+<td>871250ed8779d3f6e0adde5b1e9be0b818e157dfd1ea3755c161fc6604185370a55fa0b37c2b9249b05dc5da6182e7be6b2a5ade0b67e104e8d9cea01eae2f94</td>
+</tr>
+<tr>
+<th role="columnheader">ssdeep</th>
+<td>192:Zs3eOzMYnU80xKVnifH3Jinn2IY54QmSJLkwIo3u:ZcRMOgKVSH3Sn235KSZkzku</td>
+</tr>
+<tr>
+<th role="columnheader">Entropy</th>
+<td>7.652705</td>
+</tr>
+<tr>
+<th role="columnheader">Path</th>
+<td>C:\Windows\system32\Drivers\&lt;two-random-characters&gt;dr</td>
+</tr>
+</tbody>
+</table>
+<h5>Antivirus</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Avira</th>
+<td>TR/HermeticWiper.AM</td>
+</tr>
+<tr>
+<th role="columnheader">Bitdefender</th>
+<td>Trojan.HermeticWiper.B</td>
+</tr>
+<tr>
+<th role="columnheader">Cyren</th>
+<td>W64/HermeticWiper.A.gen!Eldorado</td>
+</tr>
+<tr>
+<th role="columnheader">Emsisoft</th>
+<td>Trojan.HermeticWiper.B (B)</td>
+</tr>
+<tr>
+<th role="columnheader">IKARUS</th>
+<td>Virus.Wiper.Hermetic</td>
+</tr>
+<tr>
+<th role="columnheader">Lavasoft</th>
+<td>Trojan.HermeticWiper.B</td>
+</tr>
+<tr>
+<th role="columnheader">McAfee</th>
+<td>Trojan-HermeticWiper</td>
+</tr>
+</tbody>
+</table>
+<h5>YARA Rules</h5>
+<p>No matches found.</p>
+<h5>ssdeep Matches</h5>
+<p>No matches found.</p>
+<h5>Relationships</h5>
+<table>
+<tbody>
+<tr>
+<td>e5f3ef69a5...</td>
+<td>Contained_Within</td>
+<td>1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591</td>
+</tr>
+<tr>
+<td>e5f3ef69a5...</td>
+<td>Contained_Within</td>
+<td>06086c1da4590dcc7f1e10a6be3431e1166286a9e7761f2de9de79d7fda9c397</td>
+</tr>
+<tr>
+<td>e5f3ef69a5...</td>
+<td>Contained_Within</td>
+<td>3c557727953a8f6b4788984464fb77741b821991acbf5e746aebdd02615b1767</td>
+</tr>
+<tr>
+<td>e5f3ef69a5...</td>
+<td>Contained_Within</td>
+<td>0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da</td>
+</tr>
+<tr>
+<td>e5f3ef69a5...</td>
+<td>Contained_Within</td>
+<td>2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf</td>
+</tr>
+<tr>
+<td>e5f3ef69a5...</td>
+<td>Related_To</td>
+<td>96b77284744f8761c4f2558388e0aee2140618b484ff53fa8b222b340d2a9c84</td>
+</tr>
+</tbody>
+</table>
+<h5>Description</h5>
+<p>This SZDD compressed file is embedded within the resource section of 1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591, 06086c1da4590dcc7f1e10a6be3431e1166286a9e7761f2de9de79d7fda9c397, 2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf, 3c557727953a8f6b4788984464fb77741b821991acbf5e746aebdd02615b1767 and<br>0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da.</p>
+</div>
+<div class="cma-section">
+<h4>b01e0c6ac0b8bcde145ab7b68cf246deea9402fa7ea3aede7105f7051fe240c1</h4>
+<h5>Details</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Name</th>
+<td>&lt;two-random-characters&gt;dr</td>
+</tr>
+<tr>
+<th role="columnheader">Name</th>
+<td>drv_x86</td>
+</tr>
+<tr>
+<th role="columnheader">Size</th>
+<td>9904 bytes</td>
+</tr>
+<tr>
+<th role="columnheader">Type</th>
+<td>MS Compress archive data, SZDD variant, original size: 14920 bytes</td>
+</tr>
+<tr>
+<th role="columnheader">MD5</th>
+<td>231b3385ac17e41c5bb1b1fcb59599c4</td>
+</tr>
+<tr>
+<th role="columnheader">SHA1</th>
+<td>0231721ef4e4519ec776ff7d1f25c937545ce9f4</td>
+</tr>
+<tr>
+<th role="columnheader">SHA256</th>
+<td>b01e0c6ac0b8bcde145ab7b68cf246deea9402fa7ea3aede7105f7051fe240c1</td>
+</tr>
+<tr>
+<th role="columnheader">SHA512</th>
+<td>b487d244f2d00dde8035e0edff2c878cf722022fcf73bb53d7b6fdf0df760109bd63cc440c67f03e2965fc814aaab6daa85e4cdf1c952e8b0dc87cead10fdffa</td>
+</tr>
+<tr>
+<th role="columnheader">ssdeep</th>
+<td>192:PWE3Ol3U4GYj7/YQTbZv8tBEqIOfgEFj8ZpB2Vx38vO3t89DQHsLxVUmlR:P134U4GnmU7dfFFYZb2VMo89QsLjpR</td>
+</tr>
+<tr>
+<th role="columnheader">Entropy</th>
+<td>7.653127</td>
+</tr>
+<tr>
+<th role="columnheader">Path</th>
+<td>C:\Windows\system32\Drivers\&lt;two-random-characters&gt;dr</td>
+</tr>
+</tbody>
+</table>
+<h5>Antivirus</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Avira</th>
+<td>TR/HermeticWiper.AP</td>
+</tr>
+<tr>
+<th role="columnheader">Bitdefender</th>
+<td>Trojan.HermeticWiper.E</td>
+</tr>
+<tr>
+<th role="columnheader">Cyren</th>
+<td>W32/HermeticWiper.B.gen!Eldorado</td>
+</tr>
+<tr>
+<th role="columnheader">Emsisoft</th>
+<td>Trojan.HermeticWiper.E (B)</td>
+</tr>
+<tr>
+<th role="columnheader">IKARUS</th>
+<td>Virus.Wiper.Hermetic</td>
+</tr>
+<tr>
+<th role="columnheader">Lavasoft</th>
+<td>Trojan.HermeticWiper.E</td>
+</tr>
+<tr>
+<th role="columnheader">McAfee</th>
+<td>Trojan-HermeticWiper</td>
+</tr>
+</tbody>
+</table>
+<h5>YARA Rules</h5>
+<p>No matches found.</p>
+<h5>ssdeep Matches</h5>
+<p>No matches found.</p>
+<h5>Relationships</h5>
+<table>
+<tbody>
+<tr>
+<td>b01e0c6ac0...</td>
+<td>Contained_Within</td>
+<td>06086c1da4590dcc7f1e10a6be3431e1166286a9e7761f2de9de79d7fda9c397</td>
+</tr>
+<tr>
+<td>b01e0c6ac0...</td>
+<td>Contained_Within</td>
+<td>3c557727953a8f6b4788984464fb77741b821991acbf5e746aebdd02615b1767</td>
+</tr>
+<tr>
+<td>b01e0c6ac0...</td>
+<td>Contained_Within</td>
+<td>0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da</td>
+</tr>
+<tr>
+<td>b01e0c6ac0...</td>
+<td>Contained_Within</td>
+<td>2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf</td>
+</tr>
+<tr>
+<td>b01e0c6ac0...</td>
+<td>Related_To</td>
+<td>8c614cf476f871274aa06153224e8f7354bf5e23e6853358591bf35a381fb75b</td>
+</tr>
+<tr>
+<td>b01e0c6ac0...</td>
+<td>Contained_Within</td>
+<td>1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591</td>
+</tr>
+</tbody>
+</table>
+<h5>Description</h5>
+<p>This compressed file is embedded within the resource section of 1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591, 06086c1da4590dcc7f1e10a6be3431e1166286a9e7761f2de9de79d7fda9c397, 2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf, 3c557727953a8f6b4788984464fb77741b821991acbf5e746aebdd02615b1767 and<br>0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da.</p>
+</div>
+<div class="cma-section">
+<h4>fd7eacc2f87aceac865b0aa97a50503d44b799f27737e009f91f3c281233c17d</h4>
+<h5>Details</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Name</th>
+<td>&lt;two-random-characters&gt;dr</td>
+</tr>
+<tr>
+<th role="columnheader">Name</th>
+<td>drv_xp_x86</td>
+</tr>
+<tr>
+<th role="columnheader">Size</th>
+<td>9626 bytes</td>
+</tr>
+<tr>
+<th role="columnheader">Type</th>
+<td>MS Compress archive data, SZDD variant, original size: 13896 bytes</td>
+</tr>
+<tr>
+<th role="columnheader">MD5</th>
+<td>eb845b7a16ed82bd248e395d9852f467</td>
+</tr>
+<tr>
+<th role="columnheader">SHA1</th>
+<td>ee764632adedf6bb4cf4075a20b4f6a79b8f94c0</td>
+</tr>
+<tr>
+<th role="columnheader">SHA256</th>
+<td>fd7eacc2f87aceac865b0aa97a50503d44b799f27737e009f91f3c281233c17d</td>
+</tr>
+<tr>
+<th role="columnheader">SHA512</th>
+<td>c0b4b7624e88b40e5c486eb344aec86ae3c73dc2e5de7bfdab4b2249861a6954e07e66828df540de0d9a40327b85a63df7bb1934991f3d69f1bf731688f2c610</td>
+</tr>
+<tr>
+<th role="columnheader">ssdeep</th>
+<td>192:IrtxiAPMu2m3o8o3DvrkiJ/3ZI+HM4iUyeRfWBiDvMmBOP2jO:I5hPMu2mo8ozvrPeg1iUyCOiTMmBOPD</td>
+</tr>
+<tr>
+<th role="columnheader">Entropy</th>
+<td>7.672750</td>
+</tr>
+<tr>
+<th role="columnheader">Path</th>
+<td>C:\Windows\system32\Drivers\&lt;two-random-characters&gt;dr</td>
+</tr>
+</tbody>
+</table>
+<h5>Antivirus</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Avira</th>
+<td>TR/HermeticWiper.T</td>
+</tr>
+<tr>
+<th role="columnheader">Bitdefender</th>
+<td>Trojan.HermeticWiper.D</td>
+</tr>
+<tr>
+<th role="columnheader">Cyren</th>
+<td>W32/HermeticWiper.B.gen!Eldorado</td>
+</tr>
+<tr>
+<th role="columnheader">Emsisoft</th>
+<td>Trojan.HermeticWiper.D (B)</td>
+</tr>
+<tr>
+<th role="columnheader">IKARUS</th>
+<td>Virus.Wiper.Hermetic</td>
+</tr>
+<tr>
+<th role="columnheader">Lavasoft</th>
+<td>Trojan.HermeticWiper.D</td>
+</tr>
+<tr>
+<th role="columnheader">McAfee</th>
+<td>Trojan-HermeticWiper</td>
+</tr>
+</tbody>
+</table>
+<h5>YARA Rules</h5>
+<p>No matches found.</p>
+<h5>ssdeep Matches</h5>
+<p>No matches found.</p>
+<h5>Relationships</h5>
+<table>
+<tbody>
+<tr>
+<td>fd7eacc2f8...</td>
+<td>Contained_Within</td>
+<td>06086c1da4590dcc7f1e10a6be3431e1166286a9e7761f2de9de79d7fda9c397</td>
+</tr>
+<tr>
+<td>fd7eacc2f8...</td>
+<td>Contained_Within</td>
+<td>3c557727953a8f6b4788984464fb77741b821991acbf5e746aebdd02615b1767</td>
+</tr>
+<tr>
+<td>fd7eacc2f8...</td>
+<td>Related_To</td>
+<td>2c7732da3dcfc82f60f063f2ec9fa09f9d38d5cfbe80c850ded44de43bdb666d</td>
+</tr>
+<tr>
+<td>fd7eacc2f8...</td>
+<td>Contained_Within</td>
+<td>0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da</td>
+</tr>
+<tr>
+<td>fd7eacc2f8...</td>
+<td>Contained_Within</td>
+<td>2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf</td>
+</tr>
+<tr>
+<td>fd7eacc2f8...</td>
+<td>Contained_Within</td>
+<td>1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591</td>
+</tr>
+</tbody>
+</table>
+<h5>Description</h5>
+<p>This compressed file is embedded within the resource section of 1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591, 06086c1da4590dcc7f1e10a6be3431e1166286a9e7761f2de9de79d7fda9c397, 2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf, 3c557727953a8f6b4788984464fb77741b821991acbf5e746aebdd02615b1767 and<br>0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da.</p>
+</div>
+<div class="cma-section">
+<h4>b6f2e008967c5527337448d768f2332d14b92de22a1279fd4d91000bb3d4a0fd</h4>
+<h5>Details</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Name</th>
+<td>&lt;two-random-characters&gt;dr</td>
+</tr>
+<tr>
+<th role="columnheader">Name</th>
+<td>drv_xp_x64</td>
+</tr>
+<tr>
+<th role="columnheader">Size</th>
+<td>10956 bytes</td>
+</tr>
+<tr>
+<th role="columnheader">Type</th>
+<td>MS Compress archive data, SZDD variant, original size: 16968 bytes</td>
+</tr>
+<tr>
+<th role="columnheader">MD5</th>
+<td>095a1678021b034903c85dd5acb447ad</td>
+</tr>
+<tr>
+<th role="columnheader">SHA1</th>
+<td>9c2e465e8dfdfc1c0c472e0a34a7614d796294af</td>
+</tr>
+<tr>
+<th role="columnheader">SHA256</th>
+<td>b6f2e008967c5527337448d768f2332d14b92de22a1279fd4d91000bb3d4a0fd</td>
+</tr>
+<tr>
+<th role="columnheader">SHA512</th>
+<td>affc87ddf6c2afd4b3f454aaa64b7d793b31a55c895edda4b4d1e84e94230fdd0b99afae6453631a1d8557fa15cb2219195b2aa489430791b8f11188ca843212</td>
+</tr>
+<tr>
+<th role="columnheader">ssdeep</th>
+<td>192:inExx4fb7zjtIfXO0WwZAVZLEyh3iwVAVdnO2QymtFtZkwcH7jaXcYk1LnS0:inXf43yhMVdnO22FtCV7WFk1S0</td>
+</tr>
+<tr>
+<th role="columnheader">Entropy</th>
+<td>7.662753</td>
+</tr>
+<tr>
+<th role="columnheader">Path</th>
+<td>C:\Windows\system32\Drivers\&lt;two-random-characters&gt;dr.sys</td>
+</tr>
+</tbody>
+</table>
+<h5>Antivirus</h5>
+<table>
+<tbody>
+<tr>
+<th role="columnheader">Avira</th>
+<td>TR/HermeticWiper.A</td>
+</tr>
+<tr>
+<th role="columnheader">Bitdefender</th>
+<td>Trojan.HermeticWiper.C</td>
+</tr>
+<tr>
+<th role="columnheader">Cyren</th>
+<td>W64/HermeticWiper.A.gen!Eldorado</td>
+</tr>
+<tr>
+<th role="columnheader">Emsisoft</th>
+<td>Trojan.HermeticWiper.C (B)</td>
+</tr>
+<tr>
+<th role="columnheader">IKARUS</th>
+<td>Virus.Wiper.Hermetic</td>
+</tr>
+<tr>
+<th role="columnheader">Lavasoft</th>
+<td>Trojan.HermeticWiper.C</td>
+</tr>
+<tr>
+<th role="columnheader">McAfee</th>
+<td>Trojan-HermeticWiper</td>
+</tr>
+</tbody>
+</table>
+<h5>YARA Rules</h5>
+<p>No matches found.</p>
+<h5>ssdeep Matches</h5>
+<p>No matches found.</p>
+<h5>Relationships</h5>
+<table>
+<tbody>
+<tr>
+<td>b6f2e00896...</td>
+<td>Contained_Within</td>
+<td>1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591</td>
+</tr>
+<tr>
+<td>b6f2e00896...</td>
+<td>Contained_Within</td>
+<td>06086c1da4590dcc7f1e10a6be3431e1166286a9e7761f2de9de79d7fda9c397</td>
+</tr>
+<tr>
+<td>b6f2e00896...</td>
+<td>Contained_Within</td>
+<td>3c557727953a8f6b4788984464fb77741b821991acbf5e746aebdd02615b1767</td>
+</tr>
+<tr>
+<td>b6f2e00896...</td>
+<td>Contained_Within</td>
+<td>0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da</td>
+</tr>
+<tr>
+<td>b6f2e00896...</td>
+<td>Related_To</td>
+<td>23ef301ddba39bb00f0819d2061c9c14d17dc30f780a945920a51bc3ba0198a4</td>
+</tr>
+<tr>
+<td>b6f2e00896...</td>
+<td>Contained_Within</td>
+<td>2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf</td>
+</tr>
+</tbody>
+</table>
+<h5>Description</h5>
+<p>This compressed file is embedded within the resource section of 1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591, 06086c1da4590dcc7f1e10a6be3431e1166286a9e7761f2de9de79d7fda9c397, 2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf, 3c557727953a8f6b4788984464fb77741b821991acbf5e746aebdd02615b1767 and<br>0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da.</p>
+</div>
+<h3>Relationship Summary</h3>
+<div class="cma-section">
+<table>
+<tbody>
+<tr>
+<td>1bc44eef75...</td>
+<td>Contains</td>
+<td>e5f3ef69a534260e899a36cec459440dc572388defd8f1d98760d31c700f42d5</td>
+</tr>
+<tr>
+<td>1bc44eef75...</td>
+<td>Contains</td>
+<td>b6f2e008967c5527337448d768f2332d14b92de22a1279fd4d91000bb3d4a0fd</td>
+</tr>
+<tr>
+<td>1bc44eef75...</td>
+<td>Contains</td>
+<td>b01e0c6ac0b8bcde145ab7b68cf246deea9402fa7ea3aede7105f7051fe240c1</td>
+</tr>
+<tr>
+<td>1bc44eef75...</td>
+<td>Contains</td>
+<td>fd7eacc2f87aceac865b0aa97a50503d44b799f27737e009f91f3c281233c17d</td>
+</tr>
+<tr>
+<td>06086c1da4...</td>
+<td>Contains</td>
+<td>e5f3ef69a534260e899a36cec459440dc572388defd8f1d98760d31c700f42d5</td>
+</tr>
+<tr>
+<td>06086c1da4...</td>
+<td>Contains</td>
+<td>b6f2e008967c5527337448d768f2332d14b92de22a1279fd4d91000bb3d4a0fd</td>
+</tr>
+<tr>
+<td>06086c1da4...</td>
+<td>Contains</td>
+<td>b01e0c6ac0b8bcde145ab7b68cf246deea9402fa7ea3aede7105f7051fe240c1</td>
+</tr>
+<tr>
+<td>06086c1da4...</td>
+<td>Contains</td>
+<td>fd7eacc2f87aceac865b0aa97a50503d44b799f27737e009f91f3c281233c17d</td>
+</tr>
+<tr>
+<td>2c10b2ec0b...</td>
+<td>Contains</td>
+<td>e5f3ef69a534260e899a36cec459440dc572388defd8f1d98760d31c700f42d5</td>
+</tr>
+<tr>
+<td>2c10b2ec0b...</td>
+<td>Contains</td>
+<td>b6f2e008967c5527337448d768f2332d14b92de22a1279fd4d91000bb3d4a0fd</td>
+</tr>
+<tr>
+<td>2c10b2ec0b...</td>
+<td>Contains</td>
+<td>b01e0c6ac0b8bcde145ab7b68cf246deea9402fa7ea3aede7105f7051fe240c1</td>
+</tr>
+<tr>
+<td>2c10b2ec0b...</td>
+<td>Contains</td>
+<td>fd7eacc2f87aceac865b0aa97a50503d44b799f27737e009f91f3c281233c17d</td>
+</tr>
+<tr>
+<td>3c55772795...</td>
+<td>Contains</td>
+<td>e5f3ef69a534260e899a36cec459440dc572388defd8f1d98760d31c700f42d5</td>
+</tr>
+<tr>
+<td>3c55772795...</td>
+<td>Contains</td>
+<td>b6f2e008967c5527337448d768f2332d14b92de22a1279fd4d91000bb3d4a0fd</td>
+</tr>
+<tr>
+<td>3c55772795...</td>
+<td>Contains</td>
+<td>b01e0c6ac0b8bcde145ab7b68cf246deea9402fa7ea3aede7105f7051fe240c1</td>
+</tr>
+<tr>
+<td>3c55772795...</td>
+<td>Contains</td>
+<td>fd7eacc2f87aceac865b0aa97a50503d44b799f27737e009f91f3c281233c17d</td>
+</tr>
+<tr>
+<td>0385eeab00...</td>
+<td>Contains</td>
+<td>e5f3ef69a534260e899a36cec459440dc572388defd8f1d98760d31c700f42d5</td>
+</tr>
+<tr>
+<td>0385eeab00...</td>
+<td>Contains</td>
+<td>b6f2e008967c5527337448d768f2332d14b92de22a1279fd4d91000bb3d4a0fd</td>
+</tr>
+<tr>
+<td>0385eeab00...</td>
+<td>Contains</td>
+<td>b01e0c6ac0b8bcde145ab7b68cf246deea9402fa7ea3aede7105f7051fe240c1</td>
+</tr>
+<tr>
+<td>0385eeab00...</td>
+<td>Contains</td>
+<td>fd7eacc2f87aceac865b0aa97a50503d44b799f27737e009f91f3c281233c17d</td>
+</tr>
+<tr>
+<td>96b7728474...</td>
+<td>Related_To</td>
+<td>e5f3ef69a534260e899a36cec459440dc572388defd8f1d98760d31c700f42d5</td>
+</tr>
+<tr>
+<td>8c614cf476...</td>
+<td>Related_To</td>
+<td>b01e0c6ac0b8bcde145ab7b68cf246deea9402fa7ea3aede7105f7051fe240c1</td>
+</tr>
+<tr>
+<td>2c7732da3d...</td>
+<td>Related_To</td>
+<td>fd7eacc2f87aceac865b0aa97a50503d44b799f27737e009f91f3c281233c17d</td>
+</tr>
+<tr>
+<td>23ef301ddb...</td>
+<td>Related_To</td>
+<td>b6f2e008967c5527337448d768f2332d14b92de22a1279fd4d91000bb3d4a0fd</td>
+</tr>
+<tr>
+<td>e5f3ef69a5...</td>
+<td>Contained_Within</td>
+<td>1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591</td>
+</tr>
+<tr>
+<td>e5f3ef69a5...</td>
+<td>Contained_Within</td>
+<td>06086c1da4590dcc7f1e10a6be3431e1166286a9e7761f2de9de79d7fda9c397</td>
+</tr>
+<tr>
+<td>e5f3ef69a5...</td>
+<td>Contained_Within</td>
+<td>3c557727953a8f6b4788984464fb77741b821991acbf5e746aebdd02615b1767</td>
+</tr>
+<tr>
+<td>e5f3ef69a5...</td>
+<td>Contained_Within</td>
+<td>0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da</td>
+</tr>
+<tr>
+<td>e5f3ef69a5...</td>
+<td>Contained_Within</td>
+<td>2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf</td>
+</tr>
+<tr>
+<td>e5f3ef69a5...</td>
+<td>Related_To</td>
+<td>96b77284744f8761c4f2558388e0aee2140618b484ff53fa8b222b340d2a9c84</td>
+</tr>
+<tr>
+<td>b01e0c6ac0...</td>
+<td>Contained_Within</td>
+<td>06086c1da4590dcc7f1e10a6be3431e1166286a9e7761f2de9de79d7fda9c397</td>
+</tr>
+<tr>
+<td>b01e0c6ac0...</td>
+<td>Contained_Within</td>
+<td>3c557727953a8f6b4788984464fb77741b821991acbf5e746aebdd02615b1767</td>
+</tr>
+<tr>
+<td>b01e0c6ac0...</td>
+<td>Contained_Within</td>
+<td>0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da</td>
+</tr>
+<tr>
+<td>b01e0c6ac0...</td>
+<td>Contained_Within</td>
+<td>2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf</td>
+</tr>
+<tr>
+<td>b01e0c6ac0...</td>
+<td>Related_To</td>
+<td>8c614cf476f871274aa06153224e8f7354bf5e23e6853358591bf35a381fb75b</td>
+</tr>
+<tr>
+<td>b01e0c6ac0...</td>
+<td>Contained_Within</td>
+<td>1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591</td>
+</tr>
+<tr>
+<td>fd7eacc2f8...</td>
+<td>Contained_Within</td>
+<td>06086c1da4590dcc7f1e10a6be3431e1166286a9e7761f2de9de79d7fda9c397</td>
+</tr>
+<tr>
+<td>fd7eacc2f8...</td>
+<td>Contained_Within</td>
+<td>3c557727953a8f6b4788984464fb77741b821991acbf5e746aebdd02615b1767</td>
+</tr>
+<tr>
+<td>fd7eacc2f8...</td>
+<td>Related_To</td>
+<td>2c7732da3dcfc82f60f063f2ec9fa09f9d38d5cfbe80c850ded44de43bdb666d</td>
+</tr>
+<tr>
+<td>fd7eacc2f8...</td>
+<td>Contained_Within</td>
+<td>0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da</td>
+</tr>
+<tr>
+<td>fd7eacc2f8...</td>
+<td>Contained_Within</td>
+<td>2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf</td>
+</tr>
+<tr>
+<td>fd7eacc2f8...</td>
+<td>Contained_Within</td>
+<td>1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591</td>
+</tr>
+<tr>
+<td>b6f2e00896...</td>
+<td>Contained_Within</td>
+<td>1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591</td>
+</tr>
+<tr>
+<td>b6f2e00896...</td>
+<td>Contained_Within</td>
+<td>06086c1da4590dcc7f1e10a6be3431e1166286a9e7761f2de9de79d7fda9c397</td>
+</tr>
+<tr>
+<td>b6f2e00896...</td>
+<td>Contained_Within</td>
+<td>3c557727953a8f6b4788984464fb77741b821991acbf5e746aebdd02615b1767</td>
+</tr>
+<tr>
+<td>b6f2e00896...</td>
+<td>Contained_Within</td>
+<td>0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da</td>
+</tr>
+<tr>
+<td>b6f2e00896...</td>
+<td>Related_To</td>
+<td>23ef301ddba39bb00f0819d2061c9c14d17dc30f780a945920a51bc3ba0198a4</td>
+</tr>
+<tr>
+<td>b6f2e00896...</td>
+<td>Contained_Within</td>
+<td>2c10b2ec0b995b88c27d141d6f7b14d6b8177c52818687e4ff8e6ecf53adf5bf</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3>Recommendations</h3>
+<div class="cma-section">
+<p>CISA recommends that users and administrators consider using the following best practices to strengthen the security posture of their organization's systems. Any configuration changes should be reviewed by system owners and administrators prior to implementation to avoid unwanted impacts.</p>
+<ul>
+<li>Maintain up-to-date antivirus signatures and engines.</li>
+<li>Keep operating system patches up-to-date.</li>
+<li>Disable File and Printer sharing services. If these services are required, use strong passwords or Active Directory authentication.</li>
+<li>Restrict users' ability (permissions) to install and run unwanted software applications. Do not add users to the local administrators group unless required.</li>
+<li>Enforce a strong password policy and implement regular password changes.</li>
+<li>Exercise caution when opening e-mail attachments even if the attachment is expected and the sender appears to be known.</li>
+<li>Enable a personal firewall on agency workstations, configured to deny unsolicited connection requests.</li>
+<li>Disable unnecessary services on agency workstations and servers.</li>
+<li>Scan for and remove suspicious e-mail attachments; ensure the scanned attachment is its "true file type" (i.e., the extension matches the file header).</li>
+<li>Monitor users' web browsing habits; restrict access to sites with unfavorable content.</li>
+<li>Exercise caution when using removable media (e.g., USB thumb drives, external drives, CDs, etc.).</li>
+<li>Scan all software downloaded from the Internet prior to executing.</li>
+<li>Maintain situational awareness of the latest threats and implement appropriate Access Control Lists (ACLs).</li>
+</ul>
+<p>Additional information on malware incident prevention and handling can be found in National Institute of Standards and Technology (NIST) Special Publication 800-83, <strong>"Guide to Malware Incident Prevention &amp; Handling for Desktops and Laptops".</strong></p>
+</div>
+<h3>Contact Information</h3>
+<div class="cma-section">
+<ul>
+<li>1-844-Say-CISA</li>
+<li><a href="mailto:Central@cisa.dhs.gov" title="Email CISA Central">CISA Central</a>&nbsp;(UNCLASS)</li>
+<li><a href="mailto:NCCIC@dhs.sgov.gov">CISA SIPR</a> (SIPRNET)</li>
+<li><a href="mailto:NCCIC@dhs.ic.gov">CISA IC</a> (JWICS)</li>
+</ul>
+<p>CISA continuously strives to improve its products and services. You can help by answering a very short series of questions about this product at the following URL: <a href="https://us-cert.cisa.gov/forms/feedback/">https://us-cert.cisa.gov/forms/feedback/</a></p>
+</div>
+<h3>Document FAQ</h3>
+<div class="cma-section">
+<p><strong>What is a MIFR?</strong> A Malware Initial Findings Report (MIFR) is intended to provide organizations with malware analysis in a timely manner. In most instances this report will provide initial indicators for computer and network defense. To request additional analysis, please contact CISA and provide information regarding the level of desired analysis.</p>
+<p><strong>What is a MAR?</strong> A Malware Analysis Report (MAR) is intended to provide organizations with more detailed malware analysis acquired via manual reverse engineering. To request additional analysis, please contact CISA and provide information regarding the level of desired analysis.</p>
+<p><strong>Can I edit this document?</strong> This document is not to be edited in any way by recipients. All comments or questions related to this document should be directed to the CISA at 1-844-Say-CISA or <a href="mailto:Central@cisa.dhs.gov" title="Email CISA Central">CISA Central</a>.</p>
+<p><strong>Can I submit malware to CISA?</strong> Malware samples can be submitted via three methods:</p>
+<ul>
+<li>Web: <a href="https://malware.us-cert.gov/">https://malware.us-cert.gov</a></li>
+<li>E-Mail: <a href="mailto:submit@malware.us-cert.gov">submit@malware.us-cert.gov</a></li>
+<li>FTP: ftp.malware.us-cert.gov (anonymous)</li>
+</ul>
+<p>CISA encourages you to report any suspicious activity, including cybersecurity incidents, possible malicious code, software vulnerabilities, and phishing-related scams. Reporting forms can be found on CISA's homepage at <a href="http://www.cisa.gov/">www.cisa.gov</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<div>
+<h3>Revisions</h3>
+</div>
+<p>April 28, 2022: Initial Version</p>
+
+      </div>
+
+  
+      </div>
+  </div>
+      <div class="l-constrain l-page-section--rich-text">
+        <div class="l-page-section__content">
+          
+
+
+
+
+<div  class="c-field c-field--name-body c-field--type-text-with-summary c-field--label-hidden">
+  <div class="c-field__content"><p>This product is provided subject to this&nbsp;<a href="/notification" rel="nofollow noopener" target="_blank" title="Follow link">Notification</a>&nbsp;and this&nbsp;<a href="/privacy-policy" rel="nofollow noopener" target="_blank" title="Follow link">Privacy &amp; Use</a>&nbsp;policy.</p></div></div>
+
+        </div>
+      </div>
+            </div>
+        <div class="l-full__footer">
+                              
+<div class="l-constrain">
+  <div class="l-page-section--rich-text">
+    <div class="l-page-section__content">
+      <div  class="c-product-survey l-page-section--tags l-page-section--rich-text">
+        <div class="c-product-survey__top-bar"></div>
+        <div class="c-product-survey__content-area">
+          <div class="c-product-survey__icon"></div>
+          <div class="c-product-survey__text-area">
+            <h2>Please share your thoughts</h2>
+            <p>We recently updated our anonymous <a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_9n4TtB8uttUPaM6?product=https://www.cisa.gov/news-events/analysis-reports/ar22-115a" target="_blank">product survey</a>; we welcome your feedback.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+
+          </div>
+  </div>
+  
+  
+  
+  
+
+      </div>
+
+  
+  </main>
+
+  
+<footer  class="usa-footer usa-footer--slim" role="contentinfo">
+    <div class="usa-footer__return-to-top">
+    <div class="l-constrain">
+      <a href="#top">Return to top</a>
+    </div>
+  </div>
+    <div class="usa-footer__upper">
+    <div class="l-constrain">
+      
+
+
+
+
+
+
+
+  
+  
+    
+
+  
+            
+
+                                <ul  class="c-menu c-menu--footer-main">
+        
+                                            
+                              
+      
+      
+      <li  class="c-menu__item">
+                              <a href="/topics" class="c-menu__link js-top-level" aria-current="false" data-drupal-link-system-path="node/7329">Topics</a>
+                        </li>
+    
+                                            
+                              
+      
+      
+      <li  class="c-menu__item">
+                              <a href="/spotlight" class="c-menu__link js-top-level" aria-current="false" data-drupal-link-system-path="node/7330">Spotlight</a>
+                        </li>
+    
+                                            
+                              
+      
+      
+      <li  class="c-menu__item">
+                              <a href="/resources-tools" class="c-menu__link js-top-level" aria-current="false" data-drupal-link-system-path="node/7331">Resources &amp; Tools</a>
+                        </li>
+    
+                                            
+                                                    
+      
+      
+      <li  class="c-menu__item is-active-trail">
+                              <a href="/news-events" class="c-menu__link js-top-level is-active-trail" aria-current="false" data-drupal-link-system-path="node/7332">News &amp; Events</a>
+                        </li>
+    
+                                            
+                              
+      
+      
+      <li  class="c-menu__item">
+                              <a href="/careers" class="c-menu__link js-top-level" aria-current="false" data-drupal-link-system-path="node/7323">Careers</a>
+                        </li>
+    
+                                            
+                              
+      
+      
+      <li  class="c-menu__item">
+                              <a href="/about" class="c-menu__link js-top-level" aria-current="false" data-drupal-link-system-path="node/6944">About</a>
+                        </li>
+        </ul>
+  
+
+  
+  
+  
+  
+
+    </div>
+  </div>
+    <div class="usa-footer__main">
+    <div class="l-constrain">
+      <div class="usa-footer__main-row">
+        <div class="usa-footer__brand">
+          
+<a  class="c-site-name c-site-name--footer" href="/" rel="home" title="Go to the Cybersecurity & Infrastructure Security Agency homepage">
+  <span class="c-site-name__text">Cybersecurity &amp; Infrastructure Security Agency</span>
+</a>        </div>
+        <div class="usa-footer__contact">
+                      
+
+                                <ul  class="c-menu c-menu--social">
+        
+                                            
+                                                            
+      
+      
+      <li  class="c-menu__item">
+                              <a href="https://www.facebook.com/CISA" class="c-menu__link--facebook c-menu__link js-top-level" aria-current="false">Facebook</a>
+                        </li>
+    
+                                            
+                                                            
+      
+      
+      <li  class="c-menu__item">
+                              <a href="https://x.com/CISAgov" class="c-menu__link--twitter c-menu__link js-top-level" aria-current="false">X</a>
+                        </li>
+    
+                                            
+                                                            
+      
+      
+      <li  class="c-menu__item">
+                              <a href="https://www.linkedin.com/company/cybersecurity-and-infrastructure-security-agency" class="c-menu__link--linkedin c-menu__link js-top-level" aria-current="false">LinkedIn</a>
+                        </li>
+    
+                                            
+                                                            
+      
+      
+      <li  class="c-menu__item">
+                              <a href="https://www.youtube.com/@cisagov" class="c-menu__link--youtube c-menu__link js-top-level" aria-current="false">YouTube</a>
+                        </li>
+    
+                                            
+                                                            
+      
+      
+      <li  class="c-menu__item">
+                              <a href="https://www.instagram.com/cisagov" class="c-menu__link--instagram c-menu__link js-top-level" aria-current="false">Instagram</a>
+                        </li>
+    
+                                            
+                                                            
+      
+      
+      <li  class="c-menu__item">
+                              <a href="/subscribe-updates-cisa" class="c-menu__link--rss c-menu__link js-top-level" aria-current="false">RSS</a>
+                        </li>
+        </ul>
+  
+
+                    <div class="usa-footer__contact-info">
+            <span>CISA Central</span>
+            <a href="tel:1-844-Say-CISA">1-844-Say-CISA</a>
+            <a href="mailto:contact@cisa.dhs.gov">contact@cisa.dhs.gov</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="usa-footer__lower">
+    <div class="l-constrain">
+      <div class="usa-footer__lower-row">
+        <div class="usa-footer__lower-left">
+          
+<div  class="c-dhs-logo">
+  <div class="c-dhs-logo__seal">DHS Seal</div>
+  <div class="c-dhs-logo__content">
+    <div class="c-dhs-logo__url">CISA.gov</div>
+    <div class="c-dhs-logo__text">An official website of the U.S. Department of Homeland Security</div>
+  </div>
+</div>                      
+
+
+                                <ul  class="c-menu c-menu--footer">
+        
+                                            
+                              
+      
+      
+      <li  class="c-menu__item">
+                              <a href="/about" title="About CISA" class="c-menu__link js-top-level" aria-current="false" data-drupal-link-system-path="node/6944">About CISA</a>
+                        </li>
+    
+                                            
+                              
+      
+      
+      <li  class="c-menu__item">
+                              <a href="https://www.dhs.gov/performance-financial-reports" class="c-menu__link js-top-level" title="Budget and Performance" aria-current="false">Budget and Performance</a>
+                        </li>
+    
+                                            
+                              
+      
+      
+      <li  class="c-menu__item">
+                              <a href="https://www.dhs.gov" title="Department of Homeland Security" class="c-menu__link js-top-level" aria-current="false">DHS.gov</a>
+                        </li>
+    
+                                            
+                              
+      
+      
+      <li  class="c-menu__item">
+                              <a href="https://www.dhs.gov/foia" class="c-menu__link js-top-level" title="FOIA Requests" aria-current="false">FOIA Requests</a>
+                        </li>
+    
+                                            
+                              
+      
+      
+      <li  class="c-menu__item">
+                              <a href="/no-fear-act" title="No FEAR Act Reporting" class="c-menu__link js-top-level" aria-current="false">No FEAR Act</a>
+                        </li>
+    
+                                            
+                              
+      
+      
+      <li  class="c-menu__item">
+                              <a href="https://www.oig.dhs.gov/" class="c-menu__link js-top-level" title="Office of Inspector General" aria-current="false">Office of Inspector General</a>
+                        </li>
+    
+                                            
+                              
+      
+      
+      <li  class="c-menu__item">
+                              <a href="/privacy-policy" title="Privacy Policy" class="c-menu__link js-top-level" aria-current="false" data-drupal-link-system-path="node/16115">Privacy Policy</a>
+                        </li>
+    
+                                            
+                              
+      
+      
+      <li  class="c-menu__item">
+                              <a href="https://public.govdelivery.com/accounts/USDHSCISA/subscriber/new?topic_id=USDHSCISA_138" title="Subscribe to Email Updates" class="c-menu__link js-top-level" aria-current="false">Subscribe</a>
+                        </li>
+    
+                                            
+                              
+      
+      
+      <li  class="c-menu__item">
+                              <a href="https://www.whitehouse.gov/" class="c-menu__link js-top-level" title="The White House" aria-current="false">The White House</a>
+                        </li>
+    
+                                            
+                              
+      
+      
+      <li  class="c-menu__item">
+                              <a href="https://www.usa.gov/" class="c-menu__link js-top-level" title="USA.gov" aria-current="false">USA.gov</a>
+                        </li>
+    
+                                            
+                              
+      
+      
+      <li  class="c-menu__item">
+                              <a href="/forms/feedback" title="Website Feedback" class="c-menu__link js-top-level" aria-current="false" data-drupal-link-system-path="forms/feedback">Website Feedback</a>
+                        </li>
+        </ul>
+  
+
+                  </div>
+        <div class="usa-footer__lower-right">
+          <iframe
+            src="https://www.dhs.gov/ntas/"
+            name="National Terrorism Advisory System"
+            title="National Terrorism Advisory System"
+            width="170"
+            height="180"
+            scrolling="no"
+            frameborder="0"
+            seamless border="0"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+  <script async src="https://siteimproveanalytics.com/js/siteanalyze_6342107.js"></script> 
+
+  
+
+
+
+
+
+  <div  id="block-guswds-productfeedbackinterceptsurvey" class="visually-hidden c-block c-block--provider-block-content c-block--id-block-contentc577ef7a-dd93-4594-a89d-2db092b50b82">
+
+  
+  
+    
+
+      <div  class="c-block__content">
+  
+      
+
+
+
+
+<div  class="c-field c-field--name-body c-field--type-text-with-summary c-field--label-hidden">
+  <div class="c-field__content"><!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET--><script type='text/javascript'>
+
+(function(){var g=function(g){
+
+this.go=function(){var a=document.createElement("script");a.type="text/javascript";a.src=g;document.body&&document.body.appendChild(a)};
+
+this.start=function(){var t=this;"complete"!==document.readyState?window.addEventListener?window.addEventListener("load",function(){t.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){t.go()}):t.go()};};
+
+try{(new g("https://zn279ys5rg3kpfewc-cisasurvey.gov1.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_279yS5Rg3KpfeWC")).start()}catch(i){}})();
+
+</script><div id='ZN_279yS5Rg3KpfeWC'><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div><!--END WEBSITE FEEDBACK SNIPPET--></div></div>
+
+  
+      </div>
+  
+  
+  </div>
+
+
+
+</div>
+
+  </div>
+
+    
+        <script src="/core/assets/vendor/jquery/jquery.min.js?v=4.0.0"></script>
+<script src="/sites/default/files/js/js_h3vJMP6ZGeKvlXYMvAECbvfn5LxRjqzM-c0fmKKUO6U.js?scope=footer&amp;delta=1&amp;language=en&amp;theme=guswds&amp;include=eJx1jmEOwyAIhS_k6pEMCjVuFhrU1t5-bdou2ZL9IXzvwYPwIkxV1EEIopiE7acbRhWuxGio15z4ZVHbDHm40ESRmMlViDbu5ZcHeEL_FicTW1mxWMAlFdHtZq8EGLRN_laoz8AI_tjdD3rptxOzeMhGqczCJS1H-D5W3JhyJbUnwfo42bQyEkZZ3PUKMOStplDsX2cIyG-8HG_w"></script>
+<script src="/modules/contrib/ckeditor_accordion/js/accordion.frontend.min.js?tmwti5"></script>
+<script src="/sites/default/files/js/js_ELFhtYoemzN40k1suII7e9paFLo6HTCazxe5wDG3T3A.js?scope=footer&amp;delta=3&amp;language=en&amp;theme=guswds&amp;include=eJx1jmEOwyAIhS_k6pEMCjVuFhrU1t5-bdou2ZL9IXzvwYPwIkxV1EEIopiE7acbRhWuxGio15z4ZVHbDHm40ESRmMlViDbu5ZcHeEL_FicTW1mxWMAlFdHtZq8EGLRN_laoz8AI_tjdD3rptxOzeMhGqczCJS1H-D5W3JhyJbUnwfo42bQyEkZZ3PUKMOStplDsX2cIyG-8HG_w"></script>
+<script src="/profiles/cisad8_gov/themes/custom/gesso/dist/js/uswds.es6.js?tmwti5"></script>
+<script src="/sites/default/files/js/js_FWN-h9X9xNaTqzIf_UW3H0kQMMAvSmITxx6A5EJUduY.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=guswds&amp;include=eJx1jmEOwyAIhS_k6pEMCjVuFhrU1t5-bdou2ZL9IXzvwYPwIkxV1EEIopiE7acbRhWuxGio15z4ZVHbDHm40ESRmMlViDbu5ZcHeEL_FicTW1mxWMAlFdHtZq8EGLRN_laoz8AI_tjdD3rptxOzeMhGqczCJS1H-D5W3JhyJbUnwfo42bQyEkZZ3PUKMOStplDsX2cIyG-8HG_w"></script>
+
+  </body>
+</html>

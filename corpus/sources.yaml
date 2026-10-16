@@ -1223,3 +1223,991 @@ documents:
     a 4-page print of the web advisory; the full joint advisory PDF is on media.defense.gov (403 to automated
     clients): https://media.defense.gov/2023/Dec/07/2003353251/-1/-1/0/ADVISORY-RUSSIAN-FSB-CYBER-ACTOR-STAR-BLIZZARD-CONTINUES-WORLDWIDE-SPEAR-SPHISHING-CAMPAIGNS.PDF'
   sha256: 4c5687ad081a0a2a290e1362d5e97ef1da4c2db869a1160e8146248ef16f52ed
+- id: cisa-aa20-239a
+  title: 'FASTCash 2.0: North Korea''s BeagleBoyz Robbing Banks'
+  publisher: CISA / Treasury / FBI / USCYBERCOM (joint Cybersecurity Advisory)
+  published: '2020-08-26'
+  language: en
+  format: pdf
+  url: https://www.cisa.gov/sites/default/files/publications/AA20-239A_FASTCash2.0_508.pdf
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files: []
+  notes: 'Theme: state-financial:north-korea. CISA code AA20-239A; page https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-239a.
+    Last revised 2020-10-24. Long ATT&CK-structured narrative; lists ~38 targeted countries. IOCs are
+    in the companion MARs (ar20-239a/b/c, not included). (added for LoRA v3)'
+  sha256: 8c2d66191d4b37d7e2815790c1d4ef2e697f36300b6a9f8d797c04e6c11ebd38
+- id: cisa-aa20-301a
+  title: 'North Korean Advanced Persistent Threat Focus: Kimsuky'
+  publisher: CISA / FBI / USCYBERCOM CNMF (joint Cybersecurity Advisory)
+  published: '2020-10-27'
+  language: en
+  format: pdf
+  url: https://www.cisa.gov/sites/default/files/publications/TLP-WHITE_AA20-301A_North_Korean_APT_Focus_Kimsuky.pdf
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files:
+  - https://www.cisa.gov/sites/default/files/publications/AA20-301A.stix.xml
+  notes: 'Theme: state-espionage:north-korea. CISA code AA20-301A; page https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-301a.
+    IOC formats: STIX 1.x XML. (added for LoRA v3)'
+  sha256: 2c643da20972884b14c1ab492601119942b125167e81e1ee70a3352dcf0ff7f0
+- id: cisa-aa20-258a
+  title: Chinese Ministry of State Security-Affiliated Cyber Threat Actor Activity
+  publisher: CISA (Cybersecurity Advisory)
+  published: '2020-09-14'
+  language: en
+  format: pdf
+  url: https://www.cisa.gov/sites/default/files/publications/AA20-258A-Chinese_Ministry_of_State_Security-Affiliated_Cyber_Threat_Actor_Activity_S508C.pdf
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files: []
+  notes: 'Theme: state-espionage:china. CISA code AA20-258A; page https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-258a.
+    Last revised 2020-10-24. (added for LoRA v3)'
+  sha256: 53a278460e1128338caeccb6a3d60869069cfc69cb15e820cec95659a64c84e9
+- id: cisa-aa20-259a
+  title: Iran-Based Threat Actor Exploits VPN Vulnerabilities
+  publisher: CISA / FBI (Cybersecurity Advisory)
+  published: '2020-09-15'
+  language: en
+  format: pdf
+  url: https://www.cisa.gov/sites/default/files/publications/AA20-259A-Iran-Based_Threat_Actor_Exploits_VPN_Vulnerabilities_S508C.pdf
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files: []
+  notes: 'Theme: state-espionage:iran. CISA code AA20-259A; page https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a.
+    IOC table inline (no STIX file published). (added for LoRA v3)'
+  sha256: df7acc56e0c0ef1505da5b34061c54889cc4f9fff73fee6741436a690516bfc2
+- id: cisa-aa20-304a
+  title: Iranian Advanced Persistent Threat Actor Identified Obtaining Voter Registration Data
+  publisher: CISA / FBI (joint Cybersecurity Advisory)
+  published: '2020-10-30'
+  language: en
+  format: pdf
+  url: https://www.cisa.gov/sites/default/files/2020-10/AA20-304A-Iranian_Advanced_Persistent_Threat_Actor_Identified_Obtaining_Voter_Registration_Data.pdf
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files:
+  - https://www.cisa.gov/sites/default/files/2020-10/AA20-304A.stix.xml
+  notes: 'Theme: state-influence:iran. CISA code AA20-304A; page https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-304a.
+    Last revised 2020-11-03. IOC formats: STIX 1.x XML. (added for LoRA v3)'
+  sha256: 6fb40dd2b746c86216f772f2c050477c67f933bd2f602d12cf109406ad307204
+- id: cisa-aa20-302a
+  title: Ransomware Activity Targeting the Healthcare and Public Health Sector
+  publisher: CISA / FBI / HHS (joint Cybersecurity Advisory)
+  published: '2020-10-28'
+  language: en
+  format: pdf
+  url: https://www.cisa.gov/sites/default/files/publications/AA20-302A_Ransomware%20_Activity_Targeting_the_Healthcare_and_Public_Health_Sector.pdf
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files:
+  - https://www.cisa.gov/sites/default/files/publications/AA20-302A.stix.xml
+  notes: 'Theme: ransomware. CISA code AA20-302A; page https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-302a.
+    Last revised 2020-11-02. IOC formats: STIX 1.x XML. (added for LoRA v3)'
+  sha256: 4a7acff3ee3c6800313a1ce215b7992a2bdc4e83d05e21795674e0f54ba7c766
+- id: cisa-aa20-336a
+  title: Advanced Persistent Threat Actors Targeting U.S. Think Tanks
+  publisher: CISA / FBI (Cybersecurity Advisory)
+  published: '2020-12-01'
+  language: en
+  format: pdf
+  url: https://www.cisa.gov/sites/default/files/publications/AA20-336A-APT_Actors_Targeting_US_ThinkTanks.pdf
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files: []
+  notes: 'Theme: state-espionage:generic. CISA code AA20-336A; page https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-336a.
+    Most of the document is a large ATT&CK technique table (146 technique IDs); no named actor. (added
+    for LoRA v3)'
+  sha256: 686019c4a3f3dae415f1cbb74fc8958e807a4b84718e358fd4a6dfaaa7a13adb
+- id: cisa-aa21-200b
+  title: 'Chinese State-Sponsored Cyber Operations: Observed TTPs'
+  publisher: NSA / CISA / FBI (joint Cybersecurity Advisory)
+  published: '2021-07-19'
+  language: en
+  format: html
+  url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-200b
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files: []
+  notes: 'Theme: state-espionage:china. CISA code AA21-200B; page https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-200b.
+    Last revised 2021-08-20. HTML page; pages_estimate = words/450. English PDF only on media.defense.gov
+    (blocked for automated clients): https://media.defense.gov/2021/Jul/19/2002805003/-1/-1/1/CSA_CHINESE_STATE-SPONSORED_CYBER_TTPS.PDF
+    ; HTML page used. ATT&CK techniques paired with D3FEND countermeasures. (added for LoRA v3)'
+  sha256: 8a9c4819d0786762ec03f2f7eed7b9346b776769819d4b0e4f38bd09f72a9ab8
+- id: cisa-aa21-201a
+  title: Chinese Gas Pipeline Intrusion Campaign, 2011 to 2013
+  publisher: CISA / FBI (joint Cybersecurity Advisory)
+  published: '2021-07-20'
+  language: en
+  format: pdf
+  url: https://www.cisa.gov/sites/default/files/publications/AA21-201A_Chinese_Gas_Pipeline_Intrusion_Campaign_2011_to_2013%20(1).pdf
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files: []
+  notes: 'Theme: state-espionage:china. CISA code AA21-201A; page https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-201a.
+    Last revised 2021-07-21. IOC table (MD5, filenames, C2) inline; no STIX. (added for LoRA v3)'
+  sha256: 5850ea5885e5ab143140e03d0eb3cb7ed7a2bb869c7c56a6ce40eeee164bda2e
+- id: cisa-aa21-259a
+  title: APT Actors Exploiting Newly Identified Vulnerability in ManageEngine ADSelfService Plus
+  publisher: FBI / CISA / USCG CGCYBER (joint Cybersecurity Advisory)
+  published: '2021-09-16'
+  language: en
+  format: pdf
+  url: https://www.cisa.gov/sites/default/files/publications/AA21-259A-APT_Actors_Exploiting_Newly_Identified_Vulnerability_in_ManageEngine_ADSelfService_Plus.pdf
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files: []
+  notes: 'Theme: cve-exploitation. CISA code AA21-259A; page https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-259a.
+    Last revised 2021-11-22. The STIX XML linked from the advisory page (AA21-259A ... .stix.xml) returns
+    404, so it is not listed. (added for LoRA v3)'
+  sha256: 80546d48acc14b6036921a4ce4e3ce6bb972d12aceb010976312ce5663ed3f36
+- id: cisa-aa21-076a
+  title: TrickBot Malware
+  publisher: CISA / FBI (joint Cybersecurity Advisory)
+  published: '2021-03-17'
+  language: en
+  format: pdf
+  url: https://www.cisa.gov/sites/default/files/publications/AA21-076A-TrickBot_Malware_508_0.pdf
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files: []
+  notes: 'Theme: cybercrime. CISA code AA21-076A; page https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-076a.
+    Last revised 2021-05-20. (added for LoRA v3)'
+  sha256: 9e5f8aca0f0f125f55b5b5d055de3b9558dd8a3492049b96962fa26663321c25
+- id: cisa-aa22-277a
+  title: Impacket and Exfiltration Tool Used to Steal Sensitive Information from Defense Industrial Base
+    Organization
+  publisher: CISA / FBI / NSA (joint Cybersecurity Advisory)
+  published: '2022-10-04'
+  language: en
+  format: pdf
+  url: https://www.cisa.gov/sites/default/files/publications/aa22-277a-impacket-and-exfiltration-tool-used-to-steal-sensitive-information-from-defense-industrial-base-organization.pdf
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files:
+  - https://www.cisa.gov/sites/default/files/publications/MAR-10365227.r1.v1.WHITE_stix_7.xml
+  - https://www.cisa.gov/sites/default/files/publications/MAR-10365227.r2.v1.WHITE_stix.xml
+  - https://www.cisa.gov/sites/default/files/publications/MAR-10365227.r3.v1.WHITE_stix_0.xml
+  notes: 'Theme: state-espionage:generic. CISA code AA22-277A; page https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-277a.
+    Last revised 2022-10-05. IOC formats: STIX 1.x XML. IOC files are the STIX 1.x XML of companion MAR-10365227
+    r1-r3. (added for LoRA v3)'
+  sha256: cb300f95542e53761787988808043a4c6abf5ae431cf35ea55b96dca3d4e16c8
+- id: cisa-aa22-174a
+  title: Malicious Cyber Actors Continue to Exploit Log4Shell in VMware Horizon Systems
+  publisher: CISA / USCG CGCYBER (joint Cybersecurity Advisory)
+  published: '2022-06-23'
+  language: en
+  format: pdf
+  url: https://www.cisa.gov/sites/default/files/publications/AA22-174A_Joint_CSA_Malicious_Cyber_Actors_Exploiting_Log4Shell_in_Unpatched_VMware_Horizon_Systems_FINAL.pdf
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files:
+  - https://www.cisa.gov/sites/default/files/publications/AA22-174A.stix.xml
+  - https://www.cisa.gov/sites/default/files/publications/MAR-10382254.r1.v1.WHITE_stix.xml
+  - https://www.cisa.gov/sites/default/files/publications/MAR-10382580.r1.v1.WHITE_stix.xml
+  - https://www.cisa.gov/sites/default/files/MAR-10382580.r2.v1.WHITE_stix.xml
+  notes: 'Theme: cve-exploitation. CISA code AA22-174A; page https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-174a.
+    Last revised 2022-07-18. IOC formats: STIX 1.x XML. STIX XML for the advisory plus companion MARs
+    10382254 and 10382580 (r1, r2). (added for LoRA v3)'
+  sha256: 368d090969cd89d72e772bd878691623a9ca7914dbf91a549d9ef77f155373bf
+- id: cisa-aa22-294a
+  title: '#StopRansomware: Daixin Team'
+  publisher: FBI / CISA / HHS (joint Cybersecurity Advisory)
+  published: '2022-10-21'
+  language: en
+  format: pdf
+  url: https://www.cisa.gov/sites/default/files/2023-07/aa22-294a-stopransomware-daixin-team.pdf
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files:
+  - https://www.cisa.gov/sites/default/files/2023-07/aa22-294a.stix_.xml
+  notes: 'Theme: ransomware. CISA code AA22-294A; page https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-294a.
+    Last revised 2022-10-26. IOC formats: STIX 1.x XML. (added for LoRA v3)'
+  sha256: f1ae7f1f286d6fceb7e83c39a35f6de99455f49dcb3565d00f0c76c5890b8bec
+- id: cisa-aa23-289a
+  title: Threat Actors Exploit Atlassian Confluence CVE-2023-22515 for Initial Access to Networks
+  publisher: CISA / FBI / MS-ISAC (joint Cybersecurity Advisory)
+  published: '2023-10-16'
+  language: en
+  format: pdf
+  url: https://www.cisa.gov/sites/default/files/2023-10/aa23-289a-threat-actors-exploit-atlassian-confluence-cve-2023-22515-for-initial-access_0.pdf
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files:
+  - https://www.cisa.gov/sites/default/files/2023-10/AA23-289A%20Threat%20Actors%20Exploit%20CVE-2023-22515%20for%20Initial%20Access%20to%20Networks.stix_.json
+  - https://www.cisa.gov/sites/default/files/2023-10/AA23-289A.stix_.xml
+  notes: 'Theme: cve-exploitation. CISA code AA23-289A; page https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-289a.
+    IOC formats: STIX 1.x XML, STIX 2.1 JSON. Short advisory; no ATT&CK table. (added for LoRA v3)'
+  sha256: e6f6a0296138cb36f60e673f6174a70de593e316d46eb13504711fb33f35dcf5
+- id: cisa-aa23-339a
+  title: Threat Actors Exploit Adobe ColdFusion CVE-2023-26360 for Initial Access to Government Servers
+  publisher: CISA (Cybersecurity Advisory)
+  published: '2023-12-05'
+  language: en
+  format: pdf
+  url: https://www.cisa.gov/sites/default/files/2023-12/aa23-339a-threat-actors-exploit-adobe-coldfusion-cve-2023-26360.pdf
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files:
+  - https://www.cisa.gov/sites/default/files/2023-12/AA23-339A-Threat-Actors-Exploit-Adobe-ColdFusion-CVE-2023-26360-for-Initial-Access-to-Government-Servers.stix_.json
+  - https://www.cisa.gov/sites/default/files/2023-12/AA23-339A.stix_.xml
+  notes: 'Theme: cve-exploitation. CISA code AA23-339A; page https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-339a.
+    IOC formats: STIX 1.x XML, STIX 2.1 JSON. (added for LoRA v3)'
+  sha256: 1096ad6ce99d71a772d496afe7f4336181eef4676832df396d5781434ed11dee
+- id: cisa-aa24-016a
+  title: Known Indicators of Compromise Associated with Androxgh0st Malware
+  publisher: FBI / CISA (joint Cybersecurity Advisory)
+  published: '2024-01-16'
+  language: en
+  format: pdf
+  url: https://www.cisa.gov/sites/default/files/2024-01/aa24-016a-known-indicators-of-compromise-associated-with-adroxgh0st-malware_0.pdf
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files:
+  - https://www.cisa.gov/sites/default/files/2024-01/AA24-016A-known-indicators-of-compromise-associated-with-adroxgh0st-malware.stix__0.json
+  - https://www.cisa.gov/sites/default/files/2024-01/AA24-016A.stix_.xml
+  notes: 'Theme: botnet. CISA code AA24-016A; page https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-016a.
+    IOC formats: STIX 1.x XML, STIX 2.1 JSON. (added for LoRA v3)'
+  sha256: 878931028d9e8f6338dd5a26d27ee776b520cde8b3b733c3b92983fecf5cbcce
+- id: cisa-aa24-060a
+  title: '#StopRansomware: Phobos Ransomware'
+  publisher: FBI / CISA / MS-ISAC (joint Cybersecurity Advisory)
+  published: '2024-02-29'
+  language: en
+  format: pdf
+  url: https://www.cisa.gov/sites/default/files/2024-02/aa24-060a-stopransomware-phobos-ransomware_1.pdf
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files:
+  - https://www.cisa.gov/sites/default/files/2024-02/AA24-060A-StopRansomware-Phobos-Ransomware.stix_.json
+  - https://www.cisa.gov/sites/default/files/2024-02/AA24-060A.stix_.xml
+  notes: 'Theme: ransomware. CISA code AA24-060A; page https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-060a.
+    IOC formats: STIX 1.x XML, STIX 2.1 JSON. (added for LoRA v3)'
+  sha256: 3304bfed64519621cb1401f8a6d3ba6982ecb79ab8685ded5d790b412553f1a7
+- id: cisa-aa25-050a
+  title: '#StopRansomware: Ghost (Cring) Ransomware'
+  publisher: FBI / CISA / MS-ISAC (joint Cybersecurity Advisory)
+  published: '2025-02-19'
+  language: en
+  format: pdf
+  url: https://www.cisa.gov/sites/default/files/2026-08/aa25-050a-stopransomware-ghost-cring-ransomware.pdf
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files:
+  - https://www.cisa.gov/sites/default/files/2025-02/AA25-050A-%23StopRansomware-Ghost-%28Cring%29-Ransomware.stix_.json
+  - https://www.cisa.gov/sites/default/files/2025-02/AA25-050A-%23StopRansomware-Ghost-%28Cring%29-Ransomware.stix_.xml
+  - https://www.cisa.gov/sites/default/files/2025-02/AA25-050A.stix_.xml
+  notes: 'Theme: ransomware. CISA code AA25-050A; page https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a.
+    IOC formats: STIX 1.x XML, STIX 2.1 JSON. (added for LoRA v3)'
+  sha256: 0f85ca1b8973462ef4b4262ae88076da3d9cff125cbfb541934be08e20229ea6
+- id: cisa-aa25-022a
+  title: Threat Actors Chained Vulnerabilities in Ivanti Cloud Service Applications
+  publisher: CISA / FBI (joint Cybersecurity Advisory)
+  published: '2025-01-22'
+  language: en
+  format: pdf
+  url: https://www.cisa.gov/sites/default/files/2026-08/aa25-022a-threat-actors-chained-vulnerabilities-in-ivanti-cloud-service-applications_2.pdf
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files:
+  - https://www.cisa.gov/sites/default/files/2025-01/AA25-022A-Threat-Actors-Chain-Vulnerabilities-In-Ivanti-Cloud-Service-Applications.stix__1.json
+  - https://www.cisa.gov/sites/default/files/2025-01/AA25-022A.stix__1.xml
+  notes: 'Theme: cve-exploitation. CISA code AA25-022A; page https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-022a.
+    Last revised 2025-01-31. IOC formats: STIX 1.x XML, STIX 2.1 JSON. Long IOC/log appendix (37 pages).
+    (added for LoRA v3)'
+  sha256: 6665303716010e2f417f8df892922f43d054b32af9069f919760282b13e9c98a
+- id: cisa-aa26-097a
+  title: Iranian-Affiliated Cyber Actors Exploit Programmable Logic Controllers Across US Critical Infrastructure
+  publisher: FBI / CISA / NSA / EPA / DOE / CNMF / Treasury (joint Cybersecurity Advisory)
+  published: '2026-04-07'
+  language: en
+  format: pdf
+  url: https://www.cisa.gov/sites/default/files/2026-07/aa26-097a-iranian-affiliated-cyber-actors-exploit-programmable-logic-controllers-across-us-critical-infrastructure_508c.pdf
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files:
+  - https://www.cisa.gov/sites/default/files/2026-04/AA26-097A.stix_.json
+  - https://www.cisa.gov/sites/default/files/2026-04/AA26-097A.stix_.xml
+  - https://www.cisa.gov/sites/default/files/2026-07/AA26-097A.stix_.json
+  - https://www.cisa.gov/sites/default/files/2026-07/AA26-097A.stix_.xml
+  notes: 'Theme: ot-ics:iran. CISA code AA26-097A; page https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a.
+    Last revised 2026-07-22. IOC formats: STIX 1.x XML, STIX 2.1 JSON. Two STIX JSON/XML pairs: original
+    (2026-04) and update (2026-07). Original publication 2026-04-07, revised 2026-07-22. (added for LoRA
+    v3)'
+  sha256: edffdfc352331c3b793b0815108982b7da89f1bceccab694341e14c7afc8636f
+- id: cisa-aa20-227a
+  title: Phishing Emails Used to Deploy KONNI Malware
+  publisher: CISA (Cybersecurity Advisory)
+  published: '2020-08-14'
+  language: en
+  format: html
+  url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-227a
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files: []
+  notes: 'Theme: state-espionage:north-korea. CISA code AA20-227A; page https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-227a.
+    Last revised 2020-10-24. No PDF and no STIX published; HTML page with ATT&CK-structured technical
+    details; pages_estimate = words/450. (added for LoRA v3)'
+  sha256: 37b7d499206daa6f39ab67295f207b8ad9de0d434f1270e5490841f0e89acb3b
+- id: cisa-mar-10318845
+  title: MAR-10318845-1.v1 - SUNBURST
+  publisher: CISA (Malware Analysis Report)
+  published: '2021-02-08'
+  language: en
+  format: html
+  url: https://www.cisa.gov/news-events/analysis-reports/ar21-039a
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files:
+  - https://www.cisa.gov/sites/default/files/publications/MAR-10318845-1.v1.WHITE_stix.xml
+  notes: 'Theme: state-espionage:russia. CISA code AR21-039A; page https://www.cisa.gov/news-events/analysis-reports/ar21-039a.
+    Last revised 2021-04-15. IOC formats: STIX 1.x XML. MAR AR21-039A, HTML page; pages_estimate = words/450.
+    (added for LoRA v3)'
+  sha256: ed70739213b3798641a004bdfdbe81b5730c7fea77a647c6ed4e2e604a93f21e
+- id: cisa-mar-10292089
+  title: 'MAR-10292089-1.v2 – Chinese Remote Access Trojan: TAIDOOR'
+  publisher: CISA / FBI / DoD (Malware Analysis Report)
+  published: '2020-08-03'
+  language: en
+  format: html
+  url: https://www.cisa.gov/news-events/analysis-reports/ar20-216a
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files:
+  - https://www.cisa.gov/sites/default/files/publications/MAR-10292089-1.v2.stix.xml
+  notes: 'Theme: state-espionage:china. CISA code AR20-216A; page https://www.cisa.gov/news-events/analysis-reports/ar20-216a.
+    Last revised 2020-08-31. IOC formats: STIX 1.x XML. MAR AR20-216A, HTML page; pages_estimate = words/450.
+    (added for LoRA v3)'
+  sha256: bc6a16245f2ca3f99139f71727f8eebdd40272163d881f501ca501e23fd3fbe9
+- id: cisa-mar-10295134
+  title: 'MAR-10295134-1.v1 – North Korean Remote Access Trojan: BLINDINGCAN'
+  publisher: CISA / FBI (Malware Analysis Report)
+  published: '2020-08-19'
+  language: en
+  format: html
+  url: https://www.cisa.gov/news-events/analysis-reports/ar20-232a
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files:
+  - https://www.cisa.gov/sites/default/files/publications/MAR-10295134-1.v1.WHITE_stix.xml
+  notes: 'Theme: state-espionage:north-korea. CISA code AR20-232A; page https://www.cisa.gov/news-events/analysis-reports/ar20-232a.
+    IOC formats: STIX 1.x XML. MAR AR20-232A, HTML page; pages_estimate = words/450. (added for LoRA v3)'
+  sha256: 84b6a767846591c48c48b5b9280010722581ef0e8082dc9f4007a13a09268f88
+- id: cisa-mar-10375867
+  title: MAR-10375867-1.v1 – HermeticWiper
+  publisher: CISA (Malware Analysis Report)
+  published: '2022-04-25'
+  language: en
+  format: html
+  url: https://www.cisa.gov/news-events/analysis-reports/ar22-115a
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files:
+  - https://www.cisa.gov/sites/default/files/publications/MAR-10375867.r1.v1.WHITE_stix.xml
+  notes: 'Theme: destructive-malware. CISA code AR22-115A; page https://www.cisa.gov/news-events/analysis-reports/ar22-115a.
+    Last revised 2022-04-28. IOC formats: STIX 1.x XML. MAR AR22-115A, HTML page; pages_estimate = words/450.
+    (added for LoRA v3)'
+  sha256: cdbfa1fa8879451597338263449d312b4af246b51aef0eef18cd27229a034e3b
+- id: cisa-mar-10454006
+  title: MAR-10454006-r1.v2 SUBMARINE Backdoor
+  publisher: CISA (Malware Analysis Report)
+  published: '2023-07-28'
+  language: en
+  format: pdf
+  url: https://www.cisa.gov/sites/default/files/2023-07/MAR-10454006.r1.v2.CLEAR_.pdf
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files:
+  - https://www.cisa.gov/sites/default/files/2023-07/MAR-10454006.r1.v2.CLEAR_stix2.json
+  notes: 'Theme: edge-device. CISA code AR23-209A; page https://www.cisa.gov/news-events/analysis-reports/ar23-209a.
+    IOC formats: STIX 2.1 JSON. MAR AR23-209A (r1.v2). Related parts r2-r5 (SEASPY, WHIRLPOOL, SALTWATER)
+    not included. (added for LoRA v3)'
+  sha256: 82a05df74377dd1889af112cd4fd3db35be38de5b9f6b9fc47f637c69255043e
+- id: cisa-mar-251165
+  title: BRICKSTORM Backdoor
+  publisher: CISA / NSA / Canadian Centre for Cyber Security (Malware Analysis Report)
+  published: '2025-12-04'
+  language: en
+  format: pdf
+  url: https://www.cisa.gov/sites/default/files/2026-07/AR25-338A_malware-analysis-report-brickstorm-backdoor.pdf
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed. CAVEAT: co-authored with foreign partner agencies (Canadian Centre for Cyber Security);
+    portions authored by a non-US government may carry Crown copyright (Canada) — TLP:CLEAR permits redistribution
+    but is not a copyright licence.'
+  redistributable: false
+  split: train
+  ioc_files:
+  - https://www.cisa.gov/sites/default/files/2025-12/MAR-251165.c1.v1.CLEAR_stix2.json
+  - https://www.cisa.gov/sites/default/files/2025-12/MAR-251217.r1.v1.CLEAR_stix2.json
+  - https://www.cisa.gov/sites/default/files/2026-02/MAR-261234.r1.v1.CLEAR_stix2.json
+  notes: 'Theme: state-espionage:china. CISA code AR25-338A; page https://www.cisa.gov/news-events/analysis-reports/ar25-338a.
+    Last revised 2026-02-11. IOC formats: STIX 2.1 JSON. AR25-338A, updated 2026-02-11; three STIX 2.1
+    JSON files (MAR-251165, MAR-251217, MAR-261234). (added for LoRA v3)'
+  sha256: 57ce6cb5ef61ccc556ea9b4244645f69924cce7417368164ede976c3d76bd27e
+- id: cisa-mar-25993211
+  title: MAR-25993211-r1.v2 Ivanti Connect Secure (RESURGE)
+  publisher: CISA (Malware Analysis Report)
+  published: '2025-03-28'
+  language: en
+  format: pdf
+  url: https://www.cisa.gov/sites/default/files/2026-02/MAR-25993211.r1.v2.CLEAR_.pdf
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files:
+  - https://www.cisa.gov/sites/default/files/2026-02/MAR-25993211.r1.v2.CLEAR_stix2.json
+  notes: 'Theme: edge-device. CISA code AR25-087A; page https://www.cisa.gov/news-events/analysis-reports/ar25-087a.
+    Last revised 2026-02-26. IOC formats: STIX 2.1 JSON. AR25-087A originally 2025-03-28, updated 2026-02-26
+    (r1.v2). (added for LoRA v3)'
+  sha256: eddc373c97dd4d78c538dab86678422ecb358ed3fa630e9866479aa859a87be8
+- id: cisa-mar-10296782
+  title: MAR-10296782-2.v1 – WELLMESS
+  publisher: CISA (Malware Analysis Report)
+  published: '2020-07-16'
+  language: en
+  format: html
+  url: https://www.cisa.gov/news-events/analysis-reports/ar20-198b
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files:
+  - https://www.cisa.gov/sites/default/files/publications/MAR-10296782-2.v1.stix.xml
+  notes: 'Theme: state-espionage:russia. CISA code AR20-198B; page https://www.cisa.gov/news-events/analysis-reports/ar20-198b.
+    IOC formats: STIX 1.x XML. MAR AR20-198B, HTML page; pages_estimate = words/450. Related to corpus
+    doc ncsc-apt29-covid-2020 (same malware family). (added for LoRA v3)'
+  sha256: 064ad29161085ef73d95d1c4a4cfe58f60edc1a8ad7ee1e0ad2892d311f49525
+- id: cisa-mar-10324784
+  title: 'MAR-10324784-1.v1: FiveHands Ransomware'
+  publisher: CISA (Malware Analysis Report)
+  published: '2021-05-06'
+  language: en
+  format: html
+  url: https://www.cisa.gov/news-events/analysis-reports/ar21-126b
+  license: 'US federal government work, public domain in the US (17 U.S.C. §105: https://www.law.cornell.edu/uscode/text/17/105);
+    document marked TLP:CLEAR/TLP:WHITE (no disclosure limits, https://www.cisa.gov/tlp). Agency seals/logos
+    are not licensed.'
+  redistributable: true
+  split: train
+  ioc_files:
+  - https://www.cisa.gov/sites/default/files/publications/MAR-10324784-1.v1.stix.xml
+  notes: 'Theme: ransomware. CISA code AR21-126B; page https://www.cisa.gov/news-events/analysis-reports/ar21-126b.
+    IOC formats: STIX 1.x XML. MAR AR21-126B, HTML page (long PowerShell listings); pages_estimate = words/450.
+    (added for LoRA v3)'
+  sha256: 2b59d78952c9e3070f576cf931c175fe284f403c4d6e668a63b8b3b02061f889
+- id: certfr-2021-cti-001
+  title: État de la menace rançongiciels à l'encontre des entreprises et institutions
+  publisher: CERT-FR / ANSSI
+  published: '2021-02-05'
+  language: fr
+  format: pdf
+  url: https://www.cert.ssi.gouv.fr/uploads/CERTFR-2021-CTI-001.pdf
+  license: Licence Ouverte / Etalab 2.0 — "Sauf mention explicite contraire, les contenus présents sur
+    le site internet du CERT-FR sont couverts par la Licence ouverte / open licence, version 2.0" (https://www.cert.ssi.gouv.fr/mentions-legales/).
+    ANSSI logo excluded (requires authorisation); third-party content excluded.
+  redistributable: false
+  split: train
+  ioc_files: []
+  notes: 'Theme: ransomware. Page https://www.cert.ssi.gouv.fr/cti/CERTFR-2021-CTI-001/. No machine-readable
+    IOC file published with this report. French ransomware threat landscape (Big Game Hunting, RaaS).
+    (added for LoRA v3)'
+  sha256: 096c371deff1597318ec68246d5ee3ab087c621e93bfda34bd6afe5bc55bc8c5
+- id: certfr-2021-cti-003
+  title: The Malware-as-a-Service Emotet
+  publisher: CERT-FR / ANSSI
+  published: '2021-02-12'
+  language: en
+  format: pdf
+  url: https://www.cert.ssi.gouv.fr/uploads/CERTFR-2021-CTI-003.pdf
+  license: Licence Ouverte / Etalab 2.0 — "Sauf mention explicite contraire, les contenus présents sur
+    le site internet du CERT-FR sont couverts par la Licence ouverte / open licence, version 2.0" (https://www.cert.ssi.gouv.fr/mentions-legales/).
+    ANSSI logo excluded (requires authorisation); third-party content excluded.
+  redistributable: false
+  split: train
+  ioc_files: []
+  notes: 'Theme: botnet. Page https://www.cert.ssi.gouv.fr/cti/CERTFR-2021-CTI-003/. No machine-readable
+    IOC file published with this report. English. (added for LoRA v3)'
+  sha256: e0056918caeaadeaaeb38553a866823b1eae7955cde384b7b65ed93fea489c3e
+- id: certfr-2021-cti-007
+  title: The Egregor Ransomware
+  publisher: CERT-FR / ANSSI
+  published: '2021-03-02'
+  language: en
+  format: pdf
+  url: https://www.cert.ssi.gouv.fr/uploads/CERTFR-2021-CTI-007.pdf
+  license: Licence Ouverte / Etalab 2.0 — "Sauf mention explicite contraire, les contenus présents sur
+    le site internet du CERT-FR sont couverts par la Licence ouverte / open licence, version 2.0" (https://www.cert.ssi.gouv.fr/mentions-legales/).
+    ANSSI logo excluded (requires authorisation); third-party content excluded.
+  redistributable: false
+  split: train
+  ioc_files: []
+  notes: 'Theme: ransomware. Page https://www.cert.ssi.gouv.fr/cti/CERTFR-2021-CTI-007/. No machine-readable
+    IOC file published with this report. English; has ATT&CK technique table. (added for LoRA v3)'
+  sha256: 50132407aef7ef0e66d6fd3de944f451b6f997e7996c34a0b0938f0ecf59fee9
+- id: certfr-2022-cti-004
+  title: Cyber threat Overview 2021
+  publisher: CERT-FR / ANSSI
+  published: '2022-05-23'
+  language: en
+  format: pdf
+  url: https://www.cert.ssi.gouv.fr/uploads/CERTFR-2022-CTI-004.pdf
+  license: Licence Ouverte / Etalab 2.0 — "Sauf mention explicite contraire, les contenus présents sur
+    le site internet du CERT-FR sont couverts par la Licence ouverte / open licence, version 2.0" (https://www.cert.ssi.gouv.fr/mentions-legales/).
+    ANSSI logo excluded (requires authorisation); third-party content excluded.
+  redistributable: false
+  split: train
+  ioc_files: []
+  notes: 'Theme: threat-landscape. Page https://www.cert.ssi.gouv.fr/cti/CERTFR-2022-CTI-004/. No machine-readable
+    IOC file published with this report. English translation of ANSSI "Panorama de la menace 2021" (FR
+    version CERTFR-2022-CTI-002 not in corpus). (added for LoRA v3)'
+  sha256: ddbca63f6d2c6282ef0133749612e0a923ece6178d06f03086e3b2e5623aa5d4
+- id: certfr-2023-cti-004
+  title: État de la menace informatique contre les cabinets d'avocats
+  publisher: CERT-FR / ANSSI
+  published: '2023-06-27'
+  language: fr
+  format: pdf
+  url: https://www.cert.ssi.gouv.fr/uploads/CERTFR-2023-CTI-004.pdf
+  license: Licence Ouverte / Etalab 2.0 — "Sauf mention explicite contraire, les contenus présents sur
+    le site internet du CERT-FR sont couverts par la Licence ouverte / open licence, version 2.0" (https://www.cert.ssi.gouv.fr/mentions-legales/).
+    ANSSI logo excluded (requires authorisation); third-party content excluded.
+  redistributable: false
+  split: train
+  ioc_files: []
+  notes: 'Theme: sector-threat. Page https://www.cert.ssi.gouv.fr/cti/CERTFR-2023-CTI-004/. No machine-readable
+    IOC file published with this report. French; sector threat assessment. (added for LoRA v3)'
+  sha256: d3fe27edf5588e0616e36280737d856a9030237e43c5655e3c144aedf774fc76
+- id: certfr-2023-cti-010
+  title: État de la menace ciblant le secteur des télécommunications
+  publisher: CERT-FR / ANSSI
+  published: '2023-12-18'
+  language: fr
+  format: pdf
+  url: https://www.cert.ssi.gouv.fr/uploads/CERTFR-2023-CTI-010.pdf
+  license: Licence Ouverte / Etalab 2.0 — "Sauf mention explicite contraire, les contenus présents sur
+    le site internet du CERT-FR sont couverts par la Licence ouverte / open licence, version 2.0" (https://www.cert.ssi.gouv.fr/mentions-legales/).
+    ANSSI logo excluded (requires authorisation); third-party content excluded.
+  redistributable: false
+  split: train
+  ioc_files: []
+  notes: 'Theme: sector-threat. Page https://www.cert.ssi.gouv.fr/cti/CERTFR-2023-CTI-010/. No machine-readable
+    IOC file published with this report. French; sector threat assessment, intrusion sets named in text.
+    (added for LoRA v3)'
+  sha256: 61d948aeffdef3165590f9b29fdf19f57ce2100b93ecf9646d581bf2b5b223d9
+- id: certfr-2024-cti-002
+  title: Cyber Threat Overview 2023
+  publisher: CERT-FR / ANSSI
+  published: '2024-02-27'
+  language: en
+  format: pdf
+  url: https://www.cert.ssi.gouv.fr/uploads/CERTFR-2024-CTI-002.pdf
+  license: Licence Ouverte / Etalab 2.0 — "Sauf mention explicite contraire, les contenus présents sur
+    le site internet du CERT-FR sont couverts par la Licence ouverte / open licence, version 2.0" (https://www.cert.ssi.gouv.fr/mentions-legales/).
+    ANSSI logo excluded (requires authorisation); third-party content excluded.
+  redistributable: false
+  split: train
+  ioc_files: []
+  notes: 'Theme: threat-landscape. Page https://www.cert.ssi.gouv.fr/cti/CERTFR-2024-CTI-002/. No machine-readable
+    IOC file published with this report. English Cyber Threat Overview 2023; vulnerability table lists
+    23 CVEs. (added for LoRA v3)'
+  sha256: dd86b93140c0133aa885ad3d0e7a0a00333c7f2be3df4e9e0351e0b88c9648ab
+- id: certfr-2024-cti-008
+  title: Organismes de recherche et think tanks - État de la menace informatique
+  publisher: CERT-FR / ANSSI
+  published: '2024-09-02'
+  language: fr
+  format: pdf
+  url: https://www.cert.ssi.gouv.fr/uploads/CERTFR-2024-CTI-008.pdf
+  license: Licence Ouverte / Etalab 2.0 — "Sauf mention explicite contraire, les contenus présents sur
+    le site internet du CERT-FR sont couverts par la Licence ouverte / open licence, version 2.0" (https://www.cert.ssi.gouv.fr/mentions-legales/).
+    ANSSI logo excluded (requires authorisation); third-party content excluded.
+  redistributable: false
+  split: train
+  ioc_files: []
+  notes: 'Theme: sector-threat. Page https://www.cert.ssi.gouv.fr/cti/CERTFR-2024-CTI-008/. No machine-readable
+    IOC file published with this report. French. (added for LoRA v3)'
+  sha256: fbb91db23e80c09b12fb80b2fa5a12b6d6b45189d8ba4c5f6a6d9bad2fca2f6a
+- id: certfr-2024-cti-010
+  title: Secteur de la santé - État de la menace informatique
+  publisher: CERT-FR / ANSSI
+  published: '2024-11-07'
+  language: fr
+  format: pdf
+  url: https://www.cert.ssi.gouv.fr/uploads/CERTFR-2024-CTI-010.pdf
+  license: Licence Ouverte / Etalab 2.0 — "Sauf mention explicite contraire, les contenus présents sur
+    le site internet du CERT-FR sont couverts par la Licence ouverte / open licence, version 2.0" (https://www.cert.ssi.gouv.fr/mentions-legales/).
+    ANSSI logo excluded (requires authorisation); third-party content excluded.
+  redistributable: false
+  split: train
+  ioc_files: []
+  notes: 'Theme: sector-threat. Page https://www.cert.ssi.gouv.fr/cti/CERTFR-2024-CTI-010/. No machine-readable
+    IOC file published with this report. French; healthcare sector threat assessment. (added for LoRA
+    v3)'
+  sha256: b0296081820471f38719722ed521321ba0ea4a7f7d03ba622926ccf2e46fff27
+- id: certfr-2025-cti-007
+  title: Targeting and compromise of french entities using the APT28 intrusion set
+  publisher: CERT-FR / ANSSI
+  published: '2025-04-29'
+  language: en
+  format: pdf
+  url: https://www.cert.ssi.gouv.fr/uploads/CERTFR-2025-CTI-007.pdf
+  license: Licence Ouverte / Etalab 2.0 — "Sauf mention explicite contraire, les contenus présents sur
+    le site internet du CERT-FR sont couverts par la Licence ouverte / open licence, version 2.0" (https://www.cert.ssi.gouv.fr/mentions-legales/).
+    ANSSI logo excluded (requires authorisation); third-party content excluded.
+  redistributable: false
+  split: train
+  ioc_files: []
+  notes: 'Theme: state-espionage:russia. Page https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-007/. No
+    machine-readable IOC file published with this report. English translation of CERTFR-2025-CTI-006.
+    Corpus already has the earlier APT28 report certfr-2023-cti-009 (different document). (added for LoRA
+    v3)'
+  sha256: b4dea9ce6f46bec7e431ce9b1df23eec3f0baf8b697610247c25db9d0ea0d703
+- id: certfr-2025-cti-013
+  title: 'Mobile phones : Threat landscape since 2015'
+  publisher: CERT-FR / ANSSI
+  published: '2025-11-26'
+  language: en
+  format: pdf
+  url: https://www.cert.ssi.gouv.fr/uploads/CERTFR-2025-CTI-013.pdf
+  license: Licence Ouverte / Etalab 2.0 — "Sauf mention explicite contraire, les contenus présents sur
+    le site internet du CERT-FR sont couverts par la Licence ouverte / open licence, version 2.0" (https://www.cert.ssi.gouv.fr/mentions-legales/).
+    ANSSI logo excluded (requires authorisation); third-party content excluded.
+  redistributable: false
+  split: train
+  ioc_files: []
+  notes: 'Theme: mobile-threat. Page https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-013/. No machine-readable
+    IOC file published with this report. English (translation of CERTFR-2025-CTI-012). (added for LoRA
+    v3)'
+  sha256: 840ad43ddce2a6ea431085df34b8d63d9092985da2dc20002e26694cdad863d3
+- id: certfr-2025-cti-001
+  title: Secteur du cloud - État de la menace informatique
+  publisher: CERT-FR / ANSSI
+  published: '2025-02-20'
+  language: fr
+  format: pdf
+  url: https://www.cert.ssi.gouv.fr/uploads/CERTFR-2025-CTI-001.pdf
+  license: Licence Ouverte / Etalab 2.0 — "Sauf mention explicite contraire, les contenus présents sur
+    le site internet du CERT-FR sont couverts par la Licence ouverte / open licence, version 2.0" (https://www.cert.ssi.gouv.fr/mentions-legales/).
+    ANSSI logo excluded (requires authorisation); third-party content excluded.
+  redistributable: false
+  split: train
+  ioc_files: []
+  notes: 'Theme: sector-threat. Page https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-001/. No machine-readable
+    IOC file published with this report. French; cloud sector threat assessment. Replaces CERTFR-2026-CTI-005
+    (Turla, EN), dropped because its PDF has no text layer (5 extractable words in 7 pages; the FR version
+    CERTFR-2026-CTI-004 has the same problem). (added for LoRA v3)'
+  sha256: 03eb0550d6f6e779df511e6a3b5fb151c78e38b08fe7bc1523984571111e12d6
+- id: ncsc-mar-smooth-operator
+  title: 'Malware Analysis Report: Smooth Operator – macOS supply chain malware that exfiltrates victim
+    data using a custom data encoding algorithm over HTTPS'
+  publisher: UK NCSC
+  published: '2023-06-29'
+  language: en
+  format: pdf
+  url: https://www.ncsc.gov.uk/sites/default/files/documents/NCSC_MAR-Smooth-Operator.pdf
+  license: Open Government Licence v3.0 — "Content published in this section including reports, detection
+    rules and STIX are licensed under the terms of the Open Government Licence v3.0 except where otherwise
+    stated" (https://www.ncsc.gov.uk/section/keep-up-to-date/malware-analysis-reports). Attribution required.
+  redistributable: false
+  split: train
+  ioc_files:
+  - https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Smooth-Operator-indicators.csv
+  - https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Smooth-Operator-stix.json
+  - https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Smooth-Operator-yara.yar
+  notes: 'Theme: supply-chain. Listed on https://www.ncsc.gov.uk/section/keep-up-to-date/malware-analysis-reports.
+    IOC files: STIX 2.1 JSON + CSV indicators + YARA (where listed). Malware named; actor not named in
+    the report. (added for LoRA v3)'
+  sha256: 23fefcccd49d80b2bbe1aecc612c9a423508b06d9fa2073127349e9c0aee95fa
+- id: ncsc-mar-busy-buzzard
+  title: 'Malware Analysis Report: Busy Buzzard – A plugin-based Windows remote access tool'
+  publisher: UK NCSC
+  published: '2022-03-25'
+  language: en
+  format: pdf
+  url: https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Busy-Buzzard.pdf
+  license: Open Government Licence v3.0 — "Content published in this section including reports, detection
+    rules and STIX are licensed under the terms of the Open Government Licence v3.0 except where otherwise
+    stated" (https://www.ncsc.gov.uk/section/keep-up-to-date/malware-analysis-reports). Attribution required.
+  redistributable: false
+  split: train
+  ioc_files:
+  - https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Busy-Buzzard-indicators.csv
+  - https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Busy-Buzzard-stix.json
+  - https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Busy-Buzzard-yara.yar
+  notes: 'Theme: malware-analysis. Listed on https://www.ncsc.gov.uk/section/keep-up-to-date/malware-analysis-reports.
+    IOC files: STIX 2.1 JSON + CSV indicators + YARA (where listed). (added for LoRA v3)'
+  sha256: 0dfdb8a5fb0cc76d03ddf3dc3fa0946d3a9e27d37a7eab01fcc935d97bfe87b4
+- id: ncsc-mar-cheeky-chipmunk
+  title: 'Malware Analysis Report: Cheeky Chipmunk – Windows malware implemented as an RPC server'
+  publisher: UK NCSC
+  published: '2022-01-24'
+  language: en
+  format: pdf
+  url: https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Cheeky-Chipmunk.pdf
+  license: Open Government Licence v3.0 — "Content published in this section including reports, detection
+    rules and STIX are licensed under the terms of the Open Government Licence v3.0 except where otherwise
+    stated" (https://www.ncsc.gov.uk/section/keep-up-to-date/malware-analysis-reports). Attribution required.
+  redistributable: false
+  split: train
+  ioc_files:
+  - https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Cheeky-Chipmunk-indicators.csv
+  - https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Cheeky-Chipmunk-stix.json
+  - https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Cheeky-Chipmunk-yara.yar
+  notes: 'Theme: state-espionage:russia. Listed on https://www.ncsc.gov.uk/section/keep-up-to-date/malware-analysis-reports.
+    IOC files: STIX 2.1 JSON + CSV indicators + YARA (where listed). (added for LoRA v3)'
+  sha256: 153e34462c5d3f72c1a1ad8bfbb3811ad7e66fb6037dbc8382d80f331cee6d4d
+- id: ncsc-mar-cold-steel
+  title: 'Malware Analysis Report: COLDSTEEL – A fully featured Windows remote access tool'
+  publisher: UK NCSC
+  published: '2023-01-31'
+  language: en
+  format: pdf
+  url: https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Cold-Steel.pdf
+  license: Open Government Licence v3.0 — "Content published in this section including reports, detection
+    rules and STIX are licensed under the terms of the Open Government Licence v3.0 except where otherwise
+    stated" (https://www.ncsc.gov.uk/section/keep-up-to-date/malware-analysis-reports). Attribution required.
+  redistributable: false
+  split: train
+  ioc_files:
+  - https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Cold-Steel-indicators.csv
+  - https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Cold-Steel-stix.json
+  - https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Cold-Steel-yara.yar
+  notes: 'Theme: malware-analysis. Listed on https://www.ncsc.gov.uk/section/keep-up-to-date/malware-analysis-reports.
+    IOC files: STIX 2.1 JSON + CSV indicators + YARA (where listed). (added for LoRA v3)'
+  sha256: 3458242b1e31cb3f9328e39478afefd95fe51d5fbfb212560f71e17b2e851f8a
+- id: ncsc-mar-damascened-peacock
+  title: 'Malware Analysis Report: DAMASCENED PEACOCK – A lightweight, staged downloader targeting Windows,
+    delivered via spear-phishing'
+  publisher: UK NCSC
+  published: '2025-04-11'
+  language: en
+  format: pdf
+  url: https://www.ncsc.gov.uk/sites/default/files/documents/ncsc-mar-damascened-peacock.pdf
+  license: Open Government Licence v3.0 — "Content published in this section including reports, detection
+    rules and STIX are licensed under the terms of the Open Government Licence v3.0 except where otherwise
+    stated" (https://www.ncsc.gov.uk/section/keep-up-to-date/malware-analysis-reports). Attribution required.
+  redistributable: false
+  split: train
+  ioc_files:
+  - https://www.ncsc.gov.uk/sites/default/files/documents/ncsc-mar-damascened-peacock-indicators.csv
+  - https://www.ncsc.gov.uk/sites/default/files/documents/ncsc-mar-damascened-peacock-stix.json
+  - https://www.ncsc.gov.uk/sites/default/files/documents/ncsc-mar-damascened-peacock-yara.yar
+  notes: 'Theme: malware-analysis. Listed on https://www.ncsc.gov.uk/section/keep-up-to-date/malware-analysis-reports.
+    IOC files: STIX 2.1 JSON + CSV indicators + YARA (where listed). (added for LoRA v3)'
+  sha256: 556399563caa34433649daad2481a154bd85cd6647a6dfb23d969b70d174b397
+- id: ncsc-mar-goofy-guineapig
+  title: 'Malware Analysis Report: Goofy Guineapig – Persistent Windows backdoor with HTTPS C2 communications'
+  publisher: UK NCSC
+  published: '2022-12-13'
+  language: en
+  format: pdf
+  url: https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Goofy-Guineapig.pdf
+  license: Open Government Licence v3.0 — "Content published in this section including reports, detection
+    rules and STIX are licensed under the terms of the Open Government Licence v3.0 except where otherwise
+    stated" (https://www.ncsc.gov.uk/section/keep-up-to-date/malware-analysis-reports). Attribution required.
+  redistributable: false
+  split: train
+  ioc_files:
+  - https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Goofy-Guineapig-indicators.csv
+  - https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Goofy-Guineapig-stix.json
+  - https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Goofy-Guineapig-yara.yar
+  notes: 'Theme: malware-analysis. Listed on https://www.ncsc.gov.uk/section/keep-up-to-date/malware-analysis-reports.
+    IOC files: STIX 2.1 JSON + CSV indicators + YARA (where listed). (added for LoRA v3)'
+  sha256: c9586b8e1e3c1a4b0927aeaae88feb2a72bc71cfb7c72a1df9881a7a0bc6b566
+- id: ncsc-mar-hexed-noodle
+  title: 'Malware Analysis Report: Hexed Noodle – Android variant of AppleSeed backdoor'
+  publisher: UK NCSC
+  published: '2021-07-26'
+  language: en
+  format: pdf
+  url: https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Hexed-Noodle.pdf
+  license: Open Government Licence v3.0 — "Content published in this section including reports, detection
+    rules and STIX are licensed under the terms of the Open Government Licence v3.0 except where otherwise
+    stated" (https://www.ncsc.gov.uk/section/keep-up-to-date/malware-analysis-reports). Attribution required.
+  redistributable: false
+  split: train
+  ioc_files:
+  - https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Hexed-Noodle-stix.json
+  - https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Hexed-Noodle-yara.yar
+  notes: 'Theme: state-espionage:north-korea. Listed on https://www.ncsc.gov.uk/section/keep-up-to-date/malware-analysis-reports.
+    IOC files: STIX 2.1 JSON + CSV indicators + YARA (where listed). Android variant of AppleSeed (a Kimsuky
+    backdoor; actor not named in the report). (added for LoRA v3)'
+  sha256: c4e576051991a3b38d8847967206359fd136877de15166ff494bdeae5ecbf5d8
+- id: ncsc-mar-infinite-second
+  title: 'Malware Analysis Report: Infinite Second – PowerShell dropper used to deploy ComRAT'
+  publisher: UK NCSC
+  published: '2021-09-03'
+  language: en
+  format: pdf
+  url: https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Infinite-Second.pdf
+  license: Open Government Licence v3.0 — "Content published in this section including reports, detection
+    rules and STIX are licensed under the terms of the Open Government Licence v3.0 except where otherwise
+    stated" (https://www.ncsc.gov.uk/section/keep-up-to-date/malware-analysis-reports). Attribution required.
+  redistributable: false
+  split: train
+  ioc_files:
+  - https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Infinite-Second-stix.json
+  - https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Infinite-Second-yara.yar
+  notes: 'Theme: state-espionage:russia. Listed on https://www.ncsc.gov.uk/section/keep-up-to-date/malware-analysis-reports.
+    IOC files: STIX 2.1 JSON + CSV indicators + YARA (where listed). ComRAT is a Turla tool; actor not
+    named in the report. (added for LoRA v3)'
+  sha256: bcbd8050dafc66c048cbc6f4a3d45846fb6530f60fee7ee2347f0f6b77677c25
+- id: ncsc-mar-sparrow-door
+  title: 'Malware Analysis Report: SparrowDoor – A new variant of SparrowDoor with additional functionality'
+  publisher: UK NCSC
+  published: '2022-02-28'
+  language: en
+  format: pdf
+  url: https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Sparrow-Door.pdf
+  license: Open Government Licence v3.0 — "Content published in this section including reports, detection
+    rules and STIX are licensed under the terms of the Open Government Licence v3.0 except where otherwise
+    stated" (https://www.ncsc.gov.uk/section/keep-up-to-date/malware-analysis-reports). Attribution required.
+  redistributable: false
+  split: train
+  ioc_files:
+  - https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Sparrow-Door-indicators.csv
+  - https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Sparrow-Door-sigma.zip
+  - https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Sparrow-Door-stix.json
+  - https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Sparrow-Door-yara.yar
+  notes: 'Theme: state-espionage:china. Listed on https://www.ncsc.gov.uk/section/keep-up-to-date/malware-analysis-reports.
+    IOC files: STIX 2.1 JSON + CSV indicators + YARA (where listed). IOC set includes Sigma rules zip.
+    (added for LoRA v3)'
+  sha256: 54cae33b51601a398b3f0e179d9b34ab7e50637a709c6438749f7b509a10999a
+- id: ncsc-mar-spec-com
+  title: 'Malware Analysis Report: SpecCom – Windows malware with HTTP command and control'
+  publisher: UK NCSC
+  published: '2021-09-06'
+  language: en
+  format: pdf
+  url: https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Spec-Com.pdf
+  license: Open Government Licence v3.0 — "Content published in this section including reports, detection
+    rules and STIX are licensed under the terms of the Open Government Licence v3.0 except where otherwise
+    stated" (https://www.ncsc.gov.uk/section/keep-up-to-date/malware-analysis-reports). Attribution required.
+  redistributable: false
+  split: train
+  ioc_files:
+  - https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Spec-Com-stix.json
+  - https://www.ncsc.gov.uk/sites/default/files/documents/NCSC-MAR-Spec-Com-yara.yar
+  notes: 'Theme: malware-analysis. Listed on https://www.ncsc.gov.uk/section/keep-up-to-date/malware-analysis-reports.
+    IOC files: STIX 2.1 JSON + CSV indicators + YARA (where listed). (added for LoRA v3)'
+  sha256: ee49d36b713076d9bae6957ba7896cef824b24d7bd6f3b744a0756d691020d29
+- id: ncsc-mar-rayinitiator-line-viper
+  title: 'Malware Analysis Report: RayInitiator & LINE VIPER – a sophisticated bootkit and user-mode capability
+    targeting Cisco ASA devices'
+  publisher: UK NCSC
+  published: '2025-09-25'
+  language: en
+  format: pdf
+  url: https://www.ncsc.gov.uk/sites/default/files/documents/ncsc-mar-rayinitiator-line-viper.pdf
+  license: Open Government Licence v3.0 — "Content published in this section including reports, detection
+    rules and STIX are licensed under the terms of the Open Government Licence v3.0 except where otherwise
+    stated" (https://www.ncsc.gov.uk/section/keep-up-to-date/malware-analysis-reports). Attribution required.
+  redistributable: false
+  split: train
+  ioc_files: []
+  notes: 'Theme: edge-device. Listed on https://www.ncsc.gov.uk/section/keep-up-to-date/malware-analysis-reports.
+    No STIX/CSV published on the MAR listing for this report (YARA in-report). (added for LoRA v3)'
+  sha256: 34512371459d15517007e14ece049a8de40503495dd763a7031939b6192ab3fd
+- id: ncsc-tip-line-runner
+  title: 'Malware Tipper: Line Runner – Persistent webshell targeting Cisco Adaptive Security Appliance
+    (ASA) devices'
+  publisher: UK NCSC
+  published: '2024-04-24'
+  language: en
+  format: pdf
+  url: https://www.ncsc.gov.uk/sites/default/files/documents/ncsc-tip-line-runner.pdf
+  license: Open Government Licence v3.0 — "Content published in this section including reports, detection
+    rules and STIX are licensed under the terms of the Open Government Licence v3.0 except where otherwise
+    stated" (https://www.ncsc.gov.uk/section/keep-up-to-date/malware-analysis-reports). Attribution required.
+  redistributable: false
+  split: train
+  ioc_files: []
+  notes: 'Theme: edge-device. Listed on https://www.ncsc.gov.uk/section/keep-up-to-date/malware-analysis-reports.
+    Malware Tipper (shorter than a MAR); acknowledges support from Canadian CCCS and Australian ASD-ACSC
+    (not co-sealed). No ATT&CK table, no STIX. (added for LoRA v3)'
+  sha256: a689f01e19d33aa7ddc83153f00ddc15a139a2c7c7adcef02a3b178de675b1a3
