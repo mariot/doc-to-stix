@@ -1,0 +1,1774 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "FIN12",
+   "evidence": "Le jeudi 9 mars 2023, l’ANSSI a émis un signalement concernant la compromission de l’un des serveurs du"
+  },
+  {
+   "type": "malware",
+   "name": "SystemBC",
+   "evidence": "SystemBC a été exécuté dans un intervalle de 20 minutes après Cobalt Strike depuis le même répertoire. Ces deux"
+  },
+  {
+   "type": "malware",
+   "name": "Cobalt Strike",
+   "evidence": "Cobalt Strike"
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant"
+  },
+  {
+   "type": "malware",
+   "name": "Conti",
+   "evidence": "Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant"
+  },
+  {
+   "type": "malware",
+   "name": "Hive",
+   "evidence": "de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et"
+  },
+  {
+   "type": "malware",
+   "name": "BlackCat",
+   "evidence": "de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et"
+  },
+  {
+   "type": "malware",
+   "name": "Nokoyawa",
+   "evidence": "de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et"
+  },
+  {
+   "type": "malware",
+   "name": "Play",
+   "evidence": "Ils auraient également utilisé les rançongiciels Play et Royal."
+  },
+  {
+   "type": "malware",
+   "name": "Royal",
+   "evidence": "Ils auraient également utilisé les rançongiciels Play et Royal."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "FIN12",
+   "evidence": "FIN12"
+  },
+  {
+   "type": "malware",
+   "name": "SystemBC",
+   "evidence": "2. SystemBC est un code malveillant disponible à l’achat sur des forums cybercriminels, il permet d’établir un tunnel SOCKS5 entre la"
+  },
+  {
+   "type": "malware",
+   "name": "Cobalt Strike",
+   "evidence": "1.2.2 Cobalt Strike"
+  },
+  {
+   "type": "malware",
+   "name": "AccountRestore",
+   "evidence": "svchost.exe C:\\Users\\[user]\\Downloads\\svchost\\ 28400c267815762e49c200e8b481a592c67f9cf7 AccountRestore"
+  },
+  {
+   "type": "malware",
+   "name": "SharpRoast",
+   "evidence": "sharproast.exe C:\\Users\\[user]\\Downloads\\PingCastle_2.11.0.1\\ d65969088eb8f6098c33c5427a650e8576cdbfa6 SharpRoast"
+  },
+  {
+   "type": "malware",
+   "name": "Mimikatz",
+   "evidence": "svchost.exe C:\\Users\\[user]\\Downloads\\svchost1\\ - Mimikatz"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-24521",
+   "evidence": "la CVE-2022-24521."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-21746",
+   "evidence": "la CVE-2023-21746."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-34527",
+   "evidence": "CVE-2021-34527"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-0708",
+   "evidence": "bks.exe C:\\Users\\[user]\\Downloads\\8.1.5\\bluekeep\\ - CVE-2019-0708"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-1472",
+   "evidence": "ZeroLogon 6"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Local Privilege Escalation",
+   "evidence": "L’exécutable d’exploitation de la vulnérabilité LocalPotato est disponible sur GITHUB [1]. Le fichier « lpe.exe » n’a",
+   "mitre_id": "T1068"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "evidence": "Les attaquants ont utilisé les outils disponibles en sources ouvertes Softperfect Network Scanner pour réaliser de",
+   "mitre_id": "T1046"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Discovery",
+   "evidence": "Le MOA a employé trois codes afin de tenter de récupérer des données d’authentification : AccountRestore, Shar￾pRoast et Mimikatz.",
+   "mitre_id": "T1087"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Lateral Movement",
+   "evidence": "Afin de se latéraliser, les opérateurs du MOA ont tenté, sans succès, d’exploiter les vulnérabilités PrintNightmare 4",
+   "mitre_id": "T1098"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "Les fichiers suivants ont été observés sur le serveur compromis :",
+   "mitre_id": "T1210"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "Les attaquants ont utilisé les outils disponibles en sources ouvertes Softperfect Network Scanner pour réaliser de",
+   "mitre_id": "T1210"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "Les attaquants ont employé le nom de domaine « youthconscience.com » comme serveur C2 Cobalt Strike. Il",
+   "mitre_id": "T1210"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "FIN12",
+   "evidence": "FIN12"
+  },
+  {
+   "type": "malware",
+   "name": "SystemBC",
+   "evidence": "Epoch 5 lié au Malware-as-a-Service (MaaS) Emotet. L’infrastructure de commande et de contrôle SystemBC était"
+  },
+  {
+   "type": "malware",
+   "name": "Cobalt Strike",
+   "evidence": "2.1.1 Liens d'infrastructure"
+  },
+  {
+   "type": "malware",
+   "name": "Royal",
+   "evidence": "incident impliquant le rançongiciel Royal [9]."
+  },
+  {
+   "type": "malware",
+   "name": "Play",
+   "evidence": "2022-07 Trend Micro Play ■ ■ ■ ■ ■"
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "2019 / 2021 Mandiant Ryuk"
+  },
+  {
+   "type": "malware",
+   "name": "Conti",
+   "evidence": "2019 / 2021 Mandiant Ryuk"
+  },
+  {
+   "type": "malware",
+   "name": "Hive",
+   "evidence": "2022-01 / 2022-05 4 incidents FR Hive ■ ■ ■ ■ ■"
+  },
+  {
+   "type": "malware",
+   "name": "Nokoyawa",
+   "evidence": "2022-05 1 incident FR Nokoyawa ■ ■ ■ ■ ■"
+  },
+  {
+   "type": "malware",
+   "name": "BazarLoader",
+   "evidence": "Commentaire : les attaquants impliqués dans l’incident du CHU de Brest seraient donc actifs depuis au moins 2019 et"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-41080",
+   "evidence": "vulnérabilité ProxyNotShell (CVE-2022-41080 et CVE-2022-41082) ayant mené au déploiement de Play."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-41082",
+   "evidence": "vulnérabilité ProxyNotShell (CVE-2022-41080 et CVE-2022-41082) ayant mené au déploiement de Play."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "FIN12",
+   "evidence": "FIN12"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "PISTACHE TEMPEST",
+   "evidence": "MICROSOFT suit ce mode opératoire sous la dénomination PISTACHE TEMPEST ou DEV-0237 [10]."
+  },
+  {
+   "type": "malware",
+   "name": "Cobalt Strike",
+   "evidence": "2.2 PISTACHE TEMPEST : l'héritier de FIN12"
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "distribuer Hive, Nokoyawa, Play et Royal. Une analyse historique de leur mode opératoire les lie à FIN12"
+  },
+  {
+   "type": "malware",
+   "name": "Conti",
+   "evidence": "distribuer Hive, Nokoyawa, Play et Royal. Une analyse historique de leur mode opératoire les lie à FIN12"
+  },
+  {
+   "type": "malware",
+   "name": "Hive",
+   "evidence": "distribuer Hive, Nokoyawa, Play et Royal. Une analyse historique de leur mode opératoire les lie à FIN12"
+  },
+  {
+   "type": "malware",
+   "name": "Nokoyawa",
+   "evidence": "distribuer Hive, Nokoyawa, Play et Royal. Une analyse historique de leur mode opératoire les lie à FIN12"
+  },
+  {
+   "type": "malware",
+   "name": "Play",
+   "evidence": "distribuer Hive, Nokoyawa, Play et Royal. Une analyse historique de leur mode opératoire les lie à FIN12"
+  },
+  {
+   "type": "malware",
+   "name": "Royal",
+   "evidence": "distribuer Hive, Nokoyawa, Play et Royal. Une analyse historique de leur mode opératoire les lie à FIN12"
+  },
+  {
+   "type": "malware",
+   "name": "BlackCat",
+   "evidence": "rançongiciels BlackCat, Agenda et Mindware. L’ANSSI n’a pas été en mesure de confirmer l’utilisation de ces"
+  },
+  {
+   "type": "malware",
+   "name": "Agenda",
+   "evidence": "rançongiciels BlackCat, Agenda et Mindware. L’ANSSI n’a pas été en mesure de confirmer l’utilisation de ces"
+  },
+  {
+   "type": "malware",
+   "name": "Mindware",
+   "evidence": "rançongiciels BlackCat, Agenda et Mindware. L’ANSSI n’a pas été en mesure de confirmer l’utilisation de ces"
+  },
+  {
+   "type": "malware",
+   "name": "Bazarloader",
+   "evidence": "code malveillant Bazarloader à partir de 2021 10. Le vecteur d’infection privilégié semble être le recours à des"
+  },
+  {
+   "type": "malware",
+   "name": "SystemBC",
+   "evidence": "Néanmoins, la distribution par le code malveillant Emotet d’un implant de SystemBC lié à"
+  },
+  {
+   "type": "malware",
+   "name": "Emotet",
+   "evidence": "Néanmoins, la distribution par le code malveillant Emotet d’un implant de SystemBC lié à"
+  },
+  {
+   "type": "malware",
+   "name": "TrickBot",
+   "evidence": "de FIN12 auraient également utilisé le code malveillant TrickBot et le MaaS GoziAT [14]."
+  },
+  {
+   "type": "malware",
+   "name": "GoziAT",
+   "evidence": "de FIN12 auraient également utilisé le code malveillant TrickBot et le MaaS GoziAT [14]."
+  },
+  {
+   "type": "sector",
+   "name": "Health",
+   "evidence": "un intérêt pour les entreprises susceptibles de payer des rançons élevées (Big Game Hunting) ainsi que par un ciblage important du secteur de la santé (au moins 20% des victimes du groupe) [12]."
+  },
+  {
+   "type": "country",
+   "name": "United States of America",
+   "evidence": "2020 contre des établissements publics de santé aux États-Unis attribuée à UNC1878 [13]."
+  },
+  {
+   "type": "country",
+   "name": "North America",
+   "evidence": "Le ciblage des opérateurs de FIN12 se concentrait sur l’Amérique du Nord et l’Europe [12]."
+  },
+  {
+   "type": "country",
+   "name": "Europe",
+   "evidence": "Le ciblage des opérateurs de FIN12 se concentrait sur l’Amérique du Nord et l’Europe [12]."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "FIN12",
+   "evidence": "ait d’abord ce MOA sous l’appellation UNC1878 avant de choisir FIN12."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "CONTI",
+   "evidence": "10. BazarLoader est un code malveillant identifié pour la première fois en avril 2020 et opéré par le groupe CONTI (WIZARD SPIDER). Sa"
+  },
+  {
+   "type": "malware",
+   "name": "BazarLoader",
+   "evidence": "10. BazarLoader est un code malveillant identifié pour la première fois en avril 2020 et opéré par le groupe CONTI (WIZARD SPIDER). Sa"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "FIN12",
+   "evidence": "FIN12"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "CONTI",
+   "evidence": "groupe CONTI"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "PISTACHE TEMPEST",
+   "evidence": "PISTACHE TEMPEST"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "HIVE",
+   "evidence": "HIVE"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "ROYAL",
+   "evidence": "ROYAL constitue notoirement un groupe de"
+  },
+  {
+   "type": "threat-actor",
+   "name": "Troy",
+   "evidence": "« Troy » pourrait être l’un des individus res￾ponsables des opérations associées au mode opératoire FIN12"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "FIN12",
+   "evidence": "FIN12"
+  },
+  {
+   "type": "malware",
+   "name": "Cobalt Strike",
+   "evidence": "Cobalt Strike"
+  },
+  {
+   "type": "malware",
+   "name": "SystemBC",
+   "evidence": "149.28.197.120 SystemBC 2023-02-06 2023-04-30"
+  },
+  {
+   "type": "malware",
+   "name": "BazarLoader",
+   "evidence": "BazarLoader"
+  },
+  {
+   "type": "malware",
+   "name": "Mimikatz",
+   "evidence": "Mimikatz"
+  },
+  {
+   "type": "malware",
+   "name": "GoziAT",
+   "evidence": "GoziAT"
+  },
+  {
+   "type": "malware",
+   "name": "Emotet",
+   "evidence": "Emotet"
+  },
+  {
+   "type": "malware",
+   "name": "TrickBot",
+   "evidence": "TrickBot"
+  },
+  {
+   "type": "malware",
+   "name": "GoziAT",
+   "evidence": "GoziAT"
+  },
+  {
+   "type": "malware",
+   "name": "AccountRestore",
+   "evidence": "AccountRestore"
+  },
+  {
+   "type": "malware",
+   "name": "Royal",
+   "evidence": "Royal"
+  },
+  {
+   "type": "malware",
+   "name": "Play",
+   "evidence": "Play"
+  },
+  {
+   "type": "malware",
+   "name": "Nokoyawa",
+   "evidence": "Nokoyawa"
+  },
+  {
+   "type": "malware",
+   "name": "BlackCat",
+   "evidence": "BlackCat"
+  },
+  {
+   "type": "malware",
+   "name": "Hive",
+   "evidence": "Hive"
+  },
+  {
+   "type": "malware",
+   "name": "Conti",
+   "evidence": "Conti"
+  },
+  {
+   "type": "malware",
+   "name": "Ryuk",
+   "evidence": "Ryuk"
+  },
+  {
+   "type": "malware",
+   "name": "SharpRoast",
+   "evidence": "SharpRoast"
+  },
+  {
+   "type": "malware",
+   "name": "PISTACHE TEMPEST",
+   "evidence": "PISTACHE TEMPEST"
+  },
+  {
+   "type": "malware",
+   "name": "Agenda",
+   "evidence": "Agenda"
+  },
+  {
+   "type": "malware",
+   "name": "Mindware",
+   "evidence": "Mindware"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "FIN12",
+   "evidence": "FIN12"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "FIN12",
+   "evidence": "[11] MANDIANT . FIN12 GROUP PROFILE: FIN12 PRIORITIZES SPEED TO DEPLOY RANSOMWARE AGAINST HIGH￾VALUE TARGETS. Octobre 2021."
+  },
+  {
+   "type": "malware",
+   "name": "Mimikatz",
+   "evidence": "[3] Gentilkiwi/Mimikatz: A Little Tool to Play with Windows Security."
+  },
+  {
+   "type": "malware",
+   "name": "SharpRoast",
+   "evidence": "[4] GhostPack/SharpRoast: DEPRECATED SharpRoast Is a C# Port of Various PowerView’s Kerberoasting Functiona￾lity."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-34527",
+   "evidence": "[5] SPLOITUS . Exploit for Improper Privilege Management in Microsoft CVE-2021-34527 CVE-2021-1675."
+  },
+  {
+   "type": "malware",
+   "name": "Cobalt Strike",
+   "evidence": "[7] CISA . BlackCat/ALPHV Ransomware Indicators of Compromise. 19 avril 2022."
+  },
+  {
+   "type": "malware",
+   "name": "BlackCat",
+   "evidence": "[6] CISA . BlackCat/ALPHV Ransomware Indicators of Compromise. 19 avril 2022."
+  },
+  {
+   "type": "malware",
+   "name": "Royal",
+   "evidence": "[9] CISA . #StopRansomware: Royal Ransomware |. 2 mars 2023."
+  },
+  {
+   "type": "malware",
+   "name": "Conti",
+   "evidence": "[15] THE RECORD MEDIA . Disgruntled ransomware affiliate leaks the Conti gang’s technical manuals. 21 août 2021."
+  },
+  {
+   "type": "malware",
+   "name": "Hive",
+   "evidence": "[16] TRELLIX . Conti Leaks: Examining the Panama Papers of Ransomware | Trellix. 31 mars 2022."
+  },
+  {
+   "type": "malware",
+   "name": "BazarLoader",
+   "evidence": "[17] ADVINTEL . DisCONTInued: The End of Conti’s Brand Marks New Chapter For Cybercrime Landscape. 20 mai"
+  },
+  {
+   "type": "malware",
+   "name": "AccountRestore",
+   "evidence": "[17] ADVINTEL . DisCONTInued: The End of Conti’s Brand Marks New Chapter For Cybercrime Landscape. 20 mai"
+  },
+  {
+   "type": "malware",
+   "name": "Play",
+   "evidence": "[17] ADVINTEL . DisCONTInued: The End of Conti’s Brand Marks New Chapter For Cybercrime Landscape. 20 mai"
+  },
+  {
+   "type": "malware",
+   "name": "ROYAL",
+   "evidence": "[9] CISA . #StopRansomware: Royal Ransomware |. 2 mars 2023."
+  },
+  {
+   "type": "malware",
+   "name": "Troy",
+   "evidence": "[17] ADVINTEL . DisCONTInued: The End of Conti’s Brand Marks New Chapter For Cybercrime Landscape. 20 mai"
+  },
+  {
+   "type": "malware",
+   "name": "PISTACHE TEMPEST",
+   "evidence": "[17] ADVINTEL . DisCONTInued: The End of Conti’s Brand Marks New Chapter For Cybercrime Landscape. 20 mai"
+  },
+  {
+   "type": "malware",
+   "name": "Agenda",
+   "evidence": "[17] ADVINTEL . DisCONTInued: The End of Conti’s Brand Marks New Chapter For Cybercrime Landscape. 20 mai"
+  },
+  {
+   "type": "malware",
+   "name": "Mindware",
+   "evidence": "[17] ADVINTEL . DisCONTInued: The End of Conti’s Brand Marks New Chapter For Cybercrime Landscape. 20 mai"
+  },
+  {
+   "type": "malware",
+   "name": "Emotet",
+   "evidence": "[17] ADVINTEL . DisCONTInued: The End of Conti’s Brand Marks New Chapter For Cybercrime Landscape. 20 mai"
+  },
+  {
+   "type": "malware",
+   "name": "GoziAT",
+   "evidence": "[17] ADVINTEL . DisCONTInued: The End of Conti’s Brand Marks New Chapter For Cybercrime Landscape. 20 mai"
+  },
+  {
+   "type": "malware",
+   "name": "Nokoyawa",
+   "evidence": "[17] ADVINTEL . DisCONTInued: The End of Conti’s Brand Marks New Chapter For Cybercrime Landscape. 20 mai"
+  },
+  {
+   "type": "malware",
+   "name": "Pistache",
+   "evidence": "[17] ADVINTEL . DisCONTInued: The End of Conti’s Brand Marks New Chapter For Cybercrime Landscape. 20 mai"
+  },
+  {
+   "type": "malware",
+   "name": "Tempest",
+   "evidence": "[17] ADVINTEL . DisCONTInued: The End of Conti’s Brand Marks New Chapter For Cybercrime Landscape. 20 mai"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "FIN12",
+   "evidence": "FIN12"
+  },
+  {
+   "type": "malware",
+   "name": "Conti",
+   "evidence": "[18] GITHUB . TheParmak/Conti-Leaks-Englished: Google and Deepl Translated Conti Leaks, Which Is Shared by a"
+  },
+  {
+   "type": "malware",
+   "name": "Royal",
+   "evidence": "21 décembre 2022."
+  },
+  {
+   "type": "malware",
+   "name": "Nokoyawa",
+   "evidence": "[22] TREND MICRO . New Nokoyawa Ransomware Possibly Related to Hive. 9 mars 2022."
+  },
+  {
+   "type": "malware",
+   "name": "Play",
+   "evidence": "[23] TREND MICRO . Play Ransomware Attack Playbook Similar to That of Hive, Nokoyawa. 6 septembre 2022."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obtain Capabilities: Tool",
+   "mitre_id": "T1588.002",
+   "evidence": "Resource Development T1588.002 Obtain Capabilities: Tool Utilisation de l’outil Random C2 Profile Generator pour"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure: Server",
+   "mitre_id": "T1583.004",
+   "evidence": "Resource Development T1583.004 Acquire Infrastructure: Server Utilisation de VPS hébergés chez VULTR comme serveurs C2"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "External Remote Services",
+   "mitre_id": "T1133",
+   "evidence": "Initial Access T1133 External Remote Services Connexion à un service de bureau à distance."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Domain Accounts",
+   "mitre_id": "T1078.002",
+   "evidence": "Initial Access T1078.002 Valid Accounts: Domain Accounts Utilisation d’authentifiants valides pour se connecter à un"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create Account: Local Account",
+   "mitre_id": "T1136.001",
+   "evidence": "Persistence T1136.001 Create Account: Local Account Tentative de création du compte « supp »."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Privilege Escalation",
+   "mitre_id": "T1068",
+   "evidence": "Privilege Escalation T1068 Exploitation for Privilege Escalation Tentative d’exploitation des vulnérabilités LocalPotato"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "Defense Evasion T1036.005 Masquerading: Match Legitimate Name or Location Utilisation des répertoires « C:\\Users\\Public\\Music\\ » et"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force: Password Spraying",
+   "mitre_id": "T1110.003",
+   "evidence": "Credential Access T1110.003 Brute Force: Password Spraying Utilisation de l’outil AccountRestore avec le dictionnaire"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: LSASS Memory",
+   "mitre_id": "T1003.001",
+   "evidence": "Credential Access T1003.001 OS Credential Dumping: LSASS Memory Utilisation de l’outil Mimikatz."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Steal or Forge Kerberos Tickets: Kerberoasting",
+   "mitre_id": "T1558.003",
+   "evidence": "Credential Access T1558.003 Steal or Forge Kerberos Tickets: Kerberoasting Utilisation de l’outil SharpRoast."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "mitre_id": "T1046",
+   "evidence": "Discovery T1046 Network Service Discovery Utilisation de l’outil de découverte réseau Softperfect"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote System Discovery",
+   "mitre_id": "T1018",
+   "evidence": "Discovery T1018 Remote System Discovery Utilisation des outils de découverte PingCastle et"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation of Remote Services",
+   "mitre_id": "T1210",
+   "evidence": "Lateral Movement T1210 Exploitation of Remote Services"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy: Domain Fronting",
+   "mitre_id": "T1090.004",
+   "evidence": "Command and Control T1090.004 Proxy: Domain Fronting Utilisation du CND CLOUDFLARE afin de dissimuler le serveur"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Protocol Tunneling",
+   "mitre_id": "T1572",
+   "evidence": "Command and Control T1572 Protocol Tunneling Utilisation d’un tunnel SOCKS5 via l’implant SystemBC."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-21746",
+   "evidence": "(CVE-2023-21746) et"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-24521",
+   "evidence": "la CVE-2022-24521."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-34527",
+   "evidence": "(CVE-2021-34527), BlueKeep 5"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-0708",
+   "evidence": "(CVE-2019-0708), puis ZeroLogon 6"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2020-1472",
+   "evidence": "(CVE-2020-1472) via l’outil Mimikatz."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-41080",
+   "evidence": "vulnérabilité ProxyNotShell (CVE-2022-41080 et CVE-2022-41082) ayant mené au déploiement de Play."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2022-41082",
+   "evidence": "vulnérabilité ProxyNotShell (CVE-2022-41080 et CVE-2022-41082) ayant mené au déploiement de Play."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-1675",
+   "evidence": "[5] SPLOITUS . Exploit for Improper Privilege Management in Microsoft CVE-2021-34527 CVE-2021-1675."
+  }
+ ],
+ "observables": [
+  {
+   "type": "ipv4-addr",
+   "value": "149.28.197.120",
+   "indicates": [
+    "SystemBC"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "149.28.213.157",
+   "indicates": [
+    "SystemBC"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "youthconscience.com",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8a0743f17110dc945007f08f3e63da166a3937dc",
+   "hash": "SHA1",
+   "indicates": [
+    "SystemBC"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9e2737994aa8bf0d6900e5369d51978adc4c02f9",
+   "hash": "SHA1",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "149.28.197.120",
+   "indicates": [
+    "SystemBC"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "149.28.213.157",
+   "indicates": [
+    "SystemBC"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "youthconscience.com",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "tumbleproperty.com",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "texasflooddesign.com",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "performernews.com",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "getinteriorartstudio.com",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "tributepower.com",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "realversedesign.com",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "purpleinfluenceonline.com",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "herbswallow.com",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "psychologymax.com",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "jacketsupport.com",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "mirrordirectory.com",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "364a4d9ea6f88eec098b13728fce2c1ead94c48d",
+   "hash": "SHA1",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8291929d6f3ede6ec025c21d1559a7fe9d30a9ce",
+   "hash": "SHA1",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "28400c267815762e49c200e8b481a592c67f9cf7",
+   "hash": "SHA1",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d65969088eb8f6098c33c5427a650e8576cdbfa6",
+   "hash": "SHA1",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "eeaf29a71330db50cdd4630f8d9f1c2b6a34578c",
+   "hash": "SHA1",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "292629c6ab33bddf123d26328025e2d157d9e8fc",
+   "hash": "SHA1",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "536734aa6ec0f0b1ba8e43088edc6857eca42667",
+   "hash": "SHA1",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e2a68116d52182f207c087f349e04e049982d431",
+   "hash": "SHA1",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "fae6068d4433b33751bf7de866d7f2900aa15139",
+   "hash": "SHA1",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d69420a636dacfbafaf01f7153692c197e9b6400",
+   "hash": "SHA1",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "68a07540fbf58fe743636b7fc8f0370c84134eb3",
+   "hash": "SHA1",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "58cb839dbc0232874b6fed9a354d4cc6d355cbac",
+   "hash": "SHA1",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "1e0ec6994400413c7899cd5c59bdbd6397dea7b5",
+   "hash": "SHA1",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "35ff55bcf493e1b936dc6e978a981ee2a75543a1",
+   "hash": "SHA1",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "a00ebf699ea0759e7bf4af65dddd741133c38484",
+   "hash": "SHA1",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "df12386df2c0fcf65522282914424d63da962d79",
+   "hash": "SHA1",
+   "indicates": [
+    "Cobalt Strike"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "tumbleproperty.com",
+   "indicates": [
+    "Royal"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "96.30.196.207",
+   "indicates": [
+    "SystemBC"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.32.132.182",
+   "indicates": [
+    "SystemBC"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "96.30.196.207",
+   "indicates": [
+    "SystemBC"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.32.132.182",
+   "indicates": [
+    "SystemBC"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "getinteriorartstudio.com",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "performernews.com",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "texasflooddesign.com",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "tumbleproperty.com",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "purpleinfluenceonline.com",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "realversedesign.com",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "tributepower.com",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "youthconscience.com",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "149.28.197.120",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "149.28.213.157",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "herbswallow.com",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "jacketsupport.com",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "psychologymax.com",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "mirrordirectory.com",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "youthconscience.com",
+   "indicates": [
+    "FIN12"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://github.com/TheParmak/conti-leaks-englished",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://blog.bushidotoken.net/2022/11/the-continuity-of-conti.html",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://www.trendmicro.com/en_us/research/22/l/conti- team- one- splinter- group￾resurfaces-as-royal-ransomware-wit.html",
+   "indicates": [
+    "Royal"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://twitter.com/VK_Intel/status/1557003350541242369",
+   "indicates": [
+    "Vitali Kremez"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://www.trendmicro.com/en_us/research/22/c/nokoyawa-ransomware-possibly-related￾to-hive-.html",
+   "indicates": [
+    "Nokoyawa"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://www.trendmicro.com/en_us/research/22/i/play-ransomware-s-attack-playbook￾unmasks-it-as-another-hive-aff.html",
+   "indicates": [
+    "Play"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8a0743f17110dc945007f08f3e63da166a3937dc",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9e2737994aa8bf0d6900e5369d51978adc4c02f9",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "364a4d9ea6f88eec098b13728fce2c1ead94c48d",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8291929d6f3ede6ec025c21d1559a7fe9d30a9ce",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "70ad1a42ce05404c00513989c949c83a94feca92",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "28400c267815762e49c200e8b481a592c67f9cf7",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d65969088eb8f6098c33c5427a650e8576cdbfa6",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "eeaf29a71330db50cdd4630f8d9f1c2b6a34578c",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "292629c6ab33bddf123d26328025e2d157d9e8fc",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "536734aa6ec0f0b1ba8e43088edc6857eca42667",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e2a68116d52182f207c087f349e04e049982d431",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "fae6068d4433b33751bf7de866d7f2900aa15139",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d69420a636dacfbafaf01f7153692c197e9b6400",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "68a07540fbf58fe743636b7fc8f0370c84134eb3",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "58cb839dbc0232874b6fed9a354d4cc6d355cbac",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "1e0ec6994400413c7899cd5c59bdbd6397dea7b5",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "35ff55bcf493e1b936dc6e978a981ee2a75543a1",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "a00ebf699ea0759e7bf4af65dddd741133c38484",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "df12386df2c0fcf65522282914424d63da962d79",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "32f7e0b84b76a8f8ec0069e2188475e5",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "149.28.197.120",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "149.28.213.157",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "2.11.0.1",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "96.30.196.207",
+   "indicates": [
+    "Conti"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.32.132.182",
+   "indicates": [
+    "Conti"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "SystemBC",
+   "evidence": "Les opérateurs du MOA FIN12 seraient responsables d’un nombre conséquent d’attaques par rançongiciel sur le territoire français. Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Cobalt Strike",
+   "evidence": "Les opérateurs du MOA FIN12 seraient responsables d’un nombre conséquent d’attaques par rançongiciel sur le territoire français. Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Ryuk",
+   "evidence": "Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Conti",
+   "evidence": "Entre 2020 et 2023, ils auraient employé les rançongiciels Ryuk puis Conti, avant"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Hive",
+   "evidence": "de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "BlackCat",
+   "evidence": "de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Nokoyawa",
+   "evidence": "de prendre part aux programmes de Ransomware-as-a-Service (RaaS) des rançongiciels Hive, BlackCat et"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Play",
+   "evidence": "Ils auraient également utilisé les rançongiciels Play et Royal."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Royal",
+   "evidence": "Ils auraient également utilisé les rançongiciels Play et Royal."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "SystemBC",
+   "evidence": "2. SystemBC est un code malveillant disponible à l’achat sur des forums cybercriminels, il permet d’établir un tunnel SOCKS5 entre la"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Cobalt Strike",
+   "evidence": "1.2 Infrastructure"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "AccountRestore",
+   "evidence": "svchost.exe C:\\Users\\[user]\\Downloads\\svchost\\ 28400c267815762e49c200e8b481a592c67f9cf7 AccountRestore"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "SharpRoast",
+   "evidence": "sharproast.exe C:\\Users\\[user]\\Downloads\\PingCastle_2.11.0.1\\ d65969088eb8f6098c33c5427a650e8576cdbfa6 SharpRoast"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Mimikatz",
+   "evidence": "svchost.exe C:\\Users\\[user]\\Downloads\\svchost1\\ - Mimikatz"
+  },
+  {
+   "source": "FIN12",
+   "type": "targets",
+   "target": "CVE-2022-24521",
+   "evidence": "la CVE-2022-24521."
+  },
+  {
+   "source": "FIN12",
+   "type": "targets",
+   "target": "CVE-2023-21746",
+   "evidence": "la CVE-2023-21746."
+  },
+  {
+   "source": "FIN12",
+   "type": "targets",
+   "target": "CVE-2021-34527",
+   "evidence": "CVE-2021-34527"
+  },
+  {
+   "source": "FIN12",
+   "type": "targets",
+   "target": "CVE-2019-0708",
+   "evidence": "bks.exe C:\\Users\\[user]\\Downloads\\8.1.5\\bluekeep\\ - CVE-2019-0708"
+  },
+  {
+   "source": "FIN12",
+   "type": "targets",
+   "target": "CVE-2020-1472",
+   "evidence": "ZeroLogon 6"
+  },
+  {
+   "source": "SystemBC",
+   "type": "uses",
+   "target": "T1068",
+   "evidence": "L’exécutable d’exploitation de la vulnérabilité LocalPotato est disponible sur GITHUB [1]. Le fichier « lpe.exe » n’a"
+  },
+  {
+   "source": "Cobalt Strike",
+   "type": "uses",
+   "target": "T1046",
+   "evidence": "Les attaquants ont utilisé les outils disponibles en sources ouvertes Softperfect Network Scanner pour réaliser de"
+  },
+  {
+   "source": "Cobalt Strike",
+   "type": "uses",
+   "target": "T1087",
+   "evidence": "Le MOA a employé trois codes afin de tenter de récupérer des données d’authentification : AccountRestore, Shar￾pRoast et Mimikatz."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "T1098",
+   "evidence": "Afin de se latéraliser, les opérateurs du MOA ont tenté, sans succès, d’exploiter les vulnérabilités PrintNightmare 4"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "T1210",
+   "evidence": "Les fichiers suivants ont été observés sur le serveur compromis :"
+  },
+  {
+   "source": "Cobalt Strike",
+   "type": "uses",
+   "target": "T1210",
+   "evidence": "Les attaquants ont utilisé les outils disponibles en sources ouvertes Softperfect Network Scanner pour réaliser de"
+  },
+  {
+   "source": "Cobalt Strike",
+   "type": "uses",
+   "target": "T1210",
+   "evidence": "Les attaquants ont employé le nom de domaine « youthconscience.com » comme serveur C2 Cobalt Strike. Il"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "SystemBC",
+   "evidence": "Le 11 mars 2022, le compte Twitter @Cryptolaemus1 a identifié la distribution d’un implant SystemBC par le botnet"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Cobalt Strike",
+   "evidence": "2.1.1 Liens d'infrastructure"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Royal",
+   "evidence": "Concernant l’infrastructure Cobalt Strike, le nom de domaine « tumbleproperty.com » identifié dans la partie"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Play",
+   "evidence": "2022-07 Trend Micro Play ■ ■ ■ ■ ■"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Ryuk",
+   "evidence": "2019 / 2021 Mandiant Ryuk"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Conti",
+   "evidence": "2019 / 2021 Mandiant Ryuk"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Hive",
+   "evidence": "2022-01 / 2022-05 4 incidents FR Hive ■ ■ ■ ■ ■"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Nokoyawa",
+   "evidence": "2022-05 1 incident FR Nokoyawa ■ ■ ■ ■ ■"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "BazarLoader",
+   "evidence": "Commentaire : les attaquants impliqués dans l’incident du CHU de Brest seraient donc actifs depuis au moins 2019 et"
+  },
+  {
+   "source": "FIN12",
+   "type": "targets",
+   "target": "CVE-2022-41080",
+   "evidence": "vulnérabilité ProxyNotShell (CVE-2022-41080 et CVE-2022-41082) ayant mené au déploiement de Play."
+  },
+  {
+   "source": "FIN12",
+   "type": "targets",
+   "target": "CVE-2022-41082",
+   "evidence": "vulnérabilité ProxyNotShell (CVE-2022-41080 et CVE-2022-41082) ayant mené au déploiement de Play."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Ryuk",
+   "evidence": "distribuer Hive, Nokoyawa, Play et Royal. Une analyse historique de leur mode opératoire les lie à FIN12"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Conti",
+   "evidence": "distribuer Hive, Nokoyawa, Play et Royal. Une analyse historique de leur mode opératoire les lie à FIN12"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Hive",
+   "evidence": "distribuer Hive, Nokoyawa, Play et Royal. Une analyse historique de leur mode opératoire les lie à FIN12"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Nokoyawa",
+   "evidence": "distribuer Hive, Nokoyawa, Play et Royal. Une analyse historique de leur mode opératoire les lie à FIN12"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Play",
+   "evidence": "distribuer Hive, Nokoyawa, Play et Royal. Une analyse historique de leur mode opératoire les lie à FIN12"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Royal",
+   "evidence": "distribuer Hive, Nokoyawa, Play et Royal. Une analyse historique de leur mode opératoire les lie à FIN12"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "BlackCat",
+   "evidence": "rançongiciels BlackCat, Agenda et Mindware. L’ANSSI n’a pas été en mesure de confirmer l’utilisation de ces"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Agenda",
+   "evidence": "rançongiciels BlackCat, Agenda et Mindware. L’ANSSI n’a pas été en mesure de confirmer l’utilisation de ces"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Mindware",
+   "evidence": "rançongiciels BlackCat, Agenda et Mindware. L’ANSSI n’a pas été en mesure de confirmer l’utilisation de ces"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Bazarloader",
+   "evidence": "code malveillant Bazarloader à partir de 2021 10. Le vecteur d’infection privilégié semble être le recours à des"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "SystemBC",
+   "evidence": "Néanmoins, la distribution par le code malveillant Emotet d’un implant de SystemBC lié à"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "Emotet",
+   "evidence": "Néanmoins, la distribution par le code malveillant Emotet d’un implant de SystemBC lié à"
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "TrickBot",
+   "evidence": "de FIN12 auraient également utilisé le code malveillant TrickBot et le MaaS GoziAT [14]."
+  },
+  {
+   "source": "FIN12",
+   "type": "uses",
+   "target": "GoziAT",
+   "evidence": "de FIN12 auraient également utilisé le code malveillant TrickBot et le MaaS GoziAT [14]."
+  },
+  {
+   "source": "FIN12",
+   "type": "targets",
+   "target": "Health",
+   "evidence": "un intérêt pour les entreprises susceptibles de payer des rançons élevées (Big Game Hunting) ainsi que par un ciblage important du secteur de la santé (au moins 20% des victimes du groupe) [12]."
+  },
+  {
+   "source": "FIN12",
+   "type": "targets",
+   "target": "United States of America",
+   "evidence": "2020 contre des établissements publics de santé aux États-Unis attribuée à UNC1878 [13]."
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "HIVE",
+   "evidence": "TTP similaires. Cette réorientation est observable dans l’utilisation par PISTACHE TEMPEST de Hive dès octobre 2021 [14]"
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "Play",
+   "evidence": "À partir de juillet 2022, PISTACHE TEMPEST aurait commencé à utiliser le rançongiciel Play"
+  },
+  {
+   "source": "PISTACHE TEMPEST",
+   "type": "uses",
+   "target": "ROYAL",
+   "evidence": "Au début de l’année 2023, l’utilisation par les opérateurs de PISTACHE TEMPEST du rançongiciel Royal indique"
+  },
+  {
+   "source": "Conti",
+   "type": "uses",
+   "target": "T1588.002",
+   "evidence": "Resource Development T1588.002 Obtain Capabilities: Tool Utilisation de l’outil Random C2 Profile Generator pour"
+  },
+  {
+   "source": "Conti",
+   "type": "uses",
+   "target": "T1583.004",
+   "evidence": "Resource Development T1583.004 Acquire Infrastructure: Server Utilisation de VPS hébergés chez VULTR comme serveurs C2"
+  },
+  {
+   "source": "Conti",
+   "type": "uses",
+   "target": "T1133",
+   "evidence": "Initial Access T1133 External Remote Services Connexion à un service de bureau à distance."
+  },
+  {
+   "source": "Conti",
+   "type": "uses",
+   "target": "T1078.002",
+   "evidence": "Initial Access T1078.002 Valid Accounts: Domain Accounts Utilisation d’authentifiants valides pour se connecter à un"
+  },
+  {
+   "source": "Conti",
+   "type": "uses",
+   "target": "T1136.001",
+   "evidence": "Persistence T1136.001 Create Account: Local Account Tentative de création du compte « supp »."
+  },
+  {
+   "source": "Conti",
+   "type": "uses",
+   "target": "T1036.005",
+   "evidence": "Defense Evasion T1036.005 Masquerading: Match Legitimate Name or Location Utilisation des répertoires « C:\\Users\\Public\\Music\\ » et"
+  },
+  {
+   "source": "Conti",
+   "type": "uses",
+   "target": "T1110.003",
+   "evidence": "Credential Access T1110.003 Brute Force: Password Spraying Utilisation de l’outil AccountRestore avec le dictionnaire"
+  },
+  {
+   "source": "Conti",
+   "type": "uses",
+   "target": "T1003.001",
+   "evidence": "Credential Access T1003.001 OS Credential Dumping: LSASS Memory Utilisation de l’outil Mimikatz."
+  },
+  {
+   "source": "Conti",
+   "type": "uses",
+   "target": "T1558.003",
+   "evidence": "Credential Access T1558.003 Steal or Forge Kerberos Tickets: Kerberoasting Utilisation de l’outil SharpRoast."
+  },
+  {
+   "source": "Conti",
+   "type": "uses",
+   "target": "T1018",
+   "evidence": "Discovery T1018 Remote System Discovery Utilisation des outils de découverte PingCastle et"
+  },
+  {
+   "source": "Conti",
+   "type": "uses",
+   "target": "T1090.004",
+   "evidence": "Command and Control T1090.004 Proxy: Domain Fronting Utilisation du CND CLOUDFLARE afin de dissimuler le serveur"
+  },
+  {
+   "source": "Conti",
+   "type": "uses",
+   "target": "T1572",
+   "evidence": "Command and Control T1572 Protocol Tunneling Utilisation d’un tunnel SOCKS5 via l’implant SystemBC."
+  }
+ ],
+ "_meta": {
+  "engine": "0.4",
+  "model": "doc2stix-qwen3-8b:v3",
+  "seconds": 1578.4,
+  "errors": "1 unparsable chunk(s)"
+ }
+}

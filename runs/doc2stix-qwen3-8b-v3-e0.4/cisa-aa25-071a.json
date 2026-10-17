@@ -1,0 +1,1909 @@
+{
+ "entities": [
+  {
+   "type": "malware",
+   "name": "Medusa",
+   "evidence": "Medusa Ransomware"
+  },
+  {
+   "type": "malware",
+   "name": "Medusa",
+   "evidence": "Note: This advisory was originally published March 12, 2025, to share TTPs and IOCs of Medusa"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing campaigns",
+   "evidence": " Phishing campaigns as a primary method for stealing victim credentials [T1566].",
+   "mitre_id": "T1566"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation of unpatched software vulnerabilities",
+   "evidence": " Exploitation of unpatched software vulnerabilities [T1190] through Common Vulnerabilities and",
+   "mitre_id": "T1190"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-1709",
+   "evidence": "o ScreenConnect vulnerability CVE-2024-1709 [CWE-288: Authentication Bypass Using an"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-48788",
+   "evidence": "o Fortinet EMS SQL injection vulnerability CVE-2023-48788 [CWE 89: SQL Injection]."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2025-10035",
+   "evidence": "o (Updated, Aug. 18, 2026) Fortra GoAnywhere vulnerability CVE-2025-10035 [CWE-502:"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2026-1731",
+   "evidence": "o (Updated, Aug. 18, 2026) BeyondTrust vulnerability CVE-2026-1731 [CWE-78: OS Command"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Interactsh dynamic URLs",
+   "evidence": "(Updated Aug. 18, 2026) Medusa actors make use of Interactsh dynamic URLs to verify successful"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Living off the land",
+   "evidence": "Persistence and Discovery",
+   "mitre_id": "T1006"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "evidence": "Medusa actors primarily use PowerShell [T1059.001] and the Windows Command Prompt (cmd.exe)",
+   "mitre_id": "T1059.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Prompt",
+   "evidence": "Medusa actors primarily use PowerShell [T1059.001] and the Windows Command Prompt (cmd.exe)",
+   "mitre_id": "T1059.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "evidence": "Medusa actors primarily use PowerShell [T1059.001] and the Windows Command Prompt (cmd.exe)",
+   "mitre_id": "T1046"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "File and Directory Discovery",
+   "evidence": "Medusa actors primarily use PowerShell [T1059.001] and the Windows Command Prompt (cmd.exe)",
+   "mitre_id": "T1083"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Ingress Tool Transfer",
+   "evidence": "Medusa actors primarily use PowerShell [T1059.001] and the Windows Command Prompt (cmd.exe)",
+   "mitre_id": "T1105"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Windows Management Instrumentation",
+   "evidence": "Medusa actors use Windows Management Instrumentation (WMI) [T1047] for",
+   "mitre_id": "T1047"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information",
+   "evidence": "In this example, Medusa actors use a well-known stealth technique that executes a base64 encrypted",
+   "mitre_id": "T1027.013"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command Obfuscation",
+   "evidence": "In another example, the DownloadFile string is obfuscated by slicing it into pieces and referencing it via a",
+   "mitre_id": "T1027"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: Clear Command History",
+   "evidence": "Medusa actors attempt to cover their tracks by deleting the PowerShell command line history [T1070.003].",
+   "mitre_id": "T1070.003"
+  },
+  {
+   "type": "malware",
+   "name": "Medusa",
+   "evidence": "In some instances, Medusa actors attempted to use vulnerable or signed drivers to kill or delete endpoint detection and response (EDR) tools [T1685]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1027",
+   "evidence": "variable [T1027]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1071.001",
+   "evidence": "connection on local port 443 [T1071.001] and initiates a"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "mitre_id": "T1685",
+   "evidence": "In some instances, Medusa actors attempted to use vulnerable or signed drivers to kill or delete endpoint detection and response (EDR) tools [T1685]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Ingress Tool Transfer",
+   "mitre_id": "T1564.012",
+   "evidence": "(Updated Aug. 18, 2026) FBI has observed Medusa actors using the following tools to support command and control (C2) and"
+  },
+  {
+   "type": "tool",
+   "name": "Ligolo-ng",
+   "evidence": "FBI has observed Medusa actors using the following tools to support command and control (C2) and"
+  },
+  {
+   "type": "tool",
+   "name": "Cloudflared",
+   "evidence": "FBI has observed Medusa actors using the following tools to support command and control (C2) and"
+  },
+  {
+   "type": "tool",
+   "name": "Nezha",
+   "evidence": "(Updated Aug. 18, 2026) FBI has also observed Medusa actors using:"
+  },
+  {
+   "type": "malware",
+   "name": "powerfun.ps1",
+   "evidence": "The obfuscated base64 PowerShell payload is identical to powerfun.ps1, a publicly available stager script"
+  },
+  {
+   "type": "malware",
+   "name": "Medusa",
+   "evidence": "(Updated Aug. 18, 2026) Medusa actors use a variety of legitimate remote monitoring and management (RMM) software [T1219]. To evade detection, they may tailor their choice based on remote access tools"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Access Tools",
+   "mitre_id": "T1219",
+   "evidence": "Medusa actors use a variety of legitimate remote monitoring and management (RMM) software [T1219]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services",
+   "mitre_id": "T1021.001",
+   "evidence": "Medusa actors use these tools—in combination with Remote Desktop Protocol (RDP) [T1021.001] and PsExec"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001",
+   "evidence": "PsExec [T1569.002]—to move laterally [TA0008] through the network and identify files for exfiltration [TA0010]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "and encryption [T1486]. When provided with valid username and password credentials, Medusa actors use PsExec to:"
+  },
+  {
+   "type": "tool",
+   "name": "AnyDesk",
+   "evidence": "AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, and Splashtop. Medusa actors"
+  },
+  {
+   "type": "tool",
+   "name": "Atera",
+   "evidence": "AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, and Splashtop. Medusa actors"
+  },
+  {
+   "type": "tool",
+   "name": "ConnectWise",
+   "evidence": "AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, and Splashtop. Medusa actors"
+  },
+  {
+   "type": "tool",
+   "name": "eHorus",
+   "evidence": "AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, and Splashtop. Medusa actors"
+  },
+  {
+   "type": "tool",
+   "name": "N-able",
+   "evidence": "AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, and Splashtop. Medusa actors"
+  },
+  {
+   "type": "tool",
+   "name": "BeyondTrust",
+   "evidence": "AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, and Splashtop. Medusa actors"
+  },
+  {
+   "type": "tool",
+   "name": "SimpleHelp",
+   "evidence": "AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, and Splashtop. Medusa actors"
+  },
+  {
+   "type": "tool",
+   "name": "Splashtop",
+   "evidence": "AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, and Splashtop. Medusa actors"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001",
+   "evidence": "PsExec [T1569.002]—to move laterally [TA0008] through the network and identify files for exfiltration [TA0010]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "and encryption [T1486]. When provided with valid username and password credentials, Medusa actors use PsExec to:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001",
+   "evidence": "PsExec [T1569.002]—to move laterally [TA0008] through the network and identify files for exfiltration [TA0010]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "and encryption [T1486]. When provided with valid username and password credentials, Medusa actors use PsExec to:"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001",
+   "evidence": "PsExec [T1569.002]—to move laterally [TA0008] through the network and identify files for exfiltration [TA0010]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "and encryption [T1486]. When provided with valid username and password credentials, Medusa actors use PsExec to:"
+  },
+  {
+   "type": "malware",
+   "name": "Medusa",
+   "evidence": "(Updated Aug. 18, 2026) Medusa actors use Mimikatz, the Windows Task Manager, and comsvcs.dll for"
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz",
+   "evidence": "(Updated Aug. 18, 2026) Medusa actors use Mimikatz, the Windows Task Manager, and comsvcs.dll for"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "LSASS memory dumping",
+   "mitre_id": "T1003.001",
+   "evidence": "(Updated Aug. 18, 2026) Medusa actors use Mimikatz, the Windows Task Manager, and comsvcs.dll for"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credentials from Password Stores",
+   "mitre_id": "TA0006",
+   "evidence": "(Updated Aug. 18, 2026) Medusa actors use Mimikatz, the Windows Task Manager, and comsvcs.dll for"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify Tools",
+   "mitre_id": "T1484.001",
+   "evidence": "Medusa actors make changes to Active Directory Default Domain Policy settings to override Group Policy settings [T1484.001]. Specifically, Medusa actors set the Default Domain Policy to"
+  },
+  {
+   "type": "tool",
+   "name": "CrackMapExec",
+   "evidence": "(Updated Aug. 18, 2026) The actors used CrackMapExec (aka NetExec, aka NXC) to enumerate hosts on"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Alternative Protocol",
+   "mitre_id": "T1567.002",
+   "evidence": "Rclone to facilitate exfiltration of data to the Medusa C2 servers [T1567.002]."
+  },
+  {
+   "type": "tool",
+   "name": "Bandizip",
+   "evidence": "(Updated, Aug. 18, 2026) Medusa actors install and use Bandizip to create archives of exfiltration files and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "The information collected included IP address, hostname, operating system (OS) information, and other metadata."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation of Remote Services",
+   "mitre_id": "T1210",
+   "evidence": "The actors use the vssadmin command to create a new shadow copy for the C: drive. The"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "The actors can use the stolen files to create forged Kerberos tickets [T1558], effectively compromising the entire domain."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation of Remote Services",
+   "mitre_id": "T1210",
+   "evidence": "The actors use the vssadmin command to create a new shadow copy for the C: drive. The"
+  },
+  {
+   "type": "malware",
+   "name": "Medusa",
+   "evidence": "(Updated Aug. 18, 2026) Medusa actors make changes to Active Directory Default Domain Policy settings"
+  },
+  {
+   "type": "malware",
+   "name": "Bandizip",
+   "evidence": "Medusa actors install and use Bandizip to create archives of exfiltration files and"
+  },
+  {
+   "type": "malware",
+   "name": "Rclone",
+   "evidence": "Rclone to facilitate exfiltration of data to the Medusa C2 servers [T1567.002]."
+  },
+  {
+   "type": "malware",
+   "name": "rclone.exe",
+   "evidence": "Medusa actors obfuscate rclone.exe and associated rclone.conf files by"
+  },
+  {
+   "type": "malware",
+   "name": "rclone.conf",
+   "evidence": "Medusa actors obfuscate rclone.exe and associated rclone.conf files by"
+  },
+  {
+   "type": "malware",
+   "name": "rdpclip.exe",
+   "evidence": "using rdpclip.exe, RDP’s built-in file transfer"
+  },
+  {
+   "type": "malware",
+   "name": "gaze.exe",
+   "evidence": "gaze.exe, on files across the network—with the actors disabling Windows Defender and other antivirus"
+  },
+  {
+   "type": "malware",
+   "name": "gaze.py",
+   "evidence": "execute the encryptor using the command nohup python gaze.py &. Medusa actors also make use of"
+  },
+  {
+   "type": "malware",
+   "name": "ESXi host profile",
+   "evidence": "an ESXi host profile [T1675] to change root passwords on Linux machines."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "T1190 Medusa actors exploit unpatched software or n-day vulnerabilities",
+   "mitre_id": "T1190"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "through CVEs.",
+   "mitre_id": "T1190"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "Initial Access TA0001 Medusa actors recruit IABs in cybercriminal forums and",
+   "mitre_id": "TA0001"
+  },
+  {
+   "type": "malware",
+   "name": "Medusa",
+   "evidence": "T1190 Medusa actors exploit unpatched software or n-day vulnerabilities"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "mitre_id": "T1190",
+   "evidence": "T1190 Medusa actors exploit unpatched software or n-day vulnerabilities"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing",
+   "mitre_id": "T1566",
+   "evidence": "Phishing T1566 Medusa IABs use phishing campaigns as a primary method for"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: Clear Command History",
+   "mitre_id": "T1070.003",
+   "evidence": "T1070.003 Medusa actors attempt to cover their tracks by deleting the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information: Encrypted/Encoded File",
+   "mitre_id": "T1027.013",
+   "evidence": "T1027.013 Medusa actors use a well-known stealth technique that executes a"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information",
+   "mitre_id": "T1027",
+   "evidence": "Obfuscated Files or"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal",
+   "mitre_id": "T1070",
+   "evidence": "Indicator Removal T1070 Medusa actors delete their previous work and tools installed."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify Tools",
+   "mitre_id": "T1685",
+   "evidence": "T1685 Medusa actors kill or delete EDR tools."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Direct Volume Access",
+   "mitre_id": "T1006",
+   "evidence": "Medusa actors use vssadmin to bypass Windows file access"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Hide Artifacts: File/Path Exclusions",
+   "mitre_id": "T1564.012",
+   "evidence": "T1564.012 (Updated Aug. 18, 2026) Medusa actors operate in pre-existing"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "mitre_id": "T1046",
+   "evidence": "T1046 Medusa actors used LOTL techniques to perform network"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "File and Directory Discovery",
+   "mitre_id": "T1083",
+   "evidence": "T1083 Medusa actors use Windows Command Prompt for filesystem"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Share Discovery",
+   "mitre_id": "T1135",
+   "evidence": "T1135 Medusa actors query shared drives on the local system to gather"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "mitre_id": "T1016",
+   "evidence": "T1016 Medusa actors use OS administrative utilities to gather network"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Information Discovery",
+   "mitre_id": "T1082",
+   "evidence": "Medusa actors use the command systeminfo to gather detailed"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Owner/User Discovery",
+   "mitre_id": "T1033",
+   "evidence": "Medusa actors use the command query user to gather information"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Connections Discovery",
+   "mitre_id": "T1049",
+   "evidence": "Medusa actors use the command netstat -a to gather a listing of"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Permission Groups Discovery: Domain Groups",
+   "mitre_id": "T1069.002",
+   "evidence": "T1069.002 Medusa actors attempt to find domain-level group and permission"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: LSASS Memory",
+   "mitre_id": "T1003.001",
+   "evidence": "T1003.001 Medusa actors access credential material stored in process memory"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Steal or Forge Kerberos Tickets",
+   "mitre_id": "T1558",
+   "evidence": "(Updated Aug. 18, 2026) Medusa actors steal credentials by copying"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001",
+   "evidence": "T1059.001 Medusa actors use PowerShell for ingress, network, and filesystem"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "Medusa actors use Windows Command Prompt, which can be used"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Software Deployment Tools",
+   "mitre_id": "T1072",
+   "evidence": "T1072 Medusa actors use PDQ Deploy and BigFix to deploy the encryptor on"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Remote Desktop Protocol",
+   "mitre_id": "T1021.001",
+   "evidence": "T1021.001 Medusa actors use RDP, a common feature of OSs, to log into an"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Services: Service Execution",
+   "mitre_id": "T1569.002",
+   "evidence": "T1569.002 Medusa actors use Sysinternals PsExec to deploy the encryptor on"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Windows Management Instrumentation",
+   "mitre_id": "T1047",
+   "evidence": "Medusa actors abuse WMI to query system information."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "ESXi Administration Command",
+   "mitre_id": "T1675",
+   "evidence": "T1675"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Web Service: Exfiltration to Cloud Storage",
+   "mitre_id": "T1567.002",
+   "evidence": "T1567.002 Medusa actors use Rclone to facilitate exfiltration of data to the"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Ingress Tool Transfer",
+   "mitre_id": "T1105",
+   "evidence": "T1105 Medusa actors use PowerShell, Windows Command Prompt, and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Application Layer Protocol: Web Protocols",
+   "mitre_id": "T1071.001",
+   "evidence": "T1071.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Access Tools",
+   "mitre_id": "T1219",
+   "evidence": "T1219 Medusa actors used remote access software to move laterally"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create Account",
+   "mitre_id": "T1136.002",
+   "evidence": "T1136.002 Medusa actors created a domain account to maintain access to"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Domain or Tenant Policy Modification: Group Policy Modification",
+   "mitre_id": "T1484.001",
+   "evidence": "T1484.001 Medusa actors made changes to Active Directory Default Domain"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Encrypted for Impact",
+   "mitre_id": "T1486",
+   "evidence": "T1486 Medusa identified and encrypted data on target systems to interrupt"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Inhibit System Recovery",
+   "mitre_id": "T1490",
+   "evidence": "The process gaze.exe terminates all services and then deletes"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Financial Theft",
+   "mitre_id": "T1657",
+   "evidence": "Victims must pay to decrypt files and prevent further release by"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Shutdown/Reboot",
+   "mitre_id": "T1529",
+   "evidence": "Medusa actors remotely turned off and encrypted virtual machines."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Service Stop",
+   "mitre_id": "T1489",
+   "evidence": "The process gaze.exe terminates all services related to backups,"
+  },
+  {
+   "type": "malware",
+   "name": "Medusa",
+   "evidence": "If a potential compromise is detected, but ransomware actors have not yet encrypted items, organizations"
+  },
+  {
+   "type": "malware",
+   "name": "Ligolo-ng",
+   "evidence": "b. Remove C2 software—including SimpleHelp, Nezha, Cloudflared, and Ligolo—and lock down"
+  },
+  {
+   "type": "malware",
+   "name": "Cloudflared",
+   "evidence": "b. Remove C2 software—including SimpleHelp, Nezha, Cloudflared, and Ligolo—and lock down"
+  },
+  {
+   "type": "malware",
+   "name": "Nezha",
+   "evidence": "b. Remove C2 software—including SimpleHelp, Nezha, Cloudflared, and Ligolo—and lock down"
+  },
+  {
+   "type": "malware",
+   "name": "SimpleHelp",
+   "evidence": "b. Remove C2 software—including SimpleHelp, Nezha, Cloudflared, and Ligolo—and lock down"
+  },
+  {
+   "type": "malware",
+   "name": "Rclone",
+   "evidence": "Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "malware",
+   "name": "rclone.exe",
+   "evidence": "Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "malware",
+   "name": "rclone.conf",
+   "evidence": "Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "malware",
+   "name": "rdpclip.exe",
+   "evidence": "Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "malware",
+   "name": "gaze.exe",
+   "evidence": "Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "malware",
+   "name": "gaze.py",
+   "evidence": "Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "malware",
+   "name": "ESXi host profile",
+   "evidence": "Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "malware",
+   "name": "Medusa",
+   "evidence": " To aid in detecting the ransomware, implement a tool that logs and reports all network traffic, including lateral movement activity on a network. EDR tools are particularly useful for detecting lateral connections as they have insight into common and"
+  },
+  {
+   "type": "malware",
+   "name": "Ligolo-ng",
+   "evidence": "Named earlier in the document: Medusa, Ligolo-ng, Cloudflared, Nezha, powerfun.ps1, AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, Splashtop, Mimikatz, CrackMapExec, Bandizip, Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "malware",
+   "name": "Cloudflared",
+   "evidence": "Named earlier in the document: Medusa, Ligolo-ng, Cloudflared, Nezha, powerfun.ps1, AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, Splashtop, Mimikatz, CrackMapExec, Bandizip, Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "malware",
+   "name": "Nezha",
+   "evidence": "Named earlier in the document: Medusa, Ligolo-ng, Cloudflared, Nezha, powerfun.ps1, AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, Splashtop, Mimikatz, CrackMapExec, Bandizip, Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "malware",
+   "name": "powerfun.ps1",
+   "evidence": "Named earlier in the document: Medusa, Ligolo-ng, Cloudflared, Nezha, powerfun.ps1, AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, Splashtop, Mimikatz, CrackMapExec, Bandizip, Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "tool",
+   "name": "AnyDesk",
+   "evidence": "Named earlier in the document: Medusa, Ligolo-ng, Cloudflared, Nezha, powerfun.ps1, AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, Splashtop, Mimikatz, CrackMapExec, Bandizip, Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "tool",
+   "name": "Atera",
+   "evidence": "Named earlier in the document: Medusa, Ligolo-ng, Cloudflared, Nezha, powerfun.ps1, AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, Splashtop, Mimikatz, CrackMapExec, Bandizip, Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "tool",
+   "name": "ConnectWise",
+   "evidence": "Named earlier in the document: Medusa, Ligolo-ng, Cloudflared, Nezha, powerfun.ps1, AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, Splashtop, Mimikatz, CrackMapExec, Bandizip, Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "tool",
+   "name": "eHorus",
+   "evidence": "Named earlier in the document: Medusa, Ligolo-ng, Cloudflared, Nezha, powerfun.ps1, AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, Splashtop, Mimikatz, CrackMapExec, Bandizip, Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "tool",
+   "name": "N-able",
+   "evidence": "Named earlier in the document: Medusa, Ligolo-ng, Cloudflared, Nezha, powerfun.ps1, AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, Splashtop, Mimikatz, CrackMapExec, Bandizip, Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "tool",
+   "name": "BeyondTrust",
+   "evidence": "Named earlier in the document: Medusa, Ligolo-ng, Cloudflared, Nezha, powerfun.ps1, AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, Splashtop, Mimikatz, CrackMapExec, Bandizip, Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "tool",
+   "name": "SimpleHelp",
+   "evidence": "Named earlier in the document: Medusa, Ligolo-ng, Cloudflared, Nezha, powerfun.ps1, AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, Splashtop, Mimikatz, CrackMapExec, Bandizip, Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "tool",
+   "name": "Splashtop",
+   "evidence": "Named earlier in the document: Medusa, Ligolo-ng, Cloudflared, Nezha, powerfun.ps1, AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, Splashtop, Mimikatz, CrackMapExec, Bandizip, Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz",
+   "evidence": "Named earlier in the document: Medusa, Ligolo-ng, Cloudflared, Nezha, powerfun.ps1, AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, Splashtop, Mimikatz, CrackMapExec, Bandizip, Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "tool",
+   "name": "CrackMapExec",
+   "evidence": "Named earlier in the document: Medusa, Ligolo-ng, Cloudflared, Nezha, powerfun.ps1, AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, Splashtop, Mimikatz, CrackMapExec, Bandizip, Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "tool",
+   "name": "Bandizip",
+   "evidence": "Named earlier in the document: Medusa, Ligolo-ng, Cloudflared, Nezha, powerfun.ps1, AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, Splashtop, Mimikatz, CrackMapExec, Bandizip, Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "tool",
+   "name": "Rclone",
+   "evidence": "Named earlier in the document: Medusa, Ligolo-ng, Cloudflared, Nezha, powerfun.ps1, AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, Splashtop, Mimikatz, CrackMapExec, Bandizip, Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "tool",
+   "name": "rclone.exe",
+   "evidence": "Named earlier in the document: Medusa, Ligolo-ng, Cloudflared, Nezha, powerfun.ps1, AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, Splashtop, Mimikatz, CrackMapExec, Bandizip, Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "tool",
+   "name": "rclone.conf",
+   "evidence": "Named earlier in the document: Medusa, Ligolo-ng, Cloudflared, Nezha, powerfun.ps1, AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, Splashtop, Mimikatz, CrackMapExec, Bandizip, Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "tool",
+   "name": "rdpclip.exe",
+   "evidence": "Named earlier in the document: Medusa, Ligolo-ng, Cloudflared, Nezha, powerfun.ps1, AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, Splashtop, Mimikatz, CrackMapExec, Bandizip, Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "tool",
+   "name": "gaze.exe",
+   "evidence": "Named earlier in the document: Medusa, Ligolo-ng, Cloudflared, Nezha, powerfun.ps1, AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, Splashtop, Mimikatz, CrackMapExec, Bandizip, Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "tool",
+   "name": "gaze.py",
+   "evidence": "Named earlier in the document: Medusa, Ligolo-ng, Cloudflared, Nezha, powerfun.ps1, AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, Splashtop, Mimikatz, CrackMapExec, Bandizip, Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "tool",
+   "name": "ESXi host profile",
+   "evidence": "Named earlier in the document: Medusa, Ligolo-ng, Cloudflared, Nezha, powerfun.ps1, AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, Splashtop, Mimikatz, CrackMapExec, Bandizip, Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "malware",
+   "name": "Medusa",
+   "evidence": "Appendix: Medusa Commands"
+  },
+  {
+   "type": "tool",
+   "name": "Ligolo-ng",
+   "evidence": "Named earlier in the document: Medusa, Ligolo-ng, Cloudflared, Nezha, powerfun.ps1, AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, Splashtop, Mimikatz, CrackMapExec, Bandizip, Rclone, rclone.exe, rclone.conf, rdpclip.exe, gaze.exe, gaze.py, ESXi host profile"
+  },
+  {
+   "type": "malware",
+   "name": "Medusa",
+   "evidence": "Table 14. Medusa Commands (Updated Aug. 18, 2026)",
+   "aliases": [
+    "Ligolo-ng",
+    "Cloudflared",
+    "Nezha",
+    "powerfun.ps1",
+    "Atera",
+    "ConnectWise",
+    "eHorus",
+    "N-able",
+    "BeyondTrust",
+    "SimpleHelp",
+    "Splashtop",
+    "Mimikatz",
+    "CrackMapExec",
+    "Bandizip",
+    "Rclone",
+    "rclone.exe",
+    "rclone.conf",
+    "rdpclip.exe",
+    "gaze.exe",
+    "gaze.py",
+    "ESXi host profile"
+   ]
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing",
+   "mitre_id": "T1566",
+   "evidence": " Phishing campaigns as a primary method for stealing victim credentials [T1566]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "mitre_id": "T1190",
+   "evidence": " Exploitation of unpatched software vulnerabilities [T1190] through Common Vulnerabilities and"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001",
+   "evidence": "Medusa actors primarily use PowerShell [T1059.001] and the Windows Command Prompt (cmd.exe)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "[T1059.003] for network [T1046] and filesystem enumeration [T1083] and to utilize Ingress Tool Transfer"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "mitre_id": "T1046",
+   "evidence": "[T1059.003] for network [T1046] and filesystem enumeration [T1083] and to utilize Ingress Tool Transfer"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "File and Directory Discovery",
+   "mitre_id": "T1083",
+   "evidence": "[T1059.003] for network [T1046] and filesystem enumeration [T1083] and to utilize Ingress Tool Transfer"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Ingress Tool Transfer",
+   "mitre_id": "T1105",
+   "evidence": "capabilities [T1105]. Medusa actors use Windows Management Instrumentation (WMI) [T1047] for"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Windows Management Instrumentation",
+   "mitre_id": "T1047",
+   "evidence": "capabilities [T1105]. Medusa actors use Windows Management Instrumentation (WMI) [T1047] for"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: Clear Command History",
+   "mitre_id": "T1070.003",
+   "evidence": "command line history [T1070.003]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information: Encrypted/Encoded File",
+   "mitre_id": "T1027.013",
+   "evidence": "command [T1027.013] using specific execution settings."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information",
+   "mitre_id": "T1027",
+   "evidence": "variable [T1027]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Application Layer Protocol: Web Protocols",
+   "mitre_id": "T1071.001",
+   "evidence": "modules. In the bind shell, the script awaits a connection on local port 443 [T1071.001] and initiates a"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify Tools",
+   "mitre_id": "T1685",
+   "evidence": "detection and response (EDR) tools [T1685]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Hide Artifacts: File/Path Exclusions",
+   "mitre_id": "T1564.012",
+   "evidence": "excluded folders for stealth. [T1564.012]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Access Tools",
+   "mitre_id": "T1219",
+   "evidence": "(RMM) software [T1219]. To evade detection, they may tailor their choice based on remote access tools"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Remote Desktop Protocol",
+   "mitre_id": "T1021.001",
+   "evidence": "T1021.001] and PsExec"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Services: Service Execution",
+   "mitre_id": "T1569.002",
+   "evidence": "[T1569.002]—to move laterally [TA0008] through the network and identify files for exfiltration [TA0010]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Encrypted for Impact",
+   "mitre_id": "T1486",
+   "evidence": "and encryption [T1486]. When provided with valid username and password credentials, Medusa actors use"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: LSASS Memory",
+   "mitre_id": "T1003.001",
+   "evidence": "LSASS dumping [T1003.001] to harvest credentials [TA0006] and aid lateral movement. They disable"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Direct Volume Access",
+   "mitre_id": "T1006",
+   "evidence": "shadow copy to prevent discovery [T1006]. The actors can use the stolen files to create forged Kerberos"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Steal or Forge Kerberos Tickets",
+   "mitre_id": "T1558",
+   "evidence": "tickets [T1558], effectively compromising the entire domain."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Domain or Tenant Policy Modification: Group Policy Modification",
+   "mitre_id": "T1484.001",
+   "evidence": "to override Group Policy settings [T1484.001]. Specifically, Medusa actors set the Default Domain Policy to"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Web Service: Exfiltration to Cloud Storage",
+   "mitre_id": "T1567.002",
+   "evidence": "Rclone to facilitate exfiltration of data to the Medusa C2 servers [T1567.002]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Software Deployment Tools",
+   "mitre_id": "T1072",
+   "evidence": "The actors use Sysinternals PsExec, PDQ Inventory/Deploy, or BigFix [T1072] to deploy the encryptor,"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "ESXi Administration Command",
+   "mitre_id": "T1675",
+   "evidence": "an ESXi host profile [T1675] to change root passwords on Linux machines."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Service Stop",
+   "mitre_id": "T1489",
+   "evidence": "Encrypted files have a .medusa file extension. The process gaze.exe terminates all services [T1489]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Shutdown/Reboot",
+   "mitre_id": "T1529",
+   "evidence": "turn off [T1529] virtual machines, encrypt them, and delete their previously installed tools [T1070]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal",
+   "mitre_id": "T1070",
+   "evidence": "turn off [T1529] virtual machines, encrypt them, and delete their previously installed tools [T1070]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Financial Theft",
+   "mitre_id": "T1657",
+   "evidence": "Medusa RaaS uses a double-extortion model, where victims must pay [T1657] to decrypt files and prevent"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Share Discovery",
+   "mitre_id": "T1135",
+   "evidence": "T1135 Medusa actors query shared drives on the local system to gather"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery",
+   "mitre_id": "T1016",
+   "evidence": "T1016 Medusa actors use OS administrative utilities to gather network"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Information Discovery",
+   "mitre_id": "T1082",
+   "evidence": "T1082"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Owner/User Discovery",
+   "mitre_id": "T1033",
+   "evidence": "T1033"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Connections Discovery",
+   "mitre_id": "T1049",
+   "evidence": "T1049"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Permission Groups Discovery: Domain Groups",
+   "mitre_id": "T1069.002",
+   "evidence": "T1069.002 Medusa actors attempt to find domain-level group and permission"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create Account: Domain Account",
+   "mitre_id": "T1136.002",
+   "evidence": "Create Account T1136.002 Medusa actors created a domain account to maintain access to"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Inhibit System Recovery",
+   "mitre_id": "T1490",
+   "evidence": "T1490"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Binary Proxy Execution: MMC",
+   "mitre_id": "T1218.014",
+   "evidence": "mmc.exe compmgmt.msc /computer:{hostname/ip} [T1218.014]"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-1709",
+   "evidence": "o ScreenConnect vulnerability CVE-2024-1709 [CWE-288: Authentication Bypass Using an"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2023-48788",
+   "evidence": "o Fortinet EMS SQL injection vulnerability CVE-2023-48788 [CWE 89: SQL Injection]."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2025-10035",
+   "evidence": "o (Updated, Aug. 18, 2026) Fortra GoAnywhere vulnerability CVE-2025-10035 [CWE-502:"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2026-1731",
+   "evidence": "o (Updated, Aug. 18, 2026) BeyondTrust vulnerability CVE-2026-1731 [CWE-78: OS Command"
+  }
+ ],
+ "observables": [
+  {
+   "type": "ipv4-addr",
+   "value": "83.138.53.139",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://raw.githubusercontent.com/nezhahq/scripts/main/agent/install.ps1",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "raw.githubusercontent.com",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "github.com",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "83.138.53.139",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://raw.githubusercontent.com/nezhahq/scripts/main/agent/install.ps1",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "raw.githubusercontent.com",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "github.com",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "143.244.47.89",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "167.88.166.173",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "143.110.243.154",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.238.231.16",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "23.234.89.195",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "146.70.172.247",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "155.2.215.71",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "23.234.106.242",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "23.234.93.112",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "37.19.21.180",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "155.2.215.69",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.238.231.98",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "37.221.66.239",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.135.86.185",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "83.138.53.139",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.238.231.4",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.238.231.77",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.238.231.85",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "85.155.186.121",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "94.156.67.145",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://3324.requestcatcher.com/hihi",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "http//45.61.150.9:8000/storm.exe",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "2C7F328FEEB94608AAAF99EC70CB0323",
+   "hash": "MD5",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "D796259C44BE852327623FD2E40C47F2",
+   "hash": "MD5",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "4D0B6E3C9C33550A005E41663A1977CB",
+   "hash": "MD5",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "eb05429d25fc57b476428cdb0a134b2f",
+   "hash": "MD5",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "04b13b6cd5e5291b1cde78975a140feea7fd3bc3777c53caa1ab33426c83bfcc",
+   "hash": "SHA-256",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "b29defbbc4ebaa243c1712ccc4943374f1b6fb864c39ed9f70fceb17eee098db",
+   "hash": "SHA-256",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "44370f5c977e415981febf7dbb87a85c",
+   "hash": "MD5",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8f11d9067da087cb4185fa804caac2df",
+   "hash": "MD5",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "2df705c9be0465f1c73a9f5d35147723deb16b5e",
+   "hash": "SHA-256",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "45.61.150.94",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "83.138.53.139",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "94.156.67.145",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "2c7f328feeb94608aaaf99ec70cb0323",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "d796259c44be852327623fd2e40c47f2",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "4d0b6e3c9c33550a005e41663a1977cb",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "eb05429d25fc57b476428cdb0a134b2f",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "44370f5c977e415981febf7dbb87a85c",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "8f11d9067da087cb4185fa804caac2df",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "oast.pro",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "143.244.47.89",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "167.88.166.173",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "143.110.243.154",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "domain-name",
+   "value": "erp.ranasons.com",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.238.231.16",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "23.234.89.195",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "146.70.172.247",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "155.2.215.71",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "23.234.106.242",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "23.234.93.112",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "37.19.21.180",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "155.2.215.69",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.238.231.98",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "37.221.66.239",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.135.86.185",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "83.138.53.139",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.238.231.4",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.238.231.77",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "185.238.231.85",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "85.155.186.121",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "value": "94.156.67.145",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "http://45.61.150.94:8000/storm.exe",
+   "indicates": [
+    "Medusa"
+   ]
+  },
+  {
+   "type": "url",
+   "value": "https://3324.requestcatcher.com/hihi",
+   "indicates": [
+    "Medusa"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1566",
+   "evidence": "Phishing campaigns as a primary method for stealing victim credentials [T1566]."
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "Exploitation of unpatched software vulnerabilities [T1190] through Common Vulnerabilities and"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1006",
+   "evidence": "Persistence and Discovery"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1059.001",
+   "evidence": "Medusa actors primarily use PowerShell [T1059.001] and the Windows Command Prompt (cmd.exe)"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1059.003",
+   "evidence": "Medusa actors primarily use PowerShell [T1059.001] and the Windows Command Prompt (cmd.exe)"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1046",
+   "evidence": "Medusa actors primarily use PowerShell [T1059.001] and the Windows Command Prompt (cmd.exe)"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1083",
+   "evidence": "Medusa actors primarily use PowerShell [T1059.001] and the Windows Command Prompt (cmd.exe)"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1105",
+   "evidence": "Medusa actors primarily use PowerShell [T1059.001] and the Windows Command Prompt (cmd.exe)"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1047",
+   "evidence": "Medusa actors use Windows Management Instrumentation (WMI) [T1047] for"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1027.013",
+   "evidence": "In this example, Medusa actors use a well-known stealth technique that executes a base64 encrypted"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1027",
+   "evidence": "In another example, the DownloadFile string is obfuscated by slicing it into pieces and referencing it via a"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1070.003",
+   "evidence": "Medusa actors attempt to cover their tracks by deleting the PowerShell command line history [T1070.003]."
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1027",
+   "evidence": "variable [T1027]."
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1071.001",
+   "evidence": "connection on local port 443 [T1071.001] and initiates a"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1685",
+   "evidence": "In some instances, Medusa actors attempted to use vulnerable or signed drivers to kill or delete endpoint detection and response (EDR) tools [T1685]."
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1564.012",
+   "evidence": "(Updated Aug. 18, 2026) FBI has observed Medusa actors using the following tools to support command and control (C2) and"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1219",
+   "evidence": "Medusa actors use a variety of legitimate remote monitoring and management (RMM) software [T1219]."
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1021.001",
+   "evidence": "Medusa actors use these tools—in combination with Remote Desktop Protocol (RDP) [T1021.001] and PsExec"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1569.002",
+   "evidence": "PsExec [T1569.002]—to move laterally [TA0008] through the network and identify files for exfiltration [TA0010]"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1059.001",
+   "evidence": "PsExec [T1569.002]—to move laterally [TA0008] through the network and identify files for exfiltration [TA0010]"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1059.003",
+   "evidence": "and encryption [T1486]. When provided with valid username and password credentials, Medusa actors use PsExec to:"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "Credentials from Password Stores",
+   "evidence": "(Updated Aug. 18, 2026) Medusa actors use Mimikatz, the Windows Task Manager, and comsvcs.dll for"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "Disable or Modify Tools",
+   "evidence": "Medusa actors make changes to Active Directory Default Domain Policy settings to override Group Policy settings [T1484.001]. Specifically, Medusa actors set the Default Domain Policy to"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "Valid Accounts",
+   "evidence": "The information collected included IP address, hostname, operating system (OS) information, and other metadata."
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "Exploitation of Remote Services",
+   "evidence": "The actors use the vssadmin command to create a new shadow copy for the C: drive. The"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "Valid Accounts",
+   "evidence": "The actors can use the stolen files to create forged Kerberos tickets [T1558], effectively compromising the entire domain."
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "Exploitation of Remote Services",
+   "evidence": "The actors use the vssadmin command to create a new shadow copy for the C: drive. The"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "Exploit Public-Facing Application",
+   "evidence": "T1190 Medusa actors exploit unpatched software or n-day vulnerabilities"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "Exploit Public-Facing Application",
+   "evidence": "through CVEs.",
+   "mitre_id": "T1190"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "Exploit Public-Facing Application",
+   "evidence": "Initial Access TA0001 Medusa actors recruit IABs in cybercriminal forums and",
+   "mitre_id": "TA0001"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1486",
+   "evidence": "and encryption [T1486]. When provided with valid username and password credentials, Medusa actors use"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1003.001",
+   "evidence": "LSASS dumping [T1003.001] to harvest credentials [TA0006] and aid lateral movement. They disable"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1558",
+   "evidence": "tickets [T1558], effectively compromising the entire domain."
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1484.001",
+   "evidence": "to override Group Policy settings [T1484.001]. Specifically, Medusa actors set the Default Domain Policy to"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1567.002",
+   "evidence": "Rclone to facilitate exfiltration of data to the Medusa C2 servers [T1567.002]."
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1072",
+   "evidence": "The actors use Sysinternals PsExec, PDQ Inventory/Deploy, or BigFix [T1072] to deploy the encryptor,"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1675",
+   "evidence": "an ESXi host profile [T1675] to change root passwords on Linux machines."
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1489",
+   "evidence": "Encrypted files have a .medusa file extension. The process gaze.exe terminates all services [T1489]"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1529",
+   "evidence": "turn off [T1529] virtual machines, encrypt them, and delete their previously installed tools [T1070]."
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1070",
+   "evidence": "turn off [T1529] virtual machines, encrypt them, and delete their previously installed tools [T1070]."
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1657",
+   "evidence": "Medusa RaaS uses a double-extortion model, where victims must pay [T1657] to decrypt files and prevent"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1135",
+   "evidence": "T1135 Medusa actors query shared drives on the local system to gather"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1016",
+   "evidence": "T1016 Medusa actors use OS administrative utilities to gather network"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1082",
+   "evidence": "T1082"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1033",
+   "evidence": "T1033"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1049",
+   "evidence": "T1049"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1069.002",
+   "evidence": "T1069.002 Medusa actors attempt to find domain-level group and permission"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1136.002",
+   "evidence": "Create Account T1136.002 Medusa actors created a domain account to maintain access to"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1490",
+   "evidence": "T1490"
+  },
+  {
+   "source": "Medusa",
+   "type": "uses",
+   "target": "T1218.014",
+   "evidence": "mmc.exe compmgmt.msc /computer:{hostname/ip} [T1218.014]"
+  }
+ ],
+ "_meta": {
+  "engine": "0.4",
+  "model": "doc2stix-qwen3-8b:v3",
+  "seconds": 940.0,
+  "errors": ""
+ }
+}

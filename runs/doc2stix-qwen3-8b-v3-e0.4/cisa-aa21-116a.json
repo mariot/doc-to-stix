@@ -1,0 +1,145 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "APT 29",
+   "evidence": "Russian Foreign Intelligence Service (SVR) cyber actors—also known as Advanced Persistent Threat 29 (APT 29), the Dukes, CozyBear, and Yttrium—will continue to seek intelligence from US and",
+   "aliases": [
+    "CozyBear",
+    "Dukes",
+    "Yttrium",
+    "SVR"
+   ]
+  },
+  {
+   "type": "attack-pattern",
+   "name": "password spraying",
+   "evidence": "SVR cyber operations have posed a longstanding threat to the United States. Prior to 2018, several private cyber security companies published reports about APT 29 operations to obtain access to victim networks and steal information, highlighting the use of customized tools to maximize stealth inside victim networks and APT 29 actors’ ability to move within victim environments undetected.",
+   "mitre_id": "T1110.003"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT 29",
+   "evidence": "• In 2020, the governments of the United Kingdom, Canada, and the United States attributed intrusions"
+  },
+  {
+   "type": "malware",
+   "name": "WELLMESS",
+   "evidence": "WELLMESS Malware"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-19781",
+   "evidence": "In a separate incident, SVR actors used CVE-2019-19781, a zero-day exploit at the time, against a"
+  },
+  {
+   "type": "country",
+   "name": "United Kingdom",
+   "evidence": "In 2020, the governments of the United Kingdom, Canada, and the United States attributed intrusions"
+  },
+  {
+   "type": "country",
+   "name": "Canada",
+   "evidence": "In 2020, the governments of the United Kingdom, Canada, and the United States attributed intrusions"
+  },
+  {
+   "type": "country",
+   "name": "United States of America",
+   "evidence": "In 2020, the governments of the United Kingdom, Canada, and the United States attributed intrusions"
+  },
+  {
+   "type": "country",
+   "name": "Russian Federation",
+   "evidence": "Leveraging Zero-Day Vulnerability"
+  },
+  {
+   "type": "organization",
+   "name": "FBI",
+   "evidence": "To defend from this technique, the FBI and DHS recommend network operators to follow best"
+  },
+  {
+   "type": "organization",
+   "name": "DHS",
+   "evidence": "To defend from this technique, the FBI and DHS recommend network operators to follow best"
+  },
+  {
+   "type": "organization",
+   "name": "CISA",
+   "evidence": "To defend from this technique, the FBI and DHS recommend network operators to follow best"
+  },
+  {
+   "type": "tool",
+   "name": "Mimikatz",
+   "evidence": "The FBI also notes SVR cyber operators have used open source or commercially available tools"
+  },
+  {
+   "type": "tool",
+   "name": "Cobalt Strike",
+   "evidence": "The FBI also notes SVR cyber operators have used open source or commercially available tools"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2019-19781",
+   "evidence": "In a separate incident, SVR actors used CVE-2019-19781, a zero-day exploit at the time, against a"
+  }
+ ],
+ "observables": [
+  {
+   "type": "domain-name",
+   "value": "cock.li",
+   "indicates": [
+    "APT 29"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "WELLMESS",
+   "evidence": "In 2020, the governments of the United Kingdom, Canada, and the United States attributed intrusions"
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "United Kingdom",
+   "evidence": "In 2020, the governments of the United Kingdom, Canada, and the United States attributed intrusions"
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "Canada",
+   "evidence": "In 2020, the governments of the United Kingdom, Canada, and the United States attributed intrusions"
+  },
+  {
+   "source": "APT 29",
+   "type": "targets",
+   "target": "United States of America",
+   "evidence": "In 2020, the governments of the United Kingdom, Canada, and the United States attributed intrusions"
+  },
+  {
+   "source": "SVR",
+   "type": "originates-from",
+   "target": "Russian Federation",
+   "evidence": "Leveraging Zero-Day Vulnerability"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "Mimikatz",
+   "evidence": "The FBI also notes SVR cyber operators have used open source or commercially available tools"
+  },
+  {
+   "source": "APT 29",
+   "type": "uses",
+   "target": "Cobalt Strike",
+   "evidence": "The FBI also notes SVR cyber operators have used open source or commercially available tools"
+  }
+ ],
+ "_meta": {
+  "engine": "0.4",
+  "model": "doc2stix-qwen3-8b:v3",
+  "seconds": 38.6,
+  "errors": ""
+ }
+}

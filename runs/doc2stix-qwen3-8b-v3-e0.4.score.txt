@@ -1,0 +1,34 @@
+doc2stix-qwen3-8b-v3-e0.4 on 22 eval documents
+HEADLINE (mean F1)  0.689
+  entities       P 0.751  R 0.701  F1 0.725   (tp 885, fp 293, fn 377)
+  observables    P 0.880  R 0.956  F1 0.916   (tp 816, fp 111, fn 38)
+  relationships  P 0.500  R 0.368  F1 0.424   (tp 881, fp 882, fn 1513)
+    actors         P 0.614  R 0.659  F1 0.635
+    software       P 0.506  R 0.380  F1 0.434
+    techniques     P 0.855  R 0.850  F1 0.852
+    victims        P 0.471  R 0.422  F1 0.445
+    vulnerabilities P 0.937  R 0.990  F1 0.963
+
+per document (headline, entities F1, relationships F1, observables F1):
+  cisa-aa23-144a               0.692  0.639  0.482  0.957
+  cisa-aa24-190a               0.926  0.907  0.872  1.000
+  cisa-aa21-116a               0.529  0.457  0.129  1.000
+  cisa-aa23-347a               0.778  0.735  0.615  0.985
+  cisa-aa24-249a               0.671  0.483  0.593  0.939
+  cisa-aa24-241a               0.582  0.755  0.219  0.773
+  cisa-aa24-207a               0.566  0.700  0.000  0.997
+  cisa-aa23-158a               0.709  0.785  0.425  0.918
+  cisa-aa24-109a               0.708  0.795  0.452  0.875
+  cisa-aa25-071a               0.560  0.724  0.026  0.930
+  cisa-aa25-163a               0.385  0.154  0.000  1.000
+  cisa-aa23-201a               0.448  0.857  0.000  0.486
+  cisa-aa24-060b               0.638  0.615  0.352  0.946
+  cisa-aa23-320a               0.488  0.765  0.699  0.000
+  cisa-aa25-343a               0.686  0.730  0.329  1.000
+  cisa-aa23-335a               0.712  0.833  0.302  1.000
+  certfr-2021-cti-006          0.473  0.411  0.119  0.889
+  certfr-2023-cti-007          0.740  0.844  0.480  0.897
+  certfr-2023-cti-009          0.703  0.586  0.640  0.884
+  ncsc-mar-jaguar-tooth        0.217  0.650  0.000  0.000
+  ncsc-mar-small-sieve         0.939  0.889  0.929  1.000
+  ncsc-star-blizzard-2023      0.849  0.746  0.800  1.000

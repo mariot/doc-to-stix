@@ -1,0 +1,92 @@
+{
+ "entities": [
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-57727",
+   "evidence": "CISA added CVE-2024-57727 to its Known Exploited Vulnerabilities (KEV) Catalog on Feb. 13, 2025."
+  },
+  {
+   "type": "malware",
+   "name": "SimpleHelp",
+   "evidence": "SimpleHelp versions 5.5.7 and earlier contain several vulnerabilities, including CVE-2024-57727—a path"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Path Traversal",
+   "evidence": "SimpleHelp versions 5.5.7 and earlier contain several vulnerabilities, including CVE-2024-57727—a path",
+   "mitre_id": "T1218"
+  },
+  {
+   "type": "malware",
+   "name": "SimpleHelp",
+   "evidence": "▪ Health-ISAC: Threat Bulletin: SimpleHelp RMM Software Leveraged in Exploitation Attempt to"
+  },
+  {
+   "type": "campaign",
+   "name": "DragonForce",
+   "evidence": "1 Anthony Bradshaw, et. al., “DragonForce Actors Target SimpleHelp Vulnerabilities to Attack MSP, Customers,”"
+  },
+  {
+   "type": "sector",
+   "name": "Utilities",
+   "evidence": "To reduce opportunities for intrusion and to strengthen response to ransomware activity, CISA"
+  },
+  {
+   "type": "country",
+   "name": "United States of America",
+   "evidence": "CISA urges you to promptly report ransomware incidents to a local FBI Field Office, FBI’s Internet Crime"
+  },
+  {
+   "type": "organization",
+   "name": "CISA",
+   "evidence": "CISA urges you to promptly report ransomware incidents to a local FBI Field Office, FBI’s Internet Crime"
+  },
+  {
+   "type": "organization",
+   "name": "FBI",
+   "evidence": "CISA urges you to promptly report ransomware incidents to a local FBI Field Office, FBI’s Internet Crime"
+  },
+  {
+   "type": "organization",
+   "name": "SimpleHelp",
+   "evidence": "▪ Health-ISAC: Threat Bulletin: SimpleHelp RMM Software Leveraged in Exploitation Attempt to"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2025-163A",
+   "evidence": "Page 5 of 5 | Product ID: AA25-163A"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2024-57727",
+   "evidence": "SimpleHelp versions 5.5.7 and earlier contain several vulnerabilities, including CVE-2024-57727—a path"
+  }
+ ],
+ "observables": [],
+ "relationships": [
+  {
+   "source": "CVE-2024-57727",
+   "type": "exploits",
+   "target": "SimpleHelp",
+   "evidence": "Ransomware actors likely leveraged CVE-2024-57727 to access downstream customers’ unpatched SimpleHelp RMM for disruption of services in double extortion compromises."
+  },
+  {
+   "source": "DragonForce",
+   "type": "targets",
+   "target": "SimpleHelp",
+   "evidence": "1 Anthony Bradshaw, et. al., “DragonForce Actors Target SimpleHelp Vulnerabilities to Attack MSP, Customers,”"
+  },
+  {
+   "source": "DragonForce",
+   "type": "targets",
+   "target": "Utilities",
+   "evidence": "To reduce opportunities for intrusion and to strengthen response to ransomware activity, CISA"
+  }
+ ],
+ "_meta": {
+  "engine": "0.4",
+  "model": "doc2stix-qwen3-8b:v3",
+  "seconds": 30.4,
+  "errors": ""
+ }
+}

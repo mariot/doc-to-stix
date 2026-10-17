@@ -1,0 +1,3038 @@
+{
+ "entities": [
+  {
+   "type": "intrusion-set",
+   "name": "APT40",
+   "evidence": "This advisory, authored by the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the United States Cybersecurity and Infrastructure Security Agency (CISA), the United States National Security Agency (NSA), the United States Federal Bureau of Investigation (FBI), the United Kingdom National Cyber Security Centre (NCSC-UK), the Canadian Centre for Cyber Security (CCCS), the New Zealand National Cyber Security Centre (NCSC-NZ), the German Federal Intelligence Service (BND) and Federal Office for the Protection of the Constitution (BfV), the Republic of Korea’s National Intelligence Service (NIS) and NIS’ National Cyber Security Center, and Japan’s National Center of Incident Readiness and Strategy for Cybersecurity (NISC) and National Police Agency (NPA)—hereafter referred to as the “authoring agencies”—outlines a People’s Republic of China (PRC) state-sponsored cyber group and their current threat to Australian networks. The advisory draws on the authoring agencies’ shared understanding of the threat as well as ASD’s ACSC incident response investigations.",
+   "aliases": [
+    "Kryptonite Panda",
+    "GINGHAM TYPHOON",
+    "Leviathan",
+    "Bronze Mohawk"
+   ]
+  },
+  {
+   "type": "country",
+   "name": "People’s Republic of China",
+   "evidence": "The authoring agencies assess that this group conduct malicious cyber operations for the PRC Ministry of State Security (MSS)."
+  },
+  {
+   "type": "organization",
+   "name": "Australian Signals Directorate’s Australian Cyber Security Centre",
+   "evidence": "This advisory, authored by the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the United States Cybersecurity and Infrastructure Security Agency (CISA), the United States National Security Agency (NSA), the United States Federal Bureau of Investigation (FBI), the United Kingdom National Cyber Security Centre (NCSC-UK), the Canadian Centre for Cyber Security (CCCS), the New Zealand National Cyber Security Centre (NCSC-NZ), the German Federal Intelligence Service (BND) and Federal Office for the Protection of the Constitution (BfV), the Republic of Korea’s National Intelligence Service (NIS) and NIS’ National Cyber Security Center, and Japan’s National Center of Incident Readiness and Strategy for Cybersecurity (NISC) and National Police Agency (NPA)—hereafter referred to as the “authoring agencies”—outlines a People’s Republic of China (PRC) state-sponsored cyber group and their current threat to Australian networks. The advisory draws on the authoring agencies’ shared understanding of the threat as well as ASD’s ACSC incident response investigations."
+  },
+  {
+   "type": "organization",
+   "name": "United States Cybersecurity and Infrastructure Security Agency",
+   "evidence": "This advisory, authored by the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the United States Cybersecurity and Infrastructure Security Agency (CISA), the United States National Security Agency (NSA), the United States Federal Bureau of Investigation (FBI), the United Kingdom National Cyber Security Centre (NCSC-UK), the Canadian Centre for Cyber Security (CCCS), the New Zealand National Cyber Security Centre (NCSC-NZ), the German Federal Intelligence Service (BND) and Federal Office for the Protection of the Constitution (BfV), the Republic of Korea’s National Intelligence Service (NIS) and NIS’ National Cyber Security Center, and Japan’s National Center of Incident Readiness and Strategy for Cybersecurity (NISC) and National Police Agency (NPA)—hereafter referred to as the “authoring agencies”—outlines a People’s Republic of China (PRC) state-sponsored cyber group and their current threat to Australian networks. The advisory draws on the authoring agencies’ shared understanding of the threat as well as ASD’s ACSC incident response investigations."
+  },
+  {
+   "type": "organization",
+   "name": "United States National Security Agency",
+   "evidence": "This advisory, authored by the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the United States Cybersecurity and Infrastructure Security Agency (CISA), the United States National Security Agency (NSA), the United States Federal Bureau of Investigation (FBI), the United Kingdom National Cyber Security Centre (NCSC-UK), the Canadian Centre for Cyber Security (CCCS), the New Zealand National Cyber Security Centre (NCSC-NZ), the German Federal Intelligence Service (BND) and Federal Office for the Protection of the Constitution (BfV), the Republic of Korea’s National Intelligence Service (NIS) and NIS’ National Cyber Security Center, and Japan’s National Center of Incident Readiness and Strategy for Cybersecurity (NISC) and National Police Agency (NPA)—hereafter referred to as the “authoring agencies”—outlines a People’s Republic of China (PRC) state-sponsored cyber group and their current threat to Australian networks. The advisory draws on the authoring agencies’ shared understanding of the threat as well as ASD’s ACSC incident response investigations."
+  },
+  {
+   "type": "organization",
+   "name": "United States Federal Bureau of Investigation",
+   "evidence": "This advisory, authored by the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the United States Cybersecurity and Infrastructure Security Agency (CISA), the United States National Security Agency (NSA), the United States Federal Bureau of Investigation (FBI), the United Kingdom National Cyber Security Centre (NCSC-UK), the Canadian Centre for Cyber Security (CCCS), the New Zealand National Cyber Security Centre (NCSC-NZ), the German Federal Intelligence Service (BND) and Federal Office for the Protection of the Constitution (BfV), the Republic of Korea’s National Intelligence Service (NIS) and NIS’ National Cyber Security Center, and Japan’s National Center of Incident Readiness and Strategy for Cybersecurity (NISC) and National Police Agency (NPA)—hereafter referred to as the “authoring agencies”—outlines a People’s Republic of China (PRC) state-sponsored cyber group and their current threat to Australian networks. The advisory draws on the authoring agencies’ shared understanding of the threat as well as ASD’s ACSC incident response investigations."
+  },
+  {
+   "type": "organization",
+   "name": "United Kingdom National Cyber Security Centre",
+   "evidence": "This advisory, authored by the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the United States Cybersecurity and Infrastructure Security Agency (CISA), the United States National Security Agency (NSA), the United States Federal Bureau of Investigation (FBI), the United Kingdom National Cyber Security Centre (NCSC-UK), the Canadian Centre for Cyber Security (CCCS), the New Zealand National Cyber Security Centre (NCSC-NZ), the German Federal Intelligence Service (BND) and Federal Office for the Protection of the Constitution (BfV), the Republic of Korea’s National Intelligence Service (NIS) and NIS’ National Cyber Security Center, and Japan’s National Center of Incident Readiness and Strategy for Cybersecurity (NISC) and National Police Agency (NPA)—hereafter referred to as the “authoring agencies”—outlines a People’s Republic of China (PRC) state-sponsored cyber group and their current threat to Australian networks. The advisory draws on the authoring agencies’ shared understanding of the threat as well as ASD’s ACSC incident response investigations."
+  },
+  {
+   "type": "organization",
+   "name": "Canadian Centre for Cyber Security",
+   "evidence": "This advisory, authored by the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the United States Cybersecurity and Infrastructure Security Agency (CISA), the United States National Security Agency (NSA), the United States Federal Bureau of Investigation (FBI), the United Kingdom National Cyber Security Centre (NCSC-UK), the Canadian Centre for Cyber Security (CCCS), the New Zealand National Cyber Security Centre (NCSC-NZ), the German Federal Intelligence Service (BND) and Federal Office for the Protection of the Constitution (BfV), the Republic of Korea’s National Intelligence Service (NIS) and NIS’ National Cyber Security Center, and Japan’s National Center of Incident Readiness and Strategy for Cybersecurity (NISC) and National Police Agency (NPA)—hereafter referred to as the “authoring agencies”—outlines a People’s Republic of China (PRC) state-sponsored cyber group and their current threat to Australian networks. The advisory draws on the authoring agencies’ shared understanding of the threat as well as ASD’s ACSC incident response investigations."
+  },
+  {
+   "type": "organization",
+   "name": "New Zealand National Cyber Security Centre",
+   "evidence": "This advisory, authored by the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the United States Cybersecurity and Infrastructure Security Agency (CISA), the United States National Security Agency (NSA), the United States Federal Bureau of Investigation (FBI), the United Kingdom National Cyber Security Centre (NCSC-UK), the Canadian Centre for Cyber Security (CCCS), the New Zealand National Cyber Security Centre (NCSC-NZ), the German Federal Intelligence Service (BND) and Federal Office for the Protection of the Constitution (BfV), the Republic of Korea’s National Intelligence Service (NIS) and NIS’ National Cyber Security Center, and Japan’s National Center of Incident Readiness and Strategy for Cybersecurity (NISC) and National Police Agency (NPA)—hereafter referred to as the “authoring agencies”—outlines a People’s Republic of China (PRC) state-sponsored cyber group and their current threat to Australian networks. The advisory draws on the authoring agencies’ shared understanding of the threat as well as ASD’s ACSC incident response investigations."
+  },
+  {
+   "type": "organization",
+   "name": "German Federal Intelligence Service",
+   "evidence": "This advisory, authored by the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the United States Cybersecurity and Infrastructure Security Agency (CISA), the United States National Security Agency (NSA), the United States Federal Bureau of Investigation (FBI), the United Kingdom National Cyber Security Centre (NCSC-UK), the Canadian Centre for Cyber Security (CCCS), the New Zealand National Cyber Security Centre (NCSC-NZ), the German Federal Intelligence Service (BND) and Federal Office for the Protection of the Constitution (BfV), the Republic of Korea’s National Intelligence Service (NIS) and NIS’ National Cyber Security Center, and Japan’s National Center of Incident Readiness and Strategy for Cybersecurity (NISC) and National Police Agency (NPA)—hereafter referred to as the “authoring agencies”—outlines a People’s Republic of China (PRC) state-sponsored cyber group and their current threat to Australian networks. The advisory draws on the authoring agencies’ shared understanding of the threat as well as ASD’s ACSC incident response investigations."
+  },
+  {
+   "type": "organization",
+   "name": "Federal Office for the Protection of the Constitution",
+   "evidence": "This advisory, authored by the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the United States Cybersecurity and Infrastructure Security Agency (CISA), the United States National Security Agency (NSA), the United States Federal Bureau of Investigation (FBI), the United Kingdom National Cyber Security Centre (NCSC-UK), the Canadian Centre for Cyber Security (CCCS), the New Zealand National Cyber Security Centre (NCSC-NZ), the German Federal Intelligence Service (BND) and Federal Office for the Protection of the Constitution (BfV), the Republic of Korea’s National Intelligence Service (NIS) and NIS’ National Cyber Security Center, and Japan’s National Center of Incident Readiness and Strategy for Cybersecurity (NISC) and National Police Agency (NPA)—hereafter referred to as the “authoring agencies”—outlines a People’s Republic of China (PRC) state-sponsored cyber group and their current threat to Australian networks. The advisory draws on the authoring agencies’ shared understanding of the threat as well as ASD’s ACSC incident response investigations."
+  },
+  {
+   "type": "organization",
+   "name": "Republic of Korea’s National Intelligence Service",
+   "evidence": "This advisory, authored by the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the United States Cybersecurity and Infrastructure Security Agency (CISA), the United States National Security Agency (NSA), the United States Federal Bureau of Investigation (FBI), the United Kingdom National Cyber Security Centre (NCSC-UK), the Canadian Centre for Cyber Security (CCCS), the New Zealand National Cyber Security Centre (NCSC-NZ), the German Federal Intelligence Service (BND) and Federal Office for the Protection of the Constitution (BfV), the Republic of Korea’s National Intelligence Service (NIS) and NIS’ National Cyber Security Center, and Japan’s National Center of Incident Readiness and Strategy for Cybersecurity (NISC) and National Police Agency (NPA)—hereafter referred to as the “authoring agencies”—outlines a People’s Republic of China (PRC) state-sponsored cyber group and their current threat to Australian networks. The advisory draws on the authoring agencies’ shared understanding of the threat as well as ASD’s ACSC incident response investigations."
+  },
+  {
+   "type": "organization",
+   "name": "NIS’ National Cyber Security Center",
+   "evidence": "This advisory, authored by the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the United States Cybersecurity and Infrastructure Security Agency (CISA), the United States National Security Agency (NSA), the United States Federal Bureau of Investigation (FBI), the United Kingdom National Cyber Security Centre (NCSC-UK), the Canadian Centre for Cyber Security (CCCS), the New Zealand National Cyber Security Centre (NCSC-NZ), the German Federal Intelligence Service (BND) and Federal Office for the Protection of the Constitution (BfV), the Republic of Korea’s National Intelligence Service (NIS) and NIS’ National Cyber Security Center, and Japan’s National Center of Incident Readiness and Strategy for Cybersecurity (NISC) and National Police Agency (NPA)—hereafter referred to as the “authoring agencies”—outlines a People’s Republic of China (PRC) state-sponsored cyber group and their current threat to Australian networks. The advisory draws on the authoring agencies’ shared understanding of the threat as well as ASD’s ACSC incident response investigations."
+  },
+  {
+   "type": "organization",
+   "name": "Japan’s National Center of Incident Readiness and Strategy for Cybersecurity",
+   "evidence": "This advisory, authored by the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the United States Cybersecurity and Infrastructure Security Agency (CISA), the United States National Security Agency (NSA), the United States Federal Bureau of Investigation (FBI), the United Kingdom National Cyber Security Centre (NCSC-UK), the Canadian Centre for Cyber Security (CCCS), the New Zealand National Cyber Security Centre (NCSC-NZ), the German Federal Intelligence Service (BND) and Federal Office for the Protection of the Constitution (BfV), the Republic of Korea’s National Intelligence Service (NIS) and NIS’ National Cyber Security Center, and Japan’s National Center of Incident Readiness and Strategy for Cybersecurity (NISC) and National Police Agency (NPA)—hereafter referred to as the “authoring agencies”—outlines a People’s Republic of China (PRC) state-sponsored cyber group and their current threat to Australian networks. The advisory draws on the authoring agencies’ shared understanding of the threat as well as ASD’s ACSC incident response investigations."
+  },
+  {
+   "type": "organization",
+   "name": "National Police Agency",
+   "evidence": "This advisory, authored by the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the United States Cybersecurity and Infrastructure Security Agency (CISA), the United States National Security Agency (NSA), the United States Federal Bureau of Investigation (FBI), the United Kingdom National Cyber Security Centre (NCSC-UK), the Canadian Centre for Cyber Security (CCCS), the New Zealand National Cyber Security Centre (NCSC-NZ), the German Federal Intelligence Service (BND) and Federal Office for the Protection of the Constitution (BfV), the Republic of Korea’s National Intelligence Service (NIS) and NIS’ National Cyber Security Center, and Japan’s National Center of Incident Readiness and Strategy for Cybersecurity (NISC) and National Police Agency (NPA)—hereafter referred to as the “authoring agencies”—outlines a People’s Republic of China (PRC) state-sponsored cyber group and their current threat to Australian networks. The advisory draws on the authoring agencies’ shared understanding of the threat as well as ASD’s ACSC incident response investigations."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-44228",
+   "evidence": "APT40 regularly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021-31207 , CVE-2021-34523 , CVE-2021-34473 )."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-31207",
+   "evidence": "APT40 regularly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021-31207 , CVE-2021-34523 , CVE-2021-34473 )."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-26084",
+   "evidence": "APT40 regularly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021-31207 , CVE-2021-34523 , CVE-2021-34473 )."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-34523",
+   "evidence": "APT40 regularly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021-31207 , CVE-2021-34523 , CVE-2021-34473 )."
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-34473",
+   "evidence": "APT40 regularly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021-31207 , CVE-2021-34523 , CVE-2021-34473 )."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT40",
+   "evidence": "This group appears to prefer exploiting vulnerable, public-facing infrastructure over techniques that require user interaction, such as phishing campaigns, and places a high priority on obtaining valid credentials to enable a range of follow-on activities. APT40 regularly uses web shells [ T1505.003 ] for persistence, particularly early in the life cycle of an intrusion. Typically, after successful initial access APT40 focuses on establishing persistence to maintain access on the victim’s environment. However, as persistence occurs early in an intrusion, it is more likely to be observed in all intrusions—regardless of the extent of compromise or further actions taken."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Infrastructure",
+   "mitre_id": "T1001.003",
+   "evidence": "Once compromised, SOHO devices offer a launching point for attacks that is designed to blend in with legitimate traffic and challenge network defenders [ T1001.003 ]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Web Shell",
+   "mitre_id": "T1505.003",
+   "evidence": "APT40 regularly uses web shells [ T1505.003 ] for persistence, particularly early in the life cycle of an intrusion."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Compromise Infrastructure",
+   "mitre_id": "T1594",
+   "evidence": "Although APT40 has previously used compromised Australian websites as command and control (C2) hosts for its operations, the group have evolved this technique [ T1594 ]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Use of SOHO Devices",
+   "mitre_id": "T1584.008",
+   "evidence": "APT40 has embraced the global trend of using compromised devices, including small-office/home-office (SOHO) devices, as operational infrastructure and last-hop redirectors [ T1584.008 ] for its operations in Australia."
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT40",
+   "evidence": "Findings from the investigation indicate the organization was likely deliberately targeted by APT40, as opposed to falling victim opportunistically to a publicly known vulnerability."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "T1190 – Exploit Public-Facing Application (regarding exploiting the custom web application)",
+   "mitre_id": "T1190"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Domain Accounts",
+   "evidence": "T1078.002 – Valid Accounts: Domain Accounts (regarding logging on with comprised credentials)",
+   "mitre_id": "T1078.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter",
+   "evidence": "T1059 – Command and Scripting Interpreter (regarding command execution through the web shell)",
+   "mitre_id": "T1059"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Software Deployment Tools",
+   "evidence": "T1072 – Software Deployment Tools (regarding the actor using open-source tool Secure Socket Funnelling (SSF) to connect to an IP)",
+   "mitre_id": "T1072"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Shell",
+   "evidence": "T1505.003 – Server Software Component: Web Shell (regarding use of a web shell and SSF to establish access)",
+   "mitre_id": "T1505.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credentials from Password Stores",
+   "evidence": "T1552.001 – Credentials from Password Stores (regarding password files relating to building management system [BMS])",
+   "mitre_id": "T1552.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Steal or Forge Kerberos Tickets: Kerberoasting",
+   "evidence": "T1558.003 – Steal or Forge Kerberos Tickets: Kerberoasting (regarding attack to gain network credentials)",
+   "mitre_id": "T1558.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: SMB Shares",
+   "evidence": "T1021.002 – Remote Services: SMB Shares (regarding the actor mounting SMB shares from multiple devices)",
+   "mitre_id": "T1021.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Information Repositories",
+   "evidence": "T1213 – Data from Information Repositories (regarding manuals/documentation found on the BMS server)",
+   "mitre_id": "T1213"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over C2 Channel",
+   "evidence": "T1041 – Exfiltration Over C2 Channel (regarding the actor’s data exfiltration from Active Directory and mounting shares)",
+   "mitre_id": "T1041"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Search Victim-Owned Websites",
+   "evidence": "T1594 – Search Victim-Owned Websites",
+   "mitre_id": "T1594"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "evidence": "T1190 – Exploit Public-Facing Application (regarding exploiting the custom web application)",
+   "mitre_id": "T1190"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Domain Accounts",
+   "evidence": "T1078.002 – Valid Accounts: Domain Accounts (regarding logging on with comprised credentials)",
+   "mitre_id": "T1078.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter",
+   "evidence": "T1059 – Command and Scripting Interpreter (regarding command execution through the web shell)",
+   "mitre_id": "T1059"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Software Deployment Tools",
+   "evidence": "T1072 – Software Deployment Tools (regarding the actor using open-source tool Secure Socket Funnelling (SSF) to connect to an IP)",
+   "mitre_id": "T1072"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Shell",
+   "evidence": "T1505.003 – Server Software Component: Web Shell (regarding use of a web shell and SSF to establish access)",
+   "mitre_id": "T1505.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credentials from Password Stores",
+   "evidence": "T1552.001 – Credentials from Password Stores (regarding password files relating to building management system [BMS])",
+   "mitre_id": "T1552.001"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Steal or Forge Kerberos Tickets: Kerberoasting",
+   "evidence": "T1558.003 – Steal or Forge Kerberos Tickets: Kerberoasting (regarding attack to gain network credentials)",
+   "mitre_id": "T1558.003"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: SMB Shares",
+   "evidence": "T1021.002 – Remote Services: SMB Shares (regarding the actor mounting SMB shares from multiple devices)",
+   "mitre_id": "T1021.002"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Information Repositories",
+   "evidence": "T1213 – Data from Information Repositories (regarding manuals/documentation found on the BMS server)",
+   "mitre_id": "T1213"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over C2 Channel",
+   "evidence": "T1041 – Exfiltration Over C2 Channel (regarding the actor’s data exfiltration from Active Directory and mounting shares)",
+   "mitre_id": "T1041"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Search Victim-Owned Websites",
+   "evidence": "T1594 – Search Victim-Owned Websites",
+   "mitre_id": "T1594"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT40",
+   "evidence": "This report details the findings of ASD’s ACSC investigation into the successful compromise of the organization’s network in April 2022. This investigation report was provided to the organization to summarize observed malicious activity and frame remediation recommendations. The findings indicate the compromise was undertaken by APT40."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1213",
+   "evidence": "T1213 – Data from Information Repositories (regarding manuals/documentation found on the BMS server)"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT40",
+   "evidence": "by a malicious actor."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1528",
+   "evidence": "JWTs were captured ( T1528 ) and output to a file on HOST3."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1505.003",
+   "evidence": "Additional web shells were created on HOST1 ( T1505.003 ). JWTs were captured and output to a file on HOST1."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "TA0011",
+   "evidence": "A known malicious IP address interacts with the host ( TA0011 )."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1572",
+   "evidence": "The iptables-save command was used to add two open ports to the access gateway host. The ports were 9998 and 9999 ( T1572 )."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.004",
+   "evidence": "T1059.004 Command and Scripting Interpreter: Unix Shell"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1505.003",
+   "evidence": "Additional web shells are created on HOST1 ( T1505.003 ), and a known malicious IP address interacts with the host ( TA0011 )."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1068",
+   "evidence": "T1068 Exploitation for Privilege Escalation"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1056.003",
+   "evidence": "T1056.003 Input Capture: Web Portal Capture"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1111",
+   "evidence": "T1111 Multi-Factor Authentication Interception The actor also captured the value of MFA tokens"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1040",
+   "evidence": "T1040 Network Sniffing"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1539",
+   "evidence": "T1539 Steal Web Session Cookie"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1046",
+   "evidence": "T1046 Network Service Discovery"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1071.001",
+   "evidence": "T1071.001 Application Layer Protocol: Web Protocols"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1001.003",
+   "evidence": "T1001.003 Data Obfuscation: Protocol Impersonation"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT40",
+   "evidence": "This rule looks specifically for execution out of world writable directories within C:\\ and particularly C:\\Windows\\*",
+   "aliases": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT40",
+   "evidence": "The authoring agencies also recommend the following mitigations to combat APT40 and others’ use of the TTPs below."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1190",
+   "mitre_id": "T1190",
+   "evidence": "Exploitation of Public-Facing Application"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059",
+   "mitre_id": "T1059",
+   "evidence": "Command and Scripting Interpreter"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1505.003",
+   "mitre_id": "T1505.003",
+   "evidence": "Server Software Component: Web Shell"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1078",
+   "mitre_id": "T1078",
+   "evidence": "Valid Accounts"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1566",
+   "mitre_id": "T1566",
+   "evidence": "Phishing"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1047",
+   "mitre_id": "T1047",
+   "evidence": "Windows Management Instrumentation"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1053.002",
+   "mitre_id": "T1053.002",
+   "evidence": "Scheduled Task/Job: At"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1053.005",
+   "mitre_id": "T1053.005",
+   "evidence": "Scheduled Task/Job: Scheduled Task"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1106",
+   "mitre_id": "T1106",
+   "evidence": "Native API"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1559",
+   "mitre_id": "T1559",
+   "evidence": "Inter-Process Communication"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1569.002",
+   "mitre_id": "T1569.002",
+   "evidence": "System Services: Service Execution"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.001",
+   "mitre_id": "T1059.001",
+   "evidence": "Command and Scripting Interpreter: PowerShell"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1203",
+   "mitre_id": "T1203",
+   "evidence": "Exploitation for Client Execution"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.005",
+   "mitre_id": "T1059.005",
+   "evidence": "Command and Scripting Interpreter: Visual Basic"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1204.002",
+   "mitre_id": "T1204.002",
+   "evidence": "User Execution: Malicious File"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.004",
+   "mitre_id": "T1059.004",
+   "evidence": "Command and Scripting Interpreter: Unix Shell"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1059.002",
+   "mitre_id": "T1059.002",
+   "evidence": "Command and Scripting Interpreter: Apple Script"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1053.003",
+   "mitre_id": "T1053.003",
+   "evidence": "Scheduled Task/Job: Cron"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1072",
+   "mitre_id": "T1072",
+   "evidence": "Software Deployment Tools"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1543.003",
+   "mitre_id": "T1543.003",
+   "evidence": "Create or Modify System Process: Windows Service"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1547.001",
+   "mitre_id": "T1547.001",
+   "evidence": "Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1547.009",
+   "mitre_id": "T1547.009",
+   "evidence": "Boot or Logon Autostart Execution: Shortcut Modification"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1574.001",
+   "mitre_id": "T1574.001",
+   "evidence": "Hijack Execution Flow: DLL Search Order Hijacking"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1053.003",
+   "mitre_id": "T1053.003",
+   "evidence": "Scheduled Task/Job: Cron"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1574.002",
+   "mitre_id": "T1574.002",
+   "evidence": "Hijack Execution Flow: DLL Side-Loading"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1098",
+   "mitre_id": "T1098",
+   "evidence": "Account Manipulation"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1055.003",
+   "mitre_id": "T1055.003",
+   "evidence": "Process Injection: Thread Execution Hijacking"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1055.012",
+   "mitre_id": "T1055.012",
+   "evidence": "Process Injection: Process Hollowing"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1546.004",
+   "mitre_id": "T1546.004",
+   "evidence": "Event Triggered Execution: Unix Shell Configuration Modification"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1055.001",
+   "mitre_id": "T1055.001",
+   "evidence": "Process Injection: Dynamic-link Library Injection"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1014",
+   "mitre_id": "T1014",
+   "evidence": "Rootkit"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1202",
+   "mitre_id": "T1202",
+   "evidence": "Indirect Command Execution"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1027",
+   "mitre_id": "T1027",
+   "evidence": "Obfuscated Files or Information"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1218.005",
+   "mitre_id": "T1218.005",
+   "evidence": "System Binary Proxy Execution: Mshta"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1218.010",
+   "mitre_id": "T1218.010",
+   "evidence": "System Binary Proxy Execution: Regsvr32"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1027.002",
+   "mitre_id": "T1027.002",
+   "evidence": "Obfuscated Files or Information: Software Packing"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1027.003",
+   "mitre_id": "T1027.003",
+   "evidence": "Obfuscated Files or Information: Steganography"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1027.004",
+   "mitre_id": "T1027.004",
+   "evidence": "Obfuscated Files or Information: Compile After Delivery"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1222.002",
+   "mitre_id": "T1222.002",
+   "evidence": "File and Directory Permissions Modifications: Linux and Mac File and Directory Permissions Modification"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1036.005",
+   "mitre_id": "T1036.005",
+   "evidence": "Masquerading: Match Legitimate Name or Location"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1497.001",
+   "mitre_id": "T1497.001",
+   "evidence": "Virtualisation/Sandbox Evasion: System Checks"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1620",
+   "mitre_id": "T1620",
+   "evidence": "Reflective Code Loading"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1562.004",
+   "mitre_id": "T1562.004",
+   "evidence": "Impair Defences: Disable or Modify System Firewall"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1564.001",
+   "mitre_id": "T1564.001",
+   "evidence": "Hide Artifacts: Hidden Files and Directories"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1070.004",
+   "mitre_id": "T1070.004",
+   "evidence": "Indicator Removal: File Deletion"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1564.003",
+   "mitre_id": "T1564.003",
+   "evidence": "Hide Artifacts: Hidden Window"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1070.006",
+   "mitre_id": "T1070.006",
+   "evidence": "Indicator Removal: Timestomp"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "T1070.001",
+   "mitre_id": "T1070.001",
+   "evidence": "Indicator Removal: Clear Windows Event Logs"
+  },
+  {
+   "type": "intrusion-set",
+   "name": "APT40",
+   "evidence": "APT40",
+   "aliases": [
+    "China"
+   ]
+  },
+  {
+   "type": "country",
+   "name": "China",
+   "evidence": "China"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: Web Shell",
+   "mitre_id": "T1505.003",
+   "evidence": "This group appears to prefer exploiting vulnerable, public-facing infrastructure over techniques that require user interaction, such as phishing campaigns, and places a high priority on obtaining vali"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Search Victim-Owned Websites",
+   "mitre_id": "T1594",
+   "evidence": "Although APT40 has previously used compromised Australian websites as command and control (C2) hosts for its operations, the group have evolved this technique [ T1594 ]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Compromise Infrastructure: Network Devices",
+   "mitre_id": "T1584.008",
+   "evidence": "APT40 has embraced the global trend of using compromised devices, including small-office/home-office (SOHO) devices, as operational infrastructure and last-hop redirectors [ T1584.008 ] for its operat"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Obfuscation: Protocol or Service Impersonation",
+   "mitre_id": "T1001.003",
+   "evidence": "Many of these SOHO devices are end-of-life or unpatched and offer a soft target for N-day exploitation. Once compromised, SOHO devices offer a launching point for attacks that is designed to blend in "
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: SMB/Windows Admin Shares",
+   "mitre_id": "T1021.002",
+   "evidence": "The investigation uncovered evidence of large amounts of sensitive data being accessed and evidence that the actors moved laterally through the network [ T1021.002 ]. Much of the compromise was facili"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploit Public-Facing Application",
+   "mitre_id": "T1190",
+   "evidence": "Beginning in July, actors were able to test and exploit a custom web application [ T1190 ] running on <webapp>2-ext , which enables the group to establish a foothold in the network demilitarized zone "
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Domain Accounts",
+   "mitre_id": "T1078.002",
+   "evidence": "Beginning in July, actors were able to test and exploit a custom web application [ T1190 ] running on <webapp>2-ext , which enables the group to establish a foothold in the network demilitarized zone "
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote System Discovery",
+   "mitre_id": "T1018",
+   "evidence": "Beginning in July, actors were able to test and exploit a custom web application [ T1190 ] running on <webapp>2-ext , which enables the group to establish a foothold in the network demilitarized zone "
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Network Shared Drive",
+   "mitre_id": "T1039",
+   "evidence": "Beginning in July, actors were able to test and exploit a custom web application [ T1190 ] running on <webapp>2-ext , which enables the group to establish a foothold in the network demilitarized zone "
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Steal or Forge Kerberos Tickets: Kerberoasting",
+   "mitre_id": "T1558.003",
+   "evidence": "Beginning in July, actors were able to test and exploit a custom web application [ T1190 ] running on <webapp>2-ext , which enables the group to establish a foothold in the network demilitarized zone "
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Web Service",
+   "mitre_id": "T1102",
+   "evidence": "July: The actors established an initial connection to the front page of a custom web application [ T1190 ] built for the organization (hereafter referred to as the “web application” or “ webapp ”) via"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter",
+   "mitre_id": "T1059",
+   "evidence": "T1059 – Command and Scripting Interpreter (regarding command execution through the web shell)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Software Deployment Tools",
+   "mitre_id": "T1072",
+   "evidence": "T1072 – Software Deployment Tools (regarding the actor using open-source tool Secure Socket Funnelling (SSF) to connect to an IP)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Unsecured Credentials: Credentials In Files",
+   "mitre_id": "T1552.001",
+   "evidence": "T1552.001 – Credentials from Password Stores (regarding password files relating to building management system [BMS])"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Information Repositories",
+   "mitre_id": "T1213",
+   "evidence": "T1213 – Data from Information Repositories (regarding manuals/documentation found on the BMS server)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over C2 Channel",
+   "mitre_id": "T1041",
+   "evidence": "T1041 – Exfiltration Over C2 Channel (regarding the actor’s data exfiltration from Active Directory and mounting shares)"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Remote Desktop Protocol",
+   "mitre_id": "T1021.001",
+   "evidence": "The host with the compromised appliance provided authentication via Active Directory and a webserver, for users connecting to VDI sessions [ T1021.001 ]."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Server Software Component: SQL Stored Procedures",
+   "mitre_id": "T1505.001",
+   "evidence": "The ASD’s ACSC investigated limited data from the internal organization’s network segment. Attempted or successful malicious activity known to have impacted the internal organization’s network segment"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping",
+   "mitre_id": "T1003",
+   "evidence": "Using their access to the compromised appliance, the group collected genuine usernames, passwords [ T1003 ], and MFA token values [ T1111 ]. The group also collected JSON Web Tokens (JWTs) [ T1528 ], "
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Multi-Factor Authentication Interception",
+   "mitre_id": "T1111",
+   "evidence": "Using their access to the compromised appliance, the group collected genuine usernames, passwords [ T1003 ], and MFA token values [ T1111 ]. The group also collected JSON Web Tokens (JWTs) [ T1528 ], "
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Steal Application Access Token",
+   "mitre_id": "T1528",
+   "evidence": "Using their access to the compromised appliance, the group collected genuine usernames, passwords [ T1003 ], and MFA token values [ T1111 ]. The group also collected JSON Web Tokens (JWTs) [ T1528 ], "
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Service Session Hijacking: RDP Hijacking",
+   "mitre_id": "T1563.002",
+   "evidence": "Using their access to the compromised appliance, the group collected genuine usernames, passwords [ T1003 ], and MFA token values [ T1111 ]. The group also collected JSON Web Tokens (JWTs) [ T1528 ], "
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts",
+   "mitre_id": "T1078",
+   "evidence": "Using their access to the compromised appliance, the group collected genuine usernames, passwords [ T1003 ], and MFA token values [ T1111 ]. The group also collected JSON Web Tokens (JWTs) [ T1528 ], "
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal",
+   "mitre_id": "T1070",
+   "evidence": "A log file was modified ( T1070 ) on HOST3. This file contains credential material ( T1078 ) likely captured by a malicious actor."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create or Modify System Process",
+   "mitre_id": "T1543",
+   "evidence": "A script on HOST1 was modified by an actor ( T1543 ). This script contains functionality which would have scraped data from an internal SQL server."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Protocol Tunneling",
+   "mitre_id": "T1572",
+   "evidence": "The iptables-save command was used to add two open ports to the access gateway host. The ports were 9998 and 9999 ( T1572 )."
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Unix Shell",
+   "mitre_id": "T1059.004",
+   "evidence": "T1059.004 Command and Scripting Interpreter: Unix Shell"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Privilege Escalation",
+   "mitre_id": "T1068",
+   "evidence": "T1068 Exploitation for Privilege Escalation"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Input Capture: Web Portal Capture",
+   "mitre_id": "T1056.003",
+   "evidence": "T1056.003 Input Capture: Web Portal Capture"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Sniffing",
+   "mitre_id": "T1040",
+   "evidence": "T1040 Network Sniffing"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Steal Web Session Cookie",
+   "mitre_id": "T1539",
+   "evidence": "T1539 Steal Web Session Cookie"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Service Discovery",
+   "mitre_id": "T1046",
+   "evidence": "T1046 Network Service Discovery"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Application Layer Protocol: Web Protocols",
+   "mitre_id": "T1071.001",
+   "evidence": "T1071.001 Application Layer Protocol: Web Protocols"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information: Credentials",
+   "mitre_id": "T1589.001",
+   "evidence": "Gather Victim Identity Information: Credentials [T1589.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Active Scanning: Vulnerability Scanning",
+   "mitre_id": "T1595.002",
+   "evidence": "Active Scanning: Vulnerability Scanning [T1595.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Host Information",
+   "mitre_id": "T1592",
+   "evidence": "Gather Victim Host Information [T1592]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Search Open Websites/Domains: Search Engines",
+   "mitre_id": "T1593.002",
+   "evidence": "Search Open Websites/Domains: Search Engines [T1593.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Network Information: Domain Properties",
+   "mitre_id": "T1590.001",
+   "evidence": "Gather Victim Network Information: Domain Properties [T1590.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Gather Victim Identity Information: Email Addresses",
+   "mitre_id": "T1589.002",
+   "evidence": "Gather Victim Identity Information: Email Addresses [T1589.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure: Domains",
+   "mitre_id": "T1583.001",
+   "evidence": "Acquire Infrastructure: Domains [T1583.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure",
+   "mitre_id": "T1583",
+   "evidence": "Acquire Infrastructure [T1583]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Acquire Infrastructure: DNS Server",
+   "mitre_id": "T1583.002",
+   "evidence": "Acquire Infrastructure: DNS Server [T1583.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Compromise Accounts",
+   "mitre_id": "T1586",
+   "evidence": "Compromise Accounts [T1586]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Code Signing Certificates",
+   "mitre_id": "T1587.002",
+   "evidence": "Develop Capabilities: Code Signing Certificates [T1587.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Compromise Infrastructure",
+   "mitre_id": "T1584",
+   "evidence": "Compromise Infrastructure [T1584]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Digital Certificates",
+   "mitre_id": "T1587.003",
+   "evidence": "Develop Capabilities: Digital Certificates [T1587.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Develop Capabilities: Malware",
+   "mitre_id": "T1587.001",
+   "evidence": "Develop Capabilities: Malware [T1587.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obtain Capabilities: Code Signing Certificates",
+   "mitre_id": "T1588.003",
+   "evidence": "Obtain Capabilities: Code Signing Certificates [T1588.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Establish Accounts: Cloud Accounts",
+   "mitre_id": "T1585.003",
+   "evidence": "Establish Accounts: Cloud Accounts [T1585.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obtain Capabilities: Digital Certificates",
+   "mitre_id": "T1588.004",
+   "evidence": "Obtain Capabilities: Digital Certificates [T1588.004]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing",
+   "mitre_id": "T1566",
+   "evidence": "Phishing [T1566]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Default Accounts",
+   "mitre_id": "T1078.001",
+   "evidence": "Valid Accounts: Default Accounts [T1078.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing: Spearphishing Attachment",
+   "mitre_id": "T1566.001",
+   "evidence": "Phishing: Spearphishing Attachment [T1566.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Phishing: Spearphishing Link",
+   "mitre_id": "T1566.002",
+   "evidence": "Phishing: Spearphishing Link [T1566.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "External Remote Services",
+   "mitre_id": "T1133",
+   "evidence": "External Remote Services [T1133]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Drive-by Compromise",
+   "mitre_id": "T1189",
+   "evidence": "Drive-by Compromise [T1189]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Windows Management Instrumentation",
+   "mitre_id": "T1047",
+   "evidence": "Windows Management Instrumentation [T1047]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Python",
+   "mitre_id": "T1059.006",
+   "evidence": "Command and Scripting Interpreter: Python [T1059.006]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Scheduled Task/Job: At",
+   "mitre_id": "T1053.002",
+   "evidence": "Scheduled Task/Job: At [T1053.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: JavaScript",
+   "mitre_id": "T1059.007",
+   "evidence": "Command and Scripting Interpreter: JavaScript [T1059.007]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Scheduled Task/Job: Scheduled Task",
+   "mitre_id": "T1053.005",
+   "evidence": "Scheduled Task/Job: Scheduled Task [T1053.005]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Native API",
+   "mitre_id": "T1106",
+   "evidence": "Native API [T1106]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Inter-Process Communication",
+   "mitre_id": "T1559",
+   "evidence": "Inter-Process Communication [T1559]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Windows Command Shell",
+   "mitre_id": "T1059.003",
+   "evidence": "Command and Scripting Interpreter: Windows Command Shell [T1059.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Services: Service Execution",
+   "mitre_id": "T1569.002",
+   "evidence": "System Services: Service Execution [T1569.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: PowerShell",
+   "mitre_id": "T1059.001",
+   "evidence": "Command and Scripting Interpreter: PowerShell [T1059.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Client Execution",
+   "mitre_id": "T1203",
+   "evidence": "Exploitation for Client Execution [T1203]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: Visual Basic",
+   "mitre_id": "T1059.005",
+   "evidence": "Command and Scripting Interpreter: Visual Basic [T1059.005]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "User Execution: Malicious File",
+   "mitre_id": "T1204.002",
+   "evidence": "User Execution: Malicious File [T1204.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Command and Scripting Interpreter: AppleScript",
+   "mitre_id": "T1059.002",
+   "evidence": "Command and Scripting Interpreter: Apple Script [T1059.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Scheduled Task/Job: Cron",
+   "mitre_id": "T1053.003",
+   "evidence": "Scheduled Task/Job: Cron [T1053.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Office Application Startup: Office Template Macros",
+   "mitre_id": "T1137.001",
+   "evidence": "Office Application Startup: Office Template Macros [T1137.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Create or Modify System Process: Windows Service",
+   "mitre_id": "T1543.003",
+   "evidence": "Create or Modify System Process: Windows Service [T1543.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder",
+   "mitre_id": "T1547.001",
+   "evidence": "Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder [T1547.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Boot or Logon Autostart Execution: Shortcut Modification",
+   "mitre_id": "T1547.009",
+   "evidence": "Boot or Logon Autostart Execution: Shortcut Modification [T1547.009]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Hijack Execution Flow: DLL",
+   "mitre_id": "T1574.001",
+   "evidence": "Hijack Execution Flow: DLL Search Order Hijacking [T1574.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Manipulation",
+   "mitre_id": "T1098",
+   "evidence": "Account Manipulation [T1098]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Cloud Accounts",
+   "mitre_id": "T1078.004",
+   "evidence": "Valid Accounts: Cloud Accounts [T1078.004]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Process Injection: Thread Execution Hijacking",
+   "mitre_id": "T1055.003",
+   "evidence": "Process Injection: Thread Execution Hijacking [T1055.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Process Injection: Process Hollowing",
+   "mitre_id": "T1055.012",
+   "evidence": "Process Injection: Process Hollowing [T1055.012]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Access Token Manipulation: Token Impersonation/Theft",
+   "mitre_id": "T1134.001",
+   "evidence": "Access Token Manipulation: Token Impersonation/Theft [T1134.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Event Triggered Execution: Unix Shell Configuration Modification",
+   "mitre_id": "T1546.004",
+   "evidence": "Event Triggered Execution: Unix Shell Configuration Modification [T1546.004]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Process Injection: Dynamic-link Library Injection",
+   "mitre_id": "T1055.001",
+   "evidence": "Process Injection: Dynamic-link Library Injection [T1055.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Valid Accounts: Local Accounts",
+   "mitre_id": "T1078.003",
+   "evidence": "Valid Accounts: Local Accounts [T1078.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Rootkit",
+   "mitre_id": "T1014",
+   "evidence": "Rootkit [T1014]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indirect Command Execution",
+   "mitre_id": "T1202",
+   "evidence": "Indirect Command Execution [T1202]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information",
+   "mitre_id": "T1027",
+   "evidence": "Obfuscated Files or Information [T1027]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Binary Proxy Execution: Mshta",
+   "mitre_id": "T1218.005",
+   "evidence": "System Binary Proxy Execution: Mshta [T1218.005]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information: Software Packing",
+   "mitre_id": "T1027.002",
+   "evidence": "Obfuscated Files or Information: Software Packing [T1027.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Binary Proxy Execution: Regsvr32",
+   "mitre_id": "T1218.010",
+   "evidence": "System Binary Proxy Execution: Regsvr32 [T1218.010]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information: Steganography",
+   "mitre_id": "T1027.003",
+   "evidence": "Obfuscated Files or Information: Steganography [T1027.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Subvert Trust Controls: Code Signing",
+   "mitre_id": "T1553.002",
+   "evidence": "Subvert Trust Controls: Code Signing [T1553.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Obfuscated Files or Information: Compile After Delivery",
+   "mitre_id": "T1027.004",
+   "evidence": "Obfuscated Files or Information: Compile After Delivery [T1027.004]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "File and Directory Permissions Modification: Linux and Mac Permissions",
+   "mitre_id": "T1222.002",
+   "evidence": "File and Directory Permissions Modifications: Linux and Mac File and Directory Permissions Modification [T1222.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Match Legitimate Resource Name or Location",
+   "mitre_id": "T1036.005",
+   "evidence": "Masquerading: Match Legitimate Name or Location [T1036.005]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Virtualization/Sandbox Evasion: System Checks",
+   "mitre_id": "T1497.001",
+   "evidence": "Virtualisation/Sandbox Evasion: System Checks [T1497.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading",
+   "mitre_id": "T1036",
+   "evidence": "Masquerading [T1036]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Reflective Code Loading",
+   "mitre_id": "T1620",
+   "evidence": "Reflective Code Loading [T1620]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify System Firewall",
+   "mitre_id": "T1562.004",
+   "evidence": "Impair Defences: Disable or Modify System Firewall [T1562.004]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Hide Artifacts: Hidden Files and Directories",
+   "mitre_id": "T1564.001",
+   "evidence": "Hide Artifacts: Hidden Files and Directories [T1564.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: File Deletion",
+   "mitre_id": "T1070.004",
+   "evidence": "Indicator Removal: File Deletion [T1070.004]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Hide Artifacts: Hidden Window",
+   "mitre_id": "T1564.003",
+   "evidence": "Hide Artifacts: Hidden Window [T1564.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Indicator Removal: Timestomp",
+   "mitre_id": "T1070.006",
+   "evidence": "Indicator Removal: Timestomp [T1070.006]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify Tools: Clear Windows Event Logs",
+   "mitre_id": "T1070.001",
+   "evidence": "Indicator Removal: Clear Windows Event Logs [T1070.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Modify Registry",
+   "mitre_id": "T1112",
+   "evidence": "Modify Registry [T1112]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Deobfuscate/Decode Files or Information",
+   "mitre_id": "T1140",
+   "evidence": "Deobfuscate/Decode Files or Information [T1140]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Masquerading: Masquerade Task or Service",
+   "mitre_id": "T1036.004",
+   "evidence": "Masquerading: Masquerade Task or Service [T1036.004]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disable or Modify Tools",
+   "mitre_id": "T1562",
+   "evidence": "Impair Defenses [T1562]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: LSASS Memory",
+   "mitre_id": "T1003.001",
+   "evidence": "OS Credential Dumping: LSASS Memory [T1003.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: NTDS",
+   "mitre_id": "T1003.003",
+   "evidence": "OS Credential Dumping: NTDS [T1003.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force: Password Guessing",
+   "mitre_id": "T1110.001",
+   "evidence": "Brute Force: Password Guessing [T1110.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Forced Authentication",
+   "mitre_id": "T1187",
+   "evidence": "Forced Authentication [T1187]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credentials from Password Stores: Keychain",
+   "mitre_id": "T1555.001",
+   "evidence": "Credentials from Password Stores: Keychain [T1555.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Input Capture: Keylogging",
+   "mitre_id": "T1056.001",
+   "evidence": "Input Capture: Keylogging [T1056.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exploitation for Credential Access",
+   "mitre_id": "T1212",
+   "evidence": "Exploitation for Credential Access [T1212]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Brute Force: Password Cracking",
+   "mitre_id": "T1110.002",
+   "evidence": "Brute Force: Password Cracking [T1110.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "OS Credential Dumping: DCSync",
+   "mitre_id": "T1003.006",
+   "evidence": "OS Credential Dumping: DCSync [T1003.006]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credentials from Password Stores",
+   "mitre_id": "T1555",
+   "evidence": "Credentials from Password Stores [T1555]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Credentials from Password Stores: Credentials from Web Browsers",
+   "mitre_id": "T1555.003",
+   "evidence": "Credentials from Password Stores: Credentials from Web Browsers [T1555.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Service Discovery",
+   "mitre_id": "T1007",
+   "evidence": "System Service Discovery [T1007]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Information Discovery",
+   "mitre_id": "T1082",
+   "evidence": "System Information Discovery [T1082]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Application Window Discovery",
+   "mitre_id": "T1010",
+   "evidence": "Application Window Discovery [T1010]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Discovery: Local Account",
+   "mitre_id": "T1087.001",
+   "evidence": "Account Discovery: Local Account [T1087.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Query Registry",
+   "mitre_id": "T1012",
+   "evidence": "Query Registry [T1012]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "File and Directory Discovery",
+   "mitre_id": "T1083",
+   "evidence": "File and Directory Discovery [T1083]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Time Discovery",
+   "mitre_id": "T1124",
+   "evidence": "System Time Discovery [T1124]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Owner/User Discovery",
+   "mitre_id": "T1033",
+   "evidence": "System Owner/User Discovery [T1033]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Domain Trust Discovery",
+   "mitre_id": "T1482",
+   "evidence": "Domain Trust Discovery [T1482]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Discovery: Email Account",
+   "mitre_id": "T1087.003",
+   "evidence": "Account Discovery: Email Account [T1087.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Account Discovery: Domain Account",
+   "mitre_id": "T1087.002",
+   "evidence": "Account Discovery: Domain Account [T1087.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Connections Discovery",
+   "mitre_id": "T1049",
+   "evidence": "System Network Connections Discovery [T1049]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Process Discovery",
+   "mitre_id": "T1057",
+   "evidence": "Process Discovery [T1057]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Software Discovery",
+   "mitre_id": "T1518",
+   "evidence": "Software Discovery [T1518]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Permission Groups Discovery: Domain Groups",
+   "mitre_id": "T1069.002",
+   "evidence": "Permission Groups Discovery: Domain Groups [T1069.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Network Share Discovery",
+   "mitre_id": "T1135",
+   "evidence": "Network Share Discovery, Technique T1135 - Enterprise | MITRE ATT&CK®"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Network Configuration Discovery: Internet Connection Discovery",
+   "mitre_id": "T1016.001",
+   "evidence": "System Network Configuration Discovery: Internet Connection Discovery [T1016.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services",
+   "mitre_id": "T1021",
+   "evidence": "Remote Services [T1021]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Use Alternate Authentication Material: Pass the Ticket",
+   "mitre_id": "T1550.003",
+   "evidence": "Use Alternate Authentication Material: Pass the Ticket [T1550.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Remote Services: Windows Remote Management",
+   "mitre_id": "T1021.006",
+   "evidence": "Remote Services: Windows Remote Management [T1021.006]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Lateral Tool Transfer",
+   "mitre_id": "T1570",
+   "evidence": "Lateral Tool Transfer [T1570]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data from Local System",
+   "mitre_id": "T1005",
+   "evidence": "Data from Local System [T1005]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Archive Collected Data: Archive via Library",
+   "mitre_id": "T1560.002",
+   "evidence": "Archive Collected Data: Archive via Library [T1560.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection: Remote Email Collection",
+   "mitre_id": "T1114.002",
+   "evidence": "Email Collection: Remote Email Collection [T1114.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Clipboard Data",
+   "mitre_id": "T1115",
+   "evidence": "Clipboard Data [T1115]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Automated Collection",
+   "mitre_id": "T1119",
+   "evidence": "Automated Collection [T1119]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Staged: Remote Data Staging",
+   "mitre_id": "T1074.002",
+   "evidence": "Data Staged: Remote Data Staging [T1074.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Data Staged: Local Data Staging",
+   "mitre_id": "T1074.001",
+   "evidence": "Data Staged: Local Data Staging [T1074.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Archive Collected Data",
+   "mitre_id": "T1560",
+   "evidence": "Archive Collected Data [T1560]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Email Collection",
+   "mitre_id": "T1114",
+   "evidence": "Email Collection [T1114]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Alternative Protocol: Exfiltration Over Asymmetric Encrypted Non-C2 Protocol",
+   "mitre_id": "T1048.002",
+   "evidence": "Exfiltration Over Alternative Protocol: Exfiltration Over Asymmetric Encrypted Non-C2 Protocol [T1048.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Alternative Protocol",
+   "mitre_id": "T1048",
+   "evidence": "Exfiltration Over Alternative Protocol [T1048]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Exfiltration Over Web Service: Exfiltration to Cloud Storage",
+   "mitre_id": "T1567.002",
+   "evidence": "Exfiltration Over Web Service: Exfiltration to Cloud Storage [T1567.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Web Service: Dead Drop Resolver",
+   "mitre_id": "T1102.001",
+   "evidence": "Web Service: Dead Drop Resolver [T1102.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Commonly Used Port",
+   "mitre_id": "T1043",
+   "evidence": "Commonly Used Port [T1043]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Web Service: One-Way Communication",
+   "mitre_id": "T1102.003",
+   "evidence": "Web Service: One-way Communication [T1102.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Ingress Tool Transfer",
+   "mitre_id": "T1105",
+   "evidence": "Ingress Tool Transfer [T1105]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Application Layer Protocol: File Transfer Protocols",
+   "mitre_id": "T1071.002",
+   "evidence": "Application Layer Protocol: File Transfer Protocols [T1071.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy: Internal Proxy",
+   "mitre_id": "T1090.001",
+   "evidence": "Proxy: Internal Proxy [T1090.001]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy: External Proxy",
+   "mitre_id": "T1090.002",
+   "evidence": "Proxy: External Proxy [T1090.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Non-Standard Port",
+   "mitre_id": "T1571",
+   "evidence": "Non-Standard Port [T1571]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy: Multi-hop Proxy",
+   "mitre_id": "T1090.003",
+   "evidence": "Proxy: Multi-hop Proxy [T1090.003]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Web Service: Bidirectional Communication",
+   "mitre_id": "T1102.002",
+   "evidence": "Web Service: Bidirectional Communication [T1102.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Encrypted Channel",
+   "mitre_id": "T1573",
+   "evidence": "Encrypted Channel [T1573]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Encrypted Channel: Asymmetric Cryptography",
+   "mitre_id": "T1573.002",
+   "evidence": "Encrypted Channel: Asymmetric Cryptography [T1573.002]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Proxy",
+   "mitre_id": "T1090",
+   "evidence": "Proxy, Technique T1090 - Enterprise | MITRE ATT&CK®"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Service Stop",
+   "mitre_id": "T1489",
+   "evidence": "Service Stop [T1489]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Disk Wipe",
+   "mitre_id": "T1561",
+   "evidence": "Disk Wipe [T1561]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "System Shutdown/Reboot",
+   "mitre_id": "T1529",
+   "evidence": "System Shutdown/Reboot [T1529]"
+  },
+  {
+   "type": "attack-pattern",
+   "name": "Resource Hijacking",
+   "mitre_id": "T1496",
+   "evidence": "Resource Hijacking [T1496]"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-44228",
+   "evidence": "APT40 rapidly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-31207",
+   "evidence": "APT40 rapidly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-26084",
+   "evidence": "APT40 rapidly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-34523",
+   "evidence": "APT40 rapidly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021"
+  },
+  {
+   "type": "vulnerability",
+   "name": "CVE-2021-34473",
+   "evidence": "APT40 rapidly exploits newly public vulnerabilities in widely used software such as Log4J ( CVE-2021-44228 ), Atlassian Confluence ( CVE-2021-31207 , CVE-2021-26084 ) and Microsoft Exchange ( CVE-2021"
+  }
+ ],
+ "observables": [
+  {
+   "type": "file",
+   "value": "26a5a7e71a601be991073c78d513dee3",
+   "hash": "MD5",
+   "indicates": [
+    "horizon.jsp"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "87c88f06a7464db2534bc78ec2b915de",
+   "hash": "MD5",
+   "indicates": [
+    "Index_jsp$ProxyEndpoint$Attach.class"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "6a9bc68c9bc5cefaf1880ae6ffb1d0ca",
+   "hash": "MD5",
+   "indicates": [
+    "Index_jsp.class"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "64454645a9a21510226ab29e01e76d39",
+   "hash": "MD5",
+   "indicates": [
+    "Index_jsp.java"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e2175f91ce3da2e8d46b0639e941e13f",
+   "hash": "MD5",
+   "indicates": [
+    "Index_jsp$ProxyEndpoint.class"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9f89f069466b8b5c9bf25c9374a4daf8",
+   "hash": "MD5",
+   "indicates": [
+    "Index_jsp$ProxyEndpoint$1.class"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "187d6f2ed2c80f805461d9119a5878ac",
+   "hash": "MD5",
+   "indicates": [
+    "Index_jsp$ProxyEndpoint$2.class"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ed7178cec90ed21644e669378b3a97ec",
+   "hash": "MD5",
+   "indicates": [
+    "Nova_jsp.class"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "5bf7560d0a638e34035f85cd3788e258",
+   "hash": "MD5",
+   "indicates": [
+    "Nova_jsp$TomcatListenerMemShellFromThread.class"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e02be0dc614523ddd7a28c9e9d500cff",
+   "hash": "MD5",
+   "indicates": [
+    "Nova_jsp.java"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "26a5a7e71a601be991073c78d513dee3",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "87c88f06a7464db2534bc78ec2b915de",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "6a9bc68c9bc5cefaf1880ae6ffb1d0ca",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "64454645a9a21510226ab29e01e76d39",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e2175f91ce3da2e8d46b0639e941e13f",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "9f89f069466b8b5c9bf25c9374a4daf8",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "187d6f2ed2c80f805461d9119a5878ac",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "ed7178cec90ed21644e669378b3a97ec",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "5bf7560d0a638e34035f85cd3788e258",
+   "indicates": [
+    "APT40"
+   ]
+  },
+  {
+   "type": "file",
+   "value": "e02be0dc614523ddd7a28c9e9d500cff",
+   "indicates": [
+    "APT40"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "APT40 regularly uses web shells [ T1505.003 ] for persistence, particularly early in the life cycle of an intrusion."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1001.003",
+   "evidence": "Once compromised, SOHO devices offer a launching point for attacks that is designed to blend in with legitimate traffic and challenge network defenders [ T1001.003 ]."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1594",
+   "evidence": "Although APT40 has previously used compromised Australian websites as command and control (C2) hosts for its operations, the group have evolved this technique [ T1594 ]."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1584.008",
+   "evidence": "APT40 has embraced the global trend of using compromised devices, including small-office/home-office (SOHO) devices, as operational infrastructure and last-hop redirectors [ T1584.008 ] for its operations in Australia."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "T1190 – Exploit Public-Facing Application (regarding exploiting the custom web application)"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1078.002",
+   "evidence": "T1078.002 – Valid Accounts: Domain Accounts (regarding logging on with comprised credentials)"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1059",
+   "evidence": "T1059 – Command and Scripting Interpreter (regarding command execution through the web shell)"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1072",
+   "evidence": "T1072 – Software Deployment Tools (regarding the actor using open-source tool Secure Socket Funnelling (SSF) to connect to an IP)"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "T1505.003 – Server Software Component: Web Shell (regarding use of a web shell and SSF to establish access)"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1552.001",
+   "evidence": "T1552.001 – Credentials from Password Stores (regarding password files relating to building management system [BMS])"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1558.003",
+   "evidence": "T1558.003 – Steal or Forge Kerberos Tickets: Kerberoasting (regarding attack to gain network credentials)"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1021.002",
+   "evidence": "T1021.002 – Remote Services: SMB Shares (regarding the actor mounting SMB shares from multiple devices)"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1213",
+   "evidence": "T1213 – Data from Information Repositories (regarding manuals/documentation found on the BMS server)"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1041",
+   "evidence": "T1041 – Exfiltration Over C2 Channel (regarding the actor’s data exfiltration from Active Directory and mounting shares)"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1594",
+   "evidence": "T1594 – Search Victim-Owned Websites"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1213",
+   "evidence": "T1213 – Data from Information Repositories (regarding manuals/documentation found on the BMS server)"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1528",
+   "evidence": "JWTs were captured ( T1528 ) and output to a file on HOST3."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "Additional web shells were created on HOST1 ( T1505.003 ). JWTs were captured and output to a file on HOST1."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "TA0011",
+   "evidence": "A known malicious IP address interacts with the host ( TA0011 )."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1572",
+   "evidence": "The iptables-save command was used to add two open ports to the access gateway host. The ports were 9998 and 9999 ( T1572 )."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1059.004",
+   "evidence": "T1059.004 Command and Scripting Interpreter: Unix Shell"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "Additional web shells are created on HOST1 ( T1505.003 ), and a known malicious IP address interacts with the host ( TA0011 )."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1068",
+   "evidence": "T1068 Exploitation for Privilege Escalation"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1056.003",
+   "evidence": "T1056.003 Input Capture: Web Portal Capture"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1111",
+   "evidence": "T1111 Multi-Factor Authentication Interception The actor also captured the value of MFA tokens"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1040",
+   "evidence": "T1040 Network Sniffing"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1539",
+   "evidence": "T1539 Steal Web Session Cookie"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1046",
+   "evidence": "T1046 Network Service Discovery"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1071.001",
+   "evidence": "T1071.001 Application Layer Protocol: Web Protocols"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1001.003",
+   "evidence": "T1001.003 Data Obfuscation: Protocol Impersonation"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1190",
+   "evidence": "Exploitation of Public-Facing Application"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1059",
+   "evidence": "Command and Scripting Interpreter"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1505.003",
+   "evidence": "Server Software Component: Web Shell"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1078",
+   "evidence": "Valid Accounts"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1566",
+   "evidence": "Phishing"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1047",
+   "evidence": "Windows Management Instrumentation"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1053.002",
+   "evidence": "Scheduled Task/Job: At"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1053.005",
+   "evidence": "Scheduled Task/Job: Scheduled Task"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1106",
+   "evidence": "Native API"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1559",
+   "evidence": "Inter-Process Communication"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1569.002",
+   "evidence": "System Services: Service Execution"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1059.001",
+   "evidence": "Command and Scripting Interpreter: PowerShell"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1203",
+   "evidence": "Exploitation for Client Execution"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1059.005",
+   "evidence": "Command and Scripting Interpreter: Visual Basic"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1204.002",
+   "evidence": "User Execution: Malicious File"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1059.004",
+   "evidence": "Command and Scripting Interpreter: Unix Shell"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1059.002",
+   "evidence": "Command and Scripting Interpreter: Apple Script"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1053.003",
+   "evidence": "Scheduled Task/Job: Cron"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1072",
+   "evidence": "Software Deployment Tools"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1543.003",
+   "evidence": "Create or Modify System Process: Windows Service"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1547.001",
+   "evidence": "Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1547.009",
+   "evidence": "Boot or Logon Autostart Execution: Shortcut Modification"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1574.001",
+   "evidence": "Hijack Execution Flow: DLL Search Order Hijacking"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1053.003",
+   "evidence": "Scheduled Task/Job: Cron"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1574.002",
+   "evidence": "Hijack Execution Flow: DLL Side-Loading"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1098",
+   "evidence": "Account Manipulation"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1055.003",
+   "evidence": "Process Injection: Thread Execution Hijacking"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1055.012",
+   "evidence": "Process Injection: Process Hollowing"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1546.004",
+   "evidence": "Event Triggered Execution: Unix Shell Configuration Modification"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1055.001",
+   "evidence": "Process Injection: Dynamic-link Library Injection"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1014",
+   "evidence": "Rootkit"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1202",
+   "evidence": "Indirect Command Execution"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1027",
+   "evidence": "Obfuscated Files or Information"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1218.005",
+   "evidence": "System Binary Proxy Execution: Mshta"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1218.010",
+   "evidence": "System Binary Proxy Execution: Regsvr32"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1027.002",
+   "evidence": "Obfuscated Files or Information: Software Packing"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1027.003",
+   "evidence": "Obfuscated Files or Information: Steganography"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1027.004",
+   "evidence": "Obfuscated Files or Information: Compile After Delivery"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1222.002",
+   "evidence": "File and Directory Permissions Modifications: Linux and Mac File and Directory Permissions Modification"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1036.005",
+   "evidence": "Masquerading: Match Legitimate Name or Location"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1497.001",
+   "evidence": "Virtualisation/Sandbox Evasion: System Checks"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1620",
+   "evidence": "Reflective Code Loading"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1562.004",
+   "evidence": "Impair Defences: Disable or Modify System Firewall"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1564.001",
+   "evidence": "Hide Artifacts: Hidden Files and Directories"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1070.004",
+   "evidence": "Indicator Removal: File Deletion"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1564.003",
+   "evidence": "Hide Artifacts: Hidden Window"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1070.006",
+   "evidence": "Indicator Removal: Timestomp"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1070.001",
+   "evidence": "Indicator Removal: Clear Windows Event Logs"
+  },
+  {
+   "source": "APT40",
+   "type": "originates-from",
+   "target": "China",
+   "evidence": "China"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1018",
+   "evidence": "Beginning in July, actors were able to test and exploit a custom web application [ T1190 ] running on <webapp>2-ext , which enables the group to establish a foothold in the network demilitarized zone "
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1039",
+   "evidence": "Beginning in July, actors were able to test and exploit a custom web application [ T1190 ] running on <webapp>2-ext , which enables the group to establish a foothold in the network demilitarized zone "
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1102",
+   "evidence": "July: The actors established an initial connection to the front page of a custom web application [ T1190 ] built for the organization (hereafter referred to as the “web application” or “ webapp ”) via"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1021.001",
+   "evidence": "The host with the compromised appliance provided authentication via Active Directory and a webserver, for users connecting to VDI sessions [ T1021.001 ]."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1505.001",
+   "evidence": "The ASD’s ACSC investigated limited data from the internal organization’s network segment. Attempted or successful malicious activity known to have impacted the internal organization’s network segment"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1003",
+   "evidence": "Using their access to the compromised appliance, the group collected genuine usernames, passwords [ T1003 ], and MFA token values [ T1111 ]. The group also collected JSON Web Tokens (JWTs) [ T1528 ], "
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1111",
+   "evidence": "Using their access to the compromised appliance, the group collected genuine usernames, passwords [ T1003 ], and MFA token values [ T1111 ]. The group also collected JSON Web Tokens (JWTs) [ T1528 ], "
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1528",
+   "evidence": "Using their access to the compromised appliance, the group collected genuine usernames, passwords [ T1003 ], and MFA token values [ T1111 ]. The group also collected JSON Web Tokens (JWTs) [ T1528 ], "
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1563.002",
+   "evidence": "Using their access to the compromised appliance, the group collected genuine usernames, passwords [ T1003 ], and MFA token values [ T1111 ]. The group also collected JSON Web Tokens (JWTs) [ T1528 ], "
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1070",
+   "evidence": "A log file was modified ( T1070 ) on HOST3. This file contains credential material ( T1078 ) likely captured by a malicious actor."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1543",
+   "evidence": "A script on HOST1 was modified by an actor ( T1543 ). This script contains functionality which would have scraped data from an internal SQL server."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1572",
+   "evidence": "The iptables-save command was used to add two open ports to the access gateway host. The ports were 9998 and 9999 ( T1572 )."
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1059.004",
+   "evidence": "T1059.004 Command and Scripting Interpreter: Unix Shell"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1068",
+   "evidence": "T1068 Exploitation for Privilege Escalation"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1056.003",
+   "evidence": "T1056.003 Input Capture: Web Portal Capture"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1040",
+   "evidence": "T1040 Network Sniffing"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1539",
+   "evidence": "T1539 Steal Web Session Cookie"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1046",
+   "evidence": "T1046 Network Service Discovery"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1071.001",
+   "evidence": "T1071.001 Application Layer Protocol: Web Protocols"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1589.001",
+   "evidence": "Gather Victim Identity Information: Credentials [T1589.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1595.002",
+   "evidence": "Active Scanning: Vulnerability Scanning [T1595.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1592",
+   "evidence": "Gather Victim Host Information [T1592]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1593.002",
+   "evidence": "Search Open Websites/Domains: Search Engines [T1593.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1590.001",
+   "evidence": "Gather Victim Network Information: Domain Properties [T1590.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1589.002",
+   "evidence": "Gather Victim Identity Information: Email Addresses [T1589.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1583.001",
+   "evidence": "Acquire Infrastructure: Domains [T1583.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1583",
+   "evidence": "Acquire Infrastructure [T1583]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1583.002",
+   "evidence": "Acquire Infrastructure: DNS Server [T1583.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1586",
+   "evidence": "Compromise Accounts [T1586]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1587.002",
+   "evidence": "Develop Capabilities: Code Signing Certificates [T1587.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1584",
+   "evidence": "Compromise Infrastructure [T1584]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1587.003",
+   "evidence": "Develop Capabilities: Digital Certificates [T1587.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1587.001",
+   "evidence": "Develop Capabilities: Malware [T1587.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1588.003",
+   "evidence": "Obtain Capabilities: Code Signing Certificates [T1588.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1585.003",
+   "evidence": "Establish Accounts: Cloud Accounts [T1585.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1588.004",
+   "evidence": "Obtain Capabilities: Digital Certificates [T1588.004]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1078.001",
+   "evidence": "Valid Accounts: Default Accounts [T1078.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1566.001",
+   "evidence": "Phishing: Spearphishing Attachment [T1566.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1566.002",
+   "evidence": "Phishing: Spearphishing Link [T1566.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1133",
+   "evidence": "External Remote Services [T1133]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1189",
+   "evidence": "Drive-by Compromise [T1189]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1059.006",
+   "evidence": "Command and Scripting Interpreter: Python [T1059.006]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1059.007",
+   "evidence": "Command and Scripting Interpreter: JavaScript [T1059.007]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1059.003",
+   "evidence": "Command and Scripting Interpreter: Windows Command Shell [T1059.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1137.001",
+   "evidence": "Office Application Startup: Office Template Macros [T1137.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1078.004",
+   "evidence": "Valid Accounts: Cloud Accounts [T1078.004]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1134.001",
+   "evidence": "Access Token Manipulation: Token Impersonation/Theft [T1134.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1078.003",
+   "evidence": "Valid Accounts: Local Accounts [T1078.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1553.002",
+   "evidence": "Subvert Trust Controls: Code Signing [T1553.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1036",
+   "evidence": "Masquerading [T1036]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1112",
+   "evidence": "Modify Registry [T1112]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1140",
+   "evidence": "Deobfuscate/Decode Files or Information [T1140]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1036.004",
+   "evidence": "Masquerading: Masquerade Task or Service [T1036.004]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1562",
+   "evidence": "Impair Defenses [T1562]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1003.001",
+   "evidence": "OS Credential Dumping: LSASS Memory [T1003.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1003.003",
+   "evidence": "OS Credential Dumping: NTDS [T1003.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1110.001",
+   "evidence": "Brute Force: Password Guessing [T1110.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1187",
+   "evidence": "Forced Authentication [T1187]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1555.001",
+   "evidence": "Credentials from Password Stores: Keychain [T1555.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1056.001",
+   "evidence": "Input Capture: Keylogging [T1056.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1212",
+   "evidence": "Exploitation for Credential Access [T1212]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1110.002",
+   "evidence": "Brute Force: Password Cracking [T1110.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1003.006",
+   "evidence": "OS Credential Dumping: DCSync [T1003.006]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1555",
+   "evidence": "Credentials from Password Stores [T1555]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1555.003",
+   "evidence": "Credentials from Password Stores: Credentials from Web Browsers [T1555.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1007",
+   "evidence": "System Service Discovery [T1007]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1082",
+   "evidence": "System Information Discovery [T1082]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1010",
+   "evidence": "Application Window Discovery [T1010]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1087.001",
+   "evidence": "Account Discovery: Local Account [T1087.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1012",
+   "evidence": "Query Registry [T1012]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1083",
+   "evidence": "File and Directory Discovery [T1083]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1124",
+   "evidence": "System Time Discovery [T1124]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1033",
+   "evidence": "System Owner/User Discovery [T1033]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1482",
+   "evidence": "Domain Trust Discovery [T1482]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1087.003",
+   "evidence": "Account Discovery: Email Account [T1087.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1087.002",
+   "evidence": "Account Discovery: Domain Account [T1087.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1049",
+   "evidence": "System Network Connections Discovery [T1049]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1057",
+   "evidence": "Process Discovery [T1057]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1518",
+   "evidence": "Software Discovery [T1518]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1069.002",
+   "evidence": "Permission Groups Discovery: Domain Groups [T1069.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1135",
+   "evidence": "Network Share Discovery, Technique T1135 - Enterprise | MITRE ATT&CK®"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1016.001",
+   "evidence": "System Network Configuration Discovery: Internet Connection Discovery [T1016.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1021",
+   "evidence": "Remote Services [T1021]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1550.003",
+   "evidence": "Use Alternate Authentication Material: Pass the Ticket [T1550.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1021.006",
+   "evidence": "Remote Services: Windows Remote Management [T1021.006]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1570",
+   "evidence": "Lateral Tool Transfer [T1570]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1005",
+   "evidence": "Data from Local System [T1005]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1560.002",
+   "evidence": "Archive Collected Data: Archive via Library [T1560.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1114.002",
+   "evidence": "Email Collection: Remote Email Collection [T1114.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1115",
+   "evidence": "Clipboard Data [T1115]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1119",
+   "evidence": "Automated Collection [T1119]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1074.002",
+   "evidence": "Data Staged: Remote Data Staging [T1074.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1074.001",
+   "evidence": "Data Staged: Local Data Staging [T1074.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1560",
+   "evidence": "Archive Collected Data [T1560]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1114",
+   "evidence": "Email Collection [T1114]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1048.002",
+   "evidence": "Exfiltration Over Alternative Protocol: Exfiltration Over Asymmetric Encrypted Non-C2 Protocol [T1048.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1048",
+   "evidence": "Exfiltration Over Alternative Protocol [T1048]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1567.002",
+   "evidence": "Exfiltration Over Web Service: Exfiltration to Cloud Storage [T1567.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1102.001",
+   "evidence": "Web Service: Dead Drop Resolver [T1102.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1043",
+   "evidence": "Commonly Used Port [T1043]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1102.003",
+   "evidence": "Web Service: One-way Communication [T1102.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1105",
+   "evidence": "Ingress Tool Transfer [T1105]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1071.002",
+   "evidence": "Application Layer Protocol: File Transfer Protocols [T1071.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1090.001",
+   "evidence": "Proxy: Internal Proxy [T1090.001]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1090.002",
+   "evidence": "Proxy: External Proxy [T1090.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1571",
+   "evidence": "Non-Standard Port [T1571]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1090.003",
+   "evidence": "Proxy: Multi-hop Proxy [T1090.003]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1102.002",
+   "evidence": "Web Service: Bidirectional Communication [T1102.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1573",
+   "evidence": "Encrypted Channel [T1573]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1573.002",
+   "evidence": "Encrypted Channel: Asymmetric Cryptography [T1573.002]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1090",
+   "evidence": "Proxy, Technique T1090 - Enterprise | MITRE ATT&CK®"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1489",
+   "evidence": "Service Stop [T1489]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1561",
+   "evidence": "Disk Wipe [T1561]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1529",
+   "evidence": "System Shutdown/Reboot [T1529]"
+  },
+  {
+   "source": "APT40",
+   "type": "uses",
+   "target": "T1496",
+   "evidence": "Resource Hijacking [T1496]"
+  }
+ ],
+ "_meta": {
+  "engine": "0.4",
+  "model": "doc2stix-qwen3-8b:v3",
+  "seconds": 596.8,
+  "errors": ""
+ }
+}
